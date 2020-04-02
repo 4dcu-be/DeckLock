@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ SITENAME }} - {{ keyforge_data.vault_data.data.name }}
+{% endblock %}
+
+{% block extra_css %}
+<link href="{{ SITEURL }}/theme/css/Chart.min.css" rel="stylesheet" />
+<link href="{{ SITEURL }}/theme/css/keyforge.css" rel="stylesheet" />
+{% endblock extra_css %}
+
+{% block container %}
+    <ol class="breadcrumb top15">
+      <li class="breadcrumb-item"><a href="{{ SITEURL }}">DeckLock</a></li>
+      <li class="breadcrumb-item"><a href="{{ SITEURL }}/keyforge.html">KeyForge</a></li>
+      <li class="breadcrumb-item active">{{ keyforge_data.vault_data.data.name }}</li>
+    </ol>
+
+    <h1>{{ keyforge_data.vault_data.data.name }}</h1>
+
+    {% if keyforge_data.dok_data.deck %}
+    <div class="card top15">
+      <div class="card-body">
+          <div class="row">
+              <div class="col text-center"><h3>{{ keyforge_data.dok_data.deck.sasRating }}<br /><small class="text-muted">SAS</small></h3></div>
+              <div class="col text-center"><h3>{{ keyforge_data.dok_data.deck.aercScore }}<br /><small class="text-muted">AERC</small></h3></div>
+              <div class="col text-center"><h3>{{ "%.1f"|format(keyforge_data.dok_data.deck.sasPercentile) }} %<br /><small class="text-muted">Percentile</small></h3></div>
+          </div>
+      </div>
+    </div>
+    {% endif %}
+
+    <div class="row top15">
+    {% for house in keyforge_data.vault_data._linked.houses %}
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    <h3>{{ house.name}} <img src="{{ SITEURL }}/{{ house.image_path }}" alt="{{ house.name }}" class="keyforge-house-logo-xl"/></h3>
+                </div>
+                <div class="card-body">
+                <ul>
+                    {% for card in keyforge_data.vault_data._linked.cards|sort(attribute='card_title') %}
+                        {% if card.house == house.name %}
+                            {% for n in range(card.count)  %}
+                                {% if USE_EXTERNAL_LINKS %}
+                                    <li><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ card.front_image }}' />">{{ card.card_title }}</span></li>
+                                {% else %}
+                                    <li><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.image_path }}' />">{{ card.card_title }}</span></li>
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+$(function () {
+  $('[data-toggle="popover"]').popover({html: true})
+})
+</script>
+{% endblock %}
