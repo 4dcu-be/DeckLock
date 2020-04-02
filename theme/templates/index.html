@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block container %}
+
+<h1>DeckLock</h1>
+<h2>Games overview</h2>
+
+{% if KEYFORGE_ENABLED %}
+<a href="{{ SITEURL }}/{{ KEYFORGE_DECKS_SAVE_AS }}">KeyForge</a>
+{% endif %}
+
+{% endblock %}

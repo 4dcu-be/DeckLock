@@ -1,0 +1,19 @@
+.keyforge-house-logo {
+    height: 30px;
+    width: 30px;
+}
+
+.keyforge-house-logo-xl {
+    height: 60px;
+    width: 60px;
+}
+
+.popup-card-image {
+  height: 300px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.popover-body {
+    padding: 2px;
+}

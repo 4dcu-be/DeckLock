@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="{{ SITEDESCRIPTION }}">
+    <meta name="author" content="{{ AUTHOR }}">
+
+    <link href="{{ SITEURL }}/theme/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="{{ SITEURL }}/theme/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="{{ SITEURL }}/theme/css/main.css" rel="stylesheet" />
+
+    {% block extra_css %}
+    {% endblock %}
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="{{ SITEURL }}/index.html">{{ SITENAME }}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="{{ SITEURL }}/keyforge.html">KeyForge</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container top15">
+    {% block container %}
+    {% endblock %}
+</div>
+
+{% block footer %}
+{% endblock %}
+<script src="{{ SITEURL }}/theme/js/jquery-3.3.1.js"></script>
+<script src="{{ SITEURL }}/theme/js/bootstrap.bundle.min.js"></script>
+{% block extra_js %}
+{% endblock %}
+</body>
+</html>

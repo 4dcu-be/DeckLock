@@ -1,0 +1,147 @@
+import os
+import json
+import requests
+from pelican import signals
+from pathlib import Path
+from urllib.parse import urlparse
+
+from plugins.keyforge.generator import KeyForgeGenerator
+
+
+def get_content_path(pelican):
+    return pelican.settings.get("PATH")
+
+
+def get_keyforge_data(pelican):
+    keyforge_path = pelican.settings.get("KEYFORGE_PATH", None)
+
+    if keyforge_path is None:
+        return []
+
+    content_path = get_content_path(pelican)
+
+    input_path = os.path.join(content_path, keyforge_path, "keyforge.json")
+    with open(input_path, "r") as fin:
+        output = json.load(fin)
+
+    return output
+
+
+def get_keyforge_cache_path(pelican):
+    keyforge_path = pelican.settings.get("KEYFORGE_PATH", None)
+    content_path = get_content_path(pelican)
+
+    return os.path.join(content_path, keyforge_path, "keyforge.cache.json")
+
+
+def get_keyforge_assets_paths(pelican):
+    keyforge_assets_path = pelican.settings.get("KEYFORGE_ASSETS_PATH", None)
+    content_path = get_content_path(pelican)
+
+    keyforge_assets_house_image_directory = os.path.join(
+        content_path, keyforge_assets_path, "houses"
+    )
+    keyforge_assets_card_image_directory = os.path.join(
+        content_path, keyforge_assets_path, "cards"
+    )
+
+    Path(keyforge_assets_house_image_directory).mkdir(parents=True, exist_ok=True)
+    Path(keyforge_assets_card_image_directory).mkdir(parents=True, exist_ok=True)
+
+    return keyforge_assets_house_image_directory, keyforge_assets_card_image_directory
+
+
+def get_dok_data(deck_id, api_key):
+    if api_key is None:
+        return {}
+
+    api_headers = {"Api-Key": api_key}
+    r = requests.get(
+        f"https://decksofkeyforge.com/public-api/v3/decks/{deck_id}",
+        headers=api_headers,
+    )
+
+    return r.json()
+
+
+def get_vault_data(deck_id):
+    r = requests.get(
+        f"https://www.keyforgegame.com/api/decks/{deck_id}/?links=cards,notes"
+    )
+
+    return r.json()
+
+
+def fetch_image(img_url, img_file_path):
+    if not os.path.exists(img_file_path):
+        print(f"Fetching image {img_url}")
+        r = requests.get(img_url, allow_redirects=True)
+        open(img_file_path, "wb").write(r.content)
+    else:
+        print(f"Using cached image {img_file_path}")
+
+
+def get_keyforge_assets(generator, decks_data):
+    house_dir_path, card_img_dir_path = get_keyforge_assets_paths(generator)
+
+    for k, v in decks_data.items():
+        cards = v["vault_data"]["_linked"]["cards"]
+
+        for card in cards:
+            img_url = card["front_image"]
+            img_filename = Path(urlparse(img_url).path).name
+            img_file_path = os.path.join(card_img_dir_path, img_filename)
+
+            fetch_image(img_url, img_file_path)
+
+        houses = v["vault_data"]["_linked"]["houses"]
+        for house in houses:
+            img_url = house["image"]
+            img_filename = Path(urlparse(img_url).path).name
+            img_file_path = os.path.join(house_dir_path, img_filename)
+
+            fetch_image(img_url, img_file_path)
+
+
+def get_keyforge_external_data(generator):
+    data = get_keyforge_data(generator)
+    dok_api_key = generator.settings.get("DOK_API_KEY", None)
+
+    keyforge_cache_path = get_keyforge_cache_path(generator)
+
+    # To avoid hammering APIs relentlessly data is cached, if data is available, load here
+    if os.path.exists(keyforge_cache_path):
+        with open(keyforge_cache_path, "r") as fin:
+            current_data = json.load(fin)
+    else:
+        current_data = {}
+
+    for deck in data:
+        if deck["deck_id"] not in current_data.keys():
+            print(f"Fetching data for KeyForge deck {deck['deck_id']}")
+            dok_data = get_dok_data(deck["deck_id"], dok_api_key)
+            vault_data = get_vault_data((deck["deck_id"]))
+
+            current_data[deck["deck_id"]] = {
+                "dok_data": dok_data,
+                "vault_data": vault_data,
+                "user_data": deck,
+            }
+        else:
+            print(f"Using cached data for KeyForge deck {deck['deck_id']}")
+
+    with open(keyforge_cache_path, "w") as fout:
+        json.dump(current_data, fout, sort_keys=True, indent=4, separators=(",", ": "))
+
+    # Get image data
+    get_keyforge_assets(generator, current_data)
+
+
+def get_generators(generators):
+    return KeyForgeGenerator
+
+
+def register():
+    """ Register new functions """
+    signals.initialized.connect(get_keyforge_external_data)
+    signals.get_generators.connect(get_generators)
