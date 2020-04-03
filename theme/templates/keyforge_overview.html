@@ -34,9 +34,9 @@
                 <td>
                     {% for house in v.vault_data._linked.houses %}
                         {% if USE_EXTERNAL_LINKS %}
-                            <img src="{{ house['image'] }}" alt="{{ house['name'] }}" class="keyforge-house-logo"/>
+                            <img src="{{ house.image }}" alt="{{ house.name }}" class="keyforge-house-logo"/>
                         {% else %}
-                            <img src="{{ SITEURL }}/{{ house['image_path'] }}" alt="{{ house['name'] }}" class="keyforge-house-logo"/>
+                            <img src="{{ SITEURL }}/{{ house.image_path }}" alt="{{ house.name }}" class="keyforge-house-logo"/>
                         {% endif %}
                     {% endfor %}
                 </td>
