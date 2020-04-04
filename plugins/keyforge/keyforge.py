@@ -136,6 +136,8 @@ def get_keyforge_external_data(generator):
     # Get image data
     get_keyforge_assets(generator, current_data)
 
+    generator.settings['KEYFORGE_DECK_COUNT'] = len(current_data.values())
+
 
 def get_generators(generators):
     return KeyForgeGenerator
