@@ -5,14 +5,9 @@
 <h1>DeckLock</h1>
 
 {% if KEYFORGE_ENABLED %}
-<div class="card" style="max-width: 18rem;">
-    <img src="{{ SITEURL }}/theme/img/DeckLock_kf_bg_small.png" class="card-img-top" alt="DeckLock logo in KeyForge style" />
-  <div class="card-body">
-
-  </div>
-  <div class="card-body">
-      <a href="{{ SITEURL }}/{{ KEYFORGE_DECKS_SAVE_AS }}">View <strong>{{ KEYFORGE_DECK_COUNT }}</strong> KeyForge decks</a>
-  </div>
+<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+    <div class="card-header">KeyForge: <strong>{{ KEYFORGE_DECK_COUNT }}</strong> decks</div>
+    <a href="{{ SITEURL }}/{{ KEYFORGE_DECKS_SAVE_AS }}"><img src="{{ SITEURL }}/theme/img/DeckLock_kf_bg_small.png" class="card-img-top" alt="DeckLock logo in KeyForge style" /></a>
 </div>
 
 
