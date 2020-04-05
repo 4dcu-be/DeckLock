@@ -75,7 +75,7 @@ A file with the KeyForge Decks I own is included as an example, the structure sh
 If you want to publish the website, specify the website's url in *publishconf.py*.
 
 ```python
-SITEURL = "https://decklock.4dcu.be"
+SITEURL = "https://4dcu.be/DeckLock"
 ```
 
 ## Building platform
