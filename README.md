@@ -9,41 +9,53 @@ Static web generator to generate an overview of all your favorite decks. Current
 DeckLock is designed around the the static website generator Pelican and leverages GitHub's feature to host static 
 websites from the ./docs folder. For other hosting options, check out the official Pelican documentation.
 
-## Setup your own DeckLock
 
-### Get the code and setup the virtual environment
+## Getting started
 
-It is recommended to create a personal fork of the DeckLock repository and clone this fork. This will allow you to 
-leverage GitHub's feature to host static pages from the ./docs folder.
+First fork this repository to create your own copy on GitHub. Next, use the commands below to clone your own repository, create a virtual environment and install all
+required packages.
 
 ```bash
-git clone <link to your DeckLock fork>
+git clone <url to your fork of DeckLock> ./DeckLock
 cd DeckLock
-
 python -m venv venv
 source venv/bin/activate
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
-### Configuration
+On windows the line to activate the virtual environment (source venv/bin/activate) will not work, use the line below 
+instead.
 
-Before starting anything, have a look at the *Makefile*, and set the path to Pelican here. If you have a system wide
-install set *PELICAN?=pelican*
-
-```text
-PELICAN?=pelican
+```bash
+venv\Scripts\activate.bat
 ```
 
-If you are using the virtual environment the path should be set to pelican in the virtual environment. On Windows this
-is in the Scripts folder under Linux/OSX in the bin folder of the virtual environment directory.
+## Setting up DeckLock
 
-```text
+### Configuring the Makefile
+
+As we are using a virtual environment with pelican installed there, the patch to the executable in
+the enviroment needs to be set in the Makefile. Open the file and change the path on the line below to match your
+system. The pelican executable should be in venv/bin or venv/Scripts.
+
+```makefile
 PELICAN?=d:\Git\DeckLock\venv\Scripts\pelican
 ```
 
-#### KeyForge
+### pelicanconf.py and publishconf.py
 
-If you want to include deck statistics from [Deck of KeyForge] you'll have to create an account and get an API key from
+pelicanconf.py should be ready to go, though feel free to have a look to see if any of the
+settings and paths need to be changed.
+
+In publishconf.py however you will need to specify the final url of your site.
+
+```python
+SITEURL = "https://4dcu.be/DeckLock"
+```
+
+### Decks of KeyForge API Key
+
+If you want to include deck statistics from [Decks of KeyForge] you'll have to create an account and get an API key from
 [https://decksofkeyforge.com/](https://decksofkeyforge.com/). Create a file *.env* in the and add the line below.
 
 A .env file, which will not be committed, is used to keep your api key secret. 
@@ -51,6 +63,8 @@ A .env file, which will not be committed, is used to keep your api key secret.
 ```text
 DOK_API_KEY=your_api_key
 ```
+
+### KeyForge Deck IDs
 
 Next, you'll have to specify where the KeyForge data can be found (folder), in pelicanconf.py. Note that this path is
 relative to the content folder
@@ -72,13 +86,7 @@ A file with the KeyForge Decks I own is included as an example, the structure sh
 ]
 ```
 
-If you want to publish the website, specify the website's url in *publishconf.py*.
-
-```python
-SITEURL = "https://decklock.4dcu.be"
-```
-
-## Building platform
+### Building platform
 
 You can use make to build the website (if make is available on your system), use *make html* to create a local instance
 to test in the *_site* directory. Use *make release* to create the version for publication in the *./docs* folder.
@@ -99,4 +107,27 @@ pelican ./content -o ./_site
 pelican ./content -o ./docs -s publishconf.py
 ```
 
-[Deck of KeyForge]: https://decksofkeyforge.com/
+### Hosting locally for testing
+
+You can use Pelican's built in webserver using the command below.
+
+```commandline
+make serve
+```
+
+Or you can build the site using *make html*, navigate to the *_site* folder and start a webserver
+by running the command.
+
+```commandline
+python -m http.server
+```
+
+In both cases you can see your site by pointing your browser to [http://localhost:8000](http://localhost:8000).
+
+### Hosting on GitHub
+
+DeckLock includes a *make release* command which will write the final version of the website to the *./docs* folder. 
+On GitHub you can specify that this folder is used for the project pages, enable this in the settings and you'll have
+free hosting to show off the decks you have in your card game collection.
+
+[Decks of KeyForge]: https://decksofkeyforge.com/
