@@ -6,6 +6,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from plugins.keyforge.generator import KeyForgeGenerator
+from plugins.utils import fetch_image
 
 
 def get_content_path(pelican):
@@ -70,15 +71,6 @@ def get_vault_data(deck_id):
     )
 
     return r.json()
-
-
-def fetch_image(img_url, img_file_path):
-    if not os.path.exists(img_file_path):
-        print(f"Fetching image {img_url}")
-        r = requests.get(img_url, allow_redirects=True)
-        open(img_file_path, "wb").write(r.content)
-    else:
-        print(f"Using cached image {img_file_path}")
 
 
 def get_keyforge_assets(generator, decks_data):

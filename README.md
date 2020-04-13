@@ -91,6 +91,9 @@ A file with the KeyForge Decks I own is included as an example, the structure sh
 You can use make to build the website (if make is available on your system), use *make html* to create a local instance
 to test in the *_site* directory. Use *make release* to create the version for publication in the *./docs* folder.
 
+If you are on windows, you'll have to install make before these commands will work. You can find it [here](http://gnuwin32.sourceforge.net/packages/make.htm), and you need
+to [add the location of make.exe to your PATH](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/). 
+
 ```commandline
 make html
 

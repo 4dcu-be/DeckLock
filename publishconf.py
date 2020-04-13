@@ -23,7 +23,7 @@ DELETE_OUTPUT_DIRECTORY = False
 
 
 USE_EXTERNAL_LINKS = True
-STATIC_EXCLUDES = ['assets/keyforge']
+STATIC_EXCLUDES = ['assets/keyforge', 'assets/mtg']
 
 # Following items are often useful when publishing
 

@@ -1,5 +1,5 @@
 PY?=python3
-PELICAN?=d:\Git\DeckBinder\venv\Scripts\pelican
+PELICAN?=C:\Git\DeckLock\venv\Scripts\pelican
 PELICANOPTS=
 
 BASEDIR=.
