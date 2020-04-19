@@ -51,6 +51,7 @@
             "highres_image": true,
             "id": "a07285b4-77c5-4a38-8810-20d7e49593ec",
             "illustration_id": "49d2a414-6b9c-4823-a38f-f2fd631e22ce",
+            "image_path": "assets/mtg\\cards\\a07285b4-77c5-4a38-8810-20d7e49593ec.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/a/0/a07285b4-77c5-4a38-8810-20d7e49593ec.jpg?1581480059",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/a/0/a07285b4-77c5-4a38-8810-20d7e49593ec.jpg?1581480059",
@@ -76,7 +77,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\a07285b4-77c5-4a38-8810-20d7e49593ec.jpg",
+            "local_path": "assets/mtg\\cards\\a07285b4-77c5-4a38-8810-20d7e49593ec.jpg",
             "mana_cost": "{1}{R}{R}",
             "mtgo_id": 79374,
             "multiverse_ids": [
@@ -188,6 +189,7 @@
             "highres_image": true,
             "id": "09fd2d9c-1793-4beb-a3fb-7a869f660cd4",
             "illustration_id": "c7f49422-def6-4502-bc02-38aee9924371",
+            "image_path": "assets/mtg\\cards\\09fd2d9c-1793-4beb-a3fb-7a869f660cd4.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/0/9/09fd2d9c-1793-4beb-a3fb-7a869f660cd4.jpg?1572490299",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/0/9/09fd2d9c-1793-4beb-a3fb-7a869f660cd4.jpg?1572490299",
@@ -213,7 +215,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\09fd2d9c-1793-4beb-a3fb-7a869f660cd4.jpg",
+            "local_path": "assets/mtg\\cards\\09fd2d9c-1793-4beb-a3fb-7a869f660cd4.jpg",
             "mana_cost": "{2}{R} // {1}{R}",
             "mtgo_id": 78352,
             "multiverse_ids": [
@@ -298,6 +300,7 @@
             "highres_image": true,
             "id": "8bb8512e-6913-4be6-8828-24cfcbec042e",
             "illustration_id": "8da981e5-4bd1-45cf-8a87-7a21762dd950",
+            "image_path": "assets/mtg\\cards\\8bb8512e-6913-4be6-8828-24cfcbec042e.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/8/b/8bb8512e-6913-4be6-8828-24cfcbec042e.jpg?1572491168",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/8/b/8bb8512e-6913-4be6-8828-24cfcbec042e.jpg?1572491168",
@@ -323,7 +326,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\8bb8512e-6913-4be6-8828-24cfcbec042e.jpg",
+            "local_path": "assets/mtg\\cards\\8bb8512e-6913-4be6-8828-24cfcbec042e.jpg",
             "mana_cost": "",
             "mtgo_id": 78624,
             "multiverse_ids": [
@@ -426,6 +429,7 @@
             "highres_image": true,
             "id": "2cabfcfe-012e-4cab-bba2-24052eac0946",
             "illustration_id": "bf883981-7a40-4a3c-9667-9fe7349f4d9b",
+            "image_path": "assets/mtg\\cards\\2cabfcfe-012e-4cab-bba2-24052eac0946.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/2/c/2cabfcfe-012e-4cab-bba2-24052eac0946.jpg?1563899090",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/2/c/2cabfcfe-012e-4cab-bba2-24052eac0946.jpg?1563899090",
@@ -451,7 +455,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\2cabfcfe-012e-4cab-bba2-24052eac0946.jpg",
+            "local_path": "assets/mtg\\cards\\2cabfcfe-012e-4cab-bba2-24052eac0946.jpg",
             "loyalty": "4",
             "mana_cost": "{1}{R}{R}",
             "mtgo_id": 73151,
@@ -540,6 +544,7 @@
             "highres_image": true,
             "id": "aaae15dd-11b6-4421-99e9-365c7fe4a5d6",
             "illustration_id": "58ea4d2d-2f14-4540-8b33-7704608320f8",
+            "image_path": "assets/mtg\\cards\\aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1572490333",
@@ -565,7 +570,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg",
+            "local_path": "assets/mtg\\cards\\aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg",
             "mana_cost": "{4}{R}{R}",
             "mtgo_id": 78364,
             "multiverse_ids": [
@@ -651,6 +656,7 @@
             "highres_image": true,
             "id": "c52d66db-5570-48a1-99cf-e0417517747b",
             "illustration_id": "d9a6d9ce-c4d7-466c-8fd2-e6b64ec7318d",
+            "image_path": "assets/mtg\\cards\\c52d66db-5570-48a1-99cf-e0417517747b.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/c/5/c52d66db-5570-48a1-99cf-e0417517747b.jpg?1572490356",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/c/5/c52d66db-5570-48a1-99cf-e0417517747b.jpg?1572490356",
@@ -676,7 +682,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\c52d66db-5570-48a1-99cf-e0417517747b.jpg",
+            "local_path": "assets/mtg\\cards\\c52d66db-5570-48a1-99cf-e0417517747b.jpg",
             "mana_cost": "{R}",
             "mtgo_id": 78374,
             "multiverse_ids": [
@@ -764,6 +770,7 @@
             "highres_image": true,
             "id": "f6135cf4-50c2-4e44-b9b0-96e1187a2200",
             "illustration_id": "8ccebed1-8cd9-4468-80ac-37a35cf24933",
+            "image_path": "assets/mtg\\cards\\f6135cf4-50c2-4e44-b9b0-96e1187a2200.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/f/6/f6135cf4-50c2-4e44-b9b0-96e1187a2200.jpg?1572893208",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/f/6/f6135cf4-50c2-4e44-b9b0-96e1187a2200.jpg?1572893208",
@@ -789,7 +796,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\f6135cf4-50c2-4e44-b9b0-96e1187a2200.jpg",
+            "local_path": "assets/mtg\\cards\\f6135cf4-50c2-4e44-b9b0-96e1187a2200.jpg",
             "mana_cost": "{1}{R}",
             "mtgo_id": 69589,
             "multiverse_ids": [
@@ -870,6 +877,7 @@
             "highres_image": true,
             "id": "9287b848-2aeb-4c70-ac4a-acafb871b7a4",
             "illustration_id": "9bb5c6db-164e-43d9-bccb-ea1af679419c",
+            "image_path": "assets/mtg\\cards\\9287b848-2aeb-4c70-ac4a-acafb871b7a4.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/9/2/9287b848-2aeb-4c70-ac4a-acafb871b7a4.jpg?1584830944",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/9/2/9287b848-2aeb-4c70-ac4a-acafb871b7a4.jpg?1584830944",
@@ -895,7 +903,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\9287b848-2aeb-4c70-ac4a-acafb871b7a4.jpg",
+            "local_path": "assets/mtg\\cards\\9287b848-2aeb-4c70-ac4a-acafb871b7a4.jpg",
             "mana_cost": "{2}{R}",
             "mtgo_id": 71214,
             "multiverse_ids": [
@@ -1004,6 +1012,7 @@
             "highres_image": true,
             "id": "a3d13d84-01e4-4429-93db-e5afff811527",
             "illustration_id": "c82a6d15-3976-4fca-9142-2db874d3ed10",
+            "image_path": "assets/mtg\\cards\\a3d13d84-01e4-4429-93db-e5afff811527.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/a/3/a3d13d84-01e4-4429-93db-e5afff811527.jpg?1572490430",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/a/3/a3d13d84-01e4-4429-93db-e5afff811527.jpg?1572490430",
@@ -1029,7 +1038,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\a3d13d84-01e4-4429-93db-e5afff811527.jpg",
+            "local_path": "assets/mtg\\cards\\a3d13d84-01e4-4429-93db-e5afff811527.jpg",
             "mana_cost": "{1}{R} // {R}",
             "mtgo_id": 78402,
             "multiverse_ids": [
@@ -1110,6 +1119,7 @@
             "highres_image": true,
             "id": "0ecbe097-ba51-42e5-957c-382eb66c08f0",
             "illustration_id": "86190bec-5d1d-4231-aa3d-c838f38f9387",
+            "image_path": "assets/mtg\\cards\\0ecbe097-ba51-42e5-957c-382eb66c08f0.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/0/e/0ecbe097-ba51-42e5-957c-382eb66c08f0.jpg?1572490437",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/0/e/0ecbe097-ba51-42e5-957c-382eb66c08f0.jpg?1572490437",
@@ -1135,7 +1145,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\0ecbe097-ba51-42e5-957c-382eb66c08f0.jpg",
+            "local_path": "assets/mtg\\cards\\0ecbe097-ba51-42e5-957c-382eb66c08f0.jpg",
             "mana_cost": "{1}{R}",
             "mtgo_id": 78406,
             "multiverse_ids": [
@@ -1222,6 +1232,7 @@
             "highres_image": true,
             "id": "d8c9c111-fbc7-44e1-94bd-1ca164370623",
             "illustration_id": "f73261b1-243c-4c6e-89a8-e68163fe3f01",
+            "image_path": "assets/mtg\\cards\\d8c9c111-fbc7-44e1-94bd-1ca164370623.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/d/8/d8c9c111-fbc7-44e1-94bd-1ca164370623.jpg?1572893254",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/d/8/d8c9c111-fbc7-44e1-94bd-1ca164370623.jpg?1572893254",
@@ -1247,7 +1258,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\d8c9c111-fbc7-44e1-94bd-1ca164370623.jpg",
+            "local_path": "assets/mtg\\cards\\d8c9c111-fbc7-44e1-94bd-1ca164370623.jpg",
             "mana_cost": "{1}{R}",
             "mtgo_id": 69603,
             "multiverse_ids": [
@@ -1330,6 +1341,7 @@
             "highres_image": true,
             "id": "bb701a84-24bd-41ed-9f06-25c8338902a5",
             "illustration_id": "68a11159-395c-4c7b-aafe-aa9a602f431c",
+            "image_path": "assets/mtg\\cards\\bb701a84-24bd-41ed-9f06-25c8338902a5.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/b/b/bb701a84-24bd-41ed-9f06-25c8338902a5.jpg?1563899317",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/b/b/bb701a84-24bd-41ed-9f06-25c8338902a5.jpg?1563899317",
@@ -1355,7 +1367,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\bb701a84-24bd-41ed-9f06-25c8338902a5.jpg",
+            "local_path": "assets/mtg\\cards\\bb701a84-24bd-41ed-9f06-25c8338902a5.jpg",
             "mana_cost": "{R}",
             "mtgo_id": 73217,
             "multiverse_ids": [
@@ -1455,6 +1467,7 @@
             "highres_image": true,
             "id": "7f9a24dc-8bc3-4528-8780-57fb108fdfbf",
             "illustration_id": "8a6402b2-5e65-4ff5-be52-ff5c2065cb91",
+            "image_path": "assets/mtg\\cards\\7f9a24dc-8bc3-4528-8780-57fb108fdfbf.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/7/f/7f9a24dc-8bc3-4528-8780-57fb108fdfbf.jpg?1557576823",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/7/f/7f9a24dc-8bc3-4528-8780-57fb108fdfbf.jpg?1557576823",
@@ -1480,7 +1493,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\7f9a24dc-8bc3-4528-8780-57fb108fdfbf.jpg",
+            "local_path": "assets/mtg\\cards\\7f9a24dc-8bc3-4528-8780-57fb108fdfbf.jpg",
             "loyalty": "5",
             "mana_cost": "{2}{R}",
             "mtgo_id": 71898,
@@ -1570,6 +1583,7 @@
             "highres_image": true,
             "id": "79f591cd-d277-4ba5-b1bf-1c09cac9cb8a",
             "illustration_id": "54703a24-1b9b-45f7-a42e-ab559a1d8b04",
+            "image_path": "assets/mtg\\cards\\79f591cd-d277-4ba5-b1bf-1c09cac9cb8a.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/7/9/79f591cd-d277-4ba5-b1bf-1c09cac9cb8a.jpg?1572490491",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/7/9/79f591cd-d277-4ba5-b1bf-1c09cac9cb8a.jpg?1572490491",
@@ -1595,7 +1609,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\79f591cd-d277-4ba5-b1bf-1c09cac9cb8a.jpg",
+            "local_path": "assets/mtg\\cards\\79f591cd-d277-4ba5-b1bf-1c09cac9cb8a.jpg",
             "mana_cost": "{1}{R}{R}{R}",
             "mtgo_id": 78424,
             "multiverse_ids": [
@@ -1683,6 +1697,7 @@
             "highres_image": true,
             "id": "db5879c5-4b0a-42fa-a44f-580e0221a32b",
             "illustration_id": "33b437b6-46a6-4685-9872-09cc184faf16",
+            "image_path": "assets/mtg\\cards\\db5879c5-4b0a-42fa-a44f-580e0221a32b.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/d/b/db5879c5-4b0a-42fa-a44f-580e0221a32b.jpg?1563899353",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/d/b/db5879c5-4b0a-42fa-a44f-580e0221a32b.jpg?1563899353",
@@ -1708,7 +1723,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\db5879c5-4b0a-42fa-a44f-580e0221a32b.jpg",
+            "local_path": "assets/mtg\\cards\\db5879c5-4b0a-42fa-a44f-580e0221a32b.jpg",
             "mana_cost": "{1}{R}",
             "mtgo_id": 73227,
             "multiverse_ids": [
@@ -1792,6 +1807,7 @@
             "highres_image": true,
             "id": "3b4a196f-de7e-4100-ad65-56cf8b0a8b23",
             "illustration_id": "fa8ea6b7-4949-40fa-bdcb-8c6c1c916438",
+            "image_path": "assets/mtg\\cards\\3b4a196f-de7e-4100-ad65-56cf8b0a8b23.jpg",
             "image_uris": {
                 "art_crop": "https://img.scryfall.com/cards/art_crop/front/3/b/3b4a196f-de7e-4100-ad65-56cf8b0a8b23.jpg?1576799160",
                 "border_crop": "https://img.scryfall.com/cards/border_crop/front/3/b/3b4a196f-de7e-4100-ad65-56cf8b0a8b23.jpg?1576799160",
@@ -1817,7 +1833,7 @@
                 "standard": "legal",
                 "vintage": "legal"
             },
-            "local_path": "C:\\Git\\DeckLock\\content\\assets/mtg\\cards\\3b4a196f-de7e-4100-ad65-56cf8b0a8b23.jpg",
+            "local_path": "assets/mtg\\cards\\3b4a196f-de7e-4100-ad65-56cf8b0a8b23.jpg",
             "mana_cost": "",
             "mtgo_foil_id": 46534,
             "mtgo_id": 46533,

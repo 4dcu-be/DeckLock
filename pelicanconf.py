@@ -57,8 +57,12 @@ KEYFORGE_DECKS_SAVE_AS = "keyforge.html"
 
 DOK_API_KEY = os.getenv("DOK_API_KEY", None)
 
+MTG_ENABLED = True
+
 MTG_PATH = "data"
 MTG_ASSETS_PATH = "assets/mtg"
+
+TEMPLATE_PAGES = {'mtg_overview.html': 'mtg.html'}
 
 # When set to true, external links to KeyForge image will be used
 USE_EXTERNAL_LINKS = False

@@ -4,13 +4,23 @@
 
 <h1>DeckLock</h1>
 
+<div class="row">
 {% if KEYFORGE_ENABLED %}
-<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-    <div class="card-header">KeyForge: <strong>{{ KEYFORGE_DECK_COUNT }}</strong> decks</div>
-    <a href="{{ SITEURL }}/{{ KEYFORGE_DECKS_SAVE_AS }}"><img src="{{ SITEURL }}/theme/img/DeckLock_kf_bg_small.png" class="card-img-top" alt="DeckLock logo in KeyForge style" /></a>
-</div>
-
-
+    <div class="col">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">KeyForge: <strong>{{ KEYFORGE_DECK_COUNT }}</strong> decks</div>
+            <a href="{{ SITEURL }}/{{ KEYFORGE_DECKS_SAVE_AS }}"><img src="{{ SITEURL }}/theme/img/DeckLock_kf_bg_small.png" class="card-img-top" alt="DeckLock logo in KeyForge style" /></a>
+        </div>
+    </div>
 {% endif %}
 
+{% if MTG_ENABLED %}
+    <div class="col">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">Magic:the Gathering : <strong>{{ articles|selectattr("category", "equalto", "MTG_Deck")|list|length  }}</strong> decks</div>
+            <a href="{{ SITEURL }}/mtg.html"><img src="{{ SITEURL }}/theme/img/DeckLock_kf_bg_small.png" class="card-img-top" alt="DeckLock logo in Magic: The Gathering style" /></a>
+        </div>
+    </div>
+{% endif %}
+</div>
 {% endblock %}

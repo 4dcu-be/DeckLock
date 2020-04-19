@@ -12,13 +12,46 @@
 {% block container %}
     <ol class="breadcrumb top15">
       <li class="breadcrumb-item"><a href="{{ SITEURL }}">DeckLock</a></li>
-      <li class="breadcrumb-item"><a href="#">Magic: the Gathering</a></li>
+      <li class="breadcrumb-item"><a href="{{ SITEURL }}/mtg.html">Magic: the Gathering</a></li>
       <li class="breadcrumb-item active">{{ article.title }}</li>
     </ol>
 
-{% block content %}
-{% endblock %}
+<h1>{{ article.title }} <small>{{ article.format }}</small></h1>
 
+<div class="row top15">
+    <div class="col-md-8">
+        <div class="card h-100">
+            <div class="card-header"><h3>Main Deck</h3></div>
+            <div class="card-body">
+                <ul>
+                    {% for card in article.deck.main %}
+                        {% if USE_EXTERNAL_LINKS %}
+                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_uris.border_crop }}' />">{{ card.name }}</span> {{ card.data.mana_cost }}</li>
+                        {% else %}
+                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_path }}' />">{{ card.name }}</span> {{ card.data.mana_cost }}</li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-header"><h3>Sideboard</h3></div>
+            <div class="card-body">
+                <ul>
+                    {% for card in article.deck.sideboard %}
+                        {% if USE_EXTERNAL_LINKS %}
+                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_uris.border_crop }}' />">{{ card.name }}</span> {{ card.data.mana_cost }}</li>
+                        {% else %}
+                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_path }}' />">{{ card.name }}</span> {{ card.data.mana_cost }}</li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
 
 {% block extra_js %}

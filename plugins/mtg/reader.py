@@ -10,6 +10,7 @@ import requests
 from time import sleep
 
 from plugins.utils import fetch_image
+from pelican.utils import slugify
 
 
 def get_local_card_img_path(assets_cards_path, url):
@@ -68,7 +69,7 @@ class MTGReader(BaseReader):
             with open(self.mtg_data_path, 'r') as fin:
                 self.cached_data = json.load(fin)
 
-        Path(self.mtg_assets_cards_path).mkdir(parents=True, exist_ok=True)
+        Path(self.mtg_assets_cards_path(full=True)).mkdir(parents=True, exist_ok=True)
 
     @property
     def mtg_data_path(self):
@@ -76,21 +77,19 @@ class MTGReader(BaseReader):
             self.settings.get("PATH"), self.settings.get("MTG_PATH"), "mtg.cached_cards.json"
         )
 
-    @property
-    def mtg_assets_path(self):
-        return os.path.join(
-            self.settings.get("PATH"), self.settings.get("MTG_ASSETS_PATH")
-        )
-
     def write_cache(self):
         with open(self.mtg_data_path, "w") as fout:
             json.dump(self.cached_data, fout, sort_keys=True, indent=4, separators=(",", ": "))
 
-    @property
-    def mtg_assets_cards_path(self):
-        return os.path.join(
-            self.mtg_assets_path, 'cards'
-        )
+    def mtg_assets_cards_path(self, full=False):
+        if full:
+            return os.path.join(
+                self.settings.get("PATH"), self.settings.get("MTG_ASSETS_PATH"), 'cards'
+            )
+        else:
+            return os.path.join(
+                self.settings.get("MTG_ASSETS_PATH"), 'cards'
+            )
 
     def add_card_data(self, card_set, card_name):
         if card_set not in self.cached_data.keys():
@@ -102,15 +101,22 @@ class MTGReader(BaseReader):
             card_data = self.cached_data[card_set][card_name]
 
         img_url = card_data["image_uris"]["border_crop"]
-        local_path = get_local_card_img_path(self.mtg_assets_cards_path, img_url)
-        self.cached_data[card_set][card_name]["local_path"] = local_path
+        local_path = get_local_card_img_path(self.mtg_assets_cards_path(full=False), img_url)
+        self.cached_data[card_set][card_name]["image_path"] = local_path
 
-        fetch_image(img_url, local_path)
+        local_path_full = get_local_card_img_path(self.mtg_assets_cards_path(full=True), img_url)
+        fetch_image(img_url, local_path_full)
 
     def read(self, filename):
         metadata = {'category': 'MTG_Deck',
-                    'date' : '2020-04-13',
-                    'template': 'mtg_deck'}
+                    'date': '2020-04-13',
+                    'template': 'mtg_deck'
+                    }
+
+        deck_data = {
+            'main': [],
+            'sideboard': []
+        }
 
         with open(filename, 'r') as fin:
             for line in fin:
@@ -121,27 +127,32 @@ class MTGReader(BaseReader):
                     sideboard, card_set, card_count, card_name = parse_card_line(line)
                     self.add_card_data(card_set, card_name)
 
+                    card_data = {
+                        'name': card_name,
+                        'count': card_count,
+                        'data': self.cached_data[card_set][card_name]
+                    }
+
+                    if sideboard:
+                        deck_data['sideboard'].append(card_data)
+                    else:
+                        deck_data['main'].append(card_data)
+
         self.write_cache()
 
-        metadata['title'] = metadata['name'] if 'name' in metadata.keys() else 'Unnamed Deck'
+        metadata['title'] = metadata['name']
+        metadata['slug'] = slugify(metadata['title'], regex_subs=self.settings.get('SLUG_REGEX_SUBSTITUTIONS', []))
+
+        metadata['url'] = f"mtg/{metadata['format']}/{metadata['slug']}/"
+        metadata['save_as'] = f"{metadata['url']}index.html"
 
         parsed = {}
         for key, value in metadata.items():
             parsed[key] = self.process_metadata(key, value)
 
-        print(parsed)
+        parsed['deck'] = deck_data
 
-        content = {
-            'mtg_data': {
-                'deck': {
-                    'title': metadata['name'],
-                    'format': metadata['format'],
-                    'creator': metadata['creator']
-                }
-            }
-        }
-
-        return "<html></html>", parsed
+        return "", parsed
 
 
 def add_reader(readers):
