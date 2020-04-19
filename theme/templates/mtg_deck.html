@@ -6,7 +6,7 @@
 
 {% block extra_css %}
 <link href="{{ SITEURL }}/theme/css/Chart.min.css" rel="stylesheet" />
-<link href="{{ SITEURL }}/theme/css/keyforge.css" rel="stylesheet" />
+<link href="{{ SITEURL }}/theme/css/mana-cost.css" rel="stylesheet" />
 {% endblock extra_css %}
 
 {% block container %}
@@ -17,7 +17,6 @@
     </ol>
 
 <h1>{{ article.title }} <small>{{ article.format }}</small></h1>
-
 <div class="row top15">
     <div class="col-md-8">
         <div class="card h-100">
@@ -26,9 +25,9 @@
                 <ul>
                     {% for card in article.deck.main %}
                         {% if USE_EXTERNAL_LINKS %}
-                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_uris.border_crop }}' />">{{ card.name }}</span> {{ card.data.mana_cost }}</li>
+                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_uris.border_crop }}' />">{{ card.name }}</span> {{ card.data.mana_cost | lower | replace("/", "") | replace('{', '<span class="mana small s') | replace('}', '"></span>') }}</li>
                         {% else %}
-                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_path }}' />">{{ card.name }}</span> {{ card.data.mana_cost }}</li>
+                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_path }}' />">{{ card.name }}</span> {{ card.data.mana_cost | lower | replace("/", "") | replace('{', '<span class="mana small s') | replace('}', '"></span>') }}</li>
                         {% endif %}
                     {% endfor %}
                 </ul>
@@ -42,9 +41,9 @@
                 <ul>
                     {% for card in article.deck.sideboard %}
                         {% if USE_EXTERNAL_LINKS %}
-                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_uris.border_crop }}' />">{{ card.name }}</span> {{ card.data.mana_cost }}</li>
+                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_uris.border_crop }}' />">{{ card.name }}</span> {{ card.data.mana_cost | lower | replace("/", "") | replace('{', '<span class="mana small s') | replace('}', '"></span>') }}</li>
                         {% else %}
-                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_path }}' />">{{ card.name }}</span> {{ card.data.mana_cost }}</li>
+                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_path }}' />">{{ card.name }}</span> {{ card.data.mana_cost | lower | replace("/", "") | replace('{', '<span class="mana small s') | replace('}', '"></span>') }}</li>
                         {% endif %}
                     {% endfor %}
                 </ul>

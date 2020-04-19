@@ -5,3 +5,12 @@
 .top17 { margin-top:17px; }
 .top30 { margin-top:30px; }
 
+.popup-card-image {
+  height: 300px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.popover-body {
+    padding: 2px;
+}
