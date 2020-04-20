@@ -55,6 +55,17 @@ def get_card_data(card_set, card_name, sleep_time=0.1):
     return r.json()
 
 
+def parse_card_type(type_line):
+    if " — " in type_line:
+        p = type_line.split(" — ")[0]
+    else:
+        p = type_line
+
+    parts = p.split()
+
+    return parts[-1].lower()
+
+
 class MTGReader(BaseReader):
     enabled = True
 
@@ -130,7 +141,8 @@ class MTGReader(BaseReader):
                     card_data = {
                         'name': card_name,
                         'count': card_count,
-                        'data': self.cached_data[card_set][card_name]
+                        'data': self.cached_data[card_set][card_name],
+                        'card_type': parse_card_type(self.cached_data[card_set][card_name]['type_line'])
                     }
 
                     if sideboard:

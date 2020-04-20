@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% import 'macros/card_list_item.html' as card_list_item %}
 {% block title %}
 {{ SITENAME }} - {{ article.title }}
 {% endblock %}
@@ -22,15 +22,44 @@
         <div class="card h-100">
             <div class="card-header"><h3>Main Deck</h3></div>
             <div class="card-body">
-                <ul>
-                    {% for card in article.deck.main %}
-                        {% if USE_EXTERNAL_LINKS %}
-                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_uris.border_crop }}' />">{{ card.name }}</span> {{ card.data.mana_cost | lower | replace("/", "") | replace('{', '<span class="mana small s') | replace('}', '"></span>') }}</li>
-                        {% else %}
-                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_path }}' />">{{ card.name }}</span> {{ card.data.mana_cost | lower | replace("/", "") | replace('{', '<span class="mana small s') | replace('}', '"></span>') }}</li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
+                <div class="row">
+                    <div class="col-lg">
+                    <h4>Lands</h4>
+                    <ul>
+                        {% for card in article.deck.main|sort(attribute='name') %}
+                            {% if card.card_type == "land" %}
+                                {{ card_list_item.print(card) }}
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                    <h4>Creatures</h4>
+                    <ul>
+                        {% for card in article.deck.main|sort(attribute='name') %}
+                            {% if card.card_type == "creature" %}
+                                {{ card_list_item.print(card) }}
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                    </div>
+                    <div class="col-lg">
+                    <h4>Instants and Sorceries</h4>
+                    <ul>
+                        {% for card in article.deck.main|sort(attribute='name') %}
+                            {% if card.card_type == "instant" or card.card_type == "sorcery" %}
+                                {{ card_list_item.print(card) }}
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                    <h4>Other Spells</h4>
+                    <ul>
+                        {% for card in article.deck.main|sort(attribute='name') %}
+                            {% if not card.card_type in ["creature", "instant", "sorcery", "land"] %}
+                                {{ card_list_item.print(card) }}
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -39,12 +68,8 @@
             <div class="card-header"><h3>Sideboard</h3></div>
             <div class="card-body">
                 <ul>
-                    {% for card in article.deck.sideboard %}
-                        {% if USE_EXTERNAL_LINKS %}
-                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_uris.border_crop }}' />">{{ card.name }}</span> {{ card.data.mana_cost | lower | replace("/", "") | replace('{', '<span class="mana small s') | replace('}', '"></span>') }}</li>
-                        {% else %}
-                            <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_path }}' />">{{ card.name }}</span> {{ card.data.mana_cost | lower | replace("/", "") | replace('{', '<span class="mana small s') | replace('}', '"></span>') }}</li>
-                        {% endif %}
+                    {% for card in article.deck.sideboard|sort(attribute='name') %}
+                        {{ card_list_item.print(card) }}
                     {% endfor %}
                 </ul>
             </div>
