@@ -1,8 +1,9 @@
 {% import 'macros/casting_cost.html' as casting_cost %}
 
-{% macro print(card) -%}
+{% macro print(card, USE_EXTERNAL_LINKS) -%}
 {% if USE_EXTERNAL_LINKS %}
-    <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_uris.border_crop }}' />">{{ card.name }}</span> {{ casting_cost.parse(card.data.mana_cost) }}</span></li>
+    <li>TEST</li>
+    <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ card.data.image_uris.border_crop }}' />">{{ card.name }}</span> {{ casting_cost.parse(card.data.mana_cost) }}</span></li>
 {% else %}
     <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_path }}' />">{{ card.name }}</span> {{ casting_cost.parse(card.data.mana_cost) }}</li>
 {% endif %}

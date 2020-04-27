@@ -28,7 +28,7 @@
                     <ul class="card_list">
                         {% for card in article.deck.main|sort(attribute='name') %}
                             {% if card.card_type == "land" %}
-                                {{ card_list_item.print(card) }}
+                                {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
                             {% endif %}
                         {% endfor %}
                     </ul>
@@ -36,7 +36,7 @@
                     <ul class="card_list">
                         {% for card in article.deck.main|sort(attribute='name') %}
                             {% if card.card_type == "creature" %}
-                                {{ card_list_item.print(card) }}
+                                {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
                             {% endif %}
                         {% endfor %}
                     </ul>
@@ -46,7 +46,7 @@
                     <ul class="card_list">
                         {% for card in article.deck.main|sort(attribute='name') %}
                             {% if card.card_type == "instant" or card.card_type == "sorcery" %}
-                                {{ card_list_item.print(card) }}
+                                {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
                             {% endif %}
                         {% endfor %}
                     </ul>
@@ -54,7 +54,7 @@
                     <ul class="card_list">
                         {% for card in article.deck.main|sort(attribute='name') %}
                             {% if not card.card_type in ["creature", "instant", "sorcery", "land"] %}
-                                {{ card_list_item.print(card) }}
+                                {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
                             {% endif %}
                         {% endfor %}
                     </ul>
@@ -69,7 +69,7 @@
             <div class="card-body">
                 <ul class="card_list">
                     {% for card in article.deck.sideboard|sort(attribute='name') %}
-                        {{ card_list_item.print(card) }}
+                        {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
                     {% endfor %}
                 </ul>
             </div>
