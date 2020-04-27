@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-lg">
                     <h4>Lands</h4>
-                    <ul>
+                    <ul class="card_list">
                         {% for card in article.deck.main|sort(attribute='name') %}
                             {% if card.card_type == "land" %}
                                 {{ card_list_item.print(card) }}
@@ -33,7 +33,7 @@
                         {% endfor %}
                     </ul>
                     <h4>Creatures</h4>
-                    <ul>
+                    <ul class="card_list">
                         {% for card in article.deck.main|sort(attribute='name') %}
                             {% if card.card_type == "creature" %}
                                 {{ card_list_item.print(card) }}
@@ -43,7 +43,7 @@
                     </div>
                     <div class="col-lg">
                     <h4>Instants and Sorceries</h4>
-                    <ul>
+                    <ul class="card_list">
                         {% for card in article.deck.main|sort(attribute='name') %}
                             {% if card.card_type == "instant" or card.card_type == "sorcery" %}
                                 {{ card_list_item.print(card) }}
@@ -51,7 +51,7 @@
                         {% endfor %}
                     </ul>
                     <h4>Other Spells</h4>
-                    <ul>
+                    <ul class="card_list">
                         {% for card in article.deck.main|sort(attribute='name') %}
                             {% if not card.card_type in ["creature", "instant", "sorcery", "land"] %}
                                 {{ card_list_item.print(card) }}
@@ -67,7 +67,7 @@
         <div class="card h-100">
             <div class="card-header"><h3>Sideboard</h3></div>
             <div class="card-body">
-                <ul>
+                <ul class="card_list">
                     {% for card in article.deck.sideboard|sort(attribute='name') %}
                         {{ card_list_item.print(card) }}
                     {% endfor %}

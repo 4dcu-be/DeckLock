@@ -64,7 +64,7 @@ MTG_ASSETS_PATH = "assets/mtg"
 
 TEMPLATE_PAGES = {'mtg_overview.html': 'mtg.html'}
 
-# When set to true, external links to KeyForge image will be used
+# When set to true, external links to KeyForge/M:tG images will be used
 USE_EXTERNAL_LINKS = False
 STATIC_EXCLUDES = []
 

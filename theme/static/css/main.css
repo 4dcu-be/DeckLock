@@ -18,3 +18,8 @@
 .manacost {
   float:right;
 }
+
+.card_list {
+    padding-inline-start: 0px;
+    list-style: none;
+}

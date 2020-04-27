@@ -18,15 +18,19 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="https://4dcu.be/DeckLock/index.html">DeckLock</a>
+  <a class="navbar-brand" href="https://4dcu.be/DeckLock/index.html"><img src="https://4dcu.be/DeckLock/theme/img/decklock_icon.png" alt="Decklock icon" /></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarColor02">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="https://4dcu.be/DeckLock/keyforge.html">KeyForge</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Games
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="https://4dcu.be/DeckLock/keyforge.html">KeyForge</a><a class="dropdown-item" href="https://4dcu.be/DeckLock/mtg.html">Magic: the Gathering</a>        </div>
       </li>
     </ul>
   </div>
@@ -36,13 +40,21 @@
 
 <h1>DeckLock</h1>
 
-<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-    <div class="card-header">KeyForge: <strong>11</strong> decks</div>
-    <a href="https://4dcu.be/DeckLock/keyforge.html"><img src="https://4dcu.be/DeckLock/theme/img/DeckLock_kf_bg_small.png" class="card-img-top" alt="DeckLock logo in KeyForge style" /></a>
+<div class="row">
+    <div class="col">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">KeyForge: <strong>11</strong> decks</div>
+            <a href="https://4dcu.be/DeckLock/keyforge.html"><img src="https://4dcu.be/DeckLock/theme/img/DeckLock_kf_bg_small.png" class="card-img-top" alt="DeckLock logo in KeyForge style" /></a>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">Magic:the Gathering : <strong>9</strong> decks</div>
+            <a href="https://4dcu.be/DeckLock/mtg.html"><img src="https://4dcu.be/DeckLock/theme/img/DeckLock_mtg_small.png" class="card-img-top" alt="DeckLock logo in Magic: The Gathering style" /></a>
+        </div>
+    </div>
 </div>
-
-
-
 </div>
 
 <script src="https://4dcu.be/DeckLock/theme/js/jquery-3.3.1.js"></script>

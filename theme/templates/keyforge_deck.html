@@ -17,7 +17,9 @@
     </ol>
 
     <h1>{{ keyforge_data.vault_data.data.name }}</h1>
-
+    <div class="row top5">
+        <div class="col text-right"><span>View deck on <a href="https://decksofkeyforge.com/decks/{{ keyforge_data.user_data.deck_id }}">Decks of KeyForge</a> or <a href="https://www.keyforgegame.com/deck-details/{{ keyforge_data.user_data.deck_id }}">The Master Vault</a></span></div>
+    </div>
     {% if keyforge_data.dok_data.deck %}
     <div class="card top15">
       <div class="card-body">
@@ -38,7 +40,7 @@
                     <h3>{{ house.name}} {% if USE_EXTERNAL_LINKS %}<img src="{{ house.image }}" alt="{{ house.name }}" class="keyforge-house-logo-xl"/>{% else %}<img src="{{ SITEURL }}/{{ house.image_path }}" alt="{{ house.name }}" class="keyforge-house-logo-xl"/>{% endif %}</h3>
                 </div>
                 <div class="card-body">
-                <ul>
+                <ul class="card_list">
                     {% for card in keyforge_data.vault_data._linked.cards|sort(attribute='card_title') %}
                         {% if card.house == house.name %}
                             {% for n in range(card.count)  %}
