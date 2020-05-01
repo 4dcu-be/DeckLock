@@ -62,7 +62,7 @@ MTG_ENABLED = True
 MTG_PATH = "data"
 MTG_ASSETS_PATH = "assets/mtg"
 
-TEMPLATE_PAGES = {'mtg_overview.html': 'mtg.html'}
+TEMPLATE_PAGES = {"mtg_overview.html": "mtg.html"}
 
 # When set to true, external links to KeyForge/M:tG images will be used
 USE_EXTERNAL_LINKS = False

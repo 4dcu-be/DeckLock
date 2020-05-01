@@ -52,6 +52,7 @@ In publishconf.py however you will need to specify the final url of your site.
 ```python
 SITEURL = "https://4dcu.be/DeckLock"
 ```
+## Adding Games
 
 ### Decks of KeyForge API Key
 
@@ -86,7 +87,41 @@ A file with the KeyForge Decks I own is included as an example, the structure sh
 ]
 ```
 
-### Building platform
+### Magic: the Gathering
+
+Magic: the Gathering decks can be added by including a mwDeck file for each deck in the content/data/mtg_decks folder. 
+The mwDeck file format is rather self explanatory, see the example below:
+
+```text
+// NAME : 9 Land Stompy
+// CREATOR : Sebastian Proost
+// FORMAT : Casual
+9 [USG] Forest
+4 [MMQ] Land Grant
+4 [ALL] Elvish Spirit Guide
+3 [MMQ] Vine Dryad
+4 [EXO] Skyshroud Elite
+4 [VIS] Quirion Ranger
+2 [VIS] River Boa
+4 [DKA] Strangleroot Geist
+4 [ALL] Bounty of the Hunt
+4 [WTH] Rogue Elephant
+4 [RTR] Dryad Militant
+4 [WTH] Briar Shield
+4 [ULG] Rancor
+4 [POR] Jungle Lion
+1 [2ED] Winter Orb
+1 [5ED] Winter Orb
+SB:  2 [TMP] Root Maze
+SB:  4 [ULG] Hidden Gibbons
+SB:  3 [ONS] Naturalize
+SB:  2 [MMQ] Rushwood Legate
+SB:  3 [UDS] Compost
+```
+
+Do make sure that the set, included here in between square brackets, matches ScryFall's abbreviations.
+
+## Building platform
 
 You can use make to build the website (if make is available on your system), use *make html* to create a local instance
 to test in the *_site* directory. Use *make release* to create the version for publication in the *./docs* folder.
@@ -110,7 +145,7 @@ pelican ./content -o ./_site
 pelican ./content -o ./docs -s publishconf.py
 ```
 
-### Hosting locally for testing
+## Hosting locally for testing
 
 You can use Pelican's built in webserver using the command below.
 
@@ -127,7 +162,7 @@ python -m http.server
 
 In both cases you can see your site by pointing your browser to [http://localhost:8000](http://localhost:8000).
 
-### Hosting on GitHub
+## Hosting on GitHub
 
 DeckLock includes a *make release* command which will write the final version of the website to the *./docs* folder. 
 On GitHub you can specify that this folder is used for the project pages, enable this in the settings and you'll have

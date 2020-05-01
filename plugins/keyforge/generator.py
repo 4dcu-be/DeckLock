@@ -66,7 +66,7 @@ class KeyForgeGenerator(generators.Generator):
         del self.context["keyforge_data"]
 
     def generate_keyforge_overview_page(self, writer, data):
-        print(f"Generating KeyForge overview...", end='')
+        print(f"Generating KeyForge overview...", end="")
         self.context["keyforge_data"] = data
         template = self.env.get_template(self.template_overview)
         rurls = self.settings["RELATIVE_URLS"]
