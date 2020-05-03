@@ -14235,6 +14235,132 @@
             "uri": "https://api.scryfall.com/cards/f6135cf4-50c2-4e44-b9b0-96e1187a2200",
             "variation": false
         },
+        "Legion Warboss": {
+            "all_parts": [
+                {
+                    "component": "combo_piece",
+                    "id": "5e84cb9c-9876-47a4-aea4-78574321bc36",
+                    "name": "Legion Warboss",
+                    "object": "related_card",
+                    "type_line": "Creature \u2014 Goblin Soldier",
+                    "uri": "https://api.scryfall.com/cards/5e84cb9c-9876-47a4-aea4-78574321bc36"
+                },
+                {
+                    "component": "token",
+                    "id": "993613a6-09a9-45a5-b35f-5a5fdb6d14ec",
+                    "name": "Goblin",
+                    "object": "related_card",
+                    "type_line": "Token Creature \u2014 Goblin",
+                    "uri": "https://api.scryfall.com/cards/993613a6-09a9-45a5-b35f-5a5fdb6d14ec"
+                }
+            ],
+            "arena_id": 68570,
+            "artist": "Alex Konstad",
+            "artist_ids": [
+                "58b2a57c-50ca-4047-b4e7-efb28cb22851"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 3.0,
+            "collector_number": "109",
+            "color_identity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "digital": false,
+            "edhrec_rank": 1996,
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "5e84cb9c-9876-47a4-aea4-78574321bc36",
+            "illustration_id": "3dadaf59-77c7-462d-b39c-3418ba973e35",
+            "image_path": "assets/mtg\\cards\\5e84cb9c-9876-47a4-aea4-78574321bc36.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/5/e/5e84cb9c-9876-47a4-aea4-78574321bc36.jpg?1572893214",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/5/e/5e84cb9c-9876-47a4-aea4-78574321bc36.jpg?1572893214",
+                "large": "https://img.scryfall.com/cards/large/front/5/e/5e84cb9c-9876-47a4-aea4-78574321bc36.jpg?1572893214",
+                "normal": "https://img.scryfall.com/cards/normal/front/5/e/5e84cb9c-9876-47a4-aea4-78574321bc36.jpg?1572893214",
+                "png": "https://img.scryfall.com/cards/png/front/5/e/5e84cb9c-9876-47a4-aea4-78574321bc36.png?1572893214",
+                "small": "https://img.scryfall.com/cards/small/front/5/e/5e84cb9c-9876-47a4-aea4-78574321bc36.jpg?1572893214"
+            },
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "not_legal",
+                "penny": "not_legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{2}{R}",
+            "mtgo_id": 69591,
+            "multiverse_ids": [
+                452859
+            ],
+            "name": "Legion Warboss",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "0ccb9af3-6902-4130-a59c-4c882dc3a2fd",
+            "oracle_text": "Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nAt the beginning of combat on your turn, create a 1/1 red Goblin creature token. That token gains haste until end of turn and attacks this combat if able.",
+            "oversized": false,
+            "power": "2",
+            "prices": {
+                "eur": "1.95",
+                "tix": "0.85",
+                "usd": "1.84",
+                "usd_foil": "4.07"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A0ccb9af3-6902-4130-a59c-4c882dc3a2fd&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/69591?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Guilds-of-Ravnica/Legion-Warboss?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=175192&partner=Scryfall&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "rare",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Legion+Warboss",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=452859",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Legion+Warboss",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Legion+Warboss&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2018-10-05",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/5e84cb9c-9876-47a4-aea4-78574321bc36/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/grn?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/grn/109/legion-warboss?utm_source=api",
+            "set": "grn",
+            "set_name": "Guilds of Ravnica",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Agrn&unique=prints",
+            "set_type": "expansion",
+            "set_uri": "https://api.scryfall.com/sets/597c6d4a-8212-4903-a6af-12c4ae9e13f0",
+            "story_spotlight": false,
+            "tcgplayer_id": 175192,
+            "textless": false,
+            "toughness": "2",
+            "type_line": "Creature \u2014 Goblin Soldier",
+            "uri": "https://api.scryfall.com/cards/5e84cb9c-9876-47a4-aea4-78574321bc36",
+            "variation": false,
+            "watermark": "boros"
+        },
         "Leovold, Emissary of Trest": {
             "artist": "Magali Villeneuve",
             "artist_ids": [
@@ -21214,6 +21340,117 @@
             "uri": "https://api.scryfall.com/cards/bb9ad57f-cca2-4717-a951-cbe3c7782efe",
             "variation": false
         },
+        "Redcap Melee": {
+            "arena_id": 70282,
+            "artist": "Chris Rallis",
+            "artist_ids": [
+                "a8e7b854-b15a-421a-b66d-6e68187ae285"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 1.0,
+            "collector_number": "135",
+            "color_identity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "digital": false,
+            "edhrec_rank": 16610,
+            "flavor_text": "At first, Syr Fenwick scoffed when he saw his opponents for the final match.",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "6bd1dd34-d480-4dfd-9f82-73c4e24a11fc",
+            "illustration_id": "9fd7009d-34f8-43ec-86f4-9df420da5bae",
+            "image_path": "assets/mtg\\cards\\6bd1dd34-d480-4dfd-9f82-73c4e24a11fc.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/6/b/6bd1dd34-d480-4dfd-9f82-73c4e24a11fc.jpg?1572490418",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/6/b/6bd1dd34-d480-4dfd-9f82-73c4e24a11fc.jpg?1572490418",
+                "large": "https://img.scryfall.com/cards/large/front/6/b/6bd1dd34-d480-4dfd-9f82-73c4e24a11fc.jpg?1572490418",
+                "normal": "https://img.scryfall.com/cards/normal/front/6/b/6bd1dd34-d480-4dfd-9f82-73c4e24a11fc.jpg?1572490418",
+                "png": "https://img.scryfall.com/cards/png/front/6/b/6bd1dd34-d480-4dfd-9f82-73c4e24a11fc.png?1572490418",
+                "small": "https://img.scryfall.com/cards/small/front/6/b/6bd1dd34-d480-4dfd-9f82-73c4e24a11fc.jpg?1572490418"
+            },
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "not_legal",
+                "penny": "legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{R}",
+            "mtgo_id": 78398,
+            "multiverse_ids": [
+                473097
+            ],
+            "name": "Redcap Melee",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "1b78aa71-b554-45dc-a737-52cd74c3e7f1",
+            "oracle_text": "Redcap Melee deals 4 damage to target creature or planeswalker. If a nonred permanent is dealt damage this way, you sacrifice a land.",
+            "oversized": false,
+            "preview": {
+                "previewed_at": "2019-09-12",
+                "source": "Shouta Yasooka",
+                "source_uri": "https://www.twitch.tv/videos/480376709"
+            },
+            "prices": {
+                "eur": "0.11",
+                "tix": "0.01",
+                "usd": "0.17",
+                "usd_foil": "0.27"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A1b78aa71-b554-45dc-a737-52cd74c3e7f1&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/78398?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Throne-of-Eldraine/Redcap-Melee?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=199300&partner=Scryfall&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "uncommon",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Redcap+Melee",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=473097",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Redcap+Melee",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Redcap+Melee&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2019-10-04",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/6bd1dd34-d480-4dfd-9f82-73c4e24a11fc/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/eld?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/eld/135/redcap-melee?utm_source=api",
+            "set": "eld",
+            "set_name": "Throne of Eldraine",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aeld&unique=prints",
+            "set_type": "expansion",
+            "set_uri": "https://api.scryfall.com/sets/a90a7b2f-9dd8-4fc7-9f7d-8ea2797ec782",
+            "story_spotlight": false,
+            "tcgplayer_id": 199300,
+            "textless": false,
+            "type_line": "Instant",
+            "uri": "https://api.scryfall.com/cards/6bd1dd34-d480-4dfd-9f82-73c4e24a11fc",
+            "variation": false
+        },
         "Repeal": {
             "artist": "Dan Scott",
             "artist_ids": [
@@ -22717,6 +22954,105 @@
             "textless": false,
             "type_line": "Land \u2014 Mountain Forest",
             "uri": "https://api.scryfall.com/cards/d23cd764-3f5c-4c93-ba83-e5ff397003a2",
+            "variation": false
+        },
+        "Shock": {
+            "artist": "Jason Rainville",
+            "artist_ids": [
+                "6ed7e669-579b-443d-b223-e5cbcb2a7483"
+            ],
+            "booster": false,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 1.0,
+            "collector_number": "1058",
+            "color_identity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "digital": false,
+            "edhrec_rank": 3164,
+            "flavor_text": "The tools of invention became the weapons of revolution.",
+            "foil": false,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "paper"
+            ],
+            "highres_image": true,
+            "id": "efd56707-4a27-4102-a517-ed65436376aa",
+            "illustration_id": "167dac35-21f6-4174-b496-4b66ffd980b1",
+            "image_path": "assets/mtg\\cards\\efd56707-4a27-4102-a517-ed65436376aa.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/e/f/efd56707-4a27-4102-a517-ed65436376aa.jpg?1573512579",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/e/f/efd56707-4a27-4102-a517-ed65436376aa.jpg?1573512579",
+                "large": "https://img.scryfall.com/cards/large/front/e/f/efd56707-4a27-4102-a517-ed65436376aa.jpg?1573512579",
+                "normal": "https://img.scryfall.com/cards/normal/front/e/f/efd56707-4a27-4102-a517-ed65436376aa.jpg?1573512579",
+                "png": "https://img.scryfall.com/cards/png/front/e/f/efd56707-4a27-4102-a517-ed65436376aa.png?1573512579",
+                "small": "https://img.scryfall.com/cards/small/front/e/f/efd56707-4a27-4102-a517-ed65436376aa.jpg?1573512579"
+            },
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "legal",
+                "penny": "legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{R}",
+            "multiverse_ids": [],
+            "name": "Shock",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "a9d288b8-cdc1-4e55-a0c9-d6edfc95e65d",
+            "oracle_text": "Shock deals 2 damage to any target.",
+            "oversized": false,
+            "prices": {
+                "eur": null,
+                "tix": null,
+                "usd": "0.10",
+                "usd_foil": null
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aa9d288b8-cdc1-4e55-a0c9-d6edfc95e65d&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Shock&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Shock&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=204651&partner=Scryfall&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "common",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Shock",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Shock",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Shock&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2019-11-07",
+            "reprint": true,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/efd56707-4a27-4102-a517-ed65436376aa/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/mb1?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/mb1/1058/shock?utm_source=api",
+            "set": "mb1",
+            "set_name": "Mystery Booster",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Amb1&unique=prints",
+            "set_type": "masters",
+            "set_uri": "https://api.scryfall.com/sets/d13bfc70-6137-4179-aa96-da30fd84de29",
+            "story_spotlight": false,
+            "tcgplayer_id": 204651,
+            "textless": false,
+            "type_line": "Instant",
+            "uri": "https://api.scryfall.com/cards/efd56707-4a27-4102-a517-ed65436376aa",
             "variation": false
         },
         "Show and Tell": {
@@ -26364,6 +26700,114 @@
             "textless": false,
             "type_line": "Sorcery",
             "uri": "https://api.scryfall.com/cards/70901356-3266-4bd9-aacc-f06c27271de5",
+            "variation": false
+        },
+        "Tin Street Dodger": {
+            "arena_id": 69248,
+            "artist": "Yeong-Hao Han",
+            "artist_ids": [
+                "f8e7f8d6-6dde-4059-973c-30f1fd1bbe4e"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 1.0,
+            "collector_number": "120",
+            "color_identity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "digital": false,
+            "edhrec_rank": 8269,
+            "flavor_text": "\"That giant didn't even see me, let alone catch me! And I was close enough to smell him! Of course, that's not saying much.\"",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "b3815ab6-87cd-4310-8068-ec721ee10a24",
+            "illustration_id": "b5754c08-bbee-4a92-a1cb-14452939816d",
+            "image_path": "assets/mtg\\cards\\b3815ab6-87cd-4310-8068-ec721ee10a24.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/b/3/b3815ab6-87cd-4310-8068-ec721ee10a24.jpg?1584831077",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/b/3/b3815ab6-87cd-4310-8068-ec721ee10a24.jpg?1584831077",
+                "large": "https://img.scryfall.com/cards/large/front/b/3/b3815ab6-87cd-4310-8068-ec721ee10a24.jpg?1584831077",
+                "normal": "https://img.scryfall.com/cards/normal/front/b/3/b3815ab6-87cd-4310-8068-ec721ee10a24.jpg?1584831077",
+                "png": "https://img.scryfall.com/cards/png/front/b/3/b3815ab6-87cd-4310-8068-ec721ee10a24.png?1584831077",
+                "small": "https://img.scryfall.com/cards/small/front/b/3/b3815ab6-87cd-4310-8068-ec721ee10a24.jpg?1584831077"
+            },
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "not_legal",
+                "penny": "legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{R}",
+            "mtgo_id": 71240,
+            "multiverse_ids": [
+                457264
+            ],
+            "name": "Tin Street Dodger",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "fde3c8df-cc57-4e64-b78b-301e103d8487",
+            "oracle_text": "Haste\n{R}: Tin Street Dodger can't be blocked this turn except by creatures with defender.",
+            "oversized": false,
+            "power": "1",
+            "prices": {
+                "eur": "0.09",
+                "tix": "0.01",
+                "usd": "0.17",
+                "usd_foil": "1.18"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Afde3c8df-cc57-4e64-b78b-301e103d8487&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/71240?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ravnica-Allegiance/Tin-Street-Dodger?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=183406&partner=Scryfall&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "uncommon",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Tin+Street+Dodger",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457264",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Tin+Street+Dodger",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Tin+Street+Dodger&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2019-01-25",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/b3815ab6-87cd-4310-8068-ec721ee10a24/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/rna?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/rna/120/tin-street-dodger?utm_source=api",
+            "set": "rna",
+            "set_name": "Ravnica Allegiance",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Arna&unique=prints",
+            "set_type": "expansion",
+            "set_uri": "https://api.scryfall.com/sets/97a7fd84-8d89-45a3-b48b-c951f6a3f9f1",
+            "story_spotlight": false,
+            "tcgplayer_id": 183406,
+            "textless": false,
+            "toughness": "1",
+            "type_line": "Creature \u2014 Goblin Rogue",
+            "uri": "https://api.scryfall.com/cards/b3815ab6-87cd-4310-8068-ec721ee10a24",
             "variation": false
         },
         "Tireless Tracker": {

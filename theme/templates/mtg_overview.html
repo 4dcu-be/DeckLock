@@ -25,7 +25,7 @@
         </tr>
         </thead>
         <tbody>
-        {% for a in articles %}
+        {% for a in articles|sort(attribute='name')|sort(attribute='format') %}
             {% if a.category == "MTG_Deck" %}
             <tr>
                 <td><a href="{{ SITEURL }}/{{ a.url }}">{{ a.name }}</a></td>
