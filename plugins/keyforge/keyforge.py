@@ -35,6 +35,13 @@ def get_keyforge_cache_path(pelican):
     return os.path.join(content_path, keyforge_path, "keyforge.cache.json")
 
 
+def get_dok_decks_cache_path(pelican):
+    keyforge_path = pelican.settings.get("KEYFORGE_PATH", None)
+    content_path = get_content_path(pelican)
+
+    return os.path.join(content_path, keyforge_path, "dok_decks.cache.json")
+
+
 def get_keyforge_assets_paths(pelican):
     keyforge_assets_path = pelican.settings.get("KEYFORGE_ASSETS_PATH", None)
     content_path = get_content_path(pelican)
@@ -59,6 +66,19 @@ def get_dok_data(deck_id, api_key):
     api_headers = {"Api-Key": api_key}
     r = requests.get(
         f"https://decksofkeyforge.com/public-api/v3/decks/{deck_id}",
+        headers=api_headers,
+    )
+
+    return r.json()
+
+
+def get_dok_deck_stats(api_key):
+    if api_key is None:
+        return {}
+
+    api_headers = {"Api-Key": api_key}
+    r = requests.get(
+        f"https://decksofkeyforge.com/public-api/v1/stats",
         headers=api_headers,
     )
 
@@ -107,6 +127,15 @@ def get_keyforge_external_data(generator):
             current_data = json.load(fin)
     else:
         current_data = {}
+
+    dok_decks_cache_path = get_dok_decks_cache_path(generator)
+    if os.path.exists(dok_decks_cache_path):
+        with open(dok_decks_cache_path, "r") as fin:
+            current_dok_deck_data = json.load(fin)
+    else:
+        current_dok_deck_data = get_dok_deck_stats(dok_api_key)
+        with open(dok_decks_cache_path, "w") as fout:
+            json.dump(current_dok_deck_data, fout, sort_keys=True, indent=4, separators=(",", ": "))
 
     for deck in data:
         if deck["deck_id"] not in current_data.keys():

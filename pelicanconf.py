@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
 from dotenv import load_dotenv
 import os
 
@@ -45,7 +44,7 @@ STATIC_PATHS = ["assets"]
 
 # Configure plugins
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["keyforge", "mtg"]
+PLUGINS = ["gwent"]
 
 KEYFORGE_ENABLED = True
 
@@ -62,9 +61,14 @@ MTG_ENABLED = True
 MTG_PATH = "data"
 MTG_ASSETS_PATH = "assets/mtg"
 
+GWENT_ENABLED = True
+
+GWENT_PATH = "data"
+GWENT_ASSETS_PATH = "assets/gwent"
+
 TEMPLATE_PAGES = {"mtg_overview.html": "mtg.html"}
 
-# When set to true, external links to KeyForge/M:tG images will be used
+# When set to true, external links to KeyForge/M:tG/Gwent card images will be used
 USE_EXTERNAL_LINKS = False
 STATIC_EXCLUDES = []
 

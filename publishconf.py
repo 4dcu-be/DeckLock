@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
 
 # This file is only used if you use `make publish` or
 # explicitly specify it as your config file.
@@ -23,7 +22,7 @@ DELETE_OUTPUT_DIRECTORY = False
 
 
 USE_EXTERNAL_LINKS = True
-STATIC_EXCLUDES = ["assets/keyforge", "assets/mtg"]
+STATIC_EXCLUDES = ["assets/keyforge", "assets/mtg", "assets/gwent"]
 
 # Following items are often useful when publishing
 

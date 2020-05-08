@@ -107,7 +107,7 @@ class MTGReader(BaseReader):
     def add_card_data(self, card_set, card_name):
         if card_set not in self.cached_data.keys():
             self.cached_data[card_set] = {}
-        if card_name not in self.cached_data[card_set]:
+        if card_name not in self.cached_data[card_set].keys():
             card_data = get_card_data(card_set, card_name)
             self.cached_data[card_set][card_name] = card_data
         else:
