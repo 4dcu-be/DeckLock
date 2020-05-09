@@ -3,6 +3,7 @@ from pelican.readers import BaseReader
 
 import json
 import os
+import posixpath
 from pathlib import Path
 from urllib.parse import urlparse
 from urllib.parse import quote
@@ -15,7 +16,7 @@ from pelican.utils import slugify
 
 def get_local_card_img_path(assets_cards_path, url):
     img_filename = Path(urlparse(url).path).name
-    return os.path.join(assets_cards_path, img_filename)
+    return posixpath.join(assets_cards_path, img_filename)
 
 
 def parse_meta(line):
@@ -84,7 +85,7 @@ class MTGReader(BaseReader):
 
     @property
     def mtg_data_path(self):
-        return os.path.join(
+        return posixpath.join(
             self.settings.get("PATH"),
             self.settings.get("MTG_PATH"),
             "mtg.cached_cards.json",
@@ -98,11 +99,11 @@ class MTGReader(BaseReader):
 
     def mtg_assets_cards_path(self, full=False):
         if full:
-            return os.path.join(
+            return posixpath.join(
                 self.settings.get("PATH"), self.settings.get("MTG_ASSETS_PATH"), "cards"
             )
         else:
-            return os.path.join(self.settings.get("MTG_ASSETS_PATH"), "cards")
+            return posixpath.join(self.settings.get("MTG_ASSETS_PATH"), "cards")
 
     def add_card_data(self, card_set, card_name):
         if card_set not in self.cached_data.keys():

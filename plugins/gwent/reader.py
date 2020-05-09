@@ -8,14 +8,14 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 import requests
 from time import sleep
-
+import posixpath
 from plugins.utils import fetch_image
 from pelican.utils import slugify
 
 
 def get_local_card_img_path(assets_cards_path, url):
     img_filename = Path(urlparse(url).path).name
-    return os.path.join(assets_cards_path, img_filename)
+    return posixpath.join(assets_cards_path, img_filename)
 
 
 def parse_meta(line):
@@ -109,7 +109,7 @@ class GwentReader(BaseReader):
 
     @property
     def gwent_data_path(self):
-        return os.path.join(
+        return posixpath.join(
             self.settings.get("PATH"),
             self.settings.get("GWENT_PATH"),
             "gwent.cached_cards.json",
@@ -123,11 +123,11 @@ class GwentReader(BaseReader):
 
     def gwent_assets_cards_path(self, full=False):
         if full:
-            return os.path.join(
+            return posixpath.join(
                 self.settings.get("PATH"), self.settings.get("GWENT_ASSETS_PATH"), "cards"
             )
         else:
-            return os.path.join(self.settings.get("GWENT_ASSETS_PATH"), "cards")
+            return posixpath.join(self.settings.get("GWENT_ASSETS_PATH"), "cards")
 
     def add_card_data(self, card_name, card_version):
         print('add_card_data', card_name, card_version)
@@ -149,8 +149,9 @@ class GwentReader(BaseReader):
                 self.gwent_assets_cards_path(full=True), img_url
             )
             fetch_image(img_url, local_path_full)
-        except:
+        except Exception as e:
             print(f"an error occurred fetching {card_name} from version {card_version}")
+            print(e)
 
     def read(self, filename):
         metadata = {

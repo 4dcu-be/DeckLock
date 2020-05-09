@@ -44,7 +44,7 @@ STATIC_PATHS = ["assets"]
 
 # Configure plugins
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["gwent"]
+PLUGINS = ["keyforge", "mtg", "gwent"]
 
 KEYFORGE_ENABLED = True
 
@@ -66,7 +66,10 @@ GWENT_ENABLED = True
 GWENT_PATH = "data"
 GWENT_ASSETS_PATH = "assets/gwent"
 
-TEMPLATE_PAGES = {"mtg_overview.html": "mtg.html"}
+TEMPLATE_PAGES = {
+    "gwent_overview.html": "gwent.html",
+    "mtg_overview.html": "mtg.html"
+}
 
 # When set to true, external links to KeyForge/M:tG/Gwent card images will be used
 USE_EXTERNAL_LINKS = False
