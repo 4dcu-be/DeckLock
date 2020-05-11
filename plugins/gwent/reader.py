@@ -31,14 +31,22 @@ def parse_card_line(line):
     return int(card_count), card_name
 
 
-def parse_card_data(card_data):
+def parse_card_data(card_data, card_name):
     print(card_data)
     soup = BeautifulSoup(card_data, 'html.parser')
 
-    card_attributes = soup.find_all("div", class_="card-wrap card-data")[0]
-    card_name = soup.find_all("div", class_="card-name")[0]
-    card_category = soup.find_all("div", class_="card-category")[0]
-    card_body_ability = soup.find_all("div", class_="card-body-ability")[0]
+    index = 0
+
+    # In case there are multiple results find exact match
+    for ix, result in enumerate(soup.find_all("div", class_="card-name")):
+        print(f"'{card_name}' <-> '{str(result.text)}'")
+        if card_name.lower() == str(result.text).lower():
+            index = ix
+
+    card_attributes = soup.find_all("div", class_="card-wrap card-data")[index]
+    card_name = soup.find_all("div", class_="card-name")[index]
+    card_category = soup.find_all("div", class_="card-category")[index]
+    card_body_ability = soup.find_all("div", class_="card-body-ability")[index]
 
     image_url = 'https://gwent.one/image/card/medium/aid/jpg/%d.jpg' % int(card_attributes.get('data-artid').replace('j',''))
 
@@ -47,7 +55,7 @@ def parse_card_data(card_data):
         'art_id': card_attributes.get('data-artid'),
         'power': card_attributes.get('data-power'),
         'armor': card_attributes.get('data-armor'),
-        'provision': card_attributes.get('data-provision'),
+        'provision': int(card_attributes.get('data-provision')),
         'faction': card_attributes.get('data-faction'),
         'color': card_attributes.get('data-color'),
         'type': card_attributes.get('data-type'),
@@ -77,7 +85,7 @@ def get_card_data(card_name, card_version, sleep_time=0.1):
 
     sleep(sleep_time)
 
-    return parse_card_data(r.text)
+    return parse_card_data(r.text, card_name)
 
 
 def parse_card_type(type_line):
@@ -161,6 +169,8 @@ class GwentReader(BaseReader):
         }
 
         deck_data = []
+        leader = None
+        stratagem = None
 
         with open(filename, "r") as fin:
             for line in fin:
@@ -175,10 +185,15 @@ class GwentReader(BaseReader):
                     card_data = {
                         "name": card_name,
                         "count": card_count,
-                        "data": self.cached_data[card_version][card_name],
+                        "data": self.cached_data[card_version][card_name]
                     }
 
-                    deck_data.append(card_data)
+                    if self.cached_data[card_version][card_name]["category"] == "Leader":
+                        leader = card_data
+                    elif self.cached_data[card_version][card_name]["type"] == "stratagem":
+                        stratagem = card_data
+                    else:
+                        deck_data.append(card_data)
 
         self.write_cache()
 
@@ -196,6 +211,8 @@ class GwentReader(BaseReader):
             parsed[key] = self.process_metadata(key, value)
 
         parsed["deck"] = deck_data
+        parsed["leader"] = leader
+        parsed["stratagem"] = stratagem
 
         return "", parsed
 

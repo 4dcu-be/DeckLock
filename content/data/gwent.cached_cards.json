@@ -11,7 +11,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1902.jpg",
             "name": "Adriano the Mink",
             "power": "6",
-            "provision": "8",
+            "provision": 8,
             "rarity": "epic",
             "type": "unit"
         },
@@ -26,7 +26,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1885.jpg",
             "name": "Bincy Blumerholdt",
             "power": "4",
-            "provision": "10",
+            "provision": 10,
             "rarity": "epic",
             "type": "unit"
         },
@@ -41,7 +41,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1753.jpg",
             "name": "Ewald Borsodi",
             "power": "4",
-            "provision": "8",
+            "provision": 8,
             "rarity": "epic",
             "type": "unit"
         },
@@ -56,7 +56,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1883.jpg",
             "name": "The Flying Redanian",
             "power": "3",
-            "provision": "9",
+            "provision": 9,
             "rarity": "legendary",
             "type": "unit"
         },
@@ -71,7 +71,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1884.jpg",
             "name": "Hammond",
             "power": "6",
-            "provision": "8",
+            "provision": 8,
             "rarity": "epic",
             "type": "unit"
         },
@@ -86,7 +86,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/2286.jpg",
             "name": "Hidden Cache",
             "power": "0",
-            "provision": "15",
+            "provision": 15,
             "rarity": "legendary",
             "type": "ability"
         },
@@ -101,7 +101,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1888.jpg",
             "name": "Hvitr and Aelydia",
             "power": "5",
-            "provision": "8",
+            "provision": 8,
             "rarity": "epic",
             "type": "unit"
         },
@@ -116,7 +116,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1882.jpg",
             "name": "Imke",
             "power": "5",
-            "provision": "9",
+            "provision": 9,
             "rarity": "legendary",
             "type": "unit"
         },
@@ -131,7 +131,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1435.jpg",
             "name": "Mutant Killer",
             "power": "4",
-            "provision": "5",
+            "provision": 5,
             "rarity": "common",
             "type": "unit"
         },
@@ -146,24 +146,24 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1996.jpg",
             "name": "Passiflora",
             "power": "0",
-            "provision": "14",
+            "provision": 14,
             "rarity": "legendary",
             "type": "artifact"
         },
         "Passiflora Peaches": {
             "armor": "0",
-            "art_id": "1996j",
-            "body_ability": "Scenario: Progress whenever you play a Blindeye.\nPrologue: Spawn a Sly Seductress in this row.\nChapter 1: Spawn Passiflora Peaches in this row.\nChapter 2: Gain 6 Coins.\n",
-            "category": "Scenario",
-            "color": "gold",
+            "art_id": "2024j",
+            "body_ability": "Hoard 4: At the end of your turn, boost self by 1.\n",
+            "category": "Human, Blindeyes",
+            "color": "bronze",
             "faction": "syndicate",
-            "image_path": "assets/gwent/cards/1996.jpg",
-            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1996.jpg",
-            "name": "Passiflora",
-            "power": "0",
-            "provision": "14",
-            "rarity": "legendary",
-            "type": "artifact"
+            "image_path": "assets/gwent/cards/2024.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/2024.jpg",
+            "name": "Passiflora Peaches",
+            "power": "4",
+            "provision": 5,
+            "rarity": "common",
+            "type": "unit"
         },
         "Pickpocket": {
             "armor": "0",
@@ -176,7 +176,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1903.jpg",
             "name": "Pickpocket",
             "power": "0",
-            "provision": "6",
+            "provision": 6,
             "rarity": "epic",
             "type": "special"
         },
@@ -191,7 +191,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1975.jpg",
             "name": "Saul de Navarette",
             "power": "4",
-            "provision": "7",
+            "provision": 7,
             "rarity": "epic",
             "type": "unit"
         },
@@ -206,7 +206,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1755.jpg",
             "name": "Sea Jackal",
             "power": "4",
-            "provision": "4",
+            "provision": 4,
             "rarity": "common",
             "type": "unit"
         },
@@ -221,7 +221,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1892.jpg",
             "name": "Sewer Raiders",
             "power": "3",
-            "provision": "5",
+            "provision": 5,
             "rarity": "rare",
             "type": "unit"
         },
@@ -236,24 +236,24 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1850.jpg",
             "name": "Sigi Reuven",
             "power": "3",
-            "provision": "12",
+            "provision": 12,
             "rarity": "legendary",
             "type": "unit"
         },
         "Sly Seductress": {
             "armor": "0",
-            "art_id": "1996j",
-            "body_ability": "Scenario: Progress whenever you play a Blindeye.\nPrologue: Spawn a Sly Seductress in this row.\nChapter 1: Spawn Passiflora Peaches in this row.\nChapter 2: Gain 6 Coins.\n",
-            "category": "Scenario",
-            "color": "gold",
+            "art_id": "1904j",
+            "body_ability": "Fee 3: Gain a Shield.\nWhenever your opponent plays a unit, boost self by 1.\nBonded: Whenever your opponent plays a card, boost self by 1.\n",
+            "category": "Human, Agent, Blindeyes",
+            "color": "bronze",
             "faction": "syndicate",
-            "image_path": "assets/gwent/cards/1996.jpg",
-            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1996.jpg",
-            "name": "Passiflora",
-            "power": "0",
-            "provision": "14",
-            "rarity": "legendary",
-            "type": "artifact"
+            "image_path": "assets/gwent/cards/1904.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1904.jpg",
+            "name": "Sly Seductress",
+            "power": "4",
+            "provision": 5,
+            "rarity": "rare",
+            "type": "unit"
         },
         "Street Urchins": {
             "armor": "0",
@@ -266,7 +266,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/2022.jpg",
             "name": "Street Urchins",
             "power": "2",
-            "provision": "4",
+            "provision": 4,
             "rarity": "rare",
             "type": "unit"
         },
@@ -281,7 +281,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1006.jpg",
             "name": "Tactical Advantage",
             "power": "0",
-            "provision": "0",
+            "provision": 0,
             "rarity": "legendary",
             "type": "stratagem"
         },
@@ -296,7 +296,7 @@
             "image_url": "https://gwent.one/image/card/medium/aid/jpg/1893.jpg",
             "name": "Tidecloak Hideaway",
             "power": "4",
-            "provision": "5",
+            "provision": 5,
             "rarity": "rare",
             "type": "unit"
         }
