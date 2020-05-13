@@ -32,14 +32,12 @@ def parse_card_line(line):
 
 
 def parse_card_data(card_data, card_name):
-    print(card_data)
     soup = BeautifulSoup(card_data, 'html.parser')
 
     index = 0
 
     # In case there are multiple results find exact match
     for ix, result in enumerate(soup.find_all("div", class_="card-name")):
-        print(f"'{card_name}' <-> '{str(result.text)}'")
         if card_name.lower() == str(result.text).lower():
             index = ix
 
@@ -69,8 +67,6 @@ def parse_card_data(card_data, card_name):
 
 
 def get_card_data(card_name, card_version, sleep_time=0.1):
-    print(card_name, card_version)
-
     gwent_one_endpoint = 'https://gwent.one/search/abilities'
 
     post_data = {
@@ -138,7 +134,6 @@ class GwentReader(BaseReader):
             return posixpath.join(self.settings.get("GWENT_ASSETS_PATH"), "cards")
 
     def add_card_data(self, card_name, card_version):
-        print('add_card_data', card_name, card_version)
         if card_version not in self.cached_data.keys():
             self.cached_data[card_version] = {}
         if card_name not in self.cached_data[card_version].keys():
@@ -199,7 +194,7 @@ class GwentReader(BaseReader):
 
         metadata["title"] = metadata["name"]
         metadata["slug"] = slugify(
-            metadata["title"],
+            metadata["title"] + '_' + metadata["gwent_version"],
             regex_subs=self.settings.get("SLUG_REGEX_SUBSTITUTIONS", []),
         )
 

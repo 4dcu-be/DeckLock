@@ -16,6 +16,7 @@
     <table id="deck_overview" class="table table-striped">
         <thead>
         <tr>
+            <th scope="col">Leader</th>
             <th scope="col">Deck</th>
             <th scope="col">Faction</th>
             <th scope="col">Gwent Version</th>
@@ -25,6 +26,7 @@
         {% for a in articles|rejectattr('faction', 'undefined')|sort(attribute='name')|sort(attribute='faction') %}
             {% if a.category == "Gwent_Deck" %}
             <tr>
+                <td>{{ a.leader.name }}</td>
                 <td><a href="{{ SITEURL }}/{{ a.url }}">{{ a.name }}</a></td>
                 <td>{{ a.faction }}</td>
                 <td>{{ a.gwent_version }}</td>
