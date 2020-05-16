@@ -1,7 +1,26 @@
-{% macro print(card, USE_EXTERNAL_LINKS) -%}
+{% macro popup(image_path, card) -%}
+    <div class='gcard {{ card.data.rarity }} {{ card.data.faction }} {{ card.data.color}}'>
+        <img class='popup-card-image' src='{{ image_path }}' />
+        <div class='gcard__border'></div>
+        <div class='gcard__banner'>{% if card.data.color != 'leader' -%}{{ card.data.power }}{%- endif %}</div>
+        {% if card.data.armor|int > 0 %}
+            <div class='gcard__armor'>{{ card.data.armor}}</div>
+        {% endif %}
+        {% if card.data.color != 'leader' %}
+        <div class='gcard__provision-img'></div>
+        <div class='gcard__provision'>{{ card.data.provision }}</div>
+        {% else %}
+        <div class='gcard__trinket'></div>
+        <div class='gcard__mulligan'><span>{{ card.data.provision }}</span></div>
+        {% endif %}
+        <div class='gcard__rarity'></div>
+    </div>
+{%- endmacro %}
+
+{% macro print(card, USE_EXTERNAL_LINKS, SITEURL) -%}
 {% if USE_EXTERNAL_LINKS %}
-    <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ card.data.image_url }}' />">{{ card.name }}</span> </span></li>
+    <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="{{ popup(card.data.image_url, card) }}">{{ card.name }}</span> </span></li>
 {% else %}
-    <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_path }}' />">{{ card.name }}</span></li>
+    <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="{{ popup( SITEURL + '/' + card.data.image_path, card ) }}">{{ card.name }}</span></li>
 {% endif %}
 {%- endmacro %}
