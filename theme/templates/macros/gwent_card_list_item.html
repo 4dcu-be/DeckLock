@@ -39,8 +39,8 @@
 
 {% macro print(card, USE_EXTERNAL_LINKS, SITEURL) -%}
 {% if USE_EXTERNAL_LINKS %}
-    <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="{{ popup(card.data.image_url, card) }}">{{ card.name }}</span> </span></li>
+    <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="click" data-content="{{ popup(card.data.image_url, card) }}">{{ card.name }}</span> </span></li>
 {% else %}
-    <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="{{ popup( SITEURL + '/' + card.data.image_path, card ) }}">{{ card.name }}</span></li>
+    <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="click" data-content="{{ popup( SITEURL + '/' + card.data.image_path, card ) }}">{{ card.name }}</span></li>
 {% endif %}
 {%- endmacro %}
