@@ -332,6 +332,21 @@
             "rarity": "epic",
             "type": "unit"
         },
+        "Aedirnian Mauler": {
+            "armor": "0",
+            "art_id": "1629j",
+            "body_ability": "Order (Melee): Damage an enemy unit by 2.\n",
+            "category": "Human, Soldier",
+            "color": "bronze",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1629.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1629.jpg",
+            "name": "Aedirnian Mauler",
+            "power": "4",
+            "provision": 4,
+            "rarity": "rare",
+            "type": "unit"
+        },
         "Aen Seidhe Sabre": {
             "armor": "0",
             "art_id": "1987j",
@@ -512,6 +527,21 @@
             "rarity": "legendary",
             "type": "unit"
         },
+        "Ballista": {
+            "armor": "0",
+            "art_id": "1096j",
+            "body_ability": "Deploy: Damage an enemy unit by 1. \nOrder: Damage an enemy unit by 2.\n",
+            "category": "Machine, Siege Engine",
+            "color": "bronze",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1096.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1096.jpg",
+            "name": "Ballista",
+            "power": "3",
+            "provision": 4,
+            "rarity": "common",
+            "type": "unit"
+        },
         "Barnabas Beckenbauer": {
             "armor": "0",
             "art_id": "1576j",
@@ -541,6 +571,36 @@
             "provision": 10,
             "rarity": "epic",
             "type": "unit"
+        },
+        "Bloody Baron": {
+            "armor": "0",
+            "art_id": "1073j",
+            "body_ability": "Formation.\nOrder: Reset a unit.\nInspired: If it was boosted, give it Bleeding for a duration equal to the amount of boost it lost.\n",
+            "category": "Human, Soldier",
+            "color": "gold",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1073.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1073.jpg",
+            "name": "Bloody Baron",
+            "power": "6",
+            "provision": 10,
+            "rarity": "legendary",
+            "type": "unit"
+        },
+        "Boiling Oil": {
+            "armor": "0",
+            "art_id": "1982j",
+            "body_ability": "Damage an enemy unit by 5.\nDeathblow: Purify adjacent units.\n",
+            "category": "Warfare",
+            "color": "bronze",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1982.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1982.jpg",
+            "name": "Boiling Oil",
+            "power": "0",
+            "provision": 5,
+            "rarity": "common",
+            "type": "special"
         },
         "Bomb Heaver": {
             "armor": "0",
@@ -572,6 +632,21 @@
             "rarity": "legendary",
             "type": "special"
         },
+        "Carroballista": {
+            "armor": "0",
+            "art_id": "2026j",
+            "body_ability": "Deploy, Crew: Gain 2 Armor.\nOrder (Ranged): Damage an enemy unit by 2.\n",
+            "category": "Machine, Siege Engine",
+            "color": "bronze",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/2026.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/2026.jpg",
+            "name": "Carroballista",
+            "power": "5",
+            "provision": 5,
+            "rarity": "common",
+            "type": "unit"
+        },
         "Cerys an Craite": {
             "armor": "0",
             "art_id": "1460j",
@@ -585,6 +660,36 @@
             "power": "4",
             "provision": 11,
             "rarity": "legendary",
+            "type": "unit"
+        },
+        "Cintrian Enchantress": {
+            "armor": "0",
+            "art_id": "1711j",
+            "body_ability": "Deploy (Ranged): Give an allied unit Vitality for 2 turns. \nBonded: Give it Vitality for 4 turns instead.\n",
+            "category": "Human, Mage",
+            "color": "bronze",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1711.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1711.jpg",
+            "name": "Cintrian Enchantress",
+            "power": "4",
+            "provision": 4,
+            "rarity": "common",
+            "type": "unit"
+        },
+        "Cintrian Knight": {
+            "armor": "0",
+            "art_id": "1713j",
+            "body_ability": "Deploy (Melee): Damage an enemy unit by 2. \nDeathblow: Gain Vitality for 2 turns.\n",
+            "category": "Human, Knight",
+            "color": "bronze",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1713.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1713.jpg",
+            "name": "Cintrian Knight",
+            "power": "2",
+            "provision": 4,
+            "rarity": "rare",
             "type": "unit"
         },
         "Covenant of Steel": {
@@ -825,6 +930,21 @@
             "power": "4",
             "provision": 8,
             "rarity": "epic",
+            "type": "unit"
+        },
+        "Falibor": {
+            "armor": "0",
+            "art_id": "1000j",
+            "body_ability": "Deploy: Damage an enemy unit by 3.\nDeathblow: Repeat the Deploy ability and decrease the damage by 1.\n",
+            "category": "Human, Soldier",
+            "color": "gold",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1000.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1000.jpg",
+            "name": "Falibor",
+            "power": "7",
+            "provision": 11,
+            "rarity": "legendary",
             "type": "unit"
         },
         "Fangs of the Empire": {
@@ -1157,6 +1277,51 @@
             "rarity": "epic",
             "type": "unit"
         },
+        "Kaedweni Sergeant": {
+            "armor": "0",
+            "art_id": "1094j",
+            "body_ability": "Zeal.\nOrder: Boost an allied unit by 1. \nCharge: 2.\n",
+            "category": "Human, Soldier",
+            "color": "bronze",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1094.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1094.jpg",
+            "name": "Kaedweni Sergeant",
+            "power": "3",
+            "provision": 4,
+            "rarity": "common",
+            "type": "unit"
+        },
+        "Keira Metz": {
+            "armor": "0",
+            "art_id": "1080j",
+            "body_ability": "Deploy: Give adjacent units Vitality for a duration equal to each of their base powers.\n",
+            "category": "Human, Mage",
+            "color": "gold",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1080.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1080.jpg",
+            "name": "Keira Metz",
+            "power": "5",
+            "provision": 9,
+            "rarity": "legendary",
+            "type": "unit"
+        },
+        "Lyrian Scytheman": {
+            "armor": "0",
+            "art_id": "1481j",
+            "body_ability": "Deploy: Boost self by 1 for each boosted allied unit.\n",
+            "category": "Human, Soldier",
+            "color": "bronze",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1481.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1481.jpg",
+            "name": "Lyrian Scytheman",
+            "power": "3",
+            "provision": 4,
+            "rarity": "common",
+            "type": "unit"
+        },
         "Madame Luiza": {
             "armor": "0",
             "art_id": "1898j",
@@ -1412,6 +1577,21 @@
             "rarity": "epic",
             "type": "unit"
         },
+        "Pellar": {
+            "armor": "0",
+            "art_id": "1771j",
+            "body_ability": "Deploy: Purify a unit.\n",
+            "category": "Human",
+            "color": "bronze",
+            "faction": "neutral",
+            "image_path": "assets/gwent/cards/1771.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1771.jpg",
+            "name": "Pellar",
+            "power": "4",
+            "provision": 5,
+            "rarity": "rare",
+            "type": "unit"
+        },
         "Percival Schuttenbach": {
             "armor": "2",
             "art_id": "1920j",
@@ -1457,6 +1637,21 @@
             "rarity": "legendary",
             "type": "unit"
         },
+        "Philippa: Blind Fury": {
+            "armor": "0",
+            "art_id": "1076j",
+            "body_ability": "Deploy: Damage an enemy unit by 4, then damage a random enemy unit by 3,2,1.\n",
+            "category": "Human, Mage",
+            "color": "gold",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1076.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1076.jpg",
+            "name": "Philippa: Blind Fury",
+            "power": "1",
+            "provision": 12,
+            "rarity": "legendary",
+            "type": "unit"
+        },
         "Pickpocket": {
             "armor": "0",
             "art_id": "1903j",
@@ -1471,6 +1666,51 @@
             "provision": 6,
             "rarity": "epic",
             "type": "special"
+        },
+        "Prince Ans\u00e9is": {
+            "armor": "0",
+            "art_id": "1766j",
+            "body_ability": "Formation.\nOrder: Damage an enemy unit by 4.\nInspired: Duel an enemy unit instead.\n",
+            "category": "Human, Knight",
+            "color": "gold",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1766.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1766.jpg",
+            "name": "Prince Ans\u00e9is",
+            "power": "4",
+            "provision": 10,
+            "rarity": "legendary",
+            "type": "unit"
+        },
+        "Radeyah": {
+            "armor": "0",
+            "art_id": "2002j",
+            "body_ability": "If your starting deck has no duplicates,\nDeploy (Melee): Spawn your faction stratagem in this row.\nDeploy (Ranged): Create Neutral stratagem in this row.\n",
+            "category": "Human, Mage",
+            "color": "gold",
+            "faction": "neutral",
+            "image_path": "assets/gwent/cards/2002.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/2002.jpg",
+            "name": "Radeyah",
+            "power": "8",
+            "provision": 12,
+            "rarity": "legendary",
+            "type": "unit"
+        },
+        "Radovid's Royal Guards": {
+            "armor": "0",
+            "art_id": "1817j",
+            "body_ability": "Formation.\nOrder: Boost an allied unit by 2.\nInspired: Give it 2 Armor.\n",
+            "category": "Human, Soldier",
+            "color": "bronze",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1817.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1817.jpg",
+            "name": "Radovid's Royal Guards",
+            "power": "3",
+            "provision": 4,
+            "rarity": "rare",
+            "type": "unit"
         },
         "Raiding Fleet": {
             "armor": "0",
@@ -1517,6 +1757,21 @@
             "rarity": "common",
             "type": "unit"
         },
+        "Redanian Knight": {
+            "armor": "2",
+            "art_id": "1107j",
+            "body_ability": "Barricade (Ranged): At the end of every allied turn, boost self by 1.\nExposed: Move self to the melee row, then damage the strongest enemy unit by 2.\n",
+            "category": "Human, Soldier, Knight",
+            "color": "bronze",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1107.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1107.jpg",
+            "name": "Redanian Knight",
+            "power": "1",
+            "provision": 4,
+            "rarity": "common",
+            "type": "unit"
+        },
         "Regis: Bloodlust": {
             "armor": "0",
             "art_id": "1695j",
@@ -1529,6 +1784,21 @@
             "name": "Regis: Bloodlust",
             "power": "4",
             "provision": 10,
+            "rarity": "legendary",
+            "type": "unit"
+        },
+        "Reynard Odo": {
+            "armor": "0",
+            "art_id": "1479j",
+            "body_ability": "Deploy: Boost adjacent units by 1.\nWhenever you play a unit boost it by 1.\n",
+            "category": "Human, Knight",
+            "color": "gold",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1479.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1479.jpg",
+            "name": "Reynard Odo",
+            "power": "6",
+            "provision": 9,
             "rarity": "legendary",
             "type": "unit"
         },
@@ -1667,6 +1937,21 @@
             "rarity": "rare",
             "type": "unit"
         },
+        "Siege Tower": {
+            "armor": "0",
+            "art_id": "1099j",
+            "body_ability": "Deploy: Gain Vitality for 3 turns.\nCrew: Boost self by 3 instead.\n",
+            "category": "Machine, Siege Engine",
+            "color": "bronze",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1099.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1099.jpg",
+            "name": "Siege Tower",
+            "power": "4",
+            "provision": 5,
+            "rarity": "rare",
+            "type": "unit"
+        },
         "Sigi Reuven": {
             "armor": "0",
             "art_id": "1850j",
@@ -1757,6 +2042,21 @@
             "rarity": "common",
             "type": "special"
         },
+        "Surrender": {
+            "armor": "0",
+            "art_id": "1930j",
+            "body_ability": "Remove 2 Armor from all units in a row and damage them by 2.\n",
+            "category": "\u00a0",
+            "color": "gold",
+            "faction": "neutral",
+            "image_path": "assets/gwent/cards/1930.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1930.jpg",
+            "name": "Surrender",
+            "power": "0",
+            "provision": 8,
+            "rarity": "epic",
+            "type": "special"
+        },
         "Svalblod Priest": {
             "armor": "0",
             "art_id": "1455j",
@@ -1816,6 +2116,21 @@
             "provision": 0,
             "rarity": "legendary",
             "type": "stratagem"
+        },
+        "Temple Guard": {
+            "armor": "0",
+            "art_id": "1743j",
+            "body_ability": "Deploy (Melee): Boost 3 adjacent allied units by 1.\n",
+            "category": "Human, Soldier, Firesworn",
+            "color": "bronze",
+            "faction": "syndicate",
+            "image_path": "assets/gwent/cards/1743.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1743.jpg",
+            "name": "Temple Guard",
+            "power": "3",
+            "provision": 4,
+            "rarity": "common",
+            "type": "unit"
         },
         "Terror Crew Plunderer": {
             "armor": "1",
@@ -1967,6 +2282,36 @@
             "rarity": "epic",
             "type": "unit"
         },
+        "Tridam Infantry": {
+            "armor": "0",
+            "art_id": "1459j",
+            "body_ability": "Whenever this unit receives a boost, damage a random enemy unit by 1.\n",
+            "category": "Human, Soldier",
+            "color": "bronze",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1459.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1459.jpg",
+            "name": "Tridam Infantry",
+            "power": "4",
+            "provision": 4,
+            "rarity": "common",
+            "type": "unit"
+        },
+        "Uprising": {
+            "armor": "0",
+            "art_id": "2285j",
+            "body_ability": "Order: Boost an allied unit by 1. Charge: 3\nOnce all Charges are used up, Spawn and play Lyrian Scytheman.\n\nThis ability adds 14 provisions to your deck's provision limit.\n",
+            "category": "Leader",
+            "color": "leader",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/2285.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/2285.jpg",
+            "name": "Uprising",
+            "power": "0",
+            "provision": 14,
+            "rarity": "legendary",
+            "type": "ability"
+        },
         "Ursine Ritual": {
             "armor": "0",
             "art_id": "1665j",
@@ -2040,6 +2385,21 @@
             "power": "5",
             "provision": 11,
             "rarity": "legendary",
+            "type": "unit"
+        },
+        "Vissegerd": {
+            "armor": "0",
+            "art_id": "1718j",
+            "body_ability": "Formation.\nDeploy: Gain Charges equal to the number of boosted allied units.\nOrder: Damage an enemy unit by 1.\nCharge: 1.\n",
+            "category": "Human, Knight",
+            "color": "gold",
+            "faction": "northern_realms",
+            "image_path": "assets/gwent/cards/1718.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1718.jpg",
+            "name": "Vissegerd",
+            "power": "5",
+            "provision": 8,
+            "rarity": "epic",
             "type": "unit"
         },
         "Vivaldi Bank": {

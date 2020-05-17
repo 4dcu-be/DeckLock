@@ -35,14 +35,16 @@ def parse_card_data(card_data, card_name):
     soup = BeautifulSoup(card_data, 'html.parser')
 
     index = -1
+    results = []
 
     # In case there are multiple results find exact match
     for ix, result in enumerate(soup.find_all("div", class_="card-name")):
+        results.append(result)
         if card_name.lower() == str(result.text).lower():
             index = ix
 
     if index < 0:
-        print(f"ERROR: {card_name} not found!")
+        print(f"ERROR: {card_name} not found in {results}!")
         quit()
 
     card_attributes = soup.find_all("div", class_="card-wrap card-data")[index]
@@ -171,7 +173,7 @@ class GwentReader(BaseReader):
         leader = None
         stratagem = None
 
-        with open(filename, "r") as fin:
+        with open(filename, "r", encoding='utf-8') as fin:
             for line in fin:
                 if line.startswith("//"):
                     tag, value = parse_meta(line)

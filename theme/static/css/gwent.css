@@ -30,6 +30,10 @@
     background-image: url('../img/gwent/banner-leader-nt.png');
 }
 
+.gcard.leader.northern_realms .gcard__banner {
+    background-image: url('../img/gwent/banner-leader-nr.png');
+}
+
 .gcard.leader.nilfgaard .gcard__banner {
     background-image: url('../img/gwent/banner-leader-ng.png');
 }
@@ -52,6 +56,10 @@
 
 .gcard.neutral .gcard__banner {
     background-image: url('../img/gwent/banner-nt.png');
+}
+
+.gcard.northern_realms .gcard__banner {
+    background-image: url('../img/gwent/banner-nr.png');
 }
 
 .gcard.nilfgaard .gcard__banner {
@@ -149,6 +157,11 @@
 .gcard.neutral .gcard__provision {
     background-image: url('../img/gwent/provision-nt.png');
 }
+
+.gcard.northern_realms .gcard__provision {
+    background-image: url('../img/gwent/provision-nr.png');
+}
+
 .gcard.scoiatael .gcard__provision {
     background-image: url('../img/gwent/provision-st.png');
 }
@@ -202,6 +215,14 @@
     color: black;
     text-align: center;
     font-weight: 400;
+}
+
+.gcard.artifact .gcard__trinket {
+    background-image: url('../img/gwent/trinket-artifact.png');
+}
+
+.gcard.stratagem .gcard__trinket {
+    background-image: url('../img/gwent/trinket-stratagem.png');
 }
 
 .gcard.leader .gcard__trinket {
