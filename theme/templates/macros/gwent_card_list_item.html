@@ -1,24 +1,39 @@
 {% macro popup(image_path, card) -%}
-    <div class='gcard {{ card.data.rarity }} {{ card.data.faction }} {{ card.data.color}} {{ card.data.type}}'>
-        <img class='popup-card-image' src='{{ image_path }}' />
-        <div class='gcard__border'></div>
-        <div class='gcard__banner'>{% if card.data.color != 'leader' -%}{{ card.data.power }}{%- endif %}</div>
-        {% if card.data.armor|int > 0 %}
-            <div class='gcard__armor'>{{ card.data.armor}}</div>
-        {% endif %}
-        {% if card.data.color == 'leader' %}
-        <div class='gcard__trinket'></div>
-        <div class='gcard__mulligan'><span>{{ card.data.provision }}</span></div>
-        {% else %}
-            {% if card.data.type == 'artifact' or card.data.type == 'stratagem' %}
-            <div class='gcard__trinket'></div>
-            {% endif %}
-            {% if card.data.type != 'stratagem' %}
-            <div class='gcard__provision-img'></div>
-            <div class='gcard__provision'>{{ card.data.provision }}</div>
-            {% endif %}
-        {% endif %}
-        <div class='gcard__rarity'></div>
+    <div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard {{ card.data.rarity }} {{ card.data.faction }} {{ card.data.color}} {{ card.data.type}}'>
+                    <img class='popup-card-image' src='{{ image_path }}' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'>{% if card.data.color != 'leader' -%}{{ card.data.power }}{%- endif %}</div>
+                    {% if card.data.armor|int > 0 %}
+                        <div class='gcard__armor'>{{ card.data.armor}}</div>
+                    {% endif %}
+                    {% if card.data.color == 'leader' %}
+                    <div class='gcard__trinket'></div>
+                    <div class='gcard__mulligan'><span>{{ card.data.provision }}</span></div>
+                    {% else %}
+                        {% if card.data.type == 'artifact' or card.data.type == 'stratagem' %}
+                        <div class='gcard__trinket'></div>
+                        {% endif %}
+                        {% if card.data.type != 'stratagem' %}
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>{{ card.data.provision }}</div>
+                        {% endif %}
+                    {% endif %}
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description {{ card.data.rarity }} {{ card.data.faction }} {{ card.data.color}} {{ card.data.type}}'>
+                <div class='gcard__name'>{{ card.data.name }}</div>
+                {% if card.data.category != '' %}
+                <div class='gcard__category'>{{ card.data.category }}</div>
+                {% endif %}
+                <div class='gcard__body'>{{ card.data.body_ability_html|replace("\"", "'") }}</div>
+            </div>
+        </div>
     </div>
 {%- endmacro %}
 

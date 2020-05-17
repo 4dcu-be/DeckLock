@@ -66,6 +66,7 @@ def parse_card_data(card_data, card_name):
         'rarity': card_attributes.get('data-rarity'),
         'category': card_category.text,
         'body_ability': card_body_ability.text,
+        'body_ability_html': str(card_body_ability),
         'image_url': image_url
     }
 
