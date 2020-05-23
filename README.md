@@ -54,6 +54,51 @@ SITEURL = "https://4dcu.be/DeckLock"
 ```
 ## Adding Games
 
+Before adding a game, make sure the desired games are enabled in pelicanconf.py
+
+```python
+GWENT_ENABLED = True
+KEYFORGE_ENABLED = True
+MTG_ENABLED = True
+```
+The sections below show how to add decks for the various games.
+
+### Gwent
+
+To add a Gwent Deck, put a text file with a .gwent extension in the content folder.
+The file needs to be structured as shown below, the first sections indicate the name
+of the deck, the creator and the Gwent version. Below that there should be a list
+of cards preceded by the number of copies of that card.
+
+```text
+// NAME : Harmony (alt)
+// CREATOR : BUSHr
+// GWENT_VERSION : 6.2.0
+// FACTION : Scoia'tael
+1 Mystic Echo
+1 Tactical Advantage
+1 The Great Oak
+1 Water of Brokilon
+1 Call of the Forest
+1 Barnabas Beckenbauer
+1 Figgis Merluzzo
+1 Pavko Gale
+1 Toruviel
+1 Fauve
+1 Treant Boar
+1 Weeping Willow
+1 Hawker Smuggler
+1 Nature's Rebuke
+2 Forest Whisperer
+2 Dryad Ranger
+1 Dwarven Chariot
+2 Trained Hawk
+1 Dwarven Skirmisher
+2 Dol Blathanna Bowman
+1 Miner
+2 Mahakam Marauder
+```
+
 ### Decks of KeyForge API Key
 
 If you want to include deck statistics from [Decks of KeyForge] you'll have to create an account and get an API key from
