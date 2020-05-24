@@ -1042,6 +1042,22 @@
             "rarity": "legendary",
             "type": "unit"
         },
+        "Ferko the Sculptor": {
+            "armor": "0",
+            "art_id": "1867j",
+            "body_ability": "Deploy (Melee): Play a Crime from your deck.\n",
+            "body_ability_html": "<div class=\"card-body-ability\"><span class=\"keyword deploy\">Deploy</span> (<span class=\"keyword melee\">Melee</span>): Play a Crime from your deck.<br/>\n</div>",
+            "category": "Dwarf, Crownsplitters",
+            "color": "gold",
+            "faction": "syndicate",
+            "image_path": "assets/gwent/cards/1867.jpg",
+            "image_url": "https://gwent.one/image/card/medium/aid/jpg/1867.jpg",
+            "name": "Ferko the Sculptor",
+            "power": "2",
+            "provision": 8,
+            "rarity": "legendary",
+            "type": "unit"
+        },
         "Ffion var Gaernel": {
             "armor": "2",
             "art_id": "1935j",

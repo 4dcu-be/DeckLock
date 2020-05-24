@@ -208,7 +208,24 @@ class GwentReader(BaseReader):
         metadata["url"] = f"gwent/{metadata['gwent_version']}/{metadata['slug']}/"
         metadata["save_as"] = f"{metadata['url']}index.html"
 
-        parsed = {}
+        parsed = {'provisions': 0,
+                  'units': 0,
+                  'scraps': 0,
+                  'cards': sum([c['count'] for c in deck_data])}
+
+        for card in deck_data + [stratagem]:
+            parsed['provisions'] += card['data']['provision'] * card['count']
+            if card['data']['type'] == 'unit':
+                parsed['units'] += card['count']
+            if card['data']['rarity'] == 'legendary':
+                parsed['scraps'] += 800 * card['count']
+            elif card['data']['rarity'] == 'epic':
+                parsed['scraps'] += 200 * card['count']
+            elif card['data']['rarity'] == 'rare':
+                parsed['scraps'] += 80 * card['count']
+            else:
+                parsed['scraps'] += 30 * card['count']
+
         for key, value in metadata.items():
             parsed[key] = self.process_metadata(key, value)
 
