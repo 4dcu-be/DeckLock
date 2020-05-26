@@ -6,25 +6,24 @@
 
 <div class="row">
 {% if GWENT_ENABLED %}
-    <div class="col">
-        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;margin-left:auto;margin-right:auto">
             <div class="card-header">Gwent: <strong>{{ articles|selectattr("category", "equalto", "Gwent_Deck")|list|length  }}</strong> decks</div>
             <a href="{{ SITEURL }}/gwent.html"><img src="{{ SITEURL }}/theme/img/DeckLock_gwent_small.jpg" class="card-img-top" alt="DeckLock logo in Gwent style" /></a>
         </div>
     </div>
 {% endif %}
 {% if KEYFORGE_ENABLED %}
-    <div class="col">
-        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;margin-left:auto;margin-right:auto">
             <div class="card-header">KeyForge: <strong>{{ KEYFORGE_DECK_COUNT }}</strong> decks</div>
             <a href="{{ SITEURL }}/{{ KEYFORGE_DECKS_SAVE_AS }}"><img src="{{ SITEURL }}/theme/img/DeckLock_kf_bg_small.png" class="card-img-top" alt="DeckLock logo in KeyForge style" /></a>
         </div>
     </div>
 {% endif %}
-
 {% if MTG_ENABLED %}
-    <div class="col">
-        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;margin-left:auto;margin-right:auto">
             <div class="card-header">Magic:the Gathering : <strong>{{ articles|selectattr("category", "equalto", "MTG_Deck")|list|length  }}</strong> decks</div>
             <a href="{{ SITEURL }}/mtg.html"><img src="{{ SITEURL }}/theme/img/DeckLock_mtg_small.png" class="card-img-top" alt="DeckLock logo in Magic: The Gathering style" /></a>
         </div>

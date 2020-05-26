@@ -115,6 +115,28 @@ def get_keyforge_assets(generator, decks_data):
             fetch_image(img_url, img_file_path)
 
 
+def parse_dok_stats(dok_data, dok_decks_data):
+    """
+    The data for a single deck, needs to be compared to summary statistics for all decks in DoK
+
+    :param dok_data: the deck data
+    :param dok_decks_data: summary statistics for all decks
+    :return: dict with stats comparing the current deck to all decks in DoK
+    """
+    fields = ["expectedAmber", "creatureProtection", "amberControl", "artifactControl", "creatureControl", "effectivePower",
+              "disruption", "efficiency"]
+
+    output = {}
+
+    for f in fields:
+        try:
+            output[f] = dok_decks_data[f + "Stats"]["percentileForValue"][str(round(dok_data["deck"][f]))]
+        except:
+            output[f] = 0
+
+    return output
+
+
 def get_keyforge_external_data(generator):
     data = get_keyforge_data(generator)
     dok_api_key = generator.settings.get("DOK_API_KEY", None)
@@ -145,6 +167,7 @@ def get_keyforge_external_data(generator):
 
             current_data[deck["deck_id"]] = {
                 "dok_data": dok_data,
+                "dok_stats": parse_dok_stats(dok_data, current_dok_deck_data),
                 "vault_data": vault_data,
                 "user_data": deck,
             }

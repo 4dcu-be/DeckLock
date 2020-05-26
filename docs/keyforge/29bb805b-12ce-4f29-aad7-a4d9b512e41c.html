@@ -13,6 +13,7 @@
     <meta name="author" content="Sebastian Proost">
 
     <link href="https://4dcu.be/DeckLock/theme/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://4dcu.be/DeckLock/theme/css/Chart.min.css" rel="stylesheet" />
     <link href="https://4dcu.be/DeckLock/theme/css/main.css" rel="stylesheet" />
 
 <link href="https://4dcu.be/DeckLock/theme/css/Chart.min.css" rel="stylesheet" />
@@ -130,14 +131,57 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 top15">
+            <div class="card">
+            <canvas id="radarStats" width="400" height="400"></canvas>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script src="https://4dcu.be/DeckLock/theme/js/jquery-3.3.1.js"></script>
 <script src="https://4dcu.be/DeckLock/theme/js/bootstrap.bundle.min.js"></script>
+<script src="https://4dcu.be/DeckLock/theme/js/Chart.bundle.min.js"></script>
 <script>
 $(function () {
   $('[data-toggle="popover"]').popover({html: true})
 })
+</script>
+<canvas id="myChart" width="400" height="400"></canvas>
+<script>
+var ctx = document.getElementById('radarStats').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'radar',
+    data: {
+        labels: ["Expected Amber", "Creature Protection", "Amber Control", "Artifact Control", "Creature Control", "Effective Power", "Disruption", "Efficiency"],
+        datasets: [{
+            data: [84.0,  0,
+                   12.0,  41.0,
+                   84.0,  15.0,
+                   91.0,  71.0 ],
+            borderColor: 'rgba(0, 188, 140, 0.8)',
+            backgroundColor: 'rgba(0, 188, 140, 0.3)'
+        }]
+    },
+    options: {
+        scale: {
+            angleLines: {
+                display: false
+            },
+            ticks: {
+                display: false,
+                beginAtZero: true,
+                max: 100,
+                min: 0,
+                stepSize: 20
+            }
+        },
+        legend: {
+            display: false
+        }
+    }
+});
 </script>
 </body>
 </html>
