@@ -243,16 +243,40 @@
     font-weight: 400;
 }
 
+.gcard.special .gcard__banner__text {
+    display:none;
+}
+
+.gcard.artifact .gcard__banner__text {
+    display:none;
+}
+
+.gcard.stratagem .gcard__banner__text {
+    display:none;
+}
+
+.gcard.leader .gcard__banner__text {
+    display:none;
+}
+
+.gcard.special .gcard__trinket {
+    background-image: url('../img/gwent/trinket-spell.png');
+    display:block;
+}
+
 .gcard.artifact .gcard__trinket {
     background-image: url('../img/gwent/trinket-artifact.png');
+    display:block;
 }
 
 .gcard.stratagem .gcard__trinket {
     background-image: url('../img/gwent/trinket-stratagem.png');
+    display:block;
 }
 
 .gcard.leader .gcard__trinket {
     background-image: url('../img/gwent/trinket-leader.png');
+    display:block;
 }
 
 .gcard .gcard__trinket {
@@ -264,6 +288,7 @@
     position: absolute;
     top: 4%;
     left: 5.5%;
+    display:none;
 }
 
 .gcard .gcard__mulligan {
