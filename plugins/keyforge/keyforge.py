@@ -78,8 +78,7 @@ def get_dok_deck_stats(api_key):
 
     api_headers = {"Api-Key": api_key}
     r = requests.get(
-        f"https://decksofkeyforge.com/public-api/v1/stats",
-        headers=api_headers,
+        f"https://decksofkeyforge.com/public-api/v1/stats", headers=api_headers,
     )
 
     return r.json()
@@ -123,14 +122,24 @@ def parse_dok_stats(dok_data, dok_decks_data):
     :param dok_decks_data: summary statistics for all decks
     :return: dict with stats comparing the current deck to all decks in DoK
     """
-    fields = ["expectedAmber", "creatureProtection", "amberControl", "artifactControl", "creatureControl", "effectivePower",
-              "disruption", "efficiency"]
+    fields = [
+        "expectedAmber",
+        "creatureProtection",
+        "amberControl",
+        "artifactControl",
+        "creatureControl",
+        "effectivePower",
+        "disruption",
+        "efficiency",
+    ]
 
     output = {}
 
     for f in fields:
         try:
-            output[f] = dok_decks_data[f + "Stats"]["percentileForValue"][str(round(dok_data["deck"][f]))]
+            output[f] = dok_decks_data[f + "Stats"]["percentileForValue"][
+                str(round(dok_data["deck"][f]))
+            ]
         except:
             output[f] = 0
 
@@ -157,7 +166,13 @@ def get_keyforge_external_data(generator):
     else:
         current_dok_deck_data = get_dok_deck_stats(dok_api_key)
         with open(dok_decks_cache_path, "w") as fout:
-            json.dump(current_dok_deck_data, fout, sort_keys=True, indent=4, separators=(",", ": "))
+            json.dump(
+                current_dok_deck_data,
+                fout,
+                sort_keys=True,
+                indent=4,
+                separators=(",", ": "),
+            )
 
     for deck in data:
         if deck["deck_id"] not in current_data.keys():

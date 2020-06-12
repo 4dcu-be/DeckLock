@@ -2,6 +2,17 @@
 # -*- coding: utf-8 -*- #
 from dotenv import load_dotenv
 import os
+from markdown import Markdown
+markdown = Markdown(extensions=['markdown.extensions.extra'])
+
+
+def md(content, *args):
+    return markdown.convert(content)
+
+
+JINJA_FILTERS = {
+    'md': md,
+}
 
 load_dotenv()
 
@@ -67,10 +78,7 @@ GWENT_PATH = "data"
 GWENT_ASSETS_PATH = "assets/gwent"
 GWENT_CURRENT_VERSION = "6.2.0"
 
-TEMPLATE_PAGES = {
-    "gwent_overview.html": "gwent.html",
-    "mtg_overview.html": "mtg.html"
-}
+TEMPLATE_PAGES = {"gwent_overview.html": "gwent.html", "mtg_overview.html": "mtg.html"}
 
 # When set to true, external links to KeyForge/M:tG/Gwent card images will be used
 USE_EXTERNAL_LINKS = False

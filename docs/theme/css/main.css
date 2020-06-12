@@ -23,3 +23,7 @@
     padding-inline-start: 0px;
     list-style: none;
 }
+
+.plot {
+    padding: 15px;
+}

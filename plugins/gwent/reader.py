@@ -11,6 +11,7 @@ from time import sleep
 import posixpath
 from plugins.utils import fetch_image
 from pelican.utils import slugify
+from itertools import accumulate
 
 
 def get_local_card_img_path(assets_cards_path, url):
@@ -32,7 +33,7 @@ def parse_card_line(line):
 
 
 def parse_card_data(card_data, card_name):
-    soup = BeautifulSoup(card_data, 'html.parser')
+    soup = BeautifulSoup(card_data, "html.parser")
 
     index = -1
     results = []
@@ -52,36 +53,38 @@ def parse_card_data(card_data, card_name):
     card_category = soup.find_all("div", class_="card-category")[index]
     card_body_ability = soup.find_all("div", class_="card-body-ability")[index]
 
-    image_url = 'https://gwent.one/image/card/medium/aid/jpg/%d.jpg' % int(card_attributes.get('data-artid').replace('j',''))
+    image_url = "https://gwent.one/image/card/medium/aid/jpg/%d.jpg" % int(
+        card_attributes.get("data-artid").replace("j", "")
+    )
 
     output = {
-        'name': card_name.text,
-        'art_id': card_attributes.get('data-artid'),
-        'power': card_attributes.get('data-power'),
-        'armor': card_attributes.get('data-armor'),
-        'provision': int(card_attributes.get('data-provision')),
-        'faction': card_attributes.get('data-faction'),
-        'color': card_attributes.get('data-color'),
-        'type': card_attributes.get('data-type'),
-        'rarity': card_attributes.get('data-rarity'),
-        'category': card_category.text,
-        'body_ability': card_body_ability.text,
-        'body_ability_html': str(card_body_ability),
-        'image_url': image_url
+        "name": card_name.text,
+        "art_id": card_attributes.get("data-artid"),
+        "power": card_attributes.get("data-power"),
+        "armor": card_attributes.get("data-armor"),
+        "provision": int(card_attributes.get("data-provision")),
+        "faction": card_attributes.get("data-faction"),
+        "color": card_attributes.get("data-color"),
+        "type": card_attributes.get("data-type"),
+        "rarity": card_attributes.get("data-rarity"),
+        "category": card_category.text,
+        "body_ability": card_body_ability.text,
+        "body_ability_html": str(card_body_ability),
+        "image_url": image_url,
     }
 
     return output
 
 
 def get_card_data(card_name, card_version, sleep_time=0.1):
-    gwent_one_endpoint = 'https://gwent.one/search/abilities'
+    gwent_one_endpoint = "https://gwent.one/search/abilities"
 
     post_data = {
-        'q': card_name,
-        'version': card_version,
-        'Token': 1,
-        'view': 'sCard',
-        'language': 'en'
+        "q": card_name,
+        "version": card_version,
+        "Token": 1,
+        "view": "sCard",
+        "language": "en",
     }
 
     r = requests.post(gwent_one_endpoint, data=post_data)
@@ -135,7 +138,9 @@ class GwentReader(BaseReader):
     def gwent_assets_cards_path(self, full=False):
         if full:
             return posixpath.join(
-                self.settings.get("PATH"), self.settings.get("GWENT_ASSETS_PATH"), "cards"
+                self.settings.get("PATH"),
+                self.settings.get("GWENT_ASSETS_PATH"),
+                "cards",
             )
         else:
             return posixpath.join(self.settings.get("GWENT_ASSETS_PATH"), "cards")
@@ -171,14 +176,19 @@ class GwentReader(BaseReader):
         }
 
         deck_data = []
+        description = []
         leader = None
         stratagem = None
 
-        with open(filename, "r", encoding='utf-8') as fin:
+        with open(filename, "r", encoding="utf-8") as fin:
             for line in fin:
                 if line.startswith("//"):
                     tag, value = parse_meta(line)
                     metadata[tag.lower()] = value
+                elif line.startswith("---"):
+                    # This is the description, read until end of file
+                    for dl in fin:
+                        description.append(dl.strip())
                 elif line.strip() != "":
                     card_count, card_name = parse_card_line(line)
                     card_version = metadata["gwent_version"]
@@ -187,12 +197,17 @@ class GwentReader(BaseReader):
                     card_data = {
                         "name": card_name,
                         "count": card_count,
-                        "data": self.cached_data[card_version][card_name]
+                        "data": self.cached_data[card_version][card_name],
                     }
 
-                    if self.cached_data[card_version][card_name]["category"] == "Leader":
+                    if (
+                        self.cached_data[card_version][card_name]["category"]
+                        == "Leader"
+                    ):
                         leader = card_data
-                    elif self.cached_data[card_version][card_name]["type"] == "stratagem":
+                    elif (
+                        self.cached_data[card_version][card_name]["type"] == "stratagem"
+                    ):
                         stratagem = card_data
                     else:
                         deck_data.append(card_data)
@@ -201,30 +216,32 @@ class GwentReader(BaseReader):
 
         metadata["title"] = metadata["name"]
         metadata["slug"] = slugify(
-            metadata["title"] + '_' + metadata["gwent_version"],
+            metadata["title"] + "_" + metadata["gwent_version"],
             regex_subs=self.settings.get("SLUG_REGEX_SUBSTITUTIONS", []),
         )
-
+        metadata["description"] = "\n".join(description)
         metadata["url"] = f"gwent/{metadata['gwent_version']}/{metadata['slug']}/"
         metadata["save_as"] = f"{metadata['url']}index.html"
 
-        parsed = {'provisions': 0,
-                  'units': 0,
-                  'scraps': 0,
-                  'cards': sum([c['count'] for c in deck_data])}
+        parsed = {
+            "provisions": 0,
+            "units": 0,
+            "scraps": 0,
+            "cards": sum([c["count"] for c in deck_data]),
+        }
 
         for card in deck_data + [stratagem]:
-            parsed['provisions'] += card['data']['provision'] * card['count']
-            if card['data']['type'] == 'unit':
-                parsed['units'] += card['count']
-            if card['data']['rarity'] == 'legendary':
-                parsed['scraps'] += 800 * card['count']
-            elif card['data']['rarity'] == 'epic':
-                parsed['scraps'] += 200 * card['count']
-            elif card['data']['rarity'] == 'rare':
-                parsed['scraps'] += 80 * card['count']
+            parsed["provisions"] += card["data"]["provision"] * card["count"]
+            if card["data"]["type"] == "unit":
+                parsed["units"] += card["count"]
+            if card["data"]["rarity"] == "legendary":
+                parsed["scraps"] += 800 * card["count"]
+            elif card["data"]["rarity"] == "epic":
+                parsed["scraps"] += 200 * card["count"]
+            elif card["data"]["rarity"] == "rare":
+                parsed["scraps"] += 80 * card["count"]
             else:
-                parsed['scraps'] += 30 * card['count']
+                parsed["scraps"] += 30 * card["count"]
 
         for key, value in metadata.items():
             parsed[key] = self.process_metadata(key, value)
@@ -232,6 +249,23 @@ class GwentReader(BaseReader):
         parsed["deck"] = deck_data
         parsed["leader"] = leader
         parsed["stratagem"] = stratagem
+
+        parsed["stats"] = {
+            "provisions": [],
+            "cumulative_provisions": [],
+            "card_colors": [],
+            "labels": [],
+        }
+
+        for card in sorted(deck_data, key=lambda x: x["data"]["provision"]):
+            for _ in range(card["count"]):
+                parsed["stats"]["provisions"].append(int(card["data"]["provision"]))
+                parsed["stats"]["card_colors"].append(card["data"]["color"])
+                parsed["stats"]["labels"].append(card["data"]["name"])
+
+        parsed["stats"]["cumulative_provisions"] = list(
+            accumulate(parsed["stats"]["provisions"])
+        )
 
         return "", parsed
 
