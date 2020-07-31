@@ -213,4 +213,11 @@ DeckLock includes a *make release* command which will write the final version of
 On GitHub you can specify that this folder is used for the project pages, enable this in the settings and you'll have
 free hosting to show off the decks you have in your card game collection.
 
+## Legal
+
+Decklock is unofficial Fan Content. The literal and graphical information presented in this project about Gwent, KeyForge and 
+Magic: The Gathering, are copyright of CDPR, Fantasy Flight Games and Wizards of the Coast, LLC, a subsidiary of Hasbro, 
+Inc. respectively. DeckLock and 4DCu.be are not produced by, endorsed by, supported by, or affiliated with any of these
+entities.
+
 [Decks of KeyForge]: https://decksofkeyforge.com/

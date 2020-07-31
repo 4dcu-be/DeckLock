@@ -750,6 +750,122 @@
             "uri": "https://api.scryfall.com/cards/bd3d4b4b-cf31-4f89-8140-9650edb03c7b",
             "variation": false
         },
+        "Apostle of Purifying Light": {
+            "arena_id": 69791,
+            "artist": "Bastien L. Deharme",
+            "artist_ids": [
+                "798f63ec-41ad-474e-9708-df08193345c6"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 2.0,
+            "collector_number": "6",
+            "color_identity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "digital": false,
+            "edhrec_rank": 10708,
+            "flavor_text": "Waves of gloom crash in vain against his unyielding light.",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "62f69602-b5fd-46d6-8dae-d77df35e378c",
+            "illustration_id": "28a7a3f3-be43-46ba-a1c5-5ac58e48430e",
+            "image_path": "assets/mtg/cards/62f69602-b5fd-46d6-8dae-d77df35e378c.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/6/2/62f69602-b5fd-46d6-8dae-d77df35e378c.jpg?1592515963",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/6/2/62f69602-b5fd-46d6-8dae-d77df35e378c.jpg?1592515963",
+                "large": "https://img.scryfall.com/cards/large/front/6/2/62f69602-b5fd-46d6-8dae-d77df35e378c.jpg?1592515963",
+                "normal": "https://img.scryfall.com/cards/normal/front/6/2/62f69602-b5fd-46d6-8dae-d77df35e378c.jpg?1592515963",
+                "png": "https://img.scryfall.com/cards/png/front/6/2/62f69602-b5fd-46d6-8dae-d77df35e378c.png?1592515963",
+                "small": "https://img.scryfall.com/cards/small/front/6/2/62f69602-b5fd-46d6-8dae-d77df35e378c.jpg?1592515963"
+            },
+            "keywords": [
+                "Protection"
+            ],
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "not_legal",
+                "penny": "not_legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{1}{W}",
+            "mtgo_id": 72911,
+            "multiverse_ids": [
+                466760
+            ],
+            "name": "Apostle of Purifying Light",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "0b49dbdc-4f1d-4895-b263-a48c7b7e6b44",
+            "oracle_text": "Protection from black (This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything black.)\n{2}: Exile target card from a graveyard.",
+            "oversized": false,
+            "power": "2",
+            "preview": {
+                "previewed_at": "2019-06-24",
+                "source": "Card Kingdom",
+                "source_uri": "https://blog.cardkingdom.com/purifying-light-the-role-of-protection-in-magic"
+            },
+            "prices": {
+                "eur": "0.09",
+                "tix": "0.04",
+                "usd": "0.14",
+                "usd_foil": "0.63"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A0b49dbdc-4f1d-4895-b263-a48c7b7e6b44&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/72911?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Core-2020/Apostle-of-Purifying-Light?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=192822&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "uncommon",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Apostle+of+Purifying+Light",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=466760",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Apostle+of+Purifying+Light",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Apostle+of+Purifying+Light&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2019-07-12",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/62f69602-b5fd-46d6-8dae-d77df35e378c/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/m20?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/m20/6/apostle-of-purifying-light?utm_source=api",
+            "set": "m20",
+            "set_name": "Core Set 2020",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Am20&unique=prints",
+            "set_type": "core",
+            "set_uri": "https://api.scryfall.com/sets/4a787360-9767-4f44-80b1-2405dc5e39c7",
+            "story_spotlight": false,
+            "tcgplayer_id": 192822,
+            "textless": false,
+            "toughness": "1",
+            "type_line": "Creature \u2014 Human Cleric",
+            "uri": "https://api.scryfall.com/cards/62f69602-b5fd-46d6-8dae-d77df35e378c",
+            "variation": false
+        },
         "Aquamoeba": {
             "artist": "Arnie Swekel",
             "artist_ids": [
@@ -3079,6 +3195,120 @@
             "toughness": "3",
             "type_line": "Creature \u2014 Giant",
             "uri": "https://api.scryfall.com/cards/09fd2d9c-1793-4beb-a3fb-7a869f660cd4",
+            "variation": false
+        },
+        "Boon of the Wish-Giver": {
+            "arena_id": 71110,
+            "artist": "Chris Rahn",
+            "artist_ids": [
+                "7742047e-0f80-4c0f-a530-d07460165e86"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 6.0,
+            "collector_number": "43",
+            "color_identity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "digital": false,
+            "edhrec_rank": 6009,
+            "flavor_text": "\"There is no law of nature that I have not seen Illuna break. Makes you wonder what is truly possible, does it not?\"\n\u2014Rielle, the Everwise",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "0e790851-f0f7-4f1a-80e6-94be649499b6",
+            "illustration_id": "94b2393d-76f7-4e30-8348-804fcacd2ec9",
+            "image_path": "assets/mtg/cards/0e790851-f0f7-4f1a-80e6-94be649499b6.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/0/e/0e790851-f0f7-4f1a-80e6-94be649499b6.jpg?1591230467",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/0/e/0e790851-f0f7-4f1a-80e6-94be649499b6.jpg?1591230467",
+                "large": "https://img.scryfall.com/cards/large/front/0/e/0e790851-f0f7-4f1a-80e6-94be649499b6.jpg?1591230467",
+                "normal": "https://img.scryfall.com/cards/normal/front/0/e/0e790851-f0f7-4f1a-80e6-94be649499b6.jpg?1591230467",
+                "png": "https://img.scryfall.com/cards/png/front/0/e/0e790851-f0f7-4f1a-80e6-94be649499b6.png?1591230467",
+                "small": "https://img.scryfall.com/cards/small/front/0/e/0e790851-f0f7-4f1a-80e6-94be649499b6.jpg?1591230467"
+            },
+            "keywords": [
+                "Cycling"
+            ],
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "not_legal",
+                "penny": "legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{4}{U}{U}",
+            "mtgo_id": 80095,
+            "multiverse_ids": [
+                479563
+            ],
+            "name": "Boon of the Wish-Giver",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "1720d38a-c3c1-4294-85c1-a91fc7179d6f",
+            "oracle_text": "Draw four cards.\nCycling {1} ({1}, Discard this card: Draw a card.)",
+            "oversized": false,
+            "preview": {
+                "previewed_at": "2020-04-03",
+                "source": "Paulo Vitor Damo da Rosa",
+                "source_uri": "https://twitter.com/PVDDR/status/1246107166009942016"
+            },
+            "prices": {
+                "eur": "0.11",
+                "tix": "0.01",
+                "usd": "0.13",
+                "usd_foil": "0.46"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A1720d38a-c3c1-4294-85c1-a91fc7179d6f&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/80095?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ikoria-Lair-of-Behemoths/Boon-of-the-Wish-Giver?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=212118&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "uncommon",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Boon+of+the+Wish-Giver",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479563",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Boon+of+the+Wish-Giver",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Boon+of+the+Wish-Giver&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2020-04-24",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/0e790851-f0f7-4f1a-80e6-94be649499b6/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/iko?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/iko/43/boon-of-the-wish-giver?utm_source=api",
+            "set": "iko",
+            "set_name": "Ikoria: Lair of Behemoths",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aiko&unique=prints",
+            "set_type": "expansion",
+            "set_uri": "https://api.scryfall.com/sets/19feda43-15ab-427e-a0e4-148a4bf2b03a",
+            "story_spotlight": false,
+            "tcgplayer_id": 212118,
+            "textless": false,
+            "type_line": "Sorcery",
+            "uri": "https://api.scryfall.com/cards/0e790851-f0f7-4f1a-80e6-94be649499b6",
             "variation": false
         },
         "Brainstorm": {
@@ -6718,6 +6948,120 @@
             "uri": "https://api.scryfall.com/cards/11bf83bb-c95b-4b4f-9a56-ce7a1816307a",
             "variation": false
         },
+        "Devout Decree": {
+            "arena_id": 69798,
+            "artist": "Zoltan Boros",
+            "artist_ids": [
+                "1885e6cb-c827-4896-994e-3d0a027d602f"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 2.0,
+            "collector_number": "13",
+            "color_identity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "digital": false,
+            "edhrec_rank": 14148,
+            "flavor_text": "\"It is not punishment. I am simply making things as they should be.\"\n\u2014Sephara, Sky's Blade",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "2dcde8fe-d4a4-4c6e-926e-c4a1b45045e4",
+            "illustration_id": "c3739c82-b81e-47e2-8f97-2c6af070b5b3",
+            "image_path": "assets/mtg/cards/2dcde8fe-d4a4-4c6e-926e-c4a1b45045e4.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/2/d/2dcde8fe-d4a4-4c6e-926e-c4a1b45045e4.jpg?1592516011",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/2/d/2dcde8fe-d4a4-4c6e-926e-c4a1b45045e4.jpg?1592516011",
+                "large": "https://img.scryfall.com/cards/large/front/2/d/2dcde8fe-d4a4-4c6e-926e-c4a1b45045e4.jpg?1592516011",
+                "normal": "https://img.scryfall.com/cards/normal/front/2/d/2dcde8fe-d4a4-4c6e-926e-c4a1b45045e4.jpg?1592516011",
+                "png": "https://img.scryfall.com/cards/png/front/2/d/2dcde8fe-d4a4-4c6e-926e-c4a1b45045e4.png?1592516011",
+                "small": "https://img.scryfall.com/cards/small/front/2/d/2dcde8fe-d4a4-4c6e-926e-c4a1b45045e4.jpg?1592516011"
+            },
+            "keywords": [
+                "Scry"
+            ],
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "not_legal",
+                "penny": "not_legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{1}{W}",
+            "mtgo_id": 72925,
+            "multiverse_ids": [
+                466767
+            ],
+            "name": "Devout Decree",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "92f8c8b1-1fd5-4e80-b8a9-51671937aaf2",
+            "oracle_text": "Exile target creature or planeswalker that's black or red. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+            "oversized": false,
+            "preview": {
+                "previewed_at": "2019-06-17",
+                "source": "AliasV",
+                "source_uri": "https://twitter.com/coL_AliasV/status/1140622890309771264"
+            },
+            "prices": {
+                "eur": "0.12",
+                "tix": "0.04",
+                "usd": "0.15",
+                "usd_foil": "1.64"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A92f8c8b1-1fd5-4e80-b8a9-51671937aaf2&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/72925?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Core-2020/Devout-Decree?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=192525&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "uncommon",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Devout+Decree",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=466767",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Devout+Decree",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Devout+Decree&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2019-07-12",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/2dcde8fe-d4a4-4c6e-926e-c4a1b45045e4/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/m20?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/m20/13/devout-decree?utm_source=api",
+            "set": "m20",
+            "set_name": "Core Set 2020",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Am20&unique=prints",
+            "set_type": "core",
+            "set_uri": "https://api.scryfall.com/sets/4a787360-9767-4f44-80b1-2405dc5e39c7",
+            "story_spotlight": false,
+            "tcgplayer_id": 192525,
+            "textless": false,
+            "type_line": "Sorcery",
+            "uri": "https://api.scryfall.com/cards/2dcde8fe-d4a4-4c6e-926e-c4a1b45045e4",
+            "variation": false
+        },
         "Diabolic Edict": {
             "artist": "Franz Vohwinkel",
             "artist_ids": [
@@ -7228,6 +7572,238 @@
             "textless": false,
             "type_line": "Enchantment \u2014 Aura",
             "uri": "https://api.scryfall.com/cards/d2dae846-2c31-4e1c-ba95-96793cddad98",
+            "variation": false
+        },
+        "Drannith Healer": {
+            "arena_id": 71077,
+            "artist": "Scott Murphy",
+            "artist_ids": [
+                "07c7ac65-dfa6-4273-9c66-ec9d8f3e2226"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 2.0,
+            "collector_number": "10",
+            "color_identity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "digital": false,
+            "edhrec_rank": 9933,
+            "flavor_text": "\"The glowstones shine and dinosaurs roar to the south. Business will be brisk tonight.\"",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "ff5a821c-eaec-4f69-97c7-8299cdebc2f4",
+            "illustration_id": "0befdd9e-2544-4500-9c0f-c1a3bd54849b",
+            "image_path": "assets/mtg/cards/ff5a821c-eaec-4f69-97c7-8299cdebc2f4.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/f/f/ff5a821c-eaec-4f69-97c7-8299cdebc2f4.jpg?1591230232",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/f/f/ff5a821c-eaec-4f69-97c7-8299cdebc2f4.jpg?1591230232",
+                "large": "https://img.scryfall.com/cards/large/front/f/f/ff5a821c-eaec-4f69-97c7-8299cdebc2f4.jpg?1591230232",
+                "normal": "https://img.scryfall.com/cards/normal/front/f/f/ff5a821c-eaec-4f69-97c7-8299cdebc2f4.jpg?1591230232",
+                "png": "https://img.scryfall.com/cards/png/front/f/f/ff5a821c-eaec-4f69-97c7-8299cdebc2f4.png?1591230232",
+                "small": "https://img.scryfall.com/cards/small/front/f/f/ff5a821c-eaec-4f69-97c7-8299cdebc2f4.jpg?1591230232"
+            },
+            "keywords": [
+                "Cycling"
+            ],
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "legal",
+                "penny": "legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{1}{W}",
+            "mtgo_id": 80029,
+            "multiverse_ids": [
+                479530
+            ],
+            "name": "Drannith Healer",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "13e2a2c3-5ab5-4de4-96ca-5f9c72137000",
+            "oracle_text": "Whenever you cycle another card, you gain 1 life.\nCycling {1} ({1}, Discard this card: Draw a card.)",
+            "oversized": false,
+            "power": "2",
+            "preview": {
+                "previewed_at": "2020-04-08",
+                "source": "Kicker",
+                "source_uri": "https://www.kicker.de/1000002052437/video/magic-arena-der-drannithische-heiler"
+            },
+            "prices": {
+                "eur": "0.07",
+                "tix": "0.01",
+                "usd": "0.06",
+                "usd_foil": "0.30"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A13e2a2c3-5ab5-4de4-96ca-5f9c72137000&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/80029?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ikoria-Lair-of-Behemoths/Drannith-Healer?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=212616&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "common",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Drannith+Healer",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479530",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Drannith+Healer",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Drannith+Healer&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2020-04-24",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/ff5a821c-eaec-4f69-97c7-8299cdebc2f4/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/iko?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/iko/10/drannith-healer?utm_source=api",
+            "set": "iko",
+            "set_name": "Ikoria: Lair of Behemoths",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aiko&unique=prints",
+            "set_type": "expansion",
+            "set_uri": "https://api.scryfall.com/sets/19feda43-15ab-427e-a0e4-148a4bf2b03a",
+            "story_spotlight": false,
+            "tcgplayer_id": 212616,
+            "textless": false,
+            "toughness": "2",
+            "type_line": "Creature \u2014 Human Cleric",
+            "uri": "https://api.scryfall.com/cards/ff5a821c-eaec-4f69-97c7-8299cdebc2f4",
+            "variation": false
+        },
+        "Drannith Stinger": {
+            "arena_id": 71180,
+            "artist": "Denman Rooke",
+            "artist_ids": [
+                "5eedbc4b-34a3-4ca5-b3f5-9ac2f6b6adf7"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 2.0,
+            "collector_number": "113",
+            "color_identity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "digital": false,
+            "edhrec_rank": 6651,
+            "flavor_text": "The first line of defense, and the last person you want to anger.",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "612ee4be-e7a2-423c-a37c-7c6ca97f630e",
+            "illustration_id": "d2076099-832f-44cd-866e-03fdc3a85919",
+            "image_path": "assets/mtg/cards/612ee4be-e7a2-423c-a37c-7c6ca97f630e.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/6/1/612ee4be-e7a2-423c-a37c-7c6ca97f630e.jpg?1591227149",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/6/1/612ee4be-e7a2-423c-a37c-7c6ca97f630e.jpg?1591227149",
+                "large": "https://img.scryfall.com/cards/large/front/6/1/612ee4be-e7a2-423c-a37c-7c6ca97f630e.jpg?1591227149",
+                "normal": "https://img.scryfall.com/cards/normal/front/6/1/612ee4be-e7a2-423c-a37c-7c6ca97f630e.jpg?1591227149",
+                "png": "https://img.scryfall.com/cards/png/front/6/1/612ee4be-e7a2-423c-a37c-7c6ca97f630e.png?1591227149",
+                "small": "https://img.scryfall.com/cards/small/front/6/1/612ee4be-e7a2-423c-a37c-7c6ca97f630e.jpg?1591227149"
+            },
+            "keywords": [
+                "Cycling"
+            ],
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "legal",
+                "penny": "legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{1}{R}",
+            "mtgo_id": 80235,
+            "multiverse_ids": [
+                479633
+            ],
+            "name": "Drannith Stinger",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "edd1727e-3a6e-4d0e-b7ae-fae2108d2147",
+            "oracle_text": "Whenever you cycle another card, Drannith Stinger deals 1 damage to each opponent.\nCycling {1} ({1}, Discard this card: Draw a card.)",
+            "oversized": false,
+            "power": "2",
+            "preview": {
+                "previewed_at": "2020-04-02",
+                "source": "Wizards of the Coast",
+                "source_uri": "https://magic.wizards.com/en/articles/archive/feature/ikoria-lair-behemoths-mechanics-2020-04-02?efe"
+            },
+            "prices": {
+                "eur": "0.08",
+                "tix": "0.01",
+                "usd": "0.12",
+                "usd_foil": "0.51"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aedd1727e-3a6e-4d0e-b7ae-fae2108d2147&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/80235?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ikoria-Lair-of-Behemoths/Drannith-Stinger?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=212012&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "common",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Drannith+Stinger",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479633",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Drannith+Stinger",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Drannith+Stinger&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2020-04-24",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/612ee4be-e7a2-423c-a37c-7c6ca97f630e/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/iko?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/iko/113/drannith-stinger?utm_source=api",
+            "set": "iko",
+            "set_name": "Ikoria: Lair of Behemoths",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aiko&unique=prints",
+            "set_type": "expansion",
+            "set_uri": "https://api.scryfall.com/sets/19feda43-15ab-427e-a0e4-148a4bf2b03a",
+            "story_spotlight": false,
+            "tcgplayer_id": 212012,
+            "textless": false,
+            "toughness": "2",
+            "type_line": "Creature \u2014 Human Wizard",
+            "uri": "https://api.scryfall.com/cards/612ee4be-e7a2-423c-a37c-7c6ca97f630e",
             "variation": false
         },
         "Dread Return": {
@@ -9861,6 +10437,122 @@
             "uri": "https://api.scryfall.com/cards/8c2996d9-3287-4480-8c04-7a378e37e3cf",
             "variation": false
         },
+        "Flourishing Fox": {
+            "arena_id": 71080,
+            "artist": "Ilse Gort",
+            "artist_ids": [
+                "12070c2e-4de6-46bc-b379-8a580dfb34c5"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 1.0,
+            "collector_number": "13",
+            "color_identity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "digital": false,
+            "edhrec_rank": 8476,
+            "flavor_text": "\"Day 1: These fox pups have really taken to me.\n\"Day 4: Big. So big. Need additional security.\"\n\u2014Jonald, mission naturalist, research notes",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "78b81339-746d-4f71-9943-01c0f6a5683a",
+            "illustration_id": "70994ed6-b205-4bcf-94d5-24c62a46c65a",
+            "image_path": "assets/mtg/cards/78b81339-746d-4f71-9943-01c0f6a5683a.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/7/8/78b81339-746d-4f71-9943-01c0f6a5683a.jpg?1591230253",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/7/8/78b81339-746d-4f71-9943-01c0f6a5683a.jpg?1591230253",
+                "large": "https://img.scryfall.com/cards/large/front/7/8/78b81339-746d-4f71-9943-01c0f6a5683a.jpg?1591230253",
+                "normal": "https://img.scryfall.com/cards/normal/front/7/8/78b81339-746d-4f71-9943-01c0f6a5683a.jpg?1591230253",
+                "png": "https://img.scryfall.com/cards/png/front/7/8/78b81339-746d-4f71-9943-01c0f6a5683a.png?1591230253",
+                "small": "https://img.scryfall.com/cards/small/front/7/8/78b81339-746d-4f71-9943-01c0f6a5683a.jpg?1591230253"
+            },
+            "keywords": [
+                "Cycling"
+            ],
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "not_legal",
+                "penny": "legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{W}",
+            "mtgo_id": 80035,
+            "multiverse_ids": [
+                479533
+            ],
+            "name": "Flourishing Fox",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "44add927-4e6b-408e-907f-6a665add8b16",
+            "oracle_text": "Whenever you cycle another card, put a +1/+1 counter on Flourishing Fox.\nCycling {1} ({1}, Discard this card: Draw a card.)",
+            "oversized": false,
+            "power": "1",
+            "preview": {
+                "previewed_at": "2020-04-03",
+                "source": "Eyes on the Mise",
+                "source_uri": "https://twitter.com/EyesontheMise/status/1246101003864285185"
+            },
+            "prices": {
+                "eur": "0.17",
+                "tix": "0.01",
+                "usd": "0.28",
+                "usd_foil": "0.42"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A44add927-4e6b-408e-907f-6a665add8b16&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/80035?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ikoria-Lair-of-Behemoths/Flourishing-Fox?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=212112&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "uncommon",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Flourishing+Fox",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479533",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Flourishing+Fox",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Flourishing+Fox&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2020-04-24",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/78b81339-746d-4f71-9943-01c0f6a5683a/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/iko?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/iko/13/flourishing-fox?utm_source=api",
+            "set": "iko",
+            "set_name": "Ikoria: Lair of Behemoths",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aiko&unique=prints",
+            "set_type": "expansion",
+            "set_uri": "https://api.scryfall.com/sets/19feda43-15ab-427e-a0e4-148a4bf2b03a",
+            "story_spotlight": false,
+            "tcgplayer_id": 212112,
+            "textless": false,
+            "toughness": "1",
+            "type_line": "Creature \u2014 Fox",
+            "uri": "https://api.scryfall.com/cards/78b81339-746d-4f71-9943-01c0f6a5683a",
+            "variation": false
+        },
         "Flusterstorm": {
             "artist": "Chris Rallis",
             "artist_ids": [
@@ -9970,6 +10662,120 @@
             "textless": false,
             "type_line": "Instant",
             "uri": "https://api.scryfall.com/cards/46a00405-13ad-4531-9bfb-fea0ca57f196",
+            "variation": false
+        },
+        "Footfall Crater": {
+            "arena_id": 71185,
+            "artist": "Jenn Ravenna Tran",
+            "artist_ids": [
+                "e24bc1d0-446b-45e0-b215-89f581837aa4"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 1.0,
+            "collector_number": "118",
+            "color_identity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "digital": false,
+            "edhrec_rank": 8609,
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "f1b75aac-54e3-4181-bac5-5a142757ec05",
+            "illustration_id": "7b74675d-3ff7-4d38-b7dd-1552c2d80067",
+            "image_path": "assets/mtg/cards/f1b75aac-54e3-4181-bac5-5a142757ec05.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/f/1/f1b75aac-54e3-4181-bac5-5a142757ec05.jpg?1591227212",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/f/1/f1b75aac-54e3-4181-bac5-5a142757ec05.jpg?1591227212",
+                "large": "https://img.scryfall.com/cards/large/front/f/1/f1b75aac-54e3-4181-bac5-5a142757ec05.jpg?1591227212",
+                "normal": "https://img.scryfall.com/cards/normal/front/f/1/f1b75aac-54e3-4181-bac5-5a142757ec05.jpg?1591227212",
+                "png": "https://img.scryfall.com/cards/png/front/f/1/f1b75aac-54e3-4181-bac5-5a142757ec05.png?1591227212",
+                "small": "https://img.scryfall.com/cards/small/front/f/1/f1b75aac-54e3-4181-bac5-5a142757ec05.jpg?1591227212"
+            },
+            "keywords": [
+                "Enchant",
+                "Cycling"
+            ],
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "not_legal",
+                "penny": "legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{R}",
+            "mtgo_id": 80245,
+            "multiverse_ids": [
+                479638
+            ],
+            "name": "Footfall Crater",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "ca4fdf89-a74e-4086-8109-b0f9dd91710e",
+            "oracle_text": "Enchant land\nEnchanted land has \"{T}: Target creature gains trample and haste until end of turn.\"\nCycling {1} ({1}, Discard this card: Draw a card.)",
+            "oversized": false,
+            "preview": {
+                "previewed_at": "2020-04-03",
+                "source": "Deathsie",
+                "source_uri": "https://twitter.com/Deathsie/status/1246292360176295945"
+            },
+            "prices": {
+                "eur": "0.16",
+                "tix": "0.01",
+                "usd": "0.28",
+                "usd_foil": "0.55"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aca4fdf89-a74e-4086-8109-b0f9dd91710e&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/80245?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ikoria-Lair-of-Behemoths/Footfall-Crater?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=212138&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "uncommon",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Footfall+Crater",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479638",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Footfall+Crater",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Footfall+Crater&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2020-04-24",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/f1b75aac-54e3-4181-bac5-5a142757ec05/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/iko?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/iko/118/footfall-crater?utm_source=api",
+            "set": "iko",
+            "set_name": "Ikoria: Lair of Behemoths",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aiko&unique=prints",
+            "set_type": "expansion",
+            "set_uri": "https://api.scryfall.com/sets/19feda43-15ab-427e-a0e4-148a4bf2b03a",
+            "story_spotlight": false,
+            "tcgplayer_id": 212138,
+            "textless": false,
+            "type_line": "Enchantment \u2014 Aura",
+            "uri": "https://api.scryfall.com/cards/f1b75aac-54e3-4181-bac5-5a142757ec05",
             "variation": false
         },
         "Forbidden Orchard": {
@@ -10631,6 +11437,227 @@
             "textless": false,
             "type_line": "Instant",
             "uri": "https://api.scryfall.com/cards/fd030d0d-b5cc-4f80-bda4-730e70866952",
+            "variation": false
+        },
+        "Frostveil Ambush": {
+            "arena_id": 71119,
+            "artist": "Johan Grenier",
+            "artist_ids": [
+                "465e38b8-7eed-4d22-a6d2-d3603ee0c00b"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 5.0,
+            "collector_number": "52",
+            "color_identity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "digital": false,
+            "edhrec_rank": 13576,
+            "flavor_text": "Hunters' methods vary from simple and brutal to elaborate and brutal.",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "deef1197-e40a-4c9d-919a-213f1bdf3e3e",
+            "illustration_id": "a8d08049-ec64-452b-8c42-57691f84fff8",
+            "image_path": "assets/mtg/cards/deef1197-e40a-4c9d-919a-213f1bdf3e3e.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/d/e/deef1197-e40a-4c9d-919a-213f1bdf3e3e.jpg?1591226335",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/d/e/deef1197-e40a-4c9d-919a-213f1bdf3e3e.jpg?1591226335",
+                "large": "https://img.scryfall.com/cards/large/front/d/e/deef1197-e40a-4c9d-919a-213f1bdf3e3e.jpg?1591226335",
+                "normal": "https://img.scryfall.com/cards/normal/front/d/e/deef1197-e40a-4c9d-919a-213f1bdf3e3e.jpg?1591226335",
+                "png": "https://img.scryfall.com/cards/png/front/d/e/deef1197-e40a-4c9d-919a-213f1bdf3e3e.png?1591226335",
+                "small": "https://img.scryfall.com/cards/small/front/d/e/deef1197-e40a-4c9d-919a-213f1bdf3e3e.jpg?1591226335"
+            },
+            "keywords": [
+                "Cycling"
+            ],
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "legal",
+                "penny": "legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{3}{U}{U}",
+            "mtgo_id": 80113,
+            "multiverse_ids": [
+                479572
+            ],
+            "name": "Frostveil Ambush",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "5cf069cf-3a10-4427-a02b-5405429b5652",
+            "oracle_text": "Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.\nCycling {1} ({1}, Discard this card: Draw a card.)",
+            "oversized": false,
+            "prices": {
+                "eur": "0.05",
+                "tix": "0.01",
+                "usd": "0.06",
+                "usd_foil": "0.20"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A5cf069cf-3a10-4427-a02b-5405429b5652&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/80113?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ikoria-Lair-of-Behemoths/Frostveil-Ambush?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=212768&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "common",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Frostveil+Ambush",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479572",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Frostveil+Ambush",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Frostveil+Ambush&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2020-04-24",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/deef1197-e40a-4c9d-919a-213f1bdf3e3e/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/iko?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/iko/52/frostveil-ambush?utm_source=api",
+            "set": "iko",
+            "set_name": "Ikoria: Lair of Behemoths",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aiko&unique=prints",
+            "set_type": "expansion",
+            "set_uri": "https://api.scryfall.com/sets/19feda43-15ab-427e-a0e4-148a4bf2b03a",
+            "story_spotlight": false,
+            "tcgplayer_id": 212768,
+            "textless": false,
+            "type_line": "Instant",
+            "uri": "https://api.scryfall.com/cards/deef1197-e40a-4c9d-919a-213f1bdf3e3e",
+            "variation": false
+        },
+        "Fry": {
+            "arena_id": 69925,
+            "artist": "Tomasz Jedruszek",
+            "artist_ids": [
+                "bba69285-2445-4a4b-a847-59397be972ea"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 2.0,
+            "collector_number": "140",
+            "color_identity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "digital": false,
+            "edhrec_rank": 11069,
+            "flavor_text": "\"I'm afraid your dinner got a little . . . overcooked.\"\n\u2014Marlan Farthwald, innkeeper",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "070d7766-a662-443c-93c5-811dbdac2480",
+            "illustration_id": "e2fab4af-73ef-4a2b-a793-fbc498cac913",
+            "image_path": "assets/mtg/cards/070d7766-a662-443c-93c5-811dbdac2480.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/0/7/070d7766-a662-443c-93c5-811dbdac2480.jpg?1592516940",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/0/7/070d7766-a662-443c-93c5-811dbdac2480.jpg?1592516940",
+                "large": "https://img.scryfall.com/cards/large/front/0/7/070d7766-a662-443c-93c5-811dbdac2480.jpg?1592516940",
+                "normal": "https://img.scryfall.com/cards/normal/front/0/7/070d7766-a662-443c-93c5-811dbdac2480.jpg?1592516940",
+                "png": "https://img.scryfall.com/cards/png/front/0/7/070d7766-a662-443c-93c5-811dbdac2480.png?1592516940",
+                "small": "https://img.scryfall.com/cards/small/front/0/7/070d7766-a662-443c-93c5-811dbdac2480.jpg?1592516940"
+            },
+            "keywords": [],
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "not_legal",
+                "penny": "not_legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{1}{R}",
+            "mtgo_id": 73179,
+            "multiverse_ids": [
+                466894
+            ],
+            "name": "Fry",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "3a747893-a514-4689-8486-ecccf654fecb",
+            "oracle_text": "This spell can't be countered.\nFry deals 5 damage to target creature or planeswalker that's white or blue.",
+            "oversized": false,
+            "preview": {
+                "previewed_at": "2019-06-19",
+                "source": "Wizards of the Coast",
+                "source_uri": "https://twitter.com/MTG_Arena/status/1141387716170403840"
+            },
+            "prices": {
+                "eur": "0.16",
+                "tix": "0.04",
+                "usd": "0.20",
+                "usd_foil": "2.91"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A3a747893-a514-4689-8486-ecccf654fecb&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/73179?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Core-2020/Fry?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=192595&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "uncommon",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Fry",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=466894",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Fry",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Fry&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2019-07-12",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/070d7766-a662-443c-93c5-811dbdac2480/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/m20?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/m20/140/fry?utm_source=api",
+            "set": "m20",
+            "set_name": "Core Set 2020",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Am20&unique=prints",
+            "set_type": "core",
+            "set_uri": "https://api.scryfall.com/sets/4a787360-9767-4f44-80b1-2405dc5e39c7",
+            "story_spotlight": false,
+            "tcgplayer_id": 192595,
+            "textless": false,
+            "type_line": "Instant",
+            "uri": "https://api.scryfall.com/cards/070d7766-a662-443c-93c5-811dbdac2480",
             "variation": false
         },
         "Gamble": {
@@ -11380,6 +12407,121 @@
             "textless": false,
             "type_line": "Land",
             "uri": "https://api.scryfall.com/cards/0c008129-daba-46bc-829c-d2c0c13ecdd3",
+            "variation": false
+        },
+        "Go for Blood": {
+            "arena_id": 71189,
+            "artist": "Chris Rallis",
+            "artist_ids": [
+                "a8e7b854-b15a-421a-b66d-6e68187ae285"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 2.0,
+            "collector_number": "122",
+            "color_identity": [
+                "R"
+            ],
+            "colors": [
+                "R"
+            ],
+            "digital": false,
+            "edhrec_rank": 11071,
+            "flavor_text": "Lukka's bond provided not only friendship, but also the most powerful weapon in his arsenal.",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "67315df9-99a1-45ba-8ade-ddc476368a86",
+            "illustration_id": "bdd1016d-476a-4c35-b136-efd544c209e6",
+            "image_path": "assets/mtg/cards/67315df9-99a1-45ba-8ade-ddc476368a86.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/6/7/67315df9-99a1-45ba-8ade-ddc476368a86.jpg?1591227254",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/6/7/67315df9-99a1-45ba-8ade-ddc476368a86.jpg?1591227254",
+                "large": "https://img.scryfall.com/cards/large/front/6/7/67315df9-99a1-45ba-8ade-ddc476368a86.jpg?1591227254",
+                "normal": "https://img.scryfall.com/cards/normal/front/6/7/67315df9-99a1-45ba-8ade-ddc476368a86.jpg?1591227254",
+                "png": "https://img.scryfall.com/cards/png/front/6/7/67315df9-99a1-45ba-8ade-ddc476368a86.png?1591227254",
+                "small": "https://img.scryfall.com/cards/small/front/6/7/67315df9-99a1-45ba-8ade-ddc476368a86.jpg?1591227254"
+            },
+            "keywords": [
+                "Fight",
+                "Cycling"
+            ],
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "legal",
+                "penny": "legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{1}{R}",
+            "mtgo_id": 80253,
+            "multiverse_ids": [
+                479642
+            ],
+            "name": "Go for Blood",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "11cf103c-f8a3-4892-942d-2c4472dd5716",
+            "oracle_text": "Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)\nCycling {1} ({1}, Discard this card: Draw a card.)",
+            "oversized": false,
+            "preview": {
+                "previewed_at": "2020-04-06",
+                "source": "The Vorthos Cast",
+                "source_uri": "https://twitter.com/TheVorthosCast/status/1247118625095536640"
+            },
+            "prices": {
+                "eur": "0.06",
+                "tix": "0.01",
+                "usd": "0.08",
+                "usd_foil": "0.23"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A11cf103c-f8a3-4892-942d-2c4472dd5716&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/80253?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ikoria-Lair-of-Behemoths/Go-for-Blood?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=212255&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "common",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Go+for+Blood",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479642",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Go+for+Blood",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Go+for+Blood&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2020-04-24",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/67315df9-99a1-45ba-8ade-ddc476368a86/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/iko?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/iko/122/go-for-blood?utm_source=api",
+            "set": "iko",
+            "set_name": "Ikoria: Lair of Behemoths",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aiko&unique=prints",
+            "set_type": "expansion",
+            "set_uri": "https://api.scryfall.com/sets/19feda43-15ab-427e-a0e4-148a4bf2b03a",
+            "story_spotlight": false,
+            "tcgplayer_id": 212255,
+            "textless": false,
+            "type_line": "Sorcery",
+            "uri": "https://api.scryfall.com/cards/67315df9-99a1-45ba-8ade-ddc476368a86",
             "variation": false
         },
         "Godless Shrine": {
@@ -17324,6 +18466,115 @@
             "textless": false,
             "type_line": "Land",
             "uri": "https://api.scryfall.com/cards/4b8eee4f-99e3-499d-9d6d-0bff023f6512",
+            "variation": false
+        },
+        "Memory Leak": {
+            "arena_id": 71162,
+            "artist": "Karl Kopinski",
+            "artist_ids": [
+                "0fad2c48-a56e-4a0b-b512-224f6f238f20"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 3.0,
+            "collector_number": "95",
+            "color_identity": [
+                "B"
+            ],
+            "colors": [
+                "B"
+            ],
+            "digital": false,
+            "edhrec_rank": 15998,
+            "flavor_text": "\"By halves does youth depart. I remember halves of names, halves of years, halves of myself.\"\n\u2014Ogaro, wandering sage",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "3b45a493-a1c2-430e-a45c-abc1ba554877",
+            "illustration_id": "91ff85e3-64e5-47aa-a198-39dcf4f59e5a",
+            "image_path": "assets/mtg/cards/3b45a493-a1c2-430e-a45c-abc1ba554877.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/3/b/3b45a493-a1c2-430e-a45c-abc1ba554877.jpg?1591226876",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/3/b/3b45a493-a1c2-430e-a45c-abc1ba554877.jpg?1591226876",
+                "large": "https://img.scryfall.com/cards/large/front/3/b/3b45a493-a1c2-430e-a45c-abc1ba554877.jpg?1591226876",
+                "normal": "https://img.scryfall.com/cards/normal/front/3/b/3b45a493-a1c2-430e-a45c-abc1ba554877.jpg?1591226876",
+                "png": "https://img.scryfall.com/cards/png/front/3/b/3b45a493-a1c2-430e-a45c-abc1ba554877.png?1591226876",
+                "small": "https://img.scryfall.com/cards/small/front/3/b/3b45a493-a1c2-430e-a45c-abc1ba554877.jpg?1591226876"
+            },
+            "keywords": [
+                "Cycling"
+            ],
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "legal",
+                "penny": "legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{2}{B}",
+            "mtgo_id": 80199,
+            "multiverse_ids": [
+                479615
+            ],
+            "name": "Memory Leak",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "256d884f-5dea-4906-a53d-cf14d43e6bc8",
+            "oracle_text": "Target opponent reveals their hand. You choose a nonland card from that player's graveyard or hand and exile it.\nCycling {1} ({1}, Discard this card: Draw a card.)",
+            "oversized": false,
+            "prices": {
+                "eur": "0.06",
+                "tix": "0.01",
+                "usd": "0.09",
+                "usd_foil": "0.24"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A256d884f-5dea-4906-a53d-cf14d43e6bc8&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/80199?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ikoria-Lair-of-Behemoths/Memory-Leak?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=212742&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "common",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Memory+Leak",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479615",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Memory+Leak",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Memory+Leak&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2020-04-24",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/3b45a493-a1c2-430e-a45c-abc1ba554877/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/iko?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/iko/95/memory-leak?utm_source=api",
+            "set": "iko",
+            "set_name": "Ikoria: Lair of Behemoths",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aiko&unique=prints",
+            "set_type": "expansion",
+            "set_uri": "https://api.scryfall.com/sets/19feda43-15ab-427e-a0e4-148a4bf2b03a",
+            "story_spotlight": false,
+            "tcgplayer_id": 212742,
+            "textless": false,
+            "type_line": "Sorcery",
+            "uri": "https://api.scryfall.com/cards/3b45a493-a1c2-430e-a45c-abc1ba554877",
             "variation": false
         },
         "Mental Misstep": {
@@ -25125,6 +26376,115 @@
             "uri": "https://api.scryfall.com/cards/19c2ce16-840b-4971-b4cc-89c8cdc5b093",
             "variation": false
         },
+        "Startling Development": {
+            "arena_id": 71135,
+            "artist": "Simon Dominic",
+            "artist_ids": [
+                "b0e80135-db5a-4b88-a0bc-815a0e94faa1"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 2.0,
+            "collector_number": "68",
+            "color_identity": [
+                "U"
+            ],
+            "colors": [
+                "U"
+            ],
+            "digital": false,
+            "edhrec_rank": 13608,
+            "flavor_text": "Remarkably, dinner continued with no further interruptions.",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "a12680db-957f-48c1-9062-2edd9115ba26",
+            "illustration_id": "e73771b4-9cd0-4a4e-b001-326dbdcd3894",
+            "image_path": "assets/mtg/cards/a12680db-957f-48c1-9062-2edd9115ba26.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/a/1/a12680db-957f-48c1-9062-2edd9115ba26.jpg?1591226517",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/a/1/a12680db-957f-48c1-9062-2edd9115ba26.jpg?1591226517",
+                "large": "https://img.scryfall.com/cards/large/front/a/1/a12680db-957f-48c1-9062-2edd9115ba26.jpg?1591226517",
+                "normal": "https://img.scryfall.com/cards/normal/front/a/1/a12680db-957f-48c1-9062-2edd9115ba26.jpg?1591226517",
+                "png": "https://img.scryfall.com/cards/png/front/a/1/a12680db-957f-48c1-9062-2edd9115ba26.png?1591226517",
+                "small": "https://img.scryfall.com/cards/small/front/a/1/a12680db-957f-48c1-9062-2edd9115ba26.jpg?1591226517"
+            },
+            "keywords": [
+                "Cycling"
+            ],
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "legal",
+                "penny": "legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{1}{U}",
+            "mtgo_id": 80145,
+            "multiverse_ids": [
+                479588
+            ],
+            "name": "Startling Development",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "8747ca90-ac1d-45fd-89fe-aac385cd66b4",
+            "oracle_text": "Until end of turn, target creature becomes a blue Serpent with base power and toughness 4/4.\nCycling {1} ({1}, Discard this card: Draw a card.)",
+            "oversized": false,
+            "prices": {
+                "eur": "0.05",
+                "tix": "0.01",
+                "usd": "0.08",
+                "usd_foil": "0.24"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A8747ca90-ac1d-45fd-89fe-aac385cd66b4&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/80145?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ikoria-Lair-of-Behemoths/Startling-Development?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=212806&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "common",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Startling+Development",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479588",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Startling+Development",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Startling+Development&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2020-04-24",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/a12680db-957f-48c1-9062-2edd9115ba26/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/iko?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/iko/68/startling-development?utm_source=api",
+            "set": "iko",
+            "set_name": "Ikoria: Lair of Behemoths",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aiko&unique=prints",
+            "set_type": "expansion",
+            "set_uri": "https://api.scryfall.com/sets/19feda43-15ab-427e-a0e4-148a4bf2b03a",
+            "story_spotlight": false,
+            "tcgplayer_id": 212806,
+            "textless": false,
+            "type_line": "Instant",
+            "uri": "https://api.scryfall.com/cards/a12680db-957f-48c1-9062-2edd9115ba26",
+            "variation": false
+        },
         "Steel Overseer": {
             "arena_id": 70024,
             "artist": "Chris Rahn",
@@ -29822,6 +31182,140 @@
             "uri": "https://api.scryfall.com/cards/77b71173-d910-48f7-bba5-fc5f696b280c",
             "variation": false
         },
+        "Valiant Rescuer": {
+            "all_parts": [
+                {
+                    "component": "combo_piece",
+                    "id": "a2b13ff6-67e9-4760-aef4-a8548ea44344",
+                    "name": "Valiant Rescuer",
+                    "object": "related_card",
+                    "type_line": "Creature \u2014 Human Soldier",
+                    "uri": "https://api.scryfall.com/cards/a2b13ff6-67e9-4760-aef4-a8548ea44344"
+                },
+                {
+                    "component": "token",
+                    "id": "90de6d1e-e654-4f4a-8014-061ce69e540f",
+                    "name": "Human Soldier",
+                    "object": "related_card",
+                    "type_line": "Token Creature \u2014 Human Soldier",
+                    "uri": "https://api.scryfall.com/cards/90de6d1e-e654-4f4a-8014-061ce69e540f"
+                }
+            ],
+            "arena_id": 71103,
+            "artist": "Bram Sels",
+            "artist_ids": [
+                "2e90d3c1-e8ac-45c7-9d5a-63385c1a384d"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 2.0,
+            "collector_number": "36",
+            "color_identity": [
+                "W"
+            ],
+            "colors": [
+                "W"
+            ],
+            "digital": false,
+            "edhrec_rank": 5905,
+            "flavor_text": "The floating city of Skysail has two rules: don't leave your crewmates behind, and don't mess with the guardrails.",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "a2b13ff6-67e9-4760-aef4-a8548ea44344",
+            "illustration_id": "71018841-bf4c-4349-9b17-e161ab708574",
+            "image_path": "assets/mtg/cards/a2b13ff6-67e9-4760-aef4-a8548ea44344.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/a/2/a2b13ff6-67e9-4760-aef4-a8548ea44344.jpg?1591230423",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/a/2/a2b13ff6-67e9-4760-aef4-a8548ea44344.jpg?1591230423",
+                "large": "https://img.scryfall.com/cards/large/front/a/2/a2b13ff6-67e9-4760-aef4-a8548ea44344.jpg?1591230423",
+                "normal": "https://img.scryfall.com/cards/normal/front/a/2/a2b13ff6-67e9-4760-aef4-a8548ea44344.jpg?1591230423",
+                "png": "https://img.scryfall.com/cards/png/front/a/2/a2b13ff6-67e9-4760-aef4-a8548ea44344.png?1591230423",
+                "small": "https://img.scryfall.com/cards/small/front/a/2/a2b13ff6-67e9-4760-aef4-a8548ea44344.jpg?1591230423"
+            },
+            "keywords": [
+                "Cycling"
+            ],
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "not_legal",
+                "penny": "legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{1}{W}",
+            "mtgo_id": 80081,
+            "multiverse_ids": [
+                479556
+            ],
+            "name": "Valiant Rescuer",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "c9de9f0b-bf07-4171-b54d-69033424a212",
+            "oracle_text": "Whenever you cycle another card for the first time each turn, create a 1/1 white Human Soldier creature token.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+            "oversized": false,
+            "power": "3",
+            "preview": {
+                "previewed_at": "2020-04-03",
+                "source": "The Command Zone",
+                "source_uri": "https://www.youtube.com/watch?v=TZ9sg25tiW0"
+            },
+            "prices": {
+                "eur": "0.13",
+                "tix": "0.01",
+                "usd": "0.17",
+                "usd_foil": "0.40"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ac9de9f0b-bf07-4171-b54d-69033424a212&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/80081?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ikoria-Lair-of-Behemoths/Valiant-Rescuer?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=212122&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "uncommon",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Valiant+Rescuer",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479556",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Valiant+Rescuer",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Valiant+Rescuer&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2020-04-24",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/a2b13ff6-67e9-4760-aef4-a8548ea44344/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/iko?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/iko/36/valiant-rescuer?utm_source=api",
+            "set": "iko",
+            "set_name": "Ikoria: Lair of Behemoths",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aiko&unique=prints",
+            "set_type": "expansion",
+            "set_uri": "https://api.scryfall.com/sets/19feda43-15ab-427e-a0e4-148a4bf2b03a",
+            "story_spotlight": false,
+            "tcgplayer_id": 212122,
+            "textless": false,
+            "toughness": "1",
+            "type_line": "Creature \u2014 Human Soldier",
+            "uri": "https://api.scryfall.com/cards/a2b13ff6-67e9-4760-aef4-a8548ea44344",
+            "variation": false
+        },
         "Venerable Knight": {
             "arena_id": 70182,
             "artist": "Colin Boyer",
@@ -31729,6 +33223,120 @@
             "textless": false,
             "type_line": "Land",
             "uri": "https://api.scryfall.com/cards/2f68a254-e104-42c6-954c-390a8b8f9558",
+            "variation": false
+        },
+        "Zenith Flare": {
+            "arena_id": 71284,
+            "artist": "Jonas De Ro",
+            "artist_ids": [
+                "561ebf9e-8d93-4b57-8156-8826d0c19601"
+            ],
+            "booster": true,
+            "border_color": "black",
+            "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+            "cmc": 4.0,
+            "collector_number": "217",
+            "color_identity": [
+                "R",
+                "W"
+            ],
+            "colors": [
+                "R",
+                "W"
+            ],
+            "digital": false,
+            "edhrec_rank": 7530,
+            "flavor_text": "\"I defy this world to try our defenses now. Send pterons and skycats. Send Vadrok!\"\n\u2014Janae, Coppercoat architect",
+            "foil": true,
+            "frame": "2015",
+            "full_art": false,
+            "games": [
+                "arena",
+                "paper",
+                "mtgo"
+            ],
+            "highres_image": true,
+            "id": "0efac1ed-3f01-487c-86be-8239568b4425",
+            "illustration_id": "7013a8b5-bcbd-4f19-9c61-4a0a1dcc25f3",
+            "image_path": "assets/mtg/cards/0efac1ed-3f01-487c-86be-8239568b4425.jpg",
+            "image_uris": {
+                "art_crop": "https://img.scryfall.com/cards/art_crop/front/0/e/0efac1ed-3f01-487c-86be-8239568b4425.jpg?1591228324",
+                "border_crop": "https://img.scryfall.com/cards/border_crop/front/0/e/0efac1ed-3f01-487c-86be-8239568b4425.jpg?1591228324",
+                "large": "https://img.scryfall.com/cards/large/front/0/e/0efac1ed-3f01-487c-86be-8239568b4425.jpg?1591228324",
+                "normal": "https://img.scryfall.com/cards/normal/front/0/e/0efac1ed-3f01-487c-86be-8239568b4425.jpg?1591228324",
+                "png": "https://img.scryfall.com/cards/png/front/0/e/0efac1ed-3f01-487c-86be-8239568b4425.png?1591228324",
+                "small": "https://img.scryfall.com/cards/small/front/0/e/0efac1ed-3f01-487c-86be-8239568b4425.jpg?1591228324"
+            },
+            "keywords": [],
+            "lang": "en",
+            "layout": "normal",
+            "legalities": {
+                "brawl": "legal",
+                "commander": "legal",
+                "duel": "legal",
+                "future": "legal",
+                "historic": "legal",
+                "legacy": "legal",
+                "modern": "legal",
+                "oldschool": "not_legal",
+                "pauper": "not_legal",
+                "penny": "legal",
+                "pioneer": "legal",
+                "standard": "legal",
+                "vintage": "legal"
+            },
+            "mana_cost": "{2}{R}{W}",
+            "mtgo_id": 80443,
+            "multiverse_ids": [
+                479737
+            ],
+            "name": "Zenith Flare",
+            "nonfoil": true,
+            "object": "card",
+            "oracle_id": "ae005f00-3817-40ca-b8be-069a4085cfee",
+            "oracle_text": "Zenith Flare deals X damage to any target and you gain X life, where X is the number of cards with a cycling ability in your graveyard.",
+            "oversized": false,
+            "preview": {
+                "previewed_at": "2020-04-07",
+                "source": "Greg Orange",
+                "source_uri": "https://twitter.com/orange_greg/status/1247691319549591552"
+            },
+            "prices": {
+                "eur": "0.14",
+                "tix": "0.01",
+                "usd": "0.27",
+                "usd_foil": "0.61"
+            },
+            "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aae005f00-3817-40ca-b8be-069a4085cfee&unique=prints",
+            "promo": false,
+            "purchase_uris": {
+                "cardhoarder": "https://www.cardhoarder.com/cards/80443?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+                "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ikoria-Lair-of-Behemoths/Zenith-Flare?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+                "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=212538&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "rarity": "uncommon",
+            "related_uris": {
+                "edhrec": "https://edhrec.com/route/?cc=Zenith+Flare",
+                "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479737",
+                "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Zenith+Flare",
+                "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Zenith+Flare&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall"
+            },
+            "released_at": "2020-04-24",
+            "reprint": false,
+            "reserved": false,
+            "rulings_uri": "https://api.scryfall.com/cards/0efac1ed-3f01-487c-86be-8239568b4425/rulings",
+            "scryfall_set_uri": "https://scryfall.com/sets/iko?utm_source=api",
+            "scryfall_uri": "https://scryfall.com/card/iko/217/zenith-flare?utm_source=api",
+            "set": "iko",
+            "set_name": "Ikoria: Lair of Behemoths",
+            "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aiko&unique=prints",
+            "set_type": "expansion",
+            "set_uri": "https://api.scryfall.com/sets/19feda43-15ab-427e-a0e4-148a4bf2b03a",
+            "story_spotlight": false,
+            "tcgplayer_id": 212538,
+            "textless": false,
+            "type_line": "Instant",
+            "uri": "https://api.scryfall.com/cards/0efac1ed-3f01-487c-86be-8239568b4425",
             "variation": false
         }
     },

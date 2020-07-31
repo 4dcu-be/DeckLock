@@ -4,6 +4,11 @@
 {{ SITENAME }} - Gwent Overview
 {% endblock %}
 
+{% block extra_css %}
+<link href="{{ SITEURL }}/theme/css/gwent.css" rel="stylesheet" />
+{% endblock extra_css %}
+
+
 {% block container %}
 
     <ol class="breadcrumb top15">
@@ -23,9 +28,9 @@
         </tr>
         </thead>
         <tbody>
-        {% for a in articles|rejectattr('faction', 'undefined')|sort(attribute='name')|sort(attribute='faction') %}
+        {% for a in articles|rejectattr('faction', 'undefined')|sort(attribute='name')|sort(attribute='faction')|sort(attribute='gwent_version', reverse = True) %}
             {% if a.category == "Gwent_Deck" %}
-            <tr>
+            <tr class="deck {{a.leader.data.faction}}">
                 <td>{{ a.leader.name }}</td>
                 <td><a href="{{ SITEURL }}/{{ a.url }}">{{ a.name }}</a></td>
                 <td>{{ a.faction }}</td>

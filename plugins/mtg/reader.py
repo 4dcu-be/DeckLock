@@ -138,12 +138,17 @@ class MTGReader(BaseReader):
         }
 
         deck_data = {"main": [], "sideboard": []}
+        description = []
 
         with open(filename, "r") as fin:
             for line in fin:
                 if line.startswith("//"):
                     tag, value = parse_meta(line)
                     metadata[tag.lower()] = value
+                elif line.startswith("---"):
+                    # This is the description, read until end of file
+                    for dl in fin:
+                        description.append(dl.strip())
                 elif line.strip() != "":
                     sideboard, card_set, card_count, card_name = parse_card_line(line)
                     self.add_card_data(card_set, card_name)
@@ -169,6 +174,8 @@ class MTGReader(BaseReader):
             metadata["title"],
             regex_subs=self.settings.get("SLUG_REGEX_SUBSTITUTIONS", []),
         )
+
+        metadata["description"] = "\n".join(description)
 
         metadata["url"] = f"mtg/{metadata['format']}/{metadata['slug']}/"
         metadata["save_as"] = f"{metadata['url']}index.html"

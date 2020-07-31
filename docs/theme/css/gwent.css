@@ -327,3 +327,22 @@
 .card-body-ability .keyword {
    font-weight: bold;
 }
+
+.deck.scoiatael {
+    background-image: url('../img/gwent/sco-background.png');
+}
+.deck.skellige {
+    background-image: url('../img/gwent/ske-background.png');
+}
+.deck.syndicate {
+    background-image: url('../img/gwent/syn-background.png');
+}
+.deck.monsters {
+    background-image: url('../img/gwent/mon-background.png');
+}
+.deck.northern_realms {
+    background-image: url('../img/gwent/nor-background.png');
+}
+.deck.nilfgaard {
+    background-image: url('../img/gwent/nilf-background.png');
+}
