@@ -3,11 +3,11 @@
         "dok_data": {
             "deck": {
                 "actionCount": 10,
-                "aercScore": 52.0,
-                "aercVersion": 15,
+                "aercScore": 51.0,
+                "aercVersion": 18,
                 "amberControl": 7.67,
                 "antisynergyRating": 1,
-                "artifactControl": 2.0,
+                "artifactControl": 1.25,
                 "artifactCount": 4,
                 "cardArchiveCount": 2,
                 "cardDrawCount": 6,
@@ -15,41 +15,299 @@
                 "creatureControl": 6.275,
                 "creatureCount": 18,
                 "creatureProtection": 0.0,
-                "crucibleTrackerLosses": null,
-                "crucibleTrackerWins": null,
-                "dateAdded": null,
-                "deckSaleInfo": null,
                 "disruption": 1.0,
                 "effectivePower": 58,
-                "efficiency": 11.45,
+                "efficiency": 11.2,
                 "expansion": "CALL_OF_THE_ARCHONS",
-                "expectedAmber": 16.295,
+                "expectedAmber": 16.545,
                 "forAuction": false,
                 "forSale": false,
                 "forTrade": false,
                 "funnyCount": 0,
-                "houses": [
-                    "Logos",
-                    "Mars",
-                    "Shadows"
+                "hasOwnershipVerification": false,
+                "housesAndCards": [
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Effervescent Principle",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Library Access",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Remote Access",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Wild Wormhole",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Library of Babble",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Library of Babble",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Batdrone",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Brain Eater",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Mother",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Mother",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Replicator",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Rocket Boots",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            }
+                        ],
+                        "house": "Logos"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Deep Probe",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Phosphorus Stars",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Psychic Network",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Squawker",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Mothergun",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "\u201cJohn Smyth\u201d",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Vezyma Thinkdrone",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Yxili Marauder",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Yxilo Bolter",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Zorg",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Biomatrix Backup",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Jammer Pack",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            }
+                        ],
+                        "house": "Mars"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ghostly Hand",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Pawn Sacrifice",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Subtle Maul",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Bad Penny",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Carlo Phantom",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Mooncurser",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Nexus",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Smiling Ruth",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Umbra",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Urchin",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Urchin",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Silent Dagger",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            }
+                        ],
+                        "house": "Shadows"
+                    }
                 ],
                 "id": 527297,
                 "keyCheatCount": 0,
                 "keyforgeId": "21459407-7765-44f6-b183-2ebef8283f63",
-                "lastSasUpdate": "2020-05-25",
+                "lastSasUpdate": "2020-06-14",
                 "losses": 0,
                 "name": "Preposterously Four-eyed Odyssia",
                 "other": 0.825,
-                "owners": null,
                 "powerLevel": 0,
                 "previousMajorSasRating": 60,
-                "previousSasRating": 59,
+                "previousSasRating": 58,
                 "rawAmber": 10,
                 "registered": true,
-                "sasPercentile": 23.493147878018604,
-                "sasRating": 58,
-                "searchResultCards": [],
-                "synergies": null,
+                "sasPercentile": 19.0617228586571,
+                "sasRating": 57,
                 "synergyRating": 7,
                 "totalArmor": 0,
                 "totalPower": 48,
@@ -57,17 +315,17 @@
                 "wins": 0,
                 "wishlistCount": 0
             },
-            "sasVersion": 15
+            "sasVersion": 21
         },
         "dok_stats": {
-            "amberControl": 62.883296284358906,
-            "artifactControl": 90.43693422782516,
-            "creatureControl": 16.89649214329148,
-            "creatureProtection": 0,
-            "disruption": 52.63224933239852,
-            "effectivePower": 7.040412733328238,
-            "efficiency": 85.8305671206689,
-            "expectedAmber": 37.12811192002295
+            "amberControl": 62.91262383301398,
+            "artifactControl": 75.76715316564066,
+            "creatureControl": 18.23978759835297,
+            "creatureProtection": 21.53838313832606,
+            "disruption": 53.713206816421376,
+            "effectivePower": 10.616871865954584,
+            "efficiency": 85.86030820661259,
+            "expectedAmber": 39.13632842757552
         },
         "user_data": {
             "deck_id": "21459407-7765-44f6-b183-2ebef8283f63"
@@ -784,6 +1042,7 @@
                     "Anomaly": [],
                     "Legacy": []
                 },
+                "shards_bonus": null,
                 "wins": 0
             }
         }
@@ -792,71 +1051,330 @@
         "dok_data": {
             "deck": {
                 "actionCount": 13,
-                "aercScore": 63.0,
-                "aercVersion": 15,
-                "amberControl": 3.28975,
+                "aercScore": 64.0,
+                "aercVersion": 18,
+                "amberControl": 3.91475,
                 "antisynergyRating": 1,
                 "artifactControl": 0.0,
                 "artifactCount": 4,
                 "cardArchiveCount": 0,
                 "cardDrawCount": 0,
                 "chains": 0,
-                "creatureControl": 13.45,
+                "creatureControl": 13.5125,
                 "creatureCount": 12,
-                "creatureProtection": 7.375,
-                "crucibleTrackerLosses": null,
-                "crucibleTrackerWins": null,
+                "creatureProtection": 7.625,
                 "dateAdded": "2019-11-12",
-                "deckSaleInfo": null,
                 "disruption": 7.0,
-                "effectivePower": 66,
-                "efficiency": 8.5,
+                "effectivePower": 63,
+                "efficiency": 9.75,
                 "expansion": "WORLDS_COLLIDE",
                 "expectedAmber": 22.18125,
                 "forAuction": false,
                 "forSale": false,
                 "forTrade": false,
                 "funnyCount": 0,
-                "houses": [
-                    "Dis",
-                    "StarAlliance",
-                    "Saurian"
+                "hasOwnershipVerification": false,
+                "housesAndCards": [
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Binding Irons",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Binding Irons",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Draining Touch",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Festering Touch",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Gleeful Mayhem",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Misery Exploit",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Not Finished with You",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Buzzle",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Greater Oxtet",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Impspector",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Infurnace",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lord Invidius",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            }
+                        ],
+                        "house": "Dis"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Axiom of Grisk",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Imperial Forge",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Imperium",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Phalanx Strike",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Auto-Legionary",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "The Golden Spiral",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "The Golden Spiral",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Brutodon Auxiliary",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Draco Praeco",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Gargantodon",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Rhetor Gallim",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Imperial Scutum",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Saurian"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Stealth Mode",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Zap",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Book of leQ",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "CXO Taber",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Com. Officer Kirby",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sci. Officer Qincan",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Force Field",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Force Field",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Light of the Archons",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Light of the Archons",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Light of the Archons",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Plasma Nozzle",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            }
+                        ],
+                        "house": "StarAlliance"
+                    }
                 ],
                 "id": 1445088,
                 "keyCheatCount": 1,
                 "keyforgeId": "29bb805b-12ce-4f29-aad7-a4d9b512e41c",
-                "lastSasUpdate": "2020-05-25",
+                "lastSasUpdate": "2020-06-14",
                 "losses": 0,
                 "name": "Champion Greenqual, the Sinister Surgeon",
                 "other": 2.425,
-                "owners": null,
                 "powerLevel": 0,
                 "previousMajorSasRating": 78,
-                "previousSasRating": 72,
+                "previousSasRating": 75,
                 "rawAmber": 15,
                 "registered": true,
-                "sasPercentile": 97.9033824772196,
-                "sasRating": 75,
-                "searchResultCards": [],
-                "synergies": null,
-                "synergyRating": 13,
+                "sasPercentile": 98.99990827184149,
+                "sasRating": 77,
+                "synergyRating": 14,
                 "totalArmor": 0,
                 "totalPower": 55,
                 "upgradeCount": 7,
                 "wins": 0,
                 "wishlistCount": 0
             },
-            "sasVersion": 15
+            "sasVersion": 21
         },
         "dok_stats": {
-            "amberControl": 12.357909706831299,
-            "artifactControl": 40.71239252197741,
-            "creatureControl": 84.18562588399739,
-            "creatureProtection": 0,
-            "disruption": 91.26884707357405,
-            "effectivePower": 15.101527481035244,
-            "efficiency": 71.21831869649635,
-            "expectedAmber": 84.21348183935697
+            "amberControl": 20.789932325003058,
+            "artifactControl": 41.18451628684414,
+            "creatureControl": 90.28899465938277,
+            "creatureProtection": 99.79493660565045,
+            "disruption": 91.74252925109055,
+            "effectivePower": 16.989430877736556,
+            "efficiency": 81.59071914876269,
+            "expectedAmber": 78.88142606710424
         },
         "user_data": {
             "deck_id": "29bb805b-12ce-4f29-aad7-a4d9b512e41c"
@@ -1461,14 +1979,14 @@
                         "name": "Dis"
                     },
                     {
-                        "id": "Saurian",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
-                        "name": "Saurian"
-                    },
-                    {
                         "id": "Star Alliance",
                         "image": "https://cdn.keyforgegame.com/media/houses/Star_Alliance.png",
                         "name": "Star Alliance"
+                    },
+                    {
+                        "id": "Saurian",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
+                        "name": "Saurian"
                     }
                 ],
                 "notes": []
@@ -1535,6 +2053,7 @@
                     "Anomaly": [],
                     "Legacy": []
                 },
+                "shards_bonus": null,
                 "wins": 0
             }
         }
@@ -1543,8 +2062,8 @@
         "dok_data": {
             "deck": {
                 "actionCount": 9,
-                "aercScore": 54.0,
-                "aercVersion": 19,
+                "aercScore": 56.0,
+                "aercVersion": 21,
                 "amberControl": 10.5,
                 "antisynergyRating": 1,
                 "artifactControl": 0.5,
@@ -1552,13 +2071,13 @@
                 "cardArchiveCount": 2,
                 "cardDrawCount": 2,
                 "chains": 0,
-                "creatureControl": 7.609999999999999,
+                "creatureControl": 7.51,
                 "creatureCount": 22,
                 "creatureProtection": 1.4,
                 "dateAdded": "2020-07-10",
                 "disruption": 1.0,
                 "effectivePower": 93,
-                "efficiency": 7.95,
+                "efficiency": 10.58,
                 "expansion": "MASS_MUTATION",
                 "expectedAmber": 10.25,
                 "forAuction": false,
@@ -1874,35 +2393,35 @@
                 "id": 1902448,
                 "keyCheatCount": 0,
                 "keyforgeId": "355b1f9d-2c3f-48fb-ac40-cf7292a31d19",
-                "lastSasUpdate": "2020-07-10",
+                "lastSasUpdate": "2020-07-23",
                 "losses": 0,
                 "name": "Repeatedly Aberrant Giada",
-                "other": 3.375,
+                "other": 3.645,
                 "powerLevel": 0,
                 "previousMajorSasRating": 0,
-                "previousSasRating": 0,
+                "previousSasRating": 60,
                 "rawAmber": 5,
                 "registered": true,
-                "sasPercentile": 37.61875661827316,
-                "sasRating": 60,
-                "synergyRating": 7,
+                "sasPercentile": 56.13748012556566,
+                "sasRating": 63,
+                "synergyRating": 8,
                 "totalArmor": 6,
                 "totalPower": 83,
                 "upgradeCount": 1,
                 "wins": 0,
                 "wishlistCount": 0
             },
-            "sasVersion": 20
+            "sasVersion": 21
         },
         "dok_stats": {
-            "amberControl": 79.98037345809257,
-            "artifactControl": 40.71239252197741,
-            "creatureControl": 36.64265405783184,
-            "creatureProtection": 0,
-            "disruption": 52.63224933239852,
-            "effectivePower": 58.21612234025468,
-            "efficiency": 71.21831869649635,
-            "expectedAmber": 3.2678413794402004
+            "amberControl": 79.80665742590404,
+            "artifactControl": 41.18451628684414,
+            "creatureControl": 38.75473928818949,
+            "creatureProtection": 58.98645480859391,
+            "disruption": 53.713206816421376,
+            "effectivePower": 72.14618410860614,
+            "efficiency": 85.86030820661259,
+            "expectedAmber": 2.430031799094949
         },
         "user_data": {
             "deck_id": "355b1f9d-2c3f-48fb-ac40-cf7292a31d19"
@@ -2590,8 +3109,8 @@
         "dok_data": {
             "deck": {
                 "actionCount": 11,
-                "aercScore": 62.0,
-                "aercVersion": 20,
+                "aercScore": 65.0,
+                "aercVersion": 21,
                 "amberControl": 10.725000000000001,
                 "antisynergyRating": 1,
                 "artifactControl": 2.25,
@@ -2599,15 +3118,15 @@
                 "cardArchiveCount": 0,
                 "cardDrawCount": 3,
                 "chains": 0,
-                "creatureControl": 16.4125,
+                "creatureControl": 15.0625,
                 "creatureCount": 17,
                 "creatureProtection": 1.0,
                 "dateAdded": "2020-07-10",
                 "disruption": 0.5,
-                "effectivePower": 89,
-                "efficiency": 9.59,
+                "effectivePower": 90,
+                "efficiency": 10.59,
                 "expansion": "MASS_MUTATION",
-                "expectedAmber": 13.6,
+                "expectedAmber": 15.1,
                 "forAuction": false,
                 "forSale": false,
                 "forTrade": false,
@@ -2921,35 +3440,35 @@
                 "id": 1902444,
                 "keyCheatCount": 0,
                 "keyforgeId": "719d5924-248a-4b64-8789-a6eccf710095",
-                "lastSasUpdate": "2020-07-11",
+                "lastSasUpdate": "2020-07-23",
                 "losses": 0,
                 "name": "Draxthroat, the Librarian of the Site",
                 "other": 1.86,
                 "powerLevel": 0,
                 "previousMajorSasRating": 0,
-                "previousSasRating": 0,
+                "previousSasRating": 71,
                 "rawAmber": 8,
                 "registered": true,
-                "sasPercentile": 92.80442460979114,
-                "sasRating": 71,
-                "synergyRating": 10,
+                "sasPercentile": 95.8017041053447,
+                "sasRating": 73,
+                "synergyRating": 9,
                 "totalArmor": 7,
                 "totalPower": 64,
                 "upgradeCount": 0,
                 "wins": 0,
                 "wishlistCount": 0
             },
-            "sasVersion": 20
+            "sasVersion": 21
         },
         "dok_stats": {
-            "amberControl": 86.164783205351,
-            "artifactControl": 90.43693422782516,
-            "creatureControl": 95.74246920061715,
-            "creatureProtection": 0,
-            "disruption": 31.067752550508995,
-            "effectivePower": 51.67711680339898,
-            "efficiency": 81.5219762997323,
-            "expectedAmber": 20.94424489316715
+            "amberControl": 85.9122874964328,
+            "artifactControl": 93.46645807003955,
+            "creatureControl": 93.73725997798525,
+            "creatureProtection": 58.98645480859391,
+            "disruption": 31.293519915202413,
+            "effectivePower": 67.19505483305475,
+            "efficiency": 85.86030820661259,
+            "expectedAmber": 23.198408006849036
         },
         "user_data": {
             "deck_id": "719d5924-248a-4b64-8789-a6eccf710095"
@@ -3656,53 +4175,312 @@
         "dok_data": {
             "deck": {
                 "actionCount": 15,
-                "aercScore": 48.0,
-                "aercVersion": 15,
-                "amberControl": 7.475,
-                "antisynergyRating": 0,
+                "aercScore": 49.0,
+                "aercVersion": 18,
+                "amberControl": 6.8625,
+                "antisynergyRating": 1,
                 "artifactControl": 0.5,
                 "artifactCount": 3,
                 "cardArchiveCount": 0,
                 "cardDrawCount": 0,
                 "chains": 0,
-                "creatureControl": 10.075,
+                "creatureControl": 10.2,
                 "creatureCount": 18,
-                "creatureProtection": 2.0,
-                "crucibleTrackerLosses": null,
-                "crucibleTrackerWins": null,
+                "creatureProtection": 1.75,
                 "dateAdded": "2019-06-06",
-                "deckSaleInfo": null,
                 "disruption": 0.0,
-                "effectivePower": 88,
+                "effectivePower": 87,
                 "efficiency": 0.275,
                 "expansion": "AGE_OF_ASCENSION",
-                "expectedAmber": 17.675,
+                "expectedAmber": 18.6125,
                 "forAuction": false,
                 "forSale": false,
                 "forTrade": false,
                 "funnyCount": 0,
-                "houses": [
-                    "Brobnar",
-                    "Dis",
-                    "Sanctum"
+                "hasOwnershipVerification": false,
+                "housesAndCards": [
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "First Blood",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Into the Fray",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Pound",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Pound",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Flamethrower",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Cowfyne",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Culf the Quiet",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Drummernaut",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Groggins",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Groggins",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Groke",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lollop the Titanic",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Brobnar"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Banish",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Banish",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Cull the Weak",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Hecatomb",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Not Finished with You",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Unlocked Gateway",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Soul Snatcher",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Angwish",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Angwish",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Gub",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Tentacus",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "\u00c6mber Imp",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Dis"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Golden Aura",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Martyr\u2019s End",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Radiant Truth",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Take Hostages",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "The Harder They Come",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sigil of Brotherhood",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Abond the Armorsmith",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Abond the Armorsmith",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Bordan the Redeemed",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Challe the Safeguard",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Maruck the Marked",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "\u201cLion\u201d Bautrem",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Sanctum"
+                    }
                 ],
                 "id": 955191,
                 "keyCheatCount": 0,
                 "keyforgeId": "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00",
-                "lastSasUpdate": "2020-05-25",
+                "lastSasUpdate": "2020-06-14",
                 "losses": 0,
                 "name": "Bases, the Swordsman of Fire",
                 "other": 1.0,
-                "owners": null,
                 "powerLevel": 0,
                 "previousMajorSasRating": 54,
-                "previousSasRating": 55,
+                "previousSasRating": 56,
                 "rawAmber": 12,
                 "registered": true,
-                "sasPercentile": 6.990238785901232,
+                "sasPercentile": 7.619042765705899,
                 "sasRating": 54,
-                "searchResultCards": [],
-                "synergies": null,
                 "synergyRating": 6,
                 "totalArmor": 4,
                 "totalPower": 91,
@@ -3710,17 +4488,17 @@
                 "wins": 0,
                 "wishlistCount": 0
             },
-            "sasVersion": 15
+            "sasVersion": 21
         },
         "dok_stats": {
-            "amberControl": 52.378167576554034,
-            "artifactControl": 40.71239252197741,
-            "creatureControl": 58.86273493424776,
-            "creatureProtection": 0,
-            "disruption": 31.067752550508995,
-            "effectivePower": 50.004208852102046,
-            "efficiency": 12.4213747661595,
-            "expectedAmber": 55.24190377456502
+            "amberControl": 52.52792612825635,
+            "artifactControl": 41.18451628684414,
+            "creatureControl": 61.04096171878185,
+            "creatureProtection": 79.88075339394186,
+            "disruption": 31.293519915202413,
+            "effectivePower": 61.81815402177015,
+            "efficiency": 13.094806147825024,
+            "expectedAmber": 56.570437033715194
         },
         "user_data": {
             "deck_id": "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00"
@@ -4320,6 +5098,11 @@
                 ],
                 "houses": [
                     {
+                        "id": "Dis",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "name": "Dis"
+                    },
+                    {
                         "id": "Brobnar",
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
                         "name": "Brobnar"
@@ -4328,11 +5111,6 @@
                         "id": "Sanctum",
                         "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
                         "name": "Sanctum"
-                    },
-                    {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
-                        "name": "Dis"
                     }
                 ],
                 "notes": []
@@ -4399,6 +5177,7 @@
                     "Anomaly": [],
                     "Legacy": []
                 },
+                "shards_bonus": null,
                 "wins": 0
             }
         }
@@ -4407,53 +5186,311 @@
         "dok_data": {
             "deck": {
                 "actionCount": 17,
-                "aercScore": 56.0,
-                "aercVersion": 15,
-                "amberControl": 4.215,
+                "aercScore": 55.0,
+                "aercVersion": 18,
+                "amberControl": 3.925,
                 "antisynergyRating": 1,
-                "artifactControl": 1.0825,
+                "artifactControl": 0.665,
                 "artifactCount": 4,
                 "cardArchiveCount": 0,
                 "cardDrawCount": 0,
                 "chains": 0,
-                "creatureControl": 18.1225,
+                "creatureControl": 17.6225,
                 "creatureCount": 14,
                 "creatureProtection": 0.0,
-                "crucibleTrackerLosses": null,
-                "crucibleTrackerWins": null,
-                "dateAdded": null,
-                "deckSaleInfo": null,
                 "disruption": 1.0,
-                "effectivePower": 66,
+                "effectivePower": 68,
                 "efficiency": -1.0,
                 "expansion": "CALL_OF_THE_ARCHONS",
-                "expectedAmber": 19.9375,
+                "expectedAmber": 20.0,
                 "forAuction": false,
                 "forSale": false,
                 "forTrade": false,
                 "funnyCount": 0,
-                "houses": [
-                    "Brobnar",
-                    "Shadows",
-                    "Untamed"
+                "hasOwnershipVerification": false,
+                "housesAndCards": [
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Coward\u2019s End",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Coward\u2019s End",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Loot the Bodies",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Punch",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Smith",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Tremor",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Mighty Javelin",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Valdr",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Headhunter",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lomir Flamefist",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Rogue Ogre",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Smaaash",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Brobnar"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Booby Trap",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Booby Trap",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ghostly Hand",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Nerve Blast",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Pawn Sacrifice",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Seeker Needle",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Speed Sigil",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Subtle Maul",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Mooncurser",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Nexus",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Noddy the Thief",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Silvertooth",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Shadows"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Cooperative Hunting",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lifeweb",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Mimicry",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Nocturnal Maneuver",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Nocturnal Maneuver",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Nocturnal Maneuver",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ancient Bear",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Bigtwig",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Halacor",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Kindrith Longshot",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Piranha Monkeys",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Way of the Bear",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            }
+                        ],
+                        "house": "Untamed"
+                    }
                 ],
                 "id": 391532,
                 "keyCheatCount": 0,
                 "keyforgeId": "8dfbd01a-157b-4a51-8428-50ab1ed9edf7",
-                "lastSasUpdate": "2020-05-25",
+                "lastSasUpdate": "2020-06-14",
                 "losses": 0,
                 "name": "Provost Flop-Ra, the Yellow Ranger",
                 "other": 3.25,
-                "owners": null,
                 "powerLevel": 0,
                 "previousMajorSasRating": 59,
-                "previousSasRating": 59,
+                "previousSasRating": 58,
                 "rawAmber": 14,
                 "registered": true,
-                "sasPercentile": 23.493147878018604,
-                "sasRating": 58,
-                "searchResultCards": [],
-                "synergies": null,
+                "sasPercentile": 19.0617228586571,
+                "sasRating": 57,
                 "synergyRating": 3,
                 "totalArmor": 0,
                 "totalPower": 56,
@@ -4461,17 +5498,17 @@
                 "wins": 0,
                 "wishlistCount": 0
             },
-            "sasVersion": 15
+            "sasVersion": 21
         },
         "dok_stats": {
-            "amberControl": 20.514222043530605,
-            "artifactControl": 69.16927227839562,
-            "creatureControl": 98.52529575492962,
-            "creatureProtection": 0,
-            "disruption": 52.63224933239852,
-            "effectivePower": 15.101527481035244,
-            "efficiency": 3.56273792474794,
-            "expectedAmber": 71.76879224773747
+            "amberControl": 20.789932325003058,
+            "artifactControl": 75.76715316564066,
+            "creatureControl": 98.618777773248,
+            "creatureProtection": 21.53838313832606,
+            "disruption": 53.713206816421376,
+            "effectivePower": 24.99011374291655,
+            "efficiency": 3.8758714175058095,
+            "expectedAmber": 64.8487504586408
         },
         "user_data": {
             "deck_id": "8dfbd01a-157b-4a51-8428-50ab1ed9edf7"
@@ -5090,6 +6127,11 @@
                 ],
                 "houses": [
                     {
+                        "id": "Shadows",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "name": "Shadows"
+                    },
+                    {
                         "id": "Brobnar",
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
                         "name": "Brobnar"
@@ -5098,11 +6140,6 @@
                         "id": "Untamed",
                         "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
                         "name": "Untamed"
-                    },
-                    {
-                        "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
-                        "name": "Shadows"
                     }
                 ],
                 "notes": []
@@ -5169,6 +6206,7 @@
                     "Anomaly": [],
                     "Legacy": []
                 },
+                "shards_bonus": null,
                 "wins": 0
             }
         }
@@ -5177,53 +6215,312 @@
         "dok_data": {
             "deck": {
                 "actionCount": 16,
-                "aercScore": 52.0,
-                "aercVersion": 15,
-                "amberControl": 7.1875,
+                "aercScore": 50.0,
+                "aercVersion": 21,
+                "amberControl": 6.895,
                 "antisynergyRating": 0,
                 "artifactControl": 3.0,
                 "artifactCount": 5,
                 "cardArchiveCount": 3,
                 "cardDrawCount": 1,
                 "chains": 0,
-                "creatureControl": 10.5125,
+                "creatureControl": 10.1375,
                 "creatureCount": 15,
-                "creatureProtection": 2.5,
-                "crucibleTrackerLosses": null,
-                "crucibleTrackerWins": null,
+                "creatureProtection": 2.25,
                 "dateAdded": "2020-01-05",
-                "deckSaleInfo": null,
                 "disruption": 0.0,
-                "effectivePower": 80,
+                "effectivePower": 79,
                 "efficiency": 2.0,
                 "expansion": "AGE_OF_ASCENSION",
-                "expectedAmber": 19.0375,
+                "expectedAmber": 18.725,
                 "forAuction": false,
                 "forSale": false,
                 "forTrade": false,
                 "funnyCount": 0,
-                "houses": [
-                    "Mars",
-                    "Sanctum",
-                    "Shadows"
+                "hasOwnershipVerification": false,
+                "housesAndCards": [
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Destroy Them All!",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Destroy Them All!",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Key Abduction",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Mars First",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Mothergun",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Collector Worm",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Collector Worm",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Glyxl Proliferator",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ixxyxli Fixfinger",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Skybooster Squadron",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Skybooster Squadron",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Zysysyx Shockworm",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Mars"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Equalize",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Golden Aura",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Radiant Truth",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Shield of Justice",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Take Hostages",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Take Hostages",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Epic Quest",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Haedroth\u2019s Wall",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Hallowed Shield",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Bordan the Redeemed",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sir Marrows",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "\u201cLion\u201d Bautrem",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Sanctum"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Dusk Chronicles",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Furtive Investors",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Furtive Investors",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Life for a Life",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Throwing Stars",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Too Much to Protect",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Skeleton Key",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Bad Penny",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Bulleteye",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Gamgee",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ronnie Wristclocks",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Umbra",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Shadows"
+                    }
                 ],
                 "id": 1648089,
                 "keyCheatCount": 2,
                 "keyforgeId": "a4268ae8-a9f6-48c7-9739-b28a3553b108",
-                "lastSasUpdate": "2020-05-25",
+                "lastSasUpdate": "2020-07-23",
                 "losses": 0,
                 "name": "Sneaking \u201cSiphon\u201d Zebulon",
-                "other": 1.0750000000000002,
-                "owners": null,
+                "other": 0.925,
                 "powerLevel": 0,
                 "previousMajorSasRating": 58,
-                "previousSasRating": 60,
+                "previousSasRating": 59,
                 "rawAmber": 12,
                 "registered": true,
-                "sasPercentile": 29.353199115254984,
-                "sasRating": 59,
-                "searchResultCards": [],
-                "synergies": null,
+                "sasPercentile": 19.0617228586571,
+                "sasRating": 57,
                 "synergyRating": 7,
                 "totalArmor": 16,
                 "totalPower": 40,
@@ -5231,17 +6528,17 @@
                 "wins": 0,
                 "wishlistCount": 0
             },
-            "sasVersion": 15
+            "sasVersion": 21
         },
         "dok_stats": {
-            "amberControl": 52.378167576554034,
-            "artifactControl": 97.29320968168895,
-            "creatureControl": 68.81567332219095,
-            "creatureProtection": 0,
-            "disruption": 31.067752550508995,
-            "effectivePower": 36.29841425959092,
-            "efficiency": 30.334415451360623,
-            "expectedAmber": 63.873650259896614
+            "amberControl": 52.52792612825635,
+            "artifactControl": 98.34094337315015,
+            "creatureControl": 61.04096171878185,
+            "creatureProtection": 79.88075339394186,
+            "disruption": 31.293519915202413,
+            "effectivePower": 46.180745240327774,
+            "efficiency": 30.78769008112846,
+            "expectedAmber": 56.570437033715194
         },
         "user_data": {
             "deck_id": "a4268ae8-a9f6-48c7-9739-b28a3553b108"
@@ -5841,9 +7138,9 @@
                 ],
                 "houses": [
                     {
-                        "id": "Mars",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
-                        "name": "Mars"
+                        "id": "Sanctum",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
+                        "name": "Sanctum"
                     },
                     {
                         "id": "Shadows",
@@ -5851,9 +7148,9 @@
                         "name": "Shadows"
                     },
                     {
-                        "id": "Sanctum",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
-                        "name": "Sanctum"
+                        "id": "Mars",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
+                        "name": "Mars"
                     }
                 ],
                 "notes": []
@@ -5920,6 +7217,7 @@
                     "Anomaly": [],
                     "Legacy": []
                 },
+                "shards_bonus": null,
                 "wins": 0
             }
         }
@@ -5928,24 +7226,20 @@
         "dok_data": {
             "deck": {
                 "actionCount": 16,
-                "aercScore": 60.0,
-                "aercVersion": 15,
+                "aercScore": 59.0,
+                "aercVersion": 18,
                 "amberControl": 9.275,
                 "antisynergyRating": 0,
-                "artifactControl": 1.0,
+                "artifactControl": 0.75,
                 "artifactCount": 4,
                 "cardArchiveCount": 1,
                 "cardDrawCount": 0,
                 "chains": 0,
-                "creatureControl": 8.775,
+                "creatureControl": 8.525,
                 "creatureCount": 15,
                 "creatureProtection": 3.5,
-                "crucibleTrackerLosses": null,
-                "crucibleTrackerWins": null,
-                "dateAdded": null,
-                "deckSaleInfo": null,
                 "disruption": 2.5,
-                "effectivePower": 56,
+                "effectivePower": 59,
                 "efficiency": 6.25,
                 "expansion": "CALL_OF_THE_ARCHONS",
                 "expectedAmber": 21.65,
@@ -5953,28 +7247,290 @@
                 "forSale": false,
                 "forTrade": false,
                 "funnyCount": 0,
-                "houses": [
-                    "Logos",
-                    "Sanctum",
-                    "Shadows"
+                "hasOwnershipVerification": false,
+                "housesAndCards": [
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Foggify",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Phase Shift",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Phase Shift",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Remote Access",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Scrambler Storm",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Anomaly Exploiter",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Batdrone",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ganymede Archivist",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ozmo, Martianologist",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Skippy Timehog",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Titan Mechanic",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Rocket Boots",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            }
+                        ],
+                        "house": "Logos"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Begone!",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Blinding Light",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Take Hostages",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Take Hostages",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Terms of Redress",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Bulwark",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Commander Remiel",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Commander Remiel",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sequis",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sequis",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sergeant Zakiel",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "The Vaultkeeper",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            }
+                        ],
+                        "house": "Sanctum"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Booby Trap",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Booby Trap",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Nerve Blast",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Pawn Sacrifice",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Routine Job",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Routine Job",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Seeker Needle",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Seeker Needle",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Speed Sigil",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Bad Penny",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Shadow Self",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Urchin",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Shadows"
+                    }
                 ],
                 "id": 391536,
                 "keyCheatCount": 0,
                 "keyforgeId": "aebaeba5-5918-4573-983a-72d0a5c6133d",
-                "lastSasUpdate": "2020-05-25",
+                "lastSasUpdate": "2020-06-14",
                 "losses": 0,
                 "name": "Rask of Merosen Shelter",
-                "other": 1.6,
-                "owners": null,
+                "other": 1.7,
                 "powerLevel": 0,
                 "previousMajorSasRating": 66,
-                "previousSasRating": 65,
+                "previousSasRating": 66,
                 "rawAmber": 11,
                 "registered": true,
-                "sasPercentile": 73.95407256282543,
-                "sasRating": 66,
-                "searchResultCards": [],
-                "synergies": null,
+                "sasPercentile": 68.46044477964858,
+                "sasRating": 65,
                 "synergyRating": 6,
                 "totalArmor": 8,
                 "totalPower": 51,
@@ -5982,17 +7538,17 @@
                 "wins": 0,
                 "wishlistCount": 0
             },
-            "sasVersion": 15
+            "sasVersion": 21
         },
         "dok_stats": {
-            "amberControl": 72.20745432010979,
-            "artifactControl": 69.16927227839562,
-            "creatureControl": 47.888319217064904,
-            "creatureProtection": 0,
-            "disruption": 61.92727768123262,
-            "effectivePower": 5.585811295008412,
-            "efficiency": 59.420020180338234,
-            "expectedAmber": 84.21348183935697
+            "amberControl": 72.13782665416446,
+            "artifactControl": 75.76715316564066,
+            "creatureControl": 50.14238248603694,
+            "creatureProtection": 95.20852868033757,
+            "disruption": 63.2010579314281,
+            "effectivePower": 11.751498226588936,
+            "efficiency": 59.46700843899058,
+            "expectedAmber": 78.88142606710424
         },
         "user_data": {
             "deck_id": "aebaeba5-5918-4573-983a-72d0a5c6133d"
@@ -6554,14 +8110,14 @@
                 ],
                 "houses": [
                     {
-                        "id": "Logos",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
-                        "name": "Logos"
-                    },
-                    {
                         "id": "Shadows",
                         "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
                         "name": "Shadows"
+                    },
+                    {
+                        "id": "Logos",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "name": "Logos"
                     },
                     {
                         "id": "Sanctum",
@@ -6633,6 +8189,7 @@
                     "Anomaly": [],
                     "Legacy": []
                 },
+                "shards_bonus": null,
                 "wins": 0
             }
         }
@@ -6641,8 +8198,8 @@
         "dok_data": {
             "deck": {
                 "actionCount": 15,
-                "aercScore": 54.0,
-                "aercVersion": 15,
+                "aercScore": 53.0,
+                "aercVersion": 18,
                 "amberControl": 7.1274999999999995,
                 "antisynergyRating": 1,
                 "artifactControl": 2.025,
@@ -6650,62 +8207,321 @@
                 "cardArchiveCount": 1,
                 "cardDrawCount": 1,
                 "chains": 0,
-                "creatureControl": 7.85,
+                "creatureControl": 8.1,
                 "creatureCount": 17,
                 "creatureProtection": 1.225,
-                "crucibleTrackerLosses": null,
-                "crucibleTrackerWins": null,
                 "dateAdded": "2019-06-06",
-                "deckSaleInfo": null,
                 "disruption": 2.525,
                 "effectivePower": 75,
                 "efficiency": 3.0,
                 "expansion": "AGE_OF_ASCENSION",
-                "expectedAmber": 20.752499999999998,
+                "expectedAmber": 21.0525,
                 "forAuction": false,
                 "forSale": false,
                 "forTrade": false,
                 "funnyCount": 0,
-                "houses": [
-                    "Brobnar",
-                    "Dis",
-                    "Shadows"
+                "hasOwnershipVerification": false,
+                "housesAndCards": [
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "1-2 Punch",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Barehanded",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "First Blood",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Pound",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Gauntlet of Command",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Grump Buggy",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Brammo",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Brammo",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Drummernaut",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Foozle",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ganger Chieftain",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lollop the Titanic",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Brobnar"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Misery Exploit",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Pandemonium",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Poltergeist",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Red-Hot Armor",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lifeward",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Gub",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Old Yurk",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Shooler",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Silver Key Imp",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Variant"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Streke",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Yurk",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Soulkeeper",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            }
+                        ],
+                        "house": "Dis"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Dusk Chronicles",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Furtive Investors",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Life for a Life",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Nightforge",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Routine Job",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Routine Job",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sucker Punch",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Knuckles Bolton",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Knuckles Bolton",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lamindra",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lamindra",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lamindra",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Shadows"
+                    }
                 ],
                 "id": 955188,
                 "keyCheatCount": 1,
                 "keyforgeId": "b41630b3-7394-4ac5-9102-0c4dcb2e1b8a",
-                "lastSasUpdate": "2020-05-25",
+                "lastSasUpdate": "2020-06-14",
                 "losses": 0,
                 "name": "Byrne, Outerhill's Survivalist",
                 "other": 2.31,
-                "owners": null,
                 "powerLevel": 0,
                 "previousMajorSasRating": 61,
                 "previousSasRating": 62,
                 "rawAmber": 15,
                 "registered": true,
-                "sasPercentile": 42.37954099145049,
+                "sasPercentile": 42.83022137062253,
                 "sasRating": 61,
-                "searchResultCards": [],
-                "synergies": null,
-                "synergyRating": 8,
+                "synergyRating": 9,
                 "totalArmor": 2,
                 "totalPower": 63,
                 "upgradeCount": 1,
                 "wins": 0,
                 "wishlistCount": 0
             },
-            "sasVersion": 15
+            "sasVersion": 21
         },
         "dok_stats": {
-            "amberControl": 52.378167576554034,
-            "artifactControl": 90.43693422782516,
-            "creatureControl": 36.64265405783184,
-            "creatureProtection": 0,
-            "disruption": 71.557795846306,
-            "effectivePower": 27.964610199377756,
-            "efficiency": 38.764469313591604,
-            "expectedAmber": 78.56852509638826
+            "amberControl": 52.52792612825635,
+            "artifactControl": 93.46645807003955,
+            "creatureControl": 38.75473928818949,
+            "creatureProtection": 58.98645480859391,
+            "disruption": 72.88999755391578,
+            "effectivePower": 38.17175588079416,
+            "efficiency": 39.014228056586084,
+            "expectedAmber": 72.36770761139876
         },
         "user_data": {
             "deck_id": "b41630b3-7394-4ac5-9102-0c4dcb2e1b8a"
@@ -7305,6 +9121,11 @@
                 ],
                 "houses": [
                     {
+                        "id": "Dis",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "name": "Dis"
+                    },
+                    {
                         "id": "Brobnar",
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
                         "name": "Brobnar"
@@ -7313,11 +9134,6 @@
                         "id": "Shadows",
                         "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
                         "name": "Shadows"
-                    },
-                    {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
-                        "name": "Dis"
                     }
                 ],
                 "notes": []
@@ -7384,6 +9200,7 @@
                     "Anomaly": [],
                     "Legacy": []
                 },
+                "shards_bonus": null,
                 "wins": 0
             }
         }
@@ -7392,53 +9209,312 @@
         "dok_data": {
             "deck": {
                 "actionCount": 12,
-                "aercScore": 52.0,
-                "aercVersion": 15,
+                "aercScore": 53.0,
+                "aercVersion": 18,
                 "amberControl": 4.325,
-                "antisynergyRating": 3,
+                "antisynergyRating": 4,
                 "artifactControl": 0.0,
                 "artifactCount": 2,
-                "cardArchiveCount": 2,
+                "cardArchiveCount": 4,
                 "cardDrawCount": 2,
                 "chains": 0,
-                "creatureControl": 9.0875,
+                "creatureControl": 9.15,
                 "creatureCount": 20,
-                "creatureProtection": 0.5,
-                "crucibleTrackerLosses": null,
-                "crucibleTrackerWins": null,
+                "creatureProtection": 0.75,
                 "dateAdded": "2020-01-05",
-                "deckSaleInfo": null,
                 "disruption": 5.0125,
                 "effectivePower": 89,
-                "efficiency": 5.856249999999999,
+                "efficiency": 5.55625,
                 "expansion": "AGE_OF_ASCENSION",
-                "expectedAmber": 12.2,
+                "expectedAmber": 12.85,
                 "forAuction": false,
                 "forSale": false,
                 "forTrade": false,
                 "funnyCount": 0,
-                "houses": [
-                    "Brobnar",
-                    "Dis",
-                    "Logos"
+                "hasOwnershipVerification": false,
+                "housesAndCards": [
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Coward\u2019s End",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "First Blood",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Into the Fray",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Might Makes Right",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Tremor",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Culf the Quiet",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Drummernaut",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Foozle",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "King of the Crag",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lollop the Titanic",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Tireless Crocag",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Blood of Titans",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            }
+                        ],
+                        "house": "Brobnar"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Hysteria",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Unlocked Gateway",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lifeward",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Angwish",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Angwish",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Charette",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Gold Key Imp",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Variant"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Overlord Greking",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Silver Key Imp",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Variant"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Skullion",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Tezmal",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Yurk",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Dis"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Binate Rupture",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Labwork",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Poke",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Positron Bolt",
+                                "legacy": true,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Wild Wormhole",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Library of Babble",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Harland Mindlock",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Pip Pip",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Titan Librarian",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Z.Y.X. Researcher",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Z.Y.X. Researcher",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Backup Copy",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            }
+                        ],
+                        "house": "Logos"
+                    }
                 ],
                 "id": 1648088,
                 "keyCheatCount": 1,
                 "keyforgeId": "bfbf6786-218c-4320-a7b1-7ed4d6eddc69",
-                "lastSasUpdate": "2020-05-25",
+                "lastSasUpdate": "2020-06-14",
                 "losses": 0,
                 "name": "Crawling \u201cMartini\u201d Quasimodo",
                 "other": 2.6875,
-                "owners": null,
                 "powerLevel": 0,
                 "previousMajorSasRating": 58,
                 "previousSasRating": 58,
                 "rawAmber": 9,
                 "registered": true,
-                "sasPercentile": 13.703800925725943,
+                "sasPercentile": 14.500489216845367,
                 "sasRating": 56,
-                "searchResultCards": [],
-                "synergies": null,
                 "synergyRating": 7,
                 "totalArmor": 2,
                 "totalPower": 93,
@@ -7446,17 +9522,17 @@
                 "wins": 0,
                 "wishlistCount": 0
             },
-            "sasVersion": 15
+            "sasVersion": 21
         },
         "dok_stats": {
-            "amberControl": 20.514222043530605,
-            "artifactControl": 40.71239252197741,
-            "creatureControl": 47.888319217064904,
-            "creatureProtection": 0,
-            "disruption": 83.4484122105445,
-            "effectivePower": 51.67711680339898,
-            "efficiency": 59.420020180338234,
-            "expectedAmber": 9.502535833391482
+            "amberControl": 20.789932325003058,
+            "artifactControl": 41.18451628684414,
+            "creatureControl": 50.14238248603694,
+            "creatureProtection": 58.98645480859391,
+            "disruption": 84.43816502914918,
+            "effectivePower": 65.43973459986138,
+            "efficiency": 59.46700843899058,
+            "expectedAmber": 11.343358881324146
         },
         "user_data": {
             "deck_id": "bfbf6786-218c-4320-a7b1-7ed4d6eddc69"
@@ -8113,6 +10189,11 @@
                 ],
                 "houses": [
                     {
+                        "id": "Dis",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "name": "Dis"
+                    },
+                    {
                         "id": "Brobnar",
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
                         "name": "Brobnar"
@@ -8121,11 +10202,6 @@
                         "id": "Logos",
                         "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
                         "name": "Logos"
-                    },
-                    {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
-                        "name": "Dis"
                     }
                 ],
                 "notes": []
@@ -8194,6 +10270,7 @@
                         "f344ec2a-cbfb-4cd1-9f11-35b2a1a7e90c"
                     ]
                 },
+                "shards_bonus": null,
                 "wins": 0
             }
         }
@@ -8203,7 +10280,7 @@
             "deck": {
                 "actionCount": 16,
                 "aercScore": 59.0,
-                "aercVersion": 15,
+                "aercVersion": 20,
                 "amberControl": 5.9075,
                 "antisynergyRating": 0,
                 "artifactControl": 3.0,
@@ -8211,44 +10288,303 @@
                 "cardArchiveCount": 3,
                 "cardDrawCount": 2,
                 "chains": 0,
-                "creatureControl": 6.375,
+                "creatureControl": 6.875,
                 "creatureCount": 14,
                 "creatureProtection": 0.75,
-                "crucibleTrackerLosses": null,
-                "crucibleTrackerWins": null,
                 "dateAdded": "2019-11-10",
-                "deckSaleInfo": null,
                 "disruption": 3.645,
                 "effectivePower": 53,
-                "efficiency": 12.25,
+                "efficiency": 12.375,
                 "expansion": "WORLDS_COLLIDE",
-                "expectedAmber": 20.57,
+                "expectedAmber": 20.845,
                 "forAuction": false,
                 "forSale": false,
                 "forTrade": false,
                 "funnyCount": 0,
-                "houses": [
-                    "Dis",
-                    "Logos",
-                    "Shadows"
+                "hasOwnershipVerification": false,
+                "housesAndCards": [
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Binding Irons",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Demons\u2019 Bane",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Variant"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Exhume",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Misery Exploit",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Not Finished with You",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Poltergeist",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Dendrix",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Malison",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Skullion",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Spyyyder",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Spyyyder",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Soulkeeper",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            }
+                        ],
+                        "house": "Dis"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Data Forge",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Interdimensional Graft",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Master the Theory",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Positron Bolt",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Tautau Vapors",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Wild Wormhole",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Hologrammophone",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Seismo-entangler",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Daughter",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "EDAI \u201cEdie\u201d 4x4",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Groupthink Tank",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Wormhole Technician",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Logos"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Hit and Run",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Hock",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Rigged Lottery",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Subtle Chain",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Longfused Mines",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Special Delivery",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "A. Vinda",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Bad Penny",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Chain Gang",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "J. Vinda",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Umbra",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Duskrunner",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            }
+                        ],
+                        "house": "Shadows"
+                    }
                 ],
                 "id": 1407995,
                 "keyCheatCount": 1,
                 "keyforgeId": "c94bc221-1da8-455f-965a-9ad436c7d5b9",
-                "lastSasUpdate": "2020-05-25",
+                "lastSasUpdate": "2020-07-11",
                 "losses": 0,
                 "name": "Zebrogus, the Servant Wanderer",
                 "other": 0.45,
-                "owners": null,
                 "powerLevel": 0,
                 "previousMajorSasRating": 66,
                 "previousSasRating": 66,
                 "rawAmber": 16,
                 "registered": true,
-                "sasPercentile": 62.35165180831115,
+                "sasPercentile": 62.50417872722084,
                 "sasRating": 64,
-                "searchResultCards": [],
-                "synergies": null,
                 "synergyRating": 5,
                 "totalArmor": 5,
                 "totalPower": 45,
@@ -8256,17 +10592,17 @@
                 "wins": 0,
                 "wishlistCount": 0
             },
-            "sasVersion": 15
+            "sasVersion": 21
         },
         "dok_stats": {
-            "amberControl": 41.29902897351635,
-            "artifactControl": 97.29320968168895,
-            "creatureControl": 16.89649214329148,
-            "creatureProtection": 0,
-            "disruption": 77.8897369356677,
-            "effectivePower": 3.8016456611718996,
-            "efficiency": 89.43024326057557,
-            "expectedAmber": 78.56852509638826
+            "amberControl": 41.53084104529333,
+            "artifactControl": 98.34094337315015,
+            "creatureControl": 27.86915487789963,
+            "creatureProtection": 58.98645480859391,
+            "disruption": 79.15584614130213,
+            "effectivePower": 6.008398222512128,
+            "efficiency": 89.42277508255535,
+            "expectedAmber": 72.36770761139876
         },
         "user_data": {
             "deck_id": "c94bc221-1da8-455f-965a-9ad436c7d5b9"
@@ -8947,14 +11283,14 @@
                         "name": "Dis"
                     },
                     {
-                        "id": "Logos",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
-                        "name": "Logos"
-                    },
-                    {
                         "id": "Shadows",
                         "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
                         "name": "Shadows"
+                    },
+                    {
+                        "id": "Logos",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "name": "Logos"
                     }
                 ],
                 "notes": []
@@ -9021,6 +11357,7 @@
                     "Anomaly": [],
                     "Legacy": []
                 },
+                "shards_bonus": null,
                 "wins": 0
             }
         }
@@ -9030,23 +11367,20 @@
             "deck": {
                 "actionCount": 6,
                 "aercScore": 54.0,
-                "aercVersion": 15,
+                "aercVersion": 18,
                 "amberControl": 8.9475,
-                "antisynergyRating": 0,
+                "antisynergyRating": 1,
                 "artifactControl": 0.0,
                 "artifactCount": 4,
                 "cardArchiveCount": 4,
                 "cardDrawCount": 4,
                 "chains": 0,
-                "creatureControl": 5.5,
+                "creatureControl": 5.59375,
                 "creatureCount": 25,
                 "creatureProtection": 4.375,
-                "crucibleTrackerLosses": null,
-                "crucibleTrackerWins": null,
                 "dateAdded": "2019-11-12",
-                "deckSaleInfo": null,
                 "disruption": 1.2,
-                "effectivePower": 101,
+                "effectivePower": 102,
                 "efficiency": 9.787500000000001,
                 "expansion": "WORLDS_COLLIDE",
                 "expectedAmber": 11.9975,
@@ -9054,46 +11388,308 @@
                 "forSale": false,
                 "forTrade": false,
                 "funnyCount": 0,
-                "houses": [
-                    "Dis",
-                    "Logos",
-                    "Saurian"
+                "hasOwnershipVerification": false,
+                "housesAndCards": [
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Dinosaurs\u2019 Bane",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Variant"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Festering Touch",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Obsidian Forge",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Dendrix",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Dendrix",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Harbinger of Doom",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Impspector",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Infurnace",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Malison",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Malison",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Rotgrub",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Spyyyder",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            }
+                        ],
+                        "house": "Dis"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Cutthroat Research",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Hologrammophone",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Memory Chip",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Babbling Bibliophile",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Babbling Bibliophile",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "EDAI \u201cEdie\u201d 4x4",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Hyde",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Quant",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Quant",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Reassembling Automaton",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Velum",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "FIXED"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Discombobulator",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            }
+                        ],
+                        "house": "Logos"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "City-State Interest",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Phalanx Strike",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sic Semper Tyrannosaurus",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Auto-Legionary",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Legatus Raptor",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Odoac the Patrician",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Paraguardian",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Philophosaurus",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Praefectus Ludo",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Questor Jarta",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Tribune Pompitus",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Tricerian Legionary",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Saurian"
+                    }
                 ],
                 "id": 1445087,
                 "keyCheatCount": 1,
                 "keyforgeId": "c98e4663-351e-4dfb-9ce8-4578ee8f54ad",
-                "lastSasUpdate": "2020-05-25",
+                "lastSasUpdate": "2020-06-14",
                 "losses": 0,
                 "name": "Du\u2019lac, the Baron of Ustoth",
                 "other": 1.975,
-                "owners": null,
                 "powerLevel": 0,
                 "previousMajorSasRating": 65,
                 "previousSasRating": 63,
                 "rawAmber": 7,
                 "registered": true,
-                "sasPercentile": 62.35165180831115,
+                "sasPercentile": 62.50417872722084,
                 "sasRating": 64,
-                "searchResultCards": [],
-                "synergies": null,
-                "synergyRating": 10,
+                "synergyRating": 11,
                 "totalArmor": 8,
                 "totalPower": 87,
                 "upgradeCount": 1,
                 "wins": 0,
                 "wishlistCount": 0
             },
-            "sasVersion": 15
+            "sasVersion": 21
         },
         "dok_stats": {
-            "amberControl": 72.20745432010979,
-            "artifactControl": 40.71239252197741,
-            "creatureControl": 16.89649214329148,
-            "creatureProtection": 0,
-            "disruption": 52.63224933239852,
-            "effectivePower": 69.97061556677178,
-            "efficiency": 81.5219762997323,
-            "expectedAmber": 9.502535833391482
+            "amberControl": 72.13782665416446,
+            "artifactControl": 41.18451628684414,
+            "creatureControl": 18.23978759835297,
+            "creatureProtection": 95.20852868033757,
+            "disruption": 53.713206816421376,
+            "effectivePower": 84.16879000366913,
+            "efficiency": 81.59071914876269,
+            "expectedAmber": 7.2844897875983525
         },
         "user_data": {
             "deck_id": "c98e4663-351e-4dfb-9ce8-4578ee8f54ad"
@@ -9712,9 +12308,9 @@
                 ],
                 "houses": [
                     {
-                        "id": "Saurian",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
-                        "name": "Saurian"
+                        "id": "Dis",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "name": "Dis"
                     },
                     {
                         "id": "Logos",
@@ -9722,9 +12318,9 @@
                         "name": "Logos"
                     },
                     {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
-                        "name": "Dis"
+                        "id": "Saurian",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
+                        "name": "Saurian"
                     }
                 ],
                 "notes": []
@@ -9791,6 +12387,7 @@
                     "Anomaly": [],
                     "Legacy": []
                 },
+                "shards_bonus": null,
                 "wins": 0
             }
         }
@@ -9799,8 +12396,8 @@
         "dok_data": {
             "deck": {
                 "actionCount": 10,
-                "aercScore": 53.0,
-                "aercVersion": 15,
+                "aercScore": 54.0,
+                "aercVersion": 18,
                 "amberControl": 6.0,
                 "antisynergyRating": 4,
                 "artifactControl": 0.0,
@@ -9810,42 +12407,300 @@
                 "chains": 0,
                 "creatureControl": 7.95,
                 "creatureCount": 19,
-                "creatureProtection": 1.0,
-                "crucibleTrackerLosses": null,
-                "crucibleTrackerWins": null,
-                "dateAdded": null,
-                "deckSaleInfo": null,
+                "creatureProtection": 1.5,
                 "disruption": 0.0,
                 "effectivePower": 85,
-                "efficiency": 3.4125,
+                "efficiency": 3.6375,
                 "expansion": "CALL_OF_THE_ARCHONS",
                 "expectedAmber": 16.2,
                 "forAuction": false,
                 "forSale": false,
                 "forTrade": false,
                 "funnyCount": 0,
-                "houses": [
-                    "Brobnar",
-                    "Mars",
-                    "Untamed"
+                "hasOwnershipVerification": false,
+                "housesAndCards": [
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Cannon",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Gauntlet of Command",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Screechbomb",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Screechbomb",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Valdr",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Hebe the Huge",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lomir Flamefist",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Looter Goblin",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Smaaash",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Troll",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Blood of Titans",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Blood of Titans",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            }
+                        ],
+                        "house": "Brobnar"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ammonia Clouds",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ammonia Clouds",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ammonia Clouds",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Phosphorus Stars",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Psychic Network",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Squawker",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Blypyp",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ether Spider",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Yxilo Bolter",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Yxilo Bolter",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Zorg",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Biomatrix Backup",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Mars"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Key Charge",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Mimicry",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Perilous Wild",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Regrowth",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ancient Bear",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Dew Faerie",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Dust Pixie",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Dust Pixie",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lupo the Scarred",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Mushroom Man",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Niffle Ape",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Witch of the Eye",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Untamed"
+                    }
                 ],
                 "id": 527299,
                 "keyCheatCount": 1,
                 "keyforgeId": "cface028-c891-46bf-9eb0-b9fc2280a718",
-                "lastSasUpdate": "2020-05-25",
+                "lastSasUpdate": "2020-06-14",
                 "losses": 0,
                 "name": "Grassspell of the Recordkeeper's Shrine",
                 "other": 4.625,
-                "owners": null,
                 "powerLevel": 0,
                 "previousMajorSasRating": 56,
-                "previousSasRating": 57,
+                "previousSasRating": 55,
                 "rawAmber": 10,
                 "registered": true,
-                "sasPercentile": 9.96002698095716,
-                "sasRating": 55,
-                "searchResultCards": [],
-                "synergies": null,
+                "sasPercentile": 14.500489216845367,
+                "sasRating": 56,
                 "synergyRating": 6,
                 "totalArmor": 0,
                 "totalPower": 77,
@@ -9853,17 +12708,17 @@
                 "wins": 0,
                 "wishlistCount": 0
             },
-            "sasVersion": 15
+            "sasVersion": 21
         },
         "dok_stats": {
-            "amberControl": 41.29902897351635,
-            "artifactControl": 40.71239252197741,
-            "creatureControl": 36.64265405783184,
-            "creatureProtection": 0,
-            "disruption": 31.067752550508995,
-            "effectivePower": 44.886576973813185,
-            "efficiency": 38.764469313591604,
-            "expectedAmber": 37.12811192002295
+            "amberControl": 41.53084104529333,
+            "artifactControl": 41.18451628684414,
+            "creatureControl": 38.75473928818949,
+            "creatureProtection": 79.88075339394186,
+            "disruption": 31.293519915202413,
+            "effectivePower": 58.04654694443312,
+            "efficiency": 46.370214847731255,
+            "expectedAmber": 30.817450772554935
         },
         "user_data": {
             "deck_id": "cface028-c891-46bf-9eb0-b9fc2280a718"
@@ -10444,11 +13299,6 @@
                 ],
                 "houses": [
                     {
-                        "id": "Untamed",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
-                        "name": "Untamed"
-                    },
-                    {
                         "id": "Brobnar",
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
                         "name": "Brobnar"
@@ -10457,6 +13307,11 @@
                         "id": "Mars",
                         "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
                         "name": "Mars"
+                    },
+                    {
+                        "id": "Untamed",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
+                        "name": "Untamed"
                     }
                 ],
                 "notes": []
@@ -10523,6 +13378,7 @@
                     "Anomaly": [],
                     "Legacy": []
                 },
+                "shards_bonus": null,
                 "wins": 0
             }
         }
