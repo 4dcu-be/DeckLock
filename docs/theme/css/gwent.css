@@ -72,7 +72,7 @@
     background-image: url('../img/gwent/banner-leader-sk.png');
 }
 
-.gcard.leader.monsters .gcard__banner {
+.gcard.leader.monster .gcard__banner {
     background-image: url('../img/gwent/banner-leader-mo.png');
 }
 
@@ -100,7 +100,7 @@
     background-image: url('../img/gwent/banner-sk.png');
 }
 
-.gcard.monsters .gcard__banner {
+.gcard.monster .gcard__banner {
     background-image: url('../img/gwent/banner-mo.png');
 }
 
@@ -194,7 +194,7 @@
 .gcard.nilfgaard .gcard__provision {
     background-image: url('../img/gwent/provision-ng.png');
 }
-.gcard.monsters .gcard__provision {
+.gcard.monster .gcard__provision {
     background-image: url('../img/gwent/provision-mo.png');
 }
 .gcard.skellige .gcard__provision {
@@ -337,7 +337,7 @@
 .deck.syndicate {
     background-image: url('../img/gwent/syn-background.png');
 }
-.deck.monsters {
+.deck.monster {
     background-image: url('../img/gwent/mon-background.png');
 }
 .deck.northern_realms {
