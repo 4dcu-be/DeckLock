@@ -21,10 +21,10 @@
     <table id="deck_overview" class="table table-striped">
         <thead>
         <tr>
-            <th scope="col">Leader</th>
-            <th scope="col">Deck</th>
-            <th scope="col">Faction</th>
-            <th scope="col">Gwent Version</th>
+            <th scope="col" data-sort="string-ins">Leader</th>
+            <th scope="col" data-sort="string-ins">Deck</th>
+            <th scope="col" data-sort="string-ins">Faction</th>
+            <th scope="col" data-sort="float">Gwent Version</th>
         </tr>
         </thead>
         <tbody>
@@ -44,6 +44,10 @@
 {% endblock %}
 
 {% block extra_js %}
+<script src="{{ SITEURL }}/theme/js/stupidtable.min.js"></script>
 <script>
+$(function(){
+  $("#deck_overview").stupidtable();
+ });
 </script>
 {% endblock %}

@@ -50,10 +50,10 @@
     <table id="deck_overview" class="table table-striped">
         <thead>
         <tr>
-            <th scope="col">Leader</th>
-            <th scope="col">Deck</th>
-            <th scope="col">Faction</th>
-            <th scope="col">Gwent Version</th>
+            <th scope="col" data-sort="string-ins">Leader</th>
+            <th scope="col" data-sort="string-ins">Deck</th>
+            <th scope="col" data-sort="string-ins">Faction</th>
+            <th scope="col" data-sort="float">Gwent Version</th>
         </tr>
         </thead>
         <tbody>
@@ -227,7 +227,11 @@
 <script src="https://4dcu.be/DeckLock/theme/js/jquery-3.3.1.js"></script>
 <script src="https://4dcu.be/DeckLock/theme/js/bootstrap.bundle.min.js"></script>
 <script src="https://4dcu.be/DeckLock/theme/js/Chart.bundle.min.js"></script>
+<script src="https://4dcu.be/DeckLock/theme/js/stupidtable.min.js"></script>
 <script>
+$(function(){
+  $("#deck_overview").stupidtable();
+ });
 </script>
 </body>
 </html>
