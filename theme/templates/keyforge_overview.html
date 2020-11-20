@@ -30,7 +30,7 @@
         <tbody>
          {% for k,v in keyforge_data.items() %}
             <tr>
-                <th scope="row"><a href="{{ SITEURL }}/{{v.path}}">{{ v.vault_data.data.name }}</a></th>
+                <td><a href="{{ SITEURL }}/{{v.path}}">{{ v.vault_data.data.name }}</a></td>
                 <td>
                     {% for house in v.vault_data._linked.houses %}
                         {% if USE_EXTERNAL_LINKS %}
@@ -45,9 +45,9 @@
                     <td>{{ (v.dok_data.deck.aercScore)|int }}</td>
                     <td>{{ "%.1f"|format(v.dok_data.deck.sasPercentile) }}</td>
                 {% else %}
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
+                    <td data-sort-value="0">-</td>
+                    <td data-sort-value="0">-</td>
+                    <td data-sort-value="0">-</td>
                 {% endif %}
             </tr>
         {% endfor %}
