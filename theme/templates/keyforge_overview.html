@@ -20,11 +20,11 @@
     <table id="deck_overview" class="table table-striped">
         <thead>
         <tr>
-            <th scope="col">Deck</th>
+            <th scope="col" data-sort="string-ins">Deck</th>
             <th scope="col">Houses</th>
-            <th scope="col">SAS</th>
-            <th scope="col">EARC</th>
-            <th scope="col">%</th>
+            <th scope="col" data-sort="int">SAS</th>
+            <th scope="col" data-sort="int">EARC</th>
+            <th scope="col" data-sort="float">%</th>
         </tr>
         </thead>
         <tbody>
@@ -42,7 +42,7 @@
                 </td>
                 {% if v.dok_data.deck %}
                     <td>{{ v.dok_data.deck.sasRating }}</td>
-                    <td>{{ v.dok_data.deck.aercScore }}</td>
+                    <td>{{ (v.dok_data.deck.aercScore)|int }}</td>
                     <td>{{ "%.1f"|format(v.dok_data.deck.sasPercentile) }}</td>
                 {% else %}
                     <td>-</td>
@@ -57,6 +57,10 @@
 {% endblock %}
 
 {% block extra_js %}
+<script src="{{ SITEURL }}/theme/js/stupidtable.min.js"></script>
 <script>
+$(function(){
+  $("#deck_overview").stupidtable();
+ });
 </script>
 {% endblock %}
