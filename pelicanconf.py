@@ -76,7 +76,7 @@ GWENT_ENABLED = True
 
 GWENT_PATH = "data"
 GWENT_ASSETS_PATH = "assets/gwent"
-GWENT_CURRENT_VERSION = "6.2.0"
+GWENT_CURRENT_VERSION = "7.4.0"
 
 TEMPLATE_PAGES = {"gwent_overview.html": "gwent.html", "mtg_overview.html": "mtg.html"}
 
