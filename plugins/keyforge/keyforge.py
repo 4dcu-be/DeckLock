@@ -131,6 +131,7 @@ def parse_dok_stats(dok_data, dok_decks_data):
         "effectivePower",
         "disruption",
         "efficiency",
+        "recursion"
     ]
 
     output = {}

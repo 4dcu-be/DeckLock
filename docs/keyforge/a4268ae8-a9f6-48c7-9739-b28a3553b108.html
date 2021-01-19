@@ -53,9 +53,9 @@
     <div class="card top15">
       <div class="card-body">
           <div class="row">
-              <div class="col text-center"><h3>58<br /><small class="text-muted">SAS</small></h3></div>
+              <div class="col text-center"><h3>60<br /><small class="text-muted">SAS</small></h3></div>
               <div class="col text-center"><h3>50<br /><small class="text-muted">AERC</small></h3></div>
-              <div class="col text-center"><h3>22.4 %<br /><small class="text-muted">Percentile</small></h3></div>
+              <div class="col text-center"><h3>32.8 %<br /><small class="text-muted">Percentile</small></h3></div>
           </div>
       </div>
     </div>
@@ -153,13 +153,13 @@ var ctx = document.getElementById('radarStats').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'radar',
     data: {
-        labels: ["Expected Amber", "Amber Control", "Artifact Control", "Creature Control", "Effective Power", "Creature Protection", "Disruption", "Efficiency"],
+        labels: ["Expected Amber", "Amber Control", "Artifact Control", "Creature Control", "Effective Power", "Creature Protection", "Disruption", "Efficiency", "Recursion"],
         datasets: [{
-            data: [49.0,
-                   62.0,  99.0,
-                   60.0,  41.0,
+            data: [50.0,
+                   61.0,  98.0,
+                   68.0,  41.0,
                    80.0,
-                   0,  30.0 ],
+                   0,  39.0,  61.0  ],
             borderColor: 'rgba(0, 188, 140, 0.8)',
             backgroundColor: 'rgba(0, 188, 140, 0.3)'
         }]

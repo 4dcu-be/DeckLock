@@ -5,7 +5,7 @@
                 "actionCount": 10,
                 "adaptiveScore": 0,
                 "aercScore": 53,
-                "aercVersion": 26,
+                "aercVersion": 29,
                 "amberControl": 8.17,
                 "antisynergyRating": 1,
                 "artifactControl": 1.0,
@@ -16,7 +16,7 @@
                 "creatureCount": 18,
                 "disruption": 1.0,
                 "effectivePower": 61,
-                "efficiency": 12.3,
+                "efficiency": 11.55,
                 "expansion": "CALL_OF_THE_ARCHONS",
                 "expectedAmber": 16.1075,
                 "housesAndCards": [
@@ -290,30 +290,32 @@
                 ],
                 "id": 527297,
                 "keyforgeId": "21459407-7765-44f6-b183-2ebef8283f63",
-                "lastSasUpdate": "2020-11-02",
+                "lastSasUpdate": "2021-01-01",
                 "metaScores": {},
                 "name": "Preposterously Four-eyed Odyssia",
                 "other": 0.825,
                 "previousMajorSasRating": 60,
                 "previousSasRating": 58,
                 "rawAmber": 10,
-                "sasPercentile": 27.938576935814304,
+                "recursion": 0.5,
+                "sasPercentile": 27.37385001526271,
                 "sasRating": 59,
                 "synergyRating": 7,
                 "totalPower": 48,
                 "upgradeCount": 4
             },
-            "sasVersion": 26
+            "sasVersion": 30
         },
         "dok_stats": {
-            "amberControl": 61.52165113790752,
-            "artifactControl": 76.52732120183373,
-            "creatureControl": 17.89551503439074,
+            "amberControl": 61.45156688461723,
+            "artifactControl": 76.4976090002046,
+            "creatureControl": 17.172282537227485,
             "creatureProtection": 0,
-            "disruption": 53.525021158203145,
-            "effectivePower": 13.499292018566651,
-            "efficiency": 87.54951449629618,
-            "expectedAmber": 31.586533108346725
+            "disruption": 53.443462218975036,
+            "effectivePower": 13.564253639195211,
+            "efficiency": 93.48574206445849,
+            "expectedAmber": 32.122618198183574,
+            "recursion": 38.351893074622076
         },
         "user_data": {
             "deck_id": "21459407-7765-44f6-b183-2ebef8283f63"
@@ -951,6 +953,11 @@
                 ],
                 "houses": [
                     {
+                        "id": "Shadows",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "name": "Shadows"
+                    },
+                    {
                         "id": "Logos",
                         "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
                         "name": "Logos"
@@ -959,11 +966,6 @@
                         "id": "Mars",
                         "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
                         "name": "Mars"
-                    },
-                    {
-                        "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
-                        "name": "Shadows"
                     }
                 ],
                 "notes": []
@@ -1040,18 +1042,18 @@
             "deck": {
                 "actionCount": 13,
                 "adaptiveScore": 0,
-                "aercScore": 65,
-                "aercVersion": 24,
-                "amberControl": 4.102250000000001,
+                "aercScore": 66,
+                "aercVersion": 30,
+                "amberControl": 4.42725,
                 "antisynergyRating": 1,
                 "artifactCount": 4,
-                "creatureControl": 12.875,
+                "creatureControl": 13.125,
                 "creatureCount": 12,
                 "creatureProtection": 7.625,
                 "dateAdded": "2019-11-12",
-                "disruption": 7.0,
+                "disruption": 7.1625,
                 "effectivePower": 63,
-                "efficiency": 10.0,
+                "efficiency": 9.75,
                 "expansion": "WORLDS_COLLIDE",
                 "expectedAmber": 21.91875,
                 "housesAndCards": [
@@ -1326,30 +1328,32 @@
                 "id": 1445088,
                 "keyCheatCount": 1,
                 "keyforgeId": "29bb805b-12ce-4f29-aad7-a4d9b512e41c",
-                "lastSasUpdate": "2020-10-02",
+                "lastSasUpdate": "2021-01-04",
                 "metaScores": {},
                 "name": "Champion Greenqual, the Sinister Surgeon",
                 "other": 2.425,
                 "previousMajorSasRating": 78,
-                "previousSasRating": 75,
+                "previousSasRating": 77,
                 "rawAmber": 15,
-                "sasPercentile": 98.71382974707166,
-                "sasRating": 77,
+                "recursion": 0.5,
+                "sasPercentile": 98.68778665056368,
+                "sasRating": 78,
                 "synergyRating": 13,
                 "totalPower": 55,
                 "upgradeCount": 7
             },
-            "sasVersion": 26
+            "sasVersion": 30
         },
         "dok_stats": {
-            "amberControl": 19.65980572205743,
+            "amberControl": 19.628890626416787,
             "artifactControl": 0,
-            "creatureControl": 84.71883125478777,
-            "creatureProtection": 99.78681706553046,
-            "disruption": 92.00074167207868,
-            "effectivePower": 16.20434021530473,
-            "efficiency": 79.30945168355261,
-            "expectedAmber": 79.35356014544801
+            "creatureControl": 83.5337899328773,
+            "creatureProtection": 99.78693920218986,
+            "disruption": 92.0251267422159,
+            "effectivePower": 16.28376963798179,
+            "efficiency": 87.17367350901354,
+            "expectedAmber": 80.39660261075434,
+            "recursion": 38.351893074622076
         },
         "user_data": {
             "deck_id": "29bb805b-12ce-4f29-aad7-a4d9b512e41c"
@@ -1949,9 +1953,9 @@
                 ],
                 "houses": [
                     {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
-                        "name": "Dis"
+                        "id": "Star Alliance",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Star_Alliance.png",
+                        "name": "Star Alliance"
                     },
                     {
                         "id": "Saurian",
@@ -1959,9 +1963,9 @@
                         "name": "Saurian"
                     },
                     {
-                        "id": "Star Alliance",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Star_Alliance.png",
-                        "name": "Star Alliance"
+                        "id": "Dis",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "name": "Dis"
                     }
                 ],
                 "notes": []
@@ -2039,22 +2043,22 @@
                 "actionCount": 9,
                 "adaptiveScore": 0,
                 "aercScore": 56,
-                "aercVersion": 26,
-                "amberControl": 10.2,
+                "aercVersion": 29,
+                "amberControl": 10.1,
                 "antisynergyRating": 1,
                 "artifactControl": 0.25,
                 "artifactCount": 4,
                 "cardArchiveCount": 2,
                 "cardDrawCount": 2,
-                "creatureControl": 7.385,
+                "creatureControl": 7.01,
                 "creatureCount": 22,
                 "creatureProtection": 1.45,
                 "dateAdded": "2020-07-10",
                 "disruption": 1.0,
                 "effectivePower": 98,
-                "efficiency": 10.92,
+                "efficiency": 10.42,
                 "expansion": "MASS_MUTATION",
-                "expectedAmber": 10.45,
+                "expectedAmber": 9.975,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -2362,31 +2366,33 @@
                 ],
                 "id": 1902448,
                 "keyforgeId": "355b1f9d-2c3f-48fb-ac40-cf7292a31d19",
-                "lastSasUpdate": "2020-11-02",
+                "lastSasUpdate": "2021-01-01",
                 "metaScores": {},
                 "name": "Repeatedly Aberrant Giada",
-                "other": 5.225,
+                "other": 5.075,
                 "previousMajorSasRating": 0,
-                "previousSasRating": 62,
+                "previousSasRating": 64,
                 "rawAmber": 5,
-                "sasPercentile": 59.770836708371384,
-                "sasRating": 64,
-                "synergyRating": 9,
+                "recursion": 0.5,
+                "sasPercentile": 50.89138504235343,
+                "sasRating": 63,
+                "synergyRating": 8,
                 "totalArmor": 6,
                 "totalPower": 83,
                 "upgradeCount": 1
             },
-            "sasVersion": 26
+            "sasVersion": 30
         },
         "dok_stats": {
-            "amberControl": 78.7408204938523,
-            "artifactControl": 45.96077835426215,
-            "creatureControl": 27.361965125164332,
-            "creatureProtection": 58.75758457666151,
-            "disruption": 53.525021158203145,
-            "effectivePower": 78.4531836226189,
-            "efficiency": 83.74404858334421,
-            "expectedAmber": 2.547442880019727
+            "amberControl": 78.68086502304124,
+            "artifactControl": 45.98699892377712,
+            "creatureControl": 26.30460573070881,
+            "creatureProtection": 58.83976812073065,
+            "disruption": 53.443462218975036,
+            "effectivePower": 78.59512799076737,
+            "efficiency": 87.17367350901354,
+            "expectedAmber": 2.5409683917090486,
+            "recursion": 38.351893074622076
         },
         "user_data": {
             "deck_id": "355b1f9d-2c3f-48fb-ac40-cf7292a31d19"
@@ -2991,14 +2997,14 @@
                         "name": "Logos"
                     },
                     {
-                        "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
-                        "name": "Shadows"
-                    },
-                    {
                         "id": "Sanctum",
                         "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
                         "name": "Sanctum"
+                    },
+                    {
+                        "id": "Shadows",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "name": "Shadows"
                     }
                 ],
                 "notes": []
@@ -3075,22 +3081,22 @@
             "deck": {
                 "actionCount": 11,
                 "adaptiveScore": 0,
-                "aercScore": 64,
-                "aercVersion": 26,
-                "amberControl": 9.34,
+                "aercScore": 63,
+                "aercVersion": 29,
+                "amberControl": 9.66,
                 "antisynergyRating": 1,
                 "artifactControl": 2.25,
                 "artifactCount": 8,
                 "cardDrawCount": 3,
-                "creatureControl": 15.0375,
+                "creatureControl": 14.7875,
                 "creatureCount": 17,
                 "creatureProtection": 1.0,
                 "dateAdded": "2020-07-10",
                 "disruption": 0.5,
-                "effectivePower": 90,
-                "efficiency": 10.25,
+                "effectivePower": 89,
+                "efficiency": 10.0,
                 "expansion": "MASS_MUTATION",
-                "expectedAmber": 14.85,
+                "expectedAmber": 15.1,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -3398,30 +3404,32 @@
                 ],
                 "id": 1902444,
                 "keyforgeId": "719d5924-248a-4b64-8789-a6eccf710095",
-                "lastSasUpdate": "2020-11-02",
+                "lastSasUpdate": "2021-01-01",
                 "metaScores": {},
                 "name": "Draxthroat, the Librarian of the Site",
-                "other": 2.9,
+                "other": 2.6,
                 "previousMajorSasRating": 0,
                 "previousSasRating": 74,
                 "rawAmber": 8,
-                "sasPercentile": 93.22450060189175,
-                "sasRating": 72,
+                "recursion": 0.5,
+                "sasPercentile": 93.5394345248692,
+                "sasRating": 73,
                 "synergyRating": 9,
                 "totalArmor": 7,
                 "totalPower": 64
             },
-            "sasVersion": 26
+            "sasVersion": 30
         },
         "dok_stats": {
-            "amberControl": 70.89534443069739,
-            "artifactControl": 93.85554311470733,
-            "creatureControl": 93.25083187221067,
-            "creatureProtection": 58.75758457666151,
-            "disruption": 30.75530603769816,
-            "effectivePower": 66.09578943394459,
-            "efficiency": 79.30945168355261,
-            "expectedAmber": 23.85890262161009
+            "amberControl": 78.68086502304124,
+            "artifactControl": 93.84673010067692,
+            "creatureControl": 92.53522885283756,
+            "creatureProtection": 58.83976812073065,
+            "disruption": 30.739954264088098,
+            "effectivePower": 64.4928103849099,
+            "efficiency": 87.17367350901354,
+            "expectedAmber": 24.222563081519965,
+            "recursion": 38.351893074622076
         },
         "user_data": {
             "deck_id": "719d5924-248a-4b64-8789-a6eccf710095"
@@ -4040,11 +4048,6 @@
                 ],
                 "houses": [
                     {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
-                        "name": "Dis"
-                    },
-                    {
                         "id": "Logos",
                         "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
                         "name": "Logos"
@@ -4053,6 +4056,11 @@
                         "id": "Sanctum",
                         "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
                         "name": "Sanctum"
+                    },
+                    {
+                        "id": "Dis",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "name": "Dis"
                     }
                 ],
                 "notes": []
@@ -4130,17 +4138,16 @@
                 "actionCount": 15,
                 "adaptiveScore": 0,
                 "aercScore": 49,
-                "aercVersion": 26,
-                "amberControl": 6.8625,
+                "aercVersion": 30,
+                "amberControl": 5.9125000000000005,
                 "antisynergyRating": 0,
                 "artifactControl": 0.5,
                 "artifactCount": 3,
-                "creatureControl": 10.7,
+                "creatureControl": 10.95,
                 "creatureCount": 18,
                 "creatureProtection": 1.75,
                 "dateAdded": "2019-06-06",
                 "effectivePower": 87,
-                "efficiency": 0.315,
                 "expansion": "AGE_OF_ASCENSION",
                 "expectedAmber": 17.6125,
                 "housesAndCards": [
@@ -4414,30 +4421,32 @@
                 ],
                 "id": 955191,
                 "keyforgeId": "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00",
-                "lastSasUpdate": "2020-11-02",
+                "lastSasUpdate": "2021-01-04",
                 "metaScores": {},
                 "name": "Bases, the Swordsman of Fire",
                 "other": 1.0,
                 "previousMajorSasRating": 54,
-                "previousSasRating": 56,
+                "previousSasRating": 54,
                 "rawAmber": 12,
-                "sasPercentile": 6.950260660460898,
-                "sasRating": 54,
-                "synergyRating": 5,
+                "recursion": 0.165,
+                "sasPercentile": 5.868144419900676,
+                "sasRating": 53,
+                "synergyRating": 4,
                 "totalArmor": 4,
                 "totalPower": 91
             },
-            "sasVersion": 26
+            "sasVersion": 30
         },
         "dok_stats": {
-            "amberControl": 51.04663215406517,
-            "artifactControl": 45.96077835426215,
-            "creatureControl": 69.93790885748571,
-            "creatureProtection": 79.65696710598313,
+            "amberControl": 40.016596714553124,
+            "artifactControl": 45.98699892377712,
+            "creatureControl": 68.36199067526695,
+            "creatureProtection": 79.76416144577513,
             "disruption": 0,
-            "effectivePower": 60.677712419518784,
-            "efficiency": 12.859552062560422,
-            "expectedAmber": 48.7558594244682
+            "effectivePower": 60.85017334926542,
+            "efficiency": 0,
+            "expectedAmber": 49.656173612268276,
+            "recursion": 38.351893074622076
         },
         "user_data": {
             "deck_id": "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00"
@@ -5127,7 +5136,7 @@
                 "actionCount": 17,
                 "adaptiveScore": 0,
                 "aercScore": 55,
-                "aercVersion": 25,
+                "aercVersion": 29,
                 "amberControl": 3.925,
                 "antisynergyRating": 2,
                 "artifactControl": 0.3325,
@@ -5410,30 +5419,31 @@
                 ],
                 "id": 391532,
                 "keyforgeId": "8dfbd01a-157b-4a51-8428-50ab1ed9edf7",
-                "lastSasUpdate": "2020-10-10",
+                "lastSasUpdate": "2020-12-31",
                 "metaScores": {},
                 "name": "Provost Flop-Ra, the Yellow Ranger",
                 "other": 3.25,
                 "previousMajorSasRating": 59,
-                "previousSasRating": 57,
+                "previousSasRating": 56,
                 "rawAmber": 14,
-                "sasPercentile": 13.267567282130242,
-                "sasRating": 56,
+                "sasPercentile": 10.733080110005455,
+                "sasRating": 55,
                 "synergyRating": 3,
                 "totalPower": 56,
                 "upgradeCount": 1
             },
-            "sasVersion": 26
+            "sasVersion": 30
         },
         "dok_stats": {
-            "amberControl": 19.65980572205743,
-            "artifactControl": 45.96077835426215,
-            "creatureControl": 97.35502150705663,
+            "amberControl": 19.628890626416787,
+            "artifactControl": 45.98699892377712,
+            "creatureControl": 96.99929881729419,
             "creatureProtection": 0,
-            "disruption": 53.525021158203145,
-            "effectivePower": 29.403666020093006,
-            "efficiency": 3.7426244964921107,
-            "expectedAmber": 65.58875716881977
+            "disruption": 53.443462218975036,
+            "effectivePower": 29.53232490252516,
+            "efficiency": 9.462643387590727,
+            "expectedAmber": 66.6591658631787,
+            "recursion": 0
         },
         "user_data": {
             "deck_id": "8dfbd01a-157b-4a51-8428-50ab1ed9edf7"
@@ -6052,6 +6062,11 @@
                 ],
                 "houses": [
                     {
+                        "id": "Untamed",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
+                        "name": "Untamed"
+                    },
+                    {
                         "id": "Shadows",
                         "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
                         "name": "Shadows"
@@ -6060,11 +6075,6 @@
                         "id": "Brobnar",
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
                         "name": "Brobnar"
-                    },
-                    {
-                        "id": "Untamed",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
-                        "name": "Untamed"
                     }
                 ],
                 "notes": []
@@ -6142,21 +6152,21 @@
                 "actionCount": 16,
                 "adaptiveScore": 0,
                 "aercScore": 50,
-                "aercVersion": 26,
+                "aercVersion": 29,
                 "amberControl": 7.609999999999999,
                 "antisynergyRating": 0,
                 "artifactControl": 3.0,
                 "artifactCount": 5,
                 "cardArchiveCount": 3,
                 "cardDrawCount": 1,
-                "creatureControl": 10.2625,
+                "creatureControl": 11.0125,
                 "creatureCount": 15,
                 "creatureProtection": 2.25,
                 "dateAdded": "2020-01-05",
                 "effectivePower": 77,
-                "efficiency": 2.175,
+                "efficiency": 1.25,
                 "expansion": "AGE_OF_ASCENSION",
-                "expectedAmber": 18.4,
+                "expectedAmber": 18.1125,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -6429,30 +6439,32 @@
                 "id": 1648089,
                 "keyCheatCount": 2,
                 "keyforgeId": "a4268ae8-a9f6-48c7-9739-b28a3553b108",
-                "lastSasUpdate": "2020-11-02",
+                "lastSasUpdate": "2021-01-01",
                 "metaScores": {},
                 "name": "Sneaking \u201cSiphon\u201d Zebulon",
                 "other": 0.825,
                 "previousMajorSasRating": 58,
-                "previousSasRating": 57,
+                "previousSasRating": 58,
                 "rawAmber": 12,
-                "sasPercentile": 22.422534215120265,
-                "sasRating": 58,
+                "recursion": 0.925,
+                "sasPercentile": 32.82066765696262,
+                "sasRating": 60,
                 "synergyRating": 8,
                 "totalArmor": 16,
                 "totalPower": 40
             },
-            "sasVersion": 26
+            "sasVersion": 30
         },
         "dok_stats": {
-            "amberControl": 61.52165113790752,
-            "artifactControl": 98.50040787185512,
-            "creatureControl": 60.19768045880446,
-            "creatureProtection": 79.65696710598313,
+            "amberControl": 61.45156688461723,
+            "artifactControl": 98.49713331633784,
+            "creatureControl": 68.36199067526695,
+            "creatureProtection": 79.76416144577513,
             "disruption": 0,
-            "effectivePower": 41.04571940041165,
-            "efficiency": 30.363443212625246,
-            "expectedAmber": 48.7558594244682
+            "effectivePower": 41.21031635825547,
+            "efficiency": 39.2677032017512,
+            "expectedAmber": 49.656173612268276,
+            "recursion": 60.94692421957225
         },
         "user_data": {
             "deck_id": "a4268ae8-a9f6-48c7-9739-b28a3553b108"
@@ -7141,9 +7153,9 @@
             "deck": {
                 "actionCount": 16,
                 "adaptiveScore": 0,
-                "aercScore": 60,
-                "aercVersion": 26,
-                "amberControl": 9.775,
+                "aercScore": 59,
+                "aercVersion": 29,
+                "amberControl": 9.56,
                 "antisynergyRating": 0,
                 "artifactControl": 0.75,
                 "artifactCount": 4,
@@ -7155,7 +7167,7 @@
                 "effectivePower": 62,
                 "efficiency": 6.25,
                 "expansion": "CALL_OF_THE_ARCHONS",
-                "expectedAmber": 21.4625,
+                "expectedAmber": 21.2475,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -7427,31 +7439,32 @@
                 ],
                 "id": 391536,
                 "keyforgeId": "aebaeba5-5918-4573-983a-72d0a5c6133d",
-                "lastSasUpdate": "2020-11-02",
+                "lastSasUpdate": "2020-12-31",
                 "metaScores": {},
                 "name": "Rask of Merosen Shelter",
                 "other": 1.7,
                 "previousMajorSasRating": 66,
                 "previousSasRating": 65,
                 "rawAmber": 11,
-                "sasPercentile": 71.48423779574294,
+                "sasPercentile": 68.47901270436722,
                 "sasRating": 66,
-                "synergyRating": 6,
+                "synergyRating": 7,
                 "totalArmor": 8,
                 "totalPower": 51,
                 "upgradeCount": 1
             },
-            "sasVersion": 26
+            "sasVersion": 30
         },
         "dok_stats": {
-            "amberControl": 78.7408204938523,
-            "artifactControl": 76.52732120183373,
-            "creatureControl": 38.11487219776266,
-            "creatureProtection": 95.00589944704332,
-            "disruption": 63.73835223593583,
-            "effectivePower": 14.823310485819105,
-            "efficiency": 57.73295886539464,
-            "expectedAmber": 72.97044924205606
+            "amberControl": 78.68086502304124,
+            "artifactControl": 76.4976090002046,
+            "creatureControl": 36.77173963096996,
+            "creatureProtection": 95.02297951853387,
+            "disruption": 63.68894262882274,
+            "effectivePower": 14.895741205189227,
+            "efficiency": 67.38840537190455,
+            "expectedAmber": 74.06791835138036,
+            "recursion": 0
         },
         "user_data": {
             "deck_id": "aebaeba5-5918-4573-983a-72d0a5c6133d"
@@ -8102,23 +8115,23 @@
             "deck": {
                 "actionCount": 15,
                 "adaptiveScore": 0,
-                "aercScore": 54,
-                "aercVersion": 25,
-                "amberControl": 6.9399999999999995,
+                "aercScore": 52,
+                "aercVersion": 29,
+                "amberControl": 6.725,
                 "antisynergyRating": 1,
                 "artifactControl": 2.025,
                 "artifactCount": 3,
                 "cardArchiveCount": 1,
                 "cardDrawCount": 1,
-                "creatureControl": 8.1,
+                "creatureControl": 8.35,
                 "creatureCount": 17,
-                "creatureProtection": 1.225,
+                "creatureProtection": 1.0,
                 "dateAdded": "2019-06-06",
                 "disruption": 2.525,
                 "effectivePower": 75,
                 "efficiency": 2.5,
                 "expansion": "AGE_OF_ASCENSION",
-                "expectedAmber": 21.0525,
+                "expectedAmber": 20.8375,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -8391,31 +8404,32 @@
                 "id": 955188,
                 "keyCheatCount": 1,
                 "keyforgeId": "b41630b3-7394-4ac5-9102-0c4dcb2e1b8a",
-                "lastSasUpdate": "2020-10-10",
+                "lastSasUpdate": "2021-01-01",
                 "metaScores": {},
                 "name": "Byrne, Outerhill's Survivalist",
                 "other": 3.37,
                 "previousMajorSasRating": 61,
-                "previousSasRating": 60,
+                "previousSasRating": 63,
                 "rawAmber": 15,
-                "sasPercentile": 46.83324659784218,
+                "sasPercentile": 44.71361884809496,
                 "sasRating": 62,
-                "synergyRating": 9,
+                "synergyRating": 10,
                 "totalArmor": 2,
                 "totalPower": 63,
                 "upgradeCount": 1
             },
-            "sasVersion": 26
+            "sasVersion": 30
         },
         "dok_stats": {
-            "amberControl": 51.04663215406517,
-            "artifactControl": 93.85554311470733,
-            "creatureControl": 38.11487219776266,
-            "creatureProtection": 58.75758457666151,
-            "disruption": 73.67341291971734,
-            "effectivePower": 37.07672244021583,
-            "efficiency": 30.363443212625246,
-            "expectedAmber": 72.97044924205606
+            "amberControl": 50.97004853209751,
+            "artifactControl": 93.84673010067692,
+            "creatureControl": 36.77173963096996,
+            "creatureProtection": 58.83976812073065,
+            "disruption": 73.63553026170683,
+            "effectivePower": 37.23602987218726,
+            "efficiency": 46.95009259694432,
+            "expectedAmber": 74.06791835138036,
+            "recursion": 0
         },
         "user_data": {
             "deck_id": "b41630b3-7394-4ac5-9102-0c4dcb2e1b8a"
@@ -9105,8 +9119,8 @@
                 "actionCount": 12,
                 "adaptiveScore": 0,
                 "aercScore": 53,
-                "aercVersion": 25,
-                "amberControl": 4.325,
+                "aercVersion": 29,
+                "amberControl": 4.075,
                 "antisynergyRating": 4,
                 "artifactCount": 2,
                 "cardArchiveCount": 4,
@@ -9117,7 +9131,7 @@
                 "dateAdded": "2020-01-05",
                 "disruption": 5.075,
                 "effectivePower": 89,
-                "efficiency": 5.275,
+                "efficiency": 4.2,
                 "expansion": "AGE_OF_ASCENSION",
                 "expectedAmber": 13.79,
                 "housesAndCards": [
@@ -9392,31 +9406,33 @@
                 "id": 1648088,
                 "keyCheatCount": 1,
                 "keyforgeId": "bfbf6786-218c-4320-a7b1-7ed4d6eddc69",
-                "lastSasUpdate": "2020-10-10",
+                "lastSasUpdate": "2021-01-01",
                 "metaScores": {},
                 "name": "Crawling \u201cMartini\u201d Quasimodo",
                 "other": 2.1875,
                 "previousMajorSasRating": 58,
                 "previousSasRating": 58,
                 "rawAmber": 9,
-                "sasPercentile": 17.528263106258382,
+                "recursion": 1.075,
+                "sasPercentile": 17.90327856322584,
                 "sasRating": 57,
                 "synergyRating": 8,
                 "totalArmor": 2,
                 "totalPower": 93,
                 "upgradeCount": 2
             },
-            "sasVersion": 26
+            "sasVersion": 30
         },
         "dok_stats": {
-            "amberControl": 19.65980572205743,
+            "amberControl": 19.628890626416787,
             "artifactControl": 0,
-            "creatureControl": 49.361813158849245,
-            "creatureProtection": 58.75758457666151,
-            "disruption": 85.03896406761258,
-            "effectivePower": 64.31940834447992,
-            "efficiency": 51.74916573838186,
-            "expectedAmber": 17.162253670010404
+            "creatureControl": 47.78738165464877,
+            "creatureProtection": 58.83976812073065,
+            "disruption": 85.05360463454709,
+            "effectivePower": 64.4928103849099,
+            "efficiency": 57.33718627770728,
+            "expectedAmber": 17.381260619215066,
+            "recursion": 60.94692421957225
         },
         "user_data": {
             "deck_id": "bfbf6786-218c-4320-a7b1-7ed4d6eddc69"
@@ -10165,20 +10181,20 @@
                 "actionCount": 16,
                 "adaptiveScore": 0,
                 "aercScore": 60,
-                "aercVersion": 26,
+                "aercVersion": 30,
                 "amberControl": 6.57,
                 "antisynergyRating": 0,
                 "artifactControl": 3.0,
                 "artifactCount": 4,
                 "cardArchiveCount": 3,
                 "cardDrawCount": 2,
-                "creatureControl": 6.875,
+                "creatureControl": 7.125,
                 "creatureCount": 14,
                 "creatureProtection": 0.75,
                 "dateAdded": "2019-11-10",
                 "disruption": 3.645,
                 "effectivePower": 53,
-                "efficiency": 13.125,
+                "efficiency": 9.8,
                 "expansion": "WORLDS_COLLIDE",
                 "expectedAmber": 20.9325,
                 "housesAndCards": [
@@ -10453,31 +10469,33 @@
                 "id": 1407995,
                 "keyCheatCount": 1,
                 "keyforgeId": "c94bc221-1da8-455f-965a-9ad436c7d5b9",
-                "lastSasUpdate": "2020-11-02",
+                "lastSasUpdate": "2021-01-04",
                 "metaScores": {},
                 "name": "Zebrogus, the Servant Wanderer",
                 "other": 0.45,
                 "previousMajorSasRating": 66,
-                "previousSasRating": 65,
+                "previousSasRating": 66,
                 "rawAmber": 16,
-                "sasPercentile": 71.48423779574294,
-                "sasRating": 66,
+                "recursion": 2.8499999999999996,
+                "sasPercentile": 78.32049414154017,
+                "sasRating": 68,
                 "synergyRating": 6,
                 "totalArmor": 5,
                 "totalPower": 45,
                 "upgradeCount": 2
             },
-            "sasVersion": 26
+            "sasVersion": 30
         },
         "dok_stats": {
-            "amberControl": 51.04663215406517,
-            "artifactControl": 98.50040787185512,
-            "creatureControl": 27.361965125164332,
-            "creatureProtection": 58.75758457666151,
-            "disruption": 79.95573861602652,
-            "effectivePower": 5.523258731253306,
-            "efficiency": 90.72355559123737,
-            "expectedAmber": 72.97044924205606
+            "amberControl": 50.97004853209751,
+            "artifactControl": 98.49713331633784,
+            "creatureControl": 26.30460573070881,
+            "creatureProtection": 58.83976812073065,
+            "disruption": 79.95044722353961,
+            "effectivePower": 5.547698701269107,
+            "efficiency": 87.17367350901354,
+            "expectedAmber": 74.06791835138036,
+            "recursion": 82.15126841910123
         },
         "user_data": {
             "deck_id": "c94bc221-1da8-455f-965a-9ad436c7d5b9"
@@ -11243,7 +11261,7 @@
                 "actionCount": 6,
                 "adaptiveScore": 0,
                 "aercScore": 55,
-                "aercVersion": 24,
+                "aercVersion": 29,
                 "amberControl": 10.695000000000002,
                 "antisynergyRating": 1,
                 "artifactCount": 4,
@@ -11255,7 +11273,7 @@
                 "dateAdded": "2019-11-12",
                 "disruption": 1.2,
                 "effectivePower": 102,
-                "efficiency": 9.787500000000001,
+                "efficiency": 9.287500000000001,
                 "expansion": "WORLDS_COLLIDE",
                 "expectedAmber": 13.745000000000001,
                 "housesAndCards": [
@@ -11530,31 +11548,33 @@
                 "id": 1445087,
                 "keyCheatCount": 1,
                 "keyforgeId": "c98e4663-351e-4dfb-9ce8-4578ee8f54ad",
-                "lastSasUpdate": "2020-10-02",
+                "lastSasUpdate": "2021-01-01",
                 "metaScores": {},
                 "name": "Du\u2019lac, the Baron of Ustoth",
                 "other": 2.2750000000000004,
                 "previousMajorSasRating": 65,
-                "previousSasRating": 67,
+                "previousSasRating": 68,
                 "rawAmber": 7,
-                "sasPercentile": 81.09782759851646,
-                "sasRating": 68,
+                "recursion": 0.5,
+                "sasPercentile": 73.65148133747871,
+                "sasRating": 67,
                 "synergyRating": 14,
                 "totalArmor": 8,
                 "totalPower": 87,
                 "upgradeCount": 1
             },
-            "sasVersion": 26
+            "sasVersion": 30
         },
         "dok_stats": {
-            "amberControl": 85.05784038662524,
+            "amberControl": 84.9856701421972,
             "artifactControl": 0,
-            "creatureControl": 17.89551503439074,
-            "creatureProtection": 95.00589944704332,
-            "disruption": 53.525021158203145,
-            "effectivePower": 83.36207790519691,
-            "efficiency": 79.30945168355261,
-            "expectedAmber": 17.162253670010404
+            "creatureControl": 17.172282537227485,
+            "creatureProtection": 95.02297951853387,
+            "disruption": 53.443462218975036,
+            "effectivePower": 83.47948031774922,
+            "efficiency": 82.89370554409072,
+            "expectedAmber": 17.381260619215066,
+            "recursion": 38.351893074622076
         },
         "user_data": {
             "deck_id": "c98e4663-351e-4dfb-9ce8-4578ee8f54ad"
@@ -12263,7 +12283,7 @@
                 "actionCount": 10,
                 "adaptiveScore": 0,
                 "aercScore": 53,
-                "aercVersion": 23,
+                "aercVersion": 29,
                 "amberControl": 6.0,
                 "antisynergyRating": 4,
                 "artifactCount": 4,
@@ -12272,7 +12292,7 @@
                 "creatureCount": 19,
                 "creatureProtection": 1.5,
                 "effectivePower": 85,
-                "efficiency": 3.6375,
+                "efficiency": -0.5,
                 "expansion": "CALL_OF_THE_ARCHONS",
                 "expectedAmber": 16.2,
                 "housesAndCards": [
@@ -12547,30 +12567,32 @@
                 "id": 527299,
                 "keyCheatCount": 1,
                 "keyforgeId": "cface028-c891-46bf-9eb0-b9fc2280a718",
-                "lastSasUpdate": "2020-08-31",
+                "lastSasUpdate": "2021-01-01",
                 "metaScores": {},
                 "name": "Grassspell of the Recordkeeper's Shrine",
                 "other": 4.1875,
                 "previousMajorSasRating": 56,
-                "previousSasRating": 56,
+                "previousSasRating": 55,
                 "rawAmber": 10,
-                "sasPercentile": 9.770812814296685,
-                "sasRating": 55,
+                "recursion": 3.8875,
+                "sasPercentile": 14.022277386359267,
+                "sasRating": 56,
                 "synergyRating": 6,
                 "totalPower": 77,
                 "upgradeCount": 3
             },
-            "sasVersion": 26
+            "sasVersion": 30
         },
         "dok_stats": {
-            "amberControl": 40.07208364455366,
+            "amberControl": 40.016596714553124,
             "artifactControl": 0,
-            "creatureControl": 38.11487219776266,
-            "creatureProtection": 79.65696710598313,
+            "creatureControl": 36.77173963096996,
+            "creatureProtection": 79.76416144577513,
             "disruption": 0,
-            "effectivePower": 56.90349995627384,
-            "efficiency": 45.34067932765897,
-            "expectedAmber": 31.586533108346725
+            "effectivePower": 57.08249127319493,
+            "efficiency": 28.020770579380102,
+            "expectedAmber": 32.122618198183574,
+            "recursion": 89.74735110074292
         },
         "user_data": {
             "deck_id": "cface028-c891-46bf-9eb0-b9fc2280a718"
@@ -13151,9 +13173,9 @@
                 ],
                 "houses": [
                     {
-                        "id": "Brobnar",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
-                        "name": "Brobnar"
+                        "id": "Untamed",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
+                        "name": "Untamed"
                     },
                     {
                         "id": "Mars",
@@ -13161,9 +13183,9 @@
                         "name": "Mars"
                     },
                     {
-                        "id": "Untamed",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
-                        "name": "Untamed"
+                        "id": "Brobnar",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
+                        "name": "Brobnar"
                     }
                 ],
                 "notes": []

@@ -1,67 +1,67 @@
 {
     "actionCount": {
         "1": 6,
-        "10": 155185,
-        "11": 208163,
-        "12": 253427,
-        "13": 275360,
-        "14": 268663,
-        "15": 236024,
-        "16": 186592,
-        "17": 131821,
-        "18": 82967,
-        "19": 46394,
-        "2": 65,
-        "20": 23219,
-        "21": 9929,
-        "22": 3616,
-        "23": 1074,
-        "24": 263,
+        "10": 156455,
+        "11": 209711,
+        "12": 255246,
+        "13": 277141,
+        "14": 270391,
+        "15": 237395,
+        "16": 187592,
+        "17": 132437,
+        "18": 83366,
+        "19": 46595,
+        "2": 66,
+        "20": 23312,
+        "21": 9963,
+        "22": 3630,
+        "23": 1075,
+        "24": 265,
         "25": 37,
         "26": 4,
-        "3": 330,
-        "4": 1381,
-        "5": 4912,
-        "6": 13175,
-        "7": 30070,
-        "8": 58661,
-        "9": 101231
+        "3": 334,
+        "4": 1396,
+        "5": 4969,
+        "6": 13317,
+        "7": 30353,
+        "8": 59239,
+        "9": 102146
     },
     "actionCountStats": {
         "bottom10Percent": 9,
         "max": 26,
-        "mean": 13.309482745849719,
+        "mean": 13.305359134198394,
         "median": 13,
         "min": 1,
         "percentile40": 13,
         "percentile60": 14,
         "percentileForValue": {
-            "1": 0.0002867288963948142,
-            "10": 17.44343914107492,
-            "11": 27.391163684447204,
-            "12": 39.501971022221966,
-            "13": 52.66091584076798,
-            "14": 65.49982342278797,
-            "15": 76.77897359656957,
-            "16": 85.6958599692531,
-            "17": 91.99534161119657,
-            "18": 95.96018100239466,
-            "19": 98.17726440561816,
-            "2": 0.003392958607338635,
-            "20": 99.28685744651669,
-            "21": 99.76134598190072,
-            "22": 99.93414793012799,
-            "23": 99.98547240258266,
-            "24": 99.99804068587464,
-            "25": 99.9998088474024,
+            "1": 0.0002848406387836165,
+            "10": 17.48356588197818,
+            "11": 27.43926841530335,
+            "12": 39.55667402979718,
+            "13": 52.71351060865222,
+            "14": 65.5499014688757,
+            "15": 76.81985870954847,
+            "16": 85.72549622799784,
+            "17": 92.01273617442881,
+            "18": 95.97040695656797,
+            "19": 98.18243188392174,
+            "2": 0.0034180876654033984,
+            "20": 99.28913271247569,
+            "21": 99.76211059317588,
+            "22": 99.93443917963997,
+            "23": 99.98547312742204,
+            "24": 99.99805358896832,
+            "25": 99.99981010624082,
             "26": 100.0,
-            "3": 0.01916304790905342,
-            "4": 0.08515848222925983,
-            "5": 0.3198938720778144,
-            "6": 0.9495027404114273,
-            "7": 2.386492392843438,
-            "8": 5.1897930247461375,
-            "9": 10.027435176570044
+            "3": 0.019274216557691386,
+            "4": 0.0855471385146795,
+            "5": 0.32144266086731127,
+            "6": 0.9536464586475482,
+            "7": 2.394607776814067,
+            "8": 5.206886876964511,
+            "9": 10.056108858496392
         },
         "top90Percent": 17
     },
@@ -71,60 +71,60 @@
             "wins": 2
         },
         "10": {
-            "losses": 23428,
-            "wins": 22850
+            "losses": 23745,
+            "wins": 23181
         },
         "11": {
-            "losses": 31331,
-            "wins": 31235
+            "losses": 31728,
+            "wins": 31579
         },
         "12": {
-            "losses": 37655,
-            "wins": 37923
+            "losses": 38133,
+            "wins": 38394
         },
         "13": {
-            "losses": 39823,
-            "wins": 40922
+            "losses": 40281,
+            "wins": 41401
         },
         "14": {
-            "losses": 38983,
-            "wins": 40666
+            "losses": 39421,
+            "wins": 41078
         },
         "15": {
-            "losses": 34424,
-            "wins": 36685
+            "losses": 34825,
+            "wins": 37110
         },
         "16": {
-            "losses": 28087,
-            "wins": 31343
+            "losses": 28364,
+            "wins": 31614
         },
         "17": {
-            "losses": 20307,
-            "wins": 22866
+            "losses": 20486,
+            "wins": 23037
         },
         "18": {
-            "losses": 13031,
-            "wins": 15288
+            "losses": 13157,
+            "wins": 15444
         },
         "19": {
-            "losses": 7276,
-            "wins": 8582
+            "losses": 7346,
+            "wins": 8674
         },
         "2": {
             "losses": 14,
             "wins": 4
         },
         "20": {
-            "losses": 3759,
-            "wins": 4700
+            "losses": 3793,
+            "wins": 4750
         },
         "21": {
-            "losses": 1784,
-            "wins": 2301
+            "losses": 1795,
+            "wins": 2316
         },
         "22": {
-            "losses": 686,
-            "wins": 868
+            "losses": 687,
+            "wins": 873
         },
         "23": {
             "losses": 216,
@@ -143,809 +143,841 @@
             "wins": 66
         },
         "4": {
-            "losses": 220,
-            "wins": 217
+            "losses": 228,
+            "wins": 219
         },
         "5": {
-            "losses": 837,
-            "wins": 711
+            "losses": 862,
+            "wins": 727
         },
         "6": {
-            "losses": 2307,
-            "wins": 2129
+            "losses": 2333,
+            "wins": 2145
         },
         "7": {
-            "losses": 4836,
-            "wins": 4700
+            "losses": 4910,
+            "wins": 4768
         },
         "8": {
-            "losses": 9767,
-            "wins": 9216
+            "losses": 9899,
+            "wins": 9329
         },
         "9": {
-            "losses": 15768,
-            "wins": 15195
+            "losses": 16026,
+            "wins": 15392
         }
     },
     "aerc": {
-        "35": 1,
-        "36": 7,
-        "37": 23,
-        "38": 59,
-        "39": 150,
-        "40": 339,
-        "41": 706,
-        "42": 1543,
-        "43": 3057,
-        "44": 5686,
-        "45": 9972,
-        "46": 16434,
-        "47": 26021,
-        "48": 38363,
-        "49": 53954,
-        "50": 72060,
-        "51": 91547,
-        "52": 111556,
-        "53": 129404,
-        "54": 145589,
-        "55": 153925,
-        "56": 159663,
-        "57": 159691,
-        "58": 153206,
-        "59": 142031,
-        "60": 127544,
-        "61": 110692,
-        "62": 93280,
-        "63": 76126,
-        "64": 59945,
-        "65": 45668,
-        "66": 34028,
-        "67": 24236,
-        "68": 16670,
-        "69": 11284,
-        "70": 7236,
-        "71": 4560,
-        "72": 2767,
-        "73": 1614,
-        "74": 913,
-        "75": 490,
-        "76": 264,
-        "77": 132,
-        "78": 58,
+        "36": 4,
+        "37": 25,
+        "38": 60,
+        "39": 131,
+        "40": 328,
+        "41": 683,
+        "42": 1522,
+        "43": 3062,
+        "44": 5746,
+        "45": 10228,
+        "46": 16755,
+        "47": 26377,
+        "48": 39155,
+        "49": 55136,
+        "50": 74145,
+        "51": 93919,
+        "52": 113781,
+        "53": 132762,
+        "54": 148628,
+        "55": 157272,
+        "56": 162271,
+        "57": 161818,
+        "58": 154508,
+        "59": 143240,
+        "60": 127792,
+        "61": 110156,
+        "62": 92008,
+        "63": 74491,
+        "64": 58319,
+        "65": 44175,
+        "66": 32376,
+        "67": 23015,
+        "68": 15717,
+        "69": 10272,
+        "70": 6582,
+        "71": 4283,
+        "72": 2523,
+        "73": 1441,
+        "74": 813,
+        "75": 446,
+        "76": 238,
+        "77": 117,
+        "78": 52,
         "79": 37,
-        "80": 21,
+        "80": 17,
         "81": 11,
-        "82": 5,
+        "82": 2,
+        "83": 1,
         "84": 1
     },
     "aercDatas": [
         {
-            "amberControl": 8850275.177508663,
-            "artifactControl": 822658.2800000799,
-            "count": 13633272,
-            "creatureControl": 11070539.921244195,
-            "creatureProtection": 1382312.417500183,
-            "disruption": 3339156.9099999475,
-            "effectivePower": 95282481.0,
-            "efficiency": 6249159.460004195,
+            "amberControl": 8871142.62000842,
+            "artifactControl": 824263.7775000808,
+            "count": 13661340,
+            "creatureControl": 11296301.121243857,
+            "creatureProtection": 1385058.7550001864,
+            "disruption": 3345957.9824999585,
+            "effectivePower": 95472825.0,
+            "efficiency": 4260683.908750399,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 22476110.529988952,
+            "expectedAmber": 22313623.549991827,
             "house": null,
-            "other": 1135004.4012499861
+            "other": 1136004.253749999,
+            "recursion": 1947426.1537498762
         },
         {
-            "amberControl": 2785771.5550008593,
-            "artifactControl": 331876.15250003495,
-            "count": 5376504,
-            "creatureControl": 4704171.786250965,
-            "creatureProtection": 543566.8800000501,
-            "disruption": 747768.2987500209,
-            "effectivePower": 35260381.0,
-            "efficiency": 2880628.3037501024,
+            "amberControl": 2796152.732500939,
+            "artifactControl": 334043.07250003674,
+            "count": 5408112,
+            "creatureControl": 4753661.177501346,
+            "creatureProtection": 532791.5774999643,
+            "disruption": 752026.3712500175,
+            "effectivePower": 35307195.0,
+            "efficiency": 1993357.3362499007,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 7958925.585002195,
+            "expectedAmber": 8041958.50250178,
             "house": null,
-            "other": 610327.3549998367
+            "other": 676816.0387497911,
+            "recursion": 873382.904999633
         },
         {
-            "amberControl": 2621092.779800191,
-            "artifactControl": 294243.39249999815,
-            "count": 3920796,
-            "creatureControl": 3034245.086250595,
-            "creatureProtection": 823331.6249998647,
-            "disruption": 649302.9987500056,
-            "effectivePower": 28440631.0,
-            "efficiency": 2224026.492500431,
+            "amberControl": 2660136.4682003832,
+            "artifactControl": 297130.7374999979,
+            "count": 3958728,
+            "creatureControl": 3117858.7825005795,
+            "creatureProtection": 831377.59249986,
+            "disruption": 664356.238750033,
+            "effectivePower": 28716537.0,
+            "efficiency": 1814904.6787503725,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 5568041.593749518,
+            "expectedAmber": 5620401.233749501,
             "house": null,
-            "other": 491132.06999989477
+            "other": 497024.0887498913,
+            "recursion": 400830.5162499324
         },
         {
-            "amberControl": 1840348.257950029,
-            "artifactControl": 130755.0099999992,
-            "count": 2180256,
-            "creatureControl": 1743029.9275000568,
-            "creatureProtection": 373056.1449999728,
-            "disruption": 276194.8312499725,
-            "effectivePower": 15160000.0,
-            "efficiency": 1336065.2309999738,
+            "amberControl": 1895218.1664500027,
+            "artifactControl": 134752.082499999,
+            "count": 2249112,
+            "creatureControl": 1825629.7362500394,
+            "creatureProtection": 385200.0224999724,
+            "disruption": 288451.19624997565,
+            "effectivePower": 15629855.0,
+            "efficiency": 1117589.3059999382,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 3407782.510000072,
+            "expectedAmber": 3458502.811250133,
             "house": null,
-            "other": 268853.2187500085
+            "other": 257195.95250000028,
+            "recursion": 244223.92249999614
         },
         {
-            "amberControl": 1274673.1100001049,
-            "artifactControl": 13112.129999999857,
-            "count": 5856780,
-            "creatureControl": 2668105.321250321,
-            "creatureProtection": 114500.695,
-            "disruption": 13583.084999999874,
-            "effectivePower": 17302440.0,
-            "efficiency": 24329.765000000978,
+            "amberControl": 1277030.4500001085,
+            "artifactControl": 13138.554999999851,
+            "count": 5868624,
+            "creatureControl": 2673827.442500327,
+            "creatureProtection": 114718.3825,
+            "disruption": 13609.509999999866,
+            "effectivePower": 17337901.0,
+            "efficiency": 24024.900000000845,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 2370115.6287484574,
+            "expectedAmber": 2441964.394999109,
             "house": "Brobnar",
-            "other": 179.8875
+            "other": 183.95,
+            "recursion": 380.99125
         },
         {
-            "amberControl": 1568748.8675002682,
-            "artifactControl": 223956.4175,
-            "count": 5863368,
-            "creatureControl": 1897884.0262500641,
-            "creatureProtection": 25428.33750000142,
-            "disruption": 2835944.717500078,
-            "effectivePower": 10548515.0,
-            "efficiency": 690756.6762501013,
+            "amberControl": 1571982.6100002723,
+            "artifactControl": 224412.73,
+            "count": 5875236,
+            "creatureControl": 1931721.916250179,
+            "creatureProtection": 25479.897500001425,
+            "disruption": 2841686.4550000792,
+            "effectivePower": 10569892.0,
+            "efficiency": -105313.89750000008,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 2673997.602502047,
+            "expectedAmber": 2679094.693752099,
             "house": "Dis",
-            "other": 86336.34249999606
+            "other": 86521.52749999611,
+            "recursion": 764819.6900004247
         },
         {
-            "amberControl": 1050032.4949995286,
-            "artifactControl": 158252.972499998,
-            "count": 5857020,
-            "creatureControl": 932919.4937500444,
-            "creatureProtection": 134006.00250000003,
-            "disruption": 193226.675,
-            "effectivePower": 10028251.0,
-            "efficiency": 3884397.6987506025,
+            "amberControl": 1052158.6599995156,
+            "artifactControl": 158556.592499998,
+            "count": 5868984,
+            "creatureControl": 946466.7112500521,
+            "creatureProtection": 134288.00250000003,
+            "disruption": 193663.745,
+            "effectivePower": 10048327.0,
+            "efficiency": 3741431.0625005444,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 2415098.8975007352,
+            "expectedAmber": 2413028.3137507285,
             "house": "Logos",
-            "other": 82224.5849999923
+            "other": 82387.63249999227,
+            "recursion": 132889.48375002228
         },
         {
-            "amberControl": 1121689.1499991552,
-            "artifactControl": 99932.23500000413,
-            "count": 5879088,
-            "creatureControl": 1481972.1299993088,
-            "creatureProtection": 145884.65750001394,
-            "disruption": 615.1774999999999,
-            "effectivePower": 14705715.0,
-            "efficiency": 682133.1037500508,
+            "amberControl": 1132269.7774991798,
+            "artifactControl": 100095.98500000412,
+            "count": 5891352,
+            "creatureControl": 1484973.6999993036,
+            "creatureProtection": 146136.44750001404,
+            "disruption": 615.6774999999999,
+            "effectivePower": 14732118.0,
+            "efficiency": 502174.3287500934,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 2877579.935000289,
+            "expectedAmber": 2891714.820000291,
             "house": "Mars",
-            "other": 91983.91999999904
+            "other": 92189.95999999913,
+            "recursion": 121072.81249999996
         },
         {
-            "amberControl": 1085224.8449998454,
-            "artifactControl": 152781.4975,
-            "count": 5861976,
-            "creatureControl": 1062591.5537508547,
-            "creatureProtection": 416993.4749999775,
-            "disruption": 44509.422500000015,
-            "effectivePower": 20808861.0,
-            "efficiency": 21558.24125000001,
+            "amberControl": 1087468.6849998503,
+            "artifactControl": 153071.81,
+            "count": 5873880,
+            "creatureControl": 1221889.8825006415,
+            "creatureProtection": 417834.67499997746,
+            "disruption": 44592.42250000002,
+            "effectivePower": 20848982.0,
+            "efficiency": 21249.836250000004,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 3572216.659998908,
+            "expectedAmber": 3342528.7387503046,
             "house": "Sanctum",
-            "other": 98733.20624996178
+            "other": 98190.679999962,
+            "recursion": 348.3862500000001
         },
         {
-            "amberControl": 2538102.6225002417,
-            "artifactControl": 132441.96750001577,
-            "count": 5843916,
-            "creatureControl": 1715656.6912497883,
-            "creatureProtection": 503147.9750000177,
-            "disruption": 131820.9425,
-            "effectivePower": 9370818.0,
-            "efficiency": 111362.07499999994,
+            "amberControl": 2537971.660000192,
+            "artifactControl": 132708.5450000152,
+            "count": 5855700,
+            "creatureControl": 1725891.304999783,
+            "creatureProtection": 504162.32500001776,
+            "disruption": 132073.7925,
+            "effectivePower": 9390104.0,
+            "efficiency": 111196.75124999999,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 4337216.350000367,
+            "expectedAmber": 4340667.151250173,
             "house": "Shadows",
-            "other": 115083.20249997803
+            "other": 115308.41749997805,
+            "recursion": 358.0675
         },
         {
-            "amberControl": 211804.08750002776,
-            "artifactControl": 42181.06,
-            "count": 5737668,
-            "creatureControl": 1311410.7049999656,
-            "creatureProtection": 42351.275,
-            "disruption": 119456.8899999999,
-            "effectivePower": 12517881.0,
-            "efficiency": 834621.899999824,
+            "amberControl": 212260.7775000287,
+            "artifactControl": 42279.56,
+            "count": 5750244,
+            "creatureControl": 1311530.1637499484,
+            "creatureProtection": 42439.025,
+            "disruption": 119716.3799999999,
+            "effectivePower": 12545501.0,
+            "efficiency": -34079.07249999926,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 4229885.456250359,
+            "expectedAmber": 4204625.437500322,
             "house": "Untamed",
-            "other": 660463.2574998683
+            "other": 661222.0862498818,
+            "recursion": 927556.7224997391
         },
         {
-            "amberControl": 369427.45624999894,
-            "artifactControl": 5538.862499999949,
-            "count": 2297280,
-            "creatureControl": 1099296.9512499468,
-            "creatureProtection": 28413.524999999994,
-            "disruption": 5615.6612499999455,
-            "effectivePower": 5555034.0,
-            "efficiency": 8855.692499999253,
+            "amberControl": 373822.9687499982,
+            "artifactControl": 5575.224999999948,
+            "count": 2311152,
+            "creatureControl": 1105625.9387499467,
+            "creatureProtection": 28600.749999999993,
+            "disruption": 5652.642499999941,
+            "effectivePower": 5588385.0,
+            "efficiency": 8738.714999999274,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 792571.5012499918,
+            "expectedAmber": 797559.7887499902,
             "house": "Brobnar",
-            "other": 180654.6375000222
+            "other": 181671.76250002283,
+            "recursion": 166.53625000000005
         },
         {
-            "amberControl": 464498.6549999737,
-            "artifactControl": 68674.4625,
-            "count": 2297928,
-            "creatureControl": 600658.5437501364,
-            "creatureProtection": 24270.215000000007,
-            "disruption": 529517.5125001315,
-            "effectivePower": 4304980.0,
-            "efficiency": 380194.73499992676,
+            "amberControl": 458879.9699999889,
+            "artifactControl": 69280.76249999665,
+            "count": 2311548,
+            "creatureControl": 641291.4262501536,
+            "creatureProtection": 24408.802500000013,
+            "disruption": 532587.0550001308,
+            "effectivePower": 4330823.0,
+            "efficiency": 108089.27999999617,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 1125828.1375002703,
+            "expectedAmber": 1131787.74500027,
             "house": "Dis",
-            "other": 30246.305000002216
+            "other": 30445.09000000225,
+            "recursion": 269645.5500000098
         },
         {
-            "amberControl": 130357.15249998381,
-            "artifactControl": 65267.63999999945,
-            "count": 2324424,
-            "creatureControl": 316184.3812500052,
-            "creatureProtection": 279.81249999999994,
-            "disruption": 13433.406250000493,
-            "effectivePower": 3464222.0,
-            "efficiency": 1769562.5812497141,
+            "amberControl": 131108.56999998374,
+            "artifactControl": 65596.13999999946,
+            "count": 2338104,
+            "creatureControl": 322913.3212500001,
+            "creatureProtection": 279.275,
+            "disruption": 13517.6362500005,
+            "effectivePower": 3484577.0,
+            "efficiency": 1616542.3187498834,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 1078608.1337496997,
+            "expectedAmber": 1084939.9612496982,
             "house": "Logos",
-            "other": 38523.33374999743
+            "other": 39918.67624999714,
+            "recursion": 188504.9149999939
         },
         {
-            "amberControl": 290817.849999947,
-            "artifactControl": 53868.537499999955,
-            "count": 2353464,
-            "creatureControl": 1008677.5037500026,
-            "creatureProtection": 82986.10249999943,
-            "disruption": 168.55749999999998,
-            "effectivePower": 6487766.0,
-            "efficiency": 162595.7737499862,
+            "amberControl": 295210.74249994126,
+            "artifactControl": 54249.07499999995,
+            "count": 2367864,
+            "creatureControl": 1056321.9337500164,
+            "creatureProtection": 83479.93999999952,
+            "disruption": 169.05749999999998,
+            "effectivePower": 6527476.0,
+            "efficiency": 98713.91249999077,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 896469.5537500202,
+            "expectedAmber": 904593.1300000186,
             "house": "Mars",
-            "other": 48708.75750000277
+            "other": 67122.94250000322,
+            "recursion": 75584.80999999365
         },
         {
-            "amberControl": 737041.0400000039,
-            "artifactControl": 43885.49249999999,
-            "count": 2309244,
-            "creatureControl": 639598.3350000544,
-            "creatureProtection": 226938.58250000008,
-            "disruption": 3124.511250000001,
-            "effectivePower": 7355320.0,
-            "efficiency": 19680.15500000194,
+            "amberControl": 741025.0675000041,
+            "artifactControl": 44131.779999999984,
+            "count": 2322636,
+            "creatureControl": 602865.4737500042,
+            "creatureProtection": 228256.24500000002,
+            "disruption": 3143.261250000001,
+            "effectivePower": 7236979.0,
+            "efficiency": 19574.12625000195,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 1115214.8137498433,
+            "expectedAmber": 1132018.236249895,
             "house": "Sanctum",
-            "other": 39210.398750000306
+            "other": 39458.07750000031,
+            "recursion": 212.77875000000006
         },
         {
-            "amberControl": 785630.2299999105,
-            "artifactControl": 22536.670000000293,
-            "count": 2204292,
-            "creatureControl": 545313.3887499992,
-            "creatureProtection": 48979.01499999786,
-            "disruption": 79908.00374999853,
-            "effectivePower": 2919490.0,
-            "efficiency": 138877.9837499829,
+            "amberControl": 788069.5249999306,
+            "artifactControl": 22666.602500000296,
+            "count": 2216856,
+            "creatureControl": 526486.1237500147,
+            "creatureProtection": 35316.815,
+            "disruption": 80296.00999999842,
+            "effectivePower": 2936150.0,
+            "efficiency": 101447.31874998624,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 1634844.4150000224,
+            "expectedAmber": 1602866.5199999912,
             "house": "Shadows",
-            "other": 18454.306250000216
+            "other": 56069.41750000815,
+            "recursion": 164.28375000000005
         },
         {
-            "amberControl": 7999.171249999911,
-            "artifactControl": 72104.48749998333,
-            "count": 2342880,
-            "creatureControl": 494442.6825000352,
-            "creatureProtection": 131699.62750000152,
-            "disruption": 116000.64624999999,
-            "effectivePower": 5173569.0,
-            "efficiency": 400861.38249996695,
+            "amberControl": 8035.88874999991,
+            "artifactControl": 72543.48749998359,
+            "count": 2356176,
+            "creatureControl": 498156.96000002226,
+            "creatureProtection": 132449.7500000015,
+            "disruption": 116660.70875,
+            "effectivePower": 5202805.0,
+            "efficiency": 40251.66500000171,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 1315389.0299999749,
+            "expectedAmber": 1388193.1212499822,
             "house": "Untamed",
-            "other": 254529.61625000418
+            "other": 262130.07250000403,
+            "recursion": 339104.031249758
         },
         {
-            "amberControl": 330781.2045000443,
-            "artifactControl": 5631.360000000041,
-            "count": 1638888,
-            "creatureControl": 544169.2150000375,
-            "creatureProtection": 16132.0225,
-            "disruption": 4539.800000000036,
-            "effectivePower": 4964548.0,
-            "efficiency": -41188.89250000103,
+            "amberControl": 335854.918250044,
+            "artifactControl": 5680.1725000000415,
+            "count": 1654968,
+            "creatureControl": 549479.0612500412,
+            "creatureProtection": 16298.2725,
+            "disruption": 4578.700000000038,
+            "effectivePower": 5013773.0,
+            "efficiency": -42092.211250001215,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 478040.5374999832,
+            "expectedAmber": 482724.3449999822,
             "house": "Brobnar",
-            "other": 6602.013750000747
+            "other": 6666.653750000762,
+            "recursion": 485.5312500000001
         },
         {
-            "amberControl": 457383.09224995703,
-            "artifactControl": 46095.7425,
-            "count": 1700580,
-            "creatureControl": 569146.7449999696,
-            "creatureProtection": 2455.1449999999995,
-            "disruption": 284865.88250004046,
-            "effectivePower": 3234439.0,
-            "efficiency": 255450.8874999933,
+            "amberControl": 479596.4697499166,
+            "artifactControl": 46551.079999999994,
+            "count": 1716600,
+            "creatureControl": 602251.9524999459,
+            "creatureProtection": 2476.9574999999995,
+            "disruption": 296460.1400000183,
+            "effectivePower": 3265176.0,
+            "efficiency": 50216.25375000079,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 695590.0850000569,
+            "expectedAmber": 702029.6500000581,
             "house": "Dis",
-            "other": 22868.121250001703
+            "other": 23063.01125000174,
+            "recursion": 209616.9437499961
         },
         {
-            "amberControl": 323598.51825000165,
-            "artifactControl": 45778.53999999995,
-            "count": 1710072,
-            "creatureControl": 291810.8187499504,
-            "creatureProtection": 72636.4025,
-            "disruption": 8925.200000000008,
-            "effectivePower": 3703364.0,
-            "efficiency": 1194721.3562500663,
+            "amberControl": 326867.0145000019,
+            "artifactControl": 46238.78999999994,
+            "count": 1726956,
+            "creatureControl": 297913.2112499508,
+            "creatureProtection": 73398.40249999998,
+            "disruption": 8996.735000000017,
+            "effectivePower": 3739229.0,
+            "efficiency": 1162008.2775000548,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 752984.3750000183,
+            "expectedAmber": 760549.30500002,
             "house": "Logos",
-            "other": 71799.90000000018
+            "other": 73650.20000000081,
+            "recursion": 12914.502500000372
         },
         {
-            "amberControl": 293478.35825000884,
-            "artifactControl": 19711.300000000327,
-            "count": 1607652,
-            "creatureControl": 325431.9249999955,
-            "creatureProtection": 241031.99999995937,
-            "disruption": 163267.33000000165,
-            "effectivePower": 4084100.0,
-            "efficiency": 579619.7424999808,
+            "amberControl": 296344.83075000753,
+            "artifactControl": 19899.700000000335,
+            "count": 1623552,
+            "creatureControl": 328630.93624999607,
+            "creatureProtection": 243449.47499995833,
+            "disruption": 164857.13000000108,
+            "effectivePower": 4124933.0,
+            "efficiency": 495577.89749995054,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 699701.64375001,
+            "expectedAmber": 706601.3562500115,
             "house": "StarAlliance",
-            "other": 42267.3875000052
+            "other": 42718.38250000526,
+            "recursion": 89674.54249999726
         },
         {
-            "amberControl": 521457.3845500114,
-            "artifactControl": 64.0925,
-            "count": 1709028,
-            "creatureControl": 432572.3312499824,
-            "creatureProtection": 380617.10999998864,
-            "disruption": 551.125,
-            "effectivePower": 5456853.0,
-            "efficiency": 73893.07500000473,
+            "amberControl": 520621.43420001183,
+            "artifactControl": 65.5925,
+            "count": 1725552,
+            "creatureControl": 438677.184999983,
+            "creatureProtection": 384272.3249999881,
+            "disruption": 563.55,
+            "effectivePower": 5509579.0,
+            "efficiency": 74007.55625000478,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 1002330.1487499523,
+            "expectedAmber": 1012015.5037499513,
             "house": "Saurian",
-            "other": 138123.06375000908
+            "other": 139394.66375000987,
+            "recursion": 473.14375000000007
         },
         {
-            "amberControl": 644768.5314999805,
-            "artifactControl": 118943.30750000084,
-            "count": 1680144,
-            "creatureControl": 389001.55624999653,
-            "creatureProtection": 8370.307499999995,
-            "disruption": 103067.28874998819,
-            "effectivePower": 2808612.0,
-            "efficiency": 21883.33750000003,
+            "amberControl": 650732.0464999769,
+            "artifactControl": 120127.72750000087,
+            "count": 1696452,
+            "creatureControl": 392753.1287499989,
+            "creatureProtection": 8428.937499999998,
+            "disruption": 104029.46374998824,
+            "effectivePower": 2836067.0,
+            "efficiency": 21517.583750000005,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 935836.0587500448,
+            "expectedAmber": 943560.2337500434,
             "house": "Shadows",
-            "other": 26668.523750002656
+            "other": 27005.563750002708,
+            "recursion": 455.9612500000006
         },
         {
-            "amberControl": 49625.69049999558,
-            "artifactControl": 58019.05000000198,
-            "count": 1716024,
-            "creatureControl": 482112.49500007095,
-            "creatureProtection": 102088.63749998886,
-            "disruption": 84086.3725,
-            "effectivePower": 4188715.0,
-            "efficiency": 139646.98625000796,
+            "amberControl": 50119.75424999554,
+            "artifactControl": 58567.67500000196,
+            "count": 1732104,
+            "creatureControl": 508153.30750005,
+            "creatureProtection": 103053.22249998835,
+            "disruption": 84870.51999999999,
+            "effectivePower": 4227780.0,
+            "efficiency": 53669.32125000076,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 1003558.7450000194,
+            "expectedAmber": 1012920.8400000194,
             "house": "Untamed",
-            "other": 182803.0600000087
+            "other": 184525.61375000866,
+            "recursion": 87209.89125000012
         },
         {
-            "amberControl": 169815.42874999697,
-            "artifactControl": 7385.467500000036,
-            "count": 861960,
-            "creatureControl": 196645.1274999958,
-            "creatureProtection": 55151.31750000086,
-            "disruption": 3624.1062500000303,
-            "effectivePower": 1779226.0,
-            "efficiency": 330166.7845000043,
+            "amberControl": 174316.39624999705,
+            "artifactControl": 7597.05500000004,
+            "count": 888852,
+            "creatureControl": 202696.7749999953,
+            "creatureProtection": 56830.060000000885,
+            "disruption": 3775.6037500000402,
+            "effectivePower": 1834884.0,
+            "efficiency": 333295.9932500059,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 410613.2362499882,
+            "expectedAmber": 423217.03874998644,
             "house": "StarAlliance",
-            "other": 14995.6000000005
+            "other": 15326.125000000566,
+            "recursion": 6555.652499999995
         },
         {
-            "amberControl": 385157.02999998676,
-            "artifactControl": 11937.5475,
-            "count": 956376,
-            "creatureControl": 380156.2587499972,
-            "creatureProtection": 21539.540000000427,
-            "disruption": 178396.17999998762,
-            "effectivePower": 1486130.0,
-            "efficiency": 102551.3099999995,
+            "amberControl": 391409.63249998755,
+            "artifactControl": 12303.397500000003,
+            "count": 986952,
+            "creatureControl": 425155.067499994,
+            "creatureProtection": 22233.12000000047,
+            "disruption": 187615.18999998432,
+            "effectivePower": 1531182.0,
+            "efficiency": -7683.76375000001,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 476589.3462499746,
+            "expectedAmber": 483966.5837499681,
             "house": "Dis",
-            "other": 6012.7124999999905
+            "other": 6202.014999999991,
+            "recursion": 109445.91999999911
         },
         {
-            "amberControl": 194333.33500000054,
-            "artifactControl": 2213.7375,
-            "count": 961188,
-            "creatureControl": 236956.89375000726,
-            "creatureProtection": 21923.370000000057,
-            "disruption": -6903.150000000038,
-            "effectivePower": 1976163.0,
-            "efficiency": 702647.3532499934,
+            "amberControl": 199284.3324999991,
+            "artifactControl": 2288.7375,
+            "count": 991152,
+            "creatureControl": 244259.60375000807,
+            "creatureProtection": 22595.26500000006,
+            "disruption": -7164.037500000035,
+            "effectivePower": 2038259.0,
+            "efficiency": 687968.2877500124,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 277186.2974999993,
+            "expectedAmber": 285774.0175000009,
             "house": "Logos",
-            "other": 52108.179999999644
+            "other": 48502.12750000001,
+            "recursion": 32182.606249999382
         },
         {
-            "amberControl": 391979.9082000017,
-            "artifactControl": 21.9075,
-            "count": 920628,
-            "creatureControl": 204394.2487499895,
-            "creatureProtection": 98294.83750000723,
-            "disruption": 49.38999999999999,
-            "effectivePower": 2597193.0,
-            "efficiency": 33813.84974999819,
+            "amberControl": 420052.76670000324,
+            "artifactControl": 21.7825,
+            "count": 949812,
+            "creatureControl": 211873.2137499889,
+            "creatureProtection": 101304.12000000781,
+            "disruption": 52.19,
+            "effectivePower": 2679557.0,
+            "efficiency": 21242.773500000345,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 486673.14124998596,
+            "expectedAmber": 506867.6137499854,
             "house": "Saurian",
-            "other": 6812.717499999998
+            "other": 7028.934999999996,
+            "recursion": 6828.535000000001
         },
         {
-            "amberControl": 306603.84599999845,
-            "artifactControl": 17368.262500000004,
-            "count": 946128,
-            "creatureControl": 271557.5450000336,
-            "creatureProtection": 65825.1525,
-            "disruption": 1114.99375,
-            "effectivePower": 3464996.0,
-            "efficiency": 25183.216250001307,
+            "amberControl": 334761.6659999974,
+            "artifactControl": 17914.450000000004,
+            "count": 975048,
+            "creatureControl": 266955.70874999097,
+            "creatureProtection": 67829.1525,
+            "disruption": 1146.9687499999998,
+            "effectivePower": 3569551.0,
+            "efficiency": 25847.704250001363,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 416991.6224999687,
+            "expectedAmber": 409316.279999959,
             "house": "Sanctum",
-            "other": 32883.14499999873
+            "other": 33289.77249999873,
+            "recursion": 30.275
         },
         {
-            "amberControl": 337951.6625000035,
-            "artifactControl": 34867.94750000187,
-            "count": 979560,
-            "creatureControl": 253631.23124999518,
-            "creatureProtection": 54576.88999999979,
-            "disruption": 93743.91125000012,
-            "effectivePower": 1669505.0,
-            "efficiency": 26077.059999999998,
+            "amberControl": 319218.9050000027,
+            "artifactControl": 35864.69500000161,
+            "count": 1010868,
+            "creatureControl": 262582.77499999414,
+            "creatureProtection": 56301.36749999982,
+            "disruption": 96645.42500000066,
+            "effectivePower": 1723172.0,
+            "efficiency": 26738.577499999898,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 663006.7687500076,
+            "expectedAmber": 651331.9237500019,
             "house": "Shadows",
-            "other": 33828.13750000274
+            "other": 34847.510000002585,
+            "recursion": 59.205000000000005
         },
         {
-            "amberControl": 54507.04749999649,
-            "artifactControl": 56960.139999999854,
-            "count": 914928,
-            "creatureControl": 199688.62250000087,
-            "creatureProtection": 55745.03749999999,
-            "disruption": 6169.4,
-            "effectivePower": 2186787.0,
-            "efficiency": 115625.6572499928,
+            "amberControl": 56174.467499997234,
+            "artifactControl": 58761.96499999986,
+            "count": 944652,
+            "creatureControl": 212106.59250000233,
+            "creatureProtection": 58106.937499999985,
+            "disruption": 6379.85625,
+            "effectivePower": 2253250.0,
+            "efficiency": 30179.733500000915,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 676722.0975000206,
+            "expectedAmber": 698029.3537500158,
             "house": "Untamed",
-            "other": 122212.72625000248
+            "other": 111999.46750000403,
+            "recursion": 89121.72874999703
         }
     ],
     "aercToWinsLosses": {
         "37": {
-            "losses": 4,
-            "wins": 3
+            "losses": 2,
+            "wins": 1
         },
         "38": {
-            "losses": 11,
-            "wins": 6
+            "losses": 15,
+            "wins": 3
         },
         "39": {
-            "losses": 25,
-            "wins": 16
+            "losses": 22,
+            "wins": 18
         },
         "40": {
-            "losses": 48,
-            "wins": 22
+            "losses": 50,
+            "wins": 28
         },
         "41": {
-            "losses": 94,
-            "wins": 65
+            "losses": 97,
+            "wins": 72
         },
         "42": {
-            "losses": 257,
-            "wins": 200
+            "losses": 226,
+            "wins": 151
         },
         "43": {
-            "losses": 441,
-            "wins": 272
+            "losses": 454,
+            "wins": 306
         },
         "44": {
-            "losses": 709,
-            "wins": 457
+            "losses": 754,
+            "wins": 526
         },
         "45": {
-            "losses": 1178,
-            "wins": 832
+            "losses": 1131,
+            "wins": 785
         },
         "46": {
-            "losses": 2041,
-            "wins": 1450
+            "losses": 2089,
+            "wins": 1440
         },
         "47": {
-            "losses": 2900,
-            "wins": 2115
+            "losses": 2840,
+            "wins": 2097
         },
         "48": {
-            "losses": 4486,
-            "wins": 3187
+            "losses": 4493,
+            "wins": 3278
         },
         "49": {
-            "losses": 6263,
-            "wins": 4537
+            "losses": 6488,
+            "wins": 4683
         },
         "50": {
-            "losses": 8360,
-            "wins": 6122
+            "losses": 8502,
+            "wins": 6237
         },
         "51": {
-            "losses": 10526,
-            "wins": 8253
+            "losses": 10530,
+            "wins": 8148
         },
         "52": {
-            "losses": 12755,
-            "wins": 10073
+            "losses": 12791,
+            "wins": 10118
         },
         "53": {
-            "losses": 14624,
-            "wins": 12130
+            "losses": 15323,
+            "wins": 12831
         },
         "54": {
-            "losses": 17137,
-            "wins": 14223
+            "losses": 17467,
+            "wins": 14522
         },
         "55": {
-            "losses": 18572,
-            "wins": 16207
+            "losses": 18631,
+            "wins": 16262
         },
         "56": {
-            "losses": 19324,
-            "wins": 17931
+            "losses": 19863,
+            "wins": 18394
         },
         "57": {
-            "losses": 20380,
-            "wins": 19361
+            "losses": 20683,
+            "wins": 19742
         },
         "58": {
-            "losses": 20472,
-            "wins": 20178
+            "losses": 21329,
+            "wins": 20946
         },
         "59": {
-            "losses": 20494,
-            "wins": 21323
+            "losses": 20988,
+            "wins": 21767
         },
         "60": {
-            "losses": 19915,
-            "wins": 21616
+            "losses": 20415,
+            "wins": 22014
         },
         "61": {
-            "losses": 19148,
-            "wins": 21151
+            "losses": 18924,
+            "wins": 21121
         },
         "62": {
-            "losses": 16951,
-            "wins": 19709
+            "losses": 17601,
+            "wins": 20530
         },
         "63": {
-            "losses": 15421,
-            "wins": 18785
+            "losses": 15664,
+            "wins": 19255
         },
         "64": {
-            "losses": 13872,
-            "wins": 17400
+            "losses": 13502,
+            "wins": 17122
         },
         "65": {
-            "losses": 11278,
-            "wins": 15110
+            "losses": 11462,
+            "wins": 15193
         },
         "66": {
-            "losses": 9642,
-            "wins": 13615
+            "losses": 9516,
+            "wins": 13530
         },
         "67": {
-            "losses": 7436,
-            "wins": 10748
+            "losses": 7422,
+            "wins": 10945
         },
         "68": {
-            "losses": 6023,
-            "wins": 8783
+            "losses": 5993,
+            "wins": 8670
         },
         "69": {
-            "losses": 4193,
-            "wins": 6474
+            "losses": 4137,
+            "wins": 6253
         },
         "70": {
-            "losses": 3555,
-            "wins": 5647
+            "losses": 3139,
+            "wins": 5196
         },
         "71": {
-            "losses": 2209,
-            "wins": 3589
+            "losses": 2284,
+            "wins": 3741
         },
         "72": {
-            "losses": 1648,
-            "wins": 2774
+            "losses": 1370,
+            "wins": 2339
         },
         "73": {
-            "losses": 911,
-            "wins": 1788
+            "losses": 923,
+            "wins": 1765
         },
         "74": {
-            "losses": 604,
-            "wins": 1091
+            "losses": 534,
+            "wins": 969
         },
         "75": {
-            "losses": 317,
-            "wins": 680
+            "losses": 302,
+            "wins": 610
         },
         "76": {
-            "losses": 185,
-            "wins": 421
+            "losses": 175,
+            "wins": 384
         },
         "77": {
-            "losses": 118,
-            "wins": 248
+            "losses": 102,
+            "wins": 228
         },
         "78": {
-            "losses": 53,
-            "wins": 100
+            "losses": 55,
+            "wins": 112
         },
         "79": {
-            "losses": 45,
-            "wins": 96
+            "losses": 58,
+            "wins": 107
         },
         "80": {
-            "losses": 27,
-            "wins": 70
+            "losses": 15,
+            "wins": 50
         },
         "81": {
-            "losses": 15,
-            "wins": 31
+            "losses": 16,
+            "wins": 34
         },
-        "82": {
+        "83": {
             "losses": 1,
             "wins": 1
         }
     },
     "amberControl": {
-        "-1": 1103,
+        "-1": 1114,
         "-2": 144,
         "-3": 18,
         "-4": 2,
         "-5": 1,
-        "0": 11476,
-        "1": 38254,
-        "10": 164172,
-        "11": 132188,
-        "12": 99752,
-        "13": 73058,
-        "14": 50472,
-        "15": 33505,
-        "16": 21927,
-        "17": 13891,
-        "18": 8541,
-        "19": 4927,
-        "2": 74476,
-        "20": 2995,
-        "21": 1655,
-        "22": 919,
-        "23": 519,
-        "24": 243,
-        "25": 137,
-        "26": 78,
-        "27": 30,
-        "28": 18,
-        "29": 4,
-        "3": 119976,
+        "0": 11539,
+        "1": 38536,
+        "10": 165575,
+        "11": 132807,
+        "12": 100619,
+        "13": 73705,
+        "14": 50809,
+        "15": 33963,
+        "16": 22180,
+        "17": 14206,
+        "18": 8593,
+        "19": 5167,
+        "2": 74929,
+        "20": 3119,
+        "21": 1737,
+        "22": 1044,
+        "23": 532,
+        "24": 277,
+        "25": 149,
+        "26": 89,
+        "27": 49,
+        "28": 17,
+        "29": 8,
+        "3": 120546,
         "30": 3,
-        "31": 1,
-        "4": 165945,
-        "5": 202038,
-        "6": 225103,
-        "7": 229650,
-        "8": 219197,
-        "9": 196151
+        "31": 2,
+        "4": 166642,
+        "5": 202957,
+        "6": 226498,
+        "7": 230728,
+        "8": 220787,
+        "9": 197350
     },
     "amberControlStats": {
         "bottom10Percent": 3,
         "max": 31,
-        "mean": 7.70463196195681,
+        "mean": 7.713293180297953,
         "median": 7,
         "min": -5,
         "percentile40": 6,
         "percentile60": 8,
         "percentileForValue": {
-            "-1": 0.060595373438104075,
-            "-2": 0.007885044650857391,
-            "-3": 0.0010035511373818497,
-            "-4": 0.0001433644481974071,
-            "-5": 4.7788149399135706e-05,
-            "0": 0.6090121759425854,
-            "1": 2.437100043057123,
-            "10": 78.7408204938523,
-            "11": 85.05784038662524,
-            "12": 89.82480386548782,
-            "13": 93.31611048428988,
-            "14": 95.72807396076306,
-            "15": 97.32921590638111,
-            "16": 98.37706665825596,
-            "17": 99.04089184155934,
-            "18": 99.44905042557737,
-            "19": 99.68450263766691,
-            "2": 5.996170257707154,
-            "20": 99.82762814511732,
-            "21": 99.90671753237288,
-            "22": 99.95063484167069,
-            "23": 99.97543689120884,
-            "24": 99.98704941151283,
-            "25": 99.99359638798052,
-            "26": 99.99732386363365,
-            "27": 99.99875750811562,
-            "28": 99.99961769480481,
-            "29": 99.9998088474024,
-            "3": 11.729601270017858,
-            "30": 99.9999522118506,
+            "-1": 0.060718529500707594,
+            "-2": 0.007833117566549455,
+            "-3": 0.0009969422357426578,
+            "-4": 0.00014242031939180826,
+            "-5": 4.747343979726942e-05,
+            "0": 0.6085145513213994,
+            "1": 2.4379510273489737,
+            "10": 78.68086502304124,
+            "11": 84.9856701421972,
+            "12": 89.76240018115864,
+            "13": 93.26143006141639,
+            "14": 95.67350806407585,
+            "15": 97.28584849991051,
+            "16": 98.33880939461395,
+            "17": 99.01321708037396,
+            "18": 99.42115634855189,
+            "19": 99.66645161198439,
+            "2": 5.9950883979185745,
+            "20": 99.81452127071206,
+            "21": 99.89698263563993,
+            "22": 99.94654490678828,
+            "23": 99.97180077676042,
+            "24": 99.98495091958426,
+            "25": 99.99202446211406,
+            "26": 99.99624959825601,
+            "27": 99.99857579680608,
+            "28": 99.99938284528264,
+            "29": 99.99976263280101,
+            "3": 11.717821671720214,
+            "30": 99.9999050531204,
             "31": 100.0,
-            "4": 19.65980572205743,
-            "5": 29.31482785036001,
-            "6": 40.07208364455366,
-            "7": 51.04663215406517,
-            "8": 61.52165113790752,
-            "9": 70.89534443069739
+            "4": 19.628890626416787,
+            "5": 29.263957547351197,
+            "6": 40.016596714553124,
+            "7": 50.97004853209751,
+            "8": 61.45156688461723,
+            "9": 70.82045022860835
         },
         "top90Percent": 13
     },
     "amberControlToWinsLosses": {
         "-1": {
-            "losses": 154,
-            "wins": 109
+            "losses": 156,
+            "wins": 110
         },
         "-2": {
             "losses": 15,
@@ -956,332 +988,324 @@
             "wins": 1
         },
         "0": {
-            "losses": 1759,
-            "wins": 1336
+            "losses": 1768,
+            "wins": 1343
         },
         "1": {
-            "losses": 5465,
-            "wins": 4646
+            "losses": 5493,
+            "wins": 4698
         },
         "10": {
-            "losses": 26450,
-            "wins": 29164
+            "losses": 26827,
+            "wins": 29662
         },
         "11": {
-            "losses": 21859,
-            "wins": 25405
+            "losses": 22073,
+            "wins": 25553
         },
         "12": {
-            "losses": 17954,
-            "wins": 21229
+            "losses": 18214,
+            "wins": 21574
         },
         "13": {
-            "losses": 13952,
-            "wins": 16777
+            "losses": 14233,
+            "wins": 17001
         },
         "14": {
-            "losses": 10056,
-            "wins": 12168
+            "losses": 10171,
+            "wins": 12234
         },
         "15": {
-            "losses": 7206,
-            "wins": 8965
+            "losses": 7377,
+            "wins": 9081
         },
         "16": {
-            "losses": 5051,
-            "wins": 6530
+            "losses": 5179,
+            "wins": 6652
         },
         "17": {
-            "losses": 3196,
-            "wins": 4045
+            "losses": 3238,
+            "wins": 4183
         },
         "18": {
-            "losses": 2151,
-            "wins": 2751
+            "losses": 2162,
+            "wins": 2687
         },
         "19": {
-            "losses": 1252,
-            "wins": 1671
+            "losses": 1348,
+            "wins": 1786
         },
         "2": {
-            "losses": 9761,
-            "wins": 8441
+            "losses": 9778,
+            "wins": 8438
         },
         "20": {
-            "losses": 762,
-            "wins": 935
+            "losses": 778,
+            "wins": 955
         },
         "21": {
-            "losses": 504,
-            "wins": 644
+            "losses": 523,
+            "wins": 646
         },
         "22": {
-            "losses": 264,
-            "wins": 327
+            "losses": 307,
+            "wins": 399
         },
         "23": {
-            "losses": 172,
-            "wins": 213
+            "losses": 160,
+            "wins": 187
         },
         "24": {
-            "losses": 70,
-            "wins": 106
+            "losses": 94,
+            "wins": 128
         },
         "25": {
-            "losses": 16,
-            "wins": 21
+            "losses": 33,
+            "wins": 43
         },
         "26": {
-            "losses": 17,
-            "wins": 21
+            "losses": 24,
+            "wins": 44
         },
         "27": {
-            "losses": 2,
-            "wins": 4
-        },
-        "28": {
-            "losses": 2,
-            "wins": 5
+            "losses": 9,
+            "wins": 13
         },
         "29": {
             "losses": 1,
             "wins": 2
         },
         "3": {
-            "losses": 15515,
-            "wins": 13319
+            "losses": 15692,
+            "wins": 13448
         },
         "4": {
-            "losses": 21679,
-            "wins": 19613
+            "losses": 21807,
+            "wins": 19710
         },
         "5": {
-            "losses": 26199,
-            "wins": 24543
+            "losses": 26364,
+            "wins": 24671
         },
         "6": {
-            "losses": 29745,
-            "wins": 28777
+            "losses": 30068,
+            "wins": 29173
         },
         "7": {
-            "losses": 32407,
-            "wins": 32345
+            "losses": 32712,
+            "wins": 32537
         },
         "8": {
-            "losses": 31828,
-            "wins": 33070
+            "losses": 32196,
+            "wins": 33625
         },
         "9": {
-            "losses": 29200,
-            "wins": 31697
+            "losses": 29574,
+            "wins": 31930
         }
     },
     "antisynergy": {
-        "0": 607829,
-        "1": 708815,
-        "10": 397,
-        "11": 146,
-        "12": 62,
+        "0": 633281,
+        "1": 767481,
+        "10": 217,
+        "11": 92,
+        "12": 29,
         "13": 13,
-        "14": 9,
-        "15": 4,
-        "16": 1,
-        "2": 405917,
-        "3": 224085,
-        "4": 85992,
-        "5": 35445,
-        "6": 14598,
-        "7": 5756,
-        "8": 2480,
-        "9": 1020
+        "14": 6,
+        "2": 433781,
+        "3": 174582,
+        "4": 62314,
+        "5": 21739,
+        "6": 8013,
+        "7": 3111,
+        "8": 1250,
+        "9": 532
     },
     "antisynergyStats": {
         "bottom10Percent": 3,
         "max": 0,
-        "mean": 1.3751938406810003,
+        "mean": 1.236761912628932,
         "median": 1,
-        "min": 16,
+        "min": 14,
         "percentile40": 1,
         "percentile60": 1,
         "percentileForValue": {
             "0": 100.0,
-            "1": 70.95297693887274,
-            "10": 0.030202110420253763,
-            "11": 0.01123021510879689,
-            "12": 0.004253145296523078,
-            "13": 0.001290280033776664,
-            "14": 0.0006690340915878998,
-            "15": 0.00023894074699567852,
-            "16": 4.7788149399135706e-05,
-            "2": 37.08001982252437,
-            "3": 17.681997582875404,
-            "4": 6.973390124770079,
-            "5": 2.8639915816396018,
-            "6": 1.170140626187237,
-            "7": 0.4725292212586538,
-            "8": 0.19746063331722874,
-            "9": 0.07894602280737219
+            "1": 69.93597257174542,
+            "10": 0.016948018007625184,
+            "11": 0.006646281571617719,
+            "12": 0.002278725110268932,
+            "13": 0.0009019953561481191,
+            "14": 0.0002848406387836165,
+            "2": 33.50100952269729,
+            "3": 12.907933333997962,
+            "4": 4.619925267311071,
+            "5": 1.6616653397840244,
+            "6": 0.6296402320311844,
+            "7": 0.24923555893566446,
+            "8": 0.1015456877263593,
+            "9": 0.042203887979772516
         },
         "top90Percent": 0
     },
     "antisynergyToWinsLosses": {
         "0": {
-            "losses": 97502,
-            "wins": 105130
+            "losses": 101837,
+            "wins": 109915
         },
         "1": {
-            "losses": 108160,
-            "wins": 112685
+            "losses": 117074,
+            "wins": 122458
         },
         "10": {
-            "losses": 23,
-            "wins": 29
+            "losses": 17,
+            "wins": 13
         },
         "11": {
-            "losses": 15,
-            "wins": 16
+            "losses": 10,
+            "wins": 13
         },
         "12": {
-            "losses": 11,
-            "wins": 20
+            "losses": 5,
+            "wins": 13
         },
         "13": {
-            "losses": 6,
-            "wins": 6
+            "losses": 2,
+            "wins": 1
         },
         "2": {
-            "losses": 60004,
-            "wins": 61625
+            "losses": 62991,
+            "wins": 63985
         },
         "3": {
-            "losses": 30090,
-            "wins": 30713
+            "losses": 23556,
+            "wins": 23533
         },
         "4": {
-            "losses": 11449,
-            "wins": 11439
+            "losses": 8457,
+            "wins": 8231
         },
         "5": {
-            "losses": 4405,
-            "wins": 4300
+            "losses": 2765,
+            "wins": 2732
         },
         "6": {
-            "losses": 1895,
-            "wins": 1878
+            "losses": 1064,
+            "wins": 1032
         },
         "7": {
-            "losses": 676,
-            "wins": 606
+            "losses": 373,
+            "wins": 341
         },
         "8": {
-            "losses": 297,
-            "wins": 327
+            "losses": 178,
+            "wins": 213
         },
         "9": {
-            "losses": 135,
-            "wins": 116
+            "losses": 49,
+            "wins": 44
         }
     },
     "armorValues": {
-        "0": 462809,
-        "1": 260173,
-        "10": 63550,
-        "11": 45412,
-        "12": 31459,
-        "13": 21077,
-        "14": 13587,
-        "15": 8585,
-        "16": 5703,
-        "17": 3804,
-        "18": 2598,
-        "19": 1589,
-        "2": 227602,
-        "20": 1099,
-        "21": 697,
-        "22": 446,
-        "23": 296,
-        "24": 199,
-        "25": 135,
-        "26": 72,
+        "0": 465291,
+        "1": 261471,
+        "10": 64041,
+        "11": 45763,
+        "12": 31713,
+        "13": 21257,
+        "14": 13708,
+        "15": 8688,
+        "16": 5754,
+        "17": 3826,
+        "18": 2627,
+        "19": 1605,
+        "2": 229247,
+        "20": 1110,
+        "21": 705,
+        "22": 449,
+        "23": 297,
+        "24": 200,
+        "25": 139,
+        "26": 74,
         "27": 42,
         "28": 22,
         "29": 13,
-        "3": 179962,
+        "3": 181255,
         "30": 6,
         "31": 5,
         "32": 2,
         "34": 1,
-        "4": 157601,
-        "5": 144879,
-        "6": 141546,
-        "7": 125625,
-        "8": 107667,
-        "9": 84306
+        "4": 158813,
+        "5": 145985,
+        "6": 142620,
+        "7": 126457,
+        "8": 108362,
+        "9": 84893
     },
     "artifactControl": {
-        "0": 961761,
-        "1": 639626,
+        "0": 968689,
+        "1": 642688,
         "11": 1,
-        "2": 362605,
-        "3": 97197,
-        "4": 21856,
-        "5": 7787,
-        "6": 1421,
-        "7": 238,
-        "8": 71,
+        "2": 365449,
+        "3": 97958,
+        "4": 22039,
+        "5": 7865,
+        "6": 1434,
+        "7": 240,
+        "8": 72,
         "9": 6
     },
     "artifactControlStats": {
         "bottom10Percent": 0,
         "max": 11,
-        "mean": 0.8571335043193319,
+        "mean": 0.8573067083293574,
         "median": 1,
         "min": 0,
         "percentile40": 0,
         "percentile60": 1,
         "percentileForValue": {
-            "0": 45.96077835426215,
-            "1": 76.52732120183373,
+            "0": 45.98699892377712,
+            "1": 76.4976090002046,
             "11": 100.0,
-            "2": 93.85554311470733,
-            "3": 98.50040787185512,
-            "4": 99.54486566512263,
-            "5": 99.9169919844937,
-            "6": 99.98489894478988,
-            "7": 99.99627252434686,
-            "8": 99.9996654829542,
-            "9": 99.9999522118506
+            "2": 93.84673010067692,
+            "3": 98.49713331633784,
+            "4": 99.54340045602986,
+            "5": 99.91677906003538,
+            "6": 99.98485597270466,
+            "7": 99.99624959825601,
+            "8": 99.99966768592142,
+            "9": 99.99995252656021
         },
         "top90Percent": 2
     },
     "artifactControlToWinsLosses": {
         "0": {
-            "losses": 140494,
-            "wins": 147272
+            "losses": 142445,
+            "wins": 149156
         },
         "1": {
-            "losses": 93396,
-            "wins": 96086
+            "losses": 94102,
+            "wins": 96767
         },
         "2": {
-            "losses": 58401,
-            "wins": 62279
+            "losses": 59158,
+            "wins": 63070
         },
         "3": {
-            "losses": 16259,
-            "wins": 16868
+            "losses": 16482,
+            "wins": 17062
         },
         "4": {
-            "losses": 4037,
-            "wins": 4141
+            "losses": 4091,
+            "wins": 4190
         },
         "5": {
-            "losses": 1695,
-            "wins": 1814
+            "losses": 1712,
+            "wins": 1842
         },
         "6": {
-            "losses": 314,
-            "wins": 356
+            "losses": 316,
+            "wins": 363
         },
         "7": {
             "losses": 49,
@@ -1293,63 +1317,63 @@
         }
     },
     "artifactCount": {
-        "0": 60844,
-        "1": 216162,
-        "10": 3612,
-        "11": 918,
-        "12": 242,
+        "0": 61352,
+        "1": 217787,
+        "10": 3629,
+        "11": 920,
+        "12": 243,
         "13": 61,
         "14": 11,
         "15": 2,
-        "2": 385685,
-        "3": 454883,
-        "4": 401645,
-        "5": 282103,
-        "6": 162714,
-        "7": 79393,
-        "8": 32614,
-        "9": 11680
+        "2": 388539,
+        "3": 457985,
+        "4": 404275,
+        "5": 283822,
+        "6": 163542,
+        "7": 79778,
+        "8": 32771,
+        "9": 11724
     },
     "artifactCountStats": {
         "bottom10Percent": 1,
         "max": 15,
-        "mean": 3.4968701151551036,
+        "mean": 3.4953340729695253,
         "median": 3,
         "min": 0,
         "percentile40": 3,
         "percentile60": 4,
         "percentileForValue": {
-            "0": 2.9076221620410125,
-            "1": 13.237604112456985,
-            "10": 99.94102942364147,
-            "11": 99.98489894478988,
-            "12": 99.99646367694446,
-            "13": 99.99937875405782,
-            "14": 99.9999044237012,
+            "0": 2.9125904784420737,
+            "1": 13.25168851156999,
+            "10": 99.94127535497078,
+            "11": 99.98495091958426,
+            "12": 99.996486965455,
+            "13": 99.99938284528264,
+            "14": 99.9999050531204,
             "15": 100.0,
-            "2": 31.66877651346264,
-            "3": 53.40679327658968,
-            "4": 72.60066454200555,
-            "5": 86.08184485194992,
-            "6": 93.8576457932809,
-            "7": 97.65169033852648,
-            "8": 99.21025304302988,
-            "9": 99.76841862801179
+            "2": 31.696971336961255,
+            "3": 53.43909466251369,
+            "4": 72.63141953655479,
+            "5": 86.1054261666954,
+            "6": 93.86932745802042,
+            "7": 97.65666353816698,
+            "8": 99.2124156337633,
+            "9": 99.76899424194649
         },
         "top90Percent": 6
     },
     "artifactWins": {
         "0": {
-            "losses": 10939,
-            "wins": 12011
+            "losses": 11096,
+            "wins": 12154
         },
         "1": {
-            "losses": 37637,
-            "wins": 40716
+            "losses": 38101,
+            "wins": 41158
         },
         "10": {
-            "losses": 431,
-            "wins": 455
+            "losses": 433,
+            "wins": 459
         },
         "11": {
             "losses": 110,
@@ -1364,373 +1388,379 @@
             "wins": 5
         },
         "2": {
-            "losses": 61627,
-            "wins": 65495
+            "losses": 62392,
+            "wins": 66249
         },
         "3": {
-            "losses": 70027,
-            "wins": 73312
+            "losses": 70882,
+            "wins": 74112
         },
         "4": {
-            "losses": 57770,
-            "wins": 60217
+            "losses": 58438,
+            "wins": 60863
         },
         "5": {
-            "losses": 39149,
-            "wins": 39757
+            "losses": 39585,
+            "wins": 40192
         },
         "6": {
-            "losses": 21282,
-            "wins": 21342
+            "losses": 21504,
+            "wins": 21607
         },
         "7": {
-            "losses": 9992,
-            "wins": 9916
+            "losses": 10080,
+            "wins": 10017
         },
         "8": {
-            "losses": 4060,
-            "wins": 4020
+            "losses": 4101,
+            "wins": 4058
         },
         "9": {
-            "losses": 1612,
-            "wins": 1551
+            "losses": 1624,
+            "wins": 1557
         }
     },
     "cardRatingsToWinsLosses": {},
     "creatureControl": {
-        "0": 179,
-        "1": 2550,
-        "10": 226748,
-        "11": 203821,
-        "12": 172109,
-        "13": 137192,
-        "14": 104176,
-        "15": 74362,
-        "16": 51471,
-        "17": 34412,
-        "18": 22087,
-        "19": 13679,
-        "2": 11265,
-        "20": 8382,
-        "21": 4762,
-        "22": 2809,
-        "23": 1588,
-        "24": 938,
-        "25": 516,
-        "26": 281,
-        "27": 146,
-        "28": 70,
-        "29": 48,
-        "3": 31038,
-        "30": 24,
-        "31": 9,
-        "32": 6,
-        "33": 1,
+        "0": 181,
+        "1": 2549,
+        "10": 226685,
+        "11": 206707,
+        "12": 176761,
+        "13": 142824,
+        "14": 109693,
+        "15": 79917,
+        "16": 56035,
+        "17": 37998,
+        "18": 24857,
+        "19": 15394,
+        "2": 11064,
+        "20": 9614,
+        "21": 5591,
+        "22": 3289,
+        "23": 1895,
+        "24": 1135,
+        "25": 668,
+        "26": 367,
+        "27": 181,
+        "28": 79,
+        "29": 78,
+        "3": 30020,
+        "30": 32,
+        "31": 14,
+        "32": 7,
+        "33": 3,
+        "34": 2,
         "35": 1,
         "39": 1,
-        "4": 64141,
-        "5": 108985,
-        "6": 156318,
-        "7": 198092,
-        "8": 225012,
-        "9": 235350
+        "4": 61878,
+        "5": 105046,
+        "6": 150986,
+        "7": 192367,
+        "8": 220484,
+        "9": 232038
     },
     "creatureControlStats": {
         "bottom10Percent": 5,
         "max": 39,
-        "mean": 9.833831524790819,
+        "mean": 9.97791060846233,
         "median": 10,
         "min": 0,
         "percentile40": 9,
-        "percentile60": 10,
+        "percentile60": 11,
         "percentileForValue": {
-            "0": 0.00855407874244529,
-            "1": 0.13041385971024133,
-            "10": 60.19768045880446,
-            "11": 69.93790885748571,
-            "12": 78.16267946242155,
-            "13": 84.71883125478777,
-            "14": 89.69720950659213,
-            "15": 93.25083187221067,
-            "16": 95.71053570993358,
-            "17": 97.35502150705663,
-            "18": 98.41051836283535,
-            "19": 99.06421245846613,
-            "2": 0.668747362691505,
-            "20": 99.46477272672968,
-            "21": 99.69233989416837,
-            "22": 99.82657680583054,
-            "23": 99.90246438707636,
-            "24": 99.94728967121276,
-            "25": 99.9719483563027,
-            "26": 99.98537682628387,
-            "27": 99.99235389609613,
-            "28": 99.99569906655408,
-            "29": 99.99799289772524,
-            "3": 2.151995943741879,
-            "30": 99.99913981331082,
-            "31": 99.99956990665541,
-            "32": 99.99985663555181,
-            "33": 99.9999044237012,
-            "35": 99.9999522118506,
+            "0": 0.008592692603305765,
+            "1": 0.12960249064654553,
+            "10": 58.54889835509278,
+            "11": 68.36199067526695,
+            "12": 76.7534433672721,
+            "13": 83.5337899328773,
+            "14": 88.74129396455918,
+            "15": 92.53522885283756,
+            "16": 95.19540305187755,
+            "17": 96.99929881729419,
+            "18": 98.17934611033492,
+            "19": 98.91015224257409,
+            "2": 0.6548486285635344,
+            "20": 99.36656189278503,
+            "21": 99.63198589469157,
+            "22": 99.78812603818479,
+            "23": 99.87808820660061,
+            "24": 99.93197056077051,
+            "25": 99.96368281855509,
+            "26": 99.9811055709607,
+            "27": 99.989698263564,
+            "28": 99.99344866530798,
+            "29": 99.99715159361216,
+            "3": 2.0800012912775623,
+            "30": 99.99867074368568,
+            "31": 99.99933537184283,
+            "32": 99.99966768592142,
+            "33": 99.99981010624082,
+            "34": 99.9999050531204,
+            "35": 99.99995252656021,
             "39": 100.0,
-            "4": 5.217175634351842,
-            "5": 10.425367096616647,
-            "6": 17.89551503439074,
-            "7": 27.361965125164332,
-            "8": 38.11487219776266,
-            "9": 49.361813158849245
+            "4": 5.017562799053,
+            "5": 10.004457755996963,
+            "6": 17.172282537227485,
+            "7": 26.30460573070881,
+            "8": 36.77173963096996,
+            "9": 47.78738165464877
         },
         "top90Percent": 15
     },
     "creatureControlToWinsLosses": {
         "0": {
-            "losses": 21,
-            "wins": 35
+            "losses": 23,
+            "wins": 37
         },
         "1": {
             "losses": 491,
-            "wins": 452
+            "wins": 457
         },
         "10": {
-            "losses": 33700,
-            "wins": 35755
+            "losses": 34048,
+            "wins": 35856
         },
         "11": {
-            "losses": 30718,
-            "wins": 32770
+            "losses": 31258,
+            "wins": 33299
         },
         "12": {
-            "losses": 25729,
-            "wins": 27869
+            "losses": 26558,
+            "wins": 29049
         },
         "13": {
-            "losses": 20445,
-            "wins": 22190
+            "losses": 21451,
+            "wins": 23107
         },
         "14": {
-            "losses": 15454,
-            "wins": 16599
+            "losses": 16278,
+            "wins": 17700
         },
         "15": {
-            "losses": 10832,
-            "wins": 12348
+            "losses": 11584,
+            "wins": 12961
         },
         "16": {
-            "losses": 7465,
-            "wins": 7996
+            "losses": 8202,
+            "wins": 8913
         },
         "17": {
-            "losses": 5388,
-            "wins": 5612
+            "losses": 5688,
+            "wins": 6040
         },
         "18": {
-            "losses": 3214,
-            "wins": 3508
+            "losses": 3636,
+            "wins": 3881
         },
         "19": {
-            "losses": 2099,
-            "wins": 2318
+            "losses": 2363,
+            "wins": 2523
         },
         "2": {
-            "losses": 1833,
-            "wins": 1729
+            "losses": 1817,
+            "wins": 1667
         },
         "20": {
-            "losses": 1275,
-            "wins": 1324
+            "losses": 1434,
+            "wins": 1552
         },
         "21": {
-            "losses": 707,
-            "wins": 813
+            "losses": 878,
+            "wins": 976
         },
         "22": {
-            "losses": 406,
-            "wins": 446
+            "losses": 470,
+            "wins": 575
         },
         "23": {
-            "losses": 228,
-            "wins": 263
+            "losses": 297,
+            "wins": 312
         },
         "24": {
-            "losses": 153,
-            "wins": 164
+            "losses": 172,
+            "wins": 184
         },
         "25": {
-            "losses": 81,
-            "wins": 129
+            "losses": 111,
+            "wins": 150
         },
         "26": {
-            "losses": 50,
-            "wins": 69
+            "losses": 46,
+            "wins": 65
         },
         "27": {
-            "losses": 21,
-            "wins": 27
+            "losses": 26,
+            "wins": 34
         },
         "28": {
-            "losses": 8,
-            "wins": 10
+            "losses": 14,
+            "wins": 20
         },
         "29": {
-            "losses": 6,
-            "wins": 1
+            "losses": 9,
+            "wins": 5
         },
         "3": {
-            "losses": 4714,
-            "wins": 4275
+            "losses": 4563,
+            "wins": 4178
         },
         "30": {
-            "losses": 3,
-            "wins": 4
+            "losses": 2,
+            "wins": 2
         },
         "31": {
             "losses": 2,
             "wins": 6
         },
+        "32": {
+            "losses": 1,
+            "wins": 2
+        },
         "4": {
-            "losses": 10297,
-            "wins": 9739
+            "losses": 9914,
+            "wins": 9363
         },
         "5": {
-            "losses": 17051,
-            "wins": 16530
+            "losses": 16723,
+            "wins": 15891
         },
         "6": {
-            "losses": 23668,
-            "wins": 23633
+            "losses": 22809,
+            "wins": 22853
         },
         "7": {
-            "losses": 29705,
-            "wins": 30322
+            "losses": 29259,
+            "wins": 29742
         },
         "8": {
-            "losses": 34075,
-            "wins": 35383
+            "losses": 33844,
+            "wins": 34817
         },
         "9": {
-            "losses": 34829,
-            "wins": 36571
+            "losses": 34407,
+            "wins": 36307
         }
     },
     "creatureCount": {
-        "10": 9605,
-        "11": 23417,
-        "12": 48524,
-        "13": 88298,
-        "14": 139048,
-        "15": 194054,
-        "16": 240708,
-        "17": 268281,
-        "18": 268583,
-        "19": 242644,
-        "20": 199819,
-        "21": 148209,
-        "22": 99935,
-        "23": 60776,
-        "24": 33443,
-        "25": 16494,
-        "26": 7098,
-        "27": 2691,
-        "28": 939,
+        "10": 9624,
+        "11": 23486,
+        "12": 48693,
+        "13": 88674,
+        "14": 139689,
+        "15": 195077,
+        "16": 242080,
+        "17": 269918,
+        "18": 270459,
+        "19": 244515,
+        "20": 201351,
+        "21": 149484,
+        "22": 100800,
+        "23": 61326,
+        "24": 33766,
+        "25": 16641,
+        "26": 7173,
+        "27": 2727,
+        "28": 955,
         "29": 3
     },
     "creatureCountStats": {
         "bottom10Percent": 14,
         "max": 29,
-        "mean": 17.68250843819248,
+        "mean": 17.68719987884778,
         "median": 18,
         "min": 10,
         "percentile40": 17,
         "percentile60": 18,
         "percentileForValue": {
-            "10": 0.4590051749786984,
-            "11": 1.5780602694582593,
-            "12": 3.89693243090192,
-            "13": 8.116530446546804,
-            "14": 14.761377044197825,
-            "15": 24.034858587697705,
-            "16": 35.537848453264864,
-            "17": 48.358500962214386,
-            "18": 61.19358549228245,
-            "19": 72.78909321508634,
-            "20": 82.33807343987223,
-            "21": 89.42070727416873,
-            "22": 94.19641598437137,
-            "23": 97.10078855225323,
-            "24": 98.69896763260853,
-            "25": 99.48718536879788,
-            "26": 99.82638565323295,
-            "27": 99.95498356326601,
-            "28": 99.99985663555181,
+            "10": 0.45688438460892095,
+            "11": 1.5718455916875906,
+            "12": 3.8834697957360307,
+            "13": 8.0931295963191,
+            "14": 14.724646928159867,
+            "15": 23.985623143491797,
+            "16": 35.47799344961478,
+            "17": 48.291929372814145,
+            "18": 61.13154842694384,
+            "19": 72.73951655897316,
+            "20": 82.29834113559316,
+            "21": 89.39486081024819,
+            "22": 94.18018354181294,
+            "23": 97.09153971082029,
+            "24": 98.69452787901488,
+            "25": 99.48453339068125,
+            "26": 99.82506037434706,
+            "27": 99.95452044467422,
+            "28": 99.99985757968061,
             "29": 100.0
         },
         "top90Percent": 22
     },
     "creatureProtection": {
-        "0": 442630,
-        "1": 786913,
-        "10": 1097,
-        "11": 479,
+        "0": 444749,
+        "1": 794676,
+        "10": 1105,
+        "11": 484,
         "12": 216,
         "13": 85,
-        "14": 41,
+        "14": 42,
         "15": 16,
         "16": 6,
         "17": 1,
         "19": 1,
-        "2": 437334,
-        "3": 219949,
-        "4": 101238,
-        "5": 55687,
-        "6": 25754,
-        "7": 12888,
-        "8": 5715,
-        "9": 2519
+        "2": 440760,
+        "3": 220316,
+        "4": 101102,
+        "5": 55761,
+        "6": 25874,
+        "7": 12946,
+        "8": 5769,
+        "9": 2532
     },
     "creatureProtectionStats": {
         "bottom10Percent": 0,
         "max": 19,
-        "mean": 1.5955641128201745,
+        "mean": 1.5933007380695685,
         "median": 1,
         "min": 0,
         "percentile40": 1,
         "percentile60": 2,
         "percentileForValue": {
-            "0": 21.152468568539437,
-            "1": 58.75758457666151,
-            "10": 99.95961901375773,
-            "11": 99.98250953731991,
-            "12": 99.99283177759013,
-            "13": 99.99689377028906,
-            "14": 99.99885308441442,
-            "15": 99.99961769480481,
-            "16": 99.9999044237012,
-            "17": 99.9999522118506,
+            "0": 21.113764876395777,
+            "1": 58.83976812073065,
+            "10": 99.95960010273252,
+            "11": 99.9825772475944,
+            "12": 99.99283151059062,
+            "13": 99.99686675297338,
+            "14": 99.99886063744486,
+            "15": 99.99962021248162,
+            "16": 99.9999050531204,
+            "17": 99.99995252656021,
             "19": 100.0,
-            "2": 79.65696710598313,
-            "3": 90.16792277817362,
-            "4": 95.00589944704332,
-            "5": 97.66707812263299,
-            "6": 98.89781412225834,
-            "7": 99.5137077917144,
-            "8": 99.78681706553046,
-            "9": 99.90719541386687
+            "2": 79.76416144577513,
+            "3": 90.22331980815034,
+            "4": 95.02297951853387,
+            "5": 97.6701459950694,
+            "6": 98.89847377638395,
+            "7": 99.51306492799941,
+            "8": 99.78693920218986,
+            "9": 99.90714195175654
         },
         "top90Percent": 3
     },
     "creatureProtectionToWinsLosses": {
         "0": {
-            "losses": 66729,
-            "wins": 71684
+            "losses": 67276,
+            "wins": 72243
         },
         "1": {
-            "losses": 107244,
-            "wins": 108658
+            "losses": 108895,
+            "wins": 110266
         },
         "10": {
-            "losses": 308,
-            "wins": 369
+            "losses": 309,
+            "wins": 371
         },
         "11": {
             "losses": 168,
@@ -1753,110 +1783,110 @@
             "wins": 1
         },
         "2": {
-            "losses": 64077,
-            "wins": 65386
+            "losses": 65022,
+            "wins": 66340
         },
         "3": {
-            "losses": 34850,
-            "wins": 37520
+            "losses": 35182,
+            "wins": 37820
         },
         "4": {
-            "losses": 18772,
-            "wins": 20508
+            "losses": 18788,
+            "wins": 20550
         },
         "5": {
-            "losses": 10873,
-            "wins": 11860
+            "losses": 10998,
+            "wins": 11913
         },
         "6": {
-            "losses": 6009,
-            "wins": 6534
+            "losses": 6053,
+            "wins": 6583
         },
         "7": {
-            "losses": 3275,
-            "wins": 3582
+            "losses": 3293,
+            "wins": 3613
         },
         "8": {
-            "losses": 1440,
-            "wins": 1622
+            "losses": 1463,
+            "wins": 1652
         },
         "9": {
-            "losses": 819,
-            "wins": 875
+            "losses": 827,
+            "wins": 881
         }
     },
     "creatureWins": {
         "10": {
-            "losses": 1175,
-            "wins": 1518
+            "losses": 1185,
+            "wins": 1533
         },
         "11": {
-            "losses": 2971,
-            "wins": 3702
+            "losses": 3000,
+            "wins": 3728
         },
         "12": {
-            "losses": 6469,
-            "wins": 7377
+            "losses": 6525,
+            "wins": 7439
         },
         "13": {
-            "losses": 11959,
-            "wins": 13485
+            "losses": 12069,
+            "wins": 13604
         },
         "14": {
-            "losses": 19167,
-            "wins": 21034
+            "losses": 19343,
+            "wins": 21268
         },
         "15": {
-            "losses": 27139,
-            "wins": 29335
+            "losses": 27393,
+            "wins": 29611
         },
         "16": {
-            "losses": 34473,
-            "wins": 36675
+            "losses": 34880,
+            "wins": 37095
         },
         "17": {
-            "losses": 39903,
-            "wins": 41430
+            "losses": 40315,
+            "wins": 41866
         },
         "18": {
-            "losses": 40409,
-            "wins": 41971
+            "losses": 40917,
+            "wins": 42437
         },
         "19": {
-            "losses": 37130,
-            "wins": 38014
+            "losses": 37636,
+            "wins": 38496
         },
         "20": {
-            "losses": 31514,
-            "wins": 32227
+            "losses": 31926,
+            "wins": 32621
         },
         "21": {
-            "losses": 24347,
-            "wins": 24717
+            "losses": 24662,
+            "wins": 24988
         },
         "22": {
-            "losses": 17204,
-            "wins": 17322
+            "losses": 17458,
+            "wins": 17536
         },
         "23": {
-            "losses": 10108,
-            "wins": 9732
+            "losses": 10237,
+            "wins": 9833
         },
         "24": {
-            "losses": 5958,
-            "wins": 5806
+            "losses": 6030,
+            "wins": 5873
         },
         "25": {
-            "losses": 2859,
-            "wins": 2726
+            "losses": 2884,
+            "wins": 2755
         },
         "26": {
-            "losses": 1223,
-            "wins": 1174
+            "losses": 1240,
+            "wins": 1187
         },
         "27": {
-            "losses": 432,
-            "wins": 434
+            "losses": 450,
+            "wins": 443
         },
         "28": {
             "losses": 227,
@@ -1868,25 +1898,25 @@
         }
     },
     "disruption": {
-        "-1": 5590,
-        "-2": 11621,
+        "-1": 5621,
+        "-2": 11714,
         "-3": 103,
-        "-4": 210,
+        "-4": 214,
         "-6": 3,
-        "0": 626049,
-        "1": 476472,
-        "10": 26433,
-        "11": 18928,
-        "12": 13228,
-        "13": 8880,
-        "14": 5798,
-        "15": 3615,
-        "16": 2212,
-        "17": 1366,
-        "18": 825,
-        "19": 444,
-        "2": 213721,
-        "20": 225,
+        "0": 629864,
+        "1": 478236,
+        "10": 26510,
+        "11": 18977,
+        "12": 13259,
+        "13": 8896,
+        "14": 5808,
+        "15": 3623,
+        "16": 2217,
+        "17": 1371,
+        "18": 828,
+        "19": 445,
+        "2": 215815,
+        "20": 226,
         "21": 128,
         "22": 87,
         "23": 41,
@@ -1895,132 +1925,132 @@
         "26": 5,
         "27": 2,
         "28": 1,
-        "3": 207898,
-        "4": 131462,
-        "5": 106370,
-        "6": 82801,
-        "7": 62879,
-        "8": 49165,
-        "9": 35982
+        "3": 209519,
+        "4": 133020,
+        "5": 107495,
+        "6": 83498,
+        "7": 63353,
+        "8": 49410,
+        "9": 36127
     },
     "disruptionStats": {
         "bottom10Percent": 0,
         "max": 28,
-        "mean": 2.4774800735364044,
+        "mean": 2.4780703565872484,
         "median": 1,
         "min": -6,
         "percentile40": 1,
         "percentile60": 2,
         "percentileForValue": {
-            "-1": 0.8375828945186514,
-            "-2": 0.5704471393774829,
-            "-3": 0.015101055210126882,
-            "-4": 0.010178875822015905,
-            "-6": 0.0001433644481974071,
-            "0": 30.75530603769816,
-            "1": 53.525021158203145,
-            "10": 97.33294338203423,
-            "11": 98.23747747386108,
-            "12": 98.86961911411285,
-            "13": 99.29397788077716,
-            "14": 99.57105357099336,
-            "15": 99.74380773107123,
-            "16": 99.84951511754213,
-            "17": 99.91479372962134,
-            "18": 99.95421895287562,
-            "19": 99.97543689120884,
-            "2": 63.73835223593583,
-            "20": 99.98618922482365,
-            "21": 99.99230610794675,
-            "22": 99.99646367694446,
-            "23": 99.99842299106983,
-            "24": 99.99933096590841,
-            "25": 99.99961769480481,
-            "26": 99.99985663555181,
-            "27": 99.9999522118506,
+            "-1": 0.8381435796207917,
+            "-2": 0.5712953745203402,
+            "-3": 0.015191500735126215,
+            "-4": 0.010301736436007465,
+            "-6": 0.00014242031939180826,
+            "0": 30.739954264088098,
+            "1": 53.443462218975036,
+            "10": 97.34438325118055,
+            "11": 98.24528671821332,
+            "12": 98.87473705648533,
+            "13": 99.29706077692182,
+            "14": 99.57278651526437,
+            "15": 99.74478278764988,
+            "16": 99.85003140368043,
+            "17": 99.91511748964248,
+            "18": 99.95442549779462,
+            "19": 99.9755511785044,
+            "2": 63.68894262882274,
+            "20": 99.98628017589859,
+            "21": 99.99235677619264,
+            "22": 99.996486965455,
+            "23": 99.99843337648669,
+            "24": 99.99933537184283,
+            "25": 99.99962021248162,
+            "26": 99.99985757968061,
+            "27": 99.99995252656021,
             "28": 100.0,
-            "3": 73.67341291971734,
-            "4": 79.95573861602652,
-            "5": 85.03896406761258,
-            "6": 88.99587062601042,
-            "7": 92.00074167207868,
-            "8": 94.35024603728718,
-            "9": 96.06975922896689
+            "3": 73.63553026170683,
+            "4": 79.95044722353961,
+            "5": 85.05360463454709,
+            "6": 89.0175419107395,
+            "7": 92.0251267422159,
+            "8": 94.37078940259899,
+            "9": 96.08586236215493
         },
         "top90Percent": 7
     },
     "disruptionToWinsLosses": {
         "-1": {
-            "losses": 685,
-            "wins": 781
+            "losses": 700,
+            "wins": 796
         },
         "-2": {
-            "losses": 1209,
-            "wins": 1279
+            "losses": 1236,
+            "wins": 1297
         },
         "-3": {
             "losses": 17,
             "wins": 27
         },
         "-4": {
-            "losses": 35,
-            "wins": 41
+            "losses": 37,
+            "wins": 43
         },
         "0": {
-            "losses": 82203,
-            "wins": 81452
+            "losses": 83147,
+            "wins": 82255
         },
         "1": {
-            "losses": 71458,
-            "wins": 73610
+            "losses": 71835,
+            "wins": 73936
         },
         "10": {
-            "losses": 4058,
-            "wins": 4935
+            "losses": 4105,
+            "wins": 5010
         },
         "11": {
-            "losses": 3187,
-            "wins": 4030
+            "losses": 3200,
+            "wins": 4043
         },
         "12": {
-            "losses": 2322,
-            "wins": 2922
+            "losses": 2334,
+            "wins": 2936
         },
         "13": {
-            "losses": 1638,
-            "wins": 2111
+            "losses": 1643,
+            "wins": 2122
         },
         "14": {
-            "losses": 1076,
-            "wins": 1480
+            "losses": 1092,
+            "wins": 1494
         },
         "15": {
-            "losses": 733,
-            "wins": 1084
+            "losses": 738,
+            "wins": 1085
         },
         "16": {
-            "losses": 432,
-            "wins": 683
+            "losses": 433,
+            "wins": 685
         },
         "17": {
-            "losses": 396,
-            "wins": 528
+            "losses": 405,
+            "wins": 534
         },
         "18": {
-            "losses": 185,
-            "wins": 265
+            "losses": 186,
+            "wins": 267
         },
         "19": {
             "losses": 123,
             "wins": 182
         },
         "2": {
-            "losses": 35430,
-            "wins": 36166
+            "losses": 35975,
+            "wins": 36780
         },
         "20": {
-            "losses": 88,
-            "wins": 144
+            "losses": 91,
+            "wins": 148
         },
         "21": {
             "losses": 60,
@@ -2043,117 +2073,117 @@
             "wins": 7
         },
         "3": {
-            "losses": 34135,
-            "wins": 35645
+            "losses": 34652,
+            "wins": 36097
         },
         "4": {
-            "losses": 21640,
-            "wins": 22632
+            "losses": 22055,
+            "wins": 23017
         },
         "5": {
-            "losses": 17073,
-            "wins": 18387
+            "losses": 17395,
+            "wins": 18796
         },
         "6": {
-            "losses": 13439,
-            "wins": 14600
+            "losses": 13626,
+            "wins": 14742
         },
         "7": {
-            "losses": 9721,
-            "wins": 10635
+            "losses": 9898,
+            "wins": 10873
         },
         "8": {
-            "losses": 7657,
-            "wins": 8710
+            "losses": 7666,
+            "wins": 8737
         },
         "9": {
-            "losses": 5623,
-            "wins": 6431
+            "losses": 5684,
+            "wins": 6492
         }
     },
     "effectivePower": {
-        "100": 26241,
-        "101": 25239,
-        "102": 24031,
-        "103": 22805,
-        "104": 21850,
-        "105": 20618,
-        "106": 19735,
-        "107": 18710,
-        "108": 17593,
-        "109": 16867,
-        "110": 15616,
-        "111": 14889,
-        "112": 13984,
-        "113": 12832,
-        "114": 12307,
-        "115": 11407,
-        "116": 10349,
-        "117": 9871,
-        "118": 9181,
-        "119": 8421,
-        "120": 7778,
-        "121": 7351,
-        "122": 6702,
-        "123": 6352,
-        "124": 5828,
-        "125": 5281,
-        "126": 4805,
-        "127": 4481,
-        "128": 4108,
-        "129": 3726,
-        "130": 3394,
-        "131": 3106,
-        "132": 2767,
-        "133": 2561,
-        "134": 2376,
-        "135": 2159,
-        "136": 1933,
-        "137": 1759,
-        "138": 1571,
-        "139": 1498,
+        "100": 26165,
+        "101": 25274,
+        "102": 24196,
+        "103": 22868,
+        "104": 21863,
+        "105": 20675,
+        "106": 19734,
+        "107": 18708,
+        "108": 17664,
+        "109": 16840,
+        "110": 15614,
+        "111": 14959,
+        "112": 13871,
+        "113": 12866,
+        "114": 12285,
+        "115": 11433,
+        "116": 10374,
+        "117": 9807,
+        "118": 9140,
+        "119": 8418,
+        "120": 7787,
+        "121": 7355,
+        "122": 6692,
+        "123": 6336,
+        "124": 5779,
+        "125": 5260,
+        "126": 4801,
+        "127": 4434,
+        "128": 4101,
+        "129": 3719,
+        "130": 3381,
+        "131": 3097,
+        "132": 2764,
+        "133": 2564,
+        "134": 2366,
+        "135": 2143,
+        "136": 1936,
+        "137": 1755,
+        "138": 1566,
+        "139": 1465,
         "14": 1,
-        "140": 1278,
-        "141": 1130,
-        "142": 1002,
-        "143": 958,
-        "144": 817,
-        "145": 780,
-        "146": 691,
-        "147": 569,
-        "148": 520,
-        "149": 446,
-        "150": 433,
-        "151": 335,
-        "152": 310,
+        "140": 1276,
+        "141": 1145,
+        "142": 989,
+        "143": 961,
+        "144": 812,
+        "145": 768,
+        "146": 693,
+        "147": 577,
+        "148": 518,
+        "149": 444,
+        "150": 426,
+        "151": 338,
+        "152": 312,
         "153": 300,
-        "154": 225,
-        "155": 215,
-        "156": 205,
-        "157": 169,
+        "154": 222,
+        "155": 216,
+        "156": 206,
+        "157": 167,
         "158": 157,
-        "159": 136,
+        "159": 139,
         "160": 128,
-        "161": 97,
-        "162": 99,
+        "161": 93,
+        "162": 100,
         "163": 89,
         "164": 63,
         "165": 64,
-        "166": 48,
-        "167": 38,
-        "168": 38,
-        "169": 39,
+        "166": 45,
+        "167": 42,
+        "168": 36,
+        "169": 36,
         "17": 3,
-        "170": 31,
-        "171": 21,
-        "172": 23,
+        "170": 32,
+        "171": 22,
+        "172": 21,
         "173": 14,
         "174": 10,
-        "175": 11,
+        "175": 12,
         "176": 22,
         "177": 11,
         "178": 14,
-        "179": 5,
+        "179": 6,
         "18": 1,
         "180": 7,
         "181": 5,
@@ -2164,333 +2194,333 @@
         "186": 3,
         "187": 4,
         "188": 3,
-        "189": 3,
+        "189": 4,
         "19": 1,
-        "192": 1,
+        "192": 2,
         "193": 2,
-        "194": 3,
+        "194": 2,
         "196": 1,
         "20": 2,
         "203": 1,
         "21": 7,
         "22": 7,
-        "23": 12,
-        "24": 17,
-        "25": 22,
-        "26": 44,
-        "27": 67,
-        "28": 103,
-        "29": 139,
-        "30": 203,
-        "31": 293,
-        "32": 390,
-        "33": 479,
-        "34": 638,
-        "35": 822,
-        "36": 1090,
-        "37": 1371,
-        "38": 1638,
-        "39": 2075,
-        "40": 2455,
-        "41": 3057,
-        "42": 3558,
-        "43": 4330,
-        "44": 4949,
-        "45": 5725,
-        "46": 6557,
-        "47": 7477,
-        "48": 8386,
-        "49": 9561,
-        "50": 10652,
-        "51": 11822,
-        "52": 13166,
-        "53": 14458,
-        "54": 15819,
-        "55": 17296,
-        "56": 18634,
-        "57": 19906,
-        "58": 21658,
-        "59": 23017,
-        "60": 24553,
-        "61": 26021,
-        "62": 27706,
-        "63": 28899,
-        "64": 30174,
-        "65": 32040,
-        "66": 32991,
-        "67": 34220,
-        "68": 35244,
-        "69": 36181,
-        "70": 37364,
-        "71": 37991,
-        "72": 38934,
-        "73": 39942,
-        "74": 40547,
-        "75": 41141,
-        "76": 41401,
-        "77": 41653,
-        "78": 42014,
-        "79": 41799,
-        "80": 42198,
-        "81": 42048,
-        "82": 41381,
-        "83": 41477,
-        "84": 40808,
-        "85": 40110,
-        "86": 39697,
-        "87": 39281,
-        "88": 38667,
-        "89": 37538,
-        "90": 37172,
-        "91": 35807,
-        "92": 34904,
-        "93": 33952,
-        "94": 33043,
-        "95": 31693,
-        "96": 30943,
-        "97": 29497,
-        "98": 28748,
-        "99": 27211
+        "23": 13,
+        "24": 19,
+        "25": 21,
+        "26": 45,
+        "27": 69,
+        "28": 106,
+        "29": 141,
+        "30": 202,
+        "31": 301,
+        "32": 393,
+        "33": 484,
+        "34": 645,
+        "35": 832,
+        "36": 1112,
+        "37": 1382,
+        "38": 1652,
+        "39": 2097,
+        "40": 2479,
+        "41": 3069,
+        "42": 3596,
+        "43": 4390,
+        "44": 5001,
+        "45": 5775,
+        "46": 6626,
+        "47": 7579,
+        "48": 8488,
+        "49": 9650,
+        "50": 10801,
+        "51": 11945,
+        "52": 13292,
+        "53": 14632,
+        "54": 16019,
+        "55": 17471,
+        "56": 18873,
+        "57": 20186,
+        "58": 21868,
+        "59": 23364,
+        "60": 24756,
+        "61": 26327,
+        "62": 28047,
+        "63": 29238,
+        "64": 30518,
+        "65": 32400,
+        "66": 33254,
+        "67": 34613,
+        "68": 35651,
+        "69": 36627,
+        "70": 37677,
+        "71": 38333,
+        "72": 39340,
+        "73": 40418,
+        "74": 40983,
+        "75": 41533,
+        "76": 41693,
+        "77": 42023,
+        "78": 42494,
+        "79": 42132,
+        "80": 42451,
+        "81": 42413,
+        "82": 41711,
+        "83": 41662,
+        "84": 41112,
+        "85": 40363,
+        "86": 39837,
+        "87": 39527,
+        "88": 39000,
+        "89": 37730,
+        "90": 37361,
+        "91": 35970,
+        "92": 35030,
+        "93": 34197,
+        "94": 33110,
+        "95": 31859,
+        "96": 31050,
+        "97": 29606,
+        "98": 28874,
+        "99": 27251
     },
     "effectivePowerStats": {
-        "bottom10Percent": 59,
+        "bottom10Percent": 58,
         "max": 203,
-        "mean": 83.21995212583194,
+        "mean": 83.13853176993801,
         "median": 82,
         "min": 14,
         "percentile40": 77,
         "percentile60": 87,
         "percentileForValue": {
-            "100": 81.0075557843015,
-            "101": 82.21368088698628,
-            "102": 83.36207790519691,
-            "103": 84.4518866522442,
-            "104": 85.49605771661531,
-            "105": 86.4813537809267,
-            "106": 87.42445290931865,
-            "107": 88.31856918457648,
-            "108": 89.15930609695546,
-            "109": 89.96534881287069,
-            "110": 90.71160855388759,
-            "111": 91.42312631029132,
-            "112": 92.09139579148884,
-            "113": 92.70461332457855,
-            "114": 93.2927420792337,
-            "115": 93.83786149942965,
-            "116": 94.3324210575613,
-            "117": 94.80413788028017,
-            "118": 95.24288087991364,
-            "119": 95.64530488600376,
-            "120": 96.01700111203024,
-            "121": 96.36829179826329,
-            "122": 96.68856797553629,
-            "123": 96.9921183005196,
-            "124": 97.27062763521776,
-            "125": 97.5229968521946,
-            "126": 97.75261891005745,
-            "127": 97.96675760751498,
-            "128": 98.16307132524662,
-            "129": 98.3411299699078,
-            "130": 98.50332294896847,
-            "131": 98.65175294100219,
-            "132": 98.7839827503896,
-            "133": 98.90636820100077,
-            "134": 99.01991284397313,
-            "135": 99.12308745852586,
-            "136": 99.2154619513144,
-            "137": 99.29952130610747,
-            "138": 99.37459648881351,
-            "139": 99.44618313661341,
-            "14": 4.7788149399135706e-05,
-            "140": 99.50725639154551,
-            "141": 99.56125700036654,
-            "142": 99.60914072606447,
-            "143": 99.65492177318885,
-            "144": 99.69396469124794,
-            "145": 99.73123944777926,
-            "146": 99.76426105901406,
-            "147": 99.79145251602218,
-            "148": 99.81630235370972,
-            "149": 99.83761586834174,
-            "150": 99.85830813703156,
-            "151": 99.87431716708028,
-            "152": 99.889131493394,
-            "153": 99.90346793821375,
-            "154": 99.91422027182855,
-            "155": 99.92449472394937,
-            "156": 99.93429129457618,
-            "157": 99.94236749182464,
-            "158": 99.9498702312803,
-            "159": 99.95636941959859,
-            "160": 99.96248630272167,
-            "161": 99.96712175321339,
-            "162": 99.97185278000391,
-            "163": 99.97610592530043,
-            "164": 99.97911657871258,
-            "165": 99.98217502027413,
-            "166": 99.98446885144529,
-            "167": 99.98628480112245,
-            "168": 99.98810075079962,
-            "169": 99.98996448862619,
-            "17": 0.00019115259759654282,
-            "170": 99.99144592125755,
-            "171": 99.99244947239494,
-            "172": 99.99354859983112,
-            "173": 99.9942176339227,
-            "174": 99.9946955154167,
-            "175": 99.99522118506009,
-            "176": 99.99627252434686,
-            "177": 99.99679819399026,
-            "178": 99.99746722808185,
-            "179": 99.99770616882884,
-            "18": 0.00023894074699567852,
-            "180": 99.99804068587464,
-            "181": 99.99827962662162,
-            "182": 99.99837520292043,
-            "183": 99.99870971996623,
-            "184": 99.99885308441442,
-            "185": 99.99899644886261,
-            "186": 99.99913981331082,
-            "187": 99.99933096590841,
-            "188": 99.9994743303566,
-            "189": 99.99961769480481,
-            "19": 0.0002867288963948142,
-            "192": 99.9996654829542,
-            "193": 99.999761059253,
-            "194": 99.9999044237012,
-            "196": 99.9999522118506,
-            "20": 0.00038230519519308565,
+            "100": 81.13096925097831,
+            "101": 82.33081296841449,
+            "102": 83.47948031774922,
+            "103": 84.56510293903318,
+            "104": 85.60301475332089,
+            "105": 86.58452812112944,
+            "106": 87.52136898208875,
+            "107": 88.40950209381606,
+            "108": 89.24807293439503,
+            "109": 90.04752566058104,
+            "110": 90.78877594957561,
+            "111": 91.49893113550297,
+            "112": 92.15743521893089,
+            "113": 92.76822849536256,
+            "114": 93.351439703272,
+            "115": 93.8942035404742,
+            "116": 94.38669300493106,
+            "117": 94.85226502902289,
+            "118": 95.28617226876993,
+            "119": 95.68580368498334,
+            "120": 96.05547936068469,
+            "121": 96.4046465103936,
+            "122": 96.72233876951692,
+            "123": 97.02313048407242,
+            "124": 97.29747949266084,
+            "125": 97.54718978599448,
+            "126": 97.77510977046117,
+            "127": 97.98560700252226,
+            "128": 98.18029557913087,
+            "129": 98.35684930173691,
+            "130": 98.51735700169148,
+            "131": 98.66438224474362,
+            "132": 98.79559883234327,
+            "133": 98.91732073198348,
+            "134": 99.02964289054381,
+            "135": 99.13137847202937,
+            "136": 99.22328705147687,
+            "137": 99.30660293832108,
+            "138": 99.38094634504361,
+            "139": 99.45049493434661,
+            "14": 4.747343979726942e-05,
+            "140": 99.51107104352792,
+            "141": 99.56542813209579,
+            "142": 99.6123793640553,
+            "143": 99.65800133970048,
+            "144": 99.69654977281586,
+            "145": 99.73300937458016,
+            "146": 99.76590846835967,
+            "147": 99.79330064312269,
+            "148": 99.81789188493768,
+            "149": 99.83897009220766,
+            "150": 99.8591937775613,
+            "151": 99.87523980021278,
+            "152": 99.89005151342953,
+            "153": 99.9042935453687,
+            "154": 99.9148326490037,
+            "155": 99.92508691199991,
+            "156": 99.93486644059814,
+            "157": 99.94279450504429,
+            "158": 99.95024783509245,
+            "159": 99.95684664322428,
+            "160": 99.96292324351833,
+            "161": 99.96733827341947,
+            "162": 99.9720856173992,
+            "163": 99.97631075354116,
+            "164": 99.97930158024839,
+            "165": 99.98233988039541,
+            "166": 99.9844761851863,
+            "167": 99.98647006965778,
+            "168": 99.98817911349047,
+            "169": 99.98988815732318,
+            "17": 0.00018989375918907769,
+            "170": 99.9914073073967,
+            "171": 99.99245172307224,
+            "172": 99.99344866530798,
+            "173": 99.99411329346513,
+            "174": 99.99458802786312,
+            "175": 99.99515770914068,
+            "176": 99.99620212481622,
+            "177": 99.99672433265398,
+            "178": 99.99738896081115,
+            "179": 99.99767380144993,
+            "18": 0.0002373671989863471,
+            "180": 99.99800611552851,
+            "181": 99.9982434827275,
+            "182": 99.9983384296071,
+            "183": 99.99867074368568,
+            "184": 99.99881316400507,
+            "185": 99.99895558432446,
+            "186": 99.99909800464386,
+            "187": 99.99928789840304,
+            "188": 99.99943031872243,
+            "189": 99.99962021248162,
+            "19": 0.0002848406387836165,
+            "192": 99.99971515936122,
+            "193": 99.99981010624082,
+            "194": 99.9999050531204,
+            "196": 99.99995252656021,
+            "20": 0.00037978751837815537,
             "203": 100.0,
-            "21": 0.0007168222409870355,
-            "22": 0.0010513392867809856,
-            "23": 0.0016247970795706139,
-            "24": 0.002437195619355921,
-            "25": 0.0034885349061369066,
-            "26": 0.005591213479698877,
-            "27": 0.00879301948944097,
-            "28": 0.013715198877551947,
-            "29": 0.02035775164403181,
-            "30": 0.030058745972056357,
-            "31": 0.04406067374600312,
-            "32": 0.06269805201166605,
-            "33": 0.08558857557385205,
-            "34": 0.11607741489050062,
-            "35": 0.15535927369659017,
-            "36": 0.2074483565416481,
-            "37": 0.27296590936786314,
-            "38": 0.35124289808364745,
-            "39": 0.450403308086854,
-            "40": 0.5677232148617322,
-            "41": 0.71381158757489,
-            "42": 0.8838418231370149,
-            "43": 1.0907645100352725,
-            "44": 1.327268061411595,
-            "45": 1.600855216721647,
-            "46": 1.9142021123317798,
-            "47": 2.2715141053891172,
-            "48": 2.6722655262502695,
-            "49": 3.129168022655406,
-            "50": 3.6382073900549994,
-            "51": 4.203158892251581,
-            "52": 4.832337667240602,
-            "53": 5.523258731253306,
-            "54": 6.279219466598234,
-            "55": 7.105763298605686,
-            "56": 7.9962476745091795,
-            "57": 8.947518576448376,
-            "58": 9.982514316134857,
-            "59": 11.082454150854764,
-            "60": 12.255796583051742,
-            "61": 13.499292018566651,
-            "62": 14.823310485819105,
-            "63": 16.20434021530473,
-            "64": 17.64629983527425,
-            "65": 19.177432142022557,
-            "66": 20.754010978849443,
-            "67": 22.389321451287866,
-            "68": 24.073566988711004,
-            "69": 25.802590022121134,
-            "70": 27.588146436270442,
-            "71": 29.403666020093006,
-            "72": 31.264249828798956,
-            "73": 33.173004092099234,
-            "74": 35.11067018578599,
-            "75": 37.07672244021583,
-            "76": 39.05519961348945,
-            "77": 41.04571940041165,
-            "78": 43.05349070926693,
-            "79": 45.05098756600141,
-            "80": 47.06755189434614,
-            "81": 49.07694800028099,
-            "82": 51.05446941056663,
-            "83": 53.03657848319458,
-            "84": 54.98671728387451,
-            "85": 56.90349995627384,
-            "86": 58.80054612297133,
-            "87": 60.677712419518784,
-            "88": 62.52553679233516,
-            "89": 64.31940834447992,
-            "90": 66.09578943394459,
-            "91": 67.80693969947944,
-            "92": 69.47493726610688,
-            "93": 71.09744051450633,
-            "94": 72.67650433510197,
-            "95": 74.19105415400878,
-            "96": 75.66976286086624,
-            "97": 77.07936990369254,
-            "98": 78.4531836226189,
-            "99": 79.75354695591878
+            "21": 0.0007121015969590414,
+            "22": 0.0010444156755399273,
+            "23": 0.0016615703929044297,
+            "24": 0.002563565749052549,
+            "25": 0.003560507984795207,
+            "26": 0.005696812775672331,
+            "27": 0.008972480121683921,
+            "28": 0.01400466474019448,
+            "29": 0.020698419751609468,
+            "30": 0.030288054590657892,
+            "31": 0.044577559969635985,
+            "32": 0.06323462180996287,
+            "33": 0.08621176667184127,
+            "34": 0.11683213534108004,
+            "35": 0.1563300372524082,
+            "36": 0.2091205023069718,
+            "37": 0.2747287961067981,
+            "38": 0.35315491865188725,
+            "39": 0.4527067219067612,
+            "40": 0.5703933791641921,
+            "41": 0.716089365902012,
+            "42": 0.8868038554129928,
+            "43": 1.0952122561230055,
+            "44": 1.3326269285491499,
+            "45": 1.606786043378381,
+            "46": 1.9213450554750882,
+            "47": 2.281146255698593,
+            "48": 2.684100812697816,
+            "49": 3.142219506741466,
+            "50": 3.654980129991773,
+            "51": 4.222050368370156,
+            "52": 4.853067330155461,
+            "53": 5.547698701269107,
+            "54": 6.3081757333815665,
+            "55": 7.137584200079661,
+            "56": 8.033550429373527,
+            "57": 8.991849285121207,
+            "58": 10.029998466607895,
+            "59": 11.139167914031297,
+            "60": 12.314420389652499,
+            "61": 13.564253639195211,
+            "62": 14.895741205189227,
+            "63": 16.28376963798179,
+            "64": 17.732564073714858,
+            "65": 19.270703523146388,
+            "66": 20.849385290164786,
+            "67": 22.49258346186767,
+            "68": 24.185059064080125,
+            "69": 25.92386874353471,
+            "70": 27.712525534776432,
+            "71": 29.53232490252516,
+            "72": 31.39993002414974,
+            "73": 33.318711513875776,
+            "74": 35.26431549708727,
+            "75": 37.23602987218726,
+            "76": 39.21533999765481,
+            "77": 41.21031635825547,
+            "78": 43.22765270900063,
+            "79": 45.22780367453919,
+            "80": 47.24309866737307,
+            "81": 49.25658966949466,
+            "82": 51.23675431687857,
+            "83": 53.2145927657124,
+            "84": 55.166320822657745,
+            "85": 57.08249127319493,
+            "86": 58.97369069439875,
+            "87": 60.85017334926542,
+            "88": 62.701637501358924,
+            "89": 64.4928103849099,
+            "90": 66.26646556917568,
+            "91": 67.97408519868347,
+            "92": 69.63707979478181,
+            "93": 71.26052901552903,
+            "94": 72.83237460721662,
+            "95": 74.34483092571783,
+            "96": 75.81888123142305,
+            "97": 77.224379890061,
+            "98": 78.59512799076737,
+            "99": 79.88882669868275
         },
-        "top90Percent": 110
+        "top90Percent": 109
     },
     "effectivePowerToWinsLosses": {
         "100": {
-            "losses": 16764,
-            "wins": 16294
+            "losses": 16844,
+            "wins": 16390
         },
         "105": {
-            "losses": 12657,
-            "wins": 12524
+            "losses": 12707,
+            "wins": 12596
         },
         "110": {
-            "losses": 9716,
-            "wins": 9362
+            "losses": 9754,
+            "wins": 9377
         },
         "115": {
-            "losses": 6986,
-            "wins": 6912
+            "losses": 6981,
+            "wins": 6888
         },
         "120": {
-            "losses": 4422,
-            "wins": 4333
+            "losses": 4420,
+            "wins": 4338
         },
         "125": {
             "losses": 2886,
-            "wins": 2754
+            "wins": 2747
         },
         "130": {
-            "losses": 1586,
-            "wins": 1513
+            "losses": 1598,
+            "wins": 1522
         },
         "135": {
-            "losses": 1171,
-            "wins": 1082
+            "losses": 1169,
+            "wins": 1066
         },
         "140": {
-            "losses": 613,
-            "wins": 602
+            "losses": 607,
+            "wins": 606
         },
         "145": {
-            "losses": 363,
-            "wins": 364
+            "losses": 379,
+            "wins": 370
         },
         "150": {
-            "losses": 145,
-            "wins": 137
+            "losses": 153,
+            "wins": 144
         },
         "155": {
-            "losses": 97,
-            "wins": 76
+            "losses": 89,
+            "wins": 72
         },
         "160": {
             "losses": 52,
@@ -2513,909 +2543,895 @@
             "wins": 4
         },
         "20": {
-            "losses": 12,
-            "wins": 7
+            "losses": 13,
+            "wins": 9
         },
         "25": {
-            "losses": 87,
-            "wins": 117
+            "losses": 88,
+            "wins": 118
         },
         "30": {
-            "losses": 393,
-            "wins": 478
+            "losses": 399,
+            "wins": 483
         },
         "35": {
-            "losses": 1435,
-            "wins": 1869
+            "losses": 1473,
+            "wins": 1931
         },
         "40": {
-            "losses": 3545,
-            "wins": 4636
+            "losses": 3640,
+            "wins": 4717
         },
         "45": {
-            "losses": 7025,
-            "wins": 8345
+            "losses": 7153,
+            "wins": 8489
         },
         "50": {
-            "losses": 11869,
-            "wins": 13803
+            "losses": 12048,
+            "wins": 14030
         },
         "55": {
-            "losses": 16469,
-            "wins": 18472
+            "losses": 16873,
+            "wins": 18919
         },
         "60": {
-            "losses": 22336,
-            "wins": 24859
+            "losses": 22658,
+            "wins": 25149
         },
         "65": {
-            "losses": 26296,
-            "wins": 28323
+            "losses": 26768,
+            "wins": 28765
         },
         "70": {
-            "losses": 30407,
-            "wins": 32144
+            "losses": 30836,
+            "wins": 32596
         },
         "75": {
-            "losses": 31484,
-            "wins": 32843
+            "losses": 31949,
+            "wins": 33270
         },
         "80": {
-            "losses": 30892,
-            "wins": 31369
+            "losses": 31195,
+            "wins": 31696
         },
         "85": {
-            "losses": 28368,
-            "wins": 28591
+            "losses": 28608,
+            "wins": 28835
         },
         "90": {
-            "losses": 25265,
-            "wins": 25699
+            "losses": 25611,
+            "wins": 25974
         },
         "95": {
-            "losses": 21299,
-            "wins": 21289
+            "losses": 21399,
+            "wins": 21334
         }
     },
     "efficiency": {
-        "-1": 69093,
-        "-2": 8623,
-        "-3": 582,
-        "-4": 19,
-        "0": 190778,
-        "1": 184143,
-        "10": 103227,
-        "11": 92797,
-        "12": 79632,
-        "13": 66419,
-        "14": 52598,
-        "15": 40688,
-        "16": 30722,
-        "17": 22471,
-        "18": 15707,
-        "19": 10977,
-        "2": 182138,
-        "20": 7435,
-        "21": 5027,
-        "22": 3175,
-        "23": 2045,
-        "24": 1338,
-        "25": 772,
-        "26": 471,
-        "27": 308,
-        "28": 179,
-        "29": 76,
-        "3": 166176,
-        "30": 66,
-        "31": 24,
-        "32": 17,
-        "33": 13,
-        "34": 4,
-        "35": 3,
-        "4": 147233,
-        "5": 134102,
-        "6": 125215,
-        "7": 120780,
-        "8": 116533,
-        "9": 110963
+        "-1": 173949,
+        "-2": 23796,
+        "-3": 1523,
+        "-4": 55,
+        "-5": 2,
+        "0": 390916,
+        "1": 236910,
+        "10": 90155,
+        "11": 74668,
+        "12": 58292,
+        "13": 43353,
+        "14": 31221,
+        "15": 21723,
+        "16": 14627,
+        "17": 9695,
+        "18": 6136,
+        "19": 4011,
+        "2": 161825,
+        "20": 2517,
+        "21": 1566,
+        "22": 931,
+        "23": 598,
+        "24": 354,
+        "25": 210,
+        "26": 140,
+        "27": 56,
+        "28": 36,
+        "29": 23,
+        "3": 120148,
+        "30": 14,
+        "31": 4,
+        "32": 3,
+        "33": 1,
+        "4": 98650,
+        "5": 102931,
+        "6": 108792,
+        "7": 112643,
+        "8": 111280,
+        "9": 102687
     },
     "efficiencyStats": {
         "bottom10Percent": 0,
-        "max": 35,
-        "mean": 6.109140009242228,
-        "median": 5,
-        "min": -4,
-        "percentile40": 4,
-        "percentile60": 7,
+        "max": 33,
+        "mean": 4.430571281132488,
+        "median": 3,
+        "min": -5,
+        "percentile40": 2,
+        "percentile60": 5,
         "percentileForValue": {
-            "-1": 3.7426244964921107,
-            "-2": 0.4407978900576277,
-            "-3": 0.028720677788880558,
-            "-4": 0.0009079748385835783,
-            "0": 12.859552062560422,
-            "1": 21.659405257365467,
-            "10": 79.30945168355261,
-            "11": 83.74404858334421,
-            "12": 87.54951449629618,
-            "13": 90.72355559123737,
-            "14": 93.23711667333312,
-            "15": 95.18152089608515,
-            "16": 96.6496684219254,
-            "17": 97.72351592707338,
-            "18": 98.4741243896856,
-            "19": 98.99869490563991,
-            "2": 30.363443212625246,
-            "20": 99.35399979642249,
-            "21": 99.59423082345194,
-            "22": 99.7459581977942,
-            "23": 99.84368496331543,
-            "24": 99.90762550721148,
-            "25": 99.9445179585476,
-            "26": 99.9670261769146,
-            "27": 99.98174492692954,
-            "28": 99.99029900567197,
-            "29": 99.9939309050263,
-            "3": 38.30468672717602,
-            "30": 99.99708492288666,
-            "31": 99.99823183847224,
-            "32": 99.99904423701201,
-            "33": 99.9996654829542,
-            "34": 99.99985663555181,
-            "35": 100.0,
-            "4": 45.34067932765897,
-            "5": 51.74916573838186,
-            "6": 57.73295886539464,
-            "7": 63.50481154982225,
-            "8": 69.07370796375173,
-            "9": 74.37642438552803
+            "-1": 9.462643387590727,
+            "-2": 1.2046860082955089,
+            "-3": 0.07500803487968569,
+            "-4": 0.002705986068444357,
+            "-5": 9.494687959453884e-05,
+            "0": 28.020770579380102,
+            "1": 39.2677032017512,
+            "10": 87.17367350901354,
+            "11": 90.71842031179605,
+            "12": 93.48574206445849,
+            "13": 95.5438580999895,
+            "14": 97.02602636390006,
+            "15": 98.05729189661614,
+            "16": 98.7516859005308,
+            "17": 99.21194089936533,
+            "18": 99.50323792596137,
+            "19": 99.69365389298822,
+            "2": 46.95009259694432,
+            "20": 99.81314454095795,
+            "21": 99.88748794768047,
+            "22": 99.93168572013172,
+            "23": 99.96007483713049,
+            "24": 99.97688043481872,
+            "25": 99.98684985717615,
+            "26": 99.99349613874777,
+            "27": 99.99615465137641,
+            "28": 99.99786369520912,
+            "29": 99.99895558432446,
+            "3": 52.65393144170665,
+            "30": 99.99962021248162,
+            "31": 99.99981010624082,
+            "32": 99.99995252656021,
+            "33": 100.0,
+            "4": 57.33718627770728,
+            "5": 62.22367490948002,
+            "6": 67.38840537190455,
+            "7": 72.73595605098838,
+            "8": 78.01880043162852,
+            "9": 82.89370554409072
         },
-        "top90Percent": 13
+        "top90Percent": 11
     },
     "efficiencyToWinsLosses": {
         "-1": {
-            "losses": 8717,
-            "wins": 8447
+            "losses": 23015,
+            "wins": 23359
         },
         "-2": {
-            "losses": 971,
-            "wins": 862
+            "losses": 2680,
+            "wins": 2466
         },
         "-3": {
-            "losses": 68,
-            "wins": 66
+            "losses": 167,
+            "wins": 104
         },
         "-4": {
-            "losses": 7,
-            "wins": 3
+            "losses": 11,
+            "wins": 8
         },
         "0": {
-            "losses": 25492,
-            "wins": 25886
+            "losses": 54914,
+            "wins": 56667
         },
         "1": {
-            "losses": 23892,
-            "wins": 24119
+            "losses": 32522,
+            "wins": 33438
         },
         "10": {
-            "losses": 15909,
-            "wins": 16288
+            "losses": 15924,
+            "wins": 16796
         },
         "11": {
-            "losses": 15620,
-            "wins": 16260
+            "losses": 13172,
+            "wins": 14538
         },
         "12": {
-            "losses": 13539,
-            "wins": 14556
+            "losses": 10917,
+            "wins": 12225
         },
         "13": {
-            "losses": 12197,
-            "wins": 13131
+            "losses": 8780,
+            "wins": 10313
         },
         "14": {
-            "losses": 10084,
-            "wins": 11392
+            "losses": 6625,
+            "wins": 7669
         },
         "15": {
-            "losses": 8414,
-            "wins": 9736
+            "losses": 5056,
+            "wins": 6154
         },
         "16": {
-            "losses": 6522,
-            "wins": 7756
+            "losses": 3421,
+            "wins": 4186
         },
         "17": {
-            "losses": 5188,
-            "wins": 6126
+            "losses": 2612,
+            "wins": 3337
         },
         "18": {
-            "losses": 3913,
-            "wins": 4700
+            "losses": 1718,
+            "wins": 2215
         },
         "19": {
-            "losses": 2634,
-            "wins": 3448
+            "losses": 1081,
+            "wins": 1555
         },
         "2": {
-            "losses": 24630,
-            "wins": 24887
+            "losses": 23098,
+            "wins": 23882
         },
         "20": {
-            "losses": 1991,
-            "wins": 2553
+            "losses": 757,
+            "wins": 1039
         },
         "21": {
-            "losses": 1505,
-            "wins": 1883
+            "losses": 565,
+            "wins": 755
         },
         "22": {
-            "losses": 982,
-            "wins": 1414
+            "losses": 408,
+            "wins": 528
         },
         "23": {
-            "losses": 685,
-            "wins": 920
+            "losses": 215,
+            "wins": 320
         },
         "24": {
-            "losses": 469,
-            "wins": 668
+            "losses": 130,
+            "wins": 227
         },
         "25": {
-            "losses": 220,
-            "wins": 341
+            "losses": 69,
+            "wins": 94
         },
         "26": {
-            "losses": 205,
-            "wins": 257
+            "losses": 72,
+            "wins": 88
         },
         "27": {
-            "losses": 132,
-            "wins": 178
+            "losses": 48,
+            "wins": 86
         },
         "28": {
-            "losses": 113,
-            "wins": 160
+            "losses": 14,
+            "wins": 26
         },
         "29": {
-            "losses": 49,
-            "wins": 108
+            "losses": 7,
+            "wins": 21
         },
         "3": {
-            "losses": 22952,
-            "wins": 23453
+            "losses": 17155,
+            "wins": 17165
         },
         "30": {
-            "losses": 23,
-            "wins": 32
+            "losses": 5,
+            "wins": 14
         },
         "31": {
-            "losses": 1,
-            "wins": 10
+            "losses": 3,
+            "wins": 0
         },
         "32": {
-            "losses": 11,
-            "wins": 18
-        },
-        "33": {
-            "losses": 16,
-            "wins": 19
-        },
-        "35": {
             "losses": 2,
-            "wins": 1
+            "wins": 5
         },
         "4": {
-            "losses": 20168,
-            "wins": 20742
+            "losses": 13418,
+            "wins": 13282
         },
         "5": {
-            "losses": 18619,
-            "wins": 18768
+            "losses": 14645,
+            "wins": 14206
         },
         "6": {
-            "losses": 17471,
-            "wins": 17749
+            "losses": 15183,
+            "wins": 14980
         },
         "7": {
-            "losses": 17507,
-            "wins": 17944
+            "losses": 16266,
+            "wins": 16145
         },
         "8": {
-            "losses": 17151,
-            "wins": 17004
+            "losses": 16921,
+            "wins": 17248
         },
         "9": {
-            "losses": 16599,
-            "wins": 17005
+            "losses": 16782,
+            "wins": 17383
         }
     },
     "expectedAmber": {
         "1": 2,
-        "10": 25884,
-        "11": 41543,
-        "12": 63101,
-        "13": 87602,
-        "14": 113579,
-        "15": 140132,
-        "16": 161706,
-        "17": 176126,
-        "18": 183154,
-        "19": 181187,
+        "10": 26009,
+        "11": 42323,
+        "12": 64188,
+        "13": 89608,
+        "14": 116483,
+        "15": 144108,
+        "16": 166410,
+        "17": 180888,
+        "18": 188446,
+        "19": 184651,
         "2": 6,
-        "20": 171053,
-        "21": 154467,
-        "22": 133571,
-        "23": 110658,
-        "24": 88858,
-        "25": 68905,
-        "26": 51373,
-        "27": 37055,
-        "28": 25874,
-        "29": 17860,
+        "20": 173507,
+        "21": 156061,
+        "22": 133310,
+        "23": 108972,
+        "24": 87088,
+        "25": 66461,
+        "26": 48716,
+        "27": 34560,
+        "28": 23709,
+        "29": 16129,
         "3": 26,
-        "30": 11968,
-        "31": 7613,
-        "32": 4790,
-        "33": 2960,
-        "34": 1791,
-        "35": 1035,
-        "36": 624,
-        "37": 314,
-        "38": 184,
-        "39": 97,
-        "4": 151,
-        "40": 46,
-        "41": 16,
-        "42": 14,
-        "43": 4,
+        "30": 10602,
+        "31": 6677,
+        "32": 4138,
+        "33": 2508,
+        "34": 1469,
+        "35": 873,
+        "36": 494,
+        "37": 250,
+        "38": 145,
+        "39": 81,
+        "4": 150,
+        "40": 32,
+        "41": 18,
+        "42": 9,
+        "43": 1,
         "45": 1,
         "47": 1,
-        "5": 498,
-        "6": 1358,
-        "7": 3472,
-        "8": 7477,
-        "9": 14433
+        "5": 486,
+        "6": 1354,
+        "7": 3409,
+        "8": 7553,
+        "9": 14529
     },
     "expectedAmberStats": {
         "bottom10Percent": 13,
         "max": 47,
-        "mean": 18.839881982386245,
+        "mean": 18.72640012229158,
         "median": 19,
         "min": 1,
         "percentile40": 17,
         "percentile60": 20,
         "percentileForValue": {
-            "1": 9.557629879827141e-05,
-            "10": 2.547442880019727,
-            "11": 4.5327059705080215,
-            "12": 7.548185985742884,
-            "13": 11.73452344940597,
-            "14": 17.162253670010404,
-            "15": 23.85890262161009,
-            "16": 31.586533108346725,
-            "17": 40.003268709418904,
-            "18": 48.7558594244682,
-            "19": 57.414450849649405,
-            "2": 0.00038230519519308565,
-            "20": 65.58875716881977,
-            "21": 72.97044924205606,
-            "22": 79.35356014544801,
-            "23": 84.64170118165757,
-            "24": 88.88806056096597,
-            "25": 92.18090299531342,
-            "26": 94.63592359439521,
-            "27": 96.40671347038018,
-            "28": 97.64318404793343,
-            "29": 98.496680396202,
-            "3": 0.0016247970795706139,
-            "30": 99.06860896821084,
-            "31": 99.43242014958646,
-            "32": 99.66132538520833,
-            "33": 99.80277830742976,
-            "34": 99.88836688300361,
-            "35": 99.93782761763173,
-            "36": 99.96764742285679,
-            "37": 99.98265290176812,
-            "38": 99.99144592125755,
-            "39": 99.99608137174927,
-            "4": 0.008840807638840105,
-            "40": 99.99827962662162,
-            "41": 99.99904423701201,
-            "42": 99.9997132711036,
-            "43": 99.9999044237012,
-            "45": 99.9999522118506,
+            "1": 9.494687959453884e-05,
+            "10": 2.5409683917090486,
+            "11": 4.550186784248883,
+            "12": 7.597411937956012,
+            "13": 11.85141193130973,
+            "14": 17.381260619215066,
+            "15": 24.222563081519965,
+            "16": 32.122618198183574,
+            "17": 40.70999377623204,
+            "18": 49.656173612268276,
+            "19": 58.422191744273874,
+            "2": 0.00037978751837815537,
+            "20": 66.6591658631787,
+            "21": 74.06791835138036,
+            "22": 80.39660261075434,
+            "23": 85.5698782923424,
+            "24": 89.70424521740699,
+            "25": 92.85937749977332,
+            "26": 95.17209359293709,
+            "27": 96.81277567233072,
+            "28": 97.93832345648418,
+            "29": 98.70402256697434,
+            "3": 0.0016140969531071604,
+            "30": 99.20733597570499,
+            "31": 99.52431613323137,
+            "32": 99.72076122711246,
+            "33": 99.83982461412401,
+            "34": 99.90956309718621,
+            "35": 99.95100741012922,
+            "36": 99.97445928938907,
+            "37": 99.98632764933839,
+            "38": 99.99321129810899,
+            "39": 99.99705664673257,
+            "4": 0.008735112922697574,
+            "40": 99.99857579680608,
+            "41": 99.99943031872243,
+            "42": 99.99985757968061,
+            "43": 99.9999050531204,
+            "45": 99.99995252656021,
             "47": 100.0,
-            "5": 0.03263930603960968,
-            "6": 0.09753561292363597,
-            "7": 0.2634560676374351,
-            "8": 0.6207680606947727,
-            "9": 1.3104944209724985
+            "5": 0.031807204664170516,
+            "6": 0.09608624214967332,
+            "7": 0.25792319841856476,
+            "8": 0.6164900892073407,
+            "9": 1.306231696021868
         },
         "top90Percent": 25
     },
     "expectedAmberToWinsLosses": {
         "10": {
-            "losses": 3347,
-            "wins": 2751
+            "losses": 3371,
+            "wins": 2757
         },
         "11": {
-            "losses": 5672,
-            "wins": 4474
+            "losses": 5697,
+            "wins": 4566
         },
         "12": {
-            "losses": 8368,
-            "wins": 6850
+            "losses": 8520,
+            "wins": 6998
         },
         "13": {
-            "losses": 11853,
-            "wins": 10159
+            "losses": 12126,
+            "wins": 10290
         },
         "14": {
-            "losses": 15391,
-            "wins": 13258
+            "losses": 15497,
+            "wins": 13411
         },
         "15": {
-            "losses": 18864,
-            "wins": 17293
+            "losses": 19344,
+            "wins": 17776
         },
         "16": {
-            "losses": 21872,
-            "wins": 20105
+            "losses": 22385,
+            "wins": 20706
         },
         "17": {
-            "losses": 23829,
-            "wins": 23096
+            "losses": 24454,
+            "wins": 23530
         },
         "18": {
-            "losses": 25554,
-            "wins": 24996
+            "losses": 26128,
+            "wins": 25642
         },
         "19": {
-            "losses": 25735,
-            "wins": 26178
+            "losses": 26757,
+            "wins": 27004
         },
         "2": {
             "losses": 3,
             "wins": 2
         },
         "20": {
-            "losses": 25078,
-            "wins": 26646
+            "losses": 25786,
+            "wins": 27622
         },
         "21": {
-            "losses": 23635,
-            "wins": 25143
+            "losses": 24100,
+            "wins": 25456
         },
         "22": {
-            "losses": 21268,
-            "wins": 23468
+            "losses": 21271,
+            "wins": 23755
         },
         "23": {
-            "losses": 17688,
-            "wins": 20771
+            "losses": 17733,
+            "wins": 20569
         },
         "24": {
-            "losses": 14826,
-            "wins": 17934
+            "losses": 15144,
+            "wins": 18244
         },
         "25": {
-            "losses": 12304,
-            "wins": 14656
+            "losses": 12131,
+            "wins": 14807
         },
         "26": {
-            "losses": 9716,
-            "wins": 12183
+            "losses": 9538,
+            "wins": 11877
         },
         "27": {
-            "losses": 7395,
-            "wins": 9539
+            "losses": 7325,
+            "wins": 9418
         },
         "28": {
-            "losses": 5423,
-            "wins": 7187
+            "losses": 4988,
+            "wins": 6925
         },
         "29": {
-            "losses": 4100,
-            "wins": 5583
+            "losses": 3984,
+            "wins": 5459
         },
         "3": {
             "losses": 3,
             "wins": 1
         },
         "30": {
-            "losses": 2835,
-            "wins": 4211
+            "losses": 2730,
+            "wins": 3999
         },
         "31": {
-            "losses": 1999,
-            "wins": 2971
+            "losses": 1923,
+            "wins": 2886
         },
         "32": {
-            "losses": 1377,
-            "wins": 2068
+            "losses": 1213,
+            "wins": 1867
         },
         "33": {
-            "losses": 1027,
-            "wins": 1672
+            "losses": 933,
+            "wins": 1591
         },
         "34": {
-            "losses": 629,
-            "wins": 961
+            "losses": 607,
+            "wins": 923
         },
         "35": {
-            "losses": 472,
-            "wins": 755
+            "losses": 446,
+            "wins": 738
         },
         "36": {
-            "losses": 263,
-            "wins": 444
+            "losses": 208,
+            "wins": 353
         },
         "37": {
-            "losses": 171,
-            "wins": 286
+            "losses": 140,
+            "wins": 201
         },
         "38": {
-            "losses": 59,
-            "wins": 123
+            "losses": 45,
+            "wins": 110
         },
         "39": {
-            "losses": 50,
-            "wins": 98
+            "losses": 45,
+            "wins": 102
         },
         "4": {
             "losses": 15,
             "wins": 13
         },
         "40": {
-            "losses": 24,
-            "wins": 49
+            "losses": 12,
+            "wins": 15
         },
         "41": {
-            "losses": 4,
-            "wins": 5
+            "losses": 6,
+            "wins": 7
         },
         "42": {
-            "losses": 1,
-            "wins": 10
-        },
-        "43": {
-            "losses": 2,
-            "wins": 4
+            "losses": 3,
+            "wins": 14
         },
         "45": {
             "losses": 3,
             "wins": 8
         },
         "5": {
-            "losses": 92,
-            "wins": 59
+            "losses": 82,
+            "wins": 48
         },
         "6": {
-            "losses": 203,
-            "wins": 130
+            "losses": 214,
+            "wins": 141
         },
         "7": {
-            "losses": 492,
-            "wins": 361
+            "losses": 475,
+            "wins": 346
         },
         "8": {
-            "losses": 1039,
-            "wins": 802
+            "losses": 1006,
+            "wins": 788
         },
         "9": {
             "losses": 1987,
-            "wins": 1587
+            "wins": 1559
         }
     },
     "housesWins": {
         "Brobnar": {
-            "losses": 106978,
-            "wins": 104931
+            "losses": 107406,
+            "wins": 105306
         },
         "Dis": {
-            "losses": 146383,
-            "wins": 156197
+            "losses": 148237,
+            "wins": 158106
         },
         "Logos": {
-            "losses": 143310,
-            "wins": 151369
+            "losses": 145199,
+            "wins": 153224
         },
         "Mars": {
-            "losses": 79275,
-            "wins": 76021
+            "losses": 79654,
+            "wins": 76325
         },
         "Sanctum": {
-            "losses": 94725,
-            "wins": 95815
+            "losses": 95779,
+            "wins": 96856
         },
         "Saurian": {
-            "losses": 45478,
-            "wins": 48485
+            "losses": 46637,
+            "wins": 49590
         },
         "Shadows": {
-            "losses": 156911,
-            "wins": 178758
+            "losses": 158508,
+            "wins": 180441
         },
         "StarAlliance": {
-            "losses": 40739,
-            "wins": 42232
+            "losses": 41911,
+            "wins": 43378
         },
         "Untamed": {
-            "losses": 130205,
-            "wins": 132862
+            "losses": 131803,
+            "wins": 134346
         }
     },
     "other": {
-        "-1": 235,
+        "-1": 270,
         "-2": 4,
         "-3": 1,
-        "0": 786317,
-        "1": 660390,
-        "10": 926,
-        "11": 324,
-        "12": 139,
-        "13": 87,
-        "14": 41,
-        "15": 28,
-        "16": 10,
+        "0": 776042,
+        "1": 656538,
+        "10": 1019,
+        "11": 370,
+        "12": 159,
+        "13": 93,
+        "14": 40,
+        "15": 33,
+        "16": 11,
         "17": 3,
-        "18": 5,
+        "18": 6,
         "19": 1,
-        "2": 323325,
-        "3": 158123,
-        "4": 85373,
-        "5": 43297,
-        "6": 19107,
-        "7": 8905,
-        "8": 3796,
-        "9": 2132
+        "2": 341861,
+        "3": 164701,
+        "4": 86429,
+        "5": 43925,
+        "6": 19496,
+        "7": 9233,
+        "8": 4023,
+        "9": 2183
     },
     "otherStats": {
         "bottom10Percent": 0,
         "max": 19,
-        "mean": 1.2341815251970185,
+        "mean": 1.2588280421811007,
         "median": 1,
         "min": -3,
         "percentile40": 1,
         "percentile60": 1,
         "percentileForValue": {
-            "-1": 0.011469155855792569,
-            "-2": 0.00023894074699567852,
-            "-3": 4.7788149399135706e-05,
-            "0": 37.58810342693598,
-            "1": 69.1469194086312,
-            "10": 99.96951116068335,
-            "11": 99.98499452108867,
-            "12": 99.99163707385514,
-            "13": 99.99579464285287,
-            "14": 99.99775395697824,
-            "15": 99.99909202516142,
-            "16": 99.99956990665541,
-            "17": 99.9997132711036,
-            "18": 99.9999522118506,
+            "-1": 0.01305519594424909,
+            "-2": 0.0002373671989863471,
+            "-3": 4.747343979726942e-05,
+            "0": 36.854438363096804,
+            "1": 68.02255558071649,
+            "10": 99.96600901710515,
+            "11": 99.98357418983015,
+            "12": 99.99112246675791,
+            "13": 99.99553749665905,
+            "14": 99.99743643425094,
+            "15": 99.99900305776426,
+            "16": 99.99952526560203,
+            "17": 99.99966768592142,
+            "18": 99.99995252656021,
             "19": 100.0,
-            "2": 84.59802281310677,
-            "3": 92.15442836054629,
-            "4": 96.23424603919871,
-            "5": 98.30332954373308,
-            "6": 99.21641771430237,
-            "7": 99.64197118470167,
-            "8": 99.8233749998208,
-            "9": 99.92525933433976
+            "2": 84.2518731832508,
+            "3": 92.07079619130087,
+            "4": 96.17387811953907,
+            "5": 98.25914896263413,
+            "6": 99.1846911449217,
+            "7": 99.62301341456988,
+            "8": 99.8139990628743,
+            "9": 99.91763358195173
         },
         "top90Percent": 3
     },
     "otherToWinsLosses": {
         "-1": {
-            "losses": 18,
-            "wins": 24
+            "losses": 22,
+            "wins": 33
         },
         "0": {
-            "losses": 110535,
-            "wins": 117003
+            "losses": 108243,
+            "wins": 114541
         },
         "1": {
-            "losses": 95370,
-            "wins": 96469
+            "losses": 95266,
+            "wins": 96325
         },
         "10": {
-            "losses": 259,
-            "wins": 343
+            "losses": 261,
+            "wins": 361
         },
         "11": {
-            "losses": 120,
-            "wins": 149
+            "losses": 144,
+            "wins": 157
         },
         "12": {
-            "losses": 46,
-            "wins": 43
+            "losses": 53,
+            "wins": 63
         },
         "13": {
             "losses": 37,
-            "wins": 67
+            "wins": 66
         },
         "14": {
             "losses": 20,
             "wins": 19
         },
         "15": {
-            "losses": 3,
-            "wins": 4
+            "losses": 5,
+            "wins": 6
         },
         "16": {
             "losses": 4,
             "wins": 7
         },
         "2": {
-            "losses": 51528,
-            "wins": 53588
+            "losses": 55238,
+            "wins": 57371
         },
         "3": {
-            "losses": 26123,
-            "wins": 27701
+            "losses": 27430,
+            "wins": 29129
         },
         "4": {
-            "losses": 14698,
-            "wins": 15694
+            "losses": 15225,
+            "wins": 16150
         },
         "5": {
-            "losses": 8227,
-            "wins": 8981
+            "losses": 8371,
+            "wins": 9148
         },
         "6": {
-            "losses": 3957,
-            "wins": 4624
+            "losses": 4110,
+            "wins": 4782
         },
         "7": {
-            "losses": 2114,
-            "wins": 2297
+            "losses": 2283,
+            "wins": 2419
         },
         "8": {
-            "losses": 990,
-            "wins": 1126
+            "losses": 1018,
+            "wins": 1165
         },
         "9": {
-            "losses": 619,
-            "wins": 751
+            "losses": 648,
+            "wins": 782
         }
     },
     "power2OrLower": {
-        "0": 34659,
-        "1": 114181,
-        "10": 65602,
-        "11": 41079,
-        "12": 24407,
-        "13": 13986,
-        "14": 7683,
-        "15": 3971,
-        "16": 1848,
-        "17": 933,
-        "18": 347,
+        "0": 34851,
+        "1": 114852,
+        "10": 66013,
+        "11": 41349,
+        "12": 24541,
+        "13": 14071,
+        "14": 7739,
+        "15": 3988,
+        "16": 1862,
+        "17": 937,
+        "18": 352,
         "19": 138,
-        "2": 206684,
+        "2": 207934,
         "20": 55,
         "21": 16,
         "22": 3,
         "23": 1,
-        "3": 277084,
-        "4": 308099,
-        "5": 294653,
-        "6": 252383,
-        "7": 199347,
-        "8": 145025,
-        "9": 100385
+        "3": 278852,
+        "4": 310278,
+        "5": 296701,
+        "6": 254105,
+        "7": 200719,
+        "8": 146028,
+        "9": 101056
     },
     "power3OrHigher": {
         "0": 30,
-        "1": 206,
-        "10": 192700,
-        "11": 225393,
-        "12": 241380,
-        "13": 238539,
-        "14": 217045,
-        "15": 182669,
-        "16": 141236,
-        "17": 101652,
-        "18": 67302,
-        "19": 40723,
-        "2": 1091,
-        "20": 23437,
-        "21": 11782,
-        "22": 5697,
-        "23": 2435,
-        "24": 899,
-        "25": 338,
-        "26": 99,
+        "1": 207,
+        "10": 193834,
+        "11": 226663,
+        "12": 242889,
+        "13": 240129,
+        "14": 218553,
+        "15": 184084,
+        "16": 142335,
+        "17": 102549,
+        "18": 67904,
+        "19": 41112,
+        "2": 1099,
+        "20": 23676,
+        "21": 11913,
+        "22": 5749,
+        "23": 2460,
+        "24": 908,
+        "25": 343,
+        "26": 100,
         "27": 22,
         "28": 1,
-        "3": 3531,
-        "4": 9301,
-        "5": 20413,
-        "6": 39551,
-        "7": 68068,
-        "8": 107129,
-        "9": 149900
+        "3": 3548,
+        "4": 9351,
+        "5": 20516,
+        "6": 39737,
+        "7": 68378,
+        "8": 107668,
+        "9": 150683
     },
     "power3OrLower": {
-        "0": 689,
-        "1": 5066,
-        "10": 230797,
-        "11": 198838,
-        "12": 157629,
-        "13": 116441,
-        "14": 81389,
-        "15": 52459,
-        "16": 31705,
-        "17": 17882,
-        "18": 9547,
-        "19": 4721,
-        "2": 17764,
-        "20": 2166,
-        "21": 907,
-        "22": 342,
-        "23": 128,
+        "0": 692,
+        "1": 5083,
+        "10": 232431,
+        "11": 200238,
+        "12": 158839,
+        "13": 117384,
+        "14": 82023,
+        "15": 52861,
+        "16": 31949,
+        "17": 18008,
+        "18": 9620,
+        "19": 4750,
+        "2": 17842,
+        "20": 2184,
+        "21": 916,
+        "22": 343,
+        "23": 129,
         "24": 38,
         "25": 5,
         "26": 2,
-        "3": 43892,
-        "4": 83509,
-        "5": 132590,
-        "6": 182431,
-        "7": 224648,
-        "8": 247508,
-        "9": 249476
+        "3": 44087,
+        "4": 83935,
+        "5": 133298,
+        "6": 183426,
+        "7": 226006,
+        "8": 249152,
+        "9": 251200
     },
     "power4OrHigher": {
-        "0": 1334,
-        "1": 7790,
-        "10": 223584,
-        "11": 181886,
-        "12": 137563,
-        "13": 95560,
-        "14": 62338,
-        "15": 37479,
-        "16": 21091,
-        "17": 10871,
-        "18": 5190,
-        "19": 2290,
-        "2": 25302,
-        "20": 942,
-        "21": 373,
-        "22": 134,
+        "0": 1339,
+        "1": 7835,
+        "10": 225171,
+        "11": 183163,
+        "12": 138624,
+        "13": 96259,
+        "14": 62799,
+        "15": 37763,
+        "16": 21271,
+        "17": 10963,
+        "18": 5226,
+        "19": 2302,
+        "2": 25416,
+        "20": 948,
+        "21": 380,
+        "22": 135,
         "23": 42,
         "24": 13,
         "25": 2,
-        "3": 57629,
-        "4": 103035,
-        "5": 156451,
-        "6": 207118,
-        "7": 244393,
-        "8": 258647,
-        "9": 251512
+        "3": 57934,
+        "4": 103664,
+        "5": 157392,
+        "6": 208416,
+        "7": 245893,
+        "8": 260293,
+        "9": 253198
     },
     "power5OrHigher": {
-        "0": 27438,
-        "1": 95398,
-        "10": 85338,
-        "11": 51096,
-        "12": 28297,
-        "13": 13907,
-        "14": 6416,
-        "15": 2774,
-        "16": 1068,
-        "17": 328,
-        "18": 108,
+        "0": 27753,
+        "1": 96387,
+        "10": 85692,
+        "11": 51280,
+        "12": 28389,
+        "13": 13948,
+        "14": 6436,
+        "15": 2782,
+        "16": 1071,
+        "17": 330,
+        "18": 109,
         "19": 29,
-        "2": 179599,
+        "2": 181208,
         "20": 12,
         "22": 1,
-        "3": 247622,
-        "4": 282510,
-        "5": 284136,
-        "6": 261242,
-        "7": 221981,
-        "8": 175344,
-        "9": 127925
+        "3": 249517,
+        "4": 284576,
+        "5": 285984,
+        "6": 262869,
+        "7": 223295,
+        "8": 176254,
+        "9": 128519
     },
     "raresWins": {
         "0": {
@@ -3423,16 +3439,16 @@
             "wins": 3
         },
         "1": {
-            "losses": 694,
-            "wins": 771
+            "losses": 718,
+            "wins": 801
         },
         "10": {
             "losses": 289,
             "wins": 287
         },
         "11": {
-            "losses": 103,
-            "wins": 74
+            "losses": 104,
+            "wins": 77
         },
         "12": {
             "losses": 35,
@@ -3447,469 +3463,631 @@
             "wins": 4
         },
         "2": {
-            "losses": 78515,
-            "wins": 81933
+            "losses": 79407,
+            "wins": 82810
         },
         "3": {
-            "losses": 105955,
-            "wins": 110648
+            "losses": 107229,
+            "wins": 111846
         },
         "4": {
-            "losses": 72760,
-            "wins": 76643
+            "losses": 73622,
+            "wins": 77513
         },
         "5": {
-            "losses": 35601,
-            "wins": 37045
+            "losses": 36049,
+            "wins": 37492
         },
         "6": {
-            "losses": 13774,
-            "wins": 14320
+            "losses": 13933,
+            "wins": 14460
         },
         "7": {
-            "losses": 4685,
-            "wins": 4813
+            "losses": 4722,
+            "wins": 4869
         },
         "8": {
-            "losses": 1491,
-            "wins": 1584
+            "losses": 1501,
+            "wins": 1589
         },
         "9": {
-            "losses": 757,
-            "wins": 725
+            "losses": 760,
+            "wins": 733
+        }
+    },
+    "recursion": {
+        "0": 807860,
+        "1": 475951,
+        "10": 4705,
+        "11": 2459,
+        "12": 1192,
+        "13": 571,
+        "14": 247,
+        "15": 115,
+        "16": 64,
+        "17": 25,
+        "18": 10,
+        "19": 4,
+        "2": 248164,
+        "20": 1,
+        "3": 198493,
+        "4": 160007,
+        "5": 93779,
+        "6": 53625,
+        "7": 31665,
+        "8": 18026,
+        "9": 9478
+    },
+    "recursionStats": {
+        "bottom10Percent": 0,
+        "max": 20,
+        "mean": 1.686413243950341,
+        "median": 1,
+        "min": 0,
+        "percentile40": 1,
+        "percentile60": 1,
+        "percentileForValue": {
+            "0": 38.351893074622076,
+            "1": 60.94692421957225,
+            "10": 99.7774445142304,
+            "11": 99.89418170269188,
+            "12": 99.95077004293023,
+            "13": 99.97787737705447,
+            "14": 99.9896033166844,
+            "15": 99.99506276226109,
+            "16": 99.99810106240811,
+            "17": 99.99928789840304,
+            "18": 99.99976263280101,
+            "19": 99.99995252656021,
+            "2": 72.72812293342183,
+            "20": 100.0,
+            "3": 82.15126841910123,
+            "4": 89.74735110074292,
+            "5": 94.19936281149104,
+            "6": 96.74512602061961,
+            "7": 98.24837249180015,
+            "8": 99.10412871758572,
+            "9": 99.55408197998425
+        },
+        "top90Percent": 5
+    },
+    "recursionToWinsLosses": {
+        "0": {
+            "losses": 117822,
+            "wins": 123509
+        },
+        "1": {
+            "losses": 68861,
+            "wins": 69844
+        },
+        "10": {
+            "losses": 1045,
+            "wins": 1184
+        },
+        "11": {
+            "losses": 482,
+            "wins": 526
+        },
+        "12": {
+            "losses": 256,
+            "wins": 300
+        },
+        "13": {
+            "losses": 166,
+            "wins": 242
+        },
+        "14": {
+            "losses": 47,
+            "wins": 85
+        },
+        "15": {
+            "losses": 18,
+            "wins": 19
+        },
+        "16": {
+            "losses": 11,
+            "wins": 19
+        },
+        "17": {
+            "losses": 3,
+            "wins": 6
+        },
+        "19": {
+            "losses": 4,
+            "wins": 4
+        },
+        "2": {
+            "losses": 37381,
+            "wins": 37173
+        },
+        "3": {
+            "losses": 30557,
+            "wins": 32053
+        },
+        "4": {
+            "losses": 25793,
+            "wins": 28366
+        },
+        "5": {
+            "losses": 15154,
+            "wins": 15992
+        },
+        "6": {
+            "losses": 9475,
+            "wins": 10412
+        },
+        "7": {
+            "losses": 6059,
+            "wins": 6740
+        },
+        "8": {
+            "losses": 3444,
+            "wins": 3842
+        },
+        "9": {
+            "losses": 1800,
+            "wins": 2208
         }
     },
     "sas": {
+        "34": 1,
         "36": 1,
-        "39": 1,
-        "40": 8,
-        "41": 36,
-        "42": 38,
-        "43": 133,
-        "44": 321,
-        "45": 616,
-        "46": 1162,
-        "47": 2215,
-        "48": 3826,
-        "49": 6646,
-        "50": 10677,
-        "51": 16417,
-        "52": 23953,
-        "53": 33869,
-        "54": 45520,
-        "55": 59022,
-        "56": 73172,
-        "57": 89158,
-        "58": 102416,
-        "59": 115427,
-        "60": 125920,
-        "61": 132840,
-        "62": 136624,
-        "63": 137361,
-        "64": 133367,
-        "65": 126935,
-        "66": 118176,
-        "67": 106857,
-        "68": 94314,
-        "69": 81503,
-        "70": 68979,
-        "71": 57012,
-        "72": 46265,
-        "73": 36676,
-        "74": 28537,
-        "75": 21524,
-        "76": 16156,
-        "77": 11975,
-        "78": 8561,
-        "79": 6043,
-        "80": 4211,
-        "81": 2905,
-        "82": 1885,
-        "83": 1200,
-        "84": 835,
-        "85": 499,
-        "86": 320,
-        "87": 196,
-        "88": 85,
-        "89": 82,
-        "90": 36,
-        "91": 25,
-        "92": 18,
-        "93": 6,
-        "94": 6,
-        "95": 1
+        "37": 8,
+        "38": 7,
+        "39": 36,
+        "40": 64,
+        "41": 152,
+        "42": 274,
+        "43": 512,
+        "44": 884,
+        "45": 1577,
+        "46": 2631,
+        "47": 4390,
+        "48": 6613,
+        "49": 9758,
+        "50": 14228,
+        "51": 19887,
+        "52": 26931,
+        "53": 35655,
+        "54": 45521,
+        "55": 56956,
+        "56": 69285,
+        "57": 81751,
+        "58": 94092,
+        "59": 105400,
+        "60": 114734,
+        "61": 122927,
+        "62": 127591,
+        "63": 130131,
+        "64": 128456,
+        "65": 124180,
+        "66": 117837,
+        "67": 108955,
+        "68": 98350,
+        "69": 86589,
+        "70": 75132,
+        "71": 63289,
+        "72": 52672,
+        "73": 42896,
+        "74": 34133,
+        "75": 26682,
+        "76": 20663,
+        "77": 15492,
+        "78": 11477,
+        "79": 8577,
+        "80": 5982,
+        "81": 4230,
+        "82": 3050,
+        "83": 2024,
+        "84": 1390,
+        "85": 863,
+        "86": 567,
+        "87": 376,
+        "88": 221,
+        "89": 141,
+        "90": 97,
+        "91": 50,
+        "92": 26,
+        "93": 24,
+        "94": 8,
+        "95": 8,
+        "96": 4,
+        "97": 3
     },
     "sasStats": {
-        "bottom10Percent": 56,
-        "max": 95,
-        "mean": 63.19585065056397,
+        "bottom10Percent": 55,
+        "max": 97,
+        "mean": 63.48429080140389,
         "median": 63,
-        "min": 36,
-        "percentile40": 61,
+        "min": 34,
+        "percentile40": 62,
         "percentile60": 65,
         "percentileForValue": {
-            "36": 4.7788149399135706e-05,
-            "39": 9.557629879827141e-05,
-            "40": 0.00047788149399135703,
-            "41": 0.0021982548723602424,
-            "42": 0.004014204549527399,
-            "43": 0.010370028419612447,
-            "44": 0.02571002437673501,
-            "45": 0.0551475244066026,
-            "46": 0.11067735400839829,
-            "47": 0.21652810492748387,
-            "48": 0.3993655645285771,
-            "49": 0.7169656054352329,
-            "50": 1.2271996765698048,
-            "51": 2.011737725255416,
-            "52": 3.1564072678129134,
-            "53": 4.774944099812241,
-            "54": 6.950260660460898,
-            "55": 9.770812814296685,
-            "56": 13.267567282130242,
-            "57": 17.528263106258382,
-            "58": 22.422534215120265,
-            "59": 27.938576935814304,
-            "60": 33.95606070815347,
-            "61": 40.30423847433466,
-            "62": 46.83324659784218,
-            "63": 53.397474587456855,
-            "64": 59.770836708371384,
-            "65": 65.83682545235068,
-            "66": 71.48423779574294,
-            "67": 76.59073607608639,
-            "68": 81.09782759851646,
-            "69": 84.99270513899422,
-            "70": 88.2890838963972,
-            "71": 91.01358186994072,
-            "72": 93.22450060189175,
-            "73": 94.97717876925444,
-            "74": 96.34090918865758,
-            "75": 97.36950131632457,
-            "76": 98.14156665801701,
-            "77": 98.71382974707166,
-            "78": 99.12294409407767,
-            "79": 99.41172788089663,
-            "80": 99.6129637780164,
-            "81": 99.7517883520209,
-            "82": 99.84186901363826,
-            "83": 99.89921479291722,
-            "84": 99.9391178976655,
-            "85": 99.96296418421566,
-            "86": 99.9782563920234,
-            "87": 99.98762286930562,
-            "88": 99.99168486200455,
-            "89": 99.99560349025528,
-            "90": 99.99732386363365,
-            "91": 99.99851856736862,
-            "92": 99.99937875405782,
-            "93": 99.9996654829542,
-            "94": 99.9999522118506,
-            "95": 100.0
+            "34": 4.747343979726942e-05,
+            "36": 9.494687959453884e-05,
+            "37": 0.0004747343979726942,
+            "38": 0.0008070484765535802,
+            "39": 0.0025160923092552795,
+            "40": 0.005554392456280522,
+            "41": 0.012770355305465475,
+            "42": 0.025778077809917296,
+            "43": 0.050084478986119244,
+            "44": 0.09205099976690541,
+            "45": 0.1669166143271993,
+            "46": 0.29181923443381513,
+            "47": 0.500227635143828,
+            "48": 0.8141694925231706,
+            "49": 1.2774153180649257,
+            "50": 1.952867419500475,
+            "51": 2.896971716748772,
+            "52": 4.175478923929035,
+            "53": 5.868144419900676,
+            "54": 8.029182872912177,
+            "55": 10.733080110005455,
+            "56": 14.022277386359267,
+            "57": 17.90327856322584,
+            "58": 22.370149460630515,
+            "59": 27.37385001526271,
+            "60": 32.82066765696262,
+            "61": 38.656435190921556,
+            "62": 44.71361884809496,
+            "63": 50.89138504235343,
+            "64": 56.98963322495147,
+            "65": 62.88488497897639,
+            "66": 68.47901270436722,
+            "67": 73.65148133747871,
+            "68": 78.32049414154017,
+            "69": 82.43117182014592,
+            "70": 85.99794629899436,
+            "71": 89.00249283032376,
+            "72": 91.50301385132553,
+            "73": 93.5394345248692,
+            "74": 95.1598454454694,
+            "75": 96.42653176614014,
+            "76": 97.40747545267112,
+            "77": 98.14293398201042,
+            "78": 98.68778665056368,
+            "79": 99.09496634370485,
+            "80": 99.37895246057212,
+            "81": 99.57976511091456,
+            "82": 99.72455910229624,
+            "83": 99.82064534444592,
+            "84": 99.88663342576412,
+            "85": 99.92760300430916,
+            "86": 99.95452044467422,
+            "87": 99.97237045803799,
+            "88": 99.98286208823319,
+            "89": 99.9895558432446,
+            "90": 99.99416076690494,
+            "91": 99.9965344388948,
+            "92": 99.99776874832953,
+            "93": 99.99890811088466,
+            "94": 99.99928789840304,
+            "95": 99.99966768592142,
+            "96": 99.99985757968061,
+            "97": 100.0
         },
-        "top90Percent": 71
+        "top90Percent": 72
     },
     "sasToWinsLosses": {
-        "42": {
+        "38": {
             "losses": 1,
-            "wins": 6
+            "wins": 3
+        },
+        "39": {
+            "losses": 6,
+            "wins": 1
+        },
+        "40": {
+            "losses": 14,
+            "wins": 9
+        },
+        "41": {
+            "losses": 15,
+            "wins": 11
+        },
+        "42": {
+            "losses": 35,
+            "wins": 29
         },
         "43": {
-            "losses": 41,
-            "wins": 16
+            "losses": 72,
+            "wins": 47
         },
         "44": {
-            "losses": 48,
-            "wins": 42
+            "losses": 115,
+            "wins": 90
         },
         "45": {
-            "losses": 98,
-            "wins": 64
+            "losses": 237,
+            "wins": 137
         },
         "46": {
-            "losses": 157,
-            "wins": 95
+            "losses": 305,
+            "wins": 219
         },
         "47": {
-            "losses": 246,
-            "wins": 196
+            "losses": 507,
+            "wins": 342
         },
         "48": {
-            "losses": 412,
-            "wins": 294
+            "losses": 778,
+            "wins": 502
         },
         "49": {
-            "losses": 786,
-            "wins": 497
+            "losses": 1225,
+            "wins": 775
         },
         "50": {
-            "losses": 1254,
-            "wins": 791
+            "losses": 1586,
+            "wins": 1057
         },
         "51": {
-            "losses": 1971,
-            "wins": 1238
+            "losses": 2242,
+            "wins": 1535
         },
         "52": {
-            "losses": 2730,
-            "wins": 1806
+            "losses": 3094,
+            "wins": 2047
         },
         "53": {
-            "losses": 3591,
-            "wins": 2361
+            "losses": 3911,
+            "wins": 2662
         },
         "54": {
-            "losses": 4911,
-            "wins": 3361
+            "losses": 4758,
+            "wins": 3279
         },
         "55": {
-            "losses": 6080,
-            "wins": 4353
+            "losses": 5982,
+            "wins": 4342
         },
         "56": {
-            "losses": 7427,
-            "wins": 5561
+            "losses": 7179,
+            "wins": 5182
         },
         "57": {
-            "losses": 9139,
-            "wins": 6745
+            "losses": 8462,
+            "wins": 6296
         },
         "58": {
-            "losses": 10601,
-            "wins": 8066
+            "losses": 9895,
+            "wins": 7641
         },
         "59": {
-            "losses": 12249,
-            "wins": 9796
+            "losses": 11022,
+            "wins": 8781
         },
         "60": {
-            "losses": 13512,
-            "wins": 11076
+            "losses": 12477,
+            "wins": 10155
         },
         "61": {
-            "losses": 14626,
-            "wins": 12566
+            "losses": 13145,
+            "wins": 11227
         },
         "62": {
-            "losses": 15514,
-            "wins": 13750
+            "losses": 14799,
+            "wins": 12803
         },
         "63": {
-            "losses": 16369,
-            "wins": 14710
+            "losses": 15343,
+            "wins": 13855
         },
         "64": {
-            "losses": 17012,
-            "wins": 16178
+            "losses": 15951,
+            "wins": 14634
         },
         "65": {
-            "losses": 17453,
-            "wins": 17101
+            "losses": 16620,
+            "wins": 16212
         },
         "66": {
-            "losses": 17022,
-            "wins": 17612
+            "losses": 16740,
+            "wins": 16812
         },
         "67": {
-            "losses": 17124,
-            "wins": 18228
+            "losses": 16318,
+            "wins": 16872
         },
         "68": {
-            "losses": 15911,
-            "wins": 17802
+            "losses": 15551,
+            "wins": 17075
         },
         "69": {
-            "losses": 15306,
-            "wins": 17390
+            "losses": 15625,
+            "wins": 17687
         },
         "70": {
-            "losses": 14515,
-            "wins": 17392
+            "losses": 14450,
+            "wins": 17101
         },
         "71": {
-            "losses": 12971,
-            "wins": 16030
+            "losses": 13522,
+            "wins": 16339
         },
         "72": {
-            "losses": 11466,
-            "wins": 14705
+            "losses": 12551,
+            "wins": 15361
         },
         "73": {
-            "losses": 10465,
-            "wins": 13770
+            "losses": 11129,
+            "wins": 14360
         },
         "74": {
-            "losses": 8891,
-            "wins": 12102
+            "losses": 9581,
+            "wins": 12402
         },
         "75": {
-            "losses": 7538,
-            "wins": 10313
+            "losses": 8572,
+            "wins": 11523
         },
         "76": {
-            "losses": 6257,
-            "wins": 8842
+            "losses": 7411,
+            "wins": 10211
         },
         "77": {
-            "losses": 5212,
-            "wins": 7695
+            "losses": 5915,
+            "wins": 8588
         },
         "78": {
-            "losses": 4122,
-            "wins": 6354
+            "losses": 4882,
+            "wins": 7143
         },
         "79": {
-            "losses": 3346,
-            "wins": 5270
+            "losses": 4213,
+            "wins": 6433
         },
         "80": {
-            "losses": 2318,
-            "wins": 3689
+            "losses": 3286,
+            "wins": 5086
         },
         "81": {
-            "losses": 1840,
-            "wins": 3168
+            "losses": 2457,
+            "wins": 4031
         },
         "82": {
-            "losses": 1228,
-            "wins": 2231
+            "losses": 1848,
+            "wins": 3122
         },
         "83": {
-            "losses": 961,
-            "wins": 1721
+            "losses": 1395,
+            "wins": 2346
         },
         "84": {
-            "losses": 733,
-            "wins": 1374
+            "losses": 1026,
+            "wins": 1846
         },
         "85": {
-            "losses": 506,
-            "wins": 988
+            "losses": 694,
+            "wins": 1373
         },
         "86": {
-            "losses": 267,
-            "wins": 583
+            "losses": 508,
+            "wins": 913
         },
         "87": {
-            "losses": 186,
-            "wins": 347
+            "losses": 331,
+            "wins": 666
         },
         "88": {
-            "losses": 68,
-            "wins": 123
+            "losses": 186,
+            "wins": 418
         },
         "89": {
-            "losses": 44,
-            "wins": 165
+            "losses": 183,
+            "wins": 441
         },
         "90": {
-            "losses": 52,
-            "wins": 119
+            "losses": 64,
+            "wins": 137
         },
         "91": {
-            "losses": 24,
-            "wins": 45
+            "losses": 69,
+            "wins": 154
         },
         "92": {
-            "losses": 42,
-            "wins": 109
+            "losses": 23,
+            "wins": 49
         },
         "93": {
-            "losses": 14,
-            "wins": 21
+            "losses": 33,
+            "wins": 82
         },
         "94": {
-            "losses": 6,
-            "wins": 16
+            "losses": 23,
+            "wins": 45
         },
         "95": {
-            "losses": 5,
-            "wins": 17
+            "losses": 4,
+            "wins": 11
+        },
+        "96": {
+            "losses": 12,
+            "wins": 24
         }
     },
     "synergy": {
-        "0": 109,
-        "1": 4332,
+        "0": 98,
+        "1": 4118,
         "10": 161013,
-        "11": 115494,
-        "12": 80827,
-        "13": 55958,
-        "14": 37931,
-        "15": 25940,
-        "16": 17236,
-        "17": 11230,
-        "18": 7395,
-        "19": 4603,
-        "2": 27019,
-        "20": 2775,
-        "21": 1643,
-        "22": 1040,
-        "23": 602,
-        "24": 290,
-        "25": 171,
-        "26": 99,
-        "27": 49,
-        "28": 17,
-        "29": 18,
-        "3": 80137,
-        "30": 7,
-        "31": 2,
-        "32": 1,
-        "33": 1,
-        "34": 1,
+        "11": 114051,
+        "12": 79250,
+        "13": 54354,
+        "14": 36670,
+        "15": 24661,
+        "16": 16523,
+        "17": 10781,
+        "18": 7070,
+        "19": 4368,
+        "2": 26575,
+        "20": 2727,
+        "21": 1569,
+        "22": 1001,
+        "23": 524,
+        "24": 265,
+        "25": 163,
+        "26": 96,
+        "27": 42,
+        "28": 21,
+        "29": 12,
+        "3": 80799,
+        "30": 8,
+        "31": 3,
+        "32": 2,
+        "35": 1,
         "39": 1,
-        "4": 158764,
-        "5": 237155,
-        "6": 287789,
-        "7": 295194,
-        "8": 263946,
-        "9": 213780
+        "4": 161516,
+        "5": 242309,
+        "6": 294226,
+        "7": 300117,
+        "8": 266521,
+        "9": 214986
     },
     "synergyStats": {
         "bottom10Percent": 4,
         "max": 39,
-        "mean": 7.77842451073298,
+        "mean": 7.73390329945154,
         "median": 7,
         "min": 0,
         "percentile40": 7,
         "percentile60": 8,
         "percentileForValue": {
-            "0": 0.005208908284505791,
-            "1": 0.21222717148156167,
-            "10": 82.63708389066262,
-            "11": 88.15632841736641,
-            "12": 92.01890116885035,
-            "13": 94.69303043292719,
-            "14": 96.5056827277858,
-            "15": 97.74530732319938,
-            "16": 98.56898386624289,
-            "17": 99.10564478399517,
-            "18": 99.45903814880178,
-            "19": 99.67900700048601,
-            "2": 1.5034151800968092,
-            "20": 99.81161911506861,
-            "21": 99.89013504453139,
-            "22": 99.93983471990649,
-            "23": 99.96860318584477,
-            "24": 99.98246174917051,
-            "25": 99.99063352271777,
-            "26": 99.99536454950828,
-            "27": 99.99770616882884,
-            "28": 99.99851856736862,
-            "29": 99.99937875405782,
-            "3": 5.333014108495347,
-            "30": 99.9997132711036,
-            "31": 99.9998088474024,
-            "32": 99.99985663555181,
-            "33": 99.9999044237012,
-            "34": 99.9999522118506,
+            "0": 0.004652397100132403,
+            "1": 0.20014802218528788,
+            "10": 83.18666414107967,
+            "11": 88.60105742339805,
+            "12": 92.36332752733165,
+            "13": 94.94369887407242,
+            "14": 96.6845499114383,
+            "15": 97.85529241027876,
+            "16": 98.63969605604905,
+            "17": 99.1515072105034,
+            "18": 99.4871444298701,
+            "19": 99.69450841490458,
+            "2": 1.4617546847977227,
+            "20": 99.82396848523173,
+            "21": 99.89845431227364,
+            "22": 99.94597522551071,
+            "23": 99.97085130796448,
+            "24": 99.98343176951076,
+            "25": 99.99116994019771,
+            "26": 99.99572739041824,
+            "27": 99.99772127488973,
+            "28": 99.99871821712547,
+            "29": 99.99928789840304,
+            "3": 5.297561146977295,
+            "30": 99.99966768592142,
+            "31": 99.99981010624082,
+            "32": 99.9999050531204,
+            "35": 99.99995252656021,
             "39": 100.0,
-            "4": 12.920051859699727,
-            "5": 24.253250430451757,
-            "6": 38.00615415787962,
-            "7": 52.112929131608084,
-            "8": 64.72642001291236,
-            "9": 74.94257059145959
+            "4": 12.965281249273064,
+            "5": 24.468522973109618,
+            "6": 38.436443270901016,
+            "7": 52.68402960253812,
+            "8": 65.33669825074617,
+            "9": 75.54282317900193
         },
         "top90Percent": 12
     },
@@ -3919,184 +4097,181 @@
             "wins": 11
         },
         "1": {
-            "losses": 602,
-            "wins": 505
+            "losses": 555,
+            "wins": 482
         },
         "10": {
-            "losses": 26696,
-            "wins": 29669
+            "losses": 27005,
+            "wins": 30223
         },
         "11": {
-            "losses": 21571,
-            "wins": 24484
+            "losses": 21909,
+            "wins": 24694
         },
         "12": {
-            "losses": 16434,
-            "wins": 18666
+            "losses": 16623,
+            "wins": 19086
         },
         "13": {
-            "losses": 12339,
-            "wins": 14600
+            "losses": 11992,
+            "wins": 14340
         },
         "14": {
-            "losses": 9111,
-            "wins": 10850
+            "losses": 9057,
+            "wins": 10906
         },
         "15": {
-            "losses": 6753,
-            "wins": 8219
+            "losses": 6737,
+            "wins": 8123
         },
         "16": {
-            "losses": 4848,
-            "wins": 5907
+            "losses": 4824,
+            "wins": 5816
         },
         "17": {
-            "losses": 3526,
-            "wins": 4308
+            "losses": 3540,
+            "wins": 4360
         },
         "18": {
-            "losses": 2453,
-            "wins": 2963
+            "losses": 2547,
+            "wins": 3094
         },
         "19": {
-            "losses": 1551,
-            "wins": 2047
+            "losses": 1496,
+            "wins": 2023
         },
         "2": {
-            "losses": 3625,
-            "wins": 3101
+            "losses": 3514,
+            "wins": 2984
         },
         "20": {
-            "losses": 1022,
-            "wins": 1369
+            "losses": 1058,
+            "wins": 1472
         },
         "21": {
-            "losses": 652,
-            "wins": 920
+            "losses": 657,
+            "wins": 892
         },
         "22": {
-            "losses": 481,
-            "wins": 606
+            "losses": 443,
+            "wins": 583
         },
         "23": {
-            "losses": 247,
-            "wins": 347
+            "losses": 252,
+            "wins": 345
         },
         "24": {
-            "losses": 157,
-            "wins": 233
+            "losses": 143,
+            "wins": 189
         },
         "25": {
-            "losses": 73,
-            "wins": 96
+            "losses": 112,
+            "wins": 148
         },
         "26": {
-            "losses": 35,
-            "wins": 66
+            "losses": 30,
+            "wins": 55
         },
         "27": {
             "losses": 28,
-            "wins": 53
+            "wins": 60
         },
         "28": {
-            "losses": 2,
+            "losses": 1,
             "wins": 0
         },
         "29": {
-            "losses": 1,
-            "wins": 6
+            "losses": 5,
+            "wins": 9
         },
         "3": {
-            "losses": 10014,
-            "wins": 8751
+            "losses": 10035,
+            "wins": 8759
         },
         "30": {
-            "losses": 2,
-            "wins": 2
-        },
-        "34": {
-            "losses": 0,
-            "wins": 4
+            "losses": 3,
+            "wins": 1
         },
         "39": {
             "losses": 10,
             "wins": 35
         },
         "4": {
-            "losses": 19326,
-            "wins": 17178
+            "losses": 19371,
+            "wins": 17270
         },
         "5": {
-            "losses": 29144,
-            "wins": 27041
+            "losses": 29624,
+            "wins": 27256
         },
         "6": {
-            "losses": 35383,
-            "wins": 34074
+            "losses": 36228,
+            "wins": 34616
         },
         "7": {
-            "losses": 38508,
-            "wins": 38880
+            "losses": 39608,
+            "wins": 40040
         },
         "8": {
-            "losses": 37101,
-            "wins": 38572
+            "losses": 37379,
+            "wins": 38939
         },
         "9": {
-            "losses": 32957,
-            "wins": 35327
+            "losses": 33576,
+            "wins": 35713
         }
     },
     "totalCreaturePower": {
-        "100": 5437,
-        "101": 4767,
-        "102": 4337,
-        "103": 3798,
-        "104": 3302,
-        "105": 2979,
-        "106": 2695,
-        "107": 2404,
-        "108": 2040,
-        "109": 1718,
-        "110": 1511,
-        "111": 1305,
-        "112": 1185,
-        "113": 968,
-        "114": 852,
-        "115": 791,
-        "116": 622,
-        "117": 557,
-        "118": 519,
-        "119": 398,
-        "120": 352,
-        "121": 289,
-        "122": 278,
-        "123": 218,
-        "124": 191,
-        "125": 181,
-        "126": 101,
-        "127": 101,
-        "128": 96,
-        "129": 85,
-        "130": 54,
-        "131": 42,
-        "132": 47,
-        "133": 37,
+        "100": 5478,
+        "101": 4815,
+        "102": 4379,
+        "103": 3823,
+        "104": 3331,
+        "105": 2995,
+        "106": 2714,
+        "107": 2427,
+        "108": 2063,
+        "109": 1731,
+        "110": 1526,
+        "111": 1326,
+        "112": 1197,
+        "113": 979,
+        "114": 855,
+        "115": 794,
+        "116": 627,
+        "117": 561,
+        "118": 525,
+        "119": 399,
+        "120": 354,
+        "121": 294,
+        "122": 279,
+        "123": 221,
+        "124": 195,
+        "125": 183,
+        "126": 104,
+        "127": 103,
+        "128": 97,
+        "129": 86,
+        "130": 57,
+        "131": 44,
+        "132": 48,
+        "133": 38,
         "134": 26,
-        "135": 29,
+        "135": 33,
         "136": 13,
         "137": 23,
-        "138": 11,
+        "138": 12,
         "139": 18,
-        "140": 9,
+        "140": 10,
         "141": 9,
-        "142": 6,
+        "142": 7,
         "143": 1,
         "144": 4,
         "145": 3,
         "147": 1,
         "148": 2,
         "149": 4,
+        "150": 1,
         "151": 2,
         "153": 1,
         "154": 1,
@@ -4108,168 +4283,172 @@
         "18": 7,
         "19": 8,
         "20": 13,
-        "21": 46,
-        "22": 60,
-        "23": 110,
-        "24": 199,
+        "21": 47,
+        "22": 61,
+        "23": 111,
+        "24": 200,
         "25": 264,
         "26": 475,
-        "27": 646,
-        "28": 969,
-        "29": 1222,
-        "30": 1634,
-        "31": 2147,
-        "32": 2822,
-        "33": 3607,
-        "34": 4615,
-        "35": 5662,
-        "36": 6818,
-        "37": 8244,
-        "38": 9603,
-        "39": 11219,
-        "40": 13100,
-        "41": 15012,
-        "42": 17276,
-        "43": 19639,
-        "44": 21736,
-        "45": 24156,
-        "46": 26823,
-        "47": 29200,
-        "48": 31553,
-        "49": 34307,
-        "50": 36472,
-        "51": 38983,
-        "52": 41420,
-        "53": 43610,
-        "54": 45379,
-        "55": 47384,
-        "56": 48809,
-        "57": 50647,
-        "58": 51874,
-        "59": 52841,
-        "60": 53511,
-        "61": 53990,
-        "62": 54625,
-        "63": 55212,
-        "64": 54606,
-        "65": 54315,
-        "66": 53968,
-        "67": 53286,
-        "68": 51761,
-        "69": 51440,
-        "70": 49867,
-        "71": 48291,
-        "72": 46609,
-        "73": 44772,
-        "74": 43422,
-        "75": 41470,
-        "76": 39590,
-        "77": 37922,
-        "78": 35808,
-        "79": 33680,
-        "80": 31987,
-        "81": 30072,
-        "82": 28181,
-        "83": 26462,
-        "84": 24292,
-        "85": 22815,
-        "86": 21056,
-        "87": 19428,
-        "88": 17761,
-        "89": 16374,
-        "90": 15131,
-        "91": 13910,
-        "92": 12627,
-        "93": 11283,
-        "94": 10170,
-        "95": 9147,
-        "96": 8400,
-        "97": 7583,
-        "98": 6646,
-        "99": 6063
+        "27": 647,
+        "28": 973,
+        "29": 1228,
+        "30": 1642,
+        "31": 2153,
+        "32": 2836,
+        "33": 3627,
+        "34": 4639,
+        "35": 5683,
+        "36": 6858,
+        "37": 8294,
+        "38": 9649,
+        "39": 11286,
+        "40": 13143,
+        "41": 15092,
+        "42": 17363,
+        "43": 19739,
+        "44": 21847,
+        "45": 24292,
+        "46": 26983,
+        "47": 29392,
+        "48": 31749,
+        "49": 34525,
+        "50": 36689,
+        "51": 39239,
+        "52": 41696,
+        "53": 43866,
+        "54": 45648,
+        "55": 47678,
+        "56": 49129,
+        "57": 50958,
+        "58": 52213,
+        "59": 53216,
+        "60": 53888,
+        "61": 54364,
+        "62": 54989,
+        "63": 55583,
+        "64": 54959,
+        "65": 54690,
+        "66": 54344,
+        "67": 53618,
+        "68": 52073,
+        "69": 51768,
+        "70": 50204,
+        "71": 48632,
+        "72": 46942,
+        "73": 45086,
+        "74": 43704,
+        "75": 41734,
+        "76": 39878,
+        "77": 38193,
+        "78": 36067,
+        "79": 33934,
+        "80": 32199,
+        "81": 30284,
+        "82": 28391,
+        "83": 26661,
+        "84": 24468,
+        "85": 22979,
+        "86": 21196,
+        "87": 19563,
+        "88": 17878,
+        "89": 16504,
+        "90": 15232,
+        "91": 14007,
+        "92": 12732,
+        "93": 11357,
+        "94": 10255,
+        "95": 9214,
+        "96": 8460,
+        "97": 7637,
+        "98": 6692,
+        "99": 6100
     },
     "upgradeCount": {
-        "0": 508511,
-        "1": 676146,
-        "10": 40,
-        "11": 6,
-        "2": 488514,
-        "3": 253102,
-        "4": 107494,
-        "5": 39977,
-        "6": 13597,
-        "7": 3908,
-        "8": 1049,
-        "9": 225
+        "0": 511917,
+        "1": 680117,
+        "10": 41,
+        "11": 7,
+        "2": 491658,
+        "3": 254824,
+        "4": 108438,
+        "5": 40408,
+        "6": 13761,
+        "7": 3974,
+        "8": 1068,
+        "9": 228
     },
     "upgradeCountStats": {
         "bottom10Percent": 0,
         "max": 11,
-        "mean": 1.5111387008026975,
+        "mean": 1.5121069139842986,
         "median": 1,
         "min": 0,
         "percentile40": 1,
         "percentile60": 2,
         "percentileForValue": {
-            "0": 24.300799639103897,
-            "1": 56.61256570273191,
-            "10": 99.9997132711036,
+            "0": 24.30246088069877,
+            "1": 56.58995433529826,
+            "10": 99.99966768592142,
             "11": 100.0,
-            "2": 79.95774571830128,
-            "3": 92.05302190752133,
-            "4": 97.18996123903202,
-            "5": 99.10038808756127,
-            "6": 99.75016355494132,
-            "7": 99.93691964279314,
-            "8": 99.98704941151283,
-            "9": 99.99780174512765
+            "2": 79.93065079914415,
+            "3": 92.02802262204354,
+            "4": 97.17594748677983,
+            "5": 99.0942542421079,
+            "6": 99.74753624715812,
+            "7": 99.93619569691246,
+            "8": 99.98689733061596,
+            "9": 99.99772127488973
         },
         "top90Percent": 3
     },
     "upgradeWins": {
         "0": {
-            "losses": 82598,
-            "wins": 89244
+            "losses": 83518,
+            "wins": 90181
         },
         "1": {
-            "losses": 101978,
-            "wins": 107143
+            "losses": 102975,
+            "wins": 108133
         },
         "10": {
-            "losses": 7,
+            "losses": 10,
             "wins": 14
         },
+        "11": {
+            "losses": 2,
+            "wins": 1
+        },
         "2": {
-            "losses": 69382,
-            "wins": 71463
+            "losses": 70227,
+            "wins": 72294
         },
         "3": {
-            "losses": 35576,
-            "wins": 35826
+            "losses": 36046,
+            "wins": 36273
         },
         "4": {
-            "losses": 15483,
-            "wins": 15397
+            "losses": 15740,
+            "wins": 15641
         },
         "5": {
-            "losses": 6349,
-            "wins": 6352
+            "losses": 6472,
+            "wins": 6466
         },
         "6": {
-            "losses": 2310,
-            "wins": 2432
+            "losses": 2371,
+            "wins": 2480
         },
         "7": {
-            "losses": 768,
-            "wins": 764
+            "losses": 791,
+            "wins": 775
         },
         "8": {
-            "losses": 182,
-            "wins": 211
+            "losses": 186,
+            "wins": 219
         },
         "9": {
-            "losses": 35,
-            "wins": 44
+            "losses": 40,
+            "wins": 47
         }
     }
 }

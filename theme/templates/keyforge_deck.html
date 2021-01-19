@@ -78,13 +78,13 @@ var ctx = document.getElementById('radarStats').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'radar',
     data: {
-        labels: ["Expected Amber", "Amber Control", "Artifact Control", "Creature Control", "Effective Power", "Creature Protection", "Disruption", "Efficiency"],
+        labels: ["Expected Amber", "Amber Control", "Artifact Control", "Creature Control", "Effective Power", "Creature Protection", "Disruption", "Efficiency", "Recursion"],
         datasets: [{
             data: [{{ keyforge_data.dok_stats.expectedAmber|round }},
                    {{ keyforge_data.dok_stats.amberControl|round }},  {{ keyforge_data.dok_stats.artifactControl|round }},
                    {{ keyforge_data.dok_stats.creatureControl|round }},  {{ keyforge_data.dok_stats.effectivePower|round }},
                    {{ keyforge_data.dok_stats.creatureProtection|round }},
-                   {{ keyforge_data.dok_stats.disruption|round }},  {{ keyforge_data.dok_stats.efficiency|round }} ],
+                   {{ keyforge_data.dok_stats.disruption|round }},  {{ keyforge_data.dok_stats.efficiency|round }},  {{ keyforge_data.dok_stats.recursion|round }}  ],
             borderColor: 'rgba(0, 188, 140, 0.8)',
             backgroundColor: 'rgba(0, 188, 140, 0.3)'
         }]
