@@ -47,10 +47,10 @@
 
 <h1>Viy <small>Monsters (8.0.0)</small></h1>
 <div class="row">
-    <div class="col-sm-6 col-md-3"><img src="https://4dcu.be/DeckLock/theme/img/gwent/scraps-icon.png" /> 7300</div>
-    <div class="col-sm-6 col-md-3"><img src="https://4dcu.be/DeckLock/theme/img/gwent/cards-icon.png" /> 24</div>
-    <div class="col-sm-6 col-md-3"><img src="https://4dcu.be/DeckLock/theme/img/gwent/helmet-icon.png" /> 19</div>
-    <div class="col-sm-6 col-md-3"><img src="https://4dcu.be/DeckLock/theme/img/gwent/provision-icon-full.png" /> 155</div>
+    <div class="col-sm-6 col-md-3"><img src="https://4dcu.be/DeckLock/theme/img/gwent/scraps-icon.png" /> 8100</div>
+    <div class="col-sm-6 col-md-3"><img src="https://4dcu.be/DeckLock/theme/img/gwent/cards-icon.png" /> 25</div>
+    <div class="col-sm-6 col-md-3"><img src="https://4dcu.be/DeckLock/theme/img/gwent/helmet-icon.png" /> 20</div>
+    <div class="col-sm-6 col-md-3"><img src="https://4dcu.be/DeckLock/theme/img/gwent/provision-icon-full.png" /> 164</div>
 </div>
 <div class="row">
     <div class="col-md-8 top15">
@@ -202,6 +202,29 @@ Play any card from your deck.<br/>
             </div>
         </div>
     </div>">Ihuarraquax</span> </li>
+                                <li>6 9 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard legendary neutral gold unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/card/medium/aid/jpg/2004.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>6</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>9</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description legendary neutral gold unit'>
+                <div class='gcard__name'>Matta Hu'uri</div>
+                <div class='gcard__category'>Human, Agent</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword deploy'>Deploy</span> (<span class='keyword ranged'>Ranged</span>): If neither player has passed and your opponent's hand is not full, they draw the lowest-cost card, and you draw the highest-cost card.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Matta Hu'uri</span> </li>
                                 <li>0 9 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
         <div class='col-sm-6 nopadding'>
             <div class='gcard__container'>
@@ -568,9 +591,9 @@ var ctx = document.getElementById('provisionsStats').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["Noonwraith", "Noonwraith", "Foglet", "Foglet", "Endrega Warrior", "Bruxa", "Bruxa", "Nekker", "Slyzard", "Slyzard", "Wild Hunt Rider", "Wild Hunt Rider", "Endrega Larva", "Endrega Larva", "Prince Villem", "Barbegazi", "The Beast", "Alzur's Double-Cross", "Whispering Hillock", "Naglfar", "Ihuarraquax", "Viy", "Oneiromancy", "Haunt"],
+        labels: ["Noonwraith", "Noonwraith", "Foglet", "Foglet", "Endrega Warrior", "Bruxa", "Bruxa", "Nekker", "Slyzard", "Slyzard", "Wild Hunt Rider", "Wild Hunt Rider", "Endrega Larva", "Endrega Larva", "Prince Villem", "Barbegazi", "The Beast", "Alzur's Double-Cross", "Whispering Hillock", "Naglfar", "Matta Hu'uri", "Ihuarraquax", "Viy", "Oneiromancy", "Haunt"],
         datasets: [{
-            data: [4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 7, 8, 8, 9, 10, 12, 13, 14],
+            data: [4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 12, 13, 14],
             borderColor: 'rgba(0, 188, 140, 0.8)',
             backgroundColor: 'rgba(0, 188, 140, 0.3)'
         }]
