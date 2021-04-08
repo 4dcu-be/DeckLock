@@ -55,7 +55,7 @@ STATIC_PATHS = ["assets"]
 
 # Configure plugins
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["keyforge", "mtg", "gwent"]
+PLUGINS = ["keyforge", "mtg", "gwent", "webassets"]
 
 KEYFORGE_ENABLED = True
 

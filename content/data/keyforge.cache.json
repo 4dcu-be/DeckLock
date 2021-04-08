@@ -3,22 +3,22 @@
         "dok_data": {
             "deck": {
                 "actionCount": 10,
-                "adaptiveScore": 0,
                 "aercScore": 53,
-                "aercVersion": 29,
-                "amberControl": 8.17,
+                "aercVersion": 37,
+                "amberControl": 8.07,
                 "antisynergyRating": 1,
                 "artifactControl": 1.0,
                 "artifactCount": 4,
                 "cardArchiveCount": 2,
                 "cardDrawCount": 6,
-                "creatureControl": 6.275,
+                "creatureControl": 7.275,
                 "creatureCount": 18,
                 "disruption": 1.0,
                 "effectivePower": 61,
-                "efficiency": 11.55,
+                "efficiency": 11.05,
+                "efficiencyBonus": 0.0,
                 "expansion": "CALL_OF_THE_ARCHONS",
-                "expectedAmber": 16.1075,
+                "expectedAmber": 15.507500000000002,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -290,7 +290,7 @@
                 ],
                 "id": 527297,
                 "keyforgeId": "21459407-7765-44f6-b183-2ebef8283f63",
-                "lastSasUpdate": "2021-01-01",
+                "lastSasUpdate": "2021-04-02",
                 "metaScores": {},
                 "name": "Preposterously Four-eyed Odyssia",
                 "other": 0.825,
@@ -298,24 +298,24 @@
                 "previousSasRating": 58,
                 "rawAmber": 10,
                 "recursion": 0.5,
-                "sasPercentile": 27.37385001526271,
-                "sasRating": 59,
-                "synergyRating": 7,
+                "sasPercentile": 19.02070838917397,
+                "sasRating": 57,
+                "synergyRating": 5,
                 "totalPower": 48,
                 "upgradeCount": 4
             },
-            "sasVersion": 30
+            "sasVersion": 37
         },
         "dok_stats": {
-            "amberControl": 61.45156688461723,
-            "artifactControl": 76.4976090002046,
-            "creatureControl": 17.172282537227485,
+            "amberControl": 62.70410612022839,
+            "artifactControl": 76.53036567366473,
+            "creatureControl": 18.4985954982836,
             "creatureProtection": 0,
-            "disruption": 53.443462218975036,
-            "effectivePower": 13.564253639195211,
-            "efficiency": 93.48574206445849,
-            "expectedAmber": 32.122618198183574,
-            "recursion": 38.351893074622076
+            "disruption": 53.174002974685735,
+            "effectivePower": 27.58562903019833,
+            "efficiency": 90.64687783802157,
+            "expectedAmber": 32.45099198126128,
+            "recursion": 35.09293637941912
         },
         "user_data": {
             "deck_id": "21459407-7765-44f6-b183-2ebef8283f63"
@@ -338,6 +338,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Martian \u2022 Soldier"
@@ -357,6 +358,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -376,6 +378,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Rare",
                         "traits": "Mutant"
@@ -395,6 +398,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Rare",
                         "traits": "Elf \u2022 Thief"
@@ -414,6 +418,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -433,6 +438,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -452,6 +458,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "7",
                         "rarity": "Uncommon",
                         "traits": "Beast"
@@ -471,6 +478,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -490,6 +498,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Agent \u2022 Martian"
@@ -509,6 +518,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Robot \u2022 Scientist"
@@ -528,6 +538,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Uncommon",
                         "traits": "Cyborg \u2022 Beast"
@@ -547,6 +558,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": "Location"
@@ -566,6 +578,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -585,6 +598,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -604,6 +618,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -623,6 +638,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -642,6 +658,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Martian \u2022 Soldier"
@@ -661,6 +678,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Uncommon",
                         "traits": "Elf \u2022 Thief"
@@ -680,6 +698,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Elf \u2022 Thief"
@@ -699,6 +718,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": "Weapon"
@@ -718,6 +738,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": "Weapon"
@@ -737,6 +758,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Robot"
@@ -756,6 +778,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Elf \u2022 Thief"
@@ -775,6 +798,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Martian \u2022 Scientist"
@@ -794,6 +818,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -813,6 +838,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Cyborg \u2022 Thief"
@@ -832,6 +858,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -851,6 +878,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -870,6 +898,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -889,6 +918,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -908,6 +938,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -927,6 +958,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Human \u2022 Thief"
@@ -946,6 +978,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Uncommon",
                         "traits": "Elf \u2022 Thief"
@@ -953,19 +986,22 @@
                 ],
                 "houses": [
                     {
-                        "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
-                        "name": "Shadows"
-                    },
-                    {
                         "id": "Logos",
                         "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
                         "name": "Logos"
                     },
                     {
                         "id": "Mars",
                         "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
+                        "in_filters": true,
                         "name": "Mars"
+                    },
+                    {
+                        "id": "Shadows",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "in_filters": true,
+                        "name": "Shadows"
                     }
                 ],
                 "notes": []
@@ -1041,19 +1077,19 @@
         "dok_data": {
             "deck": {
                 "actionCount": 13,
-                "adaptiveScore": 0,
-                "aercScore": 66,
-                "aercVersion": 30,
-                "amberControl": 4.42725,
+                "aercScore": 64,
+                "aercVersion": 37,
+                "amberControl": 4.17725,
                 "antisynergyRating": 1,
                 "artifactCount": 4,
-                "creatureControl": 13.125,
+                "creatureControl": 14.4,
                 "creatureCount": 12,
                 "creatureProtection": 7.625,
                 "dateAdded": "2019-11-12",
                 "disruption": 7.1625,
-                "effectivePower": 63,
-                "efficiency": 9.75,
+                "effectivePower": 58,
+                "efficiency": 9.25,
+                "efficiencyBonus": 0.0,
                 "expansion": "WORLDS_COLLIDE",
                 "expectedAmber": 21.91875,
                 "housesAndCards": [
@@ -1328,32 +1364,32 @@
                 "id": 1445088,
                 "keyCheatCount": 1,
                 "keyforgeId": "29bb805b-12ce-4f29-aad7-a4d9b512e41c",
-                "lastSasUpdate": "2021-01-04",
+                "lastSasUpdate": "2021-04-02",
                 "metaScores": {},
                 "name": "Champion Greenqual, the Sinister Surgeon",
-                "other": 2.425,
+                "other": 2.925,
                 "previousMajorSasRating": 78,
-                "previousSasRating": 77,
+                "previousSasRating": 78,
                 "rawAmber": 15,
                 "recursion": 0.5,
-                "sasPercentile": 98.68778665056368,
-                "sasRating": 78,
-                "synergyRating": 13,
+                "sasPercentile": 98.58851968794758,
+                "sasRating": 79,
+                "synergyRating": 16,
                 "totalPower": 55,
                 "upgradeCount": 7
             },
-            "sasVersion": 30
+            "sasVersion": 37
         },
         "dok_stats": {
-            "amberControl": 19.628890626416787,
+            "amberControl": 20.758331232633623,
             "artifactControl": 0,
-            "creatureControl": 83.5337899328773,
-            "creatureProtection": 99.78693920218986,
-            "disruption": 92.0251267422159,
-            "effectivePower": 16.28376963798179,
-            "efficiency": 87.17367350901354,
-            "expectedAmber": 80.39660261075434,
-            "recursion": 38.351893074622076
+            "creatureControl": 75.5848846466623,
+            "creatureProtection": 99.78024544717844,
+            "disruption": 91.90530378016759,
+            "effectivePower": 23.121606539181492,
+            "efficiency": 83.27567684069955,
+            "expectedAmber": 80.29595891838413,
+            "recursion": 35.09293637941912
         },
         "user_data": {
             "deck_id": "29bb805b-12ce-4f29-aad7-a4d9b512e41c"
@@ -1376,6 +1412,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -1395,6 +1432,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Beast"
@@ -1414,6 +1452,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": null
@@ -1433,6 +1472,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -1452,6 +1492,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Uncommon",
                         "traits": "Alien \u2022 Krxix"
@@ -1471,6 +1512,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -1490,6 +1532,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -1509,6 +1552,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": "Location"
@@ -1528,6 +1572,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -1547,6 +1592,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -1566,6 +1612,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Human"
@@ -1585,6 +1632,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "16",
                         "rarity": "Uncommon",
                         "traits": "Beast"
@@ -1604,6 +1652,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Alien \u2022 Proximan \u2022 Scientist"
@@ -1623,6 +1672,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -1642,6 +1692,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -1661,6 +1712,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Rare",
                         "traits": "Demon"
@@ -1680,6 +1732,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -1699,6 +1752,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Rare",
                         "traits": "Demon \u2022 Leader"
@@ -1718,6 +1772,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -1737,6 +1792,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Uncommon",
                         "traits": "Dinosaur \u2022 Politician"
@@ -1756,6 +1812,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Imp"
@@ -1775,6 +1832,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -1794,6 +1852,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": null
@@ -1813,6 +1872,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -1832,6 +1892,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": "Item"
@@ -1851,6 +1912,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -1870,6 +1932,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -1889,6 +1952,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": "Robot \u2022 Ally"
@@ -1908,6 +1972,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -1927,6 +1992,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Dinosaur \u2022 Philosopher"
@@ -1946,6 +2012,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Common",
                         "traits": "Beast"
@@ -1953,19 +2020,22 @@
                 ],
                 "houses": [
                     {
-                        "id": "Star Alliance",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Star_Alliance.png",
-                        "name": "Star Alliance"
+                        "id": "Dis",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "in_filters": true,
+                        "name": "Dis"
                     },
                     {
                         "id": "Saurian",
                         "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
+                        "in_filters": true,
                         "name": "Saurian"
                     },
                     {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
-                        "name": "Dis"
+                        "id": "Star Alliance",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Star_Alliance.png",
+                        "in_filters": true,
+                        "name": "Star Alliance"
                     }
                 ],
                 "notes": []
@@ -2041,24 +2111,24 @@
         "dok_data": {
             "deck": {
                 "actionCount": 9,
-                "adaptiveScore": 0,
-                "aercScore": 56,
-                "aercVersion": 29,
-                "amberControl": 10.1,
+                "aercScore": 57,
+                "aercVersion": 37,
+                "amberControl": 10.35,
                 "antisynergyRating": 1,
                 "artifactControl": 0.25,
                 "artifactCount": 4,
                 "cardArchiveCount": 2,
                 "cardDrawCount": 2,
-                "creatureControl": 7.01,
+                "creatureControl": 7.109999999999999,
                 "creatureCount": 22,
                 "creatureProtection": 1.45,
                 "dateAdded": "2020-07-10",
                 "disruption": 1.0,
-                "effectivePower": 98,
-                "efficiency": 10.42,
+                "effectivePower": 100,
+                "efficiency": 11.925,
+                "efficiencyBonus": 0.0,
                 "expansion": "MASS_MUTATION",
-                "expectedAmber": 9.975,
+                "expectedAmber": 10.225,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -2366,33 +2436,33 @@
                 ],
                 "id": 1902448,
                 "keyforgeId": "355b1f9d-2c3f-48fb-ac40-cf7292a31d19",
-                "lastSasUpdate": "2021-01-01",
+                "lastSasUpdate": "2021-04-02",
                 "metaScores": {},
                 "name": "Repeatedly Aberrant Giada",
-                "other": 5.075,
+                "other": 5.1125,
                 "previousMajorSasRating": 0,
-                "previousSasRating": 64,
+                "previousSasRating": 65,
                 "rawAmber": 5,
                 "recursion": 0.5,
-                "sasPercentile": 50.89138504235343,
-                "sasRating": 63,
-                "synergyRating": 8,
+                "sasPercentile": 67.86807700761617,
+                "sasRating": 66,
+                "synergyRating": 10,
                 "totalArmor": 6,
                 "totalPower": 83,
                 "upgradeCount": 1
             },
-            "sasVersion": 30
+            "sasVersion": 37
         },
         "dok_stats": {
-            "amberControl": 78.68086502304124,
-            "artifactControl": 45.98699892377712,
-            "creatureControl": 26.30460573070881,
-            "creatureProtection": 58.83976812073065,
-            "disruption": 53.443462218975036,
-            "effectivePower": 78.59512799076737,
-            "efficiency": 87.17367350901354,
-            "expectedAmber": 2.5409683917090486,
-            "recursion": 38.351893074622076
+            "amberControl": 79.59268738122739,
+            "artifactControl": 45.9839131501903,
+            "creatureControl": 18.4985954982836,
+            "creatureProtection": 58.62998299026652,
+            "disruption": 53.174002974685735,
+            "effectivePower": 86.96303385663306,
+            "efficiency": 93.3186355563721,
+            "expectedAmber": 2.7076476388372615,
+            "recursion": 35.09293637941912
         },
         "user_data": {
             "deck_id": "355b1f9d-2c3f-48fb-ac40-cf7292a31d19"
@@ -2415,6 +2485,7 @@
                         "is_anomaly": false,
                         "is_enhanced": true,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": "Item"
@@ -2434,6 +2505,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Mutant \u2022 Scientist"
@@ -2453,6 +2525,7 @@
                         "is_anomaly": false,
                         "is_enhanced": true,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -2472,6 +2545,7 @@
                         "is_anomaly": false,
                         "is_enhanced": true,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Mutant \u2022 Thief"
@@ -2491,6 +2565,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -2510,6 +2585,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "10",
                         "rarity": "Rare",
                         "traits": "Robot"
@@ -2529,6 +2605,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Mutant \u2022 Knight"
@@ -2548,6 +2625,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": "Item"
@@ -2567,6 +2645,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "FIXED",
                         "traits": null
@@ -2586,6 +2665,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Power"
@@ -2605,6 +2685,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -2624,6 +2705,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -2643,6 +2725,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "FIXED",
                         "traits": "Robot"
@@ -2662,6 +2745,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Cyborg \u2022 Thief"
@@ -2681,6 +2765,7 @@
                         "is_anomaly": false,
                         "is_enhanced": true,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Common",
                         "traits": "Spirit \u2022 Knight"
@@ -2700,6 +2785,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Uncommon",
                         "traits": "Mutant \u2022 Scientist"
@@ -2719,6 +2805,7 @@
                         "is_anomaly": false,
                         "is_enhanced": true,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Uncommon",
                         "traits": "Human"
@@ -2738,6 +2825,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -2757,6 +2845,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Mutant \u2022 Thief"
@@ -2776,6 +2865,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Mutant \u2022 Thief"
@@ -2795,6 +2885,7 @@
                         "is_anomaly": false,
                         "is_enhanced": true,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Uncommon",
                         "traits": "Mutant"
@@ -2814,6 +2905,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Uncommon",
                         "traits": "Human"
@@ -2833,6 +2925,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -2852,6 +2945,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": "Location"
@@ -2871,6 +2965,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Rare",
                         "traits": "Angel \u2022 Spirit"
@@ -2890,6 +2985,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Common",
                         "traits": "Specter"
@@ -2909,6 +3005,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -2928,6 +3025,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Human \u2022 Monk"
@@ -2947,6 +3045,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -2966,6 +3065,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Human \u2022 Scientist"
@@ -2985,6 +3085,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Uncommon",
                         "traits": "Mutant \u2022 Thief"
@@ -2992,19 +3093,22 @@
                 ],
                 "houses": [
                     {
+                        "id": "Shadows",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "in_filters": true,
+                        "name": "Shadows"
+                    },
+                    {
                         "id": "Logos",
                         "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
                         "name": "Logos"
                     },
                     {
                         "id": "Sanctum",
                         "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
+                        "in_filters": true,
                         "name": "Sanctum"
-                    },
-                    {
-                        "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
-                        "name": "Shadows"
                     }
                 ],
                 "notes": []
@@ -3080,21 +3184,21 @@
         "dok_data": {
             "deck": {
                 "actionCount": 11,
-                "adaptiveScore": 0,
-                "aercScore": 63,
-                "aercVersion": 29,
-                "amberControl": 9.66,
-                "antisynergyRating": 1,
-                "artifactControl": 2.25,
+                "aercScore": 66,
+                "aercVersion": 37,
+                "amberControl": 8.66,
+                "antisynergyRating": 3,
+                "artifactControl": 2.75,
                 "artifactCount": 8,
                 "cardDrawCount": 3,
-                "creatureControl": 14.7875,
+                "creatureControl": 19.875,
                 "creatureCount": 17,
                 "creatureProtection": 1.0,
                 "dateAdded": "2020-07-10",
                 "disruption": 0.5,
-                "effectivePower": 89,
-                "efficiency": 10.0,
+                "effectivePower": 58,
+                "efficiency": 7.375,
+                "efficiencyBonus": 0.0,
                 "expansion": "MASS_MUTATION",
                 "expectedAmber": 15.1,
                 "housesAndCards": [
@@ -3404,32 +3508,32 @@
                 ],
                 "id": 1902444,
                 "keyforgeId": "719d5924-248a-4b64-8789-a6eccf710095",
-                "lastSasUpdate": "2021-01-01",
+                "lastSasUpdate": "2021-04-02",
                 "metaScores": {},
                 "name": "Draxthroat, the Librarian of the Site",
                 "other": 2.6,
                 "previousMajorSasRating": 0,
-                "previousSasRating": 74,
+                "previousSasRating": 72,
                 "rawAmber": 8,
                 "recursion": 0.5,
-                "sasPercentile": 93.5394345248692,
+                "sasPercentile": 92.39399536944069,
                 "sasRating": 73,
-                "synergyRating": 9,
+                "synergyRating": 8,
                 "totalArmor": 7,
                 "totalPower": 64
             },
-            "sasVersion": 30
+            "sasVersion": 37
         },
         "dok_stats": {
-            "amberControl": 78.68086502304124,
-            "artifactControl": 93.84673010067692,
-            "creatureControl": 92.53522885283756,
-            "creatureProtection": 58.83976812073065,
-            "disruption": 30.739954264088098,
-            "effectivePower": 64.4928103849099,
-            "efficiency": 87.17367350901354,
-            "expectedAmber": 24.222563081519965,
-            "recursion": 38.351893074622076
+            "amberControl": 71.91219692362615,
+            "artifactControl": 98.44965987654058,
+            "creatureControl": 95.93893206598239,
+            "creatureProtection": 58.62998299026652,
+            "disruption": 30.662192769700173,
+            "effectivePower": 23.121606539181492,
+            "efficiency": 73.80686190593518,
+            "expectedAmber": 24.603537435893053,
+            "recursion": 35.09293637941912
         },
         "user_data": {
             "deck_id": "719d5924-248a-4b64-8789-a6eccf710095"
@@ -3452,6 +3556,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Cyborg \u2022 Scientist"
@@ -3471,6 +3576,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Item"
@@ -3490,6 +3596,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -3509,6 +3616,7 @@
                         "is_anomaly": false,
                         "is_enhanced": true,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Robot"
@@ -3528,6 +3636,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Mutant"
@@ -3547,6 +3656,7 @@
                         "is_anomaly": false,
                         "is_enhanced": true,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Item"
@@ -3566,6 +3676,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Item"
@@ -3585,6 +3696,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Mutant \u2022 Knight"
@@ -3604,6 +3716,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": "Item"
@@ -3623,6 +3736,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -3642,6 +3756,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -3661,6 +3776,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -3680,6 +3796,7 @@
                         "is_anomaly": false,
                         "is_enhanced": true,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -3699,6 +3816,7 @@
                         "is_anomaly": false,
                         "is_enhanced": true,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Mutant \u2022 Knight"
@@ -3718,6 +3836,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Power"
@@ -3737,6 +3856,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -3756,6 +3876,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -3775,6 +3896,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -3794,6 +3916,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Common",
                         "traits": "Spirit \u2022 Knight"
@@ -3813,6 +3936,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Human"
@@ -3832,6 +3956,7 @@
                         "is_anomaly": false,
                         "is_enhanced": true,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Human \u2022 Knight"
@@ -3851,6 +3976,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -3870,6 +3996,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -3889,6 +4016,7 @@
                         "is_anomaly": false,
                         "is_enhanced": true,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": null
@@ -3908,6 +4036,7 @@
                         "is_anomaly": false,
                         "is_enhanced": true,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": null
@@ -3927,6 +4056,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -3946,6 +4076,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": "Item"
@@ -3965,6 +4096,7 @@
                         "is_anomaly": false,
                         "is_enhanced": true,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Rare",
                         "traits": "Mutant"
@@ -3984,6 +4116,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Imp"
@@ -4003,6 +4136,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Mutant \u2022 Scientist"
@@ -4022,6 +4156,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": "Location"
@@ -4041,6 +4176,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Variant",
                         "traits": "Mutant \u2022 Demon"
@@ -4050,17 +4186,20 @@
                     {
                         "id": "Logos",
                         "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
                         "name": "Logos"
-                    },
-                    {
-                        "id": "Sanctum",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
-                        "name": "Sanctum"
                     },
                     {
                         "id": "Dis",
                         "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "in_filters": true,
                         "name": "Dis"
+                    },
+                    {
+                        "id": "Sanctum",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
+                        "in_filters": true,
+                        "name": "Sanctum"
                     }
                 ],
                 "notes": []
@@ -4136,20 +4275,20 @@
         "dok_data": {
             "deck": {
                 "actionCount": 15,
-                "adaptiveScore": 0,
-                "aercScore": 49,
-                "aercVersion": 30,
+                "aercScore": 48,
+                "aercVersion": 37,
                 "amberControl": 5.9125000000000005,
                 "antisynergyRating": 0,
                 "artifactControl": 0.5,
                 "artifactCount": 3,
-                "creatureControl": 10.95,
+                "creatureControl": 12.8125,
                 "creatureCount": 18,
                 "creatureProtection": 1.75,
                 "dateAdded": "2019-06-06",
-                "effectivePower": 87,
+                "effectivePower": 78,
+                "efficiencyBonus": 0.0,
                 "expansion": "AGE_OF_ASCENSION",
-                "expectedAmber": 17.6125,
+                "expectedAmber": 17.9875,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -4421,32 +4560,31 @@
                 ],
                 "id": 955191,
                 "keyforgeId": "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00",
-                "lastSasUpdate": "2021-01-04",
+                "lastSasUpdate": "2021-04-02",
                 "metaScores": {},
                 "name": "Bases, the Swordsman of Fire",
-                "other": 1.0,
                 "previousMajorSasRating": 54,
-                "previousSasRating": 54,
+                "previousSasRating": 55,
                 "rawAmber": 12,
                 "recursion": 0.165,
-                "sasPercentile": 5.868144419900676,
+                "sasPercentile": 6.694182272373164,
                 "sasRating": 53,
-                "synergyRating": 4,
+                "synergyRating": 5,
                 "totalArmor": 4,
                 "totalPower": 91
             },
-            "sasVersion": 30
+            "sasVersion": 37
         },
         "dok_stats": {
-            "amberControl": 40.016596714553124,
-            "artifactControl": 45.98699892377712,
-            "creatureControl": 68.36199067526695,
-            "creatureProtection": 79.76416144577513,
+            "amberControl": 41.41117648203771,
+            "artifactControl": 45.9839131501903,
+            "creatureControl": 68.96613767012701,
+            "creatureProtection": 79.49883239074819,
             "disruption": 0,
-            "effectivePower": 60.85017334926542,
+            "effectivePower": 57.030555330056714,
             "efficiency": 0,
-            "expectedAmber": 49.656173612268276,
-            "recursion": 38.351893074622076
+            "expectedAmber": 49.81625405126467,
+            "recursion": 35.09293637941912
         },
         "user_data": {
             "deck_id": "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00"
@@ -4469,6 +4607,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "11",
                         "rarity": "Common",
                         "traits": "Giant \u2022 Location"
@@ -4488,6 +4627,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -4507,6 +4647,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "8",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -4526,6 +4667,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -4545,6 +4687,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Human"
@@ -4564,6 +4707,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -4583,6 +4727,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -4602,6 +4747,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -4621,6 +4767,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -4640,6 +4787,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": "Vehicle"
@@ -4659,6 +4807,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -4678,6 +4827,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -4697,6 +4847,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Power"
@@ -4716,6 +4867,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -4735,6 +4887,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -4754,6 +4907,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -4773,6 +4927,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -4792,6 +4947,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Human \u2022 Knight"
@@ -4811,6 +4967,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -4830,6 +4987,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Spirit \u2022 Knight"
@@ -4849,6 +5007,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": null
@@ -4868,6 +5027,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": null
@@ -4887,6 +5047,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Imp"
@@ -4906,6 +5067,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Human \u2022 Knight"
@@ -4925,6 +5087,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -4944,6 +5107,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Uncommon",
                         "traits": "Demon"
@@ -4963,6 +5127,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -4982,6 +5147,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Human \u2022 Thief"
@@ -5001,6 +5167,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Uncommon",
                         "traits": "Demon"
@@ -5020,6 +5187,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Uncommon",
                         "traits": "Giant"
@@ -5039,6 +5207,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Weapon"
@@ -5046,18 +5215,21 @@
                 ],
                 "houses": [
                     {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
-                        "name": "Dis"
-                    },
-                    {
                         "id": "Brobnar",
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
+                        "in_filters": true,
                         "name": "Brobnar"
+                    },
+                    {
+                        "id": "Dis",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "in_filters": true,
+                        "name": "Dis"
                     },
                     {
                         "id": "Sanctum",
                         "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
+                        "in_filters": true,
                         "name": "Sanctum"
                     }
                 ],
@@ -5134,18 +5306,18 @@
         "dok_data": {
             "deck": {
                 "actionCount": 17,
-                "adaptiveScore": 0,
-                "aercScore": 55,
-                "aercVersion": 29,
+                "aercScore": 56,
+                "aercVersion": 36,
                 "amberControl": 3.925,
                 "antisynergyRating": 2,
                 "artifactControl": 0.3325,
                 "artifactCount": 4,
-                "creatureControl": 16.7475,
+                "creatureControl": 21.055,
                 "creatureCount": 14,
                 "disruption": 1.0,
-                "effectivePower": 71,
-                "efficiency": -1.0,
+                "effectivePower": 54,
+                "efficiency": -3.0,
+                "efficiencyBonus": 0.0,
                 "expansion": "CALL_OF_THE_ARCHONS",
                 "expectedAmber": 19.5,
                 "housesAndCards": [
@@ -5419,30 +5591,30 @@
                 ],
                 "id": 391532,
                 "keyforgeId": "8dfbd01a-157b-4a51-8428-50ab1ed9edf7",
-                "lastSasUpdate": "2020-12-31",
+                "lastSasUpdate": "2021-03-01",
                 "metaScores": {},
                 "name": "Provost Flop-Ra, the Yellow Ranger",
                 "other": 3.25,
                 "previousMajorSasRating": 59,
-                "previousSasRating": 56,
+                "previousSasRating": 55,
                 "rawAmber": 14,
-                "sasPercentile": 10.733080110005455,
-                "sasRating": 55,
+                "sasPercentile": 15.117584589361867,
+                "sasRating": 56,
                 "synergyRating": 3,
                 "totalPower": 56,
                 "upgradeCount": 1
             },
-            "sasVersion": 30
+            "sasVersion": 37
         },
         "dok_stats": {
-            "amberControl": 19.628890626416787,
-            "artifactControl": 45.98699892377712,
-            "creatureControl": 96.99929881729419,
+            "amberControl": 20.758331232633623,
+            "artifactControl": 45.9839131501903,
+            "creatureControl": 97.12348933580385,
             "creatureProtection": 0,
-            "disruption": 53.443462218975036,
-            "effectivePower": 29.53232490252516,
-            "efficiency": 9.462643387590727,
-            "expectedAmber": 66.6591658631787,
+            "disruption": 53.174002974685735,
+            "effectivePower": 17.808236736751706,
+            "efficiency": 3.4535028514921615,
+            "expectedAmber": 66.66282131804309,
             "recursion": 0
         },
         "user_data": {
@@ -5466,6 +5638,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Elf \u2022 Thief"
@@ -5485,6 +5658,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -5504,6 +5678,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -5523,6 +5698,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -5542,6 +5718,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Rare",
                         "traits": "Beast"
@@ -5561,6 +5738,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -5580,6 +5758,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -5599,6 +5778,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "7",
                         "rarity": "Uncommon",
                         "traits": "Beast"
@@ -5618,6 +5798,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Elf \u2022 Thief"
@@ -5637,6 +5818,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -5656,6 +5838,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -5675,6 +5858,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Uncommon",
                         "traits": "Elf \u2022 Thief"
@@ -5694,6 +5878,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -5713,6 +5898,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": "Weapon"
@@ -5732,6 +5918,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -5751,6 +5938,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Rare",
                         "traits": "Giant \u2022 Mutant"
@@ -5770,6 +5958,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": "Weapon"
@@ -5789,6 +5978,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -5808,6 +5998,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -5827,6 +6018,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -5846,6 +6038,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -5865,6 +6058,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Uncommon",
                         "traits": "Beast"
@@ -5884,6 +6078,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": "Weapon"
@@ -5903,6 +6098,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Rare",
                         "traits": "Human \u2022 Ranger"
@@ -5922,6 +6118,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Uncommon",
                         "traits": "Giant"
@@ -5941,6 +6138,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -5960,6 +6158,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Beast"
@@ -5979,6 +6178,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Cyborg \u2022 Thief"
@@ -5998,6 +6198,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -6017,6 +6218,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": "Power"
@@ -6036,6 +6238,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -6055,6 +6258,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -6062,18 +6266,21 @@
                 ],
                 "houses": [
                     {
-                        "id": "Untamed",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
-                        "name": "Untamed"
-                    },
-                    {
                         "id": "Shadows",
                         "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "in_filters": true,
                         "name": "Shadows"
+                    },
+                    {
+                        "id": "Untamed",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
+                        "in_filters": true,
+                        "name": "Untamed"
                     },
                     {
                         "id": "Brobnar",
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
+                        "in_filters": true,
                         "name": "Brobnar"
                     }
                 ],
@@ -6150,21 +6357,21 @@
         "dok_data": {
             "deck": {
                 "actionCount": 16,
-                "adaptiveScore": 0,
-                "aercScore": 50,
-                "aercVersion": 29,
+                "aercScore": 51,
+                "aercVersion": 31,
                 "amberControl": 7.609999999999999,
                 "antisynergyRating": 0,
                 "artifactControl": 3.0,
                 "artifactCount": 5,
                 "cardArchiveCount": 3,
                 "cardDrawCount": 1,
-                "creatureControl": 11.0125,
+                "creatureControl": 11.024999999999999,
                 "creatureCount": 15,
                 "creatureProtection": 2.25,
                 "dateAdded": "2020-01-05",
                 "effectivePower": 77,
                 "efficiency": 1.25,
+                "efficiencyBonus": 0.0,
                 "expansion": "AGE_OF_ASCENSION",
                 "expectedAmber": 18.1125,
                 "housesAndCards": [
@@ -6439,7 +6646,7 @@
                 "id": 1648089,
                 "keyCheatCount": 2,
                 "keyforgeId": "a4268ae8-a9f6-48c7-9739-b28a3553b108",
-                "lastSasUpdate": "2021-01-01",
+                "lastSasUpdate": "2021-02-02",
                 "metaScores": {},
                 "name": "Sneaking \u201cSiphon\u201d Zebulon",
                 "other": 0.825,
@@ -6447,24 +6654,24 @@
                 "previousSasRating": 58,
                 "rawAmber": 12,
                 "recursion": 0.925,
-                "sasPercentile": 32.82066765696262,
+                "sasPercentile": 33.66550499159483,
                 "sasRating": 60,
-                "synergyRating": 8,
+                "synergyRating": 7,
                 "totalArmor": 16,
                 "totalPower": 40
             },
-            "sasVersion": 30
+            "sasVersion": 37
         },
         "dok_stats": {
-            "amberControl": 61.45156688461723,
-            "artifactControl": 98.49713331633784,
-            "creatureControl": 68.36199067526695,
-            "creatureProtection": 79.76416144577513,
+            "amberControl": 62.70410612022839,
+            "artifactControl": 98.44965987654058,
+            "creatureControl": 52.98681520156511,
+            "creatureProtection": 79.49883239074819,
             "disruption": 0,
-            "effectivePower": 41.21031635825547,
-            "efficiency": 39.2677032017512,
-            "expectedAmber": 49.656173612268276,
-            "recursion": 60.94692421957225
+            "effectivePower": 55.277313724903756,
+            "efficiency": 41.50336990212401,
+            "expectedAmber": 49.81625405126467,
+            "recursion": 58.70190525155938
         },
         "user_data": {
             "deck_id": "a4268ae8-a9f6-48c7-9739-b28a3553b108"
@@ -6487,6 +6694,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -6506,6 +6714,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Martian \u2022 Scientist"
@@ -6525,6 +6734,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -6544,6 +6754,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": "Weapon"
@@ -6563,6 +6774,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Martian \u2022 Soldier"
@@ -6582,6 +6794,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Rare",
                         "traits": "Elf \u2022 Thief"
@@ -6601,6 +6814,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -6620,6 +6834,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -6639,6 +6854,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Elf \u2022 Thief"
@@ -6658,6 +6874,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Beast"
@@ -6677,6 +6894,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -6696,6 +6914,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Elf \u2022 Thief"
@@ -6715,6 +6934,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Human \u2022 Thief"
@@ -6734,6 +6954,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -6753,6 +6974,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -6772,6 +6994,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Elf \u2022 Thief"
@@ -6791,6 +7014,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -6810,6 +7034,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Martian \u2022 Soldier"
@@ -6829,6 +7054,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Human \u2022 Knight"
@@ -6848,6 +7074,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -6867,6 +7094,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Martian \u2022 Soldier"
@@ -6886,6 +7114,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": "Quest"
@@ -6905,6 +7134,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Human \u2022 Knight"
@@ -6924,6 +7154,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -6943,6 +7174,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -6962,6 +7194,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": "Item"
@@ -6981,6 +7214,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Human \u2022 Thief"
@@ -7000,6 +7234,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -7019,6 +7254,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Item"
@@ -7038,6 +7274,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -7057,6 +7294,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Location"
@@ -7064,19 +7302,22 @@
                 ],
                 "houses": [
                     {
-                        "id": "Sanctum",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
-                        "name": "Sanctum"
-                    },
-                    {
                         "id": "Mars",
                         "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
+                        "in_filters": true,
                         "name": "Mars"
                     },
                     {
                         "id": "Shadows",
                         "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "in_filters": true,
                         "name": "Shadows"
+                    },
+                    {
+                        "id": "Sanctum",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
+                        "in_filters": true,
+                        "name": "Sanctum"
                     }
                 ],
                 "notes": []
@@ -7152,22 +7393,22 @@
         "dok_data": {
             "deck": {
                 "actionCount": 16,
-                "adaptiveScore": 0,
-                "aercScore": 59,
-                "aercVersion": 29,
-                "amberControl": 9.56,
+                "aercScore": 60,
+                "aercVersion": 37,
+                "amberControl": 9.825,
                 "antisynergyRating": 0,
                 "artifactControl": 0.75,
                 "artifactCount": 4,
                 "cardArchiveCount": 1,
-                "creatureControl": 8.275,
+                "creatureControl": 8.775,
                 "creatureCount": 15,
                 "creatureProtection": 3.5,
                 "disruption": 2.5,
                 "effectivePower": 62,
                 "efficiency": 6.25,
+                "efficiencyBonus": 0.0,
                 "expansion": "CALL_OF_THE_ARCHONS",
-                "expectedAmber": 21.2475,
+                "expectedAmber": 21.4525,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -7439,31 +7680,31 @@
                 ],
                 "id": 391536,
                 "keyforgeId": "aebaeba5-5918-4573-983a-72d0a5c6133d",
-                "lastSasUpdate": "2020-12-31",
+                "lastSasUpdate": "2021-04-02",
                 "metaScores": {},
                 "name": "Rask of Merosen Shelter",
                 "other": 1.7,
                 "previousMajorSasRating": 66,
-                "previousSasRating": 65,
+                "previousSasRating": 66,
                 "rawAmber": 11,
-                "sasPercentile": 68.47901270436722,
-                "sasRating": 66,
+                "sasPercentile": 72.80764094508226,
+                "sasRating": 67,
                 "synergyRating": 7,
                 "totalArmor": 8,
                 "totalPower": 51,
                 "upgradeCount": 1
             },
-            "sasVersion": 30
+            "sasVersion": 37
         },
         "dok_stats": {
-            "amberControl": 78.68086502304124,
-            "artifactControl": 76.4976090002046,
-            "creatureControl": 36.77173963096996,
-            "creatureProtection": 95.02297951853387,
-            "disruption": 63.68894262882274,
-            "effectivePower": 14.895741205189227,
-            "efficiency": 67.38840537190455,
-            "expectedAmber": 74.06791835138036,
+            "amberControl": 79.59268738122739,
+            "artifactControl": 76.53036567366473,
+            "creatureControl": 35.01061743481066,
+            "creatureProtection": 94.89048114805969,
+            "disruption": 63.464773046100035,
+            "effectivePower": 29.165070372253485,
+            "efficiency": 68.7593433663701,
+            "expectedAmber": 74.00914623291135,
             "recursion": 0
         },
         "user_data": {
@@ -7487,6 +7728,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Common",
                         "traits": "Cyborg \u2022 Scientist"
@@ -7506,6 +7748,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Human \u2022 Knight"
@@ -7525,6 +7768,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -7544,6 +7788,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -7563,6 +7808,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -7582,6 +7828,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Rare",
                         "traits": null
@@ -7601,6 +7848,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Rare",
                         "traits": null
@@ -7620,6 +7868,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Rare",
                         "traits": "Mutant"
@@ -7639,6 +7888,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Rare",
                         "traits": "Human \u2022 Scientist"
@@ -7658,6 +7908,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Human \u2022 Thief"
@@ -7677,6 +7928,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -7696,6 +7948,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Human \u2022 Knight"
@@ -7715,6 +7968,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "9",
                         "rarity": "Common",
                         "traits": "Specter"
@@ -7734,6 +7988,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Rare",
                         "traits": "Knight \u2022 Spirit"
@@ -7753,6 +8008,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Elf \u2022 Thief"
@@ -7772,6 +8028,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": "Weapon"
@@ -7791,6 +8048,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Human \u2022 Knight"
@@ -7810,6 +8068,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Human \u2022 Knight"
@@ -7829,6 +8088,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Robot"
@@ -7848,6 +8108,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -7867,6 +8128,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Human \u2022 Scientist"
@@ -7886,6 +8148,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -7905,6 +8168,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -7924,6 +8188,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -7943,6 +8208,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -7962,6 +8228,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -7981,6 +8248,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": "Power"
@@ -8000,6 +8268,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -8019,6 +8288,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": "Item"
@@ -8028,16 +8298,19 @@
                     {
                         "id": "Logos",
                         "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
                         "name": "Logos"
                     },
                     {
                         "id": "Shadows",
                         "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "in_filters": true,
                         "name": "Shadows"
                     },
                     {
                         "id": "Sanctum",
                         "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
+                        "in_filters": true,
                         "name": "Sanctum"
                     }
                 ],
@@ -8114,10 +8387,9 @@
         "dok_data": {
             "deck": {
                 "actionCount": 15,
-                "adaptiveScore": 0,
-                "aercScore": 52,
-                "aercVersion": 29,
-                "amberControl": 6.725,
+                "aercScore": 53,
+                "aercVersion": 37,
+                "amberControl": 6.89,
                 "antisynergyRating": 1,
                 "artifactControl": 2.025,
                 "artifactCount": 3,
@@ -8128,10 +8400,11 @@
                 "creatureProtection": 1.0,
                 "dateAdded": "2019-06-06",
                 "disruption": 2.525,
-                "effectivePower": 75,
+                "effectivePower": 80,
                 "efficiency": 2.5,
+                "efficiencyBonus": 0.0,
                 "expansion": "AGE_OF_ASCENSION",
-                "expectedAmber": 20.8375,
+                "expectedAmber": 21.002499999999998,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -8404,31 +8677,31 @@
                 "id": 955188,
                 "keyCheatCount": 1,
                 "keyforgeId": "b41630b3-7394-4ac5-9102-0c4dcb2e1b8a",
-                "lastSasUpdate": "2021-01-01",
+                "lastSasUpdate": "2021-04-02",
                 "metaScores": {},
                 "name": "Byrne, Outerhill's Survivalist",
-                "other": 3.37,
+                "other": 2.9,
                 "previousMajorSasRating": 61,
-                "previousSasRating": 63,
+                "previousSasRating": 62,
                 "rawAmber": 15,
-                "sasPercentile": 44.71361884809496,
-                "sasRating": 62,
+                "sasPercentile": 51.05773197540306,
+                "sasRating": 63,
                 "synergyRating": 10,
                 "totalArmor": 2,
                 "totalPower": 63,
                 "upgradeCount": 1
             },
-            "sasVersion": 30
+            "sasVersion": 37
         },
         "dok_stats": {
-            "amberControl": 50.97004853209751,
-            "artifactControl": 93.84673010067692,
-            "creatureControl": 36.77173963096996,
-            "creatureProtection": 58.83976812073065,
-            "disruption": 73.63553026170683,
-            "effectivePower": 37.23602987218726,
-            "efficiency": 46.95009259694432,
-            "expectedAmber": 74.06791835138036,
+            "amberControl": 52.33239383395974,
+            "artifactControl": 93.91081924440324,
+            "creatureControl": 26.361573858465533,
+            "creatureProtection": 58.62998299026652,
+            "disruption": 73.44164873357478,
+            "effectivePower": 60.48453291594685,
+            "efficiency": 48.935194482067146,
+            "expectedAmber": 74.00914623291135,
             "recursion": 0
         },
         "user_data": {
@@ -8452,6 +8725,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -8471,6 +8745,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -8490,6 +8765,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "11",
                         "rarity": "Common",
                         "traits": "Giant \u2022 Location"
@@ -8509,6 +8785,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Elf \u2022 Thief"
@@ -8528,6 +8805,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Variant",
                         "traits": "Imp"
@@ -8547,6 +8825,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Vehicle"
@@ -8566,6 +8845,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": "Item"
@@ -8585,6 +8865,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -8604,6 +8885,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -8623,6 +8905,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -8642,6 +8925,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Imp"
@@ -8661,6 +8945,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Uncommon",
                         "traits": "Demon"
@@ -8680,6 +8965,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": null
@@ -8699,6 +8985,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -8718,6 +9005,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -8737,6 +9025,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Elf \u2022 Thief"
@@ -8756,6 +9045,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": null
@@ -8775,6 +9065,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -8794,6 +9085,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": null
@@ -8813,6 +9105,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -8832,6 +9125,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -8851,6 +9145,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -8870,6 +9165,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -8889,6 +9185,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -8908,6 +9205,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -8927,6 +9225,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -8946,6 +9245,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -8965,6 +9265,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Power"
@@ -8984,6 +9285,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -9003,6 +9305,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Giant \u2022 Knight"
@@ -9022,6 +9325,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -9029,19 +9333,22 @@
                 ],
                 "houses": [
                     {
+                        "id": "Shadows",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "in_filters": true,
+                        "name": "Shadows"
+                    },
+                    {
                         "id": "Dis",
                         "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "in_filters": true,
                         "name": "Dis"
                     },
                     {
                         "id": "Brobnar",
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
+                        "in_filters": true,
                         "name": "Brobnar"
-                    },
-                    {
-                        "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
-                        "name": "Shadows"
                     }
                 ],
                 "notes": []
@@ -9117,21 +9424,21 @@
         "dok_data": {
             "deck": {
                 "actionCount": 12,
-                "adaptiveScore": 0,
-                "aercScore": 53,
-                "aercVersion": 29,
+                "aercScore": 54,
+                "aercVersion": 37,
                 "amberControl": 4.075,
                 "antisynergyRating": 4,
                 "artifactCount": 2,
                 "cardArchiveCount": 4,
                 "cardDrawCount": 2,
-                "creatureControl": 9.4625,
+                "creatureControl": 13.4875,
                 "creatureCount": 20,
                 "creatureProtection": 0.75,
                 "dateAdded": "2020-01-05",
                 "disruption": 5.075,
-                "effectivePower": 89,
-                "efficiency": 4.2,
+                "effectivePower": 75,
+                "efficiency": 3.2,
+                "efficiencyBonus": 0.0,
                 "expansion": "AGE_OF_ASCENSION",
                 "expectedAmber": 13.79,
                 "housesAndCards": [
@@ -9406,33 +9713,33 @@
                 "id": 1648088,
                 "keyCheatCount": 1,
                 "keyforgeId": "bfbf6786-218c-4320-a7b1-7ed4d6eddc69",
-                "lastSasUpdate": "2021-01-01",
+                "lastSasUpdate": "2021-04-02",
                 "metaScores": {},
                 "name": "Crawling \u201cMartini\u201d Quasimodo",
-                "other": 2.1875,
+                "other": 1.1875,
                 "previousMajorSasRating": 58,
                 "previousSasRating": 58,
                 "rawAmber": 9,
                 "recursion": 1.075,
-                "sasPercentile": 17.90327856322584,
+                "sasPercentile": 19.02070838917397,
                 "sasRating": 57,
-                "synergyRating": 8,
+                "synergyRating": 7,
                 "totalArmor": 2,
                 "totalPower": 93,
                 "upgradeCount": 2
             },
-            "sasVersion": 30
+            "sasVersion": 37
         },
         "dok_stats": {
-            "amberControl": 19.628890626416787,
+            "amberControl": 20.758331232633623,
             "artifactControl": 0,
-            "creatureControl": 47.78738165464877,
-            "creatureProtection": 58.83976812073065,
-            "disruption": 85.05360463454709,
-            "effectivePower": 64.4928103849099,
-            "efficiency": 57.33718627770728,
-            "expectedAmber": 17.381260619215066,
-            "recursion": 60.94692421957225
+            "creatureControl": 68.96613767012701,
+            "creatureProtection": 58.62998299026652,
+            "disruption": 84.90183204751521,
+            "effectivePower": 51.73304165651922,
+            "efficiency": 54.33097817598499,
+            "expectedAmber": 17.76437127837903,
+            "recursion": 58.70190525155938
         },
         "user_data": {
             "deck_id": "bfbf6786-218c-4320-a7b1-7ed4d6eddc69"
@@ -9455,6 +9762,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": "Location"
@@ -9474,6 +9782,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "11",
                         "rarity": "Common",
                         "traits": "Giant \u2022 Location"
@@ -9493,6 +9802,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -9512,6 +9822,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -9531,6 +9842,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Variant",
                         "traits": "Imp"
@@ -9550,6 +9862,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "7",
                         "rarity": "Rare",
                         "traits": "Giant"
@@ -9569,6 +9882,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -9588,6 +9902,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Cyborg \u2022 Scientist"
@@ -9607,6 +9922,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -9626,6 +9942,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -9645,6 +9962,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -9664,6 +9982,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Human \u2022 Scientist"
@@ -9683,6 +10002,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "7",
                         "rarity": "Rare",
                         "traits": "Demon"
@@ -9702,6 +10022,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -9721,6 +10042,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "7",
                         "rarity": "Rare",
                         "traits": "Giant"
@@ -9740,6 +10062,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -9759,6 +10082,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -9778,6 +10102,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": null
@@ -9797,6 +10122,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -9816,6 +10142,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -9835,6 +10162,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -9854,6 +10182,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -9873,6 +10202,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "7",
                         "rarity": "Uncommon",
                         "traits": "Demon"
@@ -9892,6 +10222,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Human \u2022 Scientist"
@@ -9911,6 +10242,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Uncommon",
                         "traits": "Demon"
@@ -9930,6 +10262,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Variant",
                         "traits": "Imp"
@@ -9949,6 +10282,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Rare",
                         "traits": "Cyborg \u2022 Scientist"
@@ -9968,6 +10302,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -9987,6 +10322,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Power"
@@ -10006,6 +10342,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -10025,6 +10362,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -10044,6 +10382,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Uncommon",
                         "traits": "Giant"
@@ -10063,6 +10402,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Imp"
@@ -10082,6 +10422,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -10091,17 +10432,20 @@
                     {
                         "id": "Dis",
                         "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "in_filters": true,
                         "name": "Dis"
-                    },
-                    {
-                        "id": "Brobnar",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
-                        "name": "Brobnar"
                     },
                     {
                         "id": "Logos",
                         "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
                         "name": "Logos"
+                    },
+                    {
+                        "id": "Brobnar",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
+                        "in_filters": true,
+                        "name": "Brobnar"
                     }
                 ],
                 "notes": []
@@ -10179,24 +10523,24 @@
         "dok_data": {
             "deck": {
                 "actionCount": 16,
-                "adaptiveScore": 0,
-                "aercScore": 60,
-                "aercVersion": 30,
-                "amberControl": 6.57,
+                "aercScore": 59,
+                "aercVersion": 37,
+                "amberControl": 6.194999999999999,
                 "antisynergyRating": 0,
                 "artifactControl": 3.0,
                 "artifactCount": 4,
                 "cardArchiveCount": 3,
                 "cardDrawCount": 2,
-                "creatureControl": 7.125,
+                "creatureControl": 8.2875,
                 "creatureCount": 14,
                 "creatureProtection": 0.75,
                 "dateAdded": "2019-11-10",
-                "disruption": 3.645,
-                "effectivePower": 53,
+                "disruption": 4.145,
+                "effectivePower": 55,
                 "efficiency": 9.8,
+                "efficiencyBonus": 0.0,
                 "expansion": "WORLDS_COLLIDE",
-                "expectedAmber": 20.9325,
+                "expectedAmber": 21.3075,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -10469,33 +10813,33 @@
                 "id": 1407995,
                 "keyCheatCount": 1,
                 "keyforgeId": "c94bc221-1da8-455f-965a-9ad436c7d5b9",
-                "lastSasUpdate": "2021-01-04",
+                "lastSasUpdate": "2021-04-02",
                 "metaScores": {},
                 "name": "Zebrogus, the Servant Wanderer",
                 "other": 0.45,
                 "previousMajorSasRating": 66,
-                "previousSasRating": 66,
+                "previousSasRating": 68,
                 "rawAmber": 16,
                 "recursion": 2.8499999999999996,
-                "sasPercentile": 78.32049414154017,
-                "sasRating": 68,
-                "synergyRating": 6,
+                "sasPercentile": 81.32318920871745,
+                "sasRating": 69,
+                "synergyRating": 8,
                 "totalArmor": 5,
                 "totalPower": 45,
                 "upgradeCount": 2
             },
-            "sasVersion": 30
+            "sasVersion": 37
         },
         "dok_stats": {
-            "amberControl": 50.97004853209751,
-            "artifactControl": 98.49713331633784,
-            "creatureControl": 26.30460573070881,
-            "creatureProtection": 58.83976812073065,
-            "disruption": 79.95044722353961,
-            "effectivePower": 5.547698701269107,
-            "efficiency": 87.17367350901354,
-            "expectedAmber": 74.06791835138036,
-            "recursion": 82.15126841910123
+            "amberControl": 41.41117648203771,
+            "artifactControl": 98.44965987654058,
+            "creatureControl": 26.361573858465533,
+            "creatureProtection": 58.62998299026652,
+            "disruption": 79.8010008350578,
+            "effectivePower": 19.06063355204347,
+            "efficiency": 87.29753171344463,
+            "expectedAmber": 74.00914623291135,
+            "recursion": 80.98418137512515
         },
         "user_data": {
             "deck_id": "c94bc221-1da8-455f-965a-9ad436c7d5b9"
@@ -10518,6 +10862,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": null
@@ -10537,6 +10882,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Uncommon",
                         "traits": "Demon"
@@ -10556,6 +10902,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": "Item"
@@ -10575,6 +10922,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -10594,6 +10942,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -10613,6 +10962,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Uncommon",
                         "traits": "Robot \u2022 Experiment"
@@ -10632,6 +10982,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Elf \u2022 Thief"
@@ -10651,6 +11002,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Elf \u2022 Thief"
@@ -10670,6 +11022,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -10689,6 +11042,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -10708,6 +11062,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -10727,6 +11082,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Item"
@@ -10746,6 +11102,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -10765,6 +11122,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": null
@@ -10784,6 +11142,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -10803,6 +11162,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Human \u2022 Thief"
@@ -10822,6 +11182,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "AI \u2022 Scientist"
@@ -10841,6 +11202,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -10860,6 +11222,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Cyborg \u2022 Scientist"
@@ -10879,6 +11242,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -10898,6 +11262,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -10917,6 +11282,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -10936,6 +11302,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -10955,6 +11322,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Item"
@@ -10974,6 +11342,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -10993,6 +11362,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -11012,6 +11382,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Uncommon",
                         "traits": "Elf \u2022 Thief"
@@ -11031,6 +11402,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -11050,6 +11422,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Elf \u2022 Thief"
@@ -11069,6 +11442,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "7",
                         "rarity": "Uncommon",
                         "traits": "Demon"
@@ -11088,6 +11462,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": "Weapon"
@@ -11107,6 +11482,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Cyborg \u2022 Scientist"
@@ -11126,6 +11502,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -11145,6 +11522,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -11164,6 +11542,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Variant",
                         "traits": null
@@ -11171,19 +11550,22 @@
                 ],
                 "houses": [
                     {
+                        "id": "Logos",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
+                        "name": "Logos"
+                    },
+                    {
                         "id": "Dis",
                         "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "in_filters": true,
                         "name": "Dis"
                     },
                     {
                         "id": "Shadows",
                         "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "in_filters": true,
                         "name": "Shadows"
-                    },
-                    {
-                        "id": "Logos",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
-                        "name": "Logos"
                     }
                 ],
                 "notes": []
@@ -11259,23 +11641,23 @@
         "dok_data": {
             "deck": {
                 "actionCount": 6,
-                "adaptiveScore": 0,
                 "aercScore": 55,
-                "aercVersion": 29,
-                "amberControl": 10.695000000000002,
+                "aercVersion": 37,
+                "amberControl": 10.257500000000002,
                 "antisynergyRating": 1,
                 "artifactCount": 4,
                 "cardArchiveCount": 4,
                 "cardDrawCount": 4,
-                "creatureControl": 5.59375,
+                "creatureControl": 6.75,
                 "creatureCount": 25,
                 "creatureProtection": 4.375,
                 "dateAdded": "2019-11-12",
-                "disruption": 1.2,
-                "effectivePower": 102,
-                "efficiency": 9.287500000000001,
+                "disruption": 1.325,
+                "effectivePower": 90,
+                "efficiency": 10.037500000000001,
+                "efficiencyBonus": 0.0,
                 "expansion": "WORLDS_COLLIDE",
-                "expectedAmber": 13.745000000000001,
+                "expectedAmber": 13.370000000000001,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -11548,33 +11930,33 @@
                 "id": 1445087,
                 "keyCheatCount": 1,
                 "keyforgeId": "c98e4663-351e-4dfb-9ce8-4578ee8f54ad",
-                "lastSasUpdate": "2021-01-01",
+                "lastSasUpdate": "2021-04-02",
                 "metaScores": {},
                 "name": "Du\u2019lac, the Baron of Ustoth",
-                "other": 2.2750000000000004,
+                "other": 2.675,
                 "previousMajorSasRating": 65,
                 "previousSasRating": 68,
                 "rawAmber": 7,
                 "recursion": 0.5,
-                "sasPercentile": 73.65148133747871,
+                "sasPercentile": 72.80764094508226,
                 "sasRating": 67,
                 "synergyRating": 14,
                 "totalArmor": 8,
                 "totalPower": 87,
                 "upgradeCount": 1
             },
-            "sasVersion": 30
+            "sasVersion": 37
         },
         "dok_stats": {
-            "amberControl": 84.9856701421972,
+            "amberControl": 79.59268738122739,
             "artifactControl": 0,
-            "creatureControl": 17.172282537227485,
-            "creatureProtection": 95.02297951853387,
-            "disruption": 53.443462218975036,
-            "effectivePower": 83.47948031774922,
-            "efficiency": 82.89370554409072,
-            "expectedAmber": 17.381260619215066,
-            "recursion": 38.351893074622076
+            "creatureControl": 18.4985954982836,
+            "creatureProtection": 94.89048114805969,
+            "disruption": 53.174002974685735,
+            "effectivePower": 75.83336063056122,
+            "efficiency": 87.29753171344463,
+            "expectedAmber": 12.193268171289867,
+            "recursion": 35.09293637941912
         },
         "user_data": {
             "deck_id": "c98e4663-351e-4dfb-9ce8-4578ee8f54ad"
@@ -11597,6 +11979,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -11616,6 +11999,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Uncommon",
                         "traits": "Robot \u2022 Experiment"
@@ -11635,6 +12019,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Variant",
                         "traits": null
@@ -11654,6 +12039,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Rare",
                         "traits": "Human \u2022 Scientist"
@@ -11673,6 +12059,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Uncommon",
                         "traits": "Demon"
@@ -11692,6 +12079,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "FIXED",
                         "traits": "Human \u2022 Scientist"
@@ -11711,6 +12099,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": "Item"
@@ -11730,6 +12119,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Dinosaur \u2022 Soldier"
@@ -11749,6 +12139,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -11768,6 +12159,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Uncommon",
                         "traits": "Dinosaur \u2022 Politician"
@@ -11787,6 +12179,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Dinosaur \u2022 Politician"
@@ -11806,6 +12199,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -11825,6 +12219,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
                         "traits": null
@@ -11844,6 +12239,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -11863,6 +12259,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Dinosaur \u2022 Politician"
@@ -11882,6 +12279,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Dinosaur \u2022 Soldier"
@@ -11901,6 +12299,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Cyborg \u2022 Scientist"
@@ -11920,6 +12319,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "AI \u2022 Scientist"
@@ -11939,6 +12339,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Beast"
@@ -11958,6 +12359,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Human \u2022 Scientist"
@@ -11977,6 +12379,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -11996,6 +12399,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Uncommon",
                         "traits": "Dinosaur \u2022 Philosopher"
@@ -12015,6 +12419,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -12034,6 +12439,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": null
@@ -12053,6 +12459,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Uncommon",
                         "traits": "Dinosaur \u2022 Soldier"
@@ -12072,6 +12479,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Item"
@@ -12091,6 +12499,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -12110,6 +12519,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Dinosaur \u2022 Politician"
@@ -12129,6 +12539,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Imp"
@@ -12148,6 +12559,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
                         "traits": "Robot \u2022 Ally"
@@ -12167,6 +12579,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Demon"
@@ -12186,6 +12599,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
                         "traits": "Item"
@@ -12193,18 +12607,21 @@
                 ],
                 "houses": [
                     {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
-                        "name": "Dis"
-                    },
-                    {
                         "id": "Saurian",
                         "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
+                        "in_filters": true,
                         "name": "Saurian"
+                    },
+                    {
+                        "id": "Dis",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "in_filters": true,
+                        "name": "Dis"
                     },
                     {
                         "id": "Logos",
                         "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
                         "name": "Logos"
                     }
                 ],
@@ -12281,20 +12698,20 @@
         "dok_data": {
             "deck": {
                 "actionCount": 10,
-                "adaptiveScore": 0,
-                "aercScore": 53,
-                "aercVersion": 29,
+                "aercScore": 55,
+                "aercVersion": 36,
                 "amberControl": 6.0,
                 "antisynergyRating": 4,
                 "artifactCount": 4,
                 "cardArchiveCount": 1,
-                "creatureControl": 8.2,
+                "creatureControl": 12.749999999999998,
                 "creatureCount": 19,
                 "creatureProtection": 1.5,
-                "effectivePower": 85,
-                "efficiency": -0.5,
+                "effectivePower": 66,
+                "efficiency": -1.0,
+                "efficiencyBonus": 0.0,
                 "expansion": "CALL_OF_THE_ARCHONS",
-                "expectedAmber": 16.2,
+                "expectedAmber": 15.7,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -12567,32 +12984,32 @@
                 "id": 527299,
                 "keyCheatCount": 1,
                 "keyforgeId": "cface028-c891-46bf-9eb0-b9fc2280a718",
-                "lastSasUpdate": "2021-01-01",
+                "lastSasUpdate": "2021-03-01",
                 "metaScores": {},
                 "name": "Grassspell of the Recordkeeper's Shrine",
                 "other": 4.1875,
                 "previousMajorSasRating": 56,
-                "previousSasRating": 55,
+                "previousSasRating": 57,
                 "rawAmber": 10,
                 "recursion": 3.8875,
-                "sasPercentile": 14.022277386359267,
-                "sasRating": 56,
+                "sasPercentile": 23.437589754472118,
+                "sasRating": 58,
                 "synergyRating": 6,
                 "totalPower": 77,
                 "upgradeCount": 3
             },
-            "sasVersion": 30
+            "sasVersion": 37
         },
         "dok_stats": {
-            "amberControl": 40.016596714553124,
+            "amberControl": 41.41117648203771,
             "artifactControl": 0,
-            "creatureControl": 36.77173963096996,
-            "creatureProtection": 79.76416144577513,
+            "creatureControl": 68.96613767012701,
+            "creatureProtection": 79.49883239074819,
             "disruption": 0,
-            "effectivePower": 57.08249127319493,
-            "efficiency": 28.020770579380102,
-            "expectedAmber": 32.122618198183574,
-            "recursion": 89.74735110074292
+            "effectivePower": 35.78676070205622,
+            "efficiency": 17.202190804299764,
+            "expectedAmber": 32.45099198126128,
+            "recursion": 88.71361694915737
         },
         "user_data": {
             "deck_id": "cface028-c891-46bf-9eb0-b9fc2280a718"
@@ -12615,6 +13032,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "7",
                         "rarity": "Uncommon",
                         "traits": "Beast"
@@ -12634,6 +13052,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Martian \u2022 Soldier"
@@ -12653,6 +13072,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": "Weapon"
@@ -12672,6 +13092,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -12691,6 +13112,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -12710,6 +13132,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -12729,6 +13152,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -12748,6 +13172,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": "Item"
@@ -12767,6 +13192,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "7",
                         "rarity": "Uncommon",
                         "traits": "Beast"
@@ -12786,6 +13212,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
                         "traits": "Faerie"
@@ -12805,6 +13232,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Uncommon",
                         "traits": "Martian \u2022 Scientist"
@@ -12824,6 +13252,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Rare",
                         "traits": null
@@ -12843,6 +13272,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
                         "traits": "Faerie"
@@ -12862,6 +13292,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Uncommon",
                         "traits": "Fungus \u2022 Human"
@@ -12881,6 +13312,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Uncommon",
                         "traits": "Giant \u2022 Knight"
@@ -12900,6 +13332,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": "Weapon"
@@ -12919,6 +13352,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "8",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -12938,6 +13372,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Common",
                         "traits": "Giant"
@@ -12957,6 +13392,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -12976,6 +13412,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -12995,6 +13432,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -13014,6 +13452,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Beast \u2022 Niffle"
@@ -13033,6 +13472,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
                         "traits": "Human \u2022 Witch"
@@ -13052,6 +13492,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "6",
                         "rarity": "Rare",
                         "traits": "Beast"
@@ -13071,6 +13512,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -13090,6 +13532,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Uncommon",
                         "traits": "Giant"
@@ -13109,6 +13552,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
                         "traits": null
@@ -13128,6 +13572,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
                         "traits": "Beast"
@@ -13147,6 +13592,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "0",
                         "rarity": "Common",
                         "traits": null
@@ -13166,6 +13612,7 @@
                         "is_anomaly": false,
                         "is_enhanced": false,
                         "is_maverick": false,
+                        "is_non_deck": false,
                         "power": "2",
                         "rarity": "Rare",
                         "traits": "Goblin"
@@ -13173,18 +13620,21 @@
                 ],
                 "houses": [
                     {
-                        "id": "Untamed",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
-                        "name": "Untamed"
-                    },
-                    {
                         "id": "Mars",
                         "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
+                        "in_filters": true,
                         "name": "Mars"
+                    },
+                    {
+                        "id": "Untamed",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
+                        "in_filters": true,
+                        "name": "Untamed"
                     },
                     {
                         "id": "Brobnar",
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
+                        "in_filters": true,
                         "name": "Brobnar"
                     }
                 ],
