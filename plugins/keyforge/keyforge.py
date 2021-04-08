@@ -139,7 +139,7 @@ def parse_dok_stats(dok_data, dok_decks_data):
     for f in fields:
         try:
             output[f] = dok_decks_data[f + "Stats"]["percentileForValue"][
-                str(round(dok_data["deck"][f]))
+                str(round(dok_data["deck"].get(f, 0)))
             ]
         except:
             output[f] = 0

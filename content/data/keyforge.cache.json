@@ -310,7 +310,7 @@
             "amberControl": 62.70410612022839,
             "artifactControl": 76.53036567366473,
             "creatureControl": 18.4985954982836,
-            "creatureProtection": 0,
+            "creatureProtection": 21.078729477825394,
             "disruption": 53.174002974685735,
             "effectivePower": 27.58562903019833,
             "efficiency": 90.64687783802157,
@@ -986,12 +986,6 @@
                 ],
                 "houses": [
                     {
-                        "id": "Logos",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
-                        "in_filters": true,
-                        "name": "Logos"
-                    },
-                    {
                         "id": "Mars",
                         "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
                         "in_filters": true,
@@ -1002,6 +996,12 @@
                         "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
                         "in_filters": true,
                         "name": "Shadows"
+                    },
+                    {
+                        "id": "Logos",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
+                        "name": "Logos"
                     }
                 ],
                 "notes": []
@@ -1382,7 +1382,7 @@
         },
         "dok_stats": {
             "amberControl": 20.758331232633623,
-            "artifactControl": 0,
+            "artifactControl": 45.9839131501903,
             "creatureControl": 75.5848846466623,
             "creatureProtection": 99.78024544717844,
             "disruption": 91.90530378016759,
@@ -3093,16 +3093,16 @@
                 ],
                 "houses": [
                     {
-                        "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
-                        "in_filters": true,
-                        "name": "Shadows"
-                    },
-                    {
                         "id": "Logos",
                         "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
                         "in_filters": true,
                         "name": "Logos"
+                    },
+                    {
+                        "id": "Shadows",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "in_filters": true,
+                        "name": "Shadows"
                     },
                     {
                         "id": "Sanctum",
@@ -4580,9 +4580,9 @@
             "artifactControl": 45.9839131501903,
             "creatureControl": 68.96613767012701,
             "creatureProtection": 79.49883239074819,
-            "disruption": 0,
+            "disruption": 30.662192769700173,
             "effectivePower": 57.030555330056714,
-            "efficiency": 0,
+            "efficiency": 32.86334627934037,
             "expectedAmber": 49.81625405126467,
             "recursion": 35.09293637941912
         },
@@ -5215,12 +5215,6 @@
                 ],
                 "houses": [
                     {
-                        "id": "Brobnar",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
-                        "in_filters": true,
-                        "name": "Brobnar"
-                    },
-                    {
                         "id": "Dis",
                         "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
@@ -5231,6 +5225,12 @@
                         "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
                         "in_filters": true,
                         "name": "Sanctum"
+                    },
+                    {
+                        "id": "Brobnar",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
+                        "in_filters": true,
+                        "name": "Brobnar"
                     }
                 ],
                 "notes": []
@@ -5610,12 +5610,12 @@
             "amberControl": 20.758331232633623,
             "artifactControl": 45.9839131501903,
             "creatureControl": 97.12348933580385,
-            "creatureProtection": 0,
+            "creatureProtection": 21.078729477825394,
             "disruption": 53.174002974685735,
             "effectivePower": 17.808236736751706,
             "efficiency": 3.4535028514921615,
             "expectedAmber": 66.66282131804309,
-            "recursion": 0
+            "recursion": 35.09293637941912
         },
         "user_data": {
             "deck_id": "8dfbd01a-157b-4a51-8428-50ab1ed9edf7"
@@ -6667,7 +6667,7 @@
             "artifactControl": 98.44965987654058,
             "creatureControl": 52.98681520156511,
             "creatureProtection": 79.49883239074819,
-            "disruption": 0,
+            "disruption": 30.662192769700173,
             "effectivePower": 55.277313724903756,
             "efficiency": 41.50336990212401,
             "expectedAmber": 49.81625405126467,
@@ -7705,7 +7705,7 @@
             "effectivePower": 29.165070372253485,
             "efficiency": 68.7593433663701,
             "expectedAmber": 74.00914623291135,
-            "recursion": 0
+            "recursion": 35.09293637941912
         },
         "user_data": {
             "deck_id": "aebaeba5-5918-4573-983a-72d0a5c6133d"
@@ -8702,7 +8702,7 @@
             "effectivePower": 60.48453291594685,
             "efficiency": 48.935194482067146,
             "expectedAmber": 74.00914623291135,
-            "recursion": 0
+            "recursion": 35.09293637941912
         },
         "user_data": {
             "deck_id": "b41630b3-7394-4ac5-9102-0c4dcb2e1b8a"
@@ -9333,10 +9333,10 @@
                 ],
                 "houses": [
                     {
-                        "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "id": "Brobnar",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
                         "in_filters": true,
-                        "name": "Shadows"
+                        "name": "Brobnar"
                     },
                     {
                         "id": "Dis",
@@ -9345,10 +9345,10 @@
                         "name": "Dis"
                     },
                     {
-                        "id": "Brobnar",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
+                        "id": "Shadows",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
                         "in_filters": true,
-                        "name": "Brobnar"
+                        "name": "Shadows"
                     }
                 ],
                 "notes": []
@@ -9732,7 +9732,7 @@
         },
         "dok_stats": {
             "amberControl": 20.758331232633623,
-            "artifactControl": 0,
+            "artifactControl": 45.9839131501903,
             "creatureControl": 68.96613767012701,
             "creatureProtection": 58.62998299026652,
             "disruption": 84.90183204751521,
@@ -11550,10 +11550,10 @@
                 ],
                 "houses": [
                     {
-                        "id": "Logos",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "id": "Shadows",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
                         "in_filters": true,
-                        "name": "Logos"
+                        "name": "Shadows"
                     },
                     {
                         "id": "Dis",
@@ -11562,10 +11562,10 @@
                         "name": "Dis"
                     },
                     {
-                        "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "id": "Logos",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
                         "in_filters": true,
-                        "name": "Shadows"
+                        "name": "Logos"
                     }
                 ],
                 "notes": []
@@ -11949,7 +11949,7 @@
         },
         "dok_stats": {
             "amberControl": 79.59268738122739,
-            "artifactControl": 0,
+            "artifactControl": 45.9839131501903,
             "creatureControl": 18.4985954982836,
             "creatureProtection": 94.89048114805969,
             "disruption": 53.174002974685735,
@@ -13002,10 +13002,10 @@
         },
         "dok_stats": {
             "amberControl": 41.41117648203771,
-            "artifactControl": 0,
+            "artifactControl": 45.9839131501903,
             "creatureControl": 68.96613767012701,
             "creatureProtection": 79.49883239074819,
-            "disruption": 0,
+            "disruption": 30.662192769700173,
             "effectivePower": 35.78676070205622,
             "efficiency": 17.202190804299764,
             "expectedAmber": 32.45099198126128,
@@ -13620,6 +13620,12 @@
                 ],
                 "houses": [
                     {
+                        "id": "Brobnar",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
+                        "in_filters": true,
+                        "name": "Brobnar"
+                    },
+                    {
                         "id": "Mars",
                         "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
                         "in_filters": true,
@@ -13630,12 +13636,6 @@
                         "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
                         "in_filters": true,
                         "name": "Untamed"
-                    },
-                    {
-                        "id": "Brobnar",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
-                        "in_filters": true,
-                        "name": "Brobnar"
                     }
                 ],
                 "notes": []
