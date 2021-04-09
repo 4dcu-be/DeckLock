@@ -5,8 +5,10 @@
 Static web generator to generate an overview of all your favorite decks. Currently supports :
 
   * KeyForge
+  * Gwent
+  * Magic: The Gathering
 
-DeckLock is designed around the the static website generator Pelican and leverages GitHub's feature to host static 
+DeckLock is designed around the static website generator Pelican and leverages GitHub's feature to host static 
 websites from the ./docs folder. For other hosting options, check out the official Pelican documentation.
 
 
@@ -35,7 +37,7 @@ venv\Scripts\activate.bat
 ### Configuring the Makefile
 
 As we are using a virtual environment with pelican installed there, the patch to the executable in
-the enviroment needs to be set in the Makefile. Open the file and change the path on the line below to match your
+the environment needs to be set in the Makefile. Open the file and change the path on the line below to match your
 system. The pelican executable should be in venv/bin or venv/Scripts.
 
 ```makefile
@@ -135,7 +137,7 @@ A file with the KeyForge Decks I own is included as an example, the structure sh
 ### Magic: the Gathering
 
 Magic: the Gathering decks can be added by including a mwDeck file for each deck in the content/data/mtg_decks folder. 
-The mwDeck file format is rather self explanatory, see the example below:
+The mwDeck file format is rather self-explanatory, see the example below:
 
 ```text
 // NAME : 9 Land Stompy
@@ -168,10 +170,10 @@ Do make sure that the set, included here in between square brackets, matches Scr
 
 ## Building platform
 
-You can use make to build the website (if make is available on your system), use *make html* to create a local instance
-to test in the *_site* directory. Use *make release* to create the version for publication in the *./docs* folder.
+You can use make to build the website (if make is available on your system), use ```make html``` to create a local instance
+to test in the ```_site``` directory. Use ```make release``` to create the version for publication in the ```./docs``` folder.
 
-If you are on windows, you'll have to install make before these commands will work. You can find it [here](http://gnuwin32.sourceforge.net/packages/make.htm), and you need
+If you are on windows, you'll have to install **make** before these commands will work. You can find it [here](http://gnuwin32.sourceforge.net/packages/make.htm), and you need
 to [add the location of make.exe to your PATH](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/). 
 
 ```commandline
@@ -180,8 +182,8 @@ make html
 make release
 ```
 
-alternatively you can use pelican directly, the content is in the folder ./content and the output folder should be set 
-to ./_site for a local test build. Write the output to the ./docs folder with the publication settings so this can be
+alternatively you can use pelican directly, the content is in the folder ```./content``` and the output folder should be set 
+to ```./_site``` for a local test build. Write the output to the ```./docs``` folder with the publication settings so this can be
 hosted easily on GitHub.
 
 ```commandline
@@ -198,7 +200,7 @@ You can use Pelican's built in webserver using the command below.
 make serve
 ```
 
-Or you can build the site using *make html*, navigate to the *_site* folder and start a webserver
+Or you can build the site using ```make html```, navigate to the ```_site``` folder and start a webserver
 by running the command.
 
 ```commandline

@@ -3,7 +3,8 @@
 from dotenv import load_dotenv
 import os
 from markdown import Markdown
-markdown = Markdown(extensions=['markdown.extensions.extra'])
+
+markdown = Markdown(extensions=["markdown.extensions.extra"])
 
 
 def md(content, *args):
@@ -11,7 +12,7 @@ def md(content, *args):
 
 
 JINJA_FILTERS = {
-    'md': md,
+    "md": md,
 }
 
 load_dotenv()
