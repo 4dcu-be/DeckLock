@@ -36,7 +36,7 @@
     {% for house in keyforge_data.vault_data._linked.houses %}
         <div class="col-md-4 top15">
             <div class="card">
-                <div class="card-header house-{{house.name|lower}}">
+                <div class="card-header house-{{house.name|lower|replace(" ", "_")}}">
                     <h3>{{ house.name }} {% if USE_EXTERNAL_LINKS %}<img src="{{ house.image }}" alt="{{ house.name }}" class="keyforge-house-logo-xl"/>{% else %}<img src="{{ SITEURL }}/{{ house.image_path }}" alt="{{ house.name }}" class="keyforge-house-logo-xl"/>{% endif %}</h3>
                 </div>
                 <div class="card-body">
@@ -45,9 +45,9 @@
                         {% if card.house == house.name %}
                             {% for n in range(card.count)  %}
                                 {% if USE_EXTERNAL_LINKS %}
-                                    <li><span {% if card.is_enhanced -%} class="is_enhanced" {%- endif %} data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ card.front_image }}' />">{{ card.card_title }}</span></li>
+                                    <li class="keyforge-card rarity-{{card.rarity|lower}}"><span {% if card.is_enhanced -%} class="is_enhanced" {%- endif %} data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ card.front_image }}' />">{{ card.card_title }}</span></li>
                                 {% else %}
-                                    <li><span {% if card.is_enhanced -%} class="is_enhanced" {%- endif %} data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.image_path }}' />">{{ card.card_title }}</span></li>
+                                    <li class="keyforge-card rarity-{{card.rarity|lower}}"><span {% if card.is_enhanced -%} class="is_enhanced" {%- endif %} data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.image_path }}' />">{{ card.card_title }}</span></li>
                                 {% endif %}
                             {% endfor %}
                         {% endif %}
