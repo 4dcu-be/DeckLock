@@ -7,6 +7,7 @@
 {% block extra_css %}
 <link href="{{ SITEURL }}/theme/css/Chart.min.css" rel="stylesheet" />
 <link href="{{ SITEURL }}/theme/css/keyforge.css" rel="stylesheet" />
+<link href="{{ SITEURL }}/theme/css/keyforge-rarity.css" rel="stylesheet" />
 {% endblock extra_css %}
 
 {% block container %}
@@ -45,9 +46,9 @@
                         {% if card.house == house.name %}
                             {% for n in range(card.count)  %}
                                 {% if USE_EXTERNAL_LINKS %}
-                                    <li class="keyforge-card rarity-{{card.rarity|lower}}"><span {% if card.is_enhanced -%} class="is_enhanced" {%- endif %} data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ card.front_image }}' />">{{ card.card_title }}</span></li>
+                                    <li class="keyforge-card rarity-{{card.rarity|lower}}"><span class="rarity small {{card.rarity|lower}}"></span> <span {% if card.is_enhanced -%} class="is_enhanced" {%- endif %} data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ card.front_image }}' />">{{ card.card_title }}</span></li>
                                 {% else %}
-                                    <li class="keyforge-card rarity-{{card.rarity|lower}}"><span {% if card.is_enhanced -%} class="is_enhanced" {%- endif %} data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.image_path }}' />">{{ card.card_title }}</span></li>
+                                    <li class="keyforge-card rarity-{{card.rarity|lower}}"><span class="rarity small {{card.rarity|lower}}"></span> <span {% if card.is_enhanced -%} class="is_enhanced" {%- endif %} data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.image_path }}' />">{{ card.card_title }}</span></li>
                                 {% endif %}
                             {% endfor %}
                         {% endif %}

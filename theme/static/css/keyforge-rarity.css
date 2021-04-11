@@ -1,0 +1,24 @@
+.rarity {
+    background-image: url('../img/keyforge-rarity.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    display: inline-block;
+    font-size: 100%;
+}
+.rarity.small {
+    height: 1em;
+    width: 1em;
+}
+.rarity.medium {
+    height: 2em;
+    width: 2em;
+}
+.rarity.large {
+    height: 4em;
+    width: 4em;
+}
+
+.rarity.common { background-position: 0 0; }
+.rarity.uncommon { background-position: 33.3% 0; }
+.rarity.rare { background-position: 66.6% 0; }
+.rarity.special { background-position: 99.9% 0; }
