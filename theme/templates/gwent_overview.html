@@ -21,9 +21,7 @@
     <table id="deck_overview" class="table table-striped">
         <thead>
         <tr>
-            <th scope="col" data-sort="string-ins">Leader</th>
             <th scope="col" data-sort="string-ins">Deck</th>
-            <th scope="col" data-sort="string-ins">Faction</th>
             <th scope="col" data-sort="float">Gwent Version</th>
         </tr>
         </thead>
@@ -31,9 +29,7 @@
         {% for a in articles|rejectattr('faction', 'undefined')|sort(attribute='name')|sort(attribute='faction')|sort(attribute='gwent_version', reverse = True) %}
             {% if a.category == "Gwent_Deck" %}
             <tr class="deck {{a.leader.data.faction}}">
-                <td>{{ a.leader.name }}</td>
-                <td><a href="{{ SITEURL }}/{{ a.url }}">{{ a.name }}</a></td>
-                <td>{{ a.faction }}</td>
+                <td><a href="{{ SITEURL }}/{{ a.url }}">{{ a.name }}</a> {% if a.name != a.leader.name -%}<span class="text-muted">({{ a.leader.name }})</span>{%- endif%}</td>
                 <td>{{ a.gwent_version }}</td>
             </tr>
             {% endif %}

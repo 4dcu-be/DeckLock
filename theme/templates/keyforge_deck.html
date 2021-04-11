@@ -36,8 +36,8 @@
     {% for house in keyforge_data.vault_data._linked.houses %}
         <div class="col-md-4 top15">
             <div class="card">
-                <div class="card-header">
-                    <h3>{{ house.name}} {% if USE_EXTERNAL_LINKS %}<img src="{{ house.image }}" alt="{{ house.name }}" class="keyforge-house-logo-xl"/>{% else %}<img src="{{ SITEURL }}/{{ house.image_path }}" alt="{{ house.name }}" class="keyforge-house-logo-xl"/>{% endif %}</h3>
+                <div class="card-header house-{{house.name|lower}}">
+                    <h3>{{ house.name }} {% if USE_EXTERNAL_LINKS %}<img src="{{ house.image }}" alt="{{ house.name }}" class="keyforge-house-logo-xl"/>{% else %}<img src="{{ SITEURL }}/{{ house.image_path }}" alt="{{ house.name }}" class="keyforge-house-logo-xl"/>{% endif %}</h3>
                 </div>
                 <div class="card-body">
                 <ul class="card_list">
