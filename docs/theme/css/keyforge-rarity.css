@@ -22,3 +22,5 @@
 .rarity.uncommon { background-position: 33.3% 0; }
 .rarity.rare { background-position: 66.6% 0; }
 .rarity.special { background-position: 99.9% 0; }
+.rarity.variant { background-position: 99.9% 0; }
+.rarity.fixed { background-position: 99.9% 0; }
