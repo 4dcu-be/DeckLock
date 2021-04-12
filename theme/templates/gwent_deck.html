@@ -76,21 +76,23 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
-        legend: {
-            display: false
+        plugins: {
+            legend: {
+                display: false
+            }
         },
         scales: {
-            yAxes: [{
+            y: {
                 ticks: {
                     suggestedMin: 0,
                     suggestedMax: 15
                 }
-            }],
-            xAxes: [{
+            },
+            x: {
                 ticks: {
                     display: false
                 }
-            }]
+            }
         }
     }
 });

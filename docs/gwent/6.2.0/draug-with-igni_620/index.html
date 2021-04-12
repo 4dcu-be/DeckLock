@@ -12,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="Sebastian Proost">
 
-        <link rel="stylesheet" href="https://4dcu.be/DeckLock/theme/css/style.min.css?61d3268a">
+        <link rel="stylesheet" href="https://4dcu.be/DeckLock/theme/css/style.min.css?a7973e59">
 
 <link href="https://4dcu.be/DeckLock/theme/css/gwent.css" rel="stylesheet" />
 </head>
@@ -628,7 +628,7 @@ list created by Saber97 did substantially better.</p>
 
 <script src="https://4dcu.be/DeckLock/theme/js/jquery-3.3.1.js"></script>
 <script src="https://4dcu.be/DeckLock/theme/js/bootstrap.bundle.min.js"></script>
-<script src="https://4dcu.be/DeckLock/theme/js/Chart.bundle.min.js"></script>
+<script src="https://4dcu.be/DeckLock/theme/js/chart.min.js"></script>
 <script>
 $(function () {
   $('[data-toggle="popover"]').popover({html: true})
@@ -647,21 +647,23 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
-        legend: {
-            display: false
+        plugins: {
+            legend: {
+                display: false
+            }
         },
         scales: {
-            yAxes: [{
+            y: {
                 ticks: {
                     suggestedMin: 0,
                     suggestedMax: 15
                 }
-            }],
-            xAxes: [{
+            },
+            x: {
                 ticks: {
                     display: false
                 }
-            }]
+            }
         }
     }
 });

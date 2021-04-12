@@ -5,7 +5,6 @@
 {% endblock %}
 
 {% block extra_css %}
-<link href="{{ SITEURL }}/theme/css/Chart.min.css" rel="stylesheet" />
 <link href="{{ SITEURL }}/theme/css/keyforge.css" rel="stylesheet" />
 <link href="{{ SITEURL }}/theme/css/keyforge-rarity.css" rel="stylesheet" />
 {% endblock extra_css %}
@@ -81,30 +80,39 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ["Expected Amber", "Amber Control", "Artifact Control", "Creature Control", "Effective Power", "Creature Protection", "Disruption", "Efficiency", "Recursion"],
         datasets: [{
+            label: 'Deck Stats',
             data: [{{ keyforge_data.dok_stats.expectedAmber|round }},
-                   {{ keyforge_data.dok_stats.amberControl|round }},  {{ keyforge_data.dok_stats.artifactControl|round }},
-                   {{ keyforge_data.dok_stats.creatureControl|round }},  {{ keyforge_data.dok_stats.effectivePower|round }},
+                   {{ keyforge_data.dok_stats.amberControl|round }},
+                   {{ keyforge_data.dok_stats.artifactControl|round }},
+                   {{ keyforge_data.dok_stats.creatureControl|round }},
+                   {{ keyforge_data.dok_stats.effectivePower|round }},
                    {{ keyforge_data.dok_stats.creatureProtection|round }},
-                   {{ keyforge_data.dok_stats.disruption|round }},  {{ keyforge_data.dok_stats.efficiency|round }},  {{ keyforge_data.dok_stats.recursion|round }}  ],
+                   {{ keyforge_data.dok_stats.disruption|round }},
+                   {{ keyforge_data.dok_stats.efficiency|round }},
+                   {{ keyforge_data.dok_stats.recursion|round }}],
             borderColor: 'rgba(0, 188, 140, 0.8)',
             backgroundColor: 'rgba(0, 188, 140, 0.3)'
         }]
     },
     options: {
-        scale: {
-            angleLines: {
-                display: false
-            },
-            ticks: {
-                display: false,
-                beginAtZero: true,
-                max: 100,
-                min: 0,
-                stepSize: 20
+        scales: {
+            r: {
+                angleLines: {
+                    display: false
+                },
+                ticks: {
+                    display: false,
+                    beginAtZero: true,
+                    max: 100,
+                    min: 0,
+                    stepSize: 20
+                }
             }
         },
-        legend: {
-            display: false
+        plugins: {
+            legend: {
+                display: false,
+            }
         }
     }
 });

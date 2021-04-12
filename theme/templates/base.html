@@ -11,7 +11,7 @@
     <meta name="description" content="{{ SITEDESCRIPTION }}">
     <meta name="author" content="{{ AUTHOR }}">
 
-    {% assets filters="cssmin", output="css/style.min.css", "css/bootstrap.min.css", "css/Chart.min.css", "css/main.css" %}
+    {% assets filters="cssmin", output="css/style.min.css", "css/bootstrap.min.css", "css/main.css" %}
         <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
     {% endassets %}
 
@@ -50,7 +50,7 @@
 {% endblock %}
 <script src="{{ SITEURL }}/theme/js/jquery-3.3.1.js"></script>
 <script src="{{ SITEURL }}/theme/js/bootstrap.bundle.min.js"></script>
-<script src="{{ SITEURL }}/theme/js/Chart.bundle.min.js"></script>
+<script src="{{ SITEURL }}/theme/js/chart.min.js"></script>
 {% block extra_js %}
 {% endblock %}
 </body>
