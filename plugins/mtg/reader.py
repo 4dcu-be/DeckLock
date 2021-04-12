@@ -137,7 +137,7 @@ class MTGReader(BaseReader):
             "template": "mtg_deck",
         }
 
-        deck_data = {"main": [], "sideboard": []}
+        deck_data = {"main": [], "sideboard": [], "colors": []}
         description = []
 
         with open(filename, "r") as fin:
@@ -162,10 +162,16 @@ class MTGReader(BaseReader):
                         ),
                     }
 
+                    for color in self.cached_data[card_set][card_name]["colors"]:
+                        if color not in deck_data["colors"]:
+                            deck_data["colors"].append(color)
+
                     if sideboard:
                         deck_data["sideboard"].append(card_data)
                     else:
                         deck_data["main"].append(card_data)
+
+        deck_data["colors_string"] = ''.join(["{" + str(c).upper() + "}" for c in sorted(deck_data["colors"])])
 
         self.write_cache()
 
