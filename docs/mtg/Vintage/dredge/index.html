@@ -124,6 +124,13 @@
         </div>
     </div>
 </div>
+<div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4 top15">
+        <div class="card plot">
+        <canvas id="cmcStats" width="400" height="400"></canvas>
+        </div>
+    </div>
+</div>
 </div>
 
 <script src="https://4dcu.be/DeckLock/theme/js/jquery-3.3.1.js"></script>
@@ -133,6 +140,70 @@
 $(function () {
   $('[data-toggle="popover"]').popover({html: true})
 })
+</script>
+<script>
+var ctx = document.getElementById('cmcStats').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "10+"],
+        datasets: [        {
+            label: 'B',
+            data: [0, 4, 7, 8, 10, 0, 0, 0, 0, 0, 0, 0],
+                    borderColor: 'rgba(0, 0, 0, 0.8)',
+                    backgroundColor: 'rgba(0, 0, 0, 0.3)'
+        },
+        {
+            label: 'A',
+            data: [0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0],
+                    borderColor: 'rgba(180, 30, 0, 0.8)',
+                    backgroundColor: 'rgba(180, 30, 0, 0.3)'
+        },
+        {
+            label: 'U',
+            data: [0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    borderColor: 'rgba(0, 0, 255, 0.8)',
+                    backgroundColor: 'rgba(0, 0, 255, 0.3)'
+        },
+        {
+            label: 'M',
+            data: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+                    borderColor: 'rgba(128, 188, 0, 0.8)',
+                    backgroundColor: 'rgba(128, 188, 0, 0.3)'
+        },
+        {
+            label: 'W',
+            data: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+                    borderColor: 'rgba(255, 255, 255, 0.8)',
+                    backgroundColor: 'rgba(255, 255, 255, 0.3)'
+        },
+        {
+            label: 'G',
+            data: [0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0],
+                    borderColor: 'rgba(0, 255, 0, 0.8)',
+                    backgroundColor: 'rgba(0, 255, 0, 0.3)'
+        },
+]
+    },
+    options: {
+        plugins: {
+            legend: {
+                display: false
+            }
+        },
+        scales: {
+            x: {
+                stacked: true,
+                ticks: {
+                    display: true
+                }
+            },
+            y: {
+                stacked: true
+            }
+        }
+    }
+});
 </script>
 </body>
 </html>

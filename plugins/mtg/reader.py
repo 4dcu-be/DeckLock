@@ -9,9 +9,20 @@ from urllib.parse import urlparse
 from urllib.parse import quote
 import requests
 from time import sleep
+from collections import defaultdict, Counter
 
 from plugins.utils import fetch_image
 from pelican.utils import slugify
+
+cmc_distribution_colors = {
+    'B': ('rgba(0, 0, 0, 0.8)', 'rgba(0, 0, 0, 0.3)'),
+    'W': ('rgba(255, 255, 255, 0.8)', 'rgba(255, 255, 255, 0.3)'),
+    'G': ('rgba(0, 255, 0, 0.8)', 'rgba(0, 255, 0, 0.3)'),
+    'R': ('rgba(255, 0, 0, 0.8)', 'rgba(255, 0, 0, 0.3)'),
+    'U': ('rgba(0, 0, 255, 0.8)', 'rgba(0, 0, 255, 0.3)'),
+    'A': ('rgba(180, 30, 0, 0.8)', 'rgba(180, 30, 0, 0.3)'),
+    'M': ('rgba(128, 188, 0, 0.8)', 'rgba(128, 188, 0, 0.3)'),
+}
 
 
 def get_local_card_img_path(assets_cards_path, url):
@@ -140,6 +151,8 @@ class MTGReader(BaseReader):
         deck_data = {"main": [], "sideboard": [], "colors": []}
         description = []
 
+        cmc_per_color = defaultdict(list)
+
         with open(filename, "r") as fin:
             for line in fin:
                 if line.startswith("//"):
@@ -171,7 +184,29 @@ class MTGReader(BaseReader):
                     else:
                         deck_data["main"].append(card_data)
 
+                        if card_data["card_type"] != "land":
+                            card_colors = self.cached_data[card_set][card_name]["colors"]
+                            num_colors = len(card_colors)
+                            card_cmc = min(11, int(self.cached_data[card_set][card_name]["cmc"]))
+
+                            if num_colors == 1:
+                                cmc_per_color[card_colors[0]].extend([card_cmc] * card_count)
+                            elif num_colors == 0:
+                                # Artifact and devoid cards
+                                cmc_per_color['A'].extend([card_cmc] * card_count)
+                            else:
+                                # Multicolor and hybrid cards
+                                cmc_per_color['M'].extend([card_cmc] * card_count)
+
+        cmc_distribution = {k: dict(Counter(v)) for k, v in cmc_per_color.items()}
+        for k in cmc_distribution.keys():
+            for i in range(0, 12):
+                if i not in cmc_distribution[k].keys():
+                    cmc_distribution[k][i] = 0
+
         deck_data["colors_string"] = ''.join(["{" + str(c).upper() + "}" for c in sorted(deck_data["colors"])])
+        deck_data["cmc_distribution"] = {k: [a[1] for a in sorted(v.items())] for k, v in cmc_distribution.items()}
+        deck_data["cmc_distribution_colors"] = cmc_distribution_colors
 
         self.write_cache()
 

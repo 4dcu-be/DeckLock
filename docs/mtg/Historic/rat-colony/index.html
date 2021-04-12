@@ -100,6 +100,13 @@ need to be played.</p>
         </div>
     </div>
 </div>
+<div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4 top15">
+        <div class="card plot">
+        <canvas id="cmcStats" width="400" height="400"></canvas>
+        </div>
+    </div>
+</div>
 </div>
 
 <script src="https://4dcu.be/DeckLock/theme/js/jquery-3.3.1.js"></script>
@@ -109,6 +116,40 @@ need to be played.</p>
 $(function () {
   $('[data-toggle="popover"]').popover({html: true})
 })
+</script>
+<script>
+var ctx = document.getElementById('cmcStats').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "10+"],
+        datasets: [        {
+            label: 'B',
+            data: [0, 4, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    borderColor: 'rgba(0, 0, 0, 0.8)',
+                    backgroundColor: 'rgba(0, 0, 0, 0.3)'
+        },
+]
+    },
+    options: {
+        plugins: {
+            legend: {
+                display: false
+            }
+        },
+        scales: {
+            x: {
+                stacked: true,
+                ticks: {
+                    display: true
+                }
+            },
+            y: {
+                stacked: true
+            }
+        }
+    }
+});
 </script>
 </body>
 </html>

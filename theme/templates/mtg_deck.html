@@ -82,6 +82,13 @@
         </div>
     </div>
 </div>
+<div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4 top15">
+        <div class="card plot">
+        <canvas id="cmcStats" width="400" height="400"></canvas>
+        </div>
+    </div>
+</div>
 {% endblock %}
 
 {% block extra_js %}
@@ -89,5 +96,40 @@
 $(function () {
   $('[data-toggle="popover"]').popover({html: true})
 })
+</script>
+<script>
+var ctx = document.getElementById('cmcStats').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "10+"],
+        datasets: [{% for color, data in article.deck.cmc_distribution.items() %}
+        {
+            label: '{{ color }}',
+            data: [{{ data|join(', ') }}],
+                    borderColor: '{{ article.deck.cmc_distribution_colors[color][0] }}',
+                    backgroundColor: '{{ article.deck.cmc_distribution_colors[color][1] }}'
+        },
+        {% endfor %}]
+    },
+    options: {
+        plugins: {
+            legend: {
+                display: false
+            }
+        },
+        scales: {
+            x: {
+                stacked: true,
+                ticks: {
+                    display: true
+                }
+            },
+            y: {
+                stacked: true
+            }
+        }
+    }
+});
 </script>
 {% endblock %}
