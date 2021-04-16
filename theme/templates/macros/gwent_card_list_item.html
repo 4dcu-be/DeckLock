@@ -41,5 +41,5 @@
     {% else %}
         {% set img_content = popup( SITEURL + '/' + card.data.image_path, card ) %}
     {% endif %}
-    <li>{{ card.data.power }} {{ card.data.provision }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="{{ img_content }}">{{ card.name }}{%- if card.count > 1 %} (x{{ card.count }}){%- endif -%}</span> </li>
+    <li>{{ card.data.power }} {{ card.data.provision }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="{{ img_content }}">{{ card.data.name }}{%- if card.count > 1 %} (x{{ card.count }}){%- endif -%}</span> </li>
 {%- endmacro %}
