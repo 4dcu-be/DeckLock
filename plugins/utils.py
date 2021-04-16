@@ -8,4 +8,5 @@ def fetch_image(img_url, img_file_path):
         r = requests.get(img_url, allow_redirects=True)
         open(img_file_path, "wb").write(r.content)
     else:
-        print(f"Using cached image {img_file_path}")
+        # print(f"Using cached image {img_file_path}")
+        pass

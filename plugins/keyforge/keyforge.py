@@ -188,7 +188,8 @@ def get_keyforge_external_data(generator):
                 "user_data": deck,
             }
         else:
-            print(f"Using cached data for KeyForge deck {deck['deck_id']}")
+            # print(f"Using cached data for KeyForge deck {deck['deck_id']}")
+            pass
 
     with open(keyforge_cache_path, "w") as fout:
         json.dump(current_data, fout, sort_keys=True, indent=4, separators=(",", ": "))

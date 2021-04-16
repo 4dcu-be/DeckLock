@@ -41,7 +41,9 @@ def parse_card_data(card_data, card_name):
     # In case there are multiple results find exact match
     for ix, result in enumerate(soup.find_all("div", class_="card-name")):
         results.append(result)
-        if card_name.lower() == str(result.text).lower():
+        # This character is a problem with utf-8 encoding
+        # TODO: Work out a better solution or encoding to avoid this
+        if card_name.lower() == str(result.text.replace('É', 'E')).lower():
             index = ix
 
     if index < 0:
