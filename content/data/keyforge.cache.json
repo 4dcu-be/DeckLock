@@ -4,10 +4,10 @@
             "deck": {
                 "actionCount": 10,
                 "aercScore": 53,
-                "aercVersion": 37,
+                "aercVersion": 38,
                 "amberControl": 8.07,
                 "antisynergyRating": 1,
-                "artifactControl": 1.0,
+                "artifactControl": 0.75,
                 "artifactCount": 4,
                 "cardArchiveCount": 2,
                 "cardDrawCount": 6,
@@ -290,10 +290,10 @@
                 ],
                 "id": 527297,
                 "keyforgeId": "21459407-7765-44f6-b183-2ebef8283f63",
-                "lastSasUpdate": "2021-04-02",
+                "lastSasUpdate": "2021-05-17",
                 "metaScores": {},
                 "name": "Preposterously Four-eyed Odyssia",
-                "other": 0.825,
+                "other": 1.075,
                 "previousMajorSasRating": 60,
                 "previousSasRating": 58,
                 "rawAmber": 10,
@@ -304,7 +304,7 @@
                 "totalPower": 48,
                 "upgradeCount": 4
             },
-            "sasVersion": 37
+            "sasVersion": 38
         },
         "dok_stats": {
             "amberControl": 62.70410612022839,
@@ -1378,7 +1378,7 @@
                 "totalPower": 55,
                 "upgradeCount": 7
             },
-            "sasVersion": 37
+            "sasVersion": 38
         },
         "dok_stats": {
             "amberControl": 20.758331232633623,
@@ -2026,16 +2026,16 @@
                         "name": "Dis"
                     },
                     {
-                        "id": "Saurian",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
-                        "in_filters": true,
-                        "name": "Saurian"
-                    },
-                    {
                         "id": "Star Alliance",
                         "image": "https://cdn.keyforgegame.com/media/houses/Star_Alliance.png",
                         "in_filters": true,
                         "name": "Star Alliance"
+                    },
+                    {
+                        "id": "Saurian",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
+                        "in_filters": true,
+                        "name": "Saurian"
                     }
                 ],
                 "notes": []
@@ -2451,7 +2451,7 @@
                 "totalPower": 83,
                 "upgradeCount": 1
             },
-            "sasVersion": 37
+            "sasVersion": 38
         },
         "dok_stats": {
             "amberControl": 79.59268738122739,
@@ -3522,7 +3522,7 @@
                 "totalArmor": 7,
                 "totalPower": 64
             },
-            "sasVersion": 37
+            "sasVersion": 38
         },
         "dok_stats": {
             "amberControl": 71.91219692362615,
@@ -4184,12 +4184,6 @@
                 ],
                 "houses": [
                     {
-                        "id": "Logos",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
-                        "in_filters": true,
-                        "name": "Logos"
-                    },
-                    {
                         "id": "Dis",
                         "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
@@ -4200,6 +4194,12 @@
                         "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
                         "in_filters": true,
                         "name": "Sanctum"
+                    },
+                    {
+                        "id": "Logos",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
+                        "name": "Logos"
                     }
                 ],
                 "notes": []
@@ -4275,8 +4275,8 @@
         "dok_data": {
             "deck": {
                 "actionCount": 15,
-                "aercScore": 48,
-                "aercVersion": 37,
+                "aercScore": 49,
+                "aercVersion": 38,
                 "amberControl": 5.9125000000000005,
                 "antisynergyRating": 0,
                 "artifactControl": 0.5,
@@ -4560,20 +4560,20 @@
                 ],
                 "id": 955191,
                 "keyforgeId": "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00",
-                "lastSasUpdate": "2021-04-02",
+                "lastSasUpdate": "2021-05-18",
                 "metaScores": {},
                 "name": "Bases, the Swordsman of Fire",
                 "previousMajorSasRating": 54,
-                "previousSasRating": 55,
+                "previousSasRating": 53,
                 "rawAmber": 12,
                 "recursion": 0.165,
-                "sasPercentile": 6.694182272373164,
-                "sasRating": 53,
+                "sasPercentile": 8.983541433156685,
+                "sasRating": 54,
                 "synergyRating": 5,
                 "totalArmor": 4,
                 "totalPower": 91
             },
-            "sasVersion": 37
+            "sasVersion": 38
         },
         "dok_stats": {
             "amberControl": 41.41117648203771,
@@ -5215,10 +5215,10 @@
                 ],
                 "houses": [
                     {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "id": "Brobnar",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
                         "in_filters": true,
-                        "name": "Dis"
+                        "name": "Brobnar"
                     },
                     {
                         "id": "Sanctum",
@@ -5227,10 +5227,10 @@
                         "name": "Sanctum"
                     },
                     {
-                        "id": "Brobnar",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
+                        "id": "Dis",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
-                        "name": "Brobnar"
+                        "name": "Dis"
                     }
                 ],
                 "notes": []
@@ -5604,7 +5604,7 @@
                 "totalPower": 56,
                 "upgradeCount": 1
             },
-            "sasVersion": 37
+            "sasVersion": 38
         },
         "dok_stats": {
             "amberControl": 20.758331232633623,
@@ -6266,12 +6266,6 @@
                 ],
                 "houses": [
                     {
-                        "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
-                        "in_filters": true,
-                        "name": "Shadows"
-                    },
-                    {
                         "id": "Untamed",
                         "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
                         "in_filters": true,
@@ -6282,6 +6276,12 @@
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
                         "in_filters": true,
                         "name": "Brobnar"
+                    },
+                    {
+                        "id": "Shadows",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "in_filters": true,
+                        "name": "Shadows"
                     }
                 ],
                 "notes": []
@@ -6343,6 +6343,2170 @@
                 "is_on_my_watchlist": false,
                 "losses": 0,
                 "name": "Provost Flop-Ra, the Yellow Ranger",
+                "power_level": 0,
+                "set_era_cards": {
+                    "Anomaly": [],
+                    "Legacy": []
+                },
+                "shards_bonus": null,
+                "wins": 0
+            }
+        }
+    },
+    "9ec782d8-2999-40e0-b067-138a5fa85579": {
+        "dok_data": {
+            "deck": {
+                "actionCount": 16,
+                "aercScore": 50,
+                "aercVersion": 38,
+                "amberControl": 7.525,
+                "antisynergyRating": 1,
+                "artifactControl": 1.0,
+                "artifactCount": 4,
+                "cardArchiveCount": 1,
+                "creatureControl": 15.35,
+                "creatureCount": 15,
+                "dateAdded": "2021-04-17",
+                "disruption": 1.3125,
+                "effectivePower": 44,
+                "efficiency": -0.5,
+                "efficiencyBonus": 0.0,
+                "expansion": "DARK_TIDINGS",
+                "expectedAmber": 26.206249999999997,
+                "housesAndCards": [
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Bring Low",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Doorstep to Heaven",
+                                "enhanced": true,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Grand Melee",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Honor or Glory",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Strange Ordination",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Epic Quest",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Badgemagus",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Mad Prophet Gizelhart",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Marshal Ewer",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sir Bevor \u2013 Evil Twin",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "EvilTwin"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Urien the Circumspect \u2013 Evil Twin",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "EvilTwin"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Urien the Circumspect \u2013 Evil Twin",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "EvilTwin"
+                            }
+                        ],
+                        "house": "Sanctum"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Allusions of Grandeur",
+                                "enhanced": true,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Pour-tal",
+                                "enhanced": true,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Pour-tal",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sink or Swim",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Storm Surge",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Storm Surge",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Frigorific Rod",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Frigorific Rod",
+                                "enhanced": true,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "General Sherman",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Giltspine Netcaster \u2013 Evil Twin",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "EvilTwin"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Giltspine Netcaster \u2013 Evil Twin",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "EvilTwin"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sparkfist",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            }
+                        ],
+                        "house": "Unfathomable"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "All Tide Up",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "All Tide Up",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Assert Dominance",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Genetic Drift",
+                                "enhanced": true,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Thin the Herd",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Fangtooth Cavern",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Bumblebird",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Deepwater Gruen",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sporegorger \u2013 Evil Twin",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "EvilTwin"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sporegorger \u2013 Evil Twin",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "EvilTwin"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Youngest Bear \u2013 Evil Twin",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "EvilTwin"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Way of the Pixie",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Untamed"
+                    }
+                ],
+                "id": 13452274,
+                "keyCheatCount": 1,
+                "keyforgeId": "9ec782d8-2999-40e0-b067-138a5fa85579",
+                "lastSasUpdate": "2021-05-19",
+                "metaScores": {},
+                "name": "Audocurse, the Broken Thief\u2019s Evil Twin",
+                "other": 1.35,
+                "previousMajorSasRating": 0,
+                "previousSasRating": 33,
+                "rawAmber": 17,
+                "recursion": 0.25,
+                "sasPercentile": 56.90128515348875,
+                "sasRating": 64,
+                "synergyRating": 14,
+                "totalArmor": 12,
+                "totalPower": 51,
+                "upgradeCount": 1
+            },
+            "sasVersion": 38
+        },
+        "dok_stats": {
+            "amberControl": 62.70410612022839,
+            "artifactControl": 76.53036567366473,
+            "creatureControl": 81.16268150876289,
+            "creatureProtection": 21.078729477825394,
+            "disruption": 53.174002974685735,
+            "effectivePower": 8.15133203351055,
+            "efficiency": 32.86334627934037,
+            "expectedAmber": 95.083365733956,
+            "recursion": 35.09293637941912
+        },
+        "user_data": {
+            "deck_id": "9ec782d8-2999-40e0-b067-138a5fa85579"
+        },
+        "vault_data": {
+            "_linked": {
+                "cards": [
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "411",
+                        "card_text": "Play: Shuffle the 4 least powerful creatures into their owners\u2019 decks.",
+                        "card_title": "Thin the Herd",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_411_G34R7X27Q4QH_en.png",
+                        "house": "Untamed",
+                        "id": "5783cb53-1e17-4863-853e-c3860ddcdbce",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Uncommon",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": "2",
+                        "card_number": "116",
+                        "card_text": "\uf566 Play/Fight: Raise the tide.",
+                        "card_title": "Marshal Ewer",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": "\u201cWhen thy faith equals mine, ye too can cut the ocean.\u201d",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_116_4QGJGJJGW6PJ_en.png",
+                        "house": "Sanctum",
+                        "id": "ecd52fb9-b4c4-434c-86a6-1681a2387662",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "4",
+                        "rarity": "Common",
+                        "traits": "Spirit \u2022 Knight"
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "231",
+                        "card_text": "Play: Each player with 6A or more is reduced to 5A.",
+                        "card_title": "Doorstep to Heaven",
+                        "card_type": "Action",
+                        "expansion": 435,
+                        "flavor_text": "The cities of the Sanctum are safe, clean, and vibrant like few others on the Crucible. But few are\u202fjudged\u202fworthy to enter.",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_231_33R568WVR5JM_en.png",
+                        "house": "Sanctum",
+                        "id": "d10ad957-db91-460e-b00b-2b344805945d",
+                        "is_anomaly": false,
+                        "is_enhanced": true,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Uncommon",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "103",
+                        "card_text": "Play: Choose one:\r\n\u2022 Deal 3\uf361 to each flank creature.\r\n\u2022 Deal 3\uf361 to each creature not on a flank.",
+                        "card_title": "Honor or Glory",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_103_C4J32QCWVH5M_en.png",
+                        "house": "Sanctum",
+                        "id": "7b89a628-adb4-4e8f-a1e6-0d16e72d4ef8",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Uncommon",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "414",
+                        "card_text": "Play: For the remainder of the turn, a friendly creature gains skirmish. Ready and fight with that creature.",
+                        "card_title": "Assert Dominance",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_414_3FWM93V39F8G_en.png",
+                        "house": "Untamed",
+                        "id": "6b52b995-6d62-490f-a6a1-4c2904aa02fd",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "307",
+                        "card_text": "Enhance (\uf565\uf565). (These icons have already been added to cards in your deck.)\r\nReap: Ready and use a friendly non-Aquan creature.",
+                        "card_title": "Giltspine Netcaster",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_307_W2WPQ974P59R_en.png",
+                        "house": "Unfathomable",
+                        "id": "c07bfe76-ae61-4d65-9ccc-18c584666bbb",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "2",
+                        "rarity": "Evil Twin",
+                        "traits": "Aquan"
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "401",
+                        "card_text": "At the end of your turn, destroy the least powerful creature.",
+                        "card_title": "Fangtooth Cavern",
+                        "card_type": "Artifact",
+                        "expansion": 496,
+                        "flavor_text": "The witches of Fangtooth Cavern don\u2019t appreciate visitors.",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_401_JWPCPPFG5F2W_en.png",
+                        "house": "Untamed",
+                        "id": "78fff824-522e-478a-8db7-7a20ceec74a6",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Uncommon",
+                        "traits": "Location"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "000",
+                        "card_text": "High Tide\r\n(The tide is high for you.)\r\nLow Tide\r\n(The tide is low for you.)\r\nOmni: Raise the tide. Gain 3 chains.",
+                        "card_title": "The Tide",
+                        "card_type": "The Tide",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_000_3W836P58R5VM_en.png",
+                        "house": "The Tide",
+                        "id": "37377d67-2916-4d45-b193-bea6ecd853e3",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": true,
+                        "power": null,
+                        "rarity": "The Tide",
+                        "traits": null
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "095",
+                        "card_text": "Enhance \uf565. (These icons have already been added to cards in your deck.)\r\nPlay: Capture all but 5 of your opponent\u2019s \uf360, distributed among any number of friendly creatures.",
+                        "card_title": "Bring Low",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_095_V3M3MQ3QXH43_en.png",
+                        "house": "Sanctum",
+                        "id": "4cd70182-b81d-4fbe-acc0-1db2e4e04898",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Uncommon",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": "3",
+                        "card_number": "082",
+                        "card_text": "While Mad Prophet Gizelhart is in the center of your battleline, it gains, \"Action: Fully heal each non-Mutant creature. Gain 1\uf360 for each creature healed this way.\"",
+                        "card_title": "Mad Prophet Gizelhart",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_082_9MGV6X5QR6CM_en.png",
+                        "house": "Sanctum",
+                        "id": "2fad8823-ea45-4056-a5dd-fda9b06771e1",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "4",
+                        "rarity": "Rare",
+                        "traits": "Leader \u2022 Priest"
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "413",
+                        "card_text": "\uf566 Play: If the tide is high, gain 1\uf360. Otherwise, raise the tide.",
+                        "card_title": "All Tide Up",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_413_53V5G5FVHQ7_en.png",
+                        "house": "Untamed",
+                        "id": "84885895-7992-46b8-b205-55b5e86c8fbd",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "112",
+                        "card_text": "Play: Destroy each creature that does not share a house with at least 1 of its neighbors.",
+                        "card_title": "Grand Melee",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_112_FJ46Q8F594Q_en.png",
+                        "house": "Sanctum",
+                        "id": "90ff2807-2a19-4d1f-8a00-efbd82d03609",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "374",
+                        "card_text": "Reap: You may fight with 1 of Youngest Bear's neighbors.",
+                        "card_title": "Youngest Bear",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": "Show me the honey.",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_374_PVMGXCXR7544_en.png",
+                        "house": "Untamed",
+                        "id": "e54d1b60-c59c-4910-850e-15c9fac786ec",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "2",
+                        "rarity": "Evil Twin",
+                        "traits": "Beast"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "399",
+                        "card_text": "Alpha. (You can only play this card before doing anything else this step.)\r\nPlay: Give two +1 power counters to each other friendly Untamed creature.",
+                        "card_title": "Bumblebird",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_399_XW6V88P68X29_en.png",
+                        "house": "Untamed",
+                        "id": "9cdb25ca-0eb5-4ed2-96f6-ce4b5d39cfef",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "1",
+                        "rarity": "Uncommon",
+                        "traits": "Beast \u2022 Insect"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "426",
+                        "card_text": "This creature gains, \"Reap: Gain 1\uf360.\"",
+                        "card_title": "Way of the Pixie",
+                        "card_type": "Upgrade",
+                        "expansion": 496,
+                        "flavor_text": "They made him feel pretty.",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_426_MXM79PHMR3RF_en.png",
+                        "house": "Untamed",
+                        "id": "a7be3aa7-1123-4d97-843c-4cb9024970ca",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "356",
+                        "card_text": "Action: Exhaust a creature or artifact.",
+                        "card_title": "Frigorific Rod",
+                        "card_type": "Artifact",
+                        "expansion": 496,
+                        "flavor_text": "\u201cIs it cold in here, or is it just you?\u201d <softreturn>\u2014Sibyl<nonbreak>Waimare",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_356_9QG67926GH7W_en.png",
+                        "house": "Unfathomable",
+                        "id": "5b0bac0c-b1df-4f4a-9b70-edc4f7d75cc7",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": "Item"
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "403",
+                        "card_text": "Play: Give a creature a +1 power counter. Then give each creature with a +1 power counter another +1 power counter.",
+                        "card_title": "Genetic Drift",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_403_4RJ9VHR77PJ5_en.png",
+                        "house": "Untamed",
+                        "id": "291b1841-36a8-4c7c-90f7-88e90e500f4d",
+                        "is_anomaly": false,
+                        "is_enhanced": true,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Uncommon",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": "5",
+                        "card_number": "069",
+                        "card_text": "Poison. (Any damage dealt by this creature\u2019s power during a fight destroys the damaged creature.)",
+                        "card_title": "Sir Bevor",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": "\u201cYou should have picked on someone your own size.\u201d",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_069_XMR45PV3G5R9_en.png",
+                        "house": "Sanctum",
+                        "id": "551e143a-0024-4d52-b6fc-aa60ebb33212",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "1",
+                        "rarity": "Evil Twin",
+                        "traits": "Alien \u2022 Knight"
+                    },
+                    {
+                        "amber": 3,
+                        "armor": null,
+                        "card_number": "121",
+                        "card_text": "\uf566 Play only if the tide is high.",
+                        "card_title": "Strange Ordination",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": "\u201cWe have much to gain from closer ties between our two faiths.\u201d <softreturn>\u2014Batariel<nonbreak>of<nonbreak>the<nonbreak>Grey",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_121_C979CG5WXJ68_en.png",
+                        "house": "Sanctum",
+                        "id": "736d2974-c191-4ebe-9362-fd889604d93a",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "366",
+                        "card_text": "Play: Your opponent cannot ready cards during the \"ready cards\" step of their next turn.",
+                        "card_title": "Storm Surge",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": "\u201cWhat happens to an Aquan when it gets hit by lightning?\u201d \u2014Bot<nonbreak>Bookton",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_366_MMMF238PQPJ3_en.png",
+                        "house": "Unfathomable",
+                        "id": "db7d29f4-b656-4d0c-b8bb-1fd86644e3e0",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "356",
+                        "card_text": "Action: Exhaust a creature or artifact.",
+                        "card_title": "Frigorific Rod",
+                        "card_type": "Artifact",
+                        "expansion": 496,
+                        "flavor_text": "\u201cIs it cold in here, or is it just you?\u201d <softreturn>\u2014Sibyl<nonbreak>Waimare",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_356_9QG67926GH7W_en.png",
+                        "house": "Unfathomable",
+                        "id": "6c85fd9d-2b4d-4c87-b918-81d0cea0eb7d",
+                        "is_anomaly": false,
+                        "is_enhanced": true,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": "Item"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "077",
+                        "card_text": "Play: Archive each friendly Knight creature from play.\r\nOmni: If you have played 7 or more Sanctum cards this turn, destroy Epic Quest and forge a key at no cost.",
+                        "card_title": "Epic Quest",
+                        "card_type": "Artifact",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_077_9CW6R752CCQG_en.png",
+                        "house": "Sanctum",
+                        "id": "026207f3-465c-491b-8e30-4e467ad92079",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Rare",
+                        "traits": "Quest"
+                    },
+                    {
+                        "amber": 2,
+                        "armor": null,
+                        "card_number": "416",
+                        "card_text": "\uf566 Play/Reap: If the tide is low, your opponent gains 1\uf360.",
+                        "card_title": "Deepwater Gruen",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": "\u201cNo one knows why cuteness was a necessary adaptation for the pitch dark of the deep ocean.\u201d <softreturn>\u2014Medic<nonbreak>Ingram",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_416_QWFVMGH3WC9_en.png",
+                        "house": "Untamed",
+                        "id": "645084af-a823-48e0-92b1-82f655b07f3f",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "5",
+                        "rarity": "Common",
+                        "traits": "Beast"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "365",
+                        "card_text": "Play: Choose one:\r\n\u2022 Your opponent discards a random card from their hand.\r\n\u2022 Exhaust a creature and each of its neighbors.",
+                        "card_title": "Sink or Swim",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_365_38F85VF5Q3PJ_en.png",
+                        "house": "Unfathomable",
+                        "id": "df3e34c9-8c95-40f2-9ec0-20d9c59fa911",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "362",
+                        "card_text": "\uf566 Play: If the tide is high, archive Pour-tal. Otherwise, raise the tide.",
+                        "card_title": "Pour-tal",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": "Life on the Crucible radically changes one\u2019s perception of improbability.",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_362_VH99JVF537VJ_en.png",
+                        "house": "Unfathomable",
+                        "id": "ab7daf47-33e7-425c-842a-ba0eede347d9",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "362",
+                        "card_text": "\uf566 Play: If the tide is high, archive Pour-tal. Otherwise, raise the tide.",
+                        "card_title": "Pour-tal",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": "Life on the Crucible radically changes one\u2019s perception of improbability.",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_362_VH99JVF537VJ_en.png",
+                        "house": "Unfathomable",
+                        "id": "74220455-ce1e-4f72-918f-a0eea05d303a",
+                        "is_anomaly": false,
+                        "is_enhanced": true,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "338",
+                        "card_text": "Play: Choose a house on your opponent's identity card. If your opponent does not choose that house as their active house on their next turn, gain 3\uf360.",
+                        "card_title": "Allusions of Grandeur",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_338_766FMQPXV33X_en.png",
+                        "house": "Unfathomable",
+                        "id": "a04c4173-7a21-428f-889f-c624f55e944d",
+                        "is_anomaly": false,
+                        "is_enhanced": true,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Uncommon",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "345",
+                        "card_text": "Skirmish. (When you use this creature to fight, it is dealt no damage in return.)\r\nFight: Stun and exhaust the creature Sparkfist fights.",
+                        "card_title": "Sparkfist",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_345_CJ54GCXJGX4F_en.png",
+                        "house": "Unfathomable",
+                        "id": "aa222740-ecb9-4a0c-99d1-9b98b256f1e3",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "2",
+                        "rarity": "Uncommon",
+                        "traits": "Aquan"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "108",
+                        "card_text": "Deploy. (This creature can enter play anywhere in your battleline.)\r\nFight: Ready and fight with each of Badgemagus's neighbors, one at a time.",
+                        "card_title": "Badgemagus",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_108_5CVF53G8CJV8_en.png",
+                        "house": "Sanctum",
+                        "id": "36868fe2-9430-4795-8c02-bbc79b59ecb9",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "4",
+                        "rarity": "Common",
+                        "traits": "Human \u2022 Knight"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "323",
+                        "card_text": "General Sherman deals no damage when fighting.\r\nPlay: Purge each other creature. If General Sherman leaves play, return to play each creature purged this way (exhausted and under its owner\u2019s control).",
+                        "card_title": "General Sherman",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_323_62323JF73HJ5_en.png",
+                        "house": "Unfathomable",
+                        "id": "7b9b2b5b-e001-4714-be5f-9fcc5e4c5db5",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "10",
+                        "rarity": "Rare",
+                        "traits": "Beast"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": "1",
+                        "card_number": "070",
+                        "card_text": "Reap: Your opponent loses \uf360 equal to Urien the Circumspect's armor.",
+                        "card_title": "Urien the Circumspect",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": "\u201cYour money or your life.\u201d",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_070_QGG5VP6Q5HF7_en.png",
+                        "house": "Sanctum",
+                        "id": "7514ddfb-4ca3-4a23-a77f-52724d7d63c2",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "3",
+                        "rarity": "Evil Twin",
+                        "traits": "Human \u2022 Knight"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "372",
+                        "card_text": "Play: Move each +1 power counter in play to Sporegorger.\r\nReap: You may remove each +1 power counter from Sporegorger. For each counter removed this way, deal 1\uf361 to each other creature.",
+                        "card_title": "Sporegorger",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_372_752XXM3XRP48_en.png",
+                        "house": "Untamed",
+                        "id": "fd51cb4d-f7f9-4f80-8109-084f1243c73a",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "4",
+                        "rarity": "Evil Twin",
+                        "traits": "Beast \u2022 Fungus"
+                    }
+                ],
+                "houses": [
+                    {
+                        "id": "Unfathomable",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Unfathomable-2.png",
+                        "in_filters": true,
+                        "name": "Unfathomable"
+                    },
+                    {
+                        "id": "Sanctum",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
+                        "in_filters": true,
+                        "name": "Sanctum"
+                    },
+                    {
+                        "id": "Untamed",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
+                        "in_filters": true,
+                        "name": "Untamed"
+                    }
+                ],
+                "notes": []
+            },
+            "data": {
+                "_links": {
+                    "cards": [
+                        "d10ad957-db91-460e-b00b-2b344805945d",
+                        "37377d67-2916-4d45-b193-bea6ecd853e3",
+                        "551e143a-0024-4d52-b6fc-aa60ebb33212",
+                        "7514ddfb-4ca3-4a23-a77f-52724d7d63c2",
+                        "7514ddfb-4ca3-4a23-a77f-52724d7d63c2",
+                        "026207f3-465c-491b-8e30-4e467ad92079",
+                        "2fad8823-ea45-4056-a5dd-fda9b06771e1",
+                        "4cd70182-b81d-4fbe-acc0-1db2e4e04898",
+                        "7b89a628-adb4-4e8f-a1e6-0d16e72d4ef8",
+                        "36868fe2-9430-4795-8c02-bbc79b59ecb9",
+                        "90ff2807-2a19-4d1f-8a00-efbd82d03609",
+                        "ecd52fb9-b4c4-434c-86a6-1681a2387662",
+                        "736d2974-c191-4ebe-9362-fd889604d93a",
+                        "c07bfe76-ae61-4d65-9ccc-18c584666bbb",
+                        "c07bfe76-ae61-4d65-9ccc-18c584666bbb",
+                        "7b9b2b5b-e001-4714-be5f-9fcc5e4c5db5",
+                        "a04c4173-7a21-428f-889f-c624f55e944d",
+                        "aa222740-ecb9-4a0c-99d1-9b98b256f1e3",
+                        "6c85fd9d-2b4d-4c87-b918-81d0cea0eb7d",
+                        "5b0bac0c-b1df-4f4a-9b70-edc4f7d75cc7",
+                        "ab7daf47-33e7-425c-842a-ba0eede347d9",
+                        "74220455-ce1e-4f72-918f-a0eea05d303a",
+                        "df3e34c9-8c95-40f2-9ec0-20d9c59fa911",
+                        "db7d29f4-b656-4d0c-b8bb-1fd86644e3e0",
+                        "db7d29f4-b656-4d0c-b8bb-1fd86644e3e0",
+                        "fd51cb4d-f7f9-4f80-8109-084f1243c73a",
+                        "fd51cb4d-f7f9-4f80-8109-084f1243c73a",
+                        "e54d1b60-c59c-4910-850e-15c9fac786ec",
+                        "9cdb25ca-0eb5-4ed2-96f6-ce4b5d39cfef",
+                        "78fff824-522e-478a-8db7-7a20ceec74a6",
+                        "291b1841-36a8-4c7c-90f7-88e90e500f4d",
+                        "5783cb53-1e17-4863-853e-c3860ddcdbce",
+                        "84885895-7992-46b8-b205-55b5e86c8fbd",
+                        "84885895-7992-46b8-b205-55b5e86c8fbd",
+                        "6b52b995-6d62-490f-a6a1-4c2904aa02fd",
+                        "645084af-a823-48e0-92b1-82f655b07f3f",
+                        "a7be3aa7-1123-4d97-843c-4cb9024970ca"
+                    ],
+                    "houses": [
+                        "Sanctum",
+                        "Unfathomable",
+                        "Untamed"
+                    ],
+                    "notes": []
+                },
+                "casual_losses": 0,
+                "casual_wins": 0,
+                "chains": 0,
+                "expansion": 496,
+                "id": "9ec782d8-2999-40e0-b067-138a5fa85579",
+                "is_my_deck": false,
+                "is_my_favorite": false,
+                "is_on_my_watchlist": false,
+                "losses": 0,
+                "name": "Audocurse, the Broken Thief\u2019s Evil Twin",
+                "power_level": 0,
+                "set_era_cards": {
+                    "Anomaly": [],
+                    "Legacy": []
+                },
+                "shards_bonus": null,
+                "wins": 0
+            }
+        }
+    },
+    "a19ba89a-ea75-406e-9b38-f8968b5bd323": {
+        "dok_data": {
+            "deck": {
+                "actionCount": 13,
+                "aercScore": 58,
+                "aercVersion": 38,
+                "amberControl": 5.28,
+                "antisynergyRating": 0,
+                "artifactControl": 3.075,
+                "cardDrawCount": 1,
+                "creatureControl": 11.5875,
+                "creatureCount": 23,
+                "creatureProtection": 2.0,
+                "dateAdded": "2021-04-17",
+                "disruption": 2.5,
+                "effectivePower": 118,
+                "efficiency": 7.91,
+                "efficiencyBonus": 0.0,
+                "expansion": "DARK_TIDINGS",
+                "expectedAmber": 13.275,
+                "housesAndCards": [
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Decadence",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Decadence",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Di-No You Didn't!",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ostracize",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Ostracize",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Bestiarii Urso",
+                                "enhanced": true,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Consul Primus",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Cornicen Octavia",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Crassosaurus",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lapisaurus",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lapisaurus",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Medicus Lacus",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Saurian"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Grand Alliance Council",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Technobabble",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Together!",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Zap",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Colonist Chapman",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lieutenant Khrkhar",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lieutenant Khrkhar",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Lieutenant Valmart",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Rocketeer Tryska",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Rocketeer Tryska",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sci. Officer Qincan",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Shield-U-Later",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "StarAlliance"
+                    },
+                    {
+                        "cards": [
+                            {
+                                "anomaly": false,
+                                "cardTitle": "All Tide Up",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Assert Dominance",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Persistence Hunting",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Punctuated Equilibrium",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Bumblebird",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Dredging Druid",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Rare"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Floomf",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Gebuk",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Mollymawk",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Mollymawk",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Sporegorger",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Youngest Bear",
+                                "enhanced": false,
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            }
+                        ],
+                        "house": "Untamed"
+                    }
+                ],
+                "id": 13452278,
+                "keyforgeId": "a19ba89a-ea75-406e-9b38-f8968b5bd323",
+                "lastSasUpdate": "2021-05-19",
+                "metaScores": {},
+                "name": "The Archon who Hurts Cornwall",
+                "other": 0.25,
+                "previousMajorSasRating": 0,
+                "previousSasRating": 27,
+                "rawAmber": 5,
+                "recursion": 0.05,
+                "sasPercentile": 77.30565441899394,
+                "sasRating": 68,
+                "synergyRating": 9,
+                "totalArmor": 10,
+                "totalPower": 86
+            },
+            "sasVersion": 38
+        },
+        "dok_stats": {
+            "amberControl": 30.585475690987785,
+            "artifactControl": 98.44965987654058,
+            "creatureControl": 61.391275616074694,
+            "creatureProtection": 79.49883239074819,
+            "disruption": 63.464773046100035,
+            "effectivePower": 96.88322625698987,
+            "efficiency": 78.70631078677258,
+            "expectedAmber": 12.193268171289867,
+            "recursion": 35.09293637941912
+        },
+        "user_data": {
+            "deck_id": "a19ba89a-ea75-406e-9b38-f8968b5bd323"
+        },
+        "vault_data": {
+            "_linked": {
+                "cards": [
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "301",
+                        "card_text": "Elusive. (The first time this creature is attacked each turn, no damage is dealt.)\r\nAfter a player chooses an active house which matches no cards in play, steal 1\uf360.",
+                        "card_title": "Sci. Officer Qincan",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_301_WCVRJ3JR6M9G_en.png",
+                        "house": "Star Alliance",
+                        "id": "f4226f69-57e6-4372-aed6-0f6298536433",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "2",
+                        "rarity": "Common",
+                        "traits": "Alien \u2022 Proximan \u2022 Scientist"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "174",
+                        "card_text": "Play: Choose one:\r\n\u2022 Exalt, ready, and use a friendly creature.\r\n\u2022 Move 1\uf360 from a creature to another creature.",
+                        "card_title": "Decadence",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_174_688F9V5FG6WJ_en.png",
+                        "house": "Saurian",
+                        "id": "f3a18ce3-c15b-45d7-963a-ad6edc9ac10f",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "414",
+                        "card_text": "Play: For the remainder of the turn, a friendly creature gains skirmish. Ready and fight with that creature.",
+                        "card_title": "Assert Dominance",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_414_3FWM93V39F8G_en.png",
+                        "house": "Untamed",
+                        "id": "6b52b995-6d62-490f-a6a1-4c2904aa02fd",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "277",
+                        "card_text": "Taunt.\r\nEach of Colonist Chapman's non-Star Alliance neighbors gains, \"Reap: Gain 1\uf360.\"",
+                        "card_title": "Colonist Chapman",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": "\u201cOur harvests are for everyone.\u201d",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_277_VMWM5H39QG8X_en.png",
+                        "house": "Star Alliance",
+                        "id": "f8ae077b-d4ec-4c03-ac22-90d1a6e7dbbf",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "3",
+                        "rarity": "Uncommon",
+                        "traits": "Human"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "000",
+                        "card_text": "High Tide\r\n(The tide is high for you.)\r\nLow Tide\r\n(The tide is low for you.)\r\nOmni: Raise the tide. Gain 3 chains.",
+                        "card_title": "The Tide",
+                        "card_type": "The Tide",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_000_3W836P58R5VM_en.png",
+                        "house": "The Tide",
+                        "id": "37377d67-2916-4d45-b193-bea6ecd853e3",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": true,
+                        "power": null,
+                        "rarity": "The Tide",
+                        "traits": null
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "156",
+                        "card_text": "Play: Destroy an enemy creature with \uf360 on it.",
+                        "card_title": "Di-No You Didn't!",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": "In its long history, the republic has yet to invent a punishment more dreaded than the public scolding.",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_156_H6JJVGPMVCF8_en.png",
+                        "house": "Saurian",
+                        "id": "c1e97b2f-7aa0-4094-997f-9e5607a0814b",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Uncommon",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "171",
+                        "card_text": "Enhance \uf565. (These icons have already been added to cards in your deck.)\r\nReap: Move 1\uf360 from a creature to another creature.",
+                        "card_title": "Consul Primus",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_171_P5XP357J5PP8_en.png",
+                        "house": "Saurian",
+                        "id": "69287ecc-3377-40eb-a129-28bb357efb2b",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "3",
+                        "rarity": "Common",
+                        "traits": "Dinosaur \u2022 Politician"
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "413",
+                        "card_text": "\uf566 Play: If the tide is high, gain 1\uf360. Otherwise, raise the tide.",
+                        "card_title": "All Tide Up",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_413_53V5G5FVHQ7_en.png",
+                        "house": "Untamed",
+                        "id": "84885895-7992-46b8-b205-55b5e86c8fbd",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": "1",
+                        "card_number": "153",
+                        "card_text": "Play/Reap: You may unstun a creature.",
+                        "card_title": "Bestiarii Urso",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_153_76JC435J255H_en.png",
+                        "house": "Saurian",
+                        "id": "c1f6f5e3-8d19-48d7-a454-217db170f83d",
+                        "is_anomaly": false,
+                        "is_enhanced": true,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "5",
+                        "rarity": "Uncommon",
+                        "traits": "Dinosaur"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "399",
+                        "card_text": "Alpha. (You can only play this card before doing anything else this step.)\r\nPlay: Give two +1 power counters to each other friendly Untamed creature.",
+                        "card_title": "Bumblebird",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_399_XW6V88P68X29_en.png",
+                        "house": "Untamed",
+                        "id": "9cdb25ca-0eb5-4ed2-96f6-ce4b5d39cfef",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "1",
+                        "rarity": "Uncommon",
+                        "traits": "Beast \u2022 Insect"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "300",
+                        "card_text": "\uf566 While the tide is high, Rocketeer Tryska\u2019s neighbors enter play ready.",
+                        "card_title": "Rocketeer Tryska",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": "\u201cWe\u2019ll be together forever, Glub-Glub!\u201d",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_300_56PWPH7564P_en.png",
+                        "house": "Star Alliance",
+                        "id": "c3e06fb0-b6b9-493b-a5bb-6227b655349e",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "4",
+                        "rarity": "Common",
+                        "traits": "Human"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "295",
+                        "card_text": "Taunt. (This creature\u2019s neighbors cannot be attacked unless they have taunt.)\r\nHazardous 3. (Before this creature is attacked, deal 3\uf361 to the attacking enemy.)",
+                        "card_title": "Lieutenant Khrkhar",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_295_5HVVCQGXG8G6_en.png",
+                        "house": "Star Alliance",
+                        "id": "de3de189-f7cd-4084-b418-f35d2eb4dad2",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "5",
+                        "rarity": "Common",
+                        "traits": "Alien \u2022 Handuhan"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "296",
+                        "card_text": "\uf566 Play/Fight/Reap: If the tide is high, keys cost +3\uf360 during your opponent's next turn. ",
+                        "card_title": "Lieutenant Valmart",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_296_86M6MJW6VJ37_en.png",
+                        "house": "Star Alliance",
+                        "id": "a279d136-60a9-47c2-8e4b-0d341b6e35fc",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "3",
+                        "rarity": "Common",
+                        "traits": "Alien \u2022 Scientist"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "420",
+                        "card_text": "Play: Destroy an artifact.",
+                        "card_title": "Mollymawk",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": "\u201cIt doesn\u2019t plan on digesting the device, just swallowing it.\u201d <softreturn>\u2014Rocketeer<nonbreak>Tryska",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_420_RRX5P3VPR5MG_en.png",
+                        "house": "Untamed",
+                        "id": "cc3bd5e2-5662-4557-9ef5-927df2335549",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "5",
+                        "rarity": "Common",
+                        "traits": "Beast"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "417",
+                        "card_text": "Skirmish. (When you use this creature to fight, it is dealt no damage in return.)\r\nFight: Give a Beast creature two +1 power counters.",
+                        "card_title": "Floomf",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_417_MWQWHJ42758C_en.png",
+                        "house": "Untamed",
+                        "id": "5b684085-105f-455e-a5e4-78b76c49bf6f",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "3",
+                        "rarity": "Common",
+                        "traits": "Beast \u2022 Cat"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": "1",
+                        "card_number": "172",
+                        "card_text": "Action: Capture 2\uf360.",
+                        "card_title": "Cornicen Octavia",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": "\u201cThe cornicens go first so the rest<softreturn>of us don\u2019t have to hear them.\u201d<softreturn>\u2014Primus<nonbreak>Unguis",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_172_PPPRWFXCVWWG_en.png",
+                        "house": "Saurian",
+                        "id": "58354cf3-2643-428f-9198-670f33c35eb9",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "5",
+                        "rarity": "Common",
+                        "traits": "Dinosaur \u2022 Soldier"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "287",
+                        "card_text": "\uf566 Play: You may play a non-Star Alliance card. If the tide is high, you may play another non-Star Alliance card.",
+                        "card_title": "Together!",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": "\u201cWhat do you mean you\u2019re not water-resistant?!\u201d",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_287_59PR5PCQFVVH_en.png",
+                        "house": "Star Alliance",
+                        "id": "a1951059-85a7-4d2d-a0b5-3691aadb67b6",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Uncommon",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "402",
+                        "card_text": "Destroyed: Discard the top card of your deck. If it is a creature, after Gebuk leaves play, put that creature into play in Gebuk\u2019s position in the battleline.",
+                        "card_title": "Gebuk",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_402_WF69PWJ3MG94_en.png",
+                        "house": "Untamed",
+                        "id": "1c75ee7c-4638-4d5a-9379-c77cc4143ef0",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "5",
+                        "rarity": "Uncommon",
+                        "traits": "Beast"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "428",
+                        "card_text": "Reap: You may reap with 1 of Youngest Bear's neighbors.",
+                        "card_title": "Youngest Bear",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": "He likes the honey.",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_428_PCCP5Q24F4G7_en.png",
+                        "house": "Untamed",
+                        "id": "004dc6b8-59c9-4463-8a1e-66d9e7b74735",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "2",
+                        "rarity": "Common",
+                        "traits": "Beast"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": "2",
+                        "card_number": "135",
+                        "card_text": "Elusive.\r\nPlay: Capture 10\uf360 from any combination of players. Then, if Crassosaurus has fewer than 10\uf360 on it, purge Crassosaurus.",
+                        "card_title": "Crassosaurus",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_135_G86RPHM5CVMF_en.png",
+                        "house": "Saurian",
+                        "id": "2d3e5952-26c3-47f4-aed1-286b942e26ac",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "4",
+                        "rarity": "Rare",
+                        "traits": "Dinosaur \u2022 Politician"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "179",
+                        "card_text": "Play: Lose 1\uf360. If you do, purge a creature.",
+                        "card_title": "Ostracize",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": "\u201cNothing that 8 years in the hinterlands can\u2019t fix.\u201d",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_179_8VQV9H86X4V_en.png",
+                        "house": "Saurian",
+                        "id": "4d293944-5068-485b-9dfe-0f52071e286d",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "303",
+                        "card_text": "Play: Stun a creature and each of its neighbors that shares a house with it.",
+                        "card_title": "Technobabble",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": "\u201cIt\u2019s easy. Just recalibrate the pseudopneumatic gyroflange, disentangle the quantumagnetic \u00e6mbometer, then...\u201d",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_303_7RV8X7FFCFR2_en.png",
+                        "house": "Star Alliance",
+                        "id": "02d6648a-2b9e-44f1-8501-805dcc79d25c",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "382",
+                        "card_text": "Elusive.\r\n\uf566 Reap: If the tide is high, put up to 3 creatures from your discard pile on top of your deck.",
+                        "card_title": "Dredging Druid",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_382_75476X4RC953_en.png",
+                        "house": "Untamed",
+                        "id": "aa3cfdba-5014-4a0c-970b-9ed39d04e95a",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "2",
+                        "rarity": "Rare",
+                        "traits": "Human \u2022 Witch"
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "305",
+                        "card_text": "Play: Deal 1\uf361 to a creature for each house represented among creatures in play.",
+                        "card_title": "Zap",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": "\u201cWe come in peace.\u201d",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_305_35FHXGRH97X5_en.png",
+                        "house": "Star Alliance",
+                        "id": "436d743c-44b9-450b-b730-63018829c3ff",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "390",
+                        "card_text": "Play: Each player discards their hand, then refills their hand as if it were their \u201cdraw cards\u201d step.",
+                        "card_title": "Punctuated Equilibrium",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_390_3XFW5R3V677V_en.png",
+                        "house": "Untamed",
+                        "id": "480848b9-9744-4218-a870-f4787d8c3b96",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Rare",
+                        "traits": null
+                    },
+                    {
+                        "amber": 1,
+                        "armor": null,
+                        "card_number": "423",
+                        "card_text": "Play: Choose a house. Exhaust each enemy creature of the chosen house.",
+                        "card_title": "Persistence Hunting",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_423_HFCXX7JGVVH7_en.png",
+                        "house": "Untamed",
+                        "id": "3aa8422c-5099-4411-8fd4-984855e378d3",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "410",
+                        "card_text": "Reap: Give Sporegorger a +1 power counter. You may remove each +1 power counter from Sporegorger. For each counter removed this way, deal 1\uf361 to each other creature.",
+                        "card_title": "Sporegorger",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_410_F69GJ6P9P4J8_en.png",
+                        "house": "Untamed",
+                        "id": "9a25ba01-c3f2-41e2-b78b-9342dc48adb6",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "4",
+                        "rarity": "Uncommon",
+                        "traits": "Beast \u2022 Fungus"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": "2",
+                        "card_number": "176",
+                        "card_text": "Taunt. (This creature\u2019s neighbors cannot be attacked unless they have taunt.)\r\nWhile attacking Lapisaurus, enemy creatures gain, \u201cBefore Fight: Exalt this creature.\u201d",
+                        "card_title": "Lapisaurus",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_176_6GC65PJV69XV_en.png",
+                        "house": "Saurian",
+                        "id": "3df922f1-c08a-4f46-a840-55fb5ffe27af",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "4",
+                        "rarity": "Common",
+                        "traits": "Beast"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": "2",
+                        "card_number": "302",
+                        "card_text": "Shield-U-Later may be played as an upgrade instead of a creature, with the text: \u201cThis creature gets +2 armor.\u201d",
+                        "card_title": "Shield-U-Later",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": "\u201cBetter to have and not need...\u201d",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_302_96Q6JHC8JJ4Q_en.png",
+                        "house": "Star Alliance",
+                        "id": "2bdf0fd1-03a8-4126-9c09-f4fc51d4ba3b",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "3",
+                        "rarity": "Common",
+                        "traits": "Robot"
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "294",
+                        "card_text": "Play: Choose a creature of each house. Destroy each creature not chosen.",
+                        "card_title": "Grand Alliance Council",
+                        "card_type": "Action",
+                        "expansion": 496,
+                        "flavor_text": "\u201cWe\u2019ll form a committee to handle this!\u201d",
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_294_69CW329HPWF8_en.png",
+                        "house": "Star Alliance",
+                        "id": "e821bd3c-1408-44cf-b603-ddf42957c644",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Common",
+                        "traits": null
+                    },
+                    {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "178",
+                        "card_text": "\uf566 While the tide is high, you may spend \uf360 on friendly creatures as if it were in your pool.",
+                        "card_title": "Medicus Lacus",
+                        "card_type": "Creature",
+                        "expansion": 496,
+                        "flavor_text": null,
+                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/496_178_QMXQ7M722HJW_en.png",
+                        "house": "Saurian",
+                        "id": "78fc260f-56cb-4090-bcd3-36a355f72659",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": "5",
+                        "rarity": "Common",
+                        "traits": "Dinosaur \u2022 Philosopher"
+                    }
+                ],
+                "houses": [
+                    {
+                        "id": "Saurian",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
+                        "in_filters": true,
+                        "name": "Saurian"
+                    },
+                    {
+                        "id": "Star Alliance",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Star_Alliance.png",
+                        "in_filters": true,
+                        "name": "Star Alliance"
+                    },
+                    {
+                        "id": "Untamed",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
+                        "in_filters": true,
+                        "name": "Untamed"
+                    }
+                ],
+                "notes": []
+            },
+            "data": {
+                "_links": {
+                    "cards": [
+                        "37377d67-2916-4d45-b193-bea6ecd853e3",
+                        "2d3e5952-26c3-47f4-aed1-286b942e26ac",
+                        "c1f6f5e3-8d19-48d7-a454-217db170f83d",
+                        "c1e97b2f-7aa0-4094-997f-9e5607a0814b",
+                        "69287ecc-3377-40eb-a129-28bb357efb2b",
+                        "58354cf3-2643-428f-9198-670f33c35eb9",
+                        "f3a18ce3-c15b-45d7-963a-ad6edc9ac10f",
+                        "f3a18ce3-c15b-45d7-963a-ad6edc9ac10f",
+                        "3df922f1-c08a-4f46-a840-55fb5ffe27af",
+                        "3df922f1-c08a-4f46-a840-55fb5ffe27af",
+                        "78fc260f-56cb-4090-bcd3-36a355f72659",
+                        "4d293944-5068-485b-9dfe-0f52071e286d",
+                        "4d293944-5068-485b-9dfe-0f52071e286d",
+                        "f8ae077b-d4ec-4c03-ac22-90d1a6e7dbbf",
+                        "a1951059-85a7-4d2d-a0b5-3691aadb67b6",
+                        "e821bd3c-1408-44cf-b603-ddf42957c644",
+                        "de3de189-f7cd-4084-b418-f35d2eb4dad2",
+                        "de3de189-f7cd-4084-b418-f35d2eb4dad2",
+                        "a279d136-60a9-47c2-8e4b-0d341b6e35fc",
+                        "c3e06fb0-b6b9-493b-a5bb-6227b655349e",
+                        "c3e06fb0-b6b9-493b-a5bb-6227b655349e",
+                        "f4226f69-57e6-4372-aed6-0f6298536433",
+                        "2bdf0fd1-03a8-4126-9c09-f4fc51d4ba3b",
+                        "02d6648a-2b9e-44f1-8501-805dcc79d25c",
+                        "436d743c-44b9-450b-b730-63018829c3ff",
+                        "aa3cfdba-5014-4a0c-970b-9ed39d04e95a",
+                        "480848b9-9744-4218-a870-f4787d8c3b96",
+                        "9cdb25ca-0eb5-4ed2-96f6-ce4b5d39cfef",
+                        "1c75ee7c-4638-4d5a-9379-c77cc4143ef0",
+                        "9a25ba01-c3f2-41e2-b78b-9342dc48adb6",
+                        "84885895-7992-46b8-b205-55b5e86c8fbd",
+                        "6b52b995-6d62-490f-a6a1-4c2904aa02fd",
+                        "5b684085-105f-455e-a5e4-78b76c49bf6f",
+                        "cc3bd5e2-5662-4557-9ef5-927df2335549",
+                        "cc3bd5e2-5662-4557-9ef5-927df2335549",
+                        "3aa8422c-5099-4411-8fd4-984855e378d3",
+                        "004dc6b8-59c9-4463-8a1e-66d9e7b74735"
+                    ],
+                    "houses": [
+                        "Saurian",
+                        "Star Alliance",
+                        "Untamed"
+                    ],
+                    "notes": []
+                },
+                "casual_losses": 0,
+                "casual_wins": 0,
+                "chains": 0,
+                "expansion": 496,
+                "id": "a19ba89a-ea75-406e-9b38-f8968b5bd323",
+                "is_my_deck": false,
+                "is_my_favorite": false,
+                "is_on_my_watchlist": false,
+                "losses": 0,
+                "name": "The Archon who Hurts Cornwall",
                 "power_level": 0,
                 "set_era_cards": {
                     "Anomaly": [],
@@ -6660,7 +8824,7 @@
                 "totalArmor": 16,
                 "totalPower": 40
             },
-            "sasVersion": 37
+            "sasVersion": 38
         },
         "dok_stats": {
             "amberControl": 62.70410612022839,
@@ -7302,10 +9466,10 @@
                 ],
                 "houses": [
                     {
-                        "id": "Mars",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
+                        "id": "Sanctum",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
                         "in_filters": true,
-                        "name": "Mars"
+                        "name": "Sanctum"
                     },
                     {
                         "id": "Shadows",
@@ -7314,10 +9478,10 @@
                         "name": "Shadows"
                     },
                     {
-                        "id": "Sanctum",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
+                        "id": "Mars",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
                         "in_filters": true,
-                        "name": "Sanctum"
+                        "name": "Mars"
                     }
                 ],
                 "notes": []
@@ -7394,10 +9558,10 @@
             "deck": {
                 "actionCount": 16,
                 "aercScore": 60,
-                "aercVersion": 37,
+                "aercVersion": 38,
                 "amberControl": 9.825,
                 "antisynergyRating": 0,
-                "artifactControl": 0.75,
+                "artifactControl": 0.5,
                 "artifactCount": 4,
                 "cardArchiveCount": 1,
                 "creatureControl": 8.775,
@@ -7680,10 +9844,10 @@
                 ],
                 "id": 391536,
                 "keyforgeId": "aebaeba5-5918-4573-983a-72d0a5c6133d",
-                "lastSasUpdate": "2021-04-02",
+                "lastSasUpdate": "2021-05-17",
                 "metaScores": {},
                 "name": "Rask of Merosen Shelter",
-                "other": 1.7,
+                "other": 1.95,
                 "previousMajorSasRating": 66,
                 "previousSasRating": 66,
                 "rawAmber": 11,
@@ -7694,11 +9858,11 @@
                 "totalPower": 51,
                 "upgradeCount": 1
             },
-            "sasVersion": 37
+            "sasVersion": 38
         },
         "dok_stats": {
             "amberControl": 79.59268738122739,
-            "artifactControl": 76.53036567366473,
+            "artifactControl": 45.9839131501903,
             "creatureControl": 35.01061743481066,
             "creatureProtection": 94.89048114805969,
             "disruption": 63.464773046100035,
@@ -8388,7 +10552,7 @@
             "deck": {
                 "actionCount": 15,
                 "aercScore": 53,
-                "aercVersion": 37,
+                "aercVersion": 38,
                 "amberControl": 6.89,
                 "antisynergyRating": 1,
                 "artifactControl": 2.025,
@@ -8404,7 +10568,7 @@
                 "efficiency": 2.5,
                 "efficiencyBonus": 0.0,
                 "expansion": "AGE_OF_ASCENSION",
-                "expectedAmber": 21.002499999999998,
+                "expectedAmber": 20.8025,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -8677,10 +10841,10 @@
                 "id": 955188,
                 "keyCheatCount": 1,
                 "keyforgeId": "b41630b3-7394-4ac5-9102-0c4dcb2e1b8a",
-                "lastSasUpdate": "2021-04-02",
+                "lastSasUpdate": "2021-05-18",
                 "metaScores": {},
                 "name": "Byrne, Outerhill's Survivalist",
-                "other": 2.9,
+                "other": 3.15,
                 "previousMajorSasRating": 61,
                 "previousSasRating": 62,
                 "rawAmber": 15,
@@ -8691,7 +10855,7 @@
                 "totalPower": 63,
                 "upgradeCount": 1
             },
-            "sasVersion": 37
+            "sasVersion": 38
         },
         "dok_stats": {
             "amberControl": 52.33239383395974,
@@ -9333,6 +11497,12 @@
                 ],
                 "houses": [
                     {
+                        "id": "Shadows",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "in_filters": true,
+                        "name": "Shadows"
+                    },
+                    {
                         "id": "Brobnar",
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
                         "in_filters": true,
@@ -9343,12 +11513,6 @@
                         "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
                         "name": "Dis"
-                    },
-                    {
-                        "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
-                        "in_filters": true,
-                        "name": "Shadows"
                     }
                 ],
                 "notes": []
@@ -9728,7 +11892,7 @@
                 "totalPower": 93,
                 "upgradeCount": 2
             },
-            "sasVersion": 37
+            "sasVersion": 38
         },
         "dok_stats": {
             "amberControl": 20.758331232633623,
@@ -10436,16 +12600,16 @@
                         "name": "Dis"
                     },
                     {
-                        "id": "Logos",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
-                        "in_filters": true,
-                        "name": "Logos"
-                    },
-                    {
                         "id": "Brobnar",
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
                         "in_filters": true,
                         "name": "Brobnar"
+                    },
+                    {
+                        "id": "Logos",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
+                        "name": "Logos"
                     }
                 ],
                 "notes": []
@@ -10828,7 +12992,7 @@
                 "totalPower": 45,
                 "upgradeCount": 2
             },
-            "sasVersion": 37
+            "sasVersion": 38
         },
         "dok_stats": {
             "amberControl": 41.41117648203771,
@@ -11550,16 +13714,16 @@
                 ],
                 "houses": [
                     {
-                        "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
-                        "in_filters": true,
-                        "name": "Shadows"
-                    },
-                    {
                         "id": "Dis",
                         "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
                         "name": "Dis"
+                    },
+                    {
+                        "id": "Shadows",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "in_filters": true,
+                        "name": "Shadows"
                     },
                     {
                         "id": "Logos",
@@ -11945,7 +14109,7 @@
                 "totalPower": 87,
                 "upgradeCount": 1
             },
-            "sasVersion": 37
+            "sasVersion": 38
         },
         "dok_stats": {
             "amberControl": 79.59268738122739,
@@ -12607,12 +14771,6 @@
                 ],
                 "houses": [
                     {
-                        "id": "Saurian",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
-                        "in_filters": true,
-                        "name": "Saurian"
-                    },
-                    {
                         "id": "Dis",
                         "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
@@ -12623,6 +14781,12 @@
                         "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
                         "in_filters": true,
                         "name": "Logos"
+                    },
+                    {
+                        "id": "Saurian",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
+                        "in_filters": true,
+                        "name": "Saurian"
                     }
                 ],
                 "notes": []
@@ -12998,7 +15162,7 @@
                 "totalPower": 77,
                 "upgradeCount": 3
             },
-            "sasVersion": 37
+            "sasVersion": 38
         },
         "dok_stats": {
             "amberControl": 41.41117648203771,
@@ -13620,6 +15784,12 @@
                 ],
                 "houses": [
                     {
+                        "id": "Untamed",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
+                        "in_filters": true,
+                        "name": "Untamed"
+                    },
+                    {
                         "id": "Brobnar",
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
                         "in_filters": true,
@@ -13630,12 +15800,6 @@
                         "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
                         "in_filters": true,
                         "name": "Mars"
-                    },
-                    {
-                        "id": "Untamed",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
-                        "in_filters": true,
-                        "name": "Untamed"
                     }
                 ],
                 "notes": []

@@ -39,3 +39,7 @@
 .card-header.house-star_alliance {
     background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(42,72,131,1) 100%);
 }
+.card-header.house-unfathomable {
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(209,72,255,1) 100%);
+}
+

@@ -71,52 +71,52 @@
             "wins": 2
         },
         "10": {
-            "losses": 24096,
-            "wins": 23497
+            "losses": 24124,
+            "wins": 23535
         },
         "11": {
-            "losses": 32103,
-            "wins": 31971
+            "losses": 32151,
+            "wins": 32008
         },
         "12": {
-            "losses": 38596,
-            "wins": 38872
+            "losses": 38641,
+            "wins": 38909
         },
         "13": {
-            "losses": 40824,
-            "wins": 41917
+            "losses": 40865,
+            "wins": 41948
         },
         "14": {
-            "losses": 39932,
-            "wins": 41568
+            "losses": 39967,
+            "wins": 41615
         },
         "15": {
-            "losses": 35366,
-            "wins": 37705
+            "losses": 35404,
+            "wins": 37744
         },
         "16": {
-            "losses": 28663,
-            "wins": 31887
+            "losses": 28679,
+            "wins": 31914
         },
         "17": {
-            "losses": 20749,
-            "wins": 23310
+            "losses": 20771,
+            "wins": 23337
         },
         "18": {
-            "losses": 13303,
-            "wins": 15583
+            "losses": 13315,
+            "wins": 15601
         },
         "19": {
-            "losses": 7422,
-            "wins": 8775
+            "losses": 7424,
+            "wins": 8776
         },
         "2": {
             "losses": 14,
             "wins": 4
         },
         "20": {
-            "losses": 3826,
-            "wins": 4774
+            "losses": 3829,
+            "wins": 4777
         },
         "21": {
             "losses": 1813,
@@ -139,8 +139,8 @@
             "wins": 33
         },
         "3": {
-            "losses": 81,
-            "wins": 66
+            "losses": 82,
+            "wins": 69
         },
         "4": {
             "losses": 230,
@@ -151,20 +151,20 @@
             "wins": 742
         },
         "6": {
-            "losses": 2369,
-            "wins": 2172
+            "losses": 2375,
+            "wins": 2173
         },
         "7": {
-            "losses": 4977,
-            "wins": 4834
+            "losses": 4986,
+            "wins": 4840
         },
         "8": {
-            "losses": 9989,
-            "wins": 9435
+            "losses": 10000,
+            "wins": 9451
         },
         "9": {
-            "losses": 16207,
-            "wins": 15602
+            "losses": 16227,
+            "wins": 15630
         }
     },
     "aerc": {
@@ -221,484 +221,604 @@
     },
     "aercDatas": [
         {
-            "amberControl": 8882775.760008752,
-            "artifactControl": 818836.6875000714,
+            "amberControl": 8932286.980008408,
+            "artifactControl": 827288.6875000708,
             "count": 13661340,
-            "creatureControl": 13254250.674990902,
-            "creatureProtection": 1386238.272500185,
-            "disruption": 3345621.062499952,
-            "effectivePower": 86668643.0,
-            "efficiency": 3581529.308750318,
+            "creatureControl": 13278475.259990899,
+            "creatureProtection": 1386236.2350001864,
+            "disruption": 3245980.062499958,
+            "effectivePower": 86668641.0,
+            "efficiency": 3583632.291250418,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 22249854.07499081,
+            "expectedAmber": 22173752.212490924,
             "house": null,
-            "other": 1067376.7574997477,
-            "recursion": 2158680.8937502527
+            "other": 1087083.7074998142,
+            "recursion": 2153909.656250614
         },
         {
-            "amberControl": 2680928.937500989,
-            "artifactControl": 333731.85250002675,
+            "amberControl": 2680973.21000098,
+            "artifactControl": 342111.1025000226,
             "count": 5408112,
-            "creatureControl": 5442196.776251029,
-            "creatureProtection": 532791.034999965,
-            "disruption": 754404.6500000185,
+            "creatureControl": 5468723.917501002,
+            "creatureProtection": 532791.0349999648,
+            "disruption": 754116.4500000182,
             "effectivePower": 32269081.0,
-            "efficiency": 1975454.0474998592,
+            "efficiency": 1970458.9724999005,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 8038352.940002027,
+            "expectedAmber": 8043197.26250184,
             "house": null,
-            "other": 596204.3912500854,
-            "recursion": 877499.7124996401
+            "other": 614081.3412501023,
+            "recursion": 839267.5949997309
         },
         {
-            "amberControl": 2547915.1194503247,
-            "artifactControl": 300210.53249999165,
+            "amberControl": 2539225.3794502914,
+            "artifactControl": 293746.78249999334,
             "count": 3958728,
-            "creatureControl": 3694222.5325009027,
-            "creatureProtection": 831311.6899998602,
-            "disruption": 678197.0787500407,
-            "effectivePower": 25407962.0,
-            "efficiency": 1784830.993750353,
+            "creatureControl": 3679478.0237508947,
+            "creatureProtection": 831422.6199998626,
+            "disruption": 686490.8162500686,
+            "effectivePower": 25408522.0,
+            "efficiency": 1776233.8612503668,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 5591089.719999733,
+            "expectedAmber": 5600519.484999781,
             "house": null,
-            "other": 488118.6337499076,
-            "recursion": 413923.9912499232
+            "other": 490616.1362498863,
+            "recursion": 385844.9575000023
         },
         {
-            "amberControl": 1841244.183949992,
-            "artifactControl": 137123.2499999973,
+            "amberControl": 1819626.7677000198,
+            "artifactControl": 144280.38499999692,
             "count": 2249112,
-            "creatureControl": 2087693.962500057,
-            "creatureProtection": 406852.2599999678,
-            "disruption": 302586.84249998536,
-            "effectivePower": 13906599.0,
-            "efficiency": 1073776.2299998915,
+            "creatureControl": 2096268.7262500569,
+            "creatureProtection": 407675.3949999683,
+            "disruption": 336156.8224999917,
+            "effectivePower": 13907449.0,
+            "efficiency": 1074142.0377498707,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 3511218.4612501753,
+            "expectedAmber": 3533152.021250207,
             "house": null,
-            "other": 254793.53249998772,
-            "recursion": 252929.77124999728
+            "other": 237347.07499999137,
+            "recursion": 253598.15624999377
         },
         {
-            "amberControl": 1276667.720000109,
-            "artifactControl": 13137.154999999848,
+            "amberControl": 0.0,
+            "artifactControl": 0.0,
+            "count": 0,
+            "creatureControl": 0.0,
+            "creatureProtection": 0.0,
+            "disruption": 0.0,
+            "effectivePower": 0.0,
+            "efficiency": 0.0,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 0.0,
+            "house": null,
+            "other": 0.0,
+            "recursion": 0.0
+        },
+        {
+            "amberControl": 1276676.7200001087,
+            "artifactControl": 13136.904999999848,
             "count": 5868624,
-            "creatureControl": 3309138.3437508615,
+            "creatureControl": 3333412.9687508615,
             "creatureProtection": 115896.695,
-            "disruption": 13609.509999999862,
+            "disruption": 13591.509999999864,
             "effectivePower": 15224967.0,
-            "efficiency": -218873.65000004534,
+            "efficiency": -218873.45000004533,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 2441752.2024991154,
+            "expectedAmber": 2441736.039999115,
             "house": "Brobnar",
-            "other": 174.81999999999996,
-            "recursion": 430.85749999999996
+            "other": 179.945,
+            "recursion": 435.0524999999998
         },
         {
-            "amberControl": 1571983.7500002729,
-            "artifactControl": 224410.68,
+            "amberControl": 1571993.7500002729,
+            "artifactControl": 224411.18,
             "count": 5875236,
-            "creatureControl": 2510866.708750986,
-            "creatureProtection": 25480.47750000145,
-            "disruption": 2841349.5350000765,
+            "creatureControl": 2510795.418750986,
+            "creatureProtection": 25478.44000000145,
+            "disruption": 2741834.5350000933,
             "effectivePower": 7182998.0,
-            "efficiency": -341107.89749999996,
+            "efficiency": -341107.385,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 2678317.736252117,
+            "expectedAmber": 2678260.0662521194,
             "house": "Dis",
-            "other": 86564.08249999618,
-            "recursion": 792868.5624995014
+            "other": 95491.33249999693,
+            "recursion": 776754.1137489964
         },
         {
-            "amberControl": 1052500.9374995155,
-            "artifactControl": 150327.8725000006,
+            "amberControl": 1052506.9374995155,
+            "artifactControl": 141491.37250000372,
             "count": 5868984,
-            "creatureControl": 938209.5250000412,
+            "creatureControl": 938214.0250000414,
             "creatureProtection": 134288.31500000003,
-            "disruption": 193663.74500000002,
+            "disruption": 193640.74500000002,
             "effectivePower": 9700735.0,
-            "efficiency": 3741390.26250054,
+            "efficiency": 3743491.05000064,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 2405270.558750699,
+            "expectedAmber": 2400333.2612504675,
             "house": "Logos",
-            "other": 70087.24249999343,
-            "recursion": 132921.22000002227
+            "other": 78930.02374999906,
+            "recursion": 146724.8887499998
         },
         {
-            "amberControl": 1130892.0349991631,
-            "artifactControl": 100093.13500000416,
+            "amberControl": 1130900.034999163,
+            "artifactControl": 100095.13500000417,
             "count": 5891352,
-            "creatureControl": 1959074.1012492813,
+            "creatureControl": 1959077.8512492815,
             "creatureProtection": 146136.8225000141,
-            "disruption": 615.6774999999998,
+            "disruption": 593.1774999999999,
             "effectivePower": 13523782.0,
-            "efficiency": 359171.828750065,
+            "efficiency": 359172.1412500649,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 2770153.107500294,
+            "expectedAmber": 2770139.870000295,
             "house": "Mars",
-            "other": 92179.8412499991,
-            "recursion": 121099.83500000008
+            "other": 92184.34124999912,
+            "recursion": 121102.06000000008
         },
         {
-            "amberControl": 1088861.354999839,
-            "artifactControl": 153069.06,
+            "amberControl": 1088869.3549998389,
+            "artifactControl": 170349.31,
             "count": 5873880,
-            "creatureControl": 1427689.2887505426,
+            "creatureControl": 1427692.538750544,
             "creatureProtection": 417834.8624999774,
-            "disruption": 44592.42250000002,
+            "disruption": 44572.422500000015,
             "effectivePower": 20326380.0,
-            "efficiency": 21133.336250000008,
+            "efficiency": 21134.151250000006,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 3375939.366252335,
+            "expectedAmber": 3375923.5062523335,
             "house": "Sanctum",
-            "other": 73375.3550000311,
-            "recursion": 25905.58999999988
+            "other": 75295.85500002562,
+            "recursion": 25909.53499999989
         },
         {
-            "amberControl": 2549608.260000186,
-            "artifactControl": 135520.37500000087,
+            "amberControl": 2599068.48000024,
+            "artifactControl": 135523.12500000084,
             "count": 5855700,
-            "creatureControl": 1741608.0774997547,
+            "creatureControl": 1741613.077499755,
             "creatureProtection": 504162.20000001776,
-            "disruption": 132073.7925,
-            "effectivePower": 8197749.0,
-            "efficiency": 111078.00124999999,
+            "disruption": 132052.7925,
+            "effectivePower": 8197747.0,
+            "efficiency": 111078.35624999998,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 4354270.981251136,
+            "expectedAmber": 4283224.986251061,
             "house": "Shadows",
-            "other": 100075.76250000356,
-            "recursion": 403.10125
+            "other": 100079.65000000354,
+            "recursion": 405.10749999999985
         },
         {
-            "amberControl": 212261.702500029,
-            "artifactControl": 42278.41,
+            "amberControl": 212271.70250002906,
+            "artifactControl": 42281.659999999996,
             "count": 5750244,
-            "creatureControl": 1367664.6300001342,
+            "creatureControl": 1367669.3800001333,
             "creatureProtection": 42438.9,
-            "disruption": 119716.3799999999,
+            "disruption": 119694.8799999999,
             "effectivePower": 12512032.0,
-            "efficiency": -91262.57249999928,
+            "efficiency": -91262.57249999925,
             "expansion": "CALL_OF_THE_ARCHONS",
-            "expectedAmber": 4224150.122500305,
+            "expectedAmber": 4224134.482500304,
             "house": "Untamed",
-            "other": 644919.6537499494,
-            "recursion": 1085051.7274999947
+            "other": 644922.5599999494,
+            "recursion": 1082578.898750042
         },
         {
-            "amberControl": 360355.9449999963,
-            "artifactControl": 5588.499999999938,
+            "amberControl": 360314.36499999615,
+            "artifactControl": 5591.249999999938,
             "count": 2311152,
-            "creatureControl": 1311174.5049999547,
+            "creatureControl": 1311539.5612499581,
             "creatureProtection": 28599.374999999993,
-            "disruption": 5666.442499999936,
+            "disruption": 5666.4424999999355,
             "effectivePower": 5498533.0,
-            "efficiency": -83422.07999999786,
+            "efficiency": -83427.57999999782,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 810365.7262500017,
+            "expectedAmber": 810363.131250002,
             "house": "Brobnar",
-            "other": 106501.617500002,
-            "recursion": 166.61625000000006
+            "other": 106505.36750000202,
+            "recursion": 158.49875000000011
         },
         {
-            "amberControl": 458936.58999998943,
-            "artifactControl": 69279.86249999663,
+            "amberControl": 458936.4424999895,
+            "artifactControl": 69282.86249999663,
             "count": 2311548,
-            "creatureControl": 803901.2687501521,
+            "creatureControl": 803903.4262501515,
             "creatureProtection": 24409.63500000001,
-            "disruption": 534950.5837501292,
+            "disruption": 534663.6150001294,
             "effectivePower": 2582843.0,
-            "efficiency": 133665.50124999767,
+            "efficiency": 133665.59499999767,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 1140318.140000219,
+            "expectedAmber": 1143195.4874999735,
             "house": "Dis",
-            "other": 30441.715000002245,
-            "recursion": 271152.1237499964
+            "other": 39135.558750001685,
+            "recursion": 235963.2412500087
         },
         {
-            "amberControl": 94616.68249999035,
-            "artifactControl": 63603.40000000034,
+            "amberControl": 94487.35499998936,
+            "artifactControl": 54376.15000000032,
             "count": 2338104,
-            "creatureControl": 429358.60124995286,
+            "creatureControl": 429363.7512499526,
             "creatureProtection": 279.275,
             "disruption": 13517.636250000503,
             "effectivePower": 2720391.0,
-            "efficiency": 1687294.5262498194,
+            "efficiency": 1687304.3912498278,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 1081538.646249709,
+            "expectedAmber": 1080963.823749716,
             "house": "Logos",
-            "other": 34614.85124999829,
-            "recursion": 190614.68499999092
+            "other": 43845.851249996624,
+            "recursion": 190664.78249999078
         },
         {
-            "amberControl": 295411.8374999413,
-            "artifactControl": 54246.77499999995,
+            "amberControl": 295392.68249994115,
+            "artifactControl": 54250.02499999995,
             "count": 2367864,
-            "creatureControl": 1062851.91375005,
+            "creatureControl": 1062776.1537500496,
             "creatureProtection": 83479.93999999954,
-            "disruption": 169.05749999999998,
+            "disruption": 168.55749999999998,
             "effectivePower": 6525290.0,
-            "efficiency": 100980.49249999074,
+            "efficiency": 103363.85499998987,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 880439.8750000034,
+            "expectedAmber": 880381.1250000072,
             "house": "Mars",
-            "other": 67120.28625000318,
-            "recursion": 75586.40499999365
+            "other": 67104.12625000301,
+            "recursion": 75575.69749999371
         },
         {
-            "amberControl": 671523.6200000038,
-            "artifactControl": 44131.22999999999,
+            "amberControl": 671675.377500004,
+            "artifactControl": 61723.47999999998,
             "count": 2322636,
-            "creatureControl": 777688.348750054,
+            "creatureControl": 777694.0550000541,
             "creatureProtection": 228256.24500000002,
             "disruption": 3143.261250000001,
             "effectivePower": 6914761.0,
-            "efficiency": 19558.711250001943,
+            "efficiency": 19557.71125000195,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 1131595.9512498963,
+            "expectedAmber": 1134382.6187498872,
             "house": "Sanctum",
-            "other": 39401.977500000336,
-            "recursion": 270.5137500000001
+            "other": 39390.06750000033,
+            "recursion": 260.04375000000005
         },
         {
-            "amberControl": 792064.0999998851,
-            "artifactControl": 24338.597500001048,
+            "amberControl": 792146.5749998856,
+            "artifactControl": 24342.34750000105,
             "count": 2216856,
-            "creatureControl": 523709.81000007124,
+            "creatureControl": 525623.8662500706,
             "creatureProtection": 35316.815,
-            "disruption": 80296.95999999842,
+            "disruption": 80296.22874999841,
             "effectivePower": 2948384.0,
-            "efficiency": 101441.55624998623,
+            "efficiency": 101435.89999998626,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 1606868.11499998,
+            "expectedAmber": 1606747.5299999812,
             "house": "Shadows",
-            "other": 56026.147500009414,
-            "recursion": 165.8187500000001
+            "other": 56028.397500009414,
+            "recursion": 158.5937500000001
         },
         {
-            "amberControl": 8020.16249999991,
-            "artifactControl": 72543.4874999836,
+            "amberControl": 8020.41249999991,
+            "artifactControl": 72544.98749998362,
             "count": 2356176,
-            "creatureControl": 533512.3287499878,
-            "creatureProtection": 132449.75000000143,
+            "creatureControl": 557823.1037499558,
+            "creatureProtection": 132449.7500000015,
             "disruption": 116660.70875,
             "effectivePower": 5078879.0,
-            "efficiency": 15935.339999999229,
+            "efficiency": 8559.10000000006,
             "expansion": "AGE_OF_ASCENSION",
-            "expectedAmber": 1387226.4862499828,
+            "expectedAmber": 1387163.5462499848,
             "house": "Untamed",
-            "other": 262097.7962500043,
-            "recursion": 339543.5499997562
+            "other": 262071.97250000446,
+            "recursion": 336486.73749978404
         },
         {
-            "amberControl": 326905.1732500488,
-            "artifactControl": 5679.4225000000415,
+            "amberControl": 326903.9432500488,
+            "artifactControl": 5678.4225000000415,
             "count": 1654968,
-            "creatureControl": 735080.0487500507,
-            "creatureProtection": 16296.085,
-            "disruption": 4657.412500000038,
-            "effectivePower": 4540293.0,
-            "efficiency": -58287.711250001725,
+            "creatureControl": 734625.651250053,
+            "creatureProtection": 16296.285,
+            "disruption": 4657.662500000037,
+            "effectivePower": 4540833.0,
+            "efficiency": -58323.67375000188,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 465576.4924999967,
+            "expectedAmber": 464765.354999996,
             "house": "Brobnar",
-            "other": 6667.9925000007615,
-            "recursion": 485.8412500000001
+            "other": 6670.4925000007615,
+            "recursion": 477.75125
         },
         {
-            "amberControl": 465411.88849992113,
-            "artifactControl": 50429.67999999999,
+            "amberControl": 463269.77599992626,
+            "artifactControl": 50428.42999999999,
             "count": 1716600,
-            "creatureControl": 742081.4974998933,
+            "creatureControl": 742023.083749891,
             "creatureProtection": 2476.995,
-            "disruption": 301375.99500001565,
+            "disruption": 301087.1825000163,
             "effectivePower": 2091873.0,
-            "efficiency": 69430.22875000082,
+            "efficiency": 69429.60375000082,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 694355.6200000395,
+            "expectedAmber": 703730.4174999393,
             "house": "Dis",
-            "other": 12073.625000000227,
-            "recursion": 209590.78124999182
+            "other": 18464.33625000069,
+            "recursion": 181530.51374998718
         },
         {
-            "amberControl": 303785.8357499979,
-            "artifactControl": 43717.74000000004,
+            "amberControl": 302260.0307500052,
+            "artifactControl": 37262.48999999984,
             "count": 1726956,
-            "creatureControl": 298447.35374995606,
-            "creatureProtection": 73398.4025,
-            "disruption": 9077.297500000022,
+            "creatureControl": 300442.0299999562,
+            "creatureProtection": 73398.55249999999,
+            "disruption": 9077.972500000022,
             "effectivePower": 3659092.0,
-            "efficiency": 1195127.1525000741,
+            "efficiency": 1193178.3125000836,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 757687.2200000207,
+            "expectedAmber": 753995.9937500365,
             "house": "Logos",
-            "other": 75502.86500000478,
-            "recursion": 12915.865000000364
+            "other": 71749.34625000399,
+            "recursion": 12932.12250000037
         },
         {
-            "amberControl": 296245.24200000794,
-            "artifactControl": 19898.950000000335,
+            "amberControl": 295926.4595000096,
+            "artifactControl": 19898.200000000335,
             "count": 1623552,
-            "creatureControl": 356260.0612500038,
-            "creatureProtection": 243431.04499995825,
-            "disruption": 164945.14250000106,
+            "creatureControl": 356264.26000000385,
+            "creatureProtection": 243764.52999995844,
+            "disruption": 164946.48000000106,
             "effectivePower": 3897771.0,
-            "efficiency": 495277.10999995173,
+            "efficiency": 494060.17749994993,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 706535.5612500131,
+            "expectedAmber": 711310.9012500187,
             "house": "StarAlliance",
-            "other": 42791.97750000525,
-            "recursion": 89674.61249999741
+            "other": 42780.51625000521,
+            "recursion": 89668.68499999744
         },
         {
-            "amberControl": 498425.63170001045,
-            "artifactControl": 66.59249999999999,
+            "amberControl": 494231.21670001006,
+            "artifactControl": 64.8425,
             "count": 1725552,
-            "creatureControl": 520371.45750000485,
-            "creatureProtection": 384272.32499998837,
-            "disruption": 651.8375000000001,
+            "creatureControl": 520347.18750000454,
+            "creatureProtection": 384445.5199999888,
+            "disruption": 653.4625,
             "effectivePower": 5038226.0,
-            "efficiency": 34189.631249998514,
+            "efficiency": 34024.76874999863,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 1006252.4762499328,
+            "expectedAmber": 1006601.956249934,
             "house": "Saurian",
-            "other": 139451.95375001003,
-            "recursion": 473.52500000000015
+            "other": 139349.20625000997,
+            "recursion": 471.4275000000001
         },
         {
-            "amberControl": 607033.6564999828,
-            "artifactControl": 121849.27249999791,
+            "amberControl": 606529.0464999821,
+            "artifactControl": 121847.77249999791,
             "count": 1696452,
-            "creatureControl": 495233.03749995143,
-            "creatureProtection": 8428.937499999998,
-            "disruption": 112531.27624998875,
+            "creatureControl": 479156.989999954,
+            "creatureProtection": 8428.887499999997,
+            "disruption": 121109.30124998563,
             "effectivePower": 2330179.0,
-            "efficiency": 21510.13375,
+            "efficiency": 21507.85875,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 947883.6162500086,
+            "expectedAmber": 947863.4650000151,
             "house": "Shadows",
-            "other": 27074.723750002693,
-            "recursion": 456.7612500000006
+            "other": 27075.723750002697,
+            "recursion": 449.7412500000005
         },
         {
-            "amberControl": 50107.69174999554,
-            "artifactControl": 58568.87500000193,
+            "amberControl": 50104.906749995534,
+            "artifactControl": 58566.625000001935,
             "count": 1732104,
-            "creatureControl": 546749.0762500375,
-            "creatureProtection": 103007.89999998837,
-            "disruption": 84958.1175,
-            "effectivePower": 3850528.0,
-            "efficiency": 27584.44875000027,
+            "creatureControl": 546618.821250037,
+            "creatureProtection": 102611.84999998838,
+            "disruption": 84958.755,
+            "effectivePower": 3850548.0,
+            "efficiency": 22356.81374999927,
             "expansion": "WORLDS_COLLIDE",
-            "expectedAmber": 1012798.7337500218,
+            "expectedAmber": 1012251.3962500328,
             "house": "Untamed",
-            "other": 184555.496250007,
-            "recursion": 100326.60500000267
+            "other": 184526.51500000703,
+            "recursion": 100314.71625000266
         },
         {
-            "amberControl": 173973.3062499968,
-            "artifactControl": 7592.230000000049,
+            "amberControl": 174445.9262499974,
+            "artifactControl": 7596.505000000049,
             "count": 888852,
-            "creatureControl": 217289.97124999954,
-            "creatureProtection": 56796.65250000092,
-            "disruption": 2735.2612499999973,
+            "creatureControl": 217300.09124999918,
+            "creatureProtection": 56797.37250000091,
+            "disruption": 2740.3549999999973,
             "effectivePower": 1712125.0,
-            "efficiency": 335168.2950000076,
+            "efficiency": 326809.8850000085,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 422552.5287499792,
+            "expectedAmber": 425579.39624998195,
             "house": "StarAlliance",
-            "other": 15467.597500000496,
-            "recursion": 6553.116249999996
+            "other": 15489.417500000485,
+            "recursion": 6553.528749999997
         },
         {
-            "amberControl": 382179.3674999891,
-            "artifactControl": 14598.460000000001,
+            "amberControl": 369231.89124999143,
+            "artifactControl": 14599.460000000001,
             "count": 986952,
-            "creatureControl": 512391.45625000494,
-            "creatureProtection": 22245.402500000433,
-            "disruption": 201444.27749998402,
+            "creatureControl": 516093.8800000055,
+            "creatureProtection": 22246.14250000043,
+            "disruption": 205177.55749998358,
             "effectivePower": 1060405.0,
-            "efficiency": -50532.25124999989,
+            "efficiency": -50525.39874999993,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 490148.023749963,
+            "expectedAmber": 490189.4537499628,
             "house": "Dis",
-            "other": 7372.15749999986,
-            "recursion": 110229.63374999912
+            "other": 7607.807499999651,
+            "recursion": 110610.93874999916
         },
         {
-            "amberControl": 179575.44500000533,
-            "artifactControl": 2286.7625,
+            "amberControl": 178451.4187500056,
+            "artifactControl": 2287.5125,
             "count": 991152,
-            "creatureControl": 299856.28124999313,
+            "creatureControl": 302872.6187499942,
             "creatureProtection": 22597.180000000062,
-            "disruption": -5878.825000000031,
-            "effectivePower": 1859433.0,
-            "efficiency": 713092.4474999979,
+            "disruption": -2704.6749999999874,
+            "effectivePower": 1859793.0,
+            "efficiency": 724757.267499987,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 286533.10000000126,
+            "expectedAmber": 286627.39000000147,
             "house": "Logos",
-            "other": 48650.94250000012,
-            "recursion": 32187.039999999342
+            "other": 48641.17250000015,
+            "recursion": 32207.516249998323
         },
         {
-            "amberControl": 423123.16169999936,
-            "artifactControl": 22.2825,
+            "amberControl": 414362.4354499981,
+            "artifactControl": 22.7825,
             "count": 949812,
-            "creatureControl": 257727.01625000685,
-            "creatureProtection": 101475.62750000718,
-            "disruption": 52.7525,
+            "creatureControl": 257706.55375000677,
+            "creatureProtection": 101536.02750000707,
+            "disruption": 59.78999999999999,
             "effectivePower": 2454313.0,
-            "efficiency": 774.6950000001046,
+            "efficiency": 855.42450000011,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 531530.8337499874,
+            "expectedAmber": 531880.9837499844,
             "house": "Saurian",
-            "other": 7775.659999999928,
-            "recursion": 6826.51
+            "other": 7772.589999999929,
+            "recursion": 6826.56
         },
         {
-            "amberControl": 296567.62350000074,
-            "artifactControl": 17914.950000000004,
+            "amberControl": 296670.2909999993,
+            "artifactControl": 25064.450000000004,
             "count": 975048,
-            "creatureControl": 312694.2362499946,
+            "creatureControl": 312784.21124999475,
             "creatureProtection": 89105.8275000002,
-            "disruption": 1149.19375,
-            "effectivePower": 3342950.0,
-            "efficiency": 25909.97625000158,
+            "disruption": 1156.9312499999999,
+            "effectivePower": 3342952.0,
+            "efficiency": 25908.893750001578,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 416614.9924999623,
+            "expectedAmber": 416628.39749996207,
             "house": "Sanctum",
-            "other": 35449.71499999859,
-            "recursion": 46.120000000000005
+            "other": 35473.81499999853,
+            "recursion": 46.29500000000001
         },
         {
-            "amberControl": 329642.17000000185,
-            "artifactControl": 35929.90000000234,
+            "amberControl": 330254.5362500124,
+            "artifactControl": 35931.925000002324,
             "count": 1010868,
-            "creatureControl": 256309.468749994,
-            "creatureProtection": 56346.06999999992,
-            "disruption": 96700.08750000042,
-            "effectivePower": 1500392.0,
-            "efficiency": 5628.42500000018,
+            "creatureControl": 258076.89124999562,
+            "creatureProtection": 56362.419999999875,
+            "disruption": 96752.48125000024,
+            "effectivePower": 1500879.0,
+            "efficiency": 5663.253750000175,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 662219.2687500103,
+            "expectedAmber": 662813.4662500112,
             "house": "Shadows",
-            "other": 29180.500000003656,
-            "recursion": 3494.4949999999562
+            "other": 29190.250000003598,
+            "recursion": 3494.957499999956
         },
         {
-            "amberControl": 56183.109999996865,
-            "artifactControl": 58778.66499999984,
+            "amberControl": 56210.26874999689,
+            "artifactControl": 58777.74999999986,
             "count": 944652,
-            "creatureControl": 231425.5325000015,
-            "creatureProtection": 58285.499999999985,
-            "disruption": 6384.094999999999,
-            "effectivePower": 1976981.0,
-            "efficiency": 43734.64249999934,
+            "creatureControl": 231434.48000000138,
+            "creatureProtection": 59030.42499999999,
+            "disruption": 32974.3825,
+            "effectivePower": 1976982.0,
+            "efficiency": 40672.71199999972,
             "expansion": "MASS_MUTATION",
-            "expectedAmber": 701619.7137500269,
+            "expectedAmber": 719432.9337500231,
             "house": "Untamed",
-            "other": 110896.96000000373,
-            "recursion": 93592.85624999747
+            "other": 93172.0225000027,
+            "recursion": 93858.35999999764
+        },
+        {
+            "amberControl": 0.0,
+            "artifactControl": 0.0,
+            "count": 0,
+            "creatureControl": 0.0,
+            "creatureProtection": 0.0,
+            "disruption": 0.0,
+            "effectivePower": 0.0,
+            "efficiency": 0.0,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 0.0,
+            "house": "StarAlliance",
+            "other": 0.0,
+            "recursion": 0.0
+        },
+        {
+            "amberControl": 0.0,
+            "artifactControl": 0.0,
+            "count": 0,
+            "creatureControl": 0.0,
+            "creatureProtection": 0.0,
+            "disruption": 0.0,
+            "effectivePower": 0.0,
+            "efficiency": 0.0,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 0.0,
+            "house": "Unfathomable",
+            "other": 0.0,
+            "recursion": 0.0
+        },
+        {
+            "amberControl": 0.0,
+            "artifactControl": 0.0,
+            "count": 0,
+            "creatureControl": 0.0,
+            "creatureProtection": 0.0,
+            "disruption": 0.0,
+            "effectivePower": 0.0,
+            "efficiency": 0.0,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 0.0,
+            "house": "Logos",
+            "other": 0.0,
+            "recursion": 0.0
+        },
+        {
+            "amberControl": 0.0,
+            "artifactControl": 0.0,
+            "count": 0,
+            "creatureControl": 0.0,
+            "creatureProtection": 0.0,
+            "disruption": 0.0,
+            "effectivePower": 0.0,
+            "efficiency": 0.0,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 0.0,
+            "house": "Saurian",
+            "other": 0.0,
+            "recursion": 0.0
+        },
+        {
+            "amberControl": 0.0,
+            "artifactControl": 0.0,
+            "count": 0,
+            "creatureControl": 0.0,
+            "creatureProtection": 0.0,
+            "disruption": 0.0,
+            "effectivePower": 0.0,
+            "efficiency": 0.0,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 0.0,
+            "house": "Sanctum",
+            "other": 0.0,
+            "recursion": 0.0
+        },
+        {
+            "amberControl": 0.0,
+            "artifactControl": 0.0,
+            "count": 0,
+            "creatureControl": 0.0,
+            "creatureProtection": 0.0,
+            "disruption": 0.0,
+            "effectivePower": 0.0,
+            "efficiency": 0.0,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 0.0,
+            "house": "Shadows",
+            "other": 0.0,
+            "recursion": 0.0
+        },
+        {
+            "amberControl": 0.0,
+            "artifactControl": 0.0,
+            "count": 0,
+            "creatureControl": 0.0,
+            "creatureProtection": 0.0,
+            "disruption": 0.0,
+            "effectivePower": 0.0,
+            "efficiency": 0.0,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 0.0,
+            "house": "Untamed",
+            "other": 0.0,
+            "recursion": 0.0
         }
     ],
     "aercToWinsLosses": {
@@ -748,115 +868,115 @@
         },
         "47": {
             "losses": 2565,
-            "wins": 1875
+            "wins": 1879
         },
         "48": {
-            "losses": 3673,
+            "losses": 3676,
             "wins": 2622
         },
         "49": {
-            "losses": 5355,
-            "wins": 4085
+            "losses": 5366,
+            "wins": 4092
         },
         "50": {
-            "losses": 7811,
-            "wins": 5562
+            "losses": 7813,
+            "wins": 5568
         },
         "51": {
-            "losses": 9725,
-            "wins": 7667
+            "losses": 9735,
+            "wins": 7689
         },
         "52": {
-            "losses": 11807,
-            "wins": 9283
+            "losses": 11816,
+            "wins": 9297
         },
         "53": {
-            "losses": 14356,
-            "wins": 11493
+            "losses": 14368,
+            "wins": 11503
         },
         "54": {
-            "losses": 17011,
-            "wins": 14216
+            "losses": 17035,
+            "wins": 14242
         },
         "55": {
-            "losses": 18326,
-            "wins": 15782
+            "losses": 18346,
+            "wins": 15802
         },
         "56": {
-            "losses": 19758,
-            "wins": 17757
+            "losses": 19780,
+            "wins": 17785
         },
         "57": {
-            "losses": 20762,
-            "wins": 19756
+            "losses": 20786,
+            "wins": 19777
         },
         "58": {
-            "losses": 21396,
-            "wins": 20727
+            "losses": 21415,
+            "wins": 20748
         },
         "59": {
-            "losses": 21858,
-            "wins": 21986
+            "losses": 21882,
+            "wins": 22006
         },
         "60": {
-            "losses": 21065,
-            "wins": 22458
+            "losses": 21081,
+            "wins": 22476
         },
         "61": {
-            "losses": 20032,
-            "wins": 22113
+            "losses": 20059,
+            "wins": 22131
         },
         "62": {
-            "losses": 19068,
-            "wins": 21772
+            "losses": 19084,
+            "wins": 21787
         },
         "63": {
-            "losses": 16871,
-            "wins": 20253
+            "losses": 16879,
+            "wins": 20263
         },
         "64": {
-            "losses": 14449,
-            "wins": 17929
+            "losses": 14470,
+            "wins": 17947
         },
         "65": {
-            "losses": 12360,
-            "wins": 16392
+            "losses": 12375,
+            "wins": 16408
         },
         "66": {
-            "losses": 10615,
-            "wins": 14326
+            "losses": 10628,
+            "wins": 14340
         },
         "67": {
-            "losses": 8240,
-            "wins": 11922
+            "losses": 8247,
+            "wins": 11934
         },
         "68": {
-            "losses": 6294,
-            "wins": 9451
+            "losses": 6305,
+            "wins": 9460
         },
         "69": {
-            "losses": 4958,
-            "wins": 7358
+            "losses": 4967,
+            "wins": 7364
         },
         "70": {
-            "losses": 3445,
-            "wins": 5572
+            "losses": 3448,
+            "wins": 5580
         },
         "71": {
-            "losses": 2523,
-            "wins": 3958
+            "losses": 2527,
+            "wins": 3967
         },
         "72": {
-            "losses": 1637,
-            "wins": 2907
+            "losses": 1640,
+            "wins": 2911
         },
         "73": {
-            "losses": 964,
-            "wins": 1714
+            "losses": 965,
+            "wins": 1716
         },
         "74": {
-            "losses": 585,
-            "wins": 1081
+            "losses": 588,
+            "wins": 1082
         },
         "75": {
             "losses": 465,
@@ -997,56 +1117,56 @@
             "wins": 1
         },
         "0": {
-            "losses": 2168,
-            "wins": 1618
+            "losses": 2173,
+            "wins": 1623
         },
         "1": {
-            "losses": 6300,
-            "wins": 5317
+            "losses": 6305,
+            "wins": 5323
         },
         "10": {
-            "losses": 26290,
-            "wins": 29340
+            "losses": 26319,
+            "wins": 29362
         },
         "11": {
-            "losses": 21910,
-            "wins": 25489
+            "losses": 21927,
+            "wins": 25511
         },
         "12": {
-            "losses": 17898,
-            "wins": 20992
+            "losses": 17910,
+            "wins": 21013
         },
         "13": {
-            "losses": 13699,
-            "wins": 16558
+            "losses": 13709,
+            "wins": 16582
         },
         "14": {
-            "losses": 9970,
-            "wins": 12202
+            "losses": 9986,
+            "wins": 12214
         },
         "15": {
-            "losses": 7161,
-            "wins": 8911
+            "losses": 7180,
+            "wins": 8930
         },
         "16": {
-            "losses": 5014,
-            "wins": 6469
+            "losses": 5017,
+            "wins": 6480
         },
         "17": {
-            "losses": 3031,
-            "wins": 3891
+            "losses": 3035,
+            "wins": 3893
         },
         "18": {
-            "losses": 2151,
-            "wins": 2727
+            "losses": 2155,
+            "wins": 2728
         },
         "19": {
-            "losses": 1271,
-            "wins": 1683
+            "losses": 1275,
+            "wins": 1685
         },
         "2": {
-            "losses": 10756,
-            "wins": 9285
+            "losses": 10767,
+            "wins": 9298
         },
         "20": {
             "losses": 716,
@@ -1085,32 +1205,32 @@
             "wins": 8
         },
         "3": {
-            "losses": 16816,
-            "wins": 14555
+            "losses": 16833,
+            "wins": 14568
         },
         "4": {
-            "losses": 22916,
-            "wins": 20637
+            "losses": 22937,
+            "wins": 20673
         },
         "5": {
-            "losses": 27523,
-            "wins": 25889
+            "losses": 27542,
+            "wins": 25916
         },
         "6": {
-            "losses": 30800,
-            "wins": 29741
+            "losses": 30824,
+            "wins": 29767
         },
         "7": {
-            "losses": 33010,
-            "wins": 33301
+            "losses": 33055,
+            "wins": 33327
         },
         "8": {
-            "losses": 32252,
-            "wins": 33736
+            "losses": 32301,
+            "wins": 33776
         },
         "9": {
-            "losses": 29398,
-            "wins": 31728
+            "losses": 29421,
+            "wins": 31759
         }
     },
     "antisynergy": {
@@ -1161,12 +1281,12 @@
     },
     "antisynergyToWinsLosses": {
         "0": {
-            "losses": 98020,
-            "wins": 106237
+            "losses": 98103,
+            "wins": 106337
         },
         "1": {
-            "losses": 116660,
-            "wins": 121414
+            "losses": 116795,
+            "wins": 121546
         },
         "10": {
             "losses": 34,
@@ -1185,28 +1305,28 @@
             "wins": 1
         },
         "2": {
-            "losses": 63494,
-            "wins": 64829
+            "losses": 63563,
+            "wins": 64913
         },
         "3": {
-            "losses": 27367,
-            "wins": 27477
+            "losses": 27392,
+            "wins": 27507
         },
         "4": {
-            "losses": 10826,
-            "wins": 10567
+            "losses": 10842,
+            "wins": 10574
         },
         "5": {
-            "losses": 3712,
-            "wins": 3761
+            "losses": 3718,
+            "wins": 3766
         },
         "6": {
             "losses": 1464,
             "wins": 1424
         },
         "7": {
-            "losses": 496,
-            "wins": 467
+            "losses": 499,
+            "wins": 468
         },
         "8": {
             "losses": 240,
@@ -1224,9 +1344,9 @@
         "11": 45762,
         "12": 31714,
         "13": 21260,
-        "14": 13709,
+        "14": 13710,
         "15": 8687,
-        "16": 5755,
+        "16": 5756,
         "17": 3826,
         "18": 2628,
         "19": 1605,
@@ -1250,8 +1370,8 @@
         "5": 145979,
         "6": 142621,
         "7": 126459,
-        "8": 108364,
-        "9": 84894
+        "8": 108363,
+        "9": 84893
     },
     "artifactControl": {
         "0": 968624,
@@ -1293,24 +1413,24 @@
     },
     "artifactControlToWinsLosses": {
         "0": {
-            "losses": 144297,
-            "wins": 151034
+            "losses": 144465,
+            "wins": 151209
         },
         "1": {
-            "losses": 95093,
-            "wins": 97733
+            "losses": 95181,
+            "wins": 97836
         },
         "2": {
-            "losses": 60161,
-            "wins": 64123
+            "losses": 60226,
+            "wins": 64193
         },
         "3": {
-            "losses": 16234,
-            "wins": 16798
+            "losses": 16247,
+            "wins": 16805
         },
         "4": {
-            "losses": 4291,
-            "wins": 4378
+            "losses": 4294,
+            "wins": 4382
         },
         "5": {
             "losses": 1875,
@@ -1377,12 +1497,12 @@
     },
     "artifactWins": {
         "0": {
-            "losses": 11227,
-            "wins": 12276
+            "losses": 11244,
+            "wins": 12291
         },
         "1": {
-            "losses": 38563,
-            "wins": 41633
+            "losses": 38600,
+            "wins": 41667
         },
         "10": {
             "losses": 433,
@@ -1401,32 +1521,32 @@
             "wins": 5
         },
         "2": {
-            "losses": 63243,
-            "wins": 67084
+            "losses": 63303,
+            "wins": 67162
         },
         "3": {
-            "losses": 71697,
-            "wins": 75023
+            "losses": 71792,
+            "wins": 75122
         },
         "4": {
-            "losses": 59184,
-            "wins": 61566
+            "losses": 59241,
+            "wins": 61632
         },
         "5": {
-            "losses": 40115,
-            "wins": 40716
+            "losses": 40148,
+            "wins": 40758
         },
         "6": {
-            "losses": 21772,
-            "wins": 21876
+            "losses": 21790,
+            "wins": 21891
         },
         "7": {
-            "losses": 10212,
-            "wins": 10149
+            "losses": 10221,
+            "wins": 10154
         },
         "8": {
-            "losses": 4176,
-            "wins": 4127
+            "losses": 4187,
+            "wins": 4132
         },
         "9": {
             "losses": 1631,
@@ -1552,60 +1672,60 @@
             "wins": 369
         },
         "10": {
-            "losses": 29727,
-            "wins": 31035
+            "losses": 29756,
+            "wins": 31062
         },
         "11": {
-            "losses": 29266,
-            "wins": 30785
+            "losses": 29312,
+            "wins": 30818
         },
         "12": {
-            "losses": 27175,
-            "wins": 29386
+            "losses": 27217,
+            "wins": 29429
         },
         "13": {
-            "losses": 24555,
-            "wins": 25982
+            "losses": 24573,
+            "wins": 26015
         },
         "14": {
-            "losses": 20458,
-            "wins": 22033
+            "losses": 20474,
+            "wins": 22061
         },
         "15": {
-            "losses": 17671,
-            "wins": 18857
+            "losses": 17683,
+            "wins": 18876
         },
         "16": {
-            "losses": 14478,
-            "wins": 15382
+            "losses": 14493,
+            "wins": 15398
         },
         "17": {
-            "losses": 10936,
-            "wins": 11532
+            "losses": 10948,
+            "wins": 11539
         },
         "18": {
-            "losses": 8474,
-            "wins": 8923
+            "losses": 8479,
+            "wins": 8925
         },
         "19": {
-            "losses": 6410,
-            "wins": 6872
+            "losses": 6413,
+            "wins": 6879
         },
         "2": {
             "losses": 1248,
             "wins": 1200
         },
         "20": {
-            "losses": 4814,
-            "wins": 5007
+            "losses": 4819,
+            "wins": 5013
         },
         "21": {
-            "losses": 3424,
-            "wins": 3672
+            "losses": 3425,
+            "wins": 3674
         },
         "22": {
-            "losses": 2505,
-            "wins": 2483
+            "losses": 2509,
+            "wins": 2488
         },
         "23": {
             "losses": 1873,
@@ -1628,16 +1748,16 @@
             "wins": 337
         },
         "28": {
-            "losses": 246,
-            "wins": 275
+            "losses": 248,
+            "wins": 276
         },
         "29": {
             "losses": 206,
             "wins": 259
         },
         "3": {
-            "losses": 3357,
-            "wins": 3070
+            "losses": 3362,
+            "wins": 3079
         },
         "30": {
             "losses": 101,
@@ -1676,32 +1796,32 @@
             "wins": 6
         },
         "4": {
-            "losses": 7131,
-            "wins": 6882
+            "losses": 7146,
+            "wins": 6889
         },
         "40": {
             "losses": 3,
             "wins": 0
         },
         "5": {
-            "losses": 11675,
-            "wins": 11550
+            "losses": 11694,
+            "wins": 11561
         },
         "6": {
-            "losses": 16890,
-            "wins": 16848
+            "losses": 16900,
+            "wins": 16874
         },
         "7": {
-            "losses": 21802,
-            "wins": 22255
+            "losses": 21824,
+            "wins": 22276
         },
         "8": {
-            "losses": 26124,
-            "wins": 27073
+            "losses": 26148,
+            "wins": 27102
         },
         "9": {
-            "losses": 28080,
-            "wins": 29475
+            "losses": 28112,
+            "wins": 29502
         }
     },
     "creatureCount": {
@@ -1812,12 +1932,12 @@
     },
     "creatureProtectionToWinsLosses": {
         "0": {
-            "losses": 67912,
-            "wins": 72970
+            "losses": 67956,
+            "wins": 73014
         },
         "1": {
-            "losses": 109769,
-            "wins": 111027
+            "losses": 109906,
+            "wins": 111154
         },
         "10": {
             "losses": 321,
@@ -1844,32 +1964,32 @@
             "wins": 1
         },
         "2": {
-            "losses": 65925,
-            "wins": 67226
+            "losses": 65994,
+            "wins": 67314
         },
         "3": {
-            "losses": 35770,
-            "wins": 38442
+            "losses": 35812,
+            "wins": 38484
         },
         "4": {
-            "losses": 19230,
-            "wins": 20993
+            "losses": 19251,
+            "wins": 21024
         },
         "5": {
-            "losses": 11256,
-            "wins": 12192
+            "losses": 11269,
+            "wins": 12209
         },
         "6": {
-            "losses": 6217,
-            "wins": 6748
+            "losses": 6222,
+            "wins": 6751
         },
         "7": {
-            "losses": 3369,
-            "wins": 3713
+            "losses": 3371,
+            "wins": 3714
         },
         "8": {
-            "losses": 1513,
-            "wins": 1688
+            "losses": 1517,
+            "wins": 1694
         },
         "9": {
             "losses": 839,
@@ -1886,60 +2006,60 @@
             "wins": 3768
         },
         "12": {
-            "losses": 6599,
-            "wins": 7508
+            "losses": 6605,
+            "wins": 7517
         },
         "13": {
-            "losses": 12225,
-            "wins": 13747
+            "losses": 12232,
+            "wins": 13757
         },
         "14": {
-            "losses": 19607,
-            "wins": 21532
+            "losses": 19625,
+            "wins": 21545
         },
         "15": {
-            "losses": 27742,
-            "wins": 29955
+            "losses": 27756,
+            "wins": 29970
         },
         "16": {
-            "losses": 35299,
-            "wins": 37533
+            "losses": 35332,
+            "wins": 37565
         },
         "17": {
-            "losses": 40924,
-            "wins": 42482
+            "losses": 40971,
+            "wins": 42541
         },
         "18": {
-            "losses": 41362,
-            "wins": 42846
+            "losses": 41405,
+            "wins": 42893
         },
         "19": {
-            "losses": 38106,
-            "wins": 39001
+            "losses": 38152,
+            "wins": 39030
         },
         "20": {
-            "losses": 32373,
-            "wins": 33064
+            "losses": 32432,
+            "wins": 33121
         },
         "21": {
-            "losses": 24900,
-            "wins": 25237
+            "losses": 24923,
+            "wins": 25272
         },
         "22": {
-            "losses": 17716,
-            "wins": 17782
+            "losses": 17735,
+            "wins": 17810
         },
         "23": {
-            "losses": 10350,
-            "wins": 9984
+            "losses": 10358,
+            "wins": 9997
         },
         "24": {
-            "losses": 6110,
-            "wins": 5939
+            "losses": 6119,
+            "wins": 5945
         },
         "25": {
-            "losses": 2909,
-            "wins": 2781
+            "losses": 2914,
+            "wins": 2787
         },
         "26": {
             "losses": 1252,
@@ -2042,12 +2162,12 @@
     },
     "disruptionToWinsLosses": {
         "-1": {
-            "losses": 728,
-            "wins": 810
+            "losses": 733,
+            "wins": 811
         },
         "-2": {
-            "losses": 1248,
-            "wins": 1312
+            "losses": 1249,
+            "wins": 1317
         },
         "-3": {
             "losses": 17,
@@ -2058,16 +2178,16 @@
             "wins": 49
         },
         "0": {
-            "losses": 84071,
-            "wins": 83165
+            "losses": 84170,
+            "wins": 83266
         },
         "1": {
-            "losses": 71802,
-            "wins": 73930
+            "losses": 71877,
+            "wins": 74015
         },
         "10": {
-            "losses": 4183,
-            "wins": 5089
+            "losses": 4187,
+            "wins": 5095
         },
         "11": {
             "losses": 3278,
@@ -2106,8 +2226,8 @@
             "wins": 182
         },
         "2": {
-            "losses": 36632,
-            "wins": 37526
+            "losses": 36678,
+            "wins": 37573
         },
         "20": {
             "losses": 91,
@@ -2134,32 +2254,32 @@
             "wins": 7
         },
         "3": {
-            "losses": 35125,
-            "wins": 36477
+            "losses": 35161,
+            "wins": 36511
         },
         "4": {
-            "losses": 22615,
-            "wins": 23522
+            "losses": 22636,
+            "wins": 23545
         },
         "5": {
-            "losses": 17572,
-            "wins": 18987
+            "losses": 17588,
+            "wins": 19011
         },
         "6": {
-            "losses": 13857,
-            "wins": 14988
+            "losses": 13864,
+            "wins": 14991
         },
         "7": {
-            "losses": 10201,
-            "wins": 11168
+            "losses": 10213,
+            "wins": 11186
         },
         "8": {
-            "losses": 7923,
-            "wins": 8933
+            "losses": 7931,
+            "wins": 8942
         },
         "9": {
-            "losses": 5839,
-            "wins": 6728
+            "losses": 5846,
+            "wins": 6731
         }
     },
     "effectivePower": {
@@ -2654,24 +2774,24 @@
             "wins": 765
         },
         "100": {
-            "losses": 12082,
-            "wins": 11955
+            "losses": 12089,
+            "wins": 11963
         },
         "105": {
-            "losses": 9133,
-            "wins": 8910
+            "losses": 9150,
+            "wins": 8926
         },
         "110": {
-            "losses": 6792,
-            "wins": 6691
+            "losses": 6810,
+            "wins": 6696
         },
         "115": {
-            "losses": 4699,
-            "wins": 4604
+            "losses": 4705,
+            "wins": 4615
         },
         "120": {
-            "losses": 2832,
-            "wins": 2857
+            "losses": 2834,
+            "wins": 2859
         },
         "125": {
             "losses": 1940,
@@ -2730,64 +2850,64 @@
             "wins": 3824
         },
         "30": {
-            "losses": 5064,
-            "wins": 5921
+            "losses": 5066,
+            "wins": 5925
         },
         "35": {
-            "losses": 7489,
-            "wins": 8680
+            "losses": 7498,
+            "wins": 8684
         },
         "40": {
-            "losses": 11286,
-            "wins": 12782
+            "losses": 11298,
+            "wins": 12803
         },
         "45": {
-            "losses": 14905,
-            "wins": 16690
+            "losses": 14919,
+            "wins": 16708
         },
         "5": {
-            "losses": 339,
-            "wins": 472
+            "losses": 341,
+            "wins": 474
         },
         "50": {
-            "losses": 18670,
-            "wins": 20401
+            "losses": 18693,
+            "wins": 20432
         },
         "55": {
-            "losses": 23006,
-            "wins": 24525
+            "losses": 23017,
+            "wins": 24545
         },
         "60": {
-            "losses": 26482,
-            "wins": 27788
+            "losses": 26524,
+            "wins": 27819
         },
         "65": {
-            "losses": 27673,
-            "wins": 29373
+            "losses": 27714,
+            "wins": 29410
         },
         "70": {
-            "losses": 28659,
-            "wins": 29622
+            "losses": 28689,
+            "wins": 29668
         },
         "75": {
-            "losses": 27802,
-            "wins": 28451
+            "losses": 27829,
+            "wins": 28475
         },
         "80": {
-            "losses": 25759,
-            "wins": 26094
+            "losses": 25786,
+            "wins": 26124
         },
         "85": {
-            "losses": 23015,
-            "wins": 23128
+            "losses": 23030,
+            "wins": 23147
         },
         "90": {
-            "losses": 19056,
-            "wins": 18893
+            "losses": 19081,
+            "wins": 18918
         },
         "95": {
-            "losses": 15605,
-            "wins": 15443
+            "losses": 15612,
+            "wins": 15448
         }
     },
     "efficiency": {
@@ -2898,20 +3018,20 @@
     },
     "efficiencyToWinsLosses": {
         "-1": {
-            "losses": 25767,
-            "wins": 26101
+            "losses": 25785,
+            "wins": 26120
         },
         "-2": {
-            "losses": 12574,
-            "wins": 13051
+            "losses": 12578,
+            "wins": 13058
         },
         "-3": {
-            "losses": 5521,
-            "wins": 5561
+            "losses": 5527,
+            "wins": 5569
         },
         "-4": {
-            "losses": 1653,
-            "wins": 1519
+            "losses": 1654,
+            "wins": 1521
         },
         "-5": {
             "losses": 655,
@@ -2934,72 +3054,72 @@
             "wins": 2
         },
         "0": {
-            "losses": 47570,
-            "wins": 49103
+            "losses": 47593,
+            "wins": 49120
         },
         "1": {
-            "losses": 25771,
-            "wins": 26404
+            "losses": 25794,
+            "wins": 26436
         },
         "10": {
-            "losses": 15355,
-            "wins": 16177
+            "losses": 15383,
+            "wins": 16200
         },
         "11": {
-            "losses": 12702,
-            "wins": 13952
+            "losses": 12724,
+            "wins": 13969
         },
         "12": {
-            "losses": 10642,
-            "wins": 11814
+            "losses": 10660,
+            "wins": 11840
         },
         "13": {
-            "losses": 8888,
-            "wins": 10084
+            "losses": 8899,
+            "wins": 10096
         },
         "14": {
-            "losses": 6790,
-            "wins": 8178
+            "losses": 6793,
+            "wins": 8180
         },
         "15": {
-            "losses": 5263,
-            "wins": 6153
+            "losses": 5272,
+            "wins": 6168
         },
         "16": {
-            "losses": 3620,
-            "wins": 4354
+            "losses": 3624,
+            "wins": 4363
         },
         "17": {
-            "losses": 2848,
-            "wins": 3580
+            "losses": 2849,
+            "wins": 3582
         },
         "18": {
             "losses": 1826,
             "wins": 2447
         },
         "19": {
-            "losses": 1271,
-            "wins": 1663
+            "losses": 1280,
+            "wins": 1667
         },
         "2": {
-            "losses": 22907,
-            "wins": 23434
+            "losses": 22920,
+            "wins": 23452
         },
         "20": {
-            "losses": 851,
-            "wins": 1181
+            "losses": 854,
+            "wins": 1182
         },
         "21": {
-            "losses": 600,
-            "wins": 813
+            "losses": 602,
+            "wins": 815
         },
         "22": {
             "losses": 454,
             "wins": 603
         },
         "23": {
-            "losses": 299,
-            "wins": 379
+            "losses": 301,
+            "wins": 380
         },
         "24": {
             "losses": 164,
@@ -3026,8 +3146,8 @@
             "wins": 22
         },
         "3": {
-            "losses": 16288,
-            "wins": 16310
+            "losses": 16311,
+            "wins": 16327
         },
         "30": {
             "losses": 16,
@@ -3042,28 +3162,28 @@
             "wins": 5
         },
         "4": {
-            "losses": 14044,
-            "wins": 13774
+            "losses": 14057,
+            "wins": 13788
         },
         "5": {
-            "losses": 14284,
-            "wins": 14195
+            "losses": 14296,
+            "wins": 14215
         },
         "6": {
-            "losses": 15179,
-            "wins": 15025
+            "losses": 15203,
+            "wins": 15046
         },
         "7": {
-            "losses": 15721,
-            "wins": 15793
+            "losses": 15736,
+            "wins": 15810
         },
         "8": {
-            "losses": 16065,
-            "wins": 16696
+            "losses": 16087,
+            "wins": 16723
         },
         "9": {
-            "losses": 16316,
-            "wins": 16748
+            "losses": 16344,
+            "wins": 16774
         }
     },
     "expectedAmber": {
@@ -3172,104 +3292,104 @@
     },
     "expectedAmberToWinsLosses": {
         "10": {
-            "losses": 3522,
-            "wins": 2898
+            "losses": 3527,
+            "wins": 2908
         },
         "11": {
-            "losses": 5862,
-            "wins": 4708
+            "losses": 5869,
+            "wins": 4716
         },
         "12": {
-            "losses": 8866,
-            "wins": 7291
+            "losses": 8877,
+            "wins": 7301
         },
         "13": {
-            "losses": 12064,
-            "wins": 10316
+            "losses": 12081,
+            "wins": 10331
         },
         "14": {
-            "losses": 16196,
-            "wins": 13880
+            "losses": 16219,
+            "wins": 13902
         },
         "15": {
-            "losses": 19324,
-            "wins": 17725
+            "losses": 19341,
+            "wins": 17747
         },
         "16": {
-            "losses": 22766,
-            "wins": 21068
+            "losses": 22792,
+            "wins": 21092
         },
         "17": {
-            "losses": 24621,
-            "wins": 23632
+            "losses": 24637,
+            "wins": 23646
         },
         "18": {
-            "losses": 26109,
-            "wins": 25896
+            "losses": 26152,
+            "wins": 25941
         },
         "19": {
-            "losses": 26725,
-            "wins": 26922
+            "losses": 26750,
+            "wins": 26957
         },
         "2": {
             "losses": 3,
             "wins": 2
         },
         "20": {
-            "losses": 25876,
-            "wins": 27536
+            "losses": 25909,
+            "wins": 27559
         },
         "21": {
-            "losses": 24434,
-            "wins": 25944
+            "losses": 24455,
+            "wins": 25977
         },
         "22": {
-            "losses": 21487,
-            "wins": 24053
+            "losses": 21508,
+            "wins": 24071
         },
         "23": {
-            "losses": 17808,
-            "wins": 20579
+            "losses": 17819,
+            "wins": 20600
         },
         "24": {
-            "losses": 15270,
-            "wins": 18472
+            "losses": 15280,
+            "wins": 18488
         },
         "25": {
-            "losses": 12477,
-            "wins": 15006
+            "losses": 12484,
+            "wins": 15013
         },
         "26": {
-            "losses": 9604,
-            "wins": 11993
+            "losses": 9614,
+            "wins": 11999
         },
         "27": {
-            "losses": 7412,
-            "wins": 9486
+            "losses": 7422,
+            "wins": 9497
         },
         "28": {
-            "losses": 5318,
-            "wins": 7313
+            "losses": 5324,
+            "wins": 7316
         },
         "29": {
-            "losses": 3968,
-            "wins": 5485
+            "losses": 3972,
+            "wins": 5491
         },
         "3": {
             "losses": 4,
             "wins": 1
         },
         "30": {
-            "losses": 2722,
-            "wins": 4042
+            "losses": 2723,
+            "wins": 4044
         },
         "31": {
-            "losses": 2071,
-            "wins": 3085
+            "losses": 2074,
+            "wins": 3088
         },
         "32": {
-            "losses": 1290,
-            "wins": 1929
+            "losses": 1292,
+            "wins": 1931
         },
         "33": {
             "losses": 957,
@@ -3280,7 +3400,7 @@
             "wins": 1020
         },
         "35": {
-            "losses": 482,
+            "losses": 485,
             "wins": 757
         },
         "36": {
@@ -3332,114 +3452,114 @@
             "wins": 375
         },
         "8": {
-            "losses": 1065,
-            "wins": 873
+            "losses": 1068,
+            "wins": 874
         },
         "9": {
-            "losses": 2117,
-            "wins": 1622
+            "losses": 2119,
+            "wins": 1624
         }
     },
     "housesWins": {
         "Brobnar": {
-            "losses": 108394,
-            "wins": 106225
+            "losses": 108476,
+            "wins": 106316
         },
         "Dis": {
-            "losses": 150159,
-            "wins": 160047
+            "losses": 150280,
+            "wins": 160190
         },
         "Logos": {
-            "losses": 147188,
-            "wins": 155258
+            "losses": 147382,
+            "wins": 155458
         },
         "Mars": {
-            "losses": 80361,
-            "wins": 77020
+            "losses": 80416,
+            "wins": 77080
         },
         "Sanctum": {
-            "losses": 96956,
-            "wins": 97975
+            "losses": 97052,
+            "wins": 98063
         },
         "Saurian": {
-            "losses": 47569,
-            "wins": 50547
+            "losses": 47641,
+            "wins": 50631
         },
         "Shadows": {
-            "losses": 160348,
-            "wins": 182430
+            "losses": 160522,
+            "wins": 182607
         },
         "StarAlliance": {
-            "losses": 42782,
-            "wins": 44280
+            "losses": 42872,
+            "wins": 44371
         },
         "Untamed": {
-            "losses": 133428,
-            "wins": 135931
+            "losses": 133555,
+            "wins": 136074
         }
     },
     "meta": {
-        "-1": 231684,
-        "-2": 181506,
-        "-3": 103343,
-        "-4": 42526,
-        "-5": 9378,
-        "-6": 4299,
-        "-7": 941,
-        "-8": 91,
-        "0": 471749,
-        "1": 680216,
-        "2": 326787,
-        "3": 53921
+        "-1": 231325,
+        "-2": 181239,
+        "-3": 103279,
+        "-4": 42457,
+        "-5": 9205,
+        "-6": 4188,
+        "-7": 916,
+        "-8": 89,
+        "0": 472490,
+        "1": 680571,
+        "2": 326755,
+        "3": 53927
     },
     "metaToWinsLosses": {
         "-1": {
-            "losses": 33248,
-            "wins": 31447
+            "losses": 33271,
+            "wins": 31521
         },
         "-2": {
-            "losses": 26266,
-            "wins": 24493
+            "losses": 26243,
+            "wins": 24429
         },
         "-3": {
-            "losses": 14766,
-            "wins": 13081
+            "losses": 14785,
+            "wins": 13109
         },
         "-4": {
-            "losses": 6130,
-            "wins": 5224
+            "losses": 6163,
+            "wins": 5231
         },
         "-5": {
-            "losses": 1418,
-            "wins": 1104
+            "losses": 1375,
+            "wins": 1085
         },
         "-6": {
-            "losses": 734,
-            "wins": 566
+            "losses": 719,
+            "wins": 560
         },
         "-7": {
-            "losses": 126,
-            "wins": 93
+            "losses": 120,
+            "wins": 84
         },
         "-8": {
             "losses": 17,
             "wins": 12
         },
         "0": {
-            "losses": 71043,
-            "wins": 74336
+            "losses": 71069,
+            "wins": 74380
         },
         "1": {
-            "losses": 104377,
-            "wins": 113897
+            "losses": 104622,
+            "wins": 114130
         },
         "2": {
-            "losses": 54366,
-            "wins": 60911
+            "losses": 54428,
+            "wins": 60963
         },
         "3": {
-            "losses": 9904,
-            "wins": 11407
+            "losses": 9920,
+            "wins": 11426
         }
     },
     "other": {
@@ -3512,12 +3632,12 @@
             "wins": 3
         },
         "0": {
-            "losses": 117070,
-            "wins": 122914
+            "losses": 117176,
+            "wins": 123047
         },
         "1": {
-            "losses": 95423,
-            "wins": 96727
+            "losses": 95536,
+            "wins": 96827
         },
         "10": {
             "losses": 266,
@@ -3548,32 +3668,32 @@
             "wins": 5
         },
         "2": {
-            "losses": 54122,
-            "wins": 56467
+            "losses": 54174,
+            "wins": 56530
         },
         "3": {
-            "losses": 24788,
-            "wins": 26432
+            "losses": 24814,
+            "wins": 26460
         },
         "4": {
-            "losses": 14699,
-            "wins": 15598
+            "losses": 14728,
+            "wins": 15624
         },
         "5": {
-            "losses": 8287,
-            "wins": 9199
+            "losses": 8294,
+            "wins": 9206
         },
         "6": {
-            "losses": 3702,
-            "wins": 4296
+            "losses": 3704,
+            "wins": 4297
         },
         "7": {
             "losses": 2101,
             "wins": 2305
         },
         "8": {
-            "losses": 994,
-            "wins": 1087
+            "losses": 996,
+            "wins": 1088
         },
         "9": {
             "losses": 524,
@@ -3732,8 +3852,8 @@
             "wins": 291
         },
         "11": {
-            "losses": 106,
-            "wins": 78
+            "losses": 107,
+            "wins": 80
         },
         "12": {
             "losses": 35,
@@ -3748,35 +3868,35 @@
             "wins": 4
         },
         "2": {
-            "losses": 80343,
-            "wins": 83709
+            "losses": 80423,
+            "wins": 83805
         },
         "3": {
-            "losses": 108646,
-            "wins": 113188
+            "losses": 108768,
+            "wins": 113293
         },
         "4": {
-            "losses": 74647,
-            "wins": 78590
+            "losses": 74742,
+            "wins": 78692
         },
         "5": {
-            "losses": 36431,
-            "wins": 37893
+            "losses": 36451,
+            "wins": 37931
         },
         "6": {
-            "losses": 14096,
-            "wins": 14673
+            "losses": 14104,
+            "wins": 14686
         },
         "7": {
-            "losses": 4768,
-            "wins": 4920
+            "losses": 4773,
+            "wins": 4921
         },
         "8": {
-            "losses": 1527,
-            "wins": 1624
+            "losses": 1529,
+            "wins": 1626
         },
         "9": {
-            "losses": 767,
+            "losses": 771,
             "wins": 746
         }
     },
@@ -3838,24 +3958,24 @@
     },
     "recursionToWinsLosses": {
         "0": {
-            "losses": 109500,
-            "wins": 114553
+            "losses": 109628,
+            "wins": 114668
         },
         "1": {
-            "losses": 72722,
-            "wins": 73647
+            "losses": 72798,
+            "wins": 73741
         },
         "10": {
             "losses": 1248,
             "wins": 1468
         },
         "11": {
-            "losses": 608,
-            "wins": 717
+            "losses": 609,
+            "wins": 719
         },
         "12": {
-            "losses": 337,
-            "wins": 382
+            "losses": 338,
+            "wins": 384
         },
         "13": {
             "losses": 164,
@@ -3882,36 +4002,36 @@
             "wins": 4
         },
         "2": {
-            "losses": 40320,
-            "wins": 40005
+            "losses": 40361,
+            "wins": 40057
         },
         "3": {
-            "losses": 31520,
-            "wins": 33242
+            "losses": 31558,
+            "wins": 33280
         },
         "4": {
-            "losses": 26293,
-            "wins": 28721
+            "losses": 26313,
+            "wins": 28745
         },
         "5": {
-            "losses": 16481,
-            "wins": 17585
+            "losses": 16489,
+            "wins": 17592
         },
         "6": {
-            "losses": 10186,
-            "wins": 11160
+            "losses": 10193,
+            "wins": 11172
         },
         "7": {
-            "losses": 6473,
-            "wins": 7275
+            "losses": 6483,
+            "wins": 7282
         },
         "8": {
-            "losses": 4245,
-            "wins": 4789
+            "losses": 4251,
+            "wins": 4793
         },
         "9": {
-            "losses": 2174,
-            "wins": 2603
+            "losses": 2175,
+            "wins": 2605
         }
     },
     "sas": {
@@ -4130,8 +4250,8 @@
             "wins": 752
         },
         "49": {
-            "losses": 1309,
-            "wins": 938
+            "losses": 1312,
+            "wins": 947
         },
         "50": {
             "losses": 1957,
@@ -4143,167 +4263,167 @@
         },
         "52": {
             "losses": 3313,
-            "wins": 2203
+            "wins": 2206
         },
         "53": {
-            "losses": 4257,
-            "wins": 2934
+            "losses": 4268,
+            "wins": 2949
         },
         "54": {
-            "losses": 5185,
-            "wins": 3568
+            "losses": 5188,
+            "wins": 3578
         },
         "55": {
-            "losses": 6301,
-            "wins": 4635
+            "losses": 6304,
+            "wins": 4640
         },
         "56": {
-            "losses": 7481,
-            "wins": 5417
+            "losses": 7493,
+            "wins": 5424
         },
         "57": {
-            "losses": 8392,
-            "wins": 6419
+            "losses": 8403,
+            "wins": 6434
         },
         "58": {
-            "losses": 9991,
-            "wins": 7707
+            "losses": 10010,
+            "wins": 7723
         },
         "59": {
-            "losses": 11352,
-            "wins": 8783
+            "losses": 11369,
+            "wins": 8792
         },
         "60": {
-            "losses": 12042,
-            "wins": 10094
+            "losses": 12053,
+            "wins": 10101
         },
         "61": {
-            "losses": 13062,
-            "wins": 11125
+            "losses": 13071,
+            "wins": 11131
         },
         "62": {
-            "losses": 14518,
-            "wins": 12720
+            "losses": 14532,
+            "wins": 12739
         },
         "63": {
-            "losses": 14816,
-            "wins": 13619
+            "losses": 14843,
+            "wins": 13633
         },
         "64": {
-            "losses": 15365,
-            "wins": 14097
+            "losses": 15377,
+            "wins": 14112
         },
         "65": {
-            "losses": 15899,
-            "wins": 15240
+            "losses": 15913,
+            "wins": 15262
         },
         "66": {
-            "losses": 16025,
-            "wins": 16202
+            "losses": 16037,
+            "wins": 16214
         },
         "67": {
-            "losses": 15678,
-            "wins": 16177
+            "losses": 15692,
+            "wins": 16185
         },
         "68": {
-            "losses": 15225,
-            "wins": 16413
+            "losses": 15239,
+            "wins": 16433
         },
         "69": {
-            "losses": 14886,
-            "wins": 16910
+            "losses": 14896,
+            "wins": 16923
         },
         "70": {
-            "losses": 14070,
-            "wins": 16177
+            "losses": 14078,
+            "wins": 16188
         },
         "71": {
-            "losses": 13025,
-            "wins": 15862
+            "losses": 13026,
+            "wins": 15864
         },
         "72": {
-            "losses": 12109,
-            "wins": 14718
+            "losses": 12124,
+            "wins": 14729
         },
         "73": {
-            "losses": 10723,
-            "wins": 13428
+            "losses": 10732,
+            "wins": 13430
         },
         "74": {
-            "losses": 9860,
-            "wins": 12517
+            "losses": 9865,
+            "wins": 12527
         },
         "75": {
-            "losses": 8428,
-            "wins": 11215
+            "losses": 8441,
+            "wins": 11227
         },
         "76": {
-            "losses": 7624,
-            "wins": 10464
+            "losses": 7631,
+            "wins": 10472
         },
         "77": {
-            "losses": 6349,
-            "wins": 8759
+            "losses": 6362,
+            "wins": 8771
         },
         "78": {
-            "losses": 5546,
-            "wins": 7989
+            "losses": 5553,
+            "wins": 7995
         },
         "79": {
-            "losses": 4403,
-            "wins": 6365
+            "losses": 4413,
+            "wins": 6382
         },
         "80": {
-            "losses": 3981,
-            "wins": 5875
+            "losses": 3986,
+            "wins": 5888
         },
         "81": {
-            "losses": 3072,
-            "wins": 4787
+            "losses": 3075,
+            "wins": 4793
         },
         "82": {
-            "losses": 2492,
-            "wins": 3833
+            "losses": 2493,
+            "wins": 3838
         },
         "83": {
-            "losses": 1935,
-            "wins": 3280
+            "losses": 1937,
+            "wins": 3285
         },
         "84": {
-            "losses": 1540,
-            "wins": 2585
+            "losses": 1545,
+            "wins": 2587
         },
         "85": {
-            "losses": 1200,
-            "wins": 2137
+            "losses": 1203,
+            "wins": 2140
         },
         "86": {
             "losses": 839,
             "wins": 1392
         },
         "87": {
-            "losses": 725,
-            "wins": 1326
+            "losses": 731,
+            "wins": 1328
         },
         "88": {
-            "losses": 500,
-            "wins": 985
+            "losses": 502,
+            "wins": 987
         },
         "89": {
             "losses": 349,
             "wins": 654
         },
         "90": {
-            "losses": 232,
-            "wins": 484
+            "losses": 234,
+            "wins": 486
         },
         "91": {
-            "losses": 178,
-            "wins": 414
+            "losses": 179,
+            "wins": 416
         },
         "92": {
-            "losses": 155,
-            "wins": 282
+            "losses": 158,
+            "wins": 283
         },
         "93": {
             "losses": 91,
@@ -4448,56 +4568,56 @@
             "wins": 526
         },
         "1": {
-            "losses": 2338,
-            "wins": 1877
+            "losses": 2339,
+            "wins": 1880
         },
         "10": {
-            "losses": 25549,
-            "wins": 28616
+            "losses": 25578,
+            "wins": 28650
         },
         "11": {
-            "losses": 21205,
-            "wins": 24234
+            "losses": 21223,
+            "wins": 24265
         },
         "12": {
-            "losses": 16403,
-            "wins": 19266
+            "losses": 16413,
+            "wins": 19274
         },
         "13": {
-            "losses": 13007,
-            "wins": 15517
+            "losses": 13027,
+            "wins": 15550
         },
         "14": {
-            "losses": 9845,
-            "wins": 11978
+            "losses": 9860,
+            "wins": 11991
         },
         "15": {
-            "losses": 7116,
-            "wins": 8757
+            "losses": 7124,
+            "wins": 8765
         },
         "16": {
             "losses": 5329,
-            "wins": 6630
+            "wins": 6634
         },
         "17": {
-            "losses": 4096,
-            "wins": 5329
+            "losses": 4100,
+            "wins": 5337
         },
         "18": {
-            "losses": 3077,
-            "wins": 3952
+            "losses": 3080,
+            "wins": 3953
         },
         "19": {
-            "losses": 2089,
-            "wins": 2846
+            "losses": 2091,
+            "wins": 2847
         },
         "2": {
-            "losses": 6345,
-            "wins": 5145
+            "losses": 6352,
+            "wins": 5149
         },
         "20": {
-            "losses": 1694,
-            "wins": 2259
+            "losses": 1699,
+            "wins": 2260
         },
         "21": {
             "losses": 1058,
@@ -4512,8 +4632,8 @@
             "wins": 789
         },
         "24": {
-            "losses": 345,
-            "wins": 507
+            "losses": 351,
+            "wins": 512
         },
         "25": {
             "losses": 213,
@@ -4524,8 +4644,8 @@
             "wins": 215
         },
         "27": {
-            "losses": 102,
-            "wins": 136
+            "losses": 105,
+            "wins": 140
         },
         "28": {
             "losses": 46,
@@ -4536,8 +4656,8 @@
             "wins": 78
         },
         "3": {
-            "losses": 13303,
-            "wins": 11013
+            "losses": 13323,
+            "wins": 11033
         },
         "30": {
             "losses": 26,
@@ -4556,45 +4676,45 @@
             "wins": 46
         },
         "4": {
-            "losses": 21115,
-            "wins": 18398
+            "losses": 21128,
+            "wins": 18411
         },
         "45": {
             "losses": 10,
             "wins": 35
         },
         "5": {
-            "losses": 29339,
-            "wins": 26474
+            "losses": 29376,
+            "wins": 26508
         },
         "6": {
-            "losses": 34378,
-            "wins": 32647
+            "losses": 34404,
+            "wins": 32684
         },
         "7": {
-            "losses": 36298,
-            "wins": 36166
+            "losses": 36340,
+            "wins": 36209
         },
         "8": {
-            "losses": 34334,
-            "wins": 36117
+            "losses": 34357,
+            "wins": 36136
         },
         "9": {
-            "losses": 31429,
-            "wins": 33923
+            "losses": 31474,
+            "wins": 33958
         }
     },
     "totalCreaturePower": {
         "100": 5477,
         "101": 4816,
-        "102": 4379,
+        "102": 4381,
         "103": 3824,
         "104": 3331,
         "105": 2996,
         "106": 2713,
         "107": 2427,
         "108": 2063,
-        "109": 1731,
+        "109": 1732,
         "110": 1526,
         "111": 1326,
         "112": 1197,
@@ -4695,7 +4815,7 @@
         "67": 53618,
         "68": 52072,
         "69": 51767,
-        "70": 50202,
+        "70": 50200,
         "71": 48631,
         "72": 46943,
         "73": 45088,
@@ -4703,27 +4823,27 @@
         "75": 41733,
         "76": 39879,
         "77": 38194,
-        "78": 36069,
+        "78": 36068,
         "79": 33933,
         "80": 32200,
         "81": 30283,
-        "82": 28391,
+        "82": 28390,
         "83": 26661,
         "84": 24469,
         "85": 22981,
         "86": 21195,
         "87": 19563,
         "88": 17876,
-        "89": 16505,
+        "89": 16504,
         "90": 15232,
         "91": 14006,
-        "92": 12732,
+        "92": 12733,
         "93": 11357,
         "94": 10257,
         "95": 9214,
         "96": 8461,
         "97": 7636,
-        "98": 6693,
+        "98": 6694,
         "99": 6101
     },
     "upgradeCount": {
@@ -4766,12 +4886,12 @@
     },
     "upgradeWins": {
         "0": {
-            "losses": 84600,
-            "wins": 91278
+            "losses": 84671,
+            "wins": 91370
         },
         "1": {
-            "losses": 104163,
-            "wins": 109287
+            "losses": 104274,
+            "wins": 109405
         },
         "10": {
             "losses": 10,
@@ -4782,24 +4902,24 @@
             "wins": 1
         },
         "2": {
-            "losses": 71078,
-            "wins": 73152
+            "losses": 71136,
+            "wins": 73219
         },
         "3": {
-            "losses": 36522,
-            "wins": 36752
+            "losses": 36586,
+            "wins": 36804
         },
         "4": {
-            "losses": 15972,
-            "wins": 15893
+            "losses": 15986,
+            "wins": 15905
         },
         "5": {
-            "losses": 6599,
-            "wins": 6603
+            "losses": 6611,
+            "wins": 6618
         },
         "6": {
-            "losses": 2408,
-            "wins": 2526
+            "losses": 2415,
+            "wins": 2529
         },
         "7": {
             "losses": 809,
