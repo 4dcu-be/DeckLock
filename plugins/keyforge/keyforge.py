@@ -186,6 +186,9 @@ def get_keyforge_external_data(generator):
                 "dok_stats": parse_dok_stats(dok_data, current_dok_deck_data),
                 "vault_data": vault_data,
                 "user_data": deck,
+                "adventure_data": {
+                    "defeated_keyraken": deck.get("defeated_keyraken", False)
+                }
             }
         else:
             # print(f"Using cached data for KeyForge deck {deck['deck_id']}")

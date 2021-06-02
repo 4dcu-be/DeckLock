@@ -64,6 +64,19 @@
             <canvas id="radarStats" width="400" height="400"></canvas>
             </div>
         </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 top15">
+            <div class="card">
+                <div class="card-header">
+                    <h3>KeyForge Adventures</h3>
+                </div>
+                <div class="card-body">
+                    {% if keyforge_data.adventure_data.defeated_keyraken %}
+                        {{ keyforge_data.vault_data.data.name }} has defeated The Keyraken.
+                    {% else %}
+                        {{ keyforge_data.vault_data.data.name }} has not defeated The Keyraken.
+                    {% endif %}
+                </div>
+        </div>
     </div>
 {% endblock %}
 

@@ -1,5 +1,8 @@
 {
     "21459407-7765-44f6-b183-2ebef8283f63": {
+        "adventure_data": {
+            "defeated_keyraken": false
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 10,
@@ -148,13 +151,6 @@
                             },
                             {
                                 "anomaly": false,
-                                "cardTitle": "\u201cJohn Smyth\u201d",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
                                 "cardTitle": "Vezyma Thinkdrone",
                                 "legacy": false,
                                 "maverick": false,
@@ -180,6 +176,13 @@
                                 "legacy": false,
                                 "maverick": false,
                                 "rarity": "Uncommon"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "\u201cJohn Smyth\u201d",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
                             },
                             {
                                 "anomaly": false,
@@ -298,13 +301,13 @@
                 "previousSasRating": 58,
                 "rawAmber": 10,
                 "recursion": 0.5,
-                "sasPercentile": 19.02070838917397,
+                "sasPercentile": 16.867771082800598,
                 "sasRating": 57,
                 "synergyRating": 5,
                 "totalPower": 48,
                 "upgradeCount": 4
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 62.70410612022839,
@@ -986,10 +989,10 @@
                 ],
                 "houses": [
                     {
-                        "id": "Mars",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
+                        "id": "Logos",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
                         "in_filters": true,
-                        "name": "Mars"
+                        "name": "Logos"
                     },
                     {
                         "id": "Shadows",
@@ -998,10 +1001,10 @@
                         "name": "Shadows"
                     },
                     {
-                        "id": "Logos",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "id": "Mars",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
                         "in_filters": true,
-                        "name": "Logos"
+                        "name": "Mars"
                     }
                 ],
                 "notes": []
@@ -1074,24 +1077,27 @@
         }
     },
     "29bb805b-12ce-4f29-aad7-a4d9b512e41c": {
+        "adventure_data": {
+            "defeated_keyraken": false
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 13,
-                "aercScore": 64,
-                "aercVersion": 37,
-                "amberControl": 4.17725,
+                "aercScore": 65,
+                "aercVersion": 39,
+                "amberControl": 3.84725,
                 "antisynergyRating": 1,
                 "artifactCount": 4,
                 "creatureControl": 14.4,
                 "creatureCount": 12,
                 "creatureProtection": 7.625,
                 "dateAdded": "2019-11-12",
-                "disruption": 7.1625,
+                "disruption": 7.1075,
                 "effectivePower": 58,
                 "efficiency": 9.25,
                 "efficiencyBonus": 0.0,
                 "expansion": "WORLDS_COLLIDE",
-                "expectedAmber": 21.91875,
+                "expectedAmber": 22.41875,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -1364,21 +1370,21 @@
                 "id": 1445088,
                 "keyCheatCount": 1,
                 "keyforgeId": "29bb805b-12ce-4f29-aad7-a4d9b512e41c",
-                "lastSasUpdate": "2021-04-02",
+                "lastSasUpdate": "2021-05-21",
                 "metaScores": {},
                 "name": "Champion Greenqual, the Sinister Surgeon",
                 "other": 2.925,
                 "previousMajorSasRating": 78,
-                "previousSasRating": 78,
+                "previousSasRating": 81,
                 "rawAmber": 15,
                 "recursion": 0.5,
-                "sasPercentile": 98.58851968794758,
+                "sasPercentile": 98.45855378288886,
                 "sasRating": 79,
                 "synergyRating": 16,
                 "totalPower": 55,
                 "upgradeCount": 7
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 20.758331232633623,
@@ -2108,6 +2114,9 @@
         }
     },
     "355b1f9d-2c3f-48fb-ac40-cf7292a31d19": {
+        "adventure_data": {
+            "defeated_keyraken": true
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 9,
@@ -2444,14 +2453,14 @@
                 "previousSasRating": 65,
                 "rawAmber": 5,
                 "recursion": 0.5,
-                "sasPercentile": 67.86807700761617,
+                "sasPercentile": 65.89094783530015,
                 "sasRating": 66,
                 "synergyRating": 10,
                 "totalArmor": 6,
                 "totalPower": 83,
                 "upgradeCount": 1
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 79.59268738122739,
@@ -2465,7 +2474,8 @@
             "recursion": 35.09293637941912
         },
         "user_data": {
-            "deck_id": "355b1f9d-2c3f-48fb-ac40-cf7292a31d19"
+            "deck_id": "355b1f9d-2c3f-48fb-ac40-cf7292a31d19",
+            "defeated_keyraken": true
         },
         "vault_data": {
             "_linked": {
@@ -3181,14 +3191,17 @@
         }
     },
     "719d5924-248a-4b64-8789-a6eccf710095": {
+        "adventure_data": {
+            "defeated_keyraken": false
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 11,
-                "aercScore": 66,
-                "aercVersion": 37,
+                "aercScore": 67,
+                "aercVersion": 38,
                 "amberControl": 8.66,
                 "antisynergyRating": 3,
-                "artifactControl": 2.75,
+                "artifactControl": 3.25,
                 "artifactCount": 8,
                 "cardDrawCount": 3,
                 "creatureControl": 19.875,
@@ -3197,7 +3210,7 @@
                 "dateAdded": "2020-07-10",
                 "disruption": 0.5,
                 "effectivePower": 58,
-                "efficiency": 7.375,
+                "efficiency": 8.565,
                 "efficiencyBonus": 0.0,
                 "expansion": "MASS_MUTATION",
                 "expectedAmber": 15.1,
@@ -3508,21 +3521,21 @@
                 ],
                 "id": 1902444,
                 "keyforgeId": "719d5924-248a-4b64-8789-a6eccf710095",
-                "lastSasUpdate": "2021-04-02",
+                "lastSasUpdate": "2021-05-18",
                 "metaScores": {},
                 "name": "Draxthroat, the Librarian of the Site",
                 "other": 2.6,
                 "previousMajorSasRating": 0,
-                "previousSasRating": 72,
+                "previousSasRating": 73,
                 "rawAmber": 8,
                 "recursion": 0.5,
-                "sasPercentile": 92.39399536944069,
-                "sasRating": 73,
-                "synergyRating": 8,
+                "sasPercentile": 96.27306323267058,
+                "sasRating": 76,
+                "synergyRating": 10,
                 "totalArmor": 7,
                 "totalPower": 64
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 71.91219692362615,
@@ -3531,7 +3544,7 @@
             "creatureProtection": 58.62998299026652,
             "disruption": 30.662192769700173,
             "effectivePower": 23.121606539181492,
-            "efficiency": 73.80686190593518,
+            "efficiency": 83.27567684069955,
             "expectedAmber": 24.603537435893053,
             "recursion": 35.09293637941912
         },
@@ -4184,6 +4197,12 @@
                 ],
                 "houses": [
                     {
+                        "id": "Logos",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
+                        "name": "Logos"
+                    },
+                    {
                         "id": "Dis",
                         "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
@@ -4194,12 +4213,6 @@
                         "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
                         "in_filters": true,
                         "name": "Sanctum"
-                    },
-                    {
-                        "id": "Logos",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
-                        "in_filters": true,
-                        "name": "Logos"
                     }
                 ],
                 "notes": []
@@ -4272,11 +4285,14 @@
         }
     },
     "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00": {
+        "adventure_data": {
+            "defeated_keyraken": false
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 15,
                 "aercScore": 49,
-                "aercVersion": 38,
+                "aercVersion": 39,
                 "amberControl": 5.9125000000000005,
                 "antisynergyRating": 0,
                 "artifactControl": 0.5,
@@ -4560,20 +4576,20 @@
                 ],
                 "id": 955191,
                 "keyforgeId": "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00",
-                "lastSasUpdate": "2021-05-18",
+                "lastSasUpdate": "2021-05-21",
                 "metaScores": {},
                 "name": "Bases, the Swordsman of Fire",
                 "previousMajorSasRating": 54,
                 "previousSasRating": 53,
                 "rawAmber": 12,
-                "recursion": 0.165,
-                "sasPercentile": 8.983541433156685,
+                "recursion": 0.125,
+                "sasPercentile": 7.6347399588097336,
                 "sasRating": 54,
                 "synergyRating": 5,
                 "totalArmor": 4,
                 "totalPower": 91
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 41.41117648203771,
@@ -5215,10 +5231,10 @@
                 ],
                 "houses": [
                     {
-                        "id": "Brobnar",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
+                        "id": "Dis",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
-                        "name": "Brobnar"
+                        "name": "Dis"
                     },
                     {
                         "id": "Sanctum",
@@ -5227,10 +5243,10 @@
                         "name": "Sanctum"
                     },
                     {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "id": "Brobnar",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
                         "in_filters": true,
-                        "name": "Dis"
+                        "name": "Brobnar"
                     }
                 ],
                 "notes": []
@@ -5303,6 +5319,9 @@
         }
     },
     "8dfbd01a-157b-4a51-8428-50ab1ed9edf7": {
+        "adventure_data": {
+            "defeated_keyraken": false
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 17,
@@ -5374,13 +5393,6 @@
                             },
                             {
                                 "anomaly": false,
-                                "cardTitle": "Valdr",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
                                 "cardTitle": "Headhunter",
                                 "legacy": false,
                                 "maverick": false,
@@ -5403,6 +5415,13 @@
                             {
                                 "anomaly": false,
                                 "cardTitle": "Smaaash",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Valdr",
                                 "legacy": false,
                                 "maverick": false,
                                 "rarity": "Common"
@@ -5598,13 +5617,13 @@
                 "previousMajorSasRating": 59,
                 "previousSasRating": 55,
                 "rawAmber": 14,
-                "sasPercentile": 15.117584589361867,
+                "sasPercentile": 13.22369953894793,
                 "sasRating": 56,
                 "synergyRating": 3,
                 "totalPower": 56,
                 "upgradeCount": 1
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 20.758331232633623,
@@ -6266,10 +6285,10 @@
                 ],
                 "houses": [
                     {
-                        "id": "Untamed",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
+                        "id": "Shadows",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
                         "in_filters": true,
-                        "name": "Untamed"
+                        "name": "Shadows"
                     },
                     {
                         "id": "Brobnar",
@@ -6278,10 +6297,10 @@
                         "name": "Brobnar"
                     },
                     {
-                        "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "id": "Untamed",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
                         "in_filters": true,
-                        "name": "Shadows"
+                        "name": "Untamed"
                     }
                 ],
                 "notes": []
@@ -6354,21 +6373,24 @@
         }
     },
     "9ec782d8-2999-40e0-b067-138a5fa85579": {
+        "adventure_data": {
+            "defeated_keyraken": true
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 16,
                 "aercScore": 50,
-                "aercVersion": 38,
+                "aercVersion": 40,
                 "amberControl": 7.525,
                 "antisynergyRating": 1,
                 "artifactControl": 1.0,
                 "artifactCount": 4,
                 "cardArchiveCount": 1,
-                "creatureControl": 15.35,
+                "creatureControl": 15.6625,
                 "creatureCount": 15,
                 "dateAdded": "2021-04-17",
                 "disruption": 1.3125,
-                "effectivePower": 44,
+                "effectivePower": 47,
                 "efficiency": -0.5,
                 "efficiencyBonus": 0.0,
                 "expansion": "DARK_TIDINGS",
@@ -6488,7 +6510,7 @@
                             {
                                 "anomaly": false,
                                 "cardTitle": "Pour-tal",
-                                "enhanced": true,
+                                "enhanced": false,
                                 "legacy": false,
                                 "maverick": false,
                                 "rarity": "Common"
@@ -6496,7 +6518,7 @@
                             {
                                 "anomaly": false,
                                 "cardTitle": "Pour-tal",
-                                "enhanced": false,
+                                "enhanced": true,
                                 "legacy": false,
                                 "maverick": false,
                                 "rarity": "Common"
@@ -6528,7 +6550,7 @@
                             {
                                 "anomaly": false,
                                 "cardTitle": "Frigorific Rod",
-                                "enhanced": false,
+                                "enhanced": true,
                                 "legacy": false,
                                 "maverick": false,
                                 "rarity": "Common"
@@ -6536,7 +6558,7 @@
                             {
                                 "anomaly": false,
                                 "cardTitle": "Frigorific Rod",
-                                "enhanced": true,
+                                "enhanced": false,
                                 "legacy": false,
                                 "maverick": false,
                                 "rarity": "Common"
@@ -6681,36 +6703,37 @@
                 "id": 13452274,
                 "keyCheatCount": 1,
                 "keyforgeId": "9ec782d8-2999-40e0-b067-138a5fa85579",
-                "lastSasUpdate": "2021-05-19",
+                "lastSasUpdate": "2021-05-21",
                 "metaScores": {},
                 "name": "Audocurse, the Broken Thief\u2019s Evil Twin",
-                "other": 1.35,
+                "other": 1.0,
                 "previousMajorSasRating": 0,
-                "previousSasRating": 33,
+                "previousSasRating": 63,
                 "rawAmber": 17,
                 "recursion": 0.25,
-                "sasPercentile": 56.90128515348875,
+                "sasPercentile": 54.51494295097134,
                 "sasRating": 64,
                 "synergyRating": 14,
                 "totalArmor": 12,
                 "totalPower": 51,
                 "upgradeCount": 1
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 62.70410612022839,
             "artifactControl": 76.53036567366473,
-            "creatureControl": 81.16268150876289,
+            "creatureControl": 85.7122511382944,
             "creatureProtection": 21.078729477825394,
             "disruption": 53.174002974685735,
-            "effectivePower": 8.15133203351055,
+            "effectivePower": 10.50577728025613,
             "efficiency": 32.86334627934037,
             "expectedAmber": 95.083365733956,
             "recursion": 35.09293637941912
         },
         "user_data": {
-            "deck_id": "9ec782d8-2999-40e0-b067-138a5fa85579"
+            "deck_id": "9ec782d8-2999-40e0-b067-138a5fa85579",
+            "defeated_keyraken": true
         },
         "vault_data": {
             "_linked": {
@@ -7358,16 +7381,16 @@
                 ],
                 "houses": [
                     {
-                        "id": "Unfathomable",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Unfathomable-2.png",
-                        "in_filters": true,
-                        "name": "Unfathomable"
-                    },
-                    {
                         "id": "Sanctum",
                         "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
                         "in_filters": true,
                         "name": "Sanctum"
+                    },
+                    {
+                        "id": "Unfathomable",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Unfathomable-2.png",
+                        "in_filters": true,
+                        "name": "Unfathomable"
                     },
                     {
                         "id": "Untamed",
@@ -7447,21 +7470,24 @@
         }
     },
     "a19ba89a-ea75-406e-9b38-f8968b5bd323": {
+        "adventure_data": {
+            "defeated_keyraken": false
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 13,
                 "aercScore": 58,
-                "aercVersion": 38,
+                "aercVersion": 40,
                 "amberControl": 5.28,
                 "antisynergyRating": 0,
                 "artifactControl": 3.075,
                 "cardDrawCount": 1,
-                "creatureControl": 11.5875,
+                "creatureControl": 11.875,
                 "creatureCount": 23,
                 "creatureProtection": 2.0,
                 "dateAdded": "2021-04-17",
                 "disruption": 2.5,
-                "effectivePower": 118,
+                "effectivePower": 121,
                 "efficiency": 7.91,
                 "efficiencyBonus": 0.0,
                 "expansion": "DARK_TIDINGS",
@@ -7773,7 +7799,7 @@
                 ],
                 "id": 13452278,
                 "keyforgeId": "a19ba89a-ea75-406e-9b38-f8968b5bd323",
-                "lastSasUpdate": "2021-05-19",
+                "lastSasUpdate": "2021-05-21",
                 "metaScores": {},
                 "name": "The Archon who Hurts Cornwall",
                 "other": 0.25,
@@ -7781,13 +7807,13 @@
                 "previousSasRating": 27,
                 "rawAmber": 5,
                 "recursion": 0.05,
-                "sasPercentile": 77.30565441899394,
+                "sasPercentile": 75.79187521152103,
                 "sasRating": 68,
                 "synergyRating": 9,
                 "totalArmor": 10,
                 "totalPower": 86
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 30.585475690987785,
@@ -7795,7 +7821,7 @@
             "creatureControl": 61.391275616074694,
             "creatureProtection": 79.49883239074819,
             "disruption": 63.464773046100035,
-            "effectivePower": 96.88322625698987,
+            "effectivePower": 97.64712137676773,
             "efficiency": 78.70631078677258,
             "expectedAmber": 12.193268171289867,
             "recursion": 35.09293637941912
@@ -8429,10 +8455,10 @@
                 ],
                 "houses": [
                     {
-                        "id": "Saurian",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
+                        "id": "Untamed",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
                         "in_filters": true,
-                        "name": "Saurian"
+                        "name": "Untamed"
                     },
                     {
                         "id": "Star Alliance",
@@ -8441,10 +8467,10 @@
                         "name": "Star Alliance"
                     },
                     {
-                        "id": "Untamed",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
+                        "id": "Saurian",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
                         "in_filters": true,
-                        "name": "Untamed"
+                        "name": "Saurian"
                     }
                 ],
                 "notes": []
@@ -8518,11 +8544,14 @@
         }
     },
     "a4268ae8-a9f6-48c7-9739-b28a3553b108": {
+        "adventure_data": {
+            "defeated_keyraken": false
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 16,
                 "aercScore": 51,
-                "aercVersion": 31,
+                "aercVersion": 39,
                 "amberControl": 7.609999999999999,
                 "antisynergyRating": 0,
                 "artifactControl": 3.0,
@@ -8810,21 +8839,21 @@
                 "id": 1648089,
                 "keyCheatCount": 2,
                 "keyforgeId": "a4268ae8-a9f6-48c7-9739-b28a3553b108",
-                "lastSasUpdate": "2021-02-02",
+                "lastSasUpdate": "2021-05-21",
                 "metaScores": {},
                 "name": "Sneaking \u201cSiphon\u201d Zebulon",
-                "other": 0.825,
+                "other": 0.65,
                 "previousMajorSasRating": 58,
                 "previousSasRating": 58,
                 "rawAmber": 12,
                 "recursion": 0.925,
-                "sasPercentile": 33.66550499159483,
+                "sasPercentile": 31.02973114082751,
                 "sasRating": 60,
                 "synergyRating": 7,
                 "totalArmor": 16,
                 "totalPower": 40
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 62.70410612022839,
@@ -9554,6 +9583,9 @@
         }
     },
     "aebaeba5-5918-4573-983a-72d0a5c6133d": {
+        "adventure_data": {
+            "defeated_keyraken": false
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 16,
@@ -9851,14 +9883,14 @@
                 "previousMajorSasRating": 66,
                 "previousSasRating": 66,
                 "rawAmber": 11,
-                "sasPercentile": 72.80764094508226,
+                "sasPercentile": 71.06183982054513,
                 "sasRating": 67,
                 "synergyRating": 7,
                 "totalArmor": 8,
                 "totalPower": 51,
                 "upgradeCount": 1
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 79.59268738122739,
@@ -10548,6 +10580,9 @@
         }
     },
     "b41630b3-7394-4ac5-9102-0c4dcb2e1b8a": {
+        "adventure_data": {
+            "defeated_keyraken": false
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 15,
@@ -10848,14 +10883,14 @@
                 "previousMajorSasRating": 61,
                 "previousSasRating": 62,
                 "rawAmber": 15,
-                "sasPercentile": 51.05773197540306,
+                "sasPercentile": 48.51476097911065,
                 "sasRating": 63,
                 "synergyRating": 10,
                 "totalArmor": 2,
                 "totalPower": 63,
                 "upgradeCount": 1
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 52.33239383395974,
@@ -11497,10 +11532,10 @@
                 ],
                 "houses": [
                     {
-                        "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "id": "Dis",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
-                        "name": "Shadows"
+                        "name": "Dis"
                     },
                     {
                         "id": "Brobnar",
@@ -11509,10 +11544,10 @@
                         "name": "Brobnar"
                     },
                     {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "id": "Shadows",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
                         "in_filters": true,
-                        "name": "Dis"
+                        "name": "Shadows"
                     }
                 ],
                 "notes": []
@@ -11585,6 +11620,9 @@
         }
     },
     "bfbf6786-218c-4320-a7b1-7ed4d6eddc69": {
+        "adventure_data": {
+            "defeated_keyraken": false
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 12,
@@ -11885,14 +11923,14 @@
                 "previousSasRating": 58,
                 "rawAmber": 9,
                 "recursion": 1.075,
-                "sasPercentile": 19.02070838917397,
+                "sasPercentile": 16.867771082800598,
                 "sasRating": 57,
                 "synergyRating": 7,
                 "totalArmor": 2,
                 "totalPower": 93,
                 "upgradeCount": 2
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 20.758331232633623,
@@ -12594,10 +12632,10 @@
                 ],
                 "houses": [
                     {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "id": "Logos",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
                         "in_filters": true,
-                        "name": "Dis"
+                        "name": "Logos"
                     },
                     {
                         "id": "Brobnar",
@@ -12606,10 +12644,10 @@
                         "name": "Brobnar"
                     },
                     {
-                        "id": "Logos",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "id": "Dis",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
-                        "name": "Logos"
+                        "name": "Dis"
                     }
                 ],
                 "notes": []
@@ -12684,12 +12722,15 @@
         }
     },
     "c94bc221-1da8-455f-965a-9ad436c7d5b9": {
+        "adventure_data": {
+            "defeated_keyraken": false
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 16,
-                "aercScore": 59,
-                "aercVersion": 37,
-                "amberControl": 6.194999999999999,
+                "aercScore": 60,
+                "aercVersion": 39,
+                "amberControl": 6.012499999999999,
                 "antisynergyRating": 0,
                 "artifactControl": 3.0,
                 "artifactCount": 4,
@@ -12699,12 +12740,12 @@
                 "creatureCount": 14,
                 "creatureProtection": 0.75,
                 "dateAdded": "2019-11-10",
-                "disruption": 4.145,
+                "disruption": 4.1825,
                 "effectivePower": 55,
                 "efficiency": 9.8,
                 "efficiencyBonus": 0.0,
                 "expansion": "WORLDS_COLLIDE",
-                "expectedAmber": 21.3075,
+                "expectedAmber": 21.31,
                 "housesAndCards": [
                     {
                         "cards": [
@@ -12977,22 +13018,22 @@
                 "id": 1407995,
                 "keyCheatCount": 1,
                 "keyforgeId": "c94bc221-1da8-455f-965a-9ad436c7d5b9",
-                "lastSasUpdate": "2021-04-02",
+                "lastSasUpdate": "2021-05-21",
                 "metaScores": {},
                 "name": "Zebrogus, the Servant Wanderer",
-                "other": 0.45,
+                "other": 0.25,
                 "previousMajorSasRating": 66,
                 "previousSasRating": 68,
                 "rawAmber": 16,
-                "recursion": 2.8499999999999996,
-                "sasPercentile": 81.32318920871745,
+                "recursion": 2.415,
+                "sasPercentile": 80.02025499869899,
                 "sasRating": 69,
-                "synergyRating": 8,
+                "synergyRating": 7,
                 "totalArmor": 5,
                 "totalPower": 45,
                 "upgradeCount": 2
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 41.41117648203771,
@@ -13003,7 +13044,7 @@
             "effectivePower": 19.06063355204347,
             "efficiency": 87.29753171344463,
             "expectedAmber": 74.00914623291135,
-            "recursion": 80.98418137512515
+            "recursion": 71.25117674788898
         },
         "user_data": {
             "deck_id": "c94bc221-1da8-455f-965a-9ad436c7d5b9"
@@ -13714,10 +13755,10 @@
                 ],
                 "houses": [
                     {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "id": "Logos",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
                         "in_filters": true,
-                        "name": "Dis"
+                        "name": "Logos"
                     },
                     {
                         "id": "Shadows",
@@ -13726,10 +13767,10 @@
                         "name": "Shadows"
                     },
                     {
-                        "id": "Logos",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "id": "Dis",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
-                        "name": "Logos"
+                        "name": "Dis"
                     }
                 ],
                 "notes": []
@@ -13802,11 +13843,14 @@
         }
     },
     "c98e4663-351e-4dfb-9ce8-4578ee8f54ad": {
+        "adventure_data": {
+            "defeated_keyraken": false
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 6,
                 "aercScore": 55,
-                "aercVersion": 37,
+                "aercVersion": 38,
                 "amberControl": 10.257500000000002,
                 "antisynergyRating": 1,
                 "artifactCount": 4,
@@ -13818,7 +13862,7 @@
                 "dateAdded": "2019-11-12",
                 "disruption": 1.325,
                 "effectivePower": 90,
-                "efficiency": 10.037500000000001,
+                "efficiency": 10.0,
                 "efficiencyBonus": 0.0,
                 "expansion": "WORLDS_COLLIDE",
                 "expectedAmber": 13.370000000000001,
@@ -14094,7 +14138,7 @@
                 "id": 1445087,
                 "keyCheatCount": 1,
                 "keyforgeId": "c98e4663-351e-4dfb-9ce8-4578ee8f54ad",
-                "lastSasUpdate": "2021-04-02",
+                "lastSasUpdate": "2021-05-18",
                 "metaScores": {},
                 "name": "Du\u2019lac, the Baron of Ustoth",
                 "other": 2.675,
@@ -14102,14 +14146,14 @@
                 "previousSasRating": 68,
                 "rawAmber": 7,
                 "recursion": 0.5,
-                "sasPercentile": 72.80764094508226,
+                "sasPercentile": 71.06183982054513,
                 "sasRating": 67,
                 "synergyRating": 14,
                 "totalArmor": 8,
                 "totalPower": 87,
                 "upgradeCount": 1
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 79.59268738122739,
@@ -14859,6 +14903,9 @@
         }
     },
     "cface028-c891-46bf-9eb0-b9fc2280a718": {
+        "adventure_data": {
+            "defeated_keyraken": false
+        },
         "dok_data": {
             "deck": {
                 "actionCount": 10,
@@ -14909,13 +14956,6 @@
                             },
                             {
                                 "anomaly": false,
-                                "cardTitle": "Valdr",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
                                 "cardTitle": "Hebe the Huge",
                                 "legacy": false,
                                 "maverick": false,
@@ -14945,6 +14985,13 @@
                             {
                                 "anomaly": false,
                                 "cardTitle": "Troll",
+                                "legacy": false,
+                                "maverick": false,
+                                "rarity": "Common"
+                            },
+                            {
+                                "anomaly": false,
+                                "cardTitle": "Valdr",
                                 "legacy": false,
                                 "maverick": false,
                                 "rarity": "Common"
@@ -15156,13 +15203,13 @@
                 "previousSasRating": 57,
                 "rawAmber": 10,
                 "recursion": 3.8875,
-                "sasPercentile": 23.437589754472118,
+                "sasPercentile": 21.062307505233818,
                 "sasRating": 58,
                 "synergyRating": 6,
                 "totalPower": 77,
                 "upgradeCount": 3
             },
-            "sasVersion": 38
+            "sasVersion": 40
         },
         "dok_stats": {
             "amberControl": 41.41117648203771,
@@ -15784,12 +15831,6 @@
                 ],
                 "houses": [
                     {
-                        "id": "Untamed",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
-                        "in_filters": true,
-                        "name": "Untamed"
-                    },
-                    {
                         "id": "Brobnar",
                         "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
                         "in_filters": true,
@@ -15800,6 +15841,12 @@
                         "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
                         "in_filters": true,
                         "name": "Mars"
+                    },
+                    {
+                        "id": "Untamed",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
+                        "in_filters": true,
+                        "name": "Untamed"
                     }
                 ],
                 "notes": []
