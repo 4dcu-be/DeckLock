@@ -1,7 +1,8 @@
 [
   {
     "deck_id" : "a4268ae8-a9f6-48c7-9739-b28a3553b108"
-  }, {
+  },
+  {
     "deck_id" : "bfbf6786-218c-4320-a7b1-7ed4d6eddc69"
   },
   {
@@ -11,7 +12,8 @@
     "deck_id": "c98e4663-351e-4dfb-9ce8-4578ee8f54ad"
   },
   {
-    "deck_id": "c94bc221-1da8-455f-965a-9ad436c7d5b9"
+    "deck_id": "c94bc221-1da8-455f-965a-9ad436c7d5b9",
+    "defeated_keyraken": true
   },
   {
     "deck_id": "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00"
@@ -36,13 +38,15 @@
     "defeated_keyraken": true
   },
   {
-    "deck_id": "719d5924-248a-4b64-8789-a6eccf710095"
+    "deck_id": "719d5924-248a-4b64-8789-a6eccf710095",
+    "defeated_keyraken": true
   },
   {
     "deck_id": "9ec782d8-2999-40e0-b067-138a5fa85579",
     "defeated_keyraken": true
   },
   {
-    "deck_id": "a19ba89a-ea75-406e-9b38-f8968b5bd323"
+    "deck_id": "a19ba89a-ea75-406e-9b38-f8968b5bd323",
+    "defeated_keyraken": true
   }
 ]

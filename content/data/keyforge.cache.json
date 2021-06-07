@@ -3192,7 +3192,7 @@
     },
     "719d5924-248a-4b64-8789-a6eccf710095": {
         "adventure_data": {
-            "defeated_keyraken": false
+            "defeated_keyraken": true
         },
         "dok_data": {
             "deck": {
@@ -3549,7 +3549,8 @@
             "recursion": 35.09293637941912
         },
         "user_data": {
-            "deck_id": "719d5924-248a-4b64-8789-a6eccf710095"
+            "deck_id": "719d5924-248a-4b64-8789-a6eccf710095",
+            "defeated_keyraken": true
         },
         "vault_data": {
             "_linked": {
@@ -7471,7 +7472,7 @@
     },
     "a19ba89a-ea75-406e-9b38-f8968b5bd323": {
         "adventure_data": {
-            "defeated_keyraken": false
+            "defeated_keyraken": true
         },
         "dok_data": {
             "deck": {
@@ -7827,7 +7828,8 @@
             "recursion": 35.09293637941912
         },
         "user_data": {
-            "deck_id": "a19ba89a-ea75-406e-9b38-f8968b5bd323"
+            "deck_id": "a19ba89a-ea75-406e-9b38-f8968b5bd323",
+            "defeated_keyraken": true
         },
         "vault_data": {
             "_linked": {
@@ -8455,10 +8457,10 @@
                 ],
                 "houses": [
                     {
-                        "id": "Untamed",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
+                        "id": "Saurian",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
                         "in_filters": true,
-                        "name": "Untamed"
+                        "name": "Saurian"
                     },
                     {
                         "id": "Star Alliance",
@@ -8467,10 +8469,10 @@
                         "name": "Star Alliance"
                     },
                     {
-                        "id": "Saurian",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
+                        "id": "Untamed",
+                        "image": "https://cdn.keyforgegame.com/media/houses/Untamed_bXh9SJD.png",
                         "in_filters": true,
-                        "name": "Saurian"
+                        "name": "Untamed"
                     }
                 ],
                 "notes": []
@@ -12723,7 +12725,7 @@
     },
     "c94bc221-1da8-455f-965a-9ad436c7d5b9": {
         "adventure_data": {
-            "defeated_keyraken": false
+            "defeated_keyraken": true
         },
         "dok_data": {
             "deck": {
@@ -13047,7 +13049,8 @@
             "recursion": 71.25117674788898
         },
         "user_data": {
-            "deck_id": "c94bc221-1da8-455f-965a-9ad436c7d5b9"
+            "deck_id": "c94bc221-1da8-455f-965a-9ad436c7d5b9",
+            "defeated_keyraken": true
         },
         "vault_data": {
             "_linked": {
