@@ -1079,8 +1079,8 @@
     },
     "29bb805b-12ce-4f29-aad7-a4d9b512e41c": {
         "adventure_data": {
-            "defeated_keyraken": false,
-            "keyraken_difficulty": false
+            "defeated_keyraken": true,
+            "keyraken_difficulty": "Normal"
         },
         "dok_data": {
             "deck": {
@@ -1400,7 +1400,9 @@
             "recursion": 35.09293637941912
         },
         "user_data": {
-            "deck_id": "29bb805b-12ce-4f29-aad7-a4d9b512e41c"
+            "deck_id": "29bb805b-12ce-4f29-aad7-a4d9b512e41c",
+            "defeated_keyraken": true,
+            "keyraken_difficulty": "Normal"
         },
         "vault_data": {
             "_linked": {

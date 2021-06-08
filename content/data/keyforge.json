@@ -6,7 +6,9 @@
     "deck_id" : "bfbf6786-218c-4320-a7b1-7ed4d6eddc69"
   },
   {
-    "deck_id": "29bb805b-12ce-4f29-aad7-a4d9b512e41c"
+    "deck_id": "29bb805b-12ce-4f29-aad7-a4d9b512e41c",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal"
   },
   {
     "deck_id": "c98e4663-351e-4dfb-9ce8-4578ee8f54ad",
