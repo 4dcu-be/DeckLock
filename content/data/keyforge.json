@@ -21,10 +21,14 @@
     "keyraken_difficulty": "Normal"
   },
   {
-    "deck_id": "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00"
+    "deck_id": "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal"
   },
   {
-    "deck_id": "b41630b3-7394-4ac5-9102-0c4dcb2e1b8a"
+    "deck_id": "b41630b3-7394-4ac5-9102-0c4dcb2e1b8a",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal"
   },
   {
     "deck_id": "cface028-c891-46bf-9eb0-b9fc2280a718"
