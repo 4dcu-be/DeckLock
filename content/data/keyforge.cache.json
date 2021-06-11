@@ -8563,8 +8563,8 @@
     },
     "a4268ae8-a9f6-48c7-9739-b28a3553b108": {
         "adventure_data": {
-            "defeated_keyraken": false,
-            "keyraken_difficulty": false
+            "defeated_keyraken": true,
+            "keyraken_difficulty": "Normal"
         },
         "dok_data": {
             "deck": {
@@ -8886,7 +8886,9 @@
             "recursion": 58.70190525155938
         },
         "user_data": {
-            "deck_id": "a4268ae8-a9f6-48c7-9739-b28a3553b108"
+            "deck_id": "a4268ae8-a9f6-48c7-9739-b28a3553b108",
+            "defeated_keyraken": true,
+            "keyraken_difficulty": "Normal"
         },
         "vault_data": {
             "_linked": {
@@ -11644,8 +11646,8 @@
     },
     "bfbf6786-218c-4320-a7b1-7ed4d6eddc69": {
         "adventure_data": {
-            "defeated_keyraken": false,
-            "keyraken_difficulty": false
+            "defeated_keyraken": true,
+            "keyraken_difficulty": "Normal"
         },
         "dok_data": {
             "deck": {
@@ -11968,7 +11970,9 @@
             "recursion": 58.70190525155938
         },
         "user_data": {
-            "deck_id": "bfbf6786-218c-4320-a7b1-7ed4d6eddc69"
+            "deck_id": "bfbf6786-218c-4320-a7b1-7ed4d6eddc69",
+            "defeated_keyraken": true,
+            "keyraken_difficulty": "Normal"
         },
         "vault_data": {
             "_linked": {

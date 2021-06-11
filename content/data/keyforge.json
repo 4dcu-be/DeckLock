@@ -1,9 +1,13 @@
 [
   {
-    "deck_id" : "a4268ae8-a9f6-48c7-9739-b28a3553b108"
+    "deck_id" : "a4268ae8-a9f6-48c7-9739-b28a3553b108",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal"
   },
   {
-    "deck_id" : "bfbf6786-218c-4320-a7b1-7ed4d6eddc69"
+    "deck_id" : "bfbf6786-218c-4320-a7b1-7ed4d6eddc69",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal"
   },
   {
     "deck_id": "29bb805b-12ce-4f29-aad7-a4d9b512e41c",
