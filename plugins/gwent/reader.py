@@ -43,7 +43,7 @@ def parse_card_data(card_data, card_name):
         results.append(result)
         # This character is a problem with utf-8 encoding
         # TODO: Work out a better solution or encoding to avoid this
-        if card_name.lower() == str(result.text.replace('É', 'E')).lower():
+        if card_name.lower() == str(result.text.replace("É", "E")).lower():
             index = ix
 
     if index < 0:

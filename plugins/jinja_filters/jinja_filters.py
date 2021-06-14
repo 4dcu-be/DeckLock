@@ -4,7 +4,7 @@ from json import dumps
 
 def add_filter(pelican):
     """Add to_json filter to Pelican."""
-    pelican.env.filters.update({'to_json': dumps})
+    pelican.env.filters.update({"to_json": dumps})
 
 
 def register():

@@ -14940,8 +14940,8 @@
     },
     "cface028-c891-46bf-9eb0-b9fc2280a718": {
         "adventure_data": {
-            "defeated_keyraken": false,
-            "keyraken_difficulty": false
+            "defeated_keyraken": true,
+            "keyraken_difficulty": "Normal"
         },
         "dok_data": {
             "deck": {
@@ -15260,7 +15260,9 @@
             "recursion": 88.71361694915737
         },
         "user_data": {
-            "deck_id": "cface028-c891-46bf-9eb0-b9fc2280a718"
+            "deck_id": "cface028-c891-46bf-9eb0-b9fc2280a718",
+            "defeated_keyraken": true,
+            "keyraken_difficulty": "Normal"
         },
         "vault_data": {
             "_linked": {

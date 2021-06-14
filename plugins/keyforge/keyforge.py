@@ -184,14 +184,14 @@ def get_keyforge_external_data(generator):
             current_data[deck["deck_id"]] = {
                 "dok_data": dok_data,
                 "dok_stats": parse_dok_stats(dok_data, current_dok_deck_data),
-                "vault_data": vault_data
+                "vault_data": vault_data,
             }
 
         # update user data
         current_data[deck["deck_id"]]["user_data"] = deck
         current_data[deck["deck_id"]]["adventure_data"] = {
-                "defeated_keyraken": deck.get("defeated_keyraken", False),
-                "keyraken_difficulty": deck.get("keyraken_difficulty", False)
+            "defeated_keyraken": deck.get("defeated_keyraken", False),
+            "keyraken_difficulty": deck.get("keyraken_difficulty", False),
         }
 
     with open(keyforge_cache_path, "w") as fout:

@@ -35,7 +35,9 @@
     "keyraken_difficulty": "Normal"
   },
   {
-    "deck_id": "cface028-c891-46bf-9eb0-b9fc2280a718"
+    "deck_id": "cface028-c891-46bf-9eb0-b9fc2280a718",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal"
   },
   {
     "deck_id": "21459407-7765-44f6-b183-2ebef8283f63"

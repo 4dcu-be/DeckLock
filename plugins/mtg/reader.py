@@ -15,13 +15,13 @@ from plugins.utils import fetch_image
 from pelican.utils import slugify
 
 cmc_distribution_colors = {
-    'B': ('rgba(186, 177, 171, 0.9)', 'rgba(186, 177, 171, 1)'),
-    'W': ('rgba(248, 246, 216, 0.9)', 'rgba(248, 246, 216, 1)'),
-    'G': ('rgba(163, 192, 149, 0.9)', 'rgba(163, 192, 149, 1)'),
-    'R': ('rgba(228, 153, 119, 0.9)', 'rgba(228, 153, 119, 1)'),
-    'U': ('rgba(193, 215, 233, 0.9)', 'rgba(193, 215, 233, 1)'),
-    'A': ('rgba(157, 134, 96, 0.9)', 'rgba(157, 134, 96, 1)'),
-    'M': ('rgba(194, 198, 107, 0.9)', 'rgba(194, 198, 107, 1)'),
+    "B": ("rgba(186, 177, 171, 0.9)", "rgba(186, 177, 171, 1)"),
+    "W": ("rgba(248, 246, 216, 0.9)", "rgba(248, 246, 216, 1)"),
+    "G": ("rgba(163, 192, 149, 0.9)", "rgba(163, 192, 149, 1)"),
+    "R": ("rgba(228, 153, 119, 0.9)", "rgba(228, 153, 119, 1)"),
+    "U": ("rgba(193, 215, 233, 0.9)", "rgba(193, 215, 233, 1)"),
+    "A": ("rgba(157, 134, 96, 0.9)", "rgba(157, 134, 96, 1)"),
+    "M": ("rgba(194, 198, 107, 0.9)", "rgba(194, 198, 107, 1)"),
 }
 
 
@@ -185,18 +185,24 @@ class MTGReader(BaseReader):
                         deck_data["main"].append(card_data)
 
                         if card_data["card_type"] != "land":
-                            card_colors = self.cached_data[card_set][card_name]["colors"]
+                            card_colors = self.cached_data[card_set][card_name][
+                                "colors"
+                            ]
                             num_colors = len(card_colors)
-                            card_cmc = min(11, int(self.cached_data[card_set][card_name]["cmc"]))
+                            card_cmc = min(
+                                11, int(self.cached_data[card_set][card_name]["cmc"])
+                            )
 
                             if num_colors == 1:
-                                cmc_per_color[card_colors[0]].extend([card_cmc] * card_count)
+                                cmc_per_color[card_colors[0]].extend(
+                                    [card_cmc] * card_count
+                                )
                             elif num_colors == 0:
                                 # Artifact and devoid cards
-                                cmc_per_color['A'].extend([card_cmc] * card_count)
+                                cmc_per_color["A"].extend([card_cmc] * card_count)
                             else:
                                 # Multicolor and hybrid cards
-                                cmc_per_color['M'].extend([card_cmc] * card_count)
+                                cmc_per_color["M"].extend([card_cmc] * card_count)
 
         cmc_distribution = {k: dict(Counter(v)) for k, v in cmc_per_color.items()}
         for k in cmc_distribution.keys():
@@ -204,8 +210,12 @@ class MTGReader(BaseReader):
                 if i not in cmc_distribution[k].keys():
                     cmc_distribution[k][i] = 0
 
-        deck_data["colors_string"] = ''.join(["{" + str(c).upper() + "}" for c in sorted(deck_data["colors"])])
-        deck_data["cmc_distribution"] = {k: [a[1] for a in sorted(v.items())] for k, v in cmc_distribution.items()}
+        deck_data["colors_string"] = "".join(
+            ["{" + str(c).upper() + "}" for c in sorted(deck_data["colors"])]
+        )
+        deck_data["cmc_distribution"] = {
+            k: [a[1] for a in sorted(v.items())] for k, v in cmc_distribution.items()
+        }
         deck_data["cmc_distribution_colors"] = cmc_distribution_colors
 
         self.write_cache()
