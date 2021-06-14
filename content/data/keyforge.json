@@ -44,7 +44,9 @@
     "deck_id": "aebaeba5-5918-4573-983a-72d0a5c6133d"
   },
   {
-    "deck_id": "8dfbd01a-157b-4a51-8428-50ab1ed9edf7"
+    "deck_id": "8dfbd01a-157b-4a51-8428-50ab1ed9edf7",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal"
   },
   {
     "deck_id": "355b1f9d-2c3f-48fb-ac40-cf7292a31d19",
