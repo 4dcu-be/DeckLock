@@ -17,7 +17,7 @@ def get_local_house_img_path(settings, url):
 
 
 class KeyForgeGenerator(generators.Generator):
-    """ Generator Class to produce pages based on keyforge.cache.json """
+    """Generator Class to produce pages based on keyforge.cache.json"""
 
     template_overview = "keyforge_overview.html"
     template_deck = "keyforge_deck.html"

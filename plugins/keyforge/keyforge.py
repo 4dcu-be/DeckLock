@@ -78,7 +78,8 @@ def get_dok_deck_stats(api_key):
 
     api_headers = {"Api-Key": api_key}
     r = requests.get(
-        f"https://decksofkeyforge.com/public-api/v1/stats", headers=api_headers,
+        f"https://decksofkeyforge.com/public-api/v1/stats",
+        headers=api_headers,
     )
 
     return r.json()
@@ -208,6 +209,6 @@ def get_generators(generators):
 
 
 def register():
-    """ Register new functions """
+    """Register new functions"""
     signals.initialized.connect(get_keyforge_external_data)
     signals.get_generators.connect(get_generators)
