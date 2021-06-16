@@ -212,8 +212,15 @@ In both cases you can see your site by pointing your browser to [http://localhos
 ## Hosting on GitHub
 
 DeckLock includes a *make release* command which will write the final version of the website to the *./docs* folder. 
-On GitHub you can specify that this folder is used for the project pages, enable this in the settings and you'll have
+On GitHub, you can specify that this folder is used for the project pages, enable this in the settings, and you'll have
 free hosting to show off the decks you have in your card game collection.
+
+## Acknowledgements
+
+Some icons and glyphs used require attribution:
+
+Trophy by i cons from the Noun Project
+Kraken by Pau Urquijo from the Noun Project
 
 ## Legal
 

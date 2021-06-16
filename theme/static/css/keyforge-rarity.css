@@ -24,3 +24,28 @@
 .rarity.special { background-position: 99.9% 0; }
 .rarity.variant { background-position: 99.9% 0; }
 .rarity.fixed { background-position: 99.9% 0; }
+
+.trophy {
+    background-image: url('../img/keyforge-trophy.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    display: inline-block;
+    font-size: 100%;
+}
+.trophy.small {
+    height: 1em;
+    width: 1em;
+}
+.trophy.medium {
+    height: 1.5em;
+    width: 1.5em;
+}
+.trophy.large {
+    height: 4em;
+    width: 4em;
+}
+
+.trophy.cup { background-position: 0 0; }
+.trophy.keyraken { background-position: 33.3% 0; }
+.trophy.conspiracy { background-position: 66.6% 0; }
+.trophy.unused { background-position: 99.9% 0; }
