@@ -311,15 +311,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 62.70410612022839,
-            "artifactControl": 76.53036567366473,
-            "creatureControl": 18.4985954982836,
-            "creatureProtection": 21.078729477825394,
-            "disruption": 53.174002974685735,
-            "effectivePower": 27.58562903019833,
-            "efficiency": 90.64687783802157,
-            "expectedAmber": 32.45099198126128,
-            "recursion": 35.09293637941912
+            "amberControl": 61.59453458496024,
+            "artifactControl": 73.8922242003682,
+            "creatureControl": 18.44446917126923,
+            "creatureProtection": 20.492946111257226,
+            "disruption": 53.27363491067997,
+            "effectivePower": 27.438598798276317,
+            "efficiency": 90.46384713427341,
+            "expectedAmber": 32.710723124751325,
+            "recursion": 36.09347919912062
         },
         "user_data": {
             "deck_id": "21459407-7765-44f6-b183-2ebef8283f63",
@@ -1391,15 +1391,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 20.758331232633623,
-            "artifactControl": 45.9839131501903,
-            "creatureControl": 75.5848846466623,
-            "creatureProtection": 99.78024544717844,
-            "disruption": 91.90530378016759,
-            "effectivePower": 23.121606539181492,
-            "efficiency": 83.27567684069955,
-            "expectedAmber": 80.29595891838413,
-            "recursion": 35.09293637941912
+            "amberControl": 20.430398484020852,
+            "artifactControl": 46.17426847936771,
+            "creatureControl": 75.60591960185316,
+            "creatureProtection": 99.78007175274973,
+            "disruption": 93.6348516727697,
+            "effectivePower": 22.989329813132642,
+            "efficiency": 83.02586369675022,
+            "expectedAmber": 80.60568357307113,
+            "recursion": 36.09347919912062
         },
         "user_data": {
             "deck_id": "29bb805b-12ce-4f29-aad7-a4d9b512e41c",
@@ -2470,15 +2470,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 79.59268738122739,
-            "artifactControl": 45.9839131501903,
-            "creatureControl": 18.4985954982836,
-            "creatureProtection": 58.62998299026652,
-            "disruption": 53.174002974685735,
-            "effectivePower": 86.96303385663306,
-            "efficiency": 93.3186355563721,
-            "expectedAmber": 2.7076476388372615,
-            "recursion": 35.09293637941912
+            "amberControl": 78.56365527659202,
+            "artifactControl": 46.17426847936771,
+            "creatureControl": 18.44446917126923,
+            "creatureProtection": 57.93166292392455,
+            "disruption": 53.27363491067997,
+            "effectivePower": 86.89981252571027,
+            "efficiency": 93.1505290416557,
+            "expectedAmber": 2.7343934397485956,
+            "recursion": 36.09347919912062
         },
         "user_data": {
             "deck_id": "355b1f9d-2c3f-48fb-ac40-cf7292a31d19",
@@ -3547,15 +3547,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 71.91219692362615,
-            "artifactControl": 98.44965987654058,
-            "creatureControl": 95.93893206598239,
-            "creatureProtection": 58.62998299026652,
-            "disruption": 30.662192769700173,
-            "effectivePower": 23.121606539181492,
-            "efficiency": 83.27567684069955,
-            "expectedAmber": 24.603537435893053,
-            "recursion": 35.09293637941912
+            "amberControl": 70.79535798822553,
+            "artifactControl": 97.84408781619427,
+            "creatureControl": 95.96740611112234,
+            "creatureProtection": 57.93166292392455,
+            "disruption": 30.391613897374686,
+            "effectivePower": 22.989329813132642,
+            "efficiency": 83.02586369675022,
+            "expectedAmber": 24.80156723111264,
+            "recursion": 36.09347919912062
         },
         "user_data": {
             "deck_id": "719d5924-248a-4b64-8789-a6eccf710095",
@@ -4604,15 +4604,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 41.41117648203771,
-            "artifactControl": 45.9839131501903,
-            "creatureControl": 68.96613767012701,
-            "creatureProtection": 79.49883239074819,
-            "disruption": 30.662192769700173,
-            "effectivePower": 57.030555330056714,
-            "efficiency": 32.86334627934037,
-            "expectedAmber": 49.81625405126467,
-            "recursion": 35.09293637941912
+            "amberControl": 40.627971433773695,
+            "artifactControl": 46.17426847936771,
+            "creatureControl": 68.98548085806578,
+            "creatureProtection": 79.18639192916439,
+            "disruption": 30.391613897374686,
+            "effectivePower": 56.89385279896417,
+            "efficiency": 32.32380451421905,
+            "expectedAmber": 50.14254452514381,
+            "recursion": 36.09347919912062
         },
         "user_data": {
             "deck_id": "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00",
@@ -5641,15 +5641,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 20.758331232633623,
-            "artifactControl": 45.9839131501903,
-            "creatureControl": 97.12348933580385,
-            "creatureProtection": 21.078729477825394,
-            "disruption": 53.174002974685735,
-            "effectivePower": 17.808236736751706,
-            "efficiency": 3.4535028514921615,
-            "expectedAmber": 66.66282131804309,
-            "recursion": 35.09293637941912
+            "amberControl": 20.430398484020852,
+            "artifactControl": 46.17426847936771,
+            "creatureControl": 97.14797150121049,
+            "creatureProtection": 20.492946111257226,
+            "disruption": 53.27363491067997,
+            "effectivePower": 17.690441508695976,
+            "efficiency": 3.322863770930695,
+            "expectedAmber": 67.02395523545557,
+            "recursion": 36.09347919912062
         },
         "user_data": {
             "deck_id": "8dfbd01a-157b-4a51-8428-50ab1ed9edf7",
@@ -6739,15 +6739,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 62.70410612022839,
-            "artifactControl": 76.53036567366473,
-            "creatureControl": 85.7122511382944,
-            "creatureProtection": 21.078729477825394,
-            "disruption": 53.174002974685735,
-            "effectivePower": 10.50577728025613,
-            "efficiency": 32.86334627934037,
-            "expectedAmber": 95.083365733956,
-            "recursion": 35.09293637941912
+            "amberControl": 61.59453458496024,
+            "artifactControl": 73.8922242003682,
+            "creatureControl": 85.74099550196578,
+            "creatureProtection": 20.492946111257226,
+            "disruption": 53.27363491067997,
+            "effectivePower": 10.411861795032605,
+            "efficiency": 32.32380451421905,
+            "expectedAmber": 95.22585425559895,
+            "recursion": 36.09347919912062
         },
         "user_data": {
             "deck_id": "9ec782d8-2999-40e0-b067-138a5fa85579",
@@ -7836,15 +7836,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 30.585475690987785,
-            "artifactControl": 98.44965987654058,
-            "creatureControl": 61.391275616074694,
-            "creatureProtection": 79.49883239074819,
-            "disruption": 63.464773046100035,
-            "effectivePower": 97.64712137676773,
-            "efficiency": 78.70631078677258,
-            "expectedAmber": 12.193268171289867,
-            "recursion": 35.09293637941912
+            "amberControl": 30.03289229669492,
+            "artifactControl": 97.84408781619427,
+            "creatureControl": 61.40065379972621,
+            "creatureProtection": 79.18639192916439,
+            "disruption": 64.5151800225239,
+            "effectivePower": 97.63360072022498,
+            "efficiency": 78.43392374247237,
+            "expectedAmber": 12.282853520537875,
+            "recursion": 36.09347919912062
         },
         "user_data": {
             "deck_id": "a19ba89a-ea75-406e-9b38-f8968b5bd323",
@@ -8879,15 +8879,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 62.70410612022839,
-            "artifactControl": 98.44965987654058,
-            "creatureControl": 52.98681520156511,
-            "creatureProtection": 79.49883239074819,
-            "disruption": 30.662192769700173,
-            "effectivePower": 55.277313724903756,
-            "efficiency": 41.50336990212401,
-            "expectedAmber": 49.81625405126467,
-            "recursion": 58.70190525155938
+            "amberControl": 61.59453458496024,
+            "artifactControl": 97.84408781619427,
+            "creatureControl": 52.9638471342734,
+            "creatureProtection": 79.18639192916439,
+            "disruption": 30.391613897374686,
+            "effectivePower": 55.139568876570436,
+            "efficiency": 40.96819006386264,
+            "expectedAmber": 50.14254452514381,
+            "recursion": 58.76050328080007
         },
         "user_data": {
             "deck_id": "a4268ae8-a9f6-48c7-9739-b28a3553b108",
@@ -9919,15 +9919,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 79.59268738122739,
-            "artifactControl": 45.9839131501903,
-            "creatureControl": 35.01061743481066,
-            "creatureProtection": 94.89048114805969,
-            "disruption": 63.464773046100035,
-            "effectivePower": 29.165070372253485,
-            "efficiency": 68.7593433663701,
-            "expectedAmber": 74.00914623291135,
-            "recursion": 35.09293637941912
+            "amberControl": 78.56365527659202,
+            "artifactControl": 46.17426847936771,
+            "creatureControl": 34.96087822937952,
+            "creatureProtection": 94.86152697134611,
+            "disruption": 64.5151800225239,
+            "effectivePower": 29.012447146412025,
+            "efficiency": 68.43110825628679,
+            "expectedAmber": 74.35989837275014,
+            "recursion": 36.09347919912062
         },
         "user_data": {
             "deck_id": "aebaeba5-5918-4573-983a-72d0a5c6133d",
@@ -10922,15 +10922,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 52.33239383395974,
-            "artifactControl": 93.91081924440324,
-            "creatureControl": 26.361573858465533,
-            "creatureProtection": 58.62998299026652,
-            "disruption": 73.44164873357478,
-            "effectivePower": 60.48453291594685,
-            "efficiency": 48.935194482067146,
-            "expectedAmber": 74.00914623291135,
-            "recursion": 35.09293637941912
+            "amberControl": 51.35362506490792,
+            "artifactControl": 93.39616756694788,
+            "creatureControl": 26.299591333023123,
+            "creatureProtection": 57.93166292392455,
+            "disruption": 75.20732599621005,
+            "effectivePower": 60.35171660361326,
+            "efficiency": 48.42016663632011,
+            "expectedAmber": 74.35989837275014,
+            "recursion": 36.09347919912062
         },
         "user_data": {
             "deck_id": "b41630b3-7394-4ac5-9102-0c4dcb2e1b8a",
@@ -11965,15 +11965,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 20.758331232633623,
-            "artifactControl": 45.9839131501903,
-            "creatureControl": 68.96613767012701,
-            "creatureProtection": 58.62998299026652,
-            "disruption": 84.90183204751521,
-            "effectivePower": 51.73304165651922,
-            "efficiency": 54.33097817598499,
-            "expectedAmber": 17.76437127837903,
-            "recursion": 58.70190525155938
+            "amberControl": 20.430398484020852,
+            "artifactControl": 46.17426847936771,
+            "creatureControl": 68.98548085806578,
+            "creatureProtection": 57.93166292392455,
+            "disruption": 86.98583658715869,
+            "effectivePower": 51.58560763924012,
+            "efficiency": 53.933630392414706,
+            "expectedAmber": 17.91521677557709,
+            "recursion": 58.76050328080007
         },
         "user_data": {
             "deck_id": "bfbf6786-218c-4320-a7b1-7ed4d6eddc69",
@@ -13071,15 +13071,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 41.41117648203771,
-            "artifactControl": 98.44965987654058,
-            "creatureControl": 26.361573858465533,
-            "creatureProtection": 58.62998299026652,
-            "disruption": 79.8010008350578,
-            "effectivePower": 19.06063355204347,
-            "efficiency": 87.29753171344463,
-            "expectedAmber": 74.00914623291135,
-            "recursion": 71.25117674788898
+            "amberControl": 40.627971433773695,
+            "artifactControl": 97.84408781619427,
+            "creatureControl": 26.299591333023123,
+            "creatureProtection": 57.93166292392455,
+            "disruption": 81.92276632476212,
+            "effectivePower": 18.942152717365648,
+            "efficiency": 87.07249286855894,
+            "expectedAmber": 74.35989837275014,
+            "recursion": 73.06995893099193
         },
         "user_data": {
             "deck_id": "c94bc221-1da8-455f-965a-9ad436c7d5b9",
@@ -14194,15 +14194,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 79.59268738122739,
-            "artifactControl": 45.9839131501903,
-            "creatureControl": 18.4985954982836,
-            "creatureProtection": 94.89048114805969,
-            "disruption": 53.174002974685735,
-            "effectivePower": 75.83336063056122,
-            "efficiency": 87.29753171344463,
-            "expectedAmber": 12.193268171289867,
-            "recursion": 35.09293637941912
+            "amberControl": 78.56365527659202,
+            "artifactControl": 46.17426847936771,
+            "creatureControl": 18.44446917126923,
+            "creatureProtection": 94.86152697134611,
+            "disruption": 53.27363491067997,
+            "effectivePower": 75.73936015969034,
+            "efficiency": 87.07249286855894,
+            "expectedAmber": 12.282853520537875,
+            "recursion": 36.09347919912062
         },
         "user_data": {
             "deck_id": "c98e4663-351e-4dfb-9ce8-4578ee8f54ad",
@@ -15253,15 +15253,15 @@
             "sasVersion": 40
         },
         "dok_stats": {
-            "amberControl": 41.41117648203771,
-            "artifactControl": 45.9839131501903,
-            "creatureControl": 68.96613767012701,
-            "creatureProtection": 79.49883239074819,
-            "disruption": 30.662192769700173,
-            "effectivePower": 35.78676070205622,
-            "efficiency": 17.202190804299764,
-            "expectedAmber": 32.45099198126128,
-            "recursion": 88.71361694915737
+            "amberControl": 40.627971433773695,
+            "artifactControl": 46.17426847936771,
+            "creatureControl": 68.98548085806578,
+            "creatureProtection": 79.18639192916439,
+            "disruption": 30.391613897374686,
+            "effectivePower": 35.62213815101796,
+            "efficiency": 16.759139371623945,
+            "expectedAmber": 32.710723124751325,
+            "recursion": 89.91347859218948
         },
         "user_data": {
             "deck_id": "cface028-c891-46bf-9eb0-b9fc2280a718",
