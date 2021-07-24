@@ -188,7 +188,9 @@ def get_keyforge_external_data(generator):
             }
 
         # Add DoK Stats (percentiles)
-        current_data[deck["deck_id"]]["dok_stats"] = parse_dok_stats(current_data[deck["deck_id"]]["dok_data"], current_dok_deck_data)
+        current_data[deck["deck_id"]]["dok_stats"] = parse_dok_stats(
+            current_data[deck["deck_id"]]["dok_data"], current_dok_deck_data
+        )
 
         # update user data
         current_data[deck["deck_id"]]["user_data"] = deck
