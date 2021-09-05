@@ -83,7 +83,7 @@ GWENT_CURRENT_VERSION = "8.2.0"
 TEMPLATE_PAGES = {"gwent_overview.html": "gwent.html", "mtg_overview.html": "mtg.html"}
 
 # When set to true, external links to KeyForge/M:tG/Gwent card images will be used
-USE_EXTERNAL_LINKS = False
+USE_EXTERNAL_LINKS = True
 STATIC_EXCLUDES = []
 
 # Uncomment following line if you want document-relative URLs when developing

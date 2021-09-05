@@ -165,7 +165,8 @@ class GwentReader(BaseReader):
             local_path_full = get_local_card_img_path(
                 self.gwent_assets_cards_path(full=True), img_url
             )
-            fetch_image(img_url, local_path_full)
+            if not self.settings.get("USE_EXTERNAL_LINKS"):
+                fetch_image(img_url, local_path_full)
         except Exception as e:
             print(f"an error occurred fetching {card_name} from version {card_version}")
             print(e)

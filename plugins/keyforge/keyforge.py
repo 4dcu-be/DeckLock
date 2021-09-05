@@ -95,6 +95,7 @@ def get_vault_data(deck_id):
 
 def get_keyforge_assets(generator, decks_data):
     house_dir_path, card_img_dir_path = get_keyforge_assets_paths(generator)
+    download_images = not generator.settings.get("USE_EXTERNAL_LINKS", True)
 
     for k, v in decks_data.items():
         cards = v["vault_data"]["_linked"]["cards"]
@@ -103,16 +104,16 @@ def get_keyforge_assets(generator, decks_data):
             img_url = card["front_image"]
             img_filename = Path(urlparse(img_url).path).name
             img_file_path = os.path.join(card_img_dir_path, img_filename)
-
-            fetch_image(img_url, img_file_path)
+            if download_images:
+                fetch_image(img_url, img_file_path)
 
         houses = v["vault_data"]["_linked"]["houses"]
         for house in houses:
             img_url = house["image"]
             img_filename = Path(urlparse(img_url).path).name
             img_file_path = os.path.join(house_dir_path, img_filename)
-
-            fetch_image(img_url, img_file_path)
+            if download_images:
+                fetch_image(img_url, img_file_path)
 
 
 def parse_dok_stats(dok_data, dok_decks_data):
