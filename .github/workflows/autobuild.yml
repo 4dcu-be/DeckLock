@@ -1,0 +1,26 @@
+
+# GitHub Action that builds the website and commits again
+
+name: autobuild
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:  # https://github.com/stefanzweifel/git-auto-commit-action#checkout-the-correct-branch
+            ref: ${{ github.head_ref }}
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+          architecture: 'x64'
+      - run: pip install -r requirements.txt
+      - run: make release
+      - name: Commit new build
+        run: |
+          git config --global user.name autobuild
+          git config --global user.email '${GITHUB_ACTOR}@users.noreply.github.com'          
+          # git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+          git commit -am "rebuild new release"
+          git push  # --force origin HEAD:$GITHUB_REF
