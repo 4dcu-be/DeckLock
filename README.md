@@ -220,8 +220,8 @@ free hosting to show off the decks you have in your card game collection.
 
 Some icons and glyphs used require attribution:
 
-Trophy by i cons from the Noun Project
-Kraken by Pau Urquijo from the Noun Project
+  * Trophy by i cons from the Noun Project
+  * Kraken by Pau Urquijo from the Noun Project
 
 ## Legal
 
