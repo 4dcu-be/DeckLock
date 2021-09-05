@@ -20,7 +20,9 @@ jobs:
         env:
           DOK_API_KEY: ${{ secrets.DOK_API_KEY }}
         run: make release
+      - run: git status --porcelain  
       - name: Commit new build
+        if: failure()
         run: |
           git config --global user.name autobuild
           git config --global user.email '${GITHUB_ACTOR}@users.noreply.github.com'          
