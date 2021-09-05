@@ -127,7 +127,7 @@ class GwentReader(BaseReader):
     def gwent_data_path(self):
         return posixpath.join(
             self.settings.get("PATH"),
-            self.settings.get("GWENT_PATH"),
+            self.settings.get("DECKLOCK_CACHE"),
             "gwent.cached_cards.json",
         )
 

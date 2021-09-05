@@ -25,7 +25,7 @@ class KeyForgeGenerator(generators.Generator):
     def __init__(self, context, settings, path, theme, output_path, **kwargs):
 
         self.keyforge_data_path = os.path.join(
-            settings.get("PATH"), settings.get("KEYFORGE_PATH"), "keyforge.cache.json"
+            settings.get("PATH"), settings.get("DECKLOCK_CACHE"), "keyforge.cache.json"
         )
 
         with open(self.keyforge_data_path) as fin:

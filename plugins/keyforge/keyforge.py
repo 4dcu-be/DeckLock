@@ -29,17 +29,17 @@ def get_keyforge_data(pelican):
 
 
 def get_keyforge_cache_path(pelican):
-    keyforge_path = pelican.settings.get("KEYFORGE_PATH", None)
+    cache_path = pelican.settings.get("DECKLOCK_CACHE", None)
     content_path = get_content_path(pelican)
 
-    return os.path.join(content_path, keyforge_path, "keyforge.cache.json")
+    return os.path.join(content_path, cache_path, "keyforge.cache.json")
 
 
 def get_dok_decks_cache_path(pelican):
-    keyforge_path = pelican.settings.get("KEYFORGE_PATH", None)
+    cache_path = pelican.settings.get("DECKLOCK_CACHE", None)
     content_path = get_content_path(pelican)
 
-    return os.path.join(content_path, keyforge_path, "dok_decks.cache.json")
+    return os.path.join(content_path, cache_path, "dok_decks.cache.json")
 
 
 def get_keyforge_assets_paths(pelican):

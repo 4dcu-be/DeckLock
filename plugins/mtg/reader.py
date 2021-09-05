@@ -98,7 +98,7 @@ class MTGReader(BaseReader):
     def mtg_data_path(self):
         return posixpath.join(
             self.settings.get("PATH"),
-            self.settings.get("MTG_PATH"),
+            self.settings.get("DECKLOCK_CACHE"),
             "mtg.cached_cards.json",
         )
 
