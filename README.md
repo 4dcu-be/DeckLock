@@ -2,7 +2,7 @@
 
 # DeckLock
 
-Static web generator to generate an overview of all your favorite decks. Currently supports :
+Static web generator to generate an overview of all your favorite decks. DeckLock currently supports :
 
   * KeyForge
   * Gwent
