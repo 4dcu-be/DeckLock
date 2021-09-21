@@ -37,12 +37,10 @@ venv\Scripts\activate.bat
 
 ### Configuring the Makefile
 
-As we are using a virtual environment with pelican installed there, the patch to the executable in
-the environment needs to be set in the Makefile. Open the file and change the path on the line below to match your
-system. The pelican executable should be in venv/bin or venv/Scripts.
+The pelican executable should be in venv/bin or venv/Scripts. Depending on how you've set up things the default (below) should work, or you might have to specify the full path.
 
 ```makefile
-PELICAN?=d:\Git\DeckLock\venv\Scripts\pelican
+PELICAN?=pelican
 ```
 
 ### pelicanconf.py and publishconf.py
