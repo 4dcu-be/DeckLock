@@ -57,8 +57,10 @@ STATIC_PATHS = ["assets"]
 
 # Configure plugins
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["keyforge", "mtg", "gwent", "webassets", "jinja_filters"]
+PLUGINS = ["keyforge", "mtg", "gwent", "fab", "webassets", "jinja_filters"]
 
+
+# KeyForge Section
 KEYFORGE_ENABLED = True
 
 KEYFORGE_PATH = "data"
@@ -69,20 +71,30 @@ KEYFORGE_DECKS_SAVE_AS = "keyforge.html"
 
 DOK_API_KEY = os.getenv("DOK_API_KEY", None)
 
+# Magic: The Gathering Section
 MTG_ENABLED = True
 
 MTG_PATH = "data"
 MTG_ASSETS_PATH = "assets/mtg"
 
+
+# Gwent Section
 GWENT_ENABLED = True
 
 GWENT_PATH = "data"
 GWENT_ASSETS_PATH = "assets/gwent"
 GWENT_CURRENT_VERSION = "8.2.0"
 
-TEMPLATE_PAGES = {"gwent_overview.html": "gwent.html", "mtg_overview.html": "mtg.html"}
+# Flesh and Blood Section
+FAB_ENABLED = True
 
-# When set to true, external links to KeyForge/M:tG/Gwent card images will be used
+FAB_PATH = "data"
+FAB_ASSETS_PATH = "assets/fab"
+
+TEMPLATE_PAGES = {"gwent_overview.html": "gwent.html", "mtg_overview.html": "mtg.html", "fab_overview.html": "fab.html"}
+
+# When set to true, external links to KeyForge/M:tG/Gwent/FaB card images will be used
+# if false images will be downloaded (which could be a copyright violation if you include them)
 USE_EXTERNAL_LINKS = True
 STATIC_EXCLUDES = []
 

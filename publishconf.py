@@ -20,9 +20,10 @@ CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 
 DELETE_OUTPUT_DIRECTORY = False
 
-
+# When set to true, external links to KeyForge/M:tG/Gwent/FaB card images will be used
+# if false images will be downloaded (which could be a copyright violation if you include them)
 USE_EXTERNAL_LINKS = True
-STATIC_EXCLUDES = ["assets/keyforge", "assets/mtg", "assets/gwent"]
+STATIC_EXCLUDES = ["assets/keyforge", "assets/mtg", "assets/gwent", "assets/fab"]
 
 # Following items are often useful when publishing
 

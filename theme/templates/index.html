@@ -5,6 +5,14 @@
 <h1>DeckLock</h1>
 
 <div class="row">
+{% if FAB_ENABLED %}
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;margin-left:auto;margin-right:auto">
+            <div class="card-header">Flesh and Blood: <strong>{{ articles|selectattr("category", "equalto", "FaB_Deck")|list|length  }}</strong> decks</div>
+            <a href="{{ SITEURL }}/fab.html"><img src="{{ SITEURL }}/theme/img/DeckLock_fab_small.jpg" class="card-img-top" alt="DeckLock logo in Flesh and Blood style" /></a>
+        </div>
+    </div>
+{% endif %}
 {% if GWENT_ENABLED %}
     <div class="col-sm-12 col-md-6 col-lg-4">
         <div class="card text-white bg-dark mb-3" style="max-width: 18rem;margin-left:auto;margin-right:auto">

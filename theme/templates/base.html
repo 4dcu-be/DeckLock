@@ -32,6 +32,7 @@
           Games
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% if FAB_ENABLED -%}<a class="dropdown-item" href="{{ SITEURL }}/fab.html">Flesh and Blood</a>{%- endif%}
             {% if GWENT_ENABLED -%}<a class="dropdown-item" href="{{ SITEURL }}/gwent.html">Gwent</a>{%- endif%}
             {% if KEYFORGE_ENABLED -%}<a class="dropdown-item" href="{{ SITEURL }}/keyforge.html">KeyForge</a>{%- endif%}
             {% if MTG_ENABLED -%}<a class="dropdown-item" href="{{ SITEURL }}/mtg.html">Magic: the Gathering</a>{%- endif%}

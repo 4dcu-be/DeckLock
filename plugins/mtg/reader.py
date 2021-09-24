@@ -221,6 +221,7 @@ class MTGReader(BaseReader):
 
         self.write_cache()
 
+        print(f"Adding MTG {metadata['name']}")
         metadata["title"] = metadata["name"]
         metadata["slug"] = slugify(
             metadata["title"],

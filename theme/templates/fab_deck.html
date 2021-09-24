@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% import 'macros/fab_card_list_item.html' as card_list_item %}
+{% block title %}
+{{ SITENAME }} - {{ article.title }}
+{% endblock %}
+
+{% block extra_css %}
+{% endblock extra_css %}
+
+{% block container %}
+    <ol class="breadcrumb top15">
+      <li class="breadcrumb-item"><a href="{{ SITEURL }}/index.html">DeckLock</a></li>
+      <li class="breadcrumb-item"><a href="{{ SITEURL }}/fab.html">Flesh and Blood</a></li>
+      <li class="breadcrumb-item active">{{ article.title }}</li>
+    </ol>
+
+<h1>{{ article.title }} <small>{{ article.format }}</small></h1>
+<div class="row">
+    <div class="col-md-8 top15">
+        <div class="card h-100">
+            <div class="card-header"><h3>Main Deck</h3></div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg">
+                    <h4>Hero</h4>
+                        <ul class="card_list">
+                        {{ card_list_item.print(article.hero, USE_EXTERNAL_LINKS) }}
+                        </ul>
+                    <h4>Weapons</h4>
+                    <ul class="card_list">
+                        {% for card in article.weapons|sort(attribute='name') %}
+                        {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
+                        {% endfor %}
+                    </ul>
+
+                    <h4>Equipment</h4>
+                    <ul class="card_list">
+                        {% for card in article.equipment|sort(attribute='name') %}
+                        {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
+                        {% endfor %}
+                    </ul>
+                    </div>
+                    <div class="col-lg">
+                        <h4>Other Cards</h4>
+                        <ul class="card_list">
+                        {% for card in article.cards|sort(attribute='name') %}
+                        {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
+                        {% endfor %}
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+$(function () {
+  $('[data-toggle="popover"]').popover({html: true})
+})
+</script>
+{% endblock %}
