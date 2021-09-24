@@ -8,6 +8,8 @@ Static web generator to generate an overview of all your favorite decks. DeckLoc
   * Gwent
   * Magic: The Gathering
 
+With support for Flesh and Blood upcoming !
+
 DeckLock is designed around the static website generator Pelican and leverages GitHub's feature to host static 
 websites from the ./docs folder. For other hosting options, check out the official Pelican documentation.
 
@@ -35,12 +37,10 @@ venv\Scripts\activate.bat
 
 ### Configuring the Makefile
 
-As we are using a virtual environment with pelican installed there, the patch to the executable in
-the environment needs to be set in the Makefile. Open the file and change the path on the line below to match your
-system. The pelican executable should be in venv/bin or venv/Scripts.
+The pelican executable should be in venv/bin or venv/Scripts. Depending on how you've set up things the default (below) should work, or you might have to specify the full path.
 
 ```makefile
-PELICAN?=d:\Git\DeckLock\venv\Scripts\pelican
+PELICAN?=pelican
 ```
 
 ### pelicanconf.py and publishconf.py
@@ -218,8 +218,8 @@ free hosting to show off the decks you have in your card game collection.
 
 Some icons and glyphs used require attribution:
 
-Trophy by i cons from the Noun Project
-Kraken by Pau Urquijo from the Noun Project
+  * Trophy by i cons from the Noun Project
+  * Kraken by Pau Urquijo from the Noun Project
 
 ## Legal
 
