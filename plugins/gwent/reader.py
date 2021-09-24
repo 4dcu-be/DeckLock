@@ -217,7 +217,9 @@ class GwentReader(BaseReader):
 
         self.write_cache()
 
-        print(f"Adding Gwent {metadata['name']} (Gwent version {metadata['gwent_version']})")
+        print(
+            f"Adding Gwent {metadata['name']} (Gwent version {metadata['gwent_version']})"
+        )
 
         metadata["title"] = metadata["name"]
         metadata["slug"] = slugify(

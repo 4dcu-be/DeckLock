@@ -91,7 +91,11 @@ FAB_ENABLED = True
 FAB_PATH = "data"
 FAB_ASSETS_PATH = "assets/fab"
 
-TEMPLATE_PAGES = {"gwent_overview.html": "gwent.html", "mtg_overview.html": "mtg.html", "fab_overview.html": "fab.html"}
+TEMPLATE_PAGES = {
+    "gwent_overview.html": "gwent.html",
+    "mtg_overview.html": "mtg.html",
+    "fab_overview.html": "fab.html",
+}
 
 # When set to true, external links to KeyForge/M:tG/Gwent/FaB card images will be used
 # if false images will be downloaded (which could be a copyright violation if you include them)

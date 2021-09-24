@@ -21,7 +21,7 @@ def get_local_card_img_path(assets_cards_path, url):
 
 def name_to_url(card_name):
     output = card_name.lower().replace(" (undefined)", "")
-    output = re.sub(r'[^a-z ]', '', output).replace(' ', '-')
+    output = re.sub(r"[^a-z ]", "", output).replace(" ", "-")
 
     return output
 
@@ -29,9 +29,7 @@ def name_to_url(card_name):
 def get_card_data(card_name, sleep_time=0.1):
     card_name_attribute = name_to_url(card_name)
 
-    r = requests.get(
-        f"https://fabdb.net/api/cards/{card_name_attribute}"
-    )
+    r = requests.get(f"https://fabdb.net/api/cards/{card_name_attribute}")
 
     sleep(sleep_time)
 
@@ -47,26 +45,36 @@ def load_decklist(filename):
         "hero": "",
         "weapons": [],
         "equipment": [],
-        "cards": []
+        "cards": [],
     }
 
     with open(filename) as fin:
         lines = [line.strip() for line in fin.readlines()]
 
     for line in lines:
-        if line.startswith('Deck build') or line.startswith('See the full deck') or line == "":
+        if (
+            line.startswith("Deck build")
+            or line.startswith("See the full deck")
+            or line == ""
+        ):
             continue
-        elif line.startswith('('):
-            count_str, card = line.split(' ', 1)
-            output["cards"].append((int(count_str.replace('(', '').replace(')', '')), card))
-        elif line.startswith('Class: '):
-            output["class"] = line.replace('Class: ', '')
+        elif line.startswith("("):
+            count_str, card = line.split(" ", 1)
+            output["cards"].append(
+                (int(count_str.replace("(", "").replace(")", "")), card)
+            )
+        elif line.startswith("Class: "):
+            output["class"] = line.replace("Class: ", "")
         elif line.startswith("Hero: "):
-            output["hero"] = line.replace('Hero: ', '')
+            output["hero"] = line.replace("Hero: ", "")
         elif line.startswith("Weapons: "):
-            output["weapons"] = [w.strip() for w in line.replace("Weapons: ", "").split(',')]
+            output["weapons"] = [
+                w.strip() for w in line.replace("Weapons: ", "").split(",")
+            ]
         elif line.startswith("Equipment: "):
-            output["equipment"] = [w.strip() for w in line.replace("Equipment: ", "").split(',')]
+            output["equipment"] = [
+                w.strip() for w in line.replace("Equipment: ", "").split(",")
+            ]
         else:
             output["title"] = line
 
@@ -149,17 +157,12 @@ class FaBReader(BaseReader):
 
         self.write_cache()
 
-
     def parse_decklist(self, decklist):
         parsed_cards = []
 
         total_count = 0
 
-        pitch_to_color = {
-            "1": "red",
-            "2": "yellow",
-            "3": "blue"
-        }
+        pitch_to_color = {"1": "red", "2": "yellow", "3": "blue"}
 
         for count, card in decklist["cards"]:
             parsed_card = self.cached_data[card]
@@ -177,7 +180,7 @@ class FaBReader(BaseReader):
             "weapons": [self.cached_data[w] for w in decklist["weapons"]],
             "equipment": [self.cached_data[e] for e in decklist["equipment"]],
             "cards": parsed_cards,
-            "format": "Blitz" if total_count == 40 else "Classic Constructed"
+            "format": "Blitz" if total_count == 40 else "Classic Constructed",
         }
 
     def read(self, filename):
