@@ -58,11 +58,57 @@ SITEURL = "https://4dcu.be/DeckLock"
 Before adding a game, make sure the desired games are enabled in pelicanconf.py
 
 ```python
+FAB_ENABLED = True
 GWENT_ENABLED = True
 KEYFORGE_ENABLED = True
 MTG_ENABLED = True
 ```
 The sections below show how to add decks for the various games.
+
+### Flesh and Blood
+
+To add a Flesh and Blood deck, put a text file with the .fab extension in the content folder. These file are in
+the same format as [fabdb.net](https://fabdb.net/), though cards that have only one pitch option don't need to include
+the color (this will be fixed in later versions). The easiest way to get the list in the correct is to add it on fabdb,
+copy it to the clipboard and paste it into a .fab file. The format is pretty self explanatory even if you don't want to 
+generate it through fabdb.
+
+```text
+Deck build - via https://fabdb.net :
+
+Prism Blitz Precon
+
+Class: Illusionist
+Hero: Prism
+Weapons: Iris of Reality
+Equipment: Dream Weavers, Halo of Illumination, Heartened Cross Strap, Spell Fray Leggings
+
+(2) Herald of Protection (red)
+(2) Herald of Ravages (red)
+(2) Herald of Rebirth (red)
+(2) Herald of Tenacity (red)
+(2) Illuminate (red)
+(1) Phantasmify (red)
+(1) Prismatic Shield (red)
+(2) Seek Enlightenment (red)
+(2) Wartune Herald (red)
+(2) Enigma Chimera (yellow)
+(1) Herald of Judgment
+(1) Merciful Retribution
+(1) Ode to Wrath
+(2) Rising Solartide (yellow)
+(2) Enigma Chimera (blue)
+(2) Herald of Protection (blue)
+(2) Herald of Ravages (blue)
+(2) Herald of Rebirth (blue)
+(2) Herald of Tenacity (blue)
+(2) Illuminate (blue)
+(2) Spears of Surreality (blue)
+(2) Wartune Herald (blue)
+(1) The Librarian
+
+See the full deck at: https://fabdb.net/decks/GkNKXvRA/
+```
 
 ### Gwent
 
