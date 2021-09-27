@@ -269,8 +269,8 @@ Some icons and glyphs used require attribution:
 
 ## Legal
 
-Decklock is unofficial Fan Content. The literal and graphical information presented in this project about Gwent, KeyForge and 
-Magic: The Gathering, are copyright of CDPR, Fantasy Flight Games and Wizards of the Coast, LLC, a subsidiary of Hasbro, 
+Decklock is unofficial Fan Content. The literal and graphical information presented in this project about Flesh and Blood, Gwent, KeyForge and 
+Magic: The Gathering, are copyright of Legend Story Studios, CDPR, Fantasy Flight Games and Wizards of the Coast, LLC, a subsidiary of Hasbro, 
 Inc. respectively. DeckLock and 4DCu.be are not produced by, endorsed by, supported by, or affiliated with any of these
 entities.
 
