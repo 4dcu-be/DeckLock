@@ -18,25 +18,25 @@
         </tr>
         </thead>
         <tbody>
-        {%- if FAB_ENABLED -%}
+        {%- if "fab" in PLUGINS -%}
         <tr>
           <td><a href="{{ SITEURL }}/fab.html">Flesh and Blood</a></td>
           <td>{{ articles|selectattr("category", "equalto", "FaB_Deck")|list|length  }}</td>
         </tr>
         {%- endif -%}
-        {%- if GWENT_ENABLED -%}
+        {%- if "gwent" in PLUGINS -%}
         <tr>
           <td><a href="{{ SITEURL }}/gwent.html">Gwent</a></td>
           <td>{{ articles|selectattr("category", "equalto", "Gwent_Deck")|list|length  }}</td>
         </tr>
         {%- endif -%}
-        {%- if KEYFORGE_ENABLED -%}
+        {%- if "keyforge" in PLUGINS -%}
         <tr>
           <td><a href="{{ SITEURL }}/{{ KEYFORGE_DECKS_SAVE_AS }}">KeyForge</a></td>
           <td>{{ KEYFORGE_DECK_COUNT }}</td>
         </tr>
         {%- endif -%}
-        {%- if MTG_ENABLED -%}
+        {%- if "mtg" in PLUGINS -%}
         <tr>
           <td><a href="{{ SITEURL }}/mtg.html">Magic: the Gathering</a></td>
           <td>{{ articles|selectattr("category", "equalto", "MTG_Deck")|list|length  }}</td>

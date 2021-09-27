@@ -71,8 +71,6 @@ get a list of the decks I own/played!
 """
 
 # KeyForge Section
-KEYFORGE_ENABLED = True
-
 KEYFORGE_PATH = "data"
 KEYFORGE_ASSETS_PATH = "assets/keyforge"
 
@@ -82,22 +80,16 @@ KEYFORGE_DECKS_SAVE_AS = "keyforge.html"
 DOK_API_KEY = os.getenv("DOK_API_KEY", None)
 
 # Magic: The Gathering Section
-MTG_ENABLED = True
-
 MTG_PATH = "data"
 MTG_ASSETS_PATH = "assets/mtg"
 
 
 # Gwent Section
-GWENT_ENABLED = True
-
 GWENT_PATH = "data"
 GWENT_ASSETS_PATH = "assets/gwent"
 GWENT_CURRENT_VERSION = "8.2.0"
 
 # Flesh and Blood Section
-FAB_ENABLED = True
-
 FAB_PATH = "data"
 FAB_ASSETS_PATH = "assets/fab"
 

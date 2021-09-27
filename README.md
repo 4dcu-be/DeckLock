@@ -55,13 +55,12 @@ SITEURL = "https://4dcu.be/DeckLock"
 ```
 ## Adding Games
 
-Before adding a game, make sure the desired games are enabled in pelicanconf.py
+Before adding a game, make sure the correct plugins are active
 
 ```python
-FAB_ENABLED = True
-GWENT_ENABLED = True
-KEYFORGE_ENABLED = True
-MTG_ENABLED = True
+# Configure plugins
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["keyforge", "mtg", "gwent", "fab", "webassets", "jinja_filters"]
 ```
 The sections below show how to add decks for the various games.
 
