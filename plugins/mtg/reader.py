@@ -11,7 +11,7 @@ import requests
 from time import sleep
 from collections import defaultdict, Counter
 
-from plugins.utils import fetch_image
+from plugins.utils import fetch_image, get_last_modified
 from pelican.utils import slugify
 
 cmc_distribution_colors = {
@@ -145,7 +145,7 @@ class MTGReader(BaseReader):
     def read(self, filename):
         metadata = {
             "category": "MTG_Deck",
-            "date": "2020-04-13",
+            "date": get_last_modified(filename),
             "template": "mtg_deck",
         }
 

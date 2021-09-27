@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 import requests
 from time import sleep
 import posixpath
-from plugins.utils import fetch_image
+from plugins.utils import fetch_image, get_last_modified
 from pelican.utils import slugify
 from itertools import accumulate
 
@@ -174,7 +174,7 @@ class GwentReader(BaseReader):
     def read(self, filename):
         metadata = {
             "category": "Gwent_Deck",
-            "date": "2020-04-13",
+            "date": get_last_modified(filename),
             "template": "gwent_deck",
         }
 

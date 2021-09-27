@@ -10,7 +10,7 @@ from urllib.parse import urlparse
 import requests
 from time import sleep
 
-from plugins.utils import fetch_image
+from plugins.utils import fetch_image, get_last_modified
 from pelican.utils import slugify
 
 
@@ -199,7 +199,7 @@ class FaBReader(BaseReader):
         deck_data["url"] = f"fab/{deck_data['slug']}/"
         deck_data["save_as"] = f"{deck_data['url']}index.html"
         deck_data["category"] = "FaB_Deck"
-        deck_data["date"] = "2020-04-13"
+        deck_data["date"] = get_last_modified(filename)
         deck_data["template"] = "fab_deck"
 
         for key, value in deck_data.items():

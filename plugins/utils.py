@@ -1,5 +1,6 @@
 import os
 import requests
+from datetime import datetime
 
 
 def fetch_image(img_url, img_file_path):
@@ -10,3 +11,9 @@ def fetch_image(img_url, img_file_path):
     else:
         # print(f"Using cached image {img_file_path}")
         pass
+
+
+def get_last_modified(path):
+    last_modification = datetime.utcfromtimestamp(os.path.getmtime(path))
+
+    return last_modification.strftime("%Y-%m-%d")
