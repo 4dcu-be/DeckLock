@@ -28,14 +28,14 @@
                         </ul>
                     <h4>Weapons</h4>
                     <ul class="card_list">
-                        {% for card in article.weapons|sort(attribute='name') %}
+                        {% for card in article.weapons %}
                         {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
                         {% endfor %}
                     </ul>
 
                     <h4>Equipment</h4>
                     <ul class="card_list">
-                        {% for card in article.equipment|sort(attribute='name') %}
+                        {% for card in article.equipment %}
                         {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
                         {% endfor %}
                     </ul>
@@ -43,7 +43,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <h4>Other Cards</h4>
                         <ul class="card_list">
-                        {% for card in article.cards|sort(attribute='name') %}
+                        {% for card in article.cards %}
                         {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
                         {% endfor %}
                     </ul>
@@ -54,24 +54,37 @@
     </div>
 
 </div>
-<!--<div class="row">
+<div class="row">
     <div class="col-md-12 top15">
         <div class="card h-100">
             <div class="card-header"><h3>Visual</h3></div>
             <div class="card-body">
                 <div>
-                        {{ card_list_item.card_image(article.hero, USE_EXTERNAL_LINKS, 'overview-col-1') }}
+                        <div class="card-stack" style="height:370px">
+                        {{ card_list_item.card_image(article.hero, USE_EXTERNAL_LINKS, '') }}
+                        </div>
+                        <div class="card-stack" style="height:{{330 + (article.weapons|length * 40) }}px">
                         {% for card in article.weapons|sort(attribute='name') %}
-                        {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "overview-col-2 overview-position-" + loop.index|string) }}
+                        {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "overview-position-" + loop.index|string) }}
                         {% endfor %}
+                        </div>
+                        <div class="card-stack" style="height:{{330 + (article.equipment|length * 40) }}px">
                         {% for card in article.equipment|sort(attribute='name') %}
-                        {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "overview-col-3 overview-position-" + loop.index|string) }}
+                        {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "overview-position-" + loop.index|string) }}
+                        {% endfor %}
+                        </div>
+                        {% for stack in article.stacks %}
+                        <div class="card-stack" style="height:{{330 + (stack|length * 40) }}px">
+                            {% for item in stack %}
+                            {{ card_list_item.card_image(article.cards[item], USE_EXTERNAL_LINKS, "overview-position-" + loop.index|string) }}
+                            {% endfor %}
+                        </div>
                         {% endfor %}
                 </div>
             </div>
         </div>
     </div>
-</div>-->
+</div>
 {% endblock %}
 
 {% block extra_js %}

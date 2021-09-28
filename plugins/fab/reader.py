@@ -81,6 +81,19 @@ def load_decklist(filename):
     return output
 
 
+def build_stacks(deck_data, stack_size=4):
+    output_stacks = []
+    current_stack = []
+    for ix, card in enumerate(deck_data["cards"]):
+        for _ in range(card["count"]):
+            current_stack.append(ix)
+            if len(current_stack) == stack_size:
+                output_stacks.append(current_stack.copy())
+                current_stack = []
+
+    return output_stacks
+
+
 class FaBReader(BaseReader):
     enabled = True
 
@@ -188,6 +201,7 @@ class FaBReader(BaseReader):
         self.add_decklist(decklist)
 
         deck_data = self.parse_decklist(decklist)
+        deck_data["stacks"] = build_stacks(deck_data)
 
         print(f"Adding FaB {deck_data['name']}")
         deck_data["title"] = deck_data["name"]
