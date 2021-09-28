@@ -27,3 +27,29 @@
 .plot {
     padding: 15px;
 }
+
+.overview-card-image {
+    width: 250px;
+    position:absolute;
+    top:0px;
+}
+
+.overview-position-2 {
+    top:40px;
+}
+.overview-position-3 {
+    top:80px;
+}
+.overview-position-4 {
+    top:120px;
+}
+
+.overview-col-1 {
+    left:0px
+}
+.overview-col-2 {
+    left:250px
+}
+.overview-col-3 {
+    left:500px
+}

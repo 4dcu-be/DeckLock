@@ -5,3 +5,11 @@
     <li>{%- if card.count -%}{{ card.count }}x {% endif -%}<span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.image_path }}' />">{{ card.name }}</span>{% if card.color %} ({{ card.color }}){%- endif -%}</li>
 {% endif %}
 {%- endmacro %}
+
+{% macro card_image(card, USE_EXTERNAL_LINKS, classes) -%}
+{% if USE_EXTERNAL_LINKS %}
+    <img class='overview-card-image {{classes}}' src='{{ card.image }}' />
+{% else %}
+    <img class='overview-card-image {{classes}}' src='{{ SITEURL }}/{{ card.image_path }}' />
+{% endif %}
+{%- endmacro %}
