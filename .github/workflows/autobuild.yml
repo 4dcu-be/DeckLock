@@ -30,8 +30,7 @@ jobs:
         if: steps.verify-changed-files.outputs.files_changed == 'true'
         run: |
           git config --global user.name autobuild
-          git config --global user.email '${GITHUB_ACTOR}@users.noreply.github.com'          
-          # git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+          git config --global user.email '${GITHUB_ACTOR}@users.noreply.github.com'
           git add -A
-          git commit -am "rebuild new release" --allow-empty
+          git commit -am "rebuild new release"
           git push  # --force origin HEAD:$GITHUB_REF
