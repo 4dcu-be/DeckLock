@@ -65,18 +65,18 @@
                         </div>
                         <div class="card-stack" style="height:{{330 + (article.weapons|length * 40) }}px">
                         {% for card in article.weapons|sort(attribute='name') %}
-                        {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "overview-position-" + loop.index|string) }}
+                        {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "fab-overview-position-" + loop.index|string) }}
                         {% endfor %}
                         </div>
                         <div class="card-stack" style="height:{{330 + (article.equipment|length * 40) }}px">
                         {% for card in article.equipment|sort(attribute='name') %}
-                        {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "overview-position-" + loop.index|string) }}
+                        {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "fab-overview-position-" + loop.index|string) }}
                         {% endfor %}
                         </div>
                         {% for stack in article.stacks %}
                         <div class="card-stack" style="height:{{330 + (stack|length * 40) }}px">
                             {% for item in stack %}
-                            {{ card_list_item.card_image(article.cards[item], USE_EXTERNAL_LINKS, "overview-position-" + loop.index|string) }}
+                            {{ card_list_item.card_image(article.cards[item], USE_EXTERNAL_LINKS, "fab-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endfor %}

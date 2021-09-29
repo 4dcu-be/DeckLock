@@ -78,6 +78,19 @@ def parse_card_type(type_line):
     return parts[-1].lower()
 
 
+def build_stacks(deck_data, stack_size=4):
+    output_stacks = []
+    current_stack = []
+    for ix, card in enumerate(deck_data):
+        for _ in range(card["count"]):
+            current_stack.append(ix)
+            if len(current_stack) == stack_size:
+                output_stacks.append(current_stack.copy())
+                current_stack = []
+    output_stacks.append(current_stack.copy())
+    return output_stacks
+
+
 class MTGReader(BaseReader):
     enabled = True
 
@@ -218,6 +231,9 @@ class MTGReader(BaseReader):
             k: [a[1] for a in sorted(v.items())] for k, v in cmc_distribution.items()
         }
         deck_data["cmc_distribution_colors"] = cmc_distribution_colors
+
+        deck_data["main_stacks"] = build_stacks(deck_data["main"])
+        deck_data["sideboard_stacks"] = build_stacks(deck_data["sideboard"])
 
         self.write_cache()
 

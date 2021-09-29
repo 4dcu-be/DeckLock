@@ -89,6 +89,36 @@
         </div>
     </div>
 </div>
+
+<div class="row">
+    <div class="col-md-12 top15">
+        <div class="card h-100">
+            <div class="card-header"><h3>Visual</h3></div>
+            <div class="card-body">
+                <div>
+                    {% for stack in article.deck.main_stacks %}
+                        <div class="card-stack" style="height:{{330 + (stack|length * 40) }}px">
+                            {% for item in stack %}
+                            {{ card_list_item.card_image(article.deck.main[item], USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
+                            {% endfor %}
+                        </div>
+                    {% endfor %}
+                </div>
+                <div style="clear:both">
+                    <h4>Sideboard</h4>
+                    {% for stack in article.deck.sideboard_stacks %}
+                        <div class="card-stack" style="height:{{330 + (stack|length * 40) }}px">
+                            {% for item in stack %}
+                            {{ card_list_item.card_image(article.deck.sideboard[item], USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
+                            {% endfor %}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 {% endblock %}
 
 {% block extra_js %}

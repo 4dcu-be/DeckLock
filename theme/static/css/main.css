@@ -45,12 +45,22 @@
     z-index:1000
 }
 
-.overview-position-2 {
+.fab-overview-position-2 {
     top:40px;
 }
-.overview-position-3 {
+.fab-overview-position-3 {
     top:80px;
 }
-.overview-position-4 {
+.fab-overview-position-4 {
+    top:120px;
+}
+
+.mtg-overview-position-2 {
+    top:40px;
+}
+.mtg-overview-position-3 {
+    top:80px;
+}
+.mtg-overview-position-4 {
     top:120px;
 }

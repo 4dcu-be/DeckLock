@@ -84,6 +84,7 @@ def load_decklist(filename):
 def build_stacks(deck_data, stack_size=4):
     output_stacks = []
     current_stack = []
+
     for ix, card in enumerate(deck_data["cards"]):
         for _ in range(card["count"]):
             current_stack.append(ix)
@@ -91,6 +92,7 @@ def build_stacks(deck_data, stack_size=4):
                 output_stacks.append(current_stack.copy())
                 current_stack = []
 
+    output_stacks.append(current_stack.copy())
     return output_stacks
 
 
