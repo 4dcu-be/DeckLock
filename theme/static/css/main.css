@@ -64,3 +64,21 @@
 .mtg-overview-position-4 {
     top:120px;
 }
+
+.fab-dot {
+  height: 8px;
+  width: 8px;
+  background-color: #efe9db;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:10px;
+}
+.fab-dot-red {
+  background-color: #b20f15;
+}
+.fab-dot-yellow {
+  background-color: #fff101;
+}
+.fab-dot-blue {
+  background-color: #00a0eb;
+}

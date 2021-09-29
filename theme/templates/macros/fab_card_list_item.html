@@ -1,8 +1,8 @@
 {% macro print(card, USE_EXTERNAL_LINKS) -%}
 {% if USE_EXTERNAL_LINKS %}
-    <li>{%- if card.count -%}{{ card.count }}x {% endif -%}<span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ card.image }}' />">{{ card.name }}</span>{% if card.color %} ({{ card.color }}){%- endif -%}</li>
+    <li><span class="fab-dot fab-dot-{{card.color}}"></span> {%- if card.count -%}{{ card.count }}x {% endif -%}<span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ card.image }}' />">{{ card.name }}</span></li>
 {% else %}
-    <li>{%- if card.count -%}{{ card.count }}x {% endif -%}<span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.image_path }}' />">{{ card.name }}</span>{% if card.color %} ({{ card.color }}){%- endif -%}</li>
+    <li><span class="fab-dot fab-dot-{{card.color}}" /></span>  {%- if card.count -%}{{ card.count }}x {% endif -%}<span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.image_path }}' />">{{ card.name }}</span></li>
 {% endif %}
 {%- endmacro %}
 
