@@ -4,11 +4,11 @@
 
 Static web generator to generate an overview of all your favorite decks. DeckLock currently supports :
 
+  * Flesh and Blood
   * KeyForge
   * Gwent
   * Magic: The Gathering
-
-With support for Flesh and Blood upcoming !
+  
 
 DeckLock is designed around the static website generator Pelican and leverages GitHub's feature to host static 
 websites from the ./docs folder. For other hosting options, check out the official Pelican documentation.
