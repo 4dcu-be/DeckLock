@@ -42,6 +42,7 @@
         {% set img_content = popup( SITEURL + '/' + card.data.image_path, card ) %}
     {% endif %}
     <tr>
+        <td><span class="gwent-dot gwent-dot-{{card.data.rarity}}"></span></td>
         <td class="text-muted">{{  card.data.type  }}</td>
         <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="{{ img_content }}">{{ card.data.name }}{%- if card.count > 1 %} (x{{ card.count }}){%- endif -%}</span></td>
         <td>{% if card.data.provision > 0 %}{{ card.data.provision }}{% else %} - {% endif %}</td>
