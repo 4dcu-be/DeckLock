@@ -82,3 +82,8 @@
 .fab-dot-blue {
   background-color: #00a0eb;
 }
+
+.gwent-cards-table td {
+padding-top:2px;
+padding-bottom:2px;
+}
