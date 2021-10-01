@@ -46,17 +46,14 @@ def load_decklist(filename):
         "weapons": [],
         "equipment": [],
         "cards": [],
-        "url": None
+        "url": None,
     }
 
     with open(filename) as fin:
         lines = [line.strip() for line in fin.readlines()]
 
     for line in lines:
-        if (
-            line.startswith("Deck build")
-            or line == ""
-        ):
+        if line.startswith("Deck build") or line == "":
             continue
         elif line.startswith("("):
             count_str, card = line.split(" ", 1)
@@ -198,7 +195,7 @@ class FaBReader(BaseReader):
             "equipment": [self.cached_data[e] for e in decklist["equipment"]],
             "cards": parsed_cards,
             "format": "Blitz" if total_count == 40 else "Classic Constructed",
-            "fabdb_url": decklist["url"]
+            "fabdb_url": decklist["url"],
         }
 
     def read(self, filename):
