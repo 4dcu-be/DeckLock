@@ -55,7 +55,7 @@ def parse_card_data(card_data, card_name):
     card_category = soup.find_all("div", class_="card-category")[index]
     card_body_ability = soup.find_all("div", class_="card-body-ability")[index]
 
-    image_url = "https://gwent.one/image/card/medium/aid/jpg/%d.jpg" % int(
+    image_url = "https://gwent.one/image/gwent/assets/card/art/medium/%d.jpg" % int(
         card_attributes.get("data-artid").replace("j", "")
     )
 
