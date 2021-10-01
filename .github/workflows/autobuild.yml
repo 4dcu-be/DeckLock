@@ -27,6 +27,9 @@ jobs:
         with:
           files: |
              docs
+             docs/.(css)$
+             docs/.(html)$
+             docs/.(js)$
       - name: Commit new build only when files change.
         if: steps.verify-changed-files.outputs.files_changed == 'true'
         run: |
