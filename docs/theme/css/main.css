@@ -87,3 +87,24 @@
 padding-top:2px;
 padding-bottom:2px;
 }
+
+.gwent-dot {
+  height: 8px;
+  width: 8px;
+  background-color: #efe9db;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:10px;
+}
+.gwent-dot-legendary {
+  background-color: #fe7615;
+}
+.gwent-dot-epic {
+  background-color: #7b1098;
+}
+.gwent-dot-rare {
+  background-color: #085b98;
+}
+.gwent-dot-common {
+  background-color: #95a2c3;
+}
