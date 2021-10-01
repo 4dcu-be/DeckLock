@@ -11,9 +11,8 @@
     <meta name="description" content="{{ SITEDESCRIPTION }}">
     <meta name="author" content="{{ AUTHOR }}">
 
-    {% assets filters="cssmin", output="css/style.min.css", "css/bootstrap.min.css", "css/main.css" %}
-        <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
-    {% endassets %}
+    <link rel="stylesheet" href="{{ SITEURL }}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/css/main.css">
 
     {% block extra_css %}
     {% endblock %}

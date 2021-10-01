@@ -57,7 +57,7 @@ STATIC_PATHS = ["assets"]
 
 # Configure plugins
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["keyforge", "mtg", "gwent", "fab", "webassets", "jinja_filters"]
+PLUGINS = ["keyforge", "mtg", "gwent", "fab", "jinja_filters"]
 
 # Welcome message, will be shown on the index page. Markdown supported
 
