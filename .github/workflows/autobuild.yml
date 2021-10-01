@@ -27,9 +27,10 @@ jobs:
         with:
           files: |
              docs
-             docs/.(css)$
-             docs/.(html)$
-             docs/.(js)$
+             docs/*
+             docs/theme/css
+             docs/theme/js
+             docs/theme/img
       - name: Commit new build only when files change.
         if: steps.verify-changed-files.outputs.files_changed == 'true'
         run: |
