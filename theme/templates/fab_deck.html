@@ -15,6 +15,11 @@
     </ol>
 
 <h1>{{ article.title }} <small>{{ article.format }}</small></h1>
+{% if article.fabdb_url %}
+    <div class="row top5">
+        <div class="col text-right"><span>View deck on <a href="{{ article.fabdb_url }}">FaBDB.net</a></span></div>
+    </div>
+{% endif %}
 <div class="row">
     <div class="col-md-12 top15">
         <div class="card h-100">
