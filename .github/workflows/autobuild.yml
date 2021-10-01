@@ -16,6 +16,7 @@ jobs:
           python-version: 3.8
           architecture: 'x64'
       - run: pip install -r requirements.txt
+      - run: mkdir -p docs
       - name: Run Pelican (build website)
         env:
           DOK_API_KEY: ${{ secrets.DOK_API_KEY }}
@@ -25,7 +26,7 @@ jobs:
         id: verify-changed-files
         with:
           files: |
-             docs/*
+             docs
       - name: Commit new build only when files change.
         if: steps.verify-changed-files.outputs.files_changed == 'true'
         run: |
