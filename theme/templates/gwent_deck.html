@@ -26,14 +26,23 @@
     <div class="col-md-8 top15">
         <div class="card h-100">
             <div class="card-header"><h3>Main Deck</h3></div>
-            <div class="card-body">
-                <ul class="card_list">
-                    {{ card_list_item.print(article.leader, USE_EXTERNAL_LINKS, SITEURL) }}
-                    {{ card_list_item.print(article.stratagem, USE_EXTERNAL_LINKS, SITEURL) }}
-                    {% for card in article.deck|sort(attribute='name')|sort(attribute='data.provision', reverse = True) %}
-                            {{ card_list_item.print(card, USE_EXTERNAL_LINKS, SITEURL) }}
-                    {% endfor %}
-                </ul>
+            <div>
+                <table  class="table table-striped gwent-cards-table">
+                    <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Name</th>
+                        <th>Provisions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        {{ card_list_item.print(article.leader, USE_EXTERNAL_LINKS, SITEURL) }}
+                        {{ card_list_item.print(article.stratagem, USE_EXTERNAL_LINKS, SITEURL) }}
+                        {% for card in article.deck|sort(attribute='name')|sort(attribute='data.provision', reverse = True) %}
+                                {{ card_list_item.print(card, USE_EXTERNAL_LINKS, SITEURL) }}
+                        {% endfor %}
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
