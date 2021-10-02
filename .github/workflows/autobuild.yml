@@ -20,22 +20,4 @@ jobs:
       - name: Run Pelican (build website)
         env:
           DOK_API_KEY: ${{ secrets.DOK_API_KEY }}
-        run: make release
-      - name: Verify Changed files
-        uses: tj-actions/verify-changed-files@v7.2
-        id: verify-changed-files
-        with:
-          files: |
-             docs
-             docs/*
-             docs/theme/css
-             docs/theme/js
-             docs/theme/img
-      - name: Commit new build only when files change.
-        if: steps.verify-changed-files.outputs.files_changed == 'true'
-        run: |
-          git config --global user.name autobuild
-          git config --global user.email '${GITHUB_ACTOR}@users.noreply.github.com'
-          git add -A
-          git commit -am "rebuild new release"
-          git push  # --force origin HEAD:$GITHUB_REF
+        run: make github
