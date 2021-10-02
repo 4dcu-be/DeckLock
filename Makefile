@@ -81,7 +81,7 @@ publish:
 
 github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-	git push origin $(GITHUB_PAGES_BRANCH)
+	git push -f origin $(GITHUB_PAGES_BRANCH)
 
 black:
 	black ./ --exclude venv
