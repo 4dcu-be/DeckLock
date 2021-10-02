@@ -12,7 +12,7 @@ from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 # Don't include a / at the end
-SITEURL = "https://4dcu.be/DeckLock"
+SITEURL = "https://sebastian.proost.science/DeckLock"
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = None
