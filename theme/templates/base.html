@@ -30,7 +30,7 @@
 
   <div class="collapse navbar-collapse" id="navbarColor02">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown d-none d-lg-block">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Games
         </a>
@@ -41,6 +41,11 @@
             {% if "mtg" in PLUGINS -%}<a class="dropdown-item" href="{{ SITEURL }}/mtg.html">Magic: the Gathering</a>{%- endif%}
         </div>
       </li>
+        <li class="nav-item d-lg-none"><a class="nav-link disabled" href="#">Games</a></li>
+      {% if "fab" in PLUGINS -%}<li class="nav-item d-lg-none"><a class="nav-link" href="{{ SITEURL }}/fab.html">Flesh and Blood</a></li>{%- endif%}
+      {% if "gwent" in PLUGINS -%}<li class="nav-item d-lg-none"><a class="nav-link" href="{{ SITEURL }}/gwent.html">Gwent</a></li>{%- endif%}
+      {% if "keyforge" in PLUGINS -%}<li class="nav-item d-lg-none"><a class="nav-link" href="{{ SITEURL }}/keyforge.html">KeyForge</a></li>{%- endif%}
+      {% if "mtg" in PLUGINS -%}<li class="nav-item d-lg-none"><a class="nav-link" href="{{ SITEURL }}/mtg.html">Magic: the Gathering</a></li>{%- endif%}
     </ul>
   </div>
 </nav>
