@@ -4,6 +4,22 @@
 {{ SITENAME }} - {{ article.title }}
 {% endblock %}
 
+{% block social_media_meta %}
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ SITEURL }}/{{ output_file }}">
+<meta property="og:title" content="DeckLock for Gwent - {{ article.title }}">
+<meta property="og:description" content="Overview of cards in {{ article.title }}, {{ article.faction }}, Gwent version {{ article.gwent_version }}">
+<meta property="og:image" content="{{ SITEURL }}/theme/img/DeckLock_gwent.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ SITEURL }}/{{ output_file }}">
+<meta property="twitter:title" content="DeckLock for Gwent - {{ article.title }}">
+<meta property="twitter:description" content="Overview of cards in {{ article.title }}, {{ article.faction }}, Gwent version {{ article.gwent_version }}">
+<meta property="twitter:image" content="{{ SITEURL }}/theme/img/DeckLock_gwent.jpg">
+{% endblock %}
+
 {% block extra_css %}
 <link href="{{ SITEURL }}/theme/css/gwent.css" rel="stylesheet" />
 {% endblock extra_css %}

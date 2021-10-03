@@ -5,6 +5,22 @@
 {{ SITENAME }} - M:tG Overview
 {% endblock %}
 
+{% block social_media_meta %}
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ SITEURL }}/{{ output_file }}">
+<meta property="og:title" content="DeckLock for Magic: the Gathering - Overview">
+<meta property="og:description" content="Overview of {{ articles|selectattr("category", "equalto", "MTG_Deck")|list|length  }} M:tG Decks">
+<meta property="og:image" content="{{ SITEURL }}/theme/img/DeckLock_mtg.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ SITEURL }}/{{ output_file }}">
+<meta property="twitter:title" content="DeckLock for Magic: the Gathering - Overview">
+<meta property="twitter:description" content="Overview of {{ articles|selectattr("category", "equalto", "MTG_Deck")|list|length  }} M:tG Decks">
+<meta property="twitter:image" content="{{ SITEURL }}/theme/img/DeckLock_mtg.png">
+{% endblock %}
+
 {% block extra_css %}
 <link href="{{ SITEURL }}/theme/css/mana-cost.css" rel="stylesheet" />
 {% endblock extra_css %}
