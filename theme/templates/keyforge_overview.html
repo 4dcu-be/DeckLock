@@ -4,6 +4,22 @@
 {{ SITENAME }} - KeyForge Overview
 {% endblock %}
 
+{% block social_media_meta %}
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ SITEURL }}/{{ output_file }}">
+<meta property="og:title" content="DeckLock for KeyForge - Overview">
+<meta property="og:description" content="Overview of {{ KEYFORGE_DECK_COUNT }} KeyForge decks">
+<meta property="og:image" content="{{ SITEURL }}/theme/img/DeckLock_kf.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ SITEURL }}/{{ output_file }}">
+<meta property="twitter:title" content="DeckLock for KeyForge - Overview">
+<meta property="twitter:description" content="Overview of {{ KEYFORGE_DECK_COUNT }} KeyForge decks">
+<meta property="twitter:image" content="{{ SITEURL }}/theme/img/DeckLock_kf.png">
+{% endblock %}
+
 {% block extra_css %}
 <link href="{{ SITEURL }}/theme/css/keyforge.css" rel="stylesheet" />
 <link href="{{ SITEURL }}/theme/css/keyforge-rarity.css" rel="stylesheet" />

@@ -11,6 +11,9 @@
     <meta name="description" content="{{ SITEDESCRIPTION }}">
     <meta name="author" content="{{ AUTHOR }}">
 
+    {% block social_media_meta %}
+    {% endblock %}
+
     {% assets filters="cssmin", output="css/style.min.css", "css/bootstrap.min.css", "css/main.css" %}
         <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
     {% endassets %}
