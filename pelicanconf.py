@@ -22,7 +22,7 @@ SITENAME = "DeckLock"
 SITEURL = ""
 
 PATH = "content"
-DECKLOCK_CACHE = "dl_demo_cache"
+DECKLOCK_CACHE = "dl_cache"
 
 TIMEZONE = "Europe/Paris"
 

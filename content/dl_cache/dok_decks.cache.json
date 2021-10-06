@@ -1,0 +1,4970 @@
+{
+    "actionCount": {
+        "1": 6,
+        "10": 178087,
+        "11": 238093,
+        "12": 289007,
+        "13": 312455,
+        "14": 303983,
+        "15": 265778,
+        "16": 209419,
+        "17": 147274,
+        "18": 92315,
+        "19": 51457,
+        "2": 71,
+        "20": 25601,
+        "21": 10893,
+        "22": 3970,
+        "23": 1160,
+        "24": 288,
+        "25": 38,
+        "26": 4,
+        "3": 380,
+        "4": 1614,
+        "5": 5728,
+        "6": 15376,
+        "7": 34891,
+        "8": 67933,
+        "9": 116771
+    },
+    "actionCountStats": {
+        "bottom10Percent": 9,
+        "max": 26,
+        "mean": 13.274965944418593,
+        "median": 13,
+        "min": 1,
+        "percentile40": 13,
+        "percentile60": 14,
+        "percentileForValue": {
+            "1": 0.0002528879807400514,
+            "10": 17.738279485052633,
+            "11": 27.773422484776145,
+            "12": 39.95448859306615,
+            "13": 53.12384093008828,
+            "14": 65.93611543830545,
+            "15": 77.13812572916035,
+            "16": 85.96471706892714,
+            "17": 92.17202114817887,
+            "18": 96.0629134718485,
+            "19": 98.23172294267198,
+            "2": 0.0032453957528306597,
+            "20": 99.31075380849299,
+            "21": 99.76987193752656,
+            "22": 99.93719948478288,
+            "23": 99.98609116105929,
+            "24": 99.99822978413482,
+            "25": 99.99983140801284,
+            "26": 100.0,
+            "3": 0.019261634533033915,
+            "4": 0.08728850135210774,
+            "5": 0.3287122269652768,
+            "6": 0.9767798256084484,
+            "7": 2.4473655816086373,
+            "8": 5.310605447544289,
+            "9": 10.232269180710379
+        },
+        "top90Percent": 17
+    },
+    "actionWins": {
+        "1": {
+            "losses": 1,
+            "wins": 2
+        },
+        "10": {
+            "losses": 24700,
+            "wins": 24066
+        },
+        "11": {
+            "losses": 32821,
+            "wins": 32694
+        },
+        "12": {
+            "losses": 39409,
+            "wins": 39634
+        },
+        "13": {
+            "losses": 41688,
+            "wins": 42768
+        },
+        "14": {
+            "losses": 40699,
+            "wins": 42275
+        },
+        "15": {
+            "losses": 35974,
+            "wins": 38375
+        },
+        "16": {
+            "losses": 29132,
+            "wins": 32368
+        },
+        "17": {
+            "losses": 21016,
+            "wins": 23621
+        },
+        "18": {
+            "losses": 13495,
+            "wins": 15829
+        },
+        "19": {
+            "losses": 7502,
+            "wins": 8845
+        },
+        "2": {
+            "losses": 14,
+            "wins": 4
+        },
+        "20": {
+            "losses": 3850,
+            "wins": 4818
+        },
+        "21": {
+            "losses": 1834,
+            "wins": 2347
+        },
+        "22": {
+            "losses": 696,
+            "wins": 878
+        },
+        "23": {
+            "losses": 217,
+            "wins": 345
+        },
+        "24": {
+            "losses": 32,
+            "wins": 45
+        },
+        "25": {
+            "losses": 15,
+            "wins": 33
+        },
+        "3": {
+            "losses": 84,
+            "wins": 70
+        },
+        "4": {
+            "losses": 238,
+            "wins": 226
+        },
+        "5": {
+            "losses": 906,
+            "wins": 771
+        },
+        "6": {
+            "losses": 2428,
+            "wins": 2229
+        },
+        "7": {
+            "losses": 5122,
+            "wins": 4973
+        },
+        "8": {
+            "losses": 10272,
+            "wins": 9721
+        },
+        "9": {
+            "losses": 16597,
+            "wins": 15985
+        }
+    },
+    "aerc": {
+        "37": 13,
+        "38": 34,
+        "39": 76,
+        "40": 162,
+        "41": 452,
+        "42": 931,
+        "43": 1998,
+        "44": 3894,
+        "45": 7250,
+        "46": 12528,
+        "47": 20514,
+        "48": 31580,
+        "49": 46574,
+        "50": 65660,
+        "51": 87245,
+        "52": 110347,
+        "53": 133281,
+        "54": 154813,
+        "55": 171422,
+        "56": 182370,
+        "57": 187070,
+        "58": 184463,
+        "59": 174610,
+        "60": 160028,
+        "61": 141069,
+        "62": 120083,
+        "63": 98962,
+        "64": 78127,
+        "65": 60135,
+        "66": 44652,
+        "67": 31794,
+        "68": 21929,
+        "69": 14549,
+        "70": 9562,
+        "71": 6014,
+        "72": 3753,
+        "73": 2116,
+        "74": 1199,
+        "75": 645,
+        "76": 340,
+        "77": 180,
+        "78": 76,
+        "79": 54,
+        "80": 20,
+        "81": 9,
+        "82": 4,
+        "83": 3,
+        "84": 1,
+        "85": 1
+    },
+    "aercDatas": [
+        {
+            "amberControl": 9333895.545005955,
+            "artifactControl": 871645.4075000715,
+            "count": 14159280,
+            "creatureControl": 13797621.339990221,
+            "creatureProtection": 1436714.2525002172,
+            "disruption": 3210235.75999993,
+            "effectivePower": 89826543.0,
+            "efficiency": 3719053.8300004224,
+            "expansion": "CALL_OF_THE_ARCHONS",
+            "expectedAmber": 22880348.98249023,
+            "house": null,
+            "other": 1149744.3899999906,
+            "recursion": 2224679.877500734
+        },
+        {
+            "amberControl": 2936969.1675011828,
+            "artifactControl": 378486.5925000025,
+            "count": 5984628,
+            "creatureControl": 6048489.861251111,
+            "creatureProtection": 589395.5599999307,
+            "disruption": 834326.3187499923,
+            "effectivePower": 35705383.0,
+            "efficiency": 2161129.5374994194,
+            "expansion": "AGE_OF_ASCENSION",
+            "expectedAmber": 8923385.878750771,
+            "house": null,
+            "other": 673446.8037501624,
+            "recursion": 919911.7674996771
+        },
+        {
+            "amberControl": 2835356.8099003187,
+            "artifactControl": 327286.3049999903,
+            "count": 4412040,
+            "creatureControl": 4101257.0625011376,
+            "creatureProtection": 924454.2249998375,
+            "disruption": 763949.1487501453,
+            "effectivePower": 28315937.0,
+            "efficiency": 1975537.1575003585,
+            "expansion": "WORLDS_COLLIDE",
+            "expectedAmber": 6253705.947499466,
+            "house": null,
+            "other": 546509.6299998679,
+            "recursion": 423051.5624999952
+        },
+        {
+            "amberControl": 2366783.9919500644,
+            "artifactControl": 187596.15249999205,
+            "count": 2926428,
+            "creatureControl": 2728177.565000197,
+            "creatureProtection": 530063.2349999495,
+            "disruption": 437791.4650000121,
+            "effectivePower": 18097741.0,
+            "efficiency": 1396207.326999972,
+            "expansion": "MASS_MUTATION",
+            "expectedAmber": 4596057.466250229,
+            "house": null,
+            "other": 309124.3262499913,
+            "recursion": 329862.0274999869
+        },
+        {
+            "amberControl": 709783.7009999937,
+            "artifactControl": 76884.08249999884,
+            "count": 988728,
+            "creatureControl": 896007.056250002,
+            "creatureProtection": 120067.08999999732,
+            "disruption": 93089.4762499994,
+            "effectivePower": 6503852.0,
+            "efficiency": 371308.5636500056,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 1618338.5287500054,
+            "house": null,
+            "other": 44444.14375000239,
+            "recursion": 98398.92125000164
+        },
+        {
+            "amberControl": 1322685.1725001722,
+            "artifactControl": 13622.80499999985,
+            "count": 6079536,
+            "creatureControl": 3490693.733750867,
+            "creatureProtection": 120082.1325,
+            "disruption": 14054.479999999865,
+            "effectivePower": 15771896.0,
+            "efficiency": -226682.22500004896,
+            "expansion": "CALL_OF_THE_ARCHONS",
+            "expectedAmber": 2529364.194999022,
+            "house": "Brobnar",
+            "other": 197.98749999999995,
+            "recursion": 446.17374999999987
+        },
+        {
+            "amberControl": 1629470.8700002956,
+            "artifactControl": 232821.055,
+            "count": 6089628,
+            "creatureControl": 2602218.742501141,
+            "creatureProtection": 26420.34750000142,
+            "disruption": 2687820.850000126,
+            "effectivePower": 7445289.0,
+            "efficiency": -353161.4425,
+            "expansion": "CALL_OF_THE_ARCHONS",
+            "expectedAmber": 2776217.4962523594,
+            "house": "Dis",
+            "other": 112998.85499999832,
+            "recursion": 780161.3287489086
+        },
+        {
+            "amberControl": 1091242.9124993565,
+            "artifactControl": 133320.9325000066,
+            "count": 6083280,
+            "creatureControl": 971553.4075000553,
+            "creatureProtection": 139192.14750000002,
+            "disruption": 200686.985,
+            "effectivePower": 10053500.0,
+            "efficiency": 3883786.537500643,
+            "expansion": "CALL_OF_THE_ARCHONS",
+            "expectedAmber": 2480514.4450005726,
+            "house": "Logos",
+            "other": 95236.65625000907,
+            "recursion": 172744.0974999774
+        },
+        {
+            "amberControl": 1172092.3674992374,
+            "artifactControl": 103683.3475000053,
+            "count": 6105864,
+            "creatureControl": 2030514.4249992443,
+            "creatureProtection": 151401.53250001575,
+            "disruption": 586.3024999999998,
+            "effectivePower": 14015104.0,
+            "efficiency": 372468.69875007117,
+            "expansion": "CALL_OF_THE_ARCHONS",
+            "expectedAmber": 2871167.1625003405,
+            "house": "Mars",
+            "other": 95548.51624999905,
+            "recursion": 125531.12875000008
+        },
+        {
+            "amberControl": 1129245.9874998834,
+            "artifactControl": 203960.135,
+            "count": 6089832,
+            "creatureControl": 1480121.9337505365,
+            "creatureProtection": 433139.83749997616,
+            "disruption": 46155.665000000015,
+            "effectivePower": 21076057.0,
+            "efficiency": 21934.032500000005,
+            "expansion": "CALL_OF_THE_ARCHONS",
+            "expectedAmber": 3513812.288752565,
+            "house": "Sanctum",
+            "other": 73595.43875003318,
+            "recursion": 26903.0762499999
+        },
+        {
+            "amberControl": 2769022.927500503,
+            "artifactControl": 140432.52249999283,
+            "count": 6069144,
+            "creatureControl": 1805031.2212497373,
+            "creatureProtection": 522490.6050000195,
+            "disruption": 136932.9975,
+            "effectivePower": 8494847.0,
+            "efficiency": 115381.64875,
+            "expansion": "CALL_OF_THE_ARCHONS",
+            "expectedAmber": 4330564.793751089,
+            "house": "Shadows",
+            "other": 103743.11375000233,
+            "recursion": 422.21499999999986
+        },
+        {
+            "amberControl": 220135.3075000389,
+            "artifactControl": 43804.61,
+            "count": 5960556,
+            "creatureControl": 1417487.8762502463,
+            "creatureProtection": 43987.65,
+            "disruption": 123998.4799999999,
+            "effectivePower": 12969850.0,
+            "efficiency": -94673.41999999965,
+            "expansion": "CALL_OF_THE_ARCHONS",
+            "expectedAmber": 4378708.601250455,
+            "house": "Untamed",
+            "other": 668423.8224999422,
+            "recursion": 1118471.8575000397
+        },
+        {
+            "amberControl": 398557.5049999913,
+            "artifactControl": 6188.324999999921,
+            "count": 2558808,
+            "creatureControl": 1450065.5587499558,
+            "creatureProtection": 31641.22499999999,
+            "disruption": 6279.197499999916,
+            "effectivePower": 6087597.0,
+            "efficiency": -92490.2375000006,
+            "expansion": "AGE_OF_ASCENSION",
+            "expectedAmber": 896791.7375000088,
+            "house": "Brobnar",
+            "other": 118141.60874999728,
+            "recursion": 166.74000000000007
+        },
+        {
+            "amberControl": 506542.14750004566,
+            "artifactControl": 76690.28749999829,
+            "count": 2559756,
+            "creatureControl": 890131.1275001952,
+            "creatureProtection": 27043.760000000006,
+            "disruption": 591735.7112501098,
+            "effectivePower": 2858840.0,
+            "efficiency": 147333.30624999848,
+            "expansion": "AGE_OF_ASCENSION",
+            "expectedAmber": 1264027.1949998855,
+            "house": "Dis",
+            "other": 43266.61500000151,
+            "recursion": 252948.23500000834
+        },
+        {
+            "amberControl": 104560.01499998546,
+            "artifactControl": 60191.305000000335,
+            "count": 2589804,
+            "creatureControl": 475740.3612499291,
+            "creatureProtection": 305.6025,
+            "disruption": 14835.63250000042,
+            "effectivePower": 3011927.0,
+            "efficiency": 1848246.227499765,
+            "expansion": "AGE_OF_ASCENSION",
+            "expectedAmber": 1196760.2737496768,
+            "house": "Logos",
+            "other": 48596.396249995436,
+            "recursion": 210805.79250000595
+        },
+        {
+            "amberControl": 326684.34249989456,
+            "artifactControl": 60041.27499999994,
+            "count": 2619732,
+            "creatureControl": 1175268.8387500523,
+            "creatureProtection": 92353.55500000104,
+            "disruption": 176.88624999999996,
+            "effectivePower": 7221425.0,
+            "efficiency": 114711.9837499866,
+            "expansion": "AGE_OF_ASCENSION",
+            "expectedAmber": 974131.4550000472,
+            "house": "Mars",
+            "other": 74309.06250000256,
+            "recursion": 83640.36874998965
+        },
+        {
+            "amberControl": 698640.7249999885,
+            "artifactControl": 68369.76749999997,
+            "count": 2568072,
+            "creatureControl": 859713.8462500778,
+            "creatureProtection": 252202.92000000004,
+            "disruption": 3464.008750000001,
+            "effectivePower": 7645486.0,
+            "efficiency": 21583.960000002244,
+            "expansion": "AGE_OF_ASCENSION",
+            "expectedAmber": 1265410.003750018,
+            "house": "Sanctum",
+            "other": 37911.28750000025,
+            "recursion": 282.29125000000016
+        },
+        {
+            "amberControl": 893185.4624998298,
+            "artifactControl": 26784.482500000537,
+            "count": 2451660,
+            "creatureControl": 581391.3037500387,
+            "creatureProtection": 39056.340000000004,
+            "disruption": 88628.11874999749,
+            "effectivePower": 3261948.0,
+            "efficiency": 112025.96249998287,
+            "expansion": "AGE_OF_ASCENSION",
+            "expectedAmber": 1794048.042499979,
+            "house": "Shadows",
+            "other": 61609.77250000735,
+            "recursion": 165.3950000000001
+        },
+        {
+            "amberControl": 8798.97000000002,
+            "artifactControl": 80221.14999998892,
+            "count": 2606052,
+            "creatureControl": 616178.8249998742,
+            "creatureProtection": 146792.1575000063,
+            "disruption": 129206.76374999998,
+            "effectivePower": 5618160.0,
+            "efficiency": 9718.334999999777,
+            "expansion": "AGE_OF_ASCENSION",
+            "expectedAmber": 1532217.1712499869,
+            "house": "Untamed",
+            "other": 289612.06124999817,
+            "recursion": 371902.94499976013
+        },
+        {
+            "amberControl": 364689.96700008103,
+            "artifactControl": 6329.372500000062,
+            "count": 1846380,
+            "creatureControl": 818893.606250046,
+            "creatureProtection": 18160.664999999997,
+            "disruption": 5203.947500000058,
+            "effectivePower": 5064749.0,
+            "efficiency": -65002.25625000219,
+            "expansion": "WORLDS_COLLIDE",
+            "expectedAmber": 519159.87749998545,
+            "house": "Brobnar",
+            "other": 7397.180000000887,
+            "recursion": 512.7887500000002
+        },
+        {
+            "amberControl": 509837.2745000095,
+            "artifactControl": 56309.905,
+            "count": 1916064,
+            "creatureControl": 828604.402499846,
+            "creatureProtection": 2747.7699999999995,
+            "disruption": 334753.4375000235,
+            "effectivePower": 2333010.0,
+            "efficiency": 77193.23000000026,
+            "expansion": "WORLDS_COLLIDE",
+            "expectedAmber": 786056.5924999093,
+            "house": "Dis",
+            "other": 20527.482500000802,
+            "recursion": 197153.12499999127
+        },
+        {
+            "amberControl": 336630.9420000156,
+            "artifactControl": 41515.99000000011,
+            "count": 1922508,
+            "creatureControl": 334513.1312499568,
+            "creatureProtection": 81707.96,
+            "disruption": 10049.545000000006,
+            "effectivePower": 4073468.0,
+            "efficiency": 1328031.815000073,
+            "expansion": "WORLDS_COLLIDE",
+            "expectedAmber": 839233.9637500342,
+            "house": "Logos",
+            "other": 79830.3787500089,
+            "recursion": 14217.346250001177
+        },
+        {
+            "amberControl": 329209.9432500063,
+            "artifactControl": 22155.250000000127,
+            "count": 1806132,
+            "creatureControl": 396399.250000008,
+            "creatureProtection": 270003.0499999511,
+            "disruption": 183590.61249999877,
+            "effectivePower": 4338996.0,
+            "efficiency": 547902.3287499455,
+            "expansion": "WORLDS_COLLIDE",
+            "expectedAmber": 791071.3912500386,
+            "house": "StarAlliance",
+            "other": 47604.0350000061,
+            "recursion": 97879.50999999496
+        },
+        {
+            "amberControl": 550227.4136500137,
+            "artifactControl": 72.3675,
+            "count": 1921716,
+            "creatureControl": 578578.8475000014,
+            "creatureProtection": 427918.7850000062,
+            "disruption": 743.975,
+            "effectivePower": 5614216.0,
+            "efficiency": 38414.023749999884,
+            "expansion": "WORLDS_COLLIDE",
+            "expectedAmber": 1120788.9887499139,
+            "house": "Saurian",
+            "other": 155050.88625001587,
+            "recursion": 528.5950000000001
+        },
+        {
+            "amberControl": 688755.4952499749,
+            "artifactControl": 135597.66499999887,
+            "count": 1890288,
+            "creatureControl": 533954.9524999356,
+            "creatureProtection": 9403.609999999997,
+            "disruption": 134857.1162499806,
+            "effectivePower": 2596667.0,
+            "efficiency": 24081.699999999997,
+            "expansion": "WORLDS_COLLIDE",
+            "expectedAmber": 1069378.188750057,
+            "house": "Shadows",
+            "other": 30090.863750003115,
+            "recursion": 502.9562500000004
+        },
+        {
+            "amberControl": 56005.77424999446,
+            "artifactControl": 65305.7550000025,
+            "count": 1933032,
+            "creatureControl": 610312.8725000209,
+            "creatureProtection": 114512.38499998415,
+            "disruption": 94750.515,
+            "effectivePower": 4294831.0,
+            "efficiency": 24916.316249998927,
+            "expansion": "WORLDS_COLLIDE",
+            "expectedAmber": 1128016.9450000147,
+            "house": "Untamed",
+            "other": 206008.80375000788,
+            "recursion": 112257.24125000465
+        },
+        {
+            "amberControl": 226814.9087500088,
+            "artifactControl": 9839.655000000113,
+            "count": 1156284,
+            "creatureControl": 282696.89749999816,
+            "creatureProtection": 73764.79250000096,
+            "disruption": 3591.137499999993,
+            "effectivePower": 2226848.0,
+            "efficiency": 420973.1294999982,
+            "expansion": "MASS_MUTATION",
+            "expectedAmber": 554010.1349999799,
+            "house": "StarAlliance",
+            "other": 20115.61500000041,
+            "recursion": 8562.74124999999
+        },
+        {
+            "amberControl": 480586.67374997446,
+            "artifactControl": 18990.5225,
+            "count": 1285080,
+            "creatureControl": 672783.6524999903,
+            "creatureProtection": 29045.855000000618,
+            "disruption": 267255.5737499759,
+            "effectivePower": 1380494.0,
+            "efficiency": -66157.20999999995,
+            "expansion": "MASS_MUTATION",
+            "expectedAmber": 637889.2824999676,
+            "house": "Dis",
+            "other": 10008.727499999628,
+            "recursion": 143467.69749999818
+        },
+        {
+            "amberControl": 232809.24625001152,
+            "artifactControl": 2974.3375000000005,
+            "count": 1290336,
+            "creatureControl": 393965.3437499859,
+            "creatureProtection": 29527.560000000074,
+            "disruption": -3627.7674999999836,
+            "effectivePower": 2421207.0,
+            "efficiency": 946153.3047499643,
+            "expansion": "MASS_MUTATION",
+            "expectedAmber": 373370.81875001127,
+            "house": "Logos",
+            "other": 63370.38000000065,
+            "recursion": 41870.07625000039
+        },
+        {
+            "amberControl": 538260.7184500014,
+            "artifactControl": 34.3225,
+            "count": 1234212,
+            "creatureControl": 335035.52999999694,
+            "creatureProtection": 131806.34250001272,
+            "disruption": 78.79249999999999,
+            "effectivePower": 3190098.0,
+            "efficiency": 1010.2245000001193,
+            "expansion": "MASS_MUTATION",
+            "expectedAmber": 690432.3224999761,
+            "house": "Saurian",
+            "other": 10160.212499999783,
+            "recursion": 8909.831250000001
+        },
+        {
+            "amberControl": 385525.71349999815,
+            "artifactControl": 32453.747500000005,
+            "count": 1266732,
+            "creatureControl": 406047.37000000826,
+            "creatureProtection": 115523.73000000132,
+            "disruption": 1495.9062499999998,
+            "effectivePower": 4346388.0,
+            "efficiency": 33679.533750002105,
+            "expansion": "MASS_MUTATION",
+            "expectedAmber": 540697.0387499349,
+            "house": "Sanctum",
+            "other": 46149.63499999756,
+            "recursion": 71.06375000000001
+        },
+        {
+            "amberControl": 429463.7225000259,
+            "artifactControl": 46844.79499999945,
+            "count": 1316304,
+            "creatureControl": 335995.28249998926,
+            "creatureProtection": 73328.51000000027,
+            "disruption": 126015.37000000263,
+            "effectivePower": 1957545.0,
+            "efficiency": 7304.575000000353,
+            "expansion": "MASS_MUTATION",
+            "expectedAmber": 862760.0612500152,
+            "house": "Shadows",
+            "other": 38117.0125000025,
+            "recursion": 4537.013749999885
+        },
+        {
+            "amberControl": 73323.008749999,
+            "artifactControl": 76458.7724999989,
+            "count": 1230336,
+            "creatureControl": 301653.48875001044,
+            "creatureProtection": 77066.44499999996,
+            "disruption": 42982.4525,
+            "effectivePower": 2575161.0,
+            "efficiency": 53243.76949999812,
+            "expansion": "MASS_MUTATION",
+            "expectedAmber": 936897.8075000246,
+            "house": "Untamed",
+            "other": 121202.74375000571,
+            "recursion": 122443.60374999541
+        },
+        {
+            "amberControl": 75447.99999999821,
+            "artifactControl": 29.570000000000004,
+            "count": 397848,
+            "creatureControl": 120155.61624999746,
+            "creatureProtection": 38536.925000000374,
+            "disruption": 1502.5999999999929,
+            "effectivePower": 685978.0,
+            "efficiency": 77651.92875000008,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 277961.4312500027,
+            "house": "StarAlliance",
+            "other": -2093.9899999999952,
+            "recursion": 1605.8324999999938
+        },
+        {
+            "amberControl": 97443.34375000319,
+            "artifactControl": 11791.8125,
+            "count": 424884,
+            "creatureControl": 226723.17875000025,
+            "creatureProtection": 10485.625,
+            "disruption": 101964.78999999906,
+            "effectivePower": 937629.0,
+            "efficiency": -26410.392499999783,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 162997.92499999405,
+            "house": "Unfathomable",
+            "other": 1596.75,
+            "recursion": 4336.759999999918
+        },
+        {
+            "amberControl": 94918.1362499996,
+            "artifactControl": 1376.644999999999,
+            "count": 421032,
+            "creatureControl": 87102.56124999904,
+            "creatureProtection": 3991.7425,
+            "disruption": -25875.0124999999,
+            "effectivePower": 592719.0,
+            "efficiency": 299340.29015001,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 146466.55999999828,
+            "house": "Logos",
+            "other": 1669.9174999999836,
+            "recursion": 43391.06999999997
+        },
+        {
+            "amberControl": 100901.08974999918,
+            "artifactControl": 8.65,
+            "count": 428292,
+            "creatureControl": 113136.2025000012,
+            "creatureProtection": 19816.917500000352,
+            "disruption": 9167.062499999993,
+            "effectivePower": 1281042.0,
+            "efficiency": -547.6394999999984,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 208097.0200000004,
+            "house": "Saurian",
+            "other": 7978.64999999982,
+            "recursion": 30.4225
+        },
+        {
+            "amberControl": 118444.09499999748,
+            "artifactControl": 11260.0825,
+            "count": 432180,
+            "creatureControl": 121947.95375000016,
+            "creatureProtection": 21396.27499999999,
+            "disruption": 1617.1825000000003,
+            "effectivePower": 1427665.0,
+            "efficiency": -5560.456249999875,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 223410.0900000042,
+            "house": "Sanctum",
+            "other": 6337.802500000028,
+            "recursion": 8352.447499999918
+        },
+        {
+            "amberControl": 199432.57999999984,
+            "artifactControl": 18085.2075,
+            "count": 425676,
+            "creatureControl": 105020.1775000012,
+            "creatureProtection": 10466.404999999997,
+            "disruption": 68.97125,
+            "effectivePower": 682530.0,
+            "efficiency": 2284.9362500000047,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 293891.67999999976,
+            "house": "Shadows",
+            "other": 9230.19999999997,
+            "recursion": 9.265
+        },
+        {
+            "amberControl": 23196.4562499999,
+            "artifactControl": 34332.114999999256,
+            "count": 436272,
+            "creatureControl": 121921.36624999638,
+            "creatureProtection": 15373.199999999999,
+            "disruption": 4643.8825,
+            "effectivePower": 896289.0,
+            "efficiency": 24549.896750000295,
+            "expansion": "DARK_TIDINGS",
+            "expectedAmber": 305513.822500002,
+            "house": "Untamed",
+            "other": 19724.813750000525,
+            "recursion": 40673.12374999949
+        }
+    ],
+    "aercToWinsLosses": {
+        "37": {
+            "losses": 6,
+            "wins": 2
+        },
+        "38": {
+            "losses": 2,
+            "wins": 1
+        },
+        "39": {
+            "losses": 19,
+            "wins": 7
+        },
+        "40": {
+            "losses": 22,
+            "wins": 23
+        },
+        "41": {
+            "losses": 63,
+            "wins": 23
+        },
+        "42": {
+            "losses": 128,
+            "wins": 82
+        },
+        "43": {
+            "losses": 266,
+            "wins": 194
+        },
+        "44": {
+            "losses": 499,
+            "wins": 335
+        },
+        "45": {
+            "losses": 829,
+            "wins": 560
+        },
+        "46": {
+            "losses": 1312,
+            "wins": 1043
+        },
+        "47": {
+            "losses": 2135,
+            "wins": 1485
+        },
+        "48": {
+            "losses": 3201,
+            "wins": 2295
+        },
+        "49": {
+            "losses": 4815,
+            "wins": 3535
+        },
+        "50": {
+            "losses": 6637,
+            "wins": 4767
+        },
+        "51": {
+            "losses": 9066,
+            "wins": 6872
+        },
+        "52": {
+            "losses": 11096,
+            "wins": 8833
+        },
+        "53": {
+            "losses": 13904,
+            "wins": 10832
+        },
+        "54": {
+            "losses": 16665,
+            "wins": 13746
+        },
+        "55": {
+            "losses": 18367,
+            "wins": 15829
+        },
+        "56": {
+            "losses": 19907,
+            "wins": 17526
+        },
+        "57": {
+            "losses": 21273,
+            "wins": 19634
+        },
+        "58": {
+            "losses": 21690,
+            "wins": 20912
+        },
+        "59": {
+            "losses": 22824,
+            "wins": 22481
+        },
+        "60": {
+            "losses": 22341,
+            "wins": 23210
+        },
+        "61": {
+            "losses": 20865,
+            "wins": 22976
+        },
+        "62": {
+            "losses": 20356,
+            "wins": 22779
+        },
+        "63": {
+            "losses": 18256,
+            "wins": 21805
+        },
+        "64": {
+            "losses": 15298,
+            "wins": 18905
+        },
+        "65": {
+            "losses": 13470,
+            "wins": 17446
+        },
+        "66": {
+            "losses": 11452,
+            "wins": 15415
+        },
+        "67": {
+            "losses": 9056,
+            "wins": 13096
+        },
+        "68": {
+            "losses": 6686,
+            "wins": 10122
+        },
+        "69": {
+            "losses": 5329,
+            "wins": 7792
+        },
+        "70": {
+            "losses": 3924,
+            "wins": 6113
+        },
+        "71": {
+            "losses": 2594,
+            "wins": 4205
+        },
+        "72": {
+            "losses": 1762,
+            "wins": 3038
+        },
+        "73": {
+            "losses": 1167,
+            "wins": 2069
+        },
+        "74": {
+            "losses": 608,
+            "wins": 1243
+        },
+        "75": {
+            "losses": 375,
+            "wins": 693
+        },
+        "76": {
+            "losses": 233,
+            "wins": 499
+        },
+        "77": {
+            "losses": 96,
+            "wins": 183
+        },
+        "78": {
+            "losses": 73,
+            "wins": 149
+        },
+        "79": {
+            "losses": 37,
+            "wins": 71
+        },
+        "80": {
+            "losses": 18,
+            "wins": 41
+        },
+        "81": {
+            "losses": 16,
+            "wins": 34
+        },
+        "82": {
+            "losses": 1,
+            "wins": 11
+        },
+        "83": {
+            "losses": 3,
+            "wins": 10
+        }
+    },
+    "amberControl": {
+        "-1": 1621,
+        "-2": 217,
+        "-3": 38,
+        "-4": 3,
+        "-5": 1,
+        "0": 15334,
+        "1": 47776,
+        "10": 184310,
+        "11": 148769,
+        "12": 113777,
+        "13": 83474,
+        "14": 58257,
+        "15": 39468,
+        "16": 25376,
+        "17": 16085,
+        "18": 9900,
+        "19": 5852,
+        "2": 88958,
+        "20": 3402,
+        "21": 1938,
+        "22": 1098,
+        "23": 582,
+        "24": 285,
+        "25": 169,
+        "26": 82,
+        "27": 50,
+        "28": 24,
+        "29": 3,
+        "3": 140754,
+        "30": 4,
+        "31": 1,
+        "33": 1,
+        "4": 190028,
+        "5": 227828,
+        "6": 251378,
+        "7": 254476,
+        "8": 242975,
+        "9": 218298
+    },
+    "amberControlStats": {
+        "bottom10Percent": 3,
+        "max": 33,
+        "mean": 7.675733543736134,
+        "median": 7,
+        "min": -5,
+        "percentile40": 6,
+        "percentile60": 8,
+        "percentileForValue": {
+            "-1": 0.0792382339652161,
+            "-2": 0.010916331168612218,
+            "-3": 0.0017702158651803598,
+            "-4": 0.00016859198716003427,
+            "-5": 4.214799679000857e-05,
+            "0": 0.7255356167432074,
+            "1": 2.7391983113826566,
+            "10": 78.56365527659202,
+            "11": 84.8339706110448,
+            "12": 89.6294432418216,
+            "13": 93.14770512587077,
+            "14": 95.6031209748663,
+            "15": 97.26661811217437,
+            "16": 98.33616567871762,
+            "17": 99.01411620708491,
+            "18": 99.43138137530599,
+            "19": 99.67803145252113,
+            "2": 6.488599809828239,
+            "20": 99.82141893760074,
+            "21": 99.90310175537977,
+            "22": 99.9493802558552,
+            "23": 99.97391038998698,
+            "24": 99.98592256907213,
+            "25": 99.99304558052965,
+            "26": 99.99650171626642,
+            "27": 99.99860911610592,
+            "28": 99.9996206680289,
+            "29": 99.99974711201926,
+            "3": 12.421098950009103,
+            "30": 99.99991570400643,
+            "31": 99.9999578520032,
+            "33": 100.0,
+            "4": 20.430398484020852,
+            "5": 30.03289229669492,
+            "6": 40.627971433773695,
+            "7": 51.35362506490792,
+            "8": 61.59453458496024,
+            "9": 70.79535798822553
+        },
+        "top90Percent": 13
+    },
+    "amberControlToWinsLosses": {
+        "-1": {
+            "losses": 201,
+            "wins": 159
+        },
+        "-2": {
+            "losses": 22,
+            "wins": 12
+        },
+        "-3": {
+            "losses": 6,
+            "wins": 2
+        },
+        "0": {
+            "losses": 2197,
+            "wins": 1658
+        },
+        "1": {
+            "losses": 6342,
+            "wins": 5360
+        },
+        "10": {
+            "losses": 26855,
+            "wins": 29937
+        },
+        "11": {
+            "losses": 22311,
+            "wins": 25929
+        },
+        "12": {
+            "losses": 18782,
+            "wins": 22025
+        },
+        "13": {
+            "losses": 14162,
+            "wins": 16870
+        },
+        "14": {
+            "losses": 10494,
+            "wins": 13080
+        },
+        "15": {
+            "losses": 7677,
+            "wins": 9375
+        },
+        "16": {
+            "losses": 5290,
+            "wins": 6945
+        },
+        "17": {
+            "losses": 3242,
+            "wins": 4242
+        },
+        "18": {
+            "losses": 2159,
+            "wins": 2771
+        },
+        "19": {
+            "losses": 1439,
+            "wins": 1898
+        },
+        "2": {
+            "losses": 10943,
+            "wins": 9432
+        },
+        "20": {
+            "losses": 743,
+            "wins": 976
+        },
+        "21": {
+            "losses": 541,
+            "wins": 608
+        },
+        "22": {
+            "losses": 293,
+            "wins": 378
+        },
+        "23": {
+            "losses": 206,
+            "wins": 272
+        },
+        "24": {
+            "losses": 55,
+            "wins": 74
+        },
+        "25": {
+            "losses": 33,
+            "wins": 44
+        },
+        "26": {
+            "losses": 24,
+            "wins": 28
+        },
+        "27": {
+            "losses": 9,
+            "wins": 14
+        },
+        "28": {
+            "losses": 0,
+            "wins": 4
+        },
+        "3": {
+            "losses": 17202,
+            "wins": 14868
+        },
+        "4": {
+            "losses": 23020,
+            "wins": 20746
+        },
+        "5": {
+            "losses": 27851,
+            "wins": 25957
+        },
+        "6": {
+            "losses": 31261,
+            "wins": 30207
+        },
+        "7": {
+            "losses": 32840,
+            "wins": 32956
+        },
+        "8": {
+            "losses": 32850,
+            "wins": 34217
+        },
+        "9": {
+            "losses": 29692,
+            "wins": 31878
+        }
+    },
+    "antisynergy": {
+        "0": 696272,
+        "1": 845230,
+        "10": 321,
+        "11": 127,
+        "12": 38,
+        "13": 15,
+        "14": 6,
+        "15": 1,
+        "2": 474992,
+        "3": 217016,
+        "4": 86023,
+        "5": 32534,
+        "6": 12384,
+        "7": 4954,
+        "8": 1937,
+        "9": 742
+    },
+    "antisynergyStats": {
+        "bottom10Percent": 3,
+        "max": 0,
+        "mean": 1.3021779555861268,
+        "median": 1,
+        "min": 15,
+        "percentile40": 1,
+        "percentile60": 1,
+        "percentileForValue": {
+            "0": 100.0,
+            "1": 70.65352997902716,
+            "10": 0.02141118236932435,
+            "11": 0.007881675399731601,
+            "12": 0.002528879807400514,
+            "13": 0.0009272559293801885,
+            "14": 0.00029503597753005996,
+            "15": 4.214799679000857e-05,
+            "2": 35.02877865220822,
+            "3": 15.00881736092847,
+            "4": 5.862027689547971,
+            "5": 2.2363305616810645,
+            "6": 0.8650876341149258,
+            "7": 0.34312684186745973,
+            "8": 0.1343256657697573,
+            "9": 0.052684995987510704
+        },
+        "top90Percent": 0
+    },
+    "antisynergyToWinsLosses": {
+        "0": {
+            "losses": 99630,
+            "wins": 108014
+        },
+        "1": {
+            "losses": 118712,
+            "wins": 123340
+        },
+        "10": {
+            "losses": 34,
+            "wins": 35
+        },
+        "11": {
+            "losses": 17,
+            "wins": 19
+        },
+        "12": {
+            "losses": 5,
+            "wins": 13
+        },
+        "13": {
+            "losses": 2,
+            "wins": 1
+        },
+        "2": {
+            "losses": 64816,
+            "wins": 66144
+        },
+        "3": {
+            "losses": 28139,
+            "wins": 28265
+        },
+        "4": {
+            "losses": 11150,
+            "wins": 10841
+        },
+        "5": {
+            "losses": 3888,
+            "wins": 3961
+        },
+        "6": {
+            "losses": 1531,
+            "wins": 1474
+        },
+        "7": {
+            "losses": 518,
+            "wins": 490
+        },
+        "8": {
+            "losses": 242,
+            "wins": 259
+        },
+        "9": {
+            "losses": 58,
+            "wins": 66
+        }
+    },
+    "armorValues": {
+        "0": 506793,
+        "1": 284133,
+        "10": 73858,
+        "11": 53837,
+        "12": 38117,
+        "13": 26401,
+        "14": 17651,
+        "15": 11837,
+        "16": 8155,
+        "17": 5612,
+        "18": 4066,
+        "19": 2612,
+        "2": 257010,
+        "20": 1912,
+        "21": 1292,
+        "22": 871,
+        "23": 605,
+        "24": 436,
+        "25": 279,
+        "26": 180,
+        "27": 99,
+        "28": 68,
+        "29": 40,
+        "3": 204069,
+        "30": 20,
+        "31": 20,
+        "32": 6,
+        "33": 1,
+        "34": 3,
+        "36": 1,
+        "37": 1,
+        "4": 180764,
+        "5": 166070,
+        "6": 161963,
+        "7": 143613,
+        "8": 123100,
+        "9": 97097
+    },
+    "artifactControl": {
+        "0": 1095527,
+        "1": 657634,
+        "10": 2,
+        "11": 2,
+        "2": 462749,
+        "3": 105531,
+        "4": 35294,
+        "5": 12811,
+        "6": 2299,
+        "7": 563,
+        "8": 159,
+        "9": 21
+    },
+    "artifactControlStats": {
+        "bottom10Percent": 0,
+        "max": 11,
+        "mean": 0.8953052189335545,
+        "median": 1,
+        "min": 0,
+        "percentile40": 0,
+        "percentile60": 1,
+        "percentileForValue": {
+            "0": 46.17426847936771,
+            "1": 73.8922242003682,
+            "10": 99.99991570400643,
+            "11": 100.0,
+            "2": 93.39616756694788,
+            "3": 97.84408781619427,
+            "4": 99.33165921490084,
+            "5": 99.87161720177764,
+            "6": 99.96851544639786,
+            "7": 99.99224476859064,
+            "8": 99.99894630008025,
+            "9": 99.99983140801284
+        },
+        "top90Percent": 2
+    },
+    "artifactControlToWinsLosses": {
+        "0": {
+            "losses": 147555,
+            "wins": 154296
+        },
+        "1": {
+            "losses": 90943,
+            "wins": 93677
+        },
+        "2": {
+            "losses": 66261,
+            "wins": 70263
+        },
+        "3": {
+            "losses": 15968,
+            "wins": 16559
+        },
+        "4": {
+            "losses": 5406,
+            "wins": 5312
+        },
+        "5": {
+            "losses": 2094,
+            "wins": 2248
+        },
+        "6": {
+            "losses": 393,
+            "wins": 439
+        },
+        "7": {
+            "losses": 85,
+            "wins": 100
+        },
+        "8": {
+            "losses": 37,
+            "wins": 28
+        }
+    },
+    "artifactCount": {
+        "0": 71817,
+        "1": 252491,
+        "10": 3847,
+        "11": 975,
+        "12": 258,
+        "13": 62,
+        "14": 13,
+        "15": 2,
+        "2": 444511,
+        "3": 517903,
+        "4": 451923,
+        "5": 314323,
+        "6": 179637,
+        "7": 86755,
+        "8": 35464,
+        "9": 12611
+    },
+    "artifactCountStats": {
+        "bottom10Percent": 1,
+        "max": 15,
+        "mean": 3.4604162873346955,
+        "median": 3,
+        "min": 0,
+        "percentile40": 3,
+        "percentile60": 4,
+        "percentileForValue": {
+            "0": 3.026942685468045,
+            "1": 13.668932542974098,
+            "10": 99.9447861242051,
+            "11": 99.98588042107535,
+            "12": 99.99675460424717,
+            "13": 99.99936778004815,
+            "14": 99.99991570400643,
+            "15": 100.0,
+            "2": 32.404180744097594,
+            "3": 54.2327547256334,
+            "4": 73.28040387896444,
+            "5": 86.5284886739903,
+            "6": 94.09982837335707,
+            "7": 97.75637783487426,
+            "8": 99.25111439303512,
+            "9": 99.78264278055393
+        },
+        "top90Percent": 6
+    },
+    "artifactWins": {
+        "0": {
+            "losses": 11458,
+            "wins": 12522
+        },
+        "1": {
+            "losses": 39378,
+            "wins": 42484
+        },
+        "10": {
+            "losses": 440,
+            "wins": 467
+        },
+        "11": {
+            "losses": 113,
+            "wins": 76
+        },
+        "12": {
+            "losses": 29,
+            "wins": 20
+        },
+        "13": {
+            "losses": 5,
+            "wins": 5
+        },
+        "2": {
+            "losses": 64543,
+            "wins": 68400
+        },
+        "3": {
+            "losses": 73187,
+            "wins": 76467
+        },
+        "4": {
+            "losses": 60311,
+            "wins": 62659
+        },
+        "5": {
+            "losses": 40830,
+            "wins": 41423
+        },
+        "6": {
+            "losses": 22158,
+            "wins": 22286
+        },
+        "7": {
+            "losses": 10377,
+            "wins": 10322
+        },
+        "8": {
+            "losses": 4256,
+            "wins": 4194
+        },
+        "9": {
+            "losses": 1657,
+            "wins": 1597
+        }
+    },
+    "cardRatingsToWinsLosses": {},
+    "creatureControl": {
+        "0": 159,
+        "1": 2175,
+        "10": 214838,
+        "11": 212299,
+        "12": 200171,
+        "13": 179957,
+        "14": 157076,
+        "15": 132418,
+        "16": 108046,
+        "17": 86469,
+        "18": 66532,
+        "19": 51115,
+        "2": 9005,
+        "20": 38515,
+        "21": 28010,
+        "22": 20321,
+        "23": 14402,
+        "24": 10110,
+        "25": 7222,
+        "26": 5023,
+        "27": 3359,
+        "28": 2256,
+        "29": 1631,
+        "3": 23523,
+        "30": 1059,
+        "31": 763,
+        "32": 556,
+        "33": 348,
+        "34": 224,
+        "35": 141,
+        "36": 89,
+        "37": 59,
+        "38": 36,
+        "39": 25,
+        "4": 48083,
+        "40": 28,
+        "41": 4,
+        "42": 4,
+        "43": 2,
+        "45": 3,
+        "46": 1,
+        "48": 1,
+        "5": 81287,
+        "6": 118555,
+        "7": 154825,
+        "8": 186370,
+        "9": 205497
+    },
+    "creatureControlStats": {
+        "bottom10Percent": 6,
+        "max": 48,
+        "mean": 11.633495350232995,
+        "median": 11,
+        "min": 0,
+        "percentile40": 10,
+        "percentile60": 12,
+        "percentileForValue": {
+            "0": 0.006701531489611362,
+            "1": 0.09837342450787999,
+            "10": 44.01586956375137,
+            "11": 52.9638471342734,
+            "12": 61.40065379972621,
+            "13": 68.98548085806578,
+            "14": 75.60591960185316,
+            "15": 81.18707304079251,
+            "16": 85.74099550196578,
+            "17": 89.38549063640103,
+            "18": 92.18968115883388,
+            "19": 94.34407601475517,
+            "2": 0.4779161356019071,
+            "20": 95.96740611112234,
+            "21": 97.14797150121049,
+            "22": 98.00446094398025,
+            "23": 98.61147639374995,
+            "24": 99.03759264129694,
+            "25": 99.34198547411438,
+            "26": 99.55369486199059,
+            "27": 99.69526998320823,
+            "28": 99.7903558639665,
+            "29": 99.859099246731,
+            "3": 1.4693634640932787,
+            "30": 99.90373397533162,
+            "31": 99.9358928968824,
+            "32": 99.95932718309764,
+            "33": 99.97399468598057,
+            "34": 99.98343583726152,
+            "35": 99.98937870480891,
+            "36": 99.99312987652323,
+            "37": 99.99561660833383,
+            "38": 99.99713393621828,
+            "39": 99.99818763613803,
+            "4": 3.4959655937472602,
+            "40": 99.99936778004815,
+            "41": 99.99953637203531,
+            "42": 99.99970496402247,
+            "43": 99.99978926001604,
+            "45": 99.99991570400643,
+            "46": 99.9999578520032,
+            "48": 100.0,
+            "5": 6.922049808816687,
+            "6": 11.918905568256152,
+            "7": 18.44446917126923,
+            "8": 26.299591333023123,
+            "9": 34.96087822937952
+        },
+        "top90Percent": 18
+    },
+    "creatureControlToWinsLosses": {
+        "0": {
+            "losses": 20,
+            "wins": 31
+        },
+        "1": {
+            "losses": 400,
+            "wins": 367
+        },
+        "10": {
+            "losses": 30225,
+            "wins": 31619
+        },
+        "11": {
+            "losses": 29590,
+            "wins": 31181
+        },
+        "12": {
+            "losses": 27830,
+            "wins": 29934
+        },
+        "13": {
+            "losses": 25018,
+            "wins": 26555
+        },
+        "14": {
+            "losses": 21016,
+            "wins": 22495
+        },
+        "15": {
+            "losses": 17991,
+            "wins": 19216
+        },
+        "16": {
+            "losses": 14940,
+            "wins": 16011
+        },
+        "17": {
+            "losses": 11217,
+            "wins": 11845
+        },
+        "18": {
+            "losses": 8648,
+            "wins": 9130
+        },
+        "19": {
+            "losses": 6605,
+            "wins": 7048
+        },
+        "2": {
+            "losses": 1272,
+            "wins": 1213
+        },
+        "20": {
+            "losses": 4930,
+            "wins": 5105
+        },
+        "21": {
+            "losses": 3555,
+            "wins": 3815
+        },
+        "22": {
+            "losses": 2598,
+            "wins": 2566
+        },
+        "23": {
+            "losses": 1953,
+            "wins": 1942
+        },
+        "24": {
+            "losses": 1252,
+            "wins": 1244
+        },
+        "25": {
+            "losses": 957,
+            "wins": 964
+        },
+        "26": {
+            "losses": 672,
+            "wins": 702
+        },
+        "27": {
+            "losses": 370,
+            "wins": 346
+        },
+        "28": {
+            "losses": 253,
+            "wins": 277
+        },
+        "29": {
+            "losses": 207,
+            "wins": 275
+        },
+        "3": {
+            "losses": 3382,
+            "wins": 3083
+        },
+        "30": {
+            "losses": 106,
+            "wins": 102
+        },
+        "31": {
+            "losses": 119,
+            "wins": 96
+        },
+        "32": {
+            "losses": 53,
+            "wins": 60
+        },
+        "33": {
+            "losses": 41,
+            "wins": 48
+        },
+        "34": {
+            "losses": 29,
+            "wins": 36
+        },
+        "35": {
+            "losses": 8,
+            "wins": 13
+        },
+        "36": {
+            "losses": 7,
+            "wins": 3
+        },
+        "37": {
+            "losses": 1,
+            "wins": 2
+        },
+        "38": {
+            "losses": 5,
+            "wins": 3
+        },
+        "39": {
+            "losses": 5,
+            "wins": 6
+        },
+        "4": {
+            "losses": 7230,
+            "wins": 6996
+        },
+        "40": {
+            "losses": 4,
+            "wins": 2
+        },
+        "5": {
+            "losses": 11845,
+            "wins": 11701
+        },
+        "6": {
+            "losses": 17235,
+            "wins": 17073
+        },
+        "7": {
+            "losses": 22130,
+            "wins": 22574
+        },
+        "8": {
+            "losses": 26380,
+            "wins": 27330
+        },
+        "9": {
+            "losses": 28643,
+            "wins": 29913
+        }
+    },
+    "creatureCount": {
+        "10": 10219,
+        "11": 25271,
+        "12": 52992,
+        "13": 97336,
+        "14": 154222,
+        "15": 217006,
+        "16": 270822,
+        "17": 303475,
+        "18": 305885,
+        "19": 277753,
+        "20": 229251,
+        "21": 171103,
+        "22": 115717,
+        "23": 70615,
+        "24": 39086,
+        "25": 19239,
+        "26": 8346,
+        "27": 3153,
+        "28": 1098,
+        "29": 3
+    },
+    "creatureCountStats": {
+        "bottom10Percent": 14,
+        "max": 29,
+        "mean": 17.732169711437955,
+        "median": 18,
+        "min": 10,
+        "percentile40": 17,
+        "percentile60": 18,
+        "percentileForValue": {
+            "10": 0.43071037919709754,
+            "11": 1.495832406077404,
+            "12": 3.729339051973538,
+            "13": 7.831856467525811,
+            "14": 14.332004828474512,
+            "15": 23.478373019887112,
+            "16": 34.89297780655081,
+            "17": 47.68384113239866,
+            "18": 60.57628113051043,
+            "19": 72.28301368292568,
+            "20": 81.94548409503193,
+            "21": 89.15713278979277,
+            "22": 94.03437253434218,
+            "23": 97.01065332766865,
+            "24": 98.65804993020292,
+            "25": 99.46893524044589,
+            "26": 99.8207024216553,
+            "27": 99.9535950555342,
+            "28": 99.99987355600963,
+            "29": 100.0
+        },
+        "top90Percent": 22
+    },
+    "creatureProtection": {
+        "0": 486214,
+        "1": 888268,
+        "10": 1303,
+        "11": 576,
+        "12": 230,
+        "13": 102,
+        "14": 48,
+        "15": 18,
+        "16": 7,
+        "17": 1,
+        "19": 1,
+        "2": 504288,
+        "3": 253906,
+        "4": 118001,
+        "5": 64650,
+        "6": 30196,
+        "7": 15114,
+        "8": 6737,
+        "9": 2932
+    },
+    "creatureProtectionStats": {
+        "bottom10Percent": 0,
+        "max": 19,
+        "mean": 1.6208501082360558,
+        "median": 1,
+        "min": 0,
+        "percentile40": 1,
+        "percentile60": 2,
+        "percentileForValue": {
+            "0": 20.492946111257226,
+            "1": 57.93166292392455,
+            "10": 99.95856851915542,
+            "11": 99.98284576530646,
+            "12": 99.99253980456817,
+            "13": 99.99683890024075,
+            "14": 99.99886200408667,
+            "15": 99.9996206680289,
+            "16": 99.99991570400643,
+            "17": 99.9999578520032,
+            "19": 100.0,
+            "2": 79.18639192916439,
+            "3": 89.8880212021283,
+            "4": 94.86152697134611,
+            "5": 97.58639496382015,
+            "6": 98.85909587489125,
+            "7": 99.49612069837545,
+            "8": 99.78007175274973,
+            "9": 99.90364967933805
+        },
+        "top90Percent": 4
+    },
+    "creatureProtectionToWinsLosses": {
+        "0": {
+            "losses": 68703,
+            "wins": 73755
+        },
+        "1": {
+            "losses": 111701,
+            "wins": 113106
+        },
+        "10": {
+            "losses": 326,
+            "wins": 379
+        },
+        "11": {
+            "losses": 167,
+            "wins": 190
+        },
+        "12": {
+            "losses": 63,
+            "wins": 45
+        },
+        "13": {
+            "losses": 22,
+            "wins": 34
+        },
+        "14": {
+            "losses": 19,
+            "wins": 24
+        },
+        "15": {
+            "losses": 3,
+            "wins": 1
+        },
+        "2": {
+            "losses": 67547,
+            "wins": 68812
+        },
+        "3": {
+            "losses": 36749,
+            "wins": 39368
+        },
+        "4": {
+            "losses": 19768,
+            "wins": 21503
+        },
+        "5": {
+            "losses": 11501,
+            "wins": 12432
+        },
+        "6": {
+            "losses": 6348,
+            "wins": 6883
+        },
+        "7": {
+            "losses": 3428,
+            "wins": 3769
+        },
+        "8": {
+            "losses": 1546,
+            "wins": 1711
+        },
+        "9": {
+            "losses": 851,
+            "wins": 910
+        }
+    },
+    "creatureWins": {
+        "10": {
+            "losses": 1218,
+            "wins": 1571
+        },
+        "11": {
+            "losses": 3053,
+            "wins": 3796
+        },
+        "12": {
+            "losses": 6682,
+            "wins": 7598
+        },
+        "13": {
+            "losses": 12385,
+            "wins": 13921
+        },
+        "14": {
+            "losses": 19979,
+            "wins": 21916
+        },
+        "15": {
+            "losses": 28179,
+            "wins": 30407
+        },
+        "16": {
+            "losses": 35837,
+            "wins": 38115
+        },
+        "17": {
+            "losses": 41709,
+            "wins": 43275
+        },
+        "18": {
+            "losses": 42205,
+            "wins": 43718
+        },
+        "19": {
+            "losses": 38897,
+            "wins": 39762
+        },
+        "20": {
+            "losses": 33166,
+            "wins": 33790
+        },
+        "21": {
+            "losses": 25526,
+            "wins": 25762
+        },
+        "22": {
+            "losses": 18067,
+            "wins": 18215
+        },
+        "23": {
+            "losses": 10595,
+            "wins": 10188
+        },
+        "24": {
+            "losses": 6250,
+            "wins": 6103
+        },
+        "25": {
+            "losses": 2996,
+            "wins": 2867
+        },
+        "26": {
+            "losses": 1293,
+            "wins": 1237
+        },
+        "27": {
+            "losses": 467,
+            "wins": 461
+        },
+        "28": {
+            "losses": 237,
+            "wins": 217
+        },
+        "29": {
+            "losses": 1,
+            "wins": 3
+        }
+    },
+    "disruption": {
+        "-1": 13631,
+        "-2": 15472,
+        "-3": 1252,
+        "-4": 501,
+        "-5": 68,
+        "-6": 13,
+        "0": 690132,
+        "1": 542897,
+        "10": 23616,
+        "11": 16090,
+        "12": 10987,
+        "13": 7100,
+        "14": 4252,
+        "15": 2630,
+        "16": 1654,
+        "17": 958,
+        "18": 587,
+        "19": 268,
+        "2": 266716,
+        "20": 157,
+        "21": 90,
+        "22": 65,
+        "23": 14,
+        "24": 13,
+        "25": 6,
+        "26": 4,
+        "27": 1,
+        "3": 253681,
+        "4": 159330,
+        "5": 120126,
+        "6": 91151,
+        "7": 66603,
+        "8": 48840,
+        "9": 33687
+    },
+    "disruptionStats": {
+        "bottom10Percent": 0,
+        "max": 27,
+        "mean": 2.3323243102901805,
+        "median": 1,
+        "min": -6,
+        "percentile40": 1,
+        "percentile60": 2,
+        "percentileForValue": {
+            "-1": 1.303932576692495,
+            "-2": 0.7294132324478882,
+            "-3": 0.07729942611287571,
+            "-4": 0.024530134131784984,
+            "-5": 0.0034139877399906936,
+            "-6": 0.0005479239582701113,
+            "0": 30.391613897374686,
+            "1": 53.27363491067997,
+            "10": 98.10856649605158,
+            "11": 98.78672776440281,
+            "12": 99.24980780513464,
+            "13": 99.5490585823437,
+            "14": 99.72827186469482,
+            "15": 99.83912109625254,
+            "16": 99.90883388294321,
+            "17": 99.94921166386804,
+            "18": 99.97395253798378,
+            "19": 99.9852482011235,
+            "2": 64.5151800225239,
+            "20": 99.99186543661953,
+            "21": 99.99565875633063,
+            "22": 99.99839837612198,
+            "23": 99.99898844807704,
+            "24": 99.99953637203531,
+            "25": 99.99978926001604,
+            "26": 99.9999578520032,
+            "27": 100.0,
+            "3": 75.20732599621005,
+            "4": 81.92276632476212,
+            "5": 86.98583658715869,
+            "6": 90.82766864256476,
+            "7": 93.6348516727697,
+            "8": 95.69335983599372,
+            "9": 97.11319940385873
+        },
+        "top90Percent": 6
+    },
+    "disruptionToWinsLosses": {
+        "-1": {
+            "losses": 847,
+            "wins": 910
+        },
+        "-2": {
+            "losses": 1247,
+            "wins": 1333
+        },
+        "-3": {
+            "losses": 17,
+            "wins": 33
+        },
+        "-4": {
+            "losses": 42,
+            "wins": 51
+        },
+        "0": {
+            "losses": 84094,
+            "wins": 83253
+        },
+        "1": {
+            "losses": 73987,
+            "wins": 75903
+        },
+        "10": {
+            "losses": 3844,
+            "wins": 4700
+        },
+        "11": {
+            "losses": 2769,
+            "wins": 3449
+        },
+        "12": {
+            "losses": 2070,
+            "wins": 2660
+        },
+        "13": {
+            "losses": 1174,
+            "wins": 1671
+        },
+        "14": {
+            "losses": 827,
+            "wins": 1171
+        },
+        "15": {
+            "losses": 556,
+            "wins": 803
+        },
+        "16": {
+            "losses": 397,
+            "wins": 554
+        },
+        "17": {
+            "losses": 283,
+            "wins": 380
+        },
+        "18": {
+            "losses": 118,
+            "wins": 172
+        },
+        "19": {
+            "losses": 79,
+            "wins": 138
+        },
+        "2": {
+            "losses": 39373,
+            "wins": 40318
+        },
+        "20": {
+            "losses": 81,
+            "wins": 118
+        },
+        "21": {
+            "losses": 39,
+            "wins": 52
+        },
+        "22": {
+            "losses": 13,
+            "wins": 13
+        },
+        "23": {
+            "losses": 3,
+            "wins": 5
+        },
+        "26": {
+            "losses": 7,
+            "wins": 7
+        },
+        "3": {
+            "losses": 37939,
+            "wins": 39456
+        },
+        "4": {
+            "losses": 23823,
+            "wins": 24756
+        },
+        "5": {
+            "losses": 18287,
+            "wins": 19888
+        },
+        "6": {
+            "losses": 14126,
+            "wins": 15320
+        },
+        "7": {
+            "losses": 10089,
+            "wins": 11094
+        },
+        "8": {
+            "losses": 7617,
+            "wins": 8655
+        },
+        "9": {
+            "losses": 4994,
+            "wins": 6059
+        }
+    },
+    "effectivePower": {
+        "-1": 119,
+        "-10": 19,
+        "-11": 21,
+        "-12": 14,
+        "-13": 20,
+        "-14": 9,
+        "-15": 8,
+        "-16": 7,
+        "-17": 8,
+        "-18": 11,
+        "-19": 7,
+        "-2": 84,
+        "-20": 5,
+        "-21": 4,
+        "-22": 8,
+        "-23": 3,
+        "-24": 2,
+        "-25": 4,
+        "-26": 4,
+        "-28": 2,
+        "-29": 1,
+        "-3": 76,
+        "-31": 1,
+        "-32": 2,
+        "-35": 1,
+        "-4": 63,
+        "-49": 1,
+        "-5": 49,
+        "-6": 41,
+        "-7": 27,
+        "-8": 47,
+        "-9": 33,
+        "0": 127,
+        "1": 132,
+        "10": 479,
+        "100": 21557,
+        "101": 20837,
+        "102": 19493,
+        "103": 18534,
+        "104": 17843,
+        "105": 16719,
+        "106": 15863,
+        "107": 14554,
+        "108": 13809,
+        "109": 13003,
+        "11": 544,
+        "110": 12237,
+        "111": 11542,
+        "112": 11015,
+        "113": 10126,
+        "114": 9521,
+        "115": 8696,
+        "116": 8178,
+        "117": 7460,
+        "118": 7024,
+        "119": 6639,
+        "12": 639,
+        "120": 6060,
+        "121": 5516,
+        "122": 5145,
+        "123": 4696,
+        "124": 4378,
+        "125": 3925,
+        "126": 3691,
+        "127": 3389,
+        "128": 3070,
+        "129": 2749,
+        "13": 696,
+        "130": 2532,
+        "131": 2289,
+        "132": 2085,
+        "133": 1929,
+        "134": 1698,
+        "135": 1608,
+        "136": 1387,
+        "137": 1261,
+        "138": 1150,
+        "139": 951,
+        "14": 777,
+        "140": 895,
+        "141": 794,
+        "142": 758,
+        "143": 735,
+        "144": 566,
+        "145": 556,
+        "146": 440,
+        "147": 414,
+        "148": 377,
+        "149": 319,
+        "15": 949,
+        "150": 304,
+        "151": 241,
+        "152": 226,
+        "153": 213,
+        "154": 163,
+        "155": 172,
+        "156": 123,
+        "157": 99,
+        "158": 111,
+        "159": 97,
+        "16": 1051,
+        "160": 77,
+        "161": 62,
+        "162": 67,
+        "163": 51,
+        "164": 51,
+        "165": 36,
+        "166": 37,
+        "167": 32,
+        "168": 26,
+        "169": 17,
+        "17": 1170,
+        "170": 23,
+        "171": 17,
+        "172": 10,
+        "173": 17,
+        "174": 7,
+        "175": 10,
+        "176": 15,
+        "177": 8,
+        "178": 7,
+        "179": 8,
+        "18": 1330,
+        "180": 3,
+        "181": 2,
+        "182": 5,
+        "183": 4,
+        "184": 3,
+        "185": 1,
+        "186": 5,
+        "188": 1,
+        "189": 1,
+        "19": 1473,
+        "192": 1,
+        "193": 2,
+        "194": 2,
+        "196": 1,
+        "2": 150,
+        "20": 1688,
+        "21": 1887,
+        "22": 2163,
+        "23": 2299,
+        "24": 2640,
+        "25": 2965,
+        "26": 3362,
+        "27": 3606,
+        "28": 4158,
+        "29": 4533,
+        "3": 186,
+        "30": 5093,
+        "31": 5528,
+        "32": 6078,
+        "33": 6631,
+        "34": 7284,
+        "35": 8062,
+        "36": 8718,
+        "37": 9705,
+        "38": 10490,
+        "39": 11128,
+        "4": 223,
+        "40": 12259,
+        "41": 13232,
+        "42": 14040,
+        "43": 15511,
+        "44": 16265,
+        "45": 17500,
+        "46": 18365,
+        "47": 19625,
+        "48": 20818,
+        "49": 21980,
+        "5": 233,
+        "50": 23361,
+        "51": 24714,
+        "52": 26028,
+        "53": 27440,
+        "54": 28350,
+        "55": 29698,
+        "56": 30565,
+        "57": 32158,
+        "58": 33300,
+        "59": 34029,
+        "6": 255,
+        "60": 35323,
+        "61": 36211,
+        "62": 37341,
+        "63": 38371,
+        "64": 38774,
+        "65": 39383,
+        "66": 40293,
+        "67": 41348,
+        "68": 41160,
+        "69": 41502,
+        "7": 299,
+        "70": 42084,
+        "71": 42596,
+        "72": 42614,
+        "73": 42600,
+        "74": 42480,
+        "75": 42364,
+        "76": 42391,
+        "77": 41930,
+        "78": 41622,
+        "79": 41415,
+        "8": 377,
+        "80": 40626,
+        "81": 39900,
+        "82": 39376,
+        "83": 38776,
+        "84": 37870,
+        "85": 37276,
+        "86": 36289,
+        "87": 35744,
+        "88": 34193,
+        "89": 33364,
+        "9": 425,
+        "90": 32298,
+        "91": 31151,
+        "92": 30306,
+        "93": 28997,
+        "94": 28069,
+        "95": 26993,
+        "96": 26108,
+        "97": 25207,
+        "98": 23850,
+        "99": 22554
+    },
+    "effectivePowerStats": {
+        "bottom10Percent": 47,
+        "max": 196,
+        "mean": 75.21287098666775,
+        "median": 75,
+        "min": -49,
+        "percentile40": 69,
+        "percentile60": 80,
+        "percentileForValue": {
+            "-1": 0.029545745749796005,
+            "-10": 0.006827975479981387,
+            "-11": 0.006027163540971225,
+            "-12": 0.005142055608381045,
+            "-13": 0.004551983653320925,
+            "-14": 0.003709023717520754,
+            "-15": 0.0033296917464106764,
+            "-16": 0.002992507772090608,
+            "-17": 0.0026974717945605483,
+            "-18": 0.0023602878202404797,
+            "-19": 0.0018966598555503855,
+            "-2": 0.024530134131784984,
+            "-20": 0.0016016238780203254,
+            "-21": 0.0013908838940702825,
+            "-22": 0.0012222919069102484,
+            "-23": 0.0008851079325901799,
+            "-24": 0.0007586639422201541,
+            "-25": 0.0006743679486401371,
+            "-26": 0.0005057759614801028,
+            "-28": 0.00033718397432006854,
+            "-29": 0.0002528879807400514,
+            "-3": 0.020989702401424264,
+            "-31": 0.00021073998395004282,
+            "-32": 0.00016859198716003427,
+            "-35": 8.429599358001714e-05,
+            "-4": 0.017786454645383615,
+            "-49": 4.214799679000857e-05,
+            "-5": 0.015131130847613075,
+            "-6": 0.013065879004902655,
+            "-7": 0.011337811136512305,
+            "-8": 0.010199815223182073,
+            "-9": 0.00821885937405167,
+            "0": 0.03489854134212709,
+            "1": 0.040462076918408224,
+            "10": 0.1511848644857607,
+            "100": 86.89981252571027,
+            "101": 87.77805033482369,
+            "102": 88.59964123625133,
+            "103": 89.38081220875735,
+            "104": 90.13285891548146,
+            "105": 90.83753127381362,
+            "106": 91.50612494689352,
+            "107": 92.11954689217531,
+            "108": 92.70156857984854,
+            "109": 93.24961898210901,
+            "11": 0.17411337473952537,
+            "110": 93.76538401882836,
+            "111": 94.25185619777864,
+            "112": 94.71611638242058,
+            "113": 95.1429069979162,
+            "114": 95.54419807535388,
+            "115": 95.91071705543979,
+            "116": 96.25540337318849,
+            "117": 96.56982742924194,
+            "118": 96.86587495869496,
+            "119": 97.14569550938383,
+            "12": 0.20104594468834086,
+            "120": 97.40111236993128,
+            "121": 97.63360072022498,
+            "122": 97.85045216370956,
+            "123": 98.04837915663545,
+            "124": 98.2329030865821,
+            "125": 98.39833397398289,
+            "126": 98.55390223013481,
+            "127": 98.69674179125614,
+            "128": 98.82613614140148,
+            "129": 98.9420009845772,
+            "13": 0.2303809504541868,
+            "130": 99.04871971244951,
+            "131": 99.14519647710183,
+            "132": 99.233075050409,
+            "133": 99.31437853621694,
+            "134": 99.38594583476636,
+            "135": 99.45371981360469,
+            "136": 99.51217908515244,
+            "137": 99.56532770910464,
+            "138": 99.61379790541315,
+            "139": 99.65388065036045,
+            "14": 0.2631299439600235,
+            "140": 99.69160310748751,
+            "141": 99.72506861693877,
+            "142": 99.7570167985056,
+            "143": 99.78799557614626,
+            "144": 99.8118513423294,
+            "145": 99.83528562854465,
+            "146": 99.85383074713225,
+            "147": 99.87128001780331,
+            "148": 99.88716981259314,
+            "149": 99.90061502356916,
+            "15": 0.3031283929137416,
+            "150": 99.91342801459332,
+            "151": 99.92358568181972,
+            "152": 99.93311112909426,
+            "153": 99.94208865241053,
+            "154": 99.9489587758873,
+            "155": 99.95620823133518,
+            "156": 99.96139243494035,
+            "157": 99.96556508662256,
+            "158": 99.97024351426626,
+            "159": 99.97433186995488,
+            "16": 0.3474259375400406,
+            "160": 99.97757726570771,
+            "161": 99.9801904415087,
+            "162": 99.98301435729363,
+            "163": 99.98516390512992,
+            "164": 99.9873134529662,
+            "165": 99.98883078085065,
+            "166": 99.99039025673187,
+            "167": 99.99173899262915,
+            "168": 99.9928348405457,
+            "169": 99.99355135649112,
+            "17": 0.3967390937843506,
+            "170": 99.9945207604173,
+            "171": 99.99523727636273,
+            "172": 99.99565875633063,
+            "173": 99.99637527227605,
+            "174": 99.99667030825358,
+            "175": 99.9970917882215,
+            "176": 99.99772400817334,
+            "177": 99.99806119214766,
+            "178": 99.99835622812519,
+            "179": 99.99869341209951,
+            "18": 0.45279592951506203,
+            "180": 99.99881985608988,
+            "181": 99.99890415208345,
+            "182": 99.99911489206741,
+            "183": 99.99928348405457,
+            "184": 99.99940992804494,
+            "185": 99.99945207604173,
+            "186": 99.99966281602568,
+            "188": 99.99970496402247,
+            "189": 99.99974711201926,
+            "19": 0.5148799287867446,
+            "192": 99.99978926001604,
+            "193": 99.99987355600963,
+            "194": 99.9999578520032,
+            "196": 100.0,
+            "2": 0.04678427643690951,
+            "20": 0.5860257473682791,
+            "21": 0.6655590173110253,
+            "22": 0.7567251343678137,
+            "23": 0.8536233789880434,
+            "24": 0.964894090513666,
+            "25": 1.0898629009960414,
+            "26": 1.2315644662040504,
+            "27": 1.383550142628821,
+            "28": 1.5588015132816768,
+            "29": 1.7498583827307856,
+            "3": 0.0546238038398511,
+            "30": 1.9645181303822992,
+            "31": 2.1975122566374665,
+            "32": 2.4536877811271385,
+            "33": 2.7331711478416856,
+            "34": 3.040177156460108,
+            "35": 3.3799743065811567,
+            "36": 3.7474205425964513,
+            "37": 4.156466851443485,
+            "38": 4.598599337770675,
+            "39": 5.06762224604989,
+            "4": 0.06402280712402302,
+            "40": 5.584314538698605,
+            "41": 6.142016832223998,
+            "42": 6.733774707155718,
+            "43": 7.387532285365541,
+            "44": 8.07306945315503,
+            "45": 8.81065939698018,
+            "46": 9.584707358028687,
+            "47": 10.411861795032605,
+            "48": 11.289298792207004,
+            "49": 12.215711761651391,
+            "5": 0.07384329037609501,
+            "50": 13.200331114662783,
+            "51": 14.241976707331053,
+            "52": 15.339004767781397,
+            "53": 16.495545799699233,
+            "54": 17.690441508695976,
+            "55": 18.942152717365648,
+            "56": 20.23040623925226,
+            "57": 21.585801520025356,
+            "58": 22.989329813132642,
+            "59": 24.423583995899843,
+            "6": 0.08459102955754719,
+            "60": 25.912377686513317,
+            "61": 27.438598798276317,
+            "62": 29.012447146412025,
+            "63": 30.629707931241445,
+            "64": 32.263954358777234,
+            "65": 33.923868916358145,
+            "66": 35.62213815101796,
+            "67": 37.364873522291234,
+            "68": 39.099685070167986,
+            "69": 40.84891123294692,
+            "7": 0.09719328059775975,
+            "70": 42.622667529857644,
+            "71": 44.418003601124845,
+            "72": 46.214098336334274,
+            "73": 48.00960299958864,
+            "74": 49.8000499032282,
+            "75": 51.58560763924012,
+            "76": 53.37230337116537,
+            "77": 55.139568876570436,
+            "78": 56.89385279896417,
+            "79": 58.639412086022375,
+            "8": 0.11308307538759298,
+            "80": 60.35171660361326,
+            "81": 62.033421675534605,
+            "82": 63.69304119713798,
+            "83": 65.32737192066736,
+            "84": 66.92351655910498,
+            "85": 68.49462528744934,
+            "86": 70.02413394296195,
+            "87": 71.53067194022402,
+            "88": 72.97183839446478,
+            "89": 74.37806415936663,
+            "9": 0.13099597402334662,
+            "90": 75.73936015969034,
+            "91": 77.0523124076959,
+            "92": 78.32964959841388,
+            "93": 79.55181506133377,
+            "94": 80.73486718323251,
+            "95": 81.87256806058522,
+            "96": 82.97296796077876,
+            "97": 84.0353925158645,
+            "98": 85.04062223930622,
+            "99": 85.99122815890806
+        },
+        "top90Percent": 104
+    },
+    "effectivePowerToWinsLosses": {
+        "-10": {
+            "losses": 10,
+            "wins": 11
+        },
+        "-15": {
+            "losses": 7,
+            "wins": 8
+        },
+        "-20": {
+            "losses": 4,
+            "wins": 3
+        },
+        "-25": {
+            "losses": 2,
+            "wins": 1
+        },
+        "-5": {
+            "losses": 57,
+            "wins": 90
+        },
+        "0": {
+            "losses": 250,
+            "wins": 297
+        },
+        "10": {
+            "losses": 595,
+            "wins": 770
+        },
+        "100": {
+            "losses": 12320,
+            "wins": 12182
+        },
+        "105": {
+            "losses": 9309,
+            "wins": 9093
+        },
+        "110": {
+            "losses": 6930,
+            "wins": 6814
+        },
+        "115": {
+            "losses": 4822,
+            "wins": 4740
+        },
+        "120": {
+            "losses": 2905,
+            "wins": 2923
+        },
+        "125": {
+            "losses": 1981,
+            "wins": 1858
+        },
+        "130": {
+            "losses": 1195,
+            "wins": 1164
+        },
+        "135": {
+            "losses": 707,
+            "wins": 700
+        },
+        "140": {
+            "losses": 445,
+            "wins": 417
+        },
+        "145": {
+            "losses": 222,
+            "wins": 201
+        },
+        "15": {
+            "losses": 1230,
+            "wins": 1379
+        },
+        "150": {
+            "losses": 99,
+            "wins": 100
+        },
+        "155": {
+            "losses": 67,
+            "wins": 66
+        },
+        "160": {
+            "losses": 28,
+            "wins": 22
+        },
+        "165": {
+            "losses": 8,
+            "wins": 10
+        },
+        "170": {
+            "losses": 6,
+            "wins": 0
+        },
+        "175": {
+            "losses": 2,
+            "wins": 4
+        },
+        "20": {
+            "losses": 2083,
+            "wins": 2530
+        },
+        "25": {
+            "losses": 3244,
+            "wins": 3876
+        },
+        "30": {
+            "losses": 5169,
+            "wins": 6084
+        },
+        "35": {
+            "losses": 7615,
+            "wins": 8839
+        },
+        "40": {
+            "losses": 11506,
+            "wins": 13026
+        },
+        "45": {
+            "losses": 15243,
+            "wins": 17018
+        },
+        "5": {
+            "losses": 348,
+            "wins": 479
+        },
+        "50": {
+            "losses": 19061,
+            "wins": 20779
+        },
+        "55": {
+            "losses": 23416,
+            "wins": 24950
+        },
+        "60": {
+            "losses": 27001,
+            "wins": 28284
+        },
+        "65": {
+            "losses": 28199,
+            "wins": 29892
+        },
+        "70": {
+            "losses": 29184,
+            "wins": 30161
+        },
+        "75": {
+            "losses": 28339,
+            "wins": 29006
+        },
+        "80": {
+            "losses": 26287,
+            "wins": 26576
+        },
+        "85": {
+            "losses": 23464,
+            "wins": 23576
+        },
+        "90": {
+            "losses": 19474,
+            "wins": 19251
+        },
+        "95": {
+            "losses": 15908,
+            "wins": 15742
+        }
+    },
+    "efficiency": {
+        "-1": 210565,
+        "-10": 6,
+        "-11": 3,
+        "-2": 108223,
+        "-3": 51203,
+        "-4": 18062,
+        "-5": 6788,
+        "-6": 2065,
+        "-7": 534,
+        "-8": 131,
+        "-9": 46,
+        "0": 369286,
+        "1": 205096,
+        "10": 96010,
+        "11": 80463,
+        "12": 63744,
+        "13": 49087,
+        "14": 35752,
+        "15": 25555,
+        "16": 17550,
+        "17": 12065,
+        "18": 7926,
+        "19": 5307,
+        "2": 176805,
+        "20": 3388,
+        "21": 2143,
+        "22": 1427,
+        "23": 887,
+        "24": 533,
+        "25": 377,
+        "26": 202,
+        "27": 131,
+        "28": 79,
+        "29": 45,
+        "3": 130812,
+        "30": 25,
+        "31": 15,
+        "32": 9,
+        "33": 2,
+        "34": 2,
+        "35": 1,
+        "36": 1,
+        "39": 1,
+        "4": 112424,
+        "5": 113545,
+        "6": 117997,
+        "7": 120164,
+        "8": 117162,
+        "9": 108948
+    },
+    "efficiencyStats": {
+        "bottom10Percent": 0,
+        "max": 39,
+        "mean": 4.1277088517536935,
+        "median": 3,
+        "min": -11,
+        "percentile40": 1,
+        "percentile60": 5,
+        "percentileForValue": {
+            "-1": 16.759139371623945,
+            "-10": 0.00037933197111007707,
+            "-11": 0.0001264439903700257,
+            "-2": 7.884246427535792,
+            "-3": 3.322863770930695,
+            "-4": 1.1647598912918866,
+            "-5": 0.403482773270752,
+            "-6": 0.11738217106017385,
+            "-7": 0.030346557688806168,
+            "-8": 0.007839527402941592,
+            "-9": 0.002318139823450471,
+            "0": 32.32380451421905,
+            "1": 40.96819006386264,
+            "10": 87.07249286855894,
+            "11": 90.46384713427341,
+            "12": 93.1505290416557,
+            "13": 95.21944776008687,
+            "14": 96.72632294132325,
+            "15": 97.80341499929192,
+            "16": 98.54311234295656,
+            "17": 99.05162792422801,
+            "18": 99.38569294678562,
+            "19": 99.6093723657502,
+            "2": 48.42016663632011,
+            "20": 99.75216977887474,
+            "21": 99.84249293599574,
+            "22": 99.90263812741507,
+            "23": 99.94002340056782,
+            "24": 99.9624882828569,
+            "25": 99.97837807764672,
+            "26": 99.98689197299831,
+            "27": 99.9924133605778,
+            "28": 99.99574305232422,
+            "29": 99.99763971217976,
+            "3": 53.933630392414706,
+            "30": 99.99869341209951,
+            "31": 99.99932563205137,
+            "32": 99.99970496402247,
+            "33": 99.99978926001604,
+            "34": 99.99987355600963,
+            "35": 99.99991570400643,
+            "36": 99.9999578520032,
+            "39": 100.0,
+            "4": 58.672076783534635,
+            "5": 63.45777107905615,
+            "6": 68.43110825628679,
+            "7": 73.49578014256139,
+            "8": 78.43392374247237,
+            "9": 83.02586369675022
+        },
+        "top90Percent": 11
+    },
+    "efficiencyToWinsLosses": {
+        "-1": {
+            "losses": 26178,
+            "wins": 26534
+        },
+        "-2": {
+            "losses": 12761,
+            "wins": 13227
+        },
+        "-3": {
+            "losses": 5606,
+            "wins": 5626
+        },
+        "-4": {
+            "losses": 1682,
+            "wins": 1541
+        },
+        "-5": {
+            "losses": 665,
+            "wins": 625
+        },
+        "-6": {
+            "losses": 193,
+            "wins": 132
+        },
+        "-7": {
+            "losses": 28,
+            "wins": 13
+        },
+        "-8": {
+            "losses": 6,
+            "wins": 1
+        },
+        "-9": {
+            "losses": 1,
+            "wins": 2
+        },
+        "0": {
+            "losses": 48319,
+            "wins": 49811
+        },
+        "1": {
+            "losses": 26386,
+            "wins": 27041
+        },
+        "10": {
+            "losses": 15401,
+            "wins": 16360
+        },
+        "11": {
+            "losses": 12955,
+            "wins": 14183
+        },
+        "12": {
+            "losses": 10876,
+            "wins": 12133
+        },
+        "13": {
+            "losses": 9032,
+            "wins": 10123
+        },
+        "14": {
+            "losses": 6811,
+            "wins": 8249
+        },
+        "15": {
+            "losses": 5334,
+            "wins": 6219
+        },
+        "16": {
+            "losses": 3606,
+            "wins": 4402
+        },
+        "17": {
+            "losses": 2811,
+            "wins": 3585
+        },
+        "18": {
+            "losses": 1871,
+            "wins": 2497
+        },
+        "19": {
+            "losses": 1333,
+            "wins": 1709
+        },
+        "2": {
+            "losses": 23510,
+            "wins": 23998
+        },
+        "20": {
+            "losses": 919,
+            "wins": 1265
+        },
+        "21": {
+            "losses": 594,
+            "wins": 816
+        },
+        "22": {
+            "losses": 460,
+            "wins": 602
+        },
+        "23": {
+            "losses": 314,
+            "wins": 417
+        },
+        "24": {
+            "losses": 188,
+            "wins": 297
+        },
+        "25": {
+            "losses": 111,
+            "wins": 152
+        },
+        "26": {
+            "losses": 82,
+            "wins": 125
+        },
+        "27": {
+            "losses": 49,
+            "wins": 65
+        },
+        "28": {
+            "losses": 35,
+            "wins": 57
+        },
+        "29": {
+            "losses": 12,
+            "wins": 27
+        },
+        "3": {
+            "losses": 16966,
+            "wins": 16946
+        },
+        "30": {
+            "losses": 5,
+            "wins": 6
+        },
+        "31": {
+            "losses": 9,
+            "wins": 20
+        },
+        "32": {
+            "losses": 16,
+            "wins": 40
+        },
+        "4": {
+            "losses": 14535,
+            "wins": 14205
+        },
+        "5": {
+            "losses": 14337,
+            "wins": 14310
+        },
+        "6": {
+            "losses": 15458,
+            "wins": 15301
+        },
+        "7": {
+            "losses": 16291,
+            "wins": 16221
+        },
+        "8": {
+            "losses": 16360,
+            "wins": 16980
+        },
+        "9": {
+            "losses": 16636,
+            "wins": 17059
+        }
+    },
+    "expectedAmber": {
+        "1": 3,
+        "10": 30948,
+        "11": 49504,
+        "12": 74572,
+        "13": 102470,
+        "14": 133633,
+        "15": 163385,
+        "16": 187652,
+        "17": 203350,
+        "18": 210236,
+        "19": 206770,
+        "2": 12,
+        "20": 193757,
+        "21": 174052,
+        "22": 148187,
+        "23": 121367,
+        "24": 97069,
+        "25": 74020,
+        "26": 54421,
+        "27": 38553,
+        "28": 26586,
+        "29": 17931,
+        "3": 44,
+        "30": 11706,
+        "31": 7458,
+        "32": 4481,
+        "33": 2877,
+        "34": 1642,
+        "35": 952,
+        "36": 508,
+        "37": 276,
+        "38": 154,
+        "39": 79,
+        "4": 221,
+        "40": 35,
+        "41": 22,
+        "42": 8,
+        "43": 1,
+        "45": 1,
+        "47": 1,
+        "5": 633,
+        "6": 1818,
+        "7": 4326,
+        "8": 9275,
+        "9": 17596
+    },
+    "expectedAmberStats": {
+        "bottom10Percent": 13,
+        "max": 47,
+        "mean": 18.66530317897051,
+        "median": 18,
+        "min": 1,
+        "percentile40": 17,
+        "percentile60": 20,
+        "percentileForValue": {
+            "1": 0.0001264439903700257,
+            "10": 2.7343934397485956,
+            "11": 4.82088787284118,
+            "12": 7.963948289465698,
+            "13": 12.282853520537875,
+            "14": 17.91521677557709,
+            "15": 24.80156723111264,
+            "16": 32.710723124751325,
+            "17": 41.281518271999566,
+            "18": 50.14254452514381,
+            "19": 58.85748582141388,
+            "2": 0.0006322199518501285,
+            "20": 67.02395523545557,
+            "21": 74.35989837275014,
+            "22": 80.60568357307113,
+            "23": 85.72105949948411,
+            "24": 89.81232339989344,
+            "25": 92.93211812228988,
+            "26": 95.22585425559895,
+            "27": 96.85078597584415,
+            "28": 97.97133261850331,
+            "29": 98.72708834894495,
+            "3": 0.002486731810610505,
+            "30": 99.22047279936879,
+            "31": 99.53481255942867,
+            "32": 99.72367773304471,
+            "33": 99.84493751980956,
+            "34": 99.91414453053875,
+            "35": 99.95426942348284,
+            "36": 99.97568060585216,
+            "37": 99.9873134529662,
+            "38": 99.99380424447187,
+            "39": 99.99713393621828,
+            "4": 0.011801439101202398,
+            "40": 99.99860911610592,
+            "41": 99.99953637203531,
+            "42": 99.99987355600963,
+            "43": 99.99991570400643,
+            "45": 99.9999578520032,
+            "47": 100.0,
+            "5": 0.03848112106927782,
+            "6": 0.11510617923351339,
+            "7": 0.2974384133470904,
+            "8": 0.6883610835744198,
+            "9": 1.4299972350914105
+        },
+        "top90Percent": 25
+    },
+    "expectedAmberToWinsLosses": {
+        "10": {
+            "losses": 3650,
+            "wins": 2954
+        },
+        "11": {
+            "losses": 6035,
+            "wins": 4895
+        },
+        "12": {
+            "losses": 9092,
+            "wins": 7486
+        },
+        "13": {
+            "losses": 12440,
+            "wins": 10695
+        },
+        "14": {
+            "losses": 16619,
+            "wins": 14362
+        },
+        "15": {
+            "losses": 19826,
+            "wins": 18114
+        },
+        "16": {
+            "losses": 23225,
+            "wins": 21618
+        },
+        "17": {
+            "losses": 25313,
+            "wins": 24243
+        },
+        "18": {
+            "losses": 27113,
+            "wins": 26941
+        },
+        "19": {
+            "losses": 27325,
+            "wins": 27911
+        },
+        "2": {
+            "losses": 3,
+            "wins": 2
+        },
+        "20": {
+            "losses": 26671,
+            "wins": 28221
+        },
+        "21": {
+            "losses": 24944,
+            "wins": 26629
+        },
+        "22": {
+            "losses": 21798,
+            "wins": 24235
+        },
+        "23": {
+            "losses": 17944,
+            "wins": 20763
+        },
+        "24": {
+            "losses": 15574,
+            "wins": 18945
+        },
+        "25": {
+            "losses": 12384,
+            "wins": 14760
+        },
+        "26": {
+            "losses": 9768,
+            "wins": 12174
+        },
+        "27": {
+            "losses": 7341,
+            "wins": 9333
+        },
+        "28": {
+            "losses": 5326,
+            "wins": 7276
+        },
+        "29": {
+            "losses": 3936,
+            "wins": 5451
+        },
+        "3": {
+            "losses": 4,
+            "wins": 1
+        },
+        "30": {
+            "losses": 2642,
+            "wins": 3908
+        },
+        "31": {
+            "losses": 2075,
+            "wins": 3065
+        },
+        "32": {
+            "losses": 1216,
+            "wins": 1907
+        },
+        "33": {
+            "losses": 925,
+            "wins": 1460
+        },
+        "34": {
+            "losses": 606,
+            "wins": 979
+        },
+        "35": {
+            "losses": 435,
+            "wins": 712
+        },
+        "36": {
+            "losses": 184,
+            "wins": 290
+        },
+        "37": {
+            "losses": 167,
+            "wins": 284
+        },
+        "38": {
+            "losses": 34,
+            "wins": 62
+        },
+        "39": {
+            "losses": 46,
+            "wins": 85
+        },
+        "4": {
+            "losses": 22,
+            "wins": 15
+        },
+        "40": {
+            "losses": 8,
+            "wins": 15
+        },
+        "41": {
+            "losses": 4,
+            "wins": 6
+        },
+        "42": {
+            "losses": 1,
+            "wins": 10
+        },
+        "45": {
+            "losses": 3,
+            "wins": 8
+        },
+        "5": {
+            "losses": 84,
+            "wins": 63
+        },
+        "6": {
+            "losses": 229,
+            "wins": 155
+        },
+        "7": {
+            "losses": 544,
+            "wins": 380
+        },
+        "8": {
+            "losses": 1052,
+            "wins": 847
+        },
+        "9": {
+            "losses": 2134,
+            "wins": 1662
+        }
+    },
+    "housesWins": {
+        "Brobnar": {
+            "losses": 109248,
+            "wins": 106958
+        },
+        "Dis": {
+            "losses": 152761,
+            "wins": 162710
+        },
+        "Logos": {
+            "losses": 150127,
+            "wins": 158242
+        },
+        "Mars": {
+            "losses": 80927,
+            "wins": 77513
+        },
+        "Sanctum": {
+            "losses": 99204,
+            "wins": 100275
+        },
+        "Saurian": {
+            "losses": 49647,
+            "wins": 52605
+        },
+        "Shadows": {
+            "losses": 163169,
+            "wins": 185451
+        },
+        "StarAlliance": {
+            "losses": 44836,
+            "wins": 46199
+        },
+        "Unfathomable": {
+            "losses": 229,
+            "wins": 290
+        },
+        "Untamed": {
+            "losses": 136078,
+            "wins": 138523
+        }
+    },
+    "meta": {
+        "-1": 258729,
+        "-2": 203346,
+        "-3": 115378,
+        "-4": 46901,
+        "-5": 10120,
+        "-6": 4615,
+        "-7": 1010,
+        "-8": 100,
+        "0": 539329,
+        "1": 772169,
+        "2": 362639,
+        "3": 58256
+    },
+    "metaToWinsLosses": {
+        "-1": {
+            "losses": 33940,
+            "wins": 32049
+        },
+        "-2": {
+            "losses": 26761,
+            "wins": 24877
+        },
+        "-3": {
+            "losses": 14981,
+            "wins": 13311
+        },
+        "-4": {
+            "losses": 6182,
+            "wins": 5257
+        },
+        "-5": {
+            "losses": 1388,
+            "wins": 1085
+        },
+        "-6": {
+            "losses": 725,
+            "wins": 564
+        },
+        "-7": {
+            "losses": 121,
+            "wins": 86
+        },
+        "-8": {
+            "losses": 17,
+            "wins": 12
+        },
+        "0": {
+            "losses": 72515,
+            "wins": 75868
+        },
+        "1": {
+            "losses": 106868,
+            "wins": 116524
+        },
+        "2": {
+            "losses": 55247,
+            "wins": 61786
+        },
+        "3": {
+            "losses": 9997,
+            "wins": 11503
+        }
+    },
+    "other": {
+        "-1": 1631,
+        "-2": 10,
+        "-3": 1,
+        "0": 897300,
+        "1": 766606,
+        "10": 884,
+        "11": 312,
+        "12": 147,
+        "13": 91,
+        "14": 32,
+        "15": 22,
+        "16": 7,
+        "17": 7,
+        "18": 3,
+        "19": 1,
+        "2": 375756,
+        "3": 160963,
+        "4": 89419,
+        "5": 45713,
+        "6": 18548,
+        "7": 9083,
+        "8": 3962,
+        "9": 2094
+    },
+    "otherStats": {
+        "bottom10Percent": 0,
+        "max": 19,
+        "mean": 1.1916528421237196,
+        "median": 1,
+        "min": -3,
+        "percentile40": 1,
+        "percentile60": 1,
+        "percentileForValue": {
+            "-1": 0.06920701072919407,
+            "-2": 0.00046362796469009423,
+            "-3": 4.214799679000857e-05,
+            "0": 37.88860453040388,
+            "1": 70.19951175760518,
+            "10": 99.97378394599662,
+            "11": 99.9869341209951,
+            "12": 99.99312987652323,
+            "13": 99.99696534423111,
+            "14": 99.9983140801284,
+            "15": 99.99924133605778,
+            "16": 99.99953637203531,
+            "17": 99.99983140801284,
+            "18": 99.9999578520032,
+            "19": 100.0,
+            "2": 86.03687443943164,
+            "3": 92.82114244674179,
+            "4": 96.58997417170757,
+            "5": 98.51668554896924,
+            "6": 99.29844659343031,
+            "7": 99.68127684827395,
+            "8": 99.84826721155596,
+            "9": 99.93652511683425
+        },
+        "top90Percent": 3
+    },
+    "otherToWinsLosses": {
+        "-1": {
+            "losses": 206,
+            "wins": 265
+        },
+        "-2": {
+            "losses": 1,
+            "wins": 3
+        },
+        "0": {
+            "losses": 114871,
+            "wins": 120122
+        },
+        "1": {
+            "losses": 101471,
+            "wins": 103279
+        },
+        "10": {
+            "losses": 276,
+            "wins": 344
+        },
+        "11": {
+            "losses": 112,
+            "wins": 138
+        },
+        "12": {
+            "losses": 41,
+            "wins": 55
+        },
+        "13": {
+            "losses": 36,
+            "wins": 65
+        },
+        "14": {
+            "losses": 15,
+            "wins": 14
+        },
+        "15": {
+            "losses": 3,
+            "wins": 3
+        },
+        "16": {
+            "losses": 3,
+            "wins": 5
+        },
+        "2": {
+            "losses": 55928,
+            "wins": 58418
+        },
+        "3": {
+            "losses": 25155,
+            "wins": 26647
+        },
+        "4": {
+            "losses": 14789,
+            "wins": 15735
+        },
+        "5": {
+            "losses": 8398,
+            "wins": 9334
+        },
+        "6": {
+            "losses": 3750,
+            "wins": 4314
+        },
+        "7": {
+            "losses": 2137,
+            "wins": 2378
+        },
+        "8": {
+            "losses": 1032,
+            "wins": 1133
+        },
+        "9": {
+            "losses": 518,
+            "wins": 670
+        }
+    },
+    "power2OrLower": {
+        "0": 38417,
+        "1": 127878,
+        "10": 73652,
+        "11": 45968,
+        "12": 27261,
+        "13": 15614,
+        "14": 8534,
+        "15": 4434,
+        "16": 2067,
+        "17": 1022,
+        "18": 400,
+        "19": 156,
+        "2": 233730,
+        "20": 62,
+        "21": 19,
+        "22": 4,
+        "23": 1,
+        "3": 314625,
+        "4": 351313,
+        "5": 336009,
+        "6": 287560,
+        "7": 226459,
+        "8": 164261,
+        "9": 113146
+    },
+    "power3OrHigher": {
+        "0": 34,
+        "1": 230,
+        "10": 215585,
+        "11": 253457,
+        "12": 272584,
+        "13": 270982,
+        "14": 247738,
+        "15": 209369,
+        "16": 162967,
+        "17": 117748,
+        "18": 78213,
+        "19": 47794,
+        "2": 1205,
+        "20": 27494,
+        "21": 13940,
+        "22": 6759,
+        "23": 2879,
+        "24": 1079,
+        "25": 402,
+        "26": 119,
+        "27": 22,
+        "28": 1,
+        "3": 3930,
+        "4": 10292,
+        "5": 22603,
+        "6": 43757,
+        "7": 75420,
+        "8": 118728,
+        "9": 167261
+    },
+    "power3OrLower": {
+        "0": 735,
+        "1": 5459,
+        "10": 263496,
+        "11": 226993,
+        "12": 180665,
+        "13": 133652,
+        "14": 93246,
+        "15": 60028,
+        "16": 36224,
+        "17": 20317,
+        "18": 10840,
+        "19": 5331,
+        "2": 19357,
+        "20": 2454,
+        "21": 1039,
+        "22": 392,
+        "23": 146,
+        "24": 40,
+        "25": 5,
+        "26": 2,
+        "3": 48293,
+        "4": 92514,
+        "5": 147975,
+        "6": 204927,
+        "7": 253455,
+        "8": 281032,
+        "9": 283975
+    },
+    "power4OrHigher": {
+        "0": 1479,
+        "1": 8711,
+        "10": 254082,
+        "11": 206784,
+        "12": 157101,
+        "13": 109248,
+        "14": 71435,
+        "15": 43156,
+        "16": 24284,
+        "17": 12639,
+        "18": 6041,
+        "19": 2639,
+        "2": 28309,
+        "20": 1085,
+        "21": 428,
+        "22": 151,
+        "23": 45,
+        "24": 14,
+        "25": 2,
+        "3": 64549,
+        "4": 116089,
+        "5": 176550,
+        "6": 233621,
+        "7": 276260,
+        "8": 292825,
+        "9": 285065
+    },
+    "power5OrHigher": {
+        "0": 33269,
+        "1": 113748,
+        "10": 93206,
+        "11": 55630,
+        "12": 30537,
+        "13": 14985,
+        "14": 6909,
+        "15": 2939,
+        "16": 1143,
+        "17": 340,
+        "18": 117,
+        "19": 31,
+        "2": 210684,
+        "20": 12,
+        "22": 1,
+        "3": 286558,
+        "4": 322855,
+        "5": 322146,
+        "6": 293816,
+        "7": 248199,
+        "8": 194589,
+        "9": 140878
+    },
+    "raresWins": {
+        "0": {
+            "losses": 5,
+            "wins": 4
+        },
+        "1": {
+            "losses": 750,
+            "wins": 833
+        },
+        "10": {
+            "losses": 295,
+            "wins": 291
+        },
+        "11": {
+            "losses": 108,
+            "wins": 82
+        },
+        "12": {
+            "losses": 35,
+            "wins": 39
+        },
+        "13": {
+            "losses": 3,
+            "wins": 1
+        },
+        "14": {
+            "losses": 3,
+            "wins": 4
+        },
+        "2": {
+            "losses": 81985,
+            "wins": 85314
+        },
+        "3": {
+            "losses": 110702,
+            "wins": 115194
+        },
+        "4": {
+            "losses": 76244,
+            "wins": 80257
+        },
+        "5": {
+            "losses": 37126,
+            "wins": 38583
+        },
+        "6": {
+            "losses": 14329,
+            "wins": 14944
+        },
+        "7": {
+            "losses": 4828,
+            "wins": 4982
+        },
+        "8": {
+            "losses": 1544,
+            "wins": 1632
+        },
+        "9": {
+            "losses": 785,
+            "wins": 762
+        }
+    },
+    "recursion": {
+        "0": 856351,
+        "1": 537796,
+        "10": 5202,
+        "11": 2662,
+        "12": 1275,
+        "13": 668,
+        "14": 273,
+        "15": 129,
+        "16": 58,
+        "17": 28,
+        "18": 15,
+        "19": 3,
+        "2": 339505,
+        "20": 2,
+        "3": 227672,
+        "4": 171956,
+        "5": 105093,
+        "6": 59442,
+        "7": 34313,
+        "8": 19922,
+        "9": 10227
+    },
+    "recursionStats": {
+        "bottom10Percent": 0,
+        "max": 20,
+        "mean": 1.7171882059789463,
+        "median": 1,
+        "min": 0,
+        "percentile40": 1,
+        "percentile60": 2,
+        "percentileForValue": {
+            "0": 36.09347919912062,
+            "1": 58.76050328080007,
+            "10": 99.78449729241268,
+            "11": 99.89669525986768,
+            "12": 99.95043395577495,
+            "13": 99.97858881763068,
+            "14": 99.99009522075434,
+            "15": 99.99553231234026,
+            "16": 99.99797689615409,
+            "17": 99.9991570400642,
+            "18": 99.99978926001604,
+            "19": 99.99991570400643,
+            "2": 73.06995893099193,
+            "20": 100.0,
+            "3": 82.66587765616676,
+            "4": 89.91347859218948,
+            "5": 94.34293801884183,
+            "6": 96.84829924403353,
+            "7": 98.2945234578891,
+            "8": 99.13419584993964,
+            "9": 99.56524341311106
+        },
+        "top90Percent": 5
+    },
+    "recursionToWinsLosses": {
+        "0": {
+            "losses": 113502,
+            "wins": 118501
+        },
+        "1": {
+            "losses": 71695,
+            "wins": 72367
+        },
+        "10": {
+            "losses": 988,
+            "wins": 1160
+        },
+        "11": {
+            "losses": 457,
+            "wins": 546
+        },
+        "12": {
+            "losses": 263,
+            "wins": 316
+        },
+        "13": {
+            "losses": 97,
+            "wins": 156
+        },
+        "14": {
+            "losses": 72,
+            "wins": 119
+        },
+        "15": {
+            "losses": 26,
+            "wins": 40
+        },
+        "16": {
+            "losses": 7,
+            "wins": 12
+        },
+        "17": {
+            "losses": 5,
+            "wins": 11
+        },
+        "18": {
+            "losses": 4,
+            "wins": 4
+        },
+        "2": {
+            "losses": 47479,
+            "wins": 47612
+        },
+        "3": {
+            "losses": 31949,
+            "wins": 33837
+        },
+        "4": {
+            "losses": 25151,
+            "wins": 27485
+        },
+        "5": {
+            "losses": 16371,
+            "wins": 17500
+        },
+        "6": {
+            "losses": 9384,
+            "wins": 10433
+        },
+        "7": {
+            "losses": 5748,
+            "wins": 6430
+        },
+        "8": {
+            "losses": 3666,
+            "wins": 4286
+        },
+        "9": {
+            "losses": 1878,
+            "wins": 2107
+        }
+    },
+    "sas": {
+        "100": 6,
+        "101": 4,
+        "102": 4,
+        "103": 2,
+        "104": 2,
+        "105": 1,
+        "107": 1,
+        "33": 1,
+        "35": 3,
+        "36": 3,
+        "37": 12,
+        "38": 21,
+        "39": 50,
+        "40": 87,
+        "41": 203,
+        "42": 362,
+        "43": 643,
+        "44": 1085,
+        "45": 1824,
+        "46": 3038,
+        "47": 4904,
+        "48": 7438,
+        "49": 10750,
+        "50": 15442,
+        "51": 20953,
+        "52": 28512,
+        "53": 37535,
+        "54": 47976,
+        "55": 59886,
+        "56": 72541,
+        "57": 86383,
+        "58": 99458,
+        "59": 113126,
+        "60": 123343,
+        "61": 132909,
+        "62": 139444,
+        "63": 142822,
+        "64": 142439,
+        "65": 137946,
+        "66": 132080,
+        "67": 122731,
+        "68": 112319,
+        "69": 100343,
+        "70": 87978,
+        "71": 75313,
+        "72": 63618,
+        "73": 52814,
+        "74": 43288,
+        "75": 34780,
+        "76": 27788,
+        "77": 21814,
+        "78": 17075,
+        "79": 12953,
+        "80": 9672,
+        "81": 7326,
+        "82": 5366,
+        "83": 4099,
+        "84": 2956,
+        "85": 2127,
+        "86": 1549,
+        "87": 1047,
+        "88": 729,
+        "89": 499,
+        "90": 369,
+        "91": 291,
+        "92": 147,
+        "93": 105,
+        "94": 86,
+        "95": 56,
+        "96": 51,
+        "97": 29,
+        "98": 15,
+        "99": 20
+    },
+    "sasStats": {
+        "bottom10Percent": 55,
+        "max": 107,
+        "mean": 63.948106964872174,
+        "median": 64,
+        "min": 33,
+        "percentile40": 62,
+        "percentile60": 65,
+        "percentileForValue": {
+            "100": 99.99940992804494,
+            "101": 99.9995785200321,
+            "102": 99.99974711201926,
+            "103": 99.99983140801284,
+            "104": 99.99991570400643,
+            "105": 99.9999578520032,
+            "107": 100.0,
+            "33": 4.214799679000857e-05,
+            "35": 0.00016859198716003427,
+            "36": 0.00029503597753005996,
+            "37": 0.0008008119390101627,
+            "38": 0.0016859198716003426,
+            "39": 0.003793319711100771,
+            "40": 0.007460195431831516,
+            "41": 0.016016238780203255,
+            "42": 0.031273813618186354,
+            "43": 0.058374975554161865,
+            "44": 0.10410555207132115,
+            "45": 0.18098349821629678,
+            "46": 0.3090291124643428,
+            "47": 0.5157228887225448,
+            "48": 0.8292196888466284,
+            "49": 1.2823106543392206,
+            "50": 1.9331600207705328,
+            "51": 2.816286997511582,
+            "52": 4.018010681988306,
+            "53": 5.600035741501278,
+            "54": 7.622128035498728,
+            "55": 10.146202971265181,
+            "56": 13.203660806409193,
+            "57": 16.844531213120504,
+            "58": 21.036486677861173,
+            "59": 25.804520962727683,
+            "60": 31.00318133079771,
+            "61": 36.60502943616096,
+            "62": 42.482314700546915,
+            "63": 48.50197589808952,
+            "64": 54.505494412861545,
+            "65": 60.31964197805607,
+            "66": 65.8865493940804,
+            "67": 71.05941518811494,
+            "68": 75.79343603957192,
+            "69": 80.02269248147174,
+            "70": 83.73078894306312,
+            "71": 86.90508102530903,
+            "72": 89.58645228509579,
+            "73": 91.8124565875633,
+            "74": 93.6369590726092,
+            "75": 95.1028664009657,
+            "76": 96.27407493576645,
+            "77": 97.1934913377437,
+            "78": 97.9131683829331,
+            "79": 98.45911138535408,
+            "80": 98.86676681030704,
+            "81": 99.17554303479064,
+            "82": 99.40170918556584,
+            "83": 99.57447382440807,
+            "84": 99.69906330291934,
+            "85": 99.78871209209169,
+            "86": 99.85399933911941,
+            "87": 99.89812829175855,
+            "88": 99.92885418141847,
+            "89": 99.94988603181667,
+            "90": 99.9654386426322,
+            "91": 99.97770370969809,
+            "92": 99.98389946522622,
+            "93": 99.98832500488916,
+            "94": 99.99194973261311,
+            "95": 99.99431002043335,
+            "96": 99.99645956826964,
+            "97": 99.99768186017656,
+            "98": 99.9983140801284,
+            "99": 99.9991570400642
+        },
+        "top90Percent": 73
+    },
+    "sasToWinsLosses": {
+        "100": {
+            "losses": 2,
+            "wins": 10
+        },
+        "102": {
+            "losses": 3,
+            "wins": 5
+        },
+        "103": {
+            "losses": 1,
+            "wins": 10
+        },
+        "35": {
+            "losses": 1,
+            "wins": 3
+        },
+        "38": {
+            "losses": 6,
+            "wins": 2
+        },
+        "39": {
+            "losses": 7,
+            "wins": 6
+        },
+        "40": {
+            "losses": 8,
+            "wins": 7
+        },
+        "41": {
+            "losses": 36,
+            "wins": 27
+        },
+        "42": {
+            "losses": 66,
+            "wins": 36
+        },
+        "43": {
+            "losses": 72,
+            "wins": 62
+        },
+        "44": {
+            "losses": 125,
+            "wins": 81
+        },
+        "45": {
+            "losses": 243,
+            "wins": 142
+        },
+        "46": {
+            "losses": 384,
+            "wins": 279
+        },
+        "47": {
+            "losses": 558,
+            "wins": 371
+        },
+        "48": {
+            "losses": 917,
+            "wins": 597
+        },
+        "49": {
+            "losses": 1180,
+            "wins": 845
+        },
+        "50": {
+            "losses": 1685,
+            "wins": 1155
+        },
+        "51": {
+            "losses": 2350,
+            "wins": 1570
+        },
+        "52": {
+            "losses": 2912,
+            "wins": 1912
+        },
+        "53": {
+            "losses": 3928,
+            "wins": 2615
+        },
+        "54": {
+            "losses": 4807,
+            "wins": 3314
+        },
+        "55": {
+            "losses": 5982,
+            "wins": 4198
+        },
+        "56": {
+            "losses": 7046,
+            "wins": 5141
+        },
+        "57": {
+            "losses": 8207,
+            "wins": 6111
+        },
+        "58": {
+            "losses": 9582,
+            "wins": 7313
+        },
+        "59": {
+            "losses": 11073,
+            "wins": 8753
+        },
+        "60": {
+            "losses": 11923,
+            "wins": 9475
+        },
+        "61": {
+            "losses": 13205,
+            "wins": 11159
+        },
+        "62": {
+            "losses": 14605,
+            "wins": 12550
+        },
+        "63": {
+            "losses": 15312,
+            "wins": 13914
+        },
+        "64": {
+            "losses": 15739,
+            "wins": 14352
+        },
+        "65": {
+            "losses": 16032,
+            "wins": 15273
+        },
+        "66": {
+            "losses": 16424,
+            "wins": 16189
+        },
+        "67": {
+            "losses": 16317,
+            "wins": 16708
+        },
+        "68": {
+            "losses": 15866,
+            "wins": 17058
+        },
+        "69": {
+            "losses": 15435,
+            "wins": 17254
+        },
+        "70": {
+            "losses": 14837,
+            "wins": 16834
+        },
+        "71": {
+            "losses": 13776,
+            "wins": 16249
+        },
+        "72": {
+            "losses": 13078,
+            "wins": 15991
+        },
+        "73": {
+            "losses": 11349,
+            "wins": 14070
+        },
+        "74": {
+            "losses": 10412,
+            "wins": 13164
+        },
+        "75": {
+            "losses": 8871,
+            "wins": 11906
+        },
+        "76": {
+            "losses": 7989,
+            "wins": 10572
+        },
+        "77": {
+            "losses": 6852,
+            "wins": 9726
+        },
+        "78": {
+            "losses": 5682,
+            "wins": 8093
+        },
+        "79": {
+            "losses": 4929,
+            "wins": 6980
+        },
+        "80": {
+            "losses": 4141,
+            "wins": 6117
+        },
+        "81": {
+            "losses": 3299,
+            "wins": 5050
+        },
+        "82": {
+            "losses": 2769,
+            "wins": 4371
+        },
+        "83": {
+            "losses": 2154,
+            "wins": 3465
+        },
+        "84": {
+            "losses": 1683,
+            "wins": 2821
+        },
+        "85": {
+            "losses": 1268,
+            "wins": 2083
+        },
+        "86": {
+            "losses": 909,
+            "wins": 1636
+        },
+        "87": {
+            "losses": 770,
+            "wins": 1377
+        },
+        "88": {
+            "losses": 617,
+            "wins": 1151
+        },
+        "89": {
+            "losses": 339,
+            "wins": 662
+        },
+        "90": {
+            "losses": 256,
+            "wins": 519
+        },
+        "91": {
+            "losses": 202,
+            "wins": 445
+        },
+        "92": {
+            "losses": 144,
+            "wins": 296
+        },
+        "93": {
+            "losses": 95,
+            "wins": 196
+        },
+        "94": {
+            "losses": 90,
+            "wins": 193
+        },
+        "95": {
+            "losses": 77,
+            "wins": 136
+        },
+        "96": {
+            "losses": 33,
+            "wins": 104
+        },
+        "97": {
+            "losses": 51,
+            "wins": 127
+        },
+        "98": {
+            "losses": 10,
+            "wins": 25
+        },
+        "99": {
+            "losses": 21,
+            "wins": 66
+        }
+    },
+    "synergy": {
+        "-1": 721,
+        "-2": 67,
+        "-3": 5,
+        "0": 4786,
+        "1": 19686,
+        "10": 169511,
+        "11": 124959,
+        "12": 91321,
+        "13": 65965,
+        "14": 47243,
+        "15": 32528,
+        "16": 22845,
+        "17": 15758,
+        "18": 10745,
+        "19": 7238,
+        "2": 56136,
+        "20": 4645,
+        "21": 3018,
+        "22": 1902,
+        "23": 1187,
+        "24": 751,
+        "25": 449,
+        "26": 265,
+        "27": 167,
+        "28": 116,
+        "29": 72,
+        "3": 119826,
+        "30": 31,
+        "31": 19,
+        "32": 5,
+        "33": 8,
+        "34": 3,
+        "35": 2,
+        "36": 2,
+        "38": 1,
+        "39": 1,
+        "4": 199405,
+        "45": 1,
+        "5": 270471,
+        "6": 307437,
+        "7": 304769,
+        "8": 269071,
+        "9": 219454
+    },
+    "synergyStats": {
+        "bottom10Percent": 4,
+        "max": 45,
+        "mean": 7.652656672533668,
+        "median": 7,
+        "min": -3,
+        "percentile40": 6,
+        "percentile60": 8,
+        "percentileForValue": {
+            "-1": 0.03342336145447679,
+            "-2": 0.0030346557688806165,
+            "-3": 0.00021073998395004282,
+            "0": 0.23514367409145778,
+            "1": 1.0648691388995664,
+            "10": 81.82380282829918,
+            "11": 87.09057435918186,
+            "12": 90.93957157404223,
+            "13": 93.71986418229514,
+            "14": 95.71106199464552,
+            "15": 97.08205203423091,
+            "16": 98.04492302089866,
+            "17": 98.70909115431562,
+            "18": 99.16197137982427,
+            "19": 99.46703858059034,
+            "2": 3.430889086703487,
+            "20": 99.66281602567993,
+            "21": 99.79001867999217,
+            "22": 99.87018416988677,
+            "23": 99.9202138420765,
+            "24": 99.95186698766581,
+            "25": 99.97079143822452,
+            "26": 99.98196065737388,
+            "27": 99.98899937283781,
+            "28": 99.99388854046545,
+            "29": 99.99692319623433,
+            "3": 8.481314950063053,
+            "30": 99.99822978413482,
+            "31": 99.99903059607384,
+            "32": 99.99924133605778,
+            "33": 99.9995785200321,
+            "34": 99.99970496402247,
+            "35": 99.99978926001604,
+            "36": 99.99987355600963,
+            "38": 99.99991570400643,
+            "39": 99.9999578520032,
+            "4": 16.885836249974712,
+            "45": 100.0,
+            "5": 28.285647089765117,
+            "6": 41.24350077889498,
+            "7": 54.0889036125891,
+            "8": 65.4297072568735,
+            "9": 74.67925374442804
+        },
+        "top90Percent": 12
+    },
+    "synergyToWinsLosses": {
+        "-1": {
+            "losses": 58,
+            "wins": 39
+        },
+        "-2": {
+            "losses": 19,
+            "wins": 16
+        },
+        "-3": {
+            "losses": 3,
+            "wins": 1
+        },
+        "0": {
+            "losses": 639,
+            "wins": 454
+        },
+        "1": {
+            "losses": 2233,
+            "wins": 1777
+        },
+        "10": {
+            "losses": 26127,
+            "wins": 29086
+        },
+        "11": {
+            "losses": 21838,
+            "wins": 25226
+        },
+        "12": {
+            "losses": 16687,
+            "wins": 19412
+        },
+        "13": {
+            "losses": 13255,
+            "wins": 15727
+        },
+        "14": {
+            "losses": 10148,
+            "wins": 12252
+        },
+        "15": {
+            "losses": 7177,
+            "wins": 8822
+        },
+        "16": {
+            "losses": 5514,
+            "wins": 6916
+        },
+        "17": {
+            "losses": 4294,
+            "wins": 5437
+        },
+        "18": {
+            "losses": 3267,
+            "wins": 4259
+        },
+        "19": {
+            "losses": 2210,
+            "wins": 2995
+        },
+        "2": {
+            "losses": 6261,
+            "wins": 5009
+        },
+        "20": {
+            "losses": 1660,
+            "wins": 2153
+        },
+        "21": {
+            "losses": 1149,
+            "wins": 1590
+        },
+        "22": {
+            "losses": 747,
+            "wins": 1069
+        },
+        "23": {
+            "losses": 555,
+            "wins": 798
+        },
+        "24": {
+            "losses": 421,
+            "wins": 686
+        },
+        "25": {
+            "losses": 295,
+            "wins": 377
+        },
+        "26": {
+            "losses": 96,
+            "wins": 171
+        },
+        "27": {
+            "losses": 103,
+            "wins": 150
+        },
+        "28": {
+            "losses": 83,
+            "wins": 152
+        },
+        "29": {
+            "losses": 19,
+            "wins": 42
+        },
+        "3": {
+            "losses": 13322,
+            "wins": 11100
+        },
+        "30": {
+            "losses": 31,
+            "wins": 52
+        },
+        "31": {
+            "losses": 20,
+            "wins": 35
+        },
+        "32": {
+            "losses": 1,
+            "wins": 2
+        },
+        "33": {
+            "losses": 2,
+            "wins": 13
+        },
+        "34": {
+            "losses": 1,
+            "wins": 10
+        },
+        "35": {
+            "losses": 13,
+            "wins": 33
+        },
+        "4": {
+            "losses": 21578,
+            "wins": 18767
+        },
+        "45": {
+            "losses": 10,
+            "wins": 35
+        },
+        "5": {
+            "losses": 29974,
+            "wins": 27166
+        },
+        "6": {
+            "losses": 35085,
+            "wins": 33031
+        },
+        "7": {
+            "losses": 37002,
+            "wins": 37155
+        },
+        "8": {
+            "losses": 34799,
+            "wins": 36558
+        },
+        "9": {
+            "losses": 32046,
+            "wins": 34349
+        }
+    },
+    "totalCreaturePower": {
+        "100": 6348,
+        "101": 5626,
+        "102": 5090,
+        "103": 4477,
+        "104": 3917,
+        "105": 3515,
+        "106": 3163,
+        "107": 2864,
+        "108": 2473,
+        "109": 2026,
+        "110": 1826,
+        "111": 1590,
+        "112": 1421,
+        "113": 1163,
+        "114": 1032,
+        "115": 965,
+        "116": 759,
+        "117": 667,
+        "118": 638,
+        "119": 482,
+        "120": 424,
+        "121": 368,
+        "122": 329,
+        "123": 277,
+        "124": 235,
+        "125": 222,
+        "126": 142,
+        "127": 127,
+        "128": 116,
+        "129": 110,
+        "130": 71,
+        "131": 64,
+        "132": 58,
+        "133": 47,
+        "134": 31,
+        "135": 42,
+        "136": 18,
+        "137": 25,
+        "138": 20,
+        "139": 26,
+        "140": 15,
+        "141": 10,
+        "142": 11,
+        "143": 3,
+        "144": 8,
+        "145": 3,
+        "146": 1,
+        "147": 3,
+        "148": 4,
+        "149": 5,
+        "150": 1,
+        "151": 2,
+        "153": 1,
+        "154": 1,
+        "155": 2,
+        "156": 1,
+        "16": 1,
+        "163": 1,
+        "17": 1,
+        "18": 8,
+        "19": 8,
+        "20": 15,
+        "21": 48,
+        "22": 64,
+        "23": 124,
+        "24": 223,
+        "25": 304,
+        "26": 511,
+        "27": 715,
+        "28": 1080,
+        "29": 1338,
+        "30": 1812,
+        "31": 2369,
+        "32": 3117,
+        "33": 4041,
+        "34": 5136,
+        "35": 6323,
+        "36": 7645,
+        "37": 9223,
+        "38": 10714,
+        "39": 12685,
+        "40": 14748,
+        "41": 16933,
+        "42": 19477,
+        "43": 22150,
+        "44": 24516,
+        "45": 27319,
+        "46": 30255,
+        "47": 33091,
+        "48": 35700,
+        "49": 38781,
+        "50": 41252,
+        "51": 44076,
+        "52": 46896,
+        "53": 49178,
+        "54": 51345,
+        "55": 53745,
+        "56": 55378,
+        "57": 57395,
+        "58": 58822,
+        "59": 59875,
+        "60": 60636,
+        "61": 61199,
+        "62": 61840,
+        "63": 62372,
+        "64": 61701,
+        "65": 61526,
+        "66": 61000,
+        "67": 60102,
+        "68": 58459,
+        "69": 58208,
+        "70": 56530,
+        "71": 54764,
+        "72": 52786,
+        "73": 50829,
+        "74": 49097,
+        "75": 46744,
+        "76": 44889,
+        "77": 42859,
+        "78": 40520,
+        "79": 38217,
+        "80": 36231,
+        "81": 34023,
+        "82": 32096,
+        "83": 30051,
+        "84": 27597,
+        "85": 25943,
+        "86": 23863,
+        "87": 22063,
+        "88": 20207,
+        "89": 18655,
+        "90": 17380,
+        "91": 15895,
+        "92": 14495,
+        "93": 12990,
+        "94": 11699,
+        "95": 10562,
+        "96": 9705,
+        "97": 8766,
+        "98": 7749,
+        "99": 7041
+    },
+    "upgradeCount": {
+        "0": 574481,
+        "1": 756959,
+        "10": 53,
+        "11": 11,
+        "12": 1,
+        "2": 551389,
+        "3": 289677,
+        "4": 126802,
+        "5": 49035,
+        "6": 17275,
+        "7": 5178,
+        "8": 1415,
+        "9": 316
+    },
+    "upgradeCountStats": {
+        "bottom10Percent": 0,
+        "max": 12,
+        "mean": 1.532448056808756,
+        "median": 1,
+        "min": 0,
+        "percentile40": 1,
+        "percentile60": 2,
+        "percentileForValue": {
+            "0": 24.21322334392091,
+            "1": 56.117528846089,
+            "10": 99.99949422403851,
+            "11": 99.9999578520032,
+            "12": 100.0,
+            "2": 79.35747064813503,
+            "3": 91.56677591427434,
+            "4": 96.91122620324101,
+            "5": 98.97795322583909,
+            "6": 99.70605987038648,
+            "7": 99.92430219776514,
+            "8": 99.98394161322301,
+            "9": 99.99726038020864
+        },
+        "top90Percent": 3
+    },
+    "upgradeWins": {
+        "0": {
+            "losses": 86064,
+            "wins": 92815
+        },
+        "1": {
+            "losses": 105967,
+            "wins": 111069
+        },
+        "10": {
+            "losses": 12,
+            "wins": 16
+        },
+        "11": {
+            "losses": 4,
+            "wins": 2
+        },
+        "2": {
+            "losses": 72440,
+            "wins": 74545
+        },
+        "3": {
+            "losses": 37396,
+            "wins": 37585
+        },
+        "4": {
+            "losses": 16401,
+            "wins": 16311
+        },
+        "5": {
+            "losses": 6875,
+            "wins": 6849
+        },
+        "6": {
+            "losses": 2495,
+            "wins": 2611
+        },
+        "7": {
+            "losses": 850,
+            "wins": 830
+        },
+        "8": {
+            "losses": 194,
+            "wins": 231
+        },
+        "9": {
+            "losses": 44,
+            "wins": 58
+        }
+    }
+}

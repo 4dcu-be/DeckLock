@@ -1,0 +1,5231 @@
+{
+    "Aether Ironweave": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "soyameii",
+            "slug": "soyameii"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "comments": null,
+        "flavour": null,
+        "identifier": "aether-ironweave",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON230.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON230.png",
+        "keywords": [
+            "runeblade",
+            "equipment",
+            "chest"
+        ],
+        "listings": [
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/aether-ironweave",
+                "price": "0.25",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/aether-ironweave",
+                "price": "9.75",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon230",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon230",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon230-cf",
+                "price": "149.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "shop.channelfireball.com",
+                "id": 12,
+                "name": "Channel Fireball",
+                "path": "/products/aether-ironweave-cold-foil-monarch-1st-edition",
+                "price": "23.99",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "midtownmerchant.com",
+                "id": 13,
+                "name": "Midtown Merchant",
+                "path": "/products/aether-ironweave-cold-foil",
+                "price": "50.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "midtownmerchant.com",
+                    "name": "Midtown Merchant"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "midtownmerchant.com",
+                "id": 13,
+                "name": "Midtown Merchant",
+                "path": "/products/aether-ironweave-rainbow-foil-unlimited",
+                "price": "2.75",
+                "store": {
+                    "currency": "USD",
+                    "domain": "midtownmerchant.com",
+                    "name": "Midtown Merchant"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabtcgcards.com",
+                "id": 14,
+                "name": "FAB TCG Cards",
+                "path": "/products/aether-ironweave-rainbow-foil",
+                "price": "3.50",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabtcgcards.com",
+                    "name": "FAB TCG Cards"
+                }
+            }
+        ],
+        "name": "Aether Ironweave",
+        "next": "aether-sink-yellow",
+        "prev": "aether-flare-blue",
+        "printings": [
+            {
+                "edition": {},
+                "id": 2699,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON230.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON230",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON230"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2700,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON230-CF.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "cold",
+                    "number": "MON230",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON230-CF"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2949,
+                "image": "https://fabdb2.imgix.net/cards/printings/CHN005.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Blitz Chane",
+                "sku": {
+                    "finish": "regular",
+                    "number": "CHN005",
+                    "set": {
+                        "browseable": false,
+                        "id": "chn",
+                        "name": "Chane Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "CHN005"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3457,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON230.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON230",
+                    "set": {
+                        "browseable": false,
+                        "draftable": false,
+                        "id": "u-mon",
+                        "name": "Monarch (Unlimited)",
+                        "released": "2021-05-28"
+                    },
+                    "sku": "U-MON230"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3458,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON230-RF.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "rainbow",
+                    "number": "MON230",
+                    "set": {
+                        "browseable": false,
+                        "draftable": false,
+                        "id": "u-mon",
+                        "name": "Monarch (Unlimited)",
+                        "released": "2021-05-28"
+                    },
+                    "sku": "U-MON230-RF"
+                }
+            }
+        ],
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "defense": "1"
+        },
+        "subType": "chest",
+        "talent": null,
+        "text": "**Action**\u00a0- Destroy Aether Ironweave: Gain [2 Resource]. Activate this ability only if you have played an attack action card and a 'non-attack' action card\u00a0this turn.\u00a0**Go again**\n\n**Battleworn**\u00a0*(If you defend with Aether Ironweave, put a -1[Defense] counter on it when the combat chain closes.)*",
+        "totalSideboard": 0,
+        "type": "equipment"
+    },
+    "Arcanic Crackle (blue)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Joshua Raphael",
+            "slug": "joshua-raphael"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "color": "blue",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "arcanic-crackle-blue",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON237.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON237.png",
+        "keywords": [
+            "runeblade",
+            "action",
+            "attack"
+        ],
+        "name": "Arcanic Crackle",
+        "next": "arcanic-crackle-red",
+        "prev": "arc-light-sentinel",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "1",
+            "cost": "0",
+            "defense": "3",
+            "resource": "3"
+        },
+        "subType": "attack",
+        "talent": null,
+        "text": "Deal 1 arcane damage to target hero.",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Bounding Demigon (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "soyameii",
+            "slug": "soyameii"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "bounding-demigon-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON168.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON168.png",
+        "keywords": [
+            "shadow",
+            "runeblade",
+            "action",
+            "attack"
+        ],
+        "name": "Bounding Demigon",
+        "next": "bounding-demigon-red",
+        "prev": "boneyard-marauder-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "3",
+            "cost": "0",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "shadow",
+        "text": "If you have played a 'non-attack' action card this turn, you may play Bounding Demigon from your banished zone. If you do, it gains +1 [Power].\n\n**Blood Debt** *(At the beginning of your end phase, if Bounding Demigon is in your banished zone,\u00a0lose 1[Life].)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Chane": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Federico Musetti",
+            "slug": "federico-musetti"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "comments": null,
+        "flavour": null,
+        "identifier": "chane",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON154.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON154.png",
+        "keywords": [
+            "shadow",
+            "runeblade",
+            "hero",
+            "young"
+        ],
+        "listings": [
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon154",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/mon154",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon154",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon154",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "shop.channelfireball.com",
+                "id": 12,
+                "name": "Channel Fireball",
+                "path": "/products/chane-monarch-1st-edition",
+                "price": "0.59",
+                "store": null
+            }
+        ],
+        "name": "Chane",
+        "next": "chane-bound-by-shadow",
+        "prev": "chains-of-eminence-red",
+        "printings": [
+            {
+                "edition": {},
+                "id": 2555,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON154.png?w=300&fit=clip&auto=compress",
+                "rarity": "T",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON154",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON154"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2945,
+                "image": "https://fabdb2.imgix.net/cards/printings/CHN001.png?w=300&fit=clip&auto=compress",
+                "rarity": "R",
+                "set": "Monarch Blitz Chane",
+                "sku": {
+                    "finish": "regular",
+                    "number": "CHN001",
+                    "set": {
+                        "browseable": false,
+                        "id": "chn",
+                        "name": "Chane Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "CHN001"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3314,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON154.png?w=300&fit=clip&auto=compress",
+                "rarity": "T",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON154",
+                    "set": {
+                        "browseable": false,
+                        "draftable": false,
+                        "id": "u-mon",
+                        "name": "Monarch (Unlimited)",
+                        "released": "2021-05-28"
+                    },
+                    "sku": "U-MON154"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3985,
+                "image": "https://fabdb2.imgix.net/cards/printings/HER037-CF.png?w=300&fit=clip&auto=compress",
+                "rarity": "P",
+                "set": "Promo",
+                "sku": {
+                    "finish": "cold",
+                    "number": "HER037",
+                    "set": {
+                        "0": "browseable => false",
+                        "id": "her",
+                        "name": "Hero Promos",
+                        "released": null
+                    },
+                    "sku": "HER037-CF"
+                }
+            }
+        ],
+        "rarity": "T",
+        "rulings": [],
+        "stats": {
+            "intellect": "4",
+            "life": "20"
+        },
+        "subType": "young",
+        "talent": "shadow",
+        "text": "**Once per Turn Action** - Create a Soul Shackle token: Your next Runeblade or Shadow\u00a0action this turn gains\u00a0**go again**. **Go again**\u00a0*(It's an aura with \"At the beginning of your action phase, banish the top card of your deck.\")*",
+        "totalSideboard": 0,
+        "type": "hero"
+    },
+    "Consuming Volition (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Stanislav Sherbakov",
+            "slug": "stanislav-sherbakov"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": "The tongue is the only weapon that grows sharper with use.",
+        "identifier": "consuming-volition-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/CRU148.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/CRU148.png",
+        "keywords": [
+            "runeblade",
+            "action",
+            "attack"
+        ],
+        "name": "Consuming Volition",
+        "next": "consuming-volition-red",
+        "prev": "consuming-aftermath-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "4",
+            "cost": "1",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": null,
+        "text": "If you have dealt or deal arcane damage this turn, Consuming Volition gains \"If this hits a hero, they discard a card.\"",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Dream Weavers": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Pavel Chuvin",
+            "slug": "pavel-chuvin"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "comments": null,
+        "flavour": null,
+        "identifier": "dream-weavers",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON090.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON090.png",
+        "keywords": [
+            "illusionist",
+            "equipment",
+            "arms"
+        ],
+        "listings": [
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon090",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon090-rf",
+                "price": "11.00",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/mon090",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/dream-weavers",
+                "price": "0.25",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/dream-weavers",
+                "price": "8.75",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon090",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon090",
+                "price": "0.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon090-cf",
+                "price": "199.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "shop.channelfireball.com",
+                "id": 12,
+                "name": "Channel Fireball",
+                "path": "/products/dream-weavers-cold-foil-monarch-1st-edition",
+                "price": "38.99",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "midtownmerchant.com",
+                "id": 13,
+                "name": "Midtown Merchant",
+                "path": "/products/dream-weavers-cold-foil",
+                "price": "55.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "midtownmerchant.com",
+                    "name": "Midtown Merchant"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "midtownmerchant.com",
+                "id": 13,
+                "name": "Midtown Merchant",
+                "path": "/products/dream-weavers-rainbow-foil-unlimited",
+                "price": "4.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "midtownmerchant.com",
+                    "name": "Midtown Merchant"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabtcgcards.com",
+                "id": 14,
+                "name": "FAB TCG Cards",
+                "path": "/products/dream-weavers-cold-foil",
+                "price": "80.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabtcgcards.com",
+                    "name": "FAB TCG Cards"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabtcgcards.com",
+                "id": 14,
+                "name": "FAB TCG Cards",
+                "path": "/products/dream-weavers-rainbow-foil",
+                "price": "4.25",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabtcgcards.com",
+                    "name": "FAB TCG Cards"
+                }
+            }
+        ],
+        "name": "Dream Weavers",
+        "next": "driving-blade-red",
+        "prev": "dread-triptych",
+        "printings": [
+            {
+                "edition": {},
+                "id": 2434,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON090.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON090",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON090"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2435,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON090-CF.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "cold",
+                    "number": "MON090",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON090-CF"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2861,
+                "image": "https://fabdb2.imgix.net/cards/printings/PSM006.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Blitz Deck - Prism",
+                "sku": {
+                    "finish": "regular",
+                    "number": "PSM006",
+                    "set": {
+                        "browseable": false,
+                        "id": "psm",
+                        "name": "Prism Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "PSM006"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3193,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON090.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON090",
+                    "set": {
+                        "browseable": false,
+                        "draftable": false,
+                        "id": "u-mon",
+                        "name": "Monarch (Unlimited)",
+                        "released": "2021-05-28"
+                    },
+                    "sku": "U-MON090"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3194,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON090-RF.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "rainbow",
+                    "number": "MON090",
+                    "set": {
+                        "browseable": false,
+                        "draftable": false,
+                        "id": "u-mon",
+                        "name": "Monarch (Unlimited)",
+                        "released": "2021-05-28"
+                    },
+                    "sku": "U-MON090-RF"
+                }
+            }
+        ],
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "defense": "0"
+        },
+        "subType": "arms",
+        "talent": null,
+        "text": "**Action**\u00a0- Destroy Dream Weavers: The next Illusionist attack\u00a0action card\u00a0you play this turn\u00a0loses and can't gain\u00a0**phantasm**.\u00a0**Go again**\n\n**Spellvoid 1**\u00a0*(If your hero would be dealt arcane damage, you may destroy Dream Weavers instead. If you do, prevent 1 arcane damage that source would deal.)*",
+        "totalSideboard": 0,
+        "type": "equipment"
+    },
+    "Ebon Fold": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Elena Danilova",
+            "slug": "elena-danilova"
+        },
+        "banned": null,
+        "class": null,
+        "comments": null,
+        "flavour": null,
+        "identifier": "ebon-fold",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON188.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON188.png",
+        "keywords": [
+            "shadow",
+            "equipment",
+            "head"
+        ],
+        "listings": [
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon188",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon188-rf",
+                "price": "8.00",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/mon188",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/ebon-fold",
+                "price": "0.25",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/ebon-fold",
+                "price": "5.75",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon188",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon188",
+                "price": "0.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon188-cf",
+                "price": "149.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "shop.channelfireball.com",
+                "id": 12,
+                "name": "Channel Fireball",
+                "path": "/products/ebon-fold-cold-foil-monarch-1st-edition",
+                "price": "53.99",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "midtownmerchant.com",
+                "id": 13,
+                "name": "Midtown Merchant",
+                "path": "/products/ebon-fold-cold-foil",
+                "price": "90.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "midtownmerchant.com",
+                    "name": "Midtown Merchant"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "midtownmerchant.com",
+                "id": 13,
+                "name": "Midtown Merchant",
+                "path": "/products/ebon-fold-rainbow-foil-unlimited",
+                "price": "3.50",
+                "store": {
+                    "currency": "USD",
+                    "domain": "midtownmerchant.com",
+                    "name": "Midtown Merchant"
+                }
+            }
+        ],
+        "name": "Ebon Fold",
+        "next": "eclipse",
+        "prev": "earthlore-surge-blue",
+        "printings": [
+            {
+                "edition": {},
+                "id": 2620,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON188.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON188",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON188"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2621,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON188-CF.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "cold",
+                    "number": "MON188",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON188-CF"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2919,
+                "image": "https://fabdb2.imgix.net/cards/printings/LEV004.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Blitz Levia",
+                "sku": {
+                    "finish": "regular",
+                    "number": "LEV004",
+                    "set": {
+                        "browseable": false,
+                        "id": "lev",
+                        "name": "Levia Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "LEV004"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2948,
+                "image": "https://fabdb2.imgix.net/cards/printings/CHN004.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Blitz Chane",
+                "sku": {
+                    "finish": "regular",
+                    "number": "CHN004",
+                    "set": {
+                        "browseable": false,
+                        "id": "chn",
+                        "name": "Chane Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "CHN004"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3378,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON188.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON188",
+                    "set": {
+                        "browseable": false,
+                        "draftable": false,
+                        "id": "u-mon",
+                        "name": "Monarch (Unlimited)",
+                        "released": "2021-05-28"
+                    },
+                    "sku": "U-MON188"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3379,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON188-RF.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "rainbow",
+                    "number": "MON188",
+                    "set": {
+                        "browseable": false,
+                        "draftable": false,
+                        "id": "u-mon",
+                        "name": "Monarch (Unlimited)",
+                        "released": "2021-05-28"
+                    },
+                    "sku": "U-MON188-RF"
+                }
+            }
+        ],
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "defense": "0"
+        },
+        "subType": "head",
+        "talent": "shadow",
+        "text": "**Instant** - [1 Resource], destroy Ebon Fold: Banish a card from your hand. If it's a Shadow card, draw a card.\n\n**Spellvoid 2**\u00a0*(If your hero would be dealt arcane damage, you may destroy Ebon Fold instead. If you do, prevent 2 arcane damage that source would deal.)*",
+        "totalSideboard": 0,
+        "type": "equipment"
+    },
+    "Enigma Chimera (blue)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Narendra B. Adi",
+            "slug": "narendra-b-adi"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "blue",
+        "comments": null,
+        "count": 2,
+        "flavour": "\"If you don't think it's real, try petting it.\" - Amira Surana",
+        "identifier": "enigma-chimera-blue",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON100.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON100.png",
+        "keywords": [
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "name": "Enigma Chimera",
+        "next": "enigma-chimera-red",
+        "prev": "engulfing-light-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "6",
+            "cost": "2",
+            "defense": "3",
+            "resource": "3"
+        },
+        "subType": "attack",
+        "talent": null,
+        "text": "**Phantasm**\u00a0*(If Enigma Chimera is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Enigma Chimera and close the combat chain.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Enigma Chimera (yellow)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Narendra B. Adi",
+            "slug": "narendra-b-adi"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "yellow",
+        "comments": null,
+        "count": 2,
+        "flavour": "\"If you don't think it's real, try petting it.\" - Amira Surana",
+        "identifier": "enigma-chimera-yellow",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON099.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON099.png",
+        "keywords": [
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "name": "Enigma Chimera",
+        "next": "enigma-chimera-red",
+        "prev": "engulfing-light-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "7",
+            "cost": "2",
+            "defense": "3",
+            "resource": "2"
+        },
+        "subType": "attack",
+        "talent": null,
+        "text": "**Phantasm**\u00a0*(If Enigma Chimera is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Enigma Chimera and close the combat chain.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Galaxxi Black": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Federico Musetti",
+            "slug": "federico-musetti"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "comments": null,
+        "flavour": null,
+        "identifier": "galaxxi-black",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON155.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON155.png",
+        "keywords": [
+            "shadow",
+            "runeblade",
+            "weapon",
+            "sword",
+            "2h"
+        ],
+        "listings": [
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon155",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/mon155",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon155-cf",
+                "price": "1499.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon155",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon155",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "shop.channelfireball.com",
+                "id": 12,
+                "name": "Channel Fireball",
+                "path": "/products/galaxxi-black-monarch-1st-edition",
+                "price": "0.59",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "midtownmerchant.com",
+                "id": 13,
+                "name": "Midtown Merchant",
+                "path": "/products/galaxxi-black-cold-foil",
+                "price": "650.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "midtownmerchant.com",
+                    "name": "Midtown Merchant"
+                }
+            }
+        ],
+        "name": "Galaxxi Black",
+        "next": "gallantry-gold",
+        "prev": "fyendals-spring-tunic",
+        "printings": [
+            {
+                "edition": {},
+                "id": 2556,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON155.png?w=300&fit=clip&auto=compress",
+                "rarity": "T",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON155",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON155"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2557,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON155-CF.png?w=300&fit=clip&auto=compress",
+                "rarity": "M",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "cold",
+                    "number": "MON155",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON155-CF"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2947,
+                "image": "https://fabdb2.imgix.net/cards/printings/CHN003.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Blitz Chane",
+                "sku": {
+                    "finish": "regular",
+                    "number": "CHN003",
+                    "set": {
+                        "browseable": false,
+                        "id": "chn",
+                        "name": "Chane Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "CHN003"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3315,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON155.png?w=300&fit=clip&auto=compress",
+                "rarity": "T",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON155",
+                    "set": {
+                        "browseable": false,
+                        "draftable": false,
+                        "id": "u-mon",
+                        "name": "Monarch (Unlimited)",
+                        "released": "2021-05-28"
+                    },
+                    "sku": "U-MON155"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3990,
+                "image": "https://fabdb2.imgix.net/cards/printings/LGS046-CF.png?w=300&fit=clip&auto=compress",
+                "rarity": "P",
+                "set": "Promo",
+                "sku": {
+                    "finish": "cold",
+                    "number": "LGS046",
+                    "set": {
+                        "0": "browseable => false",
+                        "id": "lgs",
+                        "name": "Local Game Store Promos",
+                        "released": null
+                    },
+                    "sku": "LGS046-CF"
+                }
+            }
+        ],
+        "rarity": "T",
+        "rulings": [],
+        "stats": {
+            "attack": "1"
+        },
+        "subType": "sword",
+        "talent": "shadow",
+        "text": "**Once per Turn Action** - [1 Resource]: **Attack**\n\nIf you have played a card from your banished zone this turn, Galaxxi Black gains +2 [Power] until end of turn.\n\nIf Galaxxi Black hits a hero, deal\u00a01 arcane damage to that hero.",
+        "totalSideboard": 0,
+        "type": "weapon"
+    },
+    "Ghostly Visit (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Alexandra Malygina",
+            "slug": "alexandra-malygina"
+        },
+        "banned": null,
+        "class": null,
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "ghostly-visit-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON203.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON203.png",
+        "keywords": [
+            "shadow",
+            "action",
+            "attack"
+        ],
+        "name": "Ghostly Visit",
+        "next": "ghostly-visit-red",
+        "prev": "genesis",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "4",
+            "cost": "1",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "shadow",
+        "text": "You may play Ghostly Visit from your banished zone.\n\n**Blood Debt** *(At the beginning of your end phase, if Ghostly Visit is in your banished zone,\u00a0lose 1[Life].)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Halo of Illumination": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Sam Yang",
+            "slug": "sam-yang"
+        },
+        "banned": null,
+        "class": null,
+        "comments": null,
+        "flavour": null,
+        "identifier": "halo-of-illumination",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON061.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON061.png",
+        "keywords": [
+            "light",
+            "equipment",
+            "head"
+        ],
+        "listings": [
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon061",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon061-rf",
+                "price": "16.00",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/mon061",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/halo-of-illumination",
+                "price": "0.25",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/halo-of-illumination",
+                "price": "7.75",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon061",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon061",
+                "price": "0.50",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon061-cf",
+                "price": "249.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "shop.channelfireball.com",
+                "id": 12,
+                "name": "Channel Fireball",
+                "path": "/products/halo-of-illumination-cold-foil-monarch-1st-edition",
+                "price": "59.99",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "midtownmerchant.com",
+                "id": 13,
+                "name": "Midtown Merchant",
+                "path": "/products/halo-of-illumination-cold-foil",
+                "price": "105.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "midtownmerchant.com",
+                    "name": "Midtown Merchant"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "midtownmerchant.com",
+                "id": 13,
+                "name": "Midtown Merchant",
+                "path": "/products/halo-of-illumination-rainbow-foil-unlimited",
+                "price": "4.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "midtownmerchant.com",
+                    "name": "Midtown Merchant"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabtcgcards.com",
+                "id": 14,
+                "name": "FAB TCG Cards",
+                "path": "/products/halo-of-illumination-rainbow-foil",
+                "price": "4.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabtcgcards.com",
+                    "name": "FAB TCG Cards"
+                }
+            }
+        ],
+        "name": "Halo of Illumination",
+        "next": "hamstring-shot-red",
+        "prev": "guardian-of-the-shadowrealm",
+        "printings": [
+            {
+                "edition": {},
+                "id": 2378,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON061.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON061",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON061"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2379,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON061-CF.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "cold",
+                    "number": "MON061",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON061-CF"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2859,
+                "image": "https://fabdb2.imgix.net/cards/printings/PSM004.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Blitz Deck - Prism",
+                "sku": {
+                    "finish": "regular",
+                    "number": "PSM004",
+                    "set": {
+                        "browseable": false,
+                        "id": "psm",
+                        "name": "Prism Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "PSM004"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2890,
+                "image": "https://fabdb2.imgix.net/cards/printings/BOL005.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Blitz Boltyn",
+                "sku": {
+                    "finish": "regular",
+                    "number": "BOL005",
+                    "set": {
+                        "browseable": false,
+                        "id": "bol",
+                        "name": "Boltyn Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "BOL005"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3137,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON061.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON061",
+                    "set": {
+                        "browseable": false,
+                        "draftable": false,
+                        "id": "u-mon",
+                        "name": "Monarch (Unlimited)",
+                        "released": "2021-05-28"
+                    },
+                    "sku": "U-MON061"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3138,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON061-RF.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "rainbow",
+                    "number": "MON061",
+                    "set": {
+                        "browseable": false,
+                        "draftable": false,
+                        "id": "u-mon",
+                        "name": "Monarch (Unlimited)",
+                        "released": "2021-05-28"
+                    },
+                    "sku": "U-MON061-RF"
+                }
+            }
+        ],
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "defense": "0"
+        },
+        "subType": "head",
+        "talent": "light",
+        "text": "**Instant** - [1 Resource], destroy Halo of Illumination: Put a card from your hand into your hero's soul. If it's a Light card, draw a card.\u00a0*(Put the card face up under your hero card.)*\n\n**Spellvoid 2**\u00a0*(If your hero would be dealt arcane damage, you may destroy Halo of Illumination instead. If you do, prevent 2 arcane damage that source would deal.)*",
+        "totalSideboard": 0,
+        "type": "equipment"
+    },
+    "Heartened Cross Strap": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Nikolai Maslakov",
+            "slug": "nikolai-maslakov"
+        },
+        "banned": null,
+        "class": "generic",
+        "comments": null,
+        "flavour": null,
+        "identifier": "heartened-cross-strap",
+        "image": "https://fabdb2.imgix.net/cards/printings/WTR152.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/WTR152.png",
+        "keywords": [
+            "generic",
+            "equipment",
+            "chest"
+        ],
+        "listings": [
+            {
+                "currency": "CAD",
+                "domain": "duelkingdom.ca",
+                "id": 1,
+                "name": "Duel Kingdom",
+                "path": "/products/heartened-cross-strap-wtr152-alpha",
+                "price": "0.22",
+                "store": {
+                    "currency": "CAD",
+                    "domain": "duelkingdom.ca",
+                    "name": "Duel Kingdom"
+                }
+            },
+            {
+                "currency": "CAD",
+                "domain": "duelkingdom.ca",
+                "id": 1,
+                "name": "Duel Kingdom",
+                "path": "/products/heartened-cross-strap-wtr152-alpha",
+                "price": "19.50",
+                "store": {
+                    "currency": "CAD",
+                    "domain": "duelkingdom.ca",
+                    "name": "Duel Kingdom"
+                }
+            },
+            {
+                "currency": "CAD",
+                "domain": "duelkingdom.ca",
+                "id": 1,
+                "name": "Duel Kingdom",
+                "path": "/products/heartened-cross-strap-wtr152",
+                "price": "19.50",
+                "store": {
+                    "currency": "CAD",
+                    "domain": "duelkingdom.ca",
+                    "name": "Duel Kingdom"
+                }
+            },
+            {
+                "currency": "CAD",
+                "domain": "duelkingdom.ca",
+                "id": 1,
+                "name": "Duel Kingdom",
+                "path": "/products/heartened-cross-strap-wtr152",
+                "price": "0.22",
+                "store": {
+                    "currency": "CAD",
+                    "domain": "duelkingdom.ca",
+                    "name": "Duel Kingdom"
+                }
+            },
+            {
+                "currency": "CAD",
+                "domain": "duelkingdom.ca",
+                "id": 1,
+                "name": "Duel Kingdom",
+                "path": "/products/heartened-cross-strap-wtr152",
+                "price": "19.50",
+                "store": {
+                    "currency": "CAD",
+                    "domain": "duelkingdom.ca",
+                    "name": "Duel Kingdom"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabempire.com",
+                "id": 2,
+                "name": "FAB Empire",
+                "path": "/products/heartened-cross-strap",
+                "price": "2.00",
+                "store": null
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabempire.com",
+                "id": 2,
+                "name": "FAB Empire",
+                "path": "/products/heartened-cross-strap-foil",
+                "price": "220.00",
+                "store": null
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabempire.com",
+                "id": 2,
+                "name": "FAB Empire",
+                "path": "/products/heartened-cross-strap-foil-unl",
+                "price": "7.00",
+                "store": null
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabempire.com",
+                "id": 2,
+                "name": "FAB Empire",
+                "path": "/products/heartened-cross-strap-foil-unl",
+                "price": "7.00",
+                "store": null
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabempire.com",
+                "id": 2,
+                "name": "FAB Empire",
+                "path": "/products/heartened-cross-strap-unl",
+                "price": "0.49",
+                "store": null
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/wtr152",
+                "price": "1.00",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/wtr152",
+                "price": "7.00",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-wtr152",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-wtr152-rf",
+                "price": "2.00",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/heartened-cross-strap",
+                "price": "100.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/heartened-cross-strap",
+                "price": "0.50",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/heartened-cross-strap",
+                "price": "5.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/heartened-cross-strap",
+                "price": "0.15",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/heartened-cross-strap",
+                "price": "4.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/wtr152-c",
+                "price": "0.50",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/wtr152-c-cf",
+                "price": "479.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/unl-wtr152-c-rf",
+                "price": "4.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/unl-wtr152-c",
+                "price": "0.50",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/unl-wtr152-c-rf",
+                "price": "3.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "www.calicokeep.com",
+                "id": 6,
+                "name": "Calico Keep",
+                "path": "/products/heartened-cross-strap",
+                "price": "15.00",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "www.calicokeep.com",
+                    "name": "Calico Keep"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "www.calicokeep.com",
+                "id": 6,
+                "name": "Calico Keep",
+                "path": "/products/heartened-cross-strap",
+                "price": "0.10",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "www.calicokeep.com",
+                    "name": "Calico Keep"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "www.calicokeep.com",
+                "id": 6,
+                "name": "Calico Keep",
+                "path": "/products/heartened-cross-strap-unlimited",
+                "price": "6.00",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "www.calicokeep.com",
+                    "name": "Calico Keep"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "www.calicokeep.com",
+                "id": 6,
+                "name": "Calico Keep",
+                "path": "/products/heartened-cross-strap-unlimited",
+                "price": "0.10",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "www.calicokeep.com",
+                    "name": "Calico Keep"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "cardmerchant.co.nz",
+                "id": 7,
+                "name": "Card Merchant",
+                "path": "/products/heartened-cross-strap",
+                "price": "2.00",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "cardmerchant.co.nz",
+                    "name": "Card Merchant"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "cardmerchant.co.nz",
+                "id": 7,
+                "name": "Card Merchant",
+                "path": "/products/heartened-cross-strap-foil-unl",
+                "price": "4.00",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "cardmerchant.co.nz",
+                    "name": "Card Merchant"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "cardmerchant.co.nz",
+                "id": 7,
+                "name": "Card Merchant",
+                "path": "/products/heartened-cross-strap-unl",
+                "price": "1.00",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "cardmerchant.co.nz",
+                    "name": "Card Merchant"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "cardmerchant.co.nz",
+                "id": 7,
+                "name": "Card Merchant",
+                "path": "/products/heartened-cross-strap-foil-unl",
+                "price": "4.00",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "cardmerchant.co.nz",
+                    "name": "Card Merchant"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "swaptcg.com",
+                "id": 8,
+                "name": "Swap TCG",
+                "path": "/products/heartened-cross-strap-wtr152-c-alpha-print-regular",
+                "price": "2.20",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "swaptcg.com",
+                    "name": "Swap TCG"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "swaptcg.com",
+                "id": 8,
+                "name": "Swap TCG",
+                "path": "/products/heartened-cross-strap-wtr152-c-alpha-print-cold-foil",
+                "price": "743.00",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "swaptcg.com",
+                    "name": "Swap TCG"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "swaptcg.com",
+                "id": 8,
+                "name": "Swap TCG",
+                "path": "/products/heartened-cross-strap-wtr152-unlimited-edition-normal",
+                "price": "0.30",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "swaptcg.com",
+                    "name": "Swap TCG"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "swaptcg.com",
+                "id": 8,
+                "name": "Swap TCG",
+                "path": "/products/heartened-cross-strap-wtr152-unlimited-edition-rainbow-foil",
+                "price": "1.60",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "swaptcg.com",
+                    "name": "Swap TCG"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "goldenphoenixgames.com",
+                "id": 10,
+                "name": "Golden Phoenix Games",
+                "path": "/products/heartened-cross-strap",
+                "price": "1.00",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "goldenphoenixgames.com",
+                "id": 10,
+                "name": "Golden Phoenix Games",
+                "path": "/products/heartened-cross-strap",
+                "price": "15.00",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "shop.channelfireball.com",
+                "id": 12,
+                "name": "Channel Fireball",
+                "path": "/products/fab-heartened-cross-strap-regular-welcome-to-rathe-unlimited",
+                "price": "0.50",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "midtownmerchant.com",
+                "id": 13,
+                "name": "Midtown Merchant",
+                "path": "/products/heartened-cross-strap-coldfoil",
+                "price": "375.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "midtownmerchant.com",
+                    "name": "Midtown Merchant"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "midtownmerchant.com",
+                "id": 13,
+                "name": "Midtown Merchant",
+                "path": "/products/heartened-cross-strap-rainbow-foil",
+                "price": "0.55",
+                "store": {
+                    "currency": "USD",
+                    "domain": "midtownmerchant.com",
+                    "name": "Midtown Merchant"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabtcgcards.com",
+                "id": 14,
+                "name": "FAB TCG Cards",
+                "path": "/products/d3isijkoinuv7ezycvpkbwiw",
+                "price": "0.50",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabtcgcards.com",
+                    "name": "FAB TCG Cards"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabtcgcards.com",
+                "id": 14,
+                "name": "FAB TCG Cards",
+                "path": "/products/heartened-cross-strap-unlimited-rainbow-foil",
+                "price": "2.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabtcgcards.com",
+                    "name": "FAB TCG Cards"
+                }
+            }
+        ],
+        "name": "Heartened Cross Strap",
+        "next": "heavens-claws-red",
+        "prev": "heart-of-ice",
+        "printings": [
+            {
+                "edition": {},
+                "id": 286,
+                "image": "https://fabdb2.imgix.net/cards/printings/WTR152.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Welcome to Rathe",
+                "sku": {
+                    "finish": "regular",
+                    "number": "WTR152",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "wtr",
+                        "name": "Welcome to Rathe",
+                        "released": "2019-10-11"
+                    },
+                    "sku": "WTR152"
+                }
+            },
+            {
+                "edition": {},
+                "id": 287,
+                "image": "https://fabdb2.imgix.net/cards/printings/WTR152-CF.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Welcome to Rathe",
+                "sku": {
+                    "finish": "cold",
+                    "number": "WTR152",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "wtr",
+                        "name": "Welcome to Rathe",
+                        "released": "2019-10-11"
+                    },
+                    "sku": "WTR152-CF"
+                }
+            },
+            {
+                "edition": {},
+                "id": 717,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-WTR152.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Welcome to Rathe Unlimited",
+                "sku": {
+                    "finish": "regular",
+                    "number": "WTR152",
+                    "set": {
+                        "browseable": false,
+                        "id": "u-wtr",
+                        "name": "Welcome to Rathe (Unlimited)",
+                        "released": "2020-11-06"
+                    },
+                    "sku": "U-WTR152"
+                }
+            },
+            {
+                "edition": {},
+                "id": 718,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-WTR152-RF.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Welcome to Rathe Unlimited",
+                "sku": {
+                    "finish": "rainbow",
+                    "number": "WTR152",
+                    "set": {
+                        "browseable": false,
+                        "id": "u-wtr",
+                        "name": "Welcome to Rathe (Unlimited)",
+                        "released": "2020-11-06"
+                    },
+                    "sku": "U-WTR152-RF"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2148,
+                "image": "https://fabdb2.imgix.net/cards/printings/KSU006.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Hero Deck Katsu",
+                "sku": {
+                    "finish": "regular",
+                    "number": "KSU006",
+                    "set": {
+                        "browseable": false,
+                        "id": "ksu",
+                        "name": "Katsu Hero Deck",
+                        "released": "2019-10-11"
+                    },
+                    "sku": "KSU006"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2860,
+                "image": "https://fabdb2.imgix.net/cards/printings/PSM005.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Blitz Deck - Prism",
+                "sku": {
+                    "finish": "regular",
+                    "number": "PSM005",
+                    "set": {
+                        "browseable": false,
+                        "id": "psm",
+                        "name": "Prism Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "PSM005"
+                }
+            }
+        ],
+        "rarity": "C",
+        "rulings": [
+            {
+                "createdAt": "2020-08-11T04:45:59.000000Z",
+                "description": "When an action with go again resolves, its controller gains 1 action point.\nMultiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+                "pivot": {
+                    "card_id": 152,
+                    "ruling_id": 196
+                },
+                "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+                "updatedAt": "2020-08-11T04:45:59.000000Z"
+            },
+            {
+                "createdAt": "2020-08-11T04:45:59.000000Z",
+                "description": "The attack action card does not again go again. Heartened Cross Strap\u2019s activated ability requires an action point to use and provides an action point from go again upon resolution.\nThe reduction does not carry over to any additional attack actions outside of the first attack action card you play after activating Heartened Cross Strap.",
+                "pivot": {
+                    "card_id": 152,
+                    "ruling_id": 209
+                },
+                "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+                "updatedAt": "2020-08-11T04:45:59.000000Z"
+            }
+        ],
+        "stats": {
+            "defense": "0"
+        },
+        "subType": "chest",
+        "talent": null,
+        "text": "**Action** - Destroy Heartened Cross Strap: The next attack action card you play this turn costs [2 resource] less to play. **Go again**",
+        "totalSideboard": 0,
+        "type": "equipment"
+    },
+    "Herald of Judgment": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Alexander Mokhov",
+            "slug": "alexander-mokhov"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "yellow",
+        "comments": null,
+        "count": 1,
+        "flavour": null,
+        "identifier": "herald-of-judgment",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON007.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON007.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "name": "Herald of Judgment",
+        "next": "herald-of-judgment",
+        "prev": "herald-of-erudition",
+        "rarity": "R",
+        "rulings": [],
+        "stats": {
+            "attack": "6",
+            "cost": "2",
+            "defense": "3",
+            "resource": "2"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "**Prism Specialization**\u00a0*(You may only have Herald of Judgment in your deck if your hero is Prism.)*\n\nIf Herald of Judgment hits,\u00a0put it into your hero's soul and the defending hero can't play cards from their banished zone during their next action phase.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Judgment is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Judgment and close the combat chain.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Herald of Protection (blue)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Simon Wong",
+            "slug": "simon-wong"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "blue",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "herald-of-protection-blue",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON016.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON016.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "name": "Herald of Protection",
+        "next": "herald-of-protection-red",
+        "prev": "herald-of-judgment",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "5",
+            "cost": "2",
+            "defense": "3",
+            "resource": "3"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "If Herald of Protection hits,\u00a0put it into your hero's soul and\u00a0create a Spectral Shield token.\u00a0*(It's an Illusionist aura\u00a0with \"If your hero would be dealt damage, instead destroy Spectral Shield\u00a0and prevent 1 damage that source would deal.\")*\n\n**Phantasm**\u00a0*(If Herald of Protection is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Protection and close the combat chain.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Herald of Protection (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Simon Wong",
+            "slug": "simon-wong"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "herald-of-protection-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON014.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON014.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "name": "Herald of Protection",
+        "next": "herald-of-protection-red",
+        "prev": "herald-of-judgment",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "7",
+            "cost": "2",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "If Herald of Protection hits,\u00a0put it into your hero's soul and\u00a0create a Spectral Shield token.\u00a0*(It's an Illusionist aura\u00a0with \"If your hero would be dealt damage, instead destroy Spectral Shield\u00a0and prevent 1 damage that source would deal.\")*\n\n**Phantasm**\u00a0*(If Herald of Protection is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Protection and close the combat chain.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Herald of Ravages (blue)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Jessada Sutthi",
+            "slug": "jessada-sutthi"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "blue",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "herald-of-ravages-blue",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON019.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON019.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "name": "Herald of Ravages",
+        "next": "herald-of-ravages-red",
+        "prev": "herald-of-protection-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "5",
+            "cost": "2",
+            "defense": "3",
+            "resource": "3"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "If Herald of Ravages hits,\u00a0put it into your hero's soul and deal 1 arcane damage to target hero.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Ravages is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Ravages and close the combat chain.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Herald of Ravages (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Jessada Sutthi",
+            "slug": "jessada-sutthi"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "herald-of-ravages-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON017.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON017.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "name": "Herald of Ravages",
+        "next": "herald-of-ravages-red",
+        "prev": "herald-of-protection-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "7",
+            "cost": "2",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "If Herald of Ravages hits,\u00a0put it into your hero's soul and deal 1 arcane damage to target hero.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Ravages is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Ravages and close the combat chain.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Herald of Rebirth (blue)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Daria Khlebnikova",
+            "slug": "daria-khlebnikova"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "blue",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "herald-of-rebirth-blue",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON022.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON022.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "name": "Herald of Rebirth",
+        "next": "herald-of-rebirth-red",
+        "prev": "herald-of-ravages-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "5",
+            "cost": "2",
+            "defense": "3",
+            "resource": "3"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "If Herald of Rebirth hits,\u00a0put it into your hero's soul when the chain link resolves and put up to 1 card\u00a0with\u00a0**phantasm**\u00a0from your graveyard on top of your deck.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Rebirth is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Rebirth and close the combat chain.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Herald of Rebirth (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Daria Khlebnikova",
+            "slug": "daria-khlebnikova"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "herald-of-rebirth-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON020.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON020.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "name": "Herald of Rebirth",
+        "next": "herald-of-rebirth-red",
+        "prev": "herald-of-ravages-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "7",
+            "cost": "2",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "If Herald of Rebirth hits,\u00a0put it into your hero's soul and put up to 1 card\u00a0with\u00a0**phantasm**\u00a0from your graveyard on top of your deck.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Rebirth is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Rebirth and close the combat chain.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Herald of Tenacity (blue)": {
+        "artist": {
+            "blurb": "I'm Nathaniel Himawan, an Illustrator/Concept Artist looking for awesome projects and works to contribute to!",
+            "image": "https://fabdb2.imgix.net/artists/tFdiae1cEaHVK1G4Ba4ndzLIYim1YIVJh9qnqsI1.jpg?w=350&fit=clip&auto=compress",
+            "name": "Nathaniel Himawan",
+            "slug": "nathaniel-himawan"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "blue",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "herald-of-tenacity-blue",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON025.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON025.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "name": "Herald of Tenacity",
+        "next": "herald-of-tenacity-red",
+        "prev": "herald-of-rebirth-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "4",
+            "cost": "2",
+            "defense": "3",
+            "resource": "3"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "**Dominate**\u00a0*(The defending hero can't defend Herald of Tenacity with more than 1 card from their hand.)*\n\nIf Herald of Tenacity hits,\u00a0put it into your hero's soul.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Tenacity is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Tenacity and close the combat chain.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Herald of Tenacity (red)": {
+        "artist": {
+            "blurb": "I'm Nathaniel Himawan, an Illustrator/Concept Artist looking for awesome projects and works to contribute to!",
+            "image": "https://fabdb2.imgix.net/artists/tFdiae1cEaHVK1G4Ba4ndzLIYim1YIVJh9qnqsI1.jpg?w=350&fit=clip&auto=compress",
+            "name": "Nathaniel Himawan",
+            "slug": "nathaniel-himawan"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "herald-of-tenacity-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON023.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON023.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "name": "Herald of Tenacity",
+        "next": "herald-of-tenacity-red",
+        "prev": "herald-of-rebirth-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "6",
+            "cost": "2",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "**Dominate**\u00a0*(The defending hero can't defend Herald of Tenacity with more than 1 card from their hand.)*\n\nIf Herald of Tenacity hits,\u00a0put it into your hero's soul.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Tenacity is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Tenacity and close the combat chain.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Howl from Beyond (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Tian Thongjomroon",
+            "slug": "tian-thongjomroon"
+        },
+        "banned": null,
+        "class": null,
+        "color": "red",
+        "comments": null,
+        "count": 1,
+        "flavour": null,
+        "identifier": "howl-from-beyond-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON200.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON200.png",
+        "keywords": [
+            "shadow",
+            "action"
+        ],
+        "name": "Howl from Beyond",
+        "next": "howl-from-beyond-red",
+        "prev": "hope-merchants-hood",
+        "rarity": "R",
+        "rulings": [],
+        "stats": {
+            "cost": "2",
+            "defense": "2",
+            "resource": "1"
+        },
+        "subType": null,
+        "talent": "shadow",
+        "text": "You may play Howl from Beyond from your banished zone.\n\nThe next attack\u00a0action card you play this turn gains +3 [Power].\n\n**Go again**\n\n**Blood Debt** *(At the beginning of your end phase, if Howl from Beyond is in your banished zone,\u00a0lose 1[Life].)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Illuminate (blue)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Ramza Ardyputra",
+            "slug": "ramza-ardyputra"
+        },
+        "banned": null,
+        "class": null,
+        "color": "blue",
+        "comments": null,
+        "count": 2,
+        "flavour": "\"Sometimes, a hands-on lesson is the best approach.\" - Instructor Merlen Rivera",
+        "identifier": "illuminate-blue",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON074.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON074.png",
+        "keywords": [
+            "light",
+            "action",
+            "attack"
+        ],
+        "name": "Illuminate",
+        "next": "illuminate-red",
+        "prev": "icy-encounter-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "2",
+            "cost": "0",
+            "defense": "3",
+            "resource": "3"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "If Illuminate hits,\u00a0put it into your hero's soul.\u00a0*(Put this card face up under your hero card.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Illuminate (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Ramza Ardyputra",
+            "slug": "ramza-ardyputra"
+        },
+        "banned": null,
+        "class": null,
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": "\"Sometimes, a hands-on lesson is the best approach.\" - Instructor Merlen Rivera",
+        "identifier": "illuminate-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON072.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON072.png",
+        "keywords": [
+            "light",
+            "action",
+            "attack"
+        ],
+        "name": "Illuminate",
+        "next": "illuminate-red",
+        "prev": "icy-encounter-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "4",
+            "cost": "0",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "If Illuminate hits,\u00a0put it into your hero's soul.\u00a0*(Put this card face up under your hero card.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Iris of Reality": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Jessada Sutthi",
+            "slug": "jessada-sutthi"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "comments": null,
+        "flavour": null,
+        "identifier": "iris-of-reality",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON088.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON088.png",
+        "keywords": [
+            "illusionist",
+            "weapon",
+            "orb",
+            "2h"
+        ],
+        "listings": [
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon088",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/mon088",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon088",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon088",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "shop.channelfireball.com",
+                "id": 12,
+                "name": "Channel Fireball",
+                "path": "/products/iris-of-reality-monarch-1st-edition",
+                "price": "0.59",
+                "store": null
+            }
+        ],
+        "name": "Iris of Reality",
+        "next": "ironhide-gauntlet",
+        "prev": "ira-crimson-haze",
+        "printings": [
+            {
+                "edition": {},
+                "id": 2432,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON088.png?w=300&fit=clip&auto=compress",
+                "rarity": "T",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON088",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON088"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2858,
+                "image": "https://fabdb2.imgix.net/cards/printings/PSM003.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Blitz Deck - Prism",
+                "sku": {
+                    "finish": "regular",
+                    "number": "PSM003",
+                    "set": {
+                        "browseable": false,
+                        "id": "psm",
+                        "name": "Prism Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "PSM003"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3014,
+                "image": "https://fabdb2.imgix.net/cards/printings/LGS048-CF.png?w=300&fit=clip&auto=compress",
+                "rarity": "P",
+                "set": "Promo",
+                "sku": {
+                    "finish": "cold",
+                    "number": "LGS048",
+                    "set": {
+                        "0": "browseable => false",
+                        "id": "lgs",
+                        "name": "Local Game Store Promos",
+                        "released": null
+                    },
+                    "sku": "LGS048-CF"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3191,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON088.png?w=300&fit=clip&auto=compress",
+                "rarity": "T",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON088",
+                    "set": {
+                        "browseable": false,
+                        "draftable": false,
+                        "id": "u-mon",
+                        "name": "Monarch (Unlimited)",
+                        "released": "2021-05-28"
+                    },
+                    "sku": "U-MON088"
+                }
+            }
+        ],
+        "rarity": "T",
+        "rulings": [],
+        "stats": [],
+        "subType": "orb",
+        "talent": null,
+        "text": "During your action phase, Illusionist auras\u00a0you control are\u00a0weapons with 4 [Power] and\u00a0\"**Once per Turn Action**\u00a0- [3 Resource]: **Attack. Go again**\"",
+        "totalSideboard": 0,
+        "type": "weapon"
+    },
+    "Lord Sutcliffe": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "bimawithpencil",
+            "slug": "bimawithpencil"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "comments": null,
+        "count": 1,
+        "flavour": null,
+        "identifier": "lord-sutcliffe",
+        "image": "https://fabdb2.imgix.net/cards/printings/CHN002.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/CHN002.png",
+        "keywords": [
+            "runeblade",
+            "mentor"
+        ],
+        "name": "Lord Sutcliffe",
+        "next": "lumina-ascension",
+        "prev": "lord-of-wind-blue",
+        "rarity": "M",
+        "rulings": [],
+        "stats": {
+            "defense": "3"
+        },
+        "subType": null,
+        "talent": null,
+        "text": "**Mentor** *(You may only have Sutcliffe in your deck if your hero is young.)*\n\nAt the start of your turn, if Sutcliffe is face down in your arsenal, you may turn him face up.\n\nWhenever you play a 'non-attack' action card, deal 1 arcane damage to each hero and put a lesson counter on Sutcliffe for each damage dealt this way. Then if there are 3 or more lesson counters on Sutcliffe, banish him, search your deck a **specialization** card, put it face up into your arsenal, and shuffle your deck.",
+        "totalSideboard": 0,
+        "type": "mentor"
+    },
+    "Lord Sutcliffe (undefined)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "bimawithpencil",
+            "slug": "bimawithpencil"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "comments": null,
+        "flavour": null,
+        "identifier": "lord-sutcliffe",
+        "image": "https://fabdb2.imgix.net/cards/printings/CHN002.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/CHN002.png",
+        "keywords": [
+            "runeblade",
+            "mentor"
+        ],
+        "listings": [],
+        "name": "Lord Sutcliffe",
+        "next": "lumina-ascension",
+        "prev": "lord-of-wind-blue",
+        "printings": [
+            {
+                "edition": {},
+                "id": 2946,
+                "image": "https://fabdb2.imgix.net/cards/printings/CHN002.png?w=300&fit=clip&auto=compress",
+                "rarity": "M",
+                "set": "Monarch Blitz Chane",
+                "sku": {
+                    "finish": "regular",
+                    "number": "CHN002",
+                    "set": {
+                        "browseable": false,
+                        "id": "chn",
+                        "name": "Chane Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "CHN002"
+                }
+            }
+        ],
+        "rarity": "M",
+        "rulings": [],
+        "stats": {
+            "defense": "3"
+        },
+        "subType": null,
+        "talent": null,
+        "text": "**Mentor** *(You may only have Sutcliffe in your deck if your hero is young.)*\n\nAt the start of your turn, if Sutcliffe is face down in your arsenal, you may turn him face up.\n\nWhenever you play a 'non-attack' action card, deal 1 arcane damage to each hero and put a lesson counter on Sutcliffe for each damage dealt this way. Then if there are 3 or more lesson counters on Sutcliffe, banish him, search your deck a **specialization** card, put it face up into your arsenal, and shuffle your deck.",
+        "totalSideboard": 0,
+        "type": "mentor"
+    },
+    "Lunartide Plunderer (yellow)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Immanuela Crovius",
+            "slug": "immanuela-crovius"
+        },
+        "banned": null,
+        "class": null,
+        "color": "yellow",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "lunartide-plunderer-yellow",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON207.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON207.png",
+        "keywords": [
+            "shadow",
+            "action",
+            "attack"
+        ],
+        "name": "Lunartide Plunderer",
+        "next": "lunartide-plunderer-red",
+        "prev": "luminaris",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "6",
+            "cost": "3",
+            "defense": "2",
+            "resource": "2"
+        },
+        "subType": "attack",
+        "talent": "shadow",
+        "text": "If Lunartide Plunderer hits a hero, banish it and up to 1 card from their soul.",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Merciful Retribution": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Eleanor Pitiera",
+            "slug": "eleanor-pitiera"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "yellow",
+        "comments": null,
+        "count": 1,
+        "flavour": null,
+        "identifier": "merciful-retribution",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON012.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON012.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "instant",
+            "aura"
+        ],
+        "name": "Merciful Retribution",
+        "next": "merciful-retribution",
+        "prev": "memorial-ground-blue",
+        "rarity": "R",
+        "rulings": [],
+        "stats": {
+            "cost": "4",
+            "resource": "2"
+        },
+        "subType": "aura",
+        "talent": "light",
+        "text": "Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your hero's soul.\u00a0*(Put it face up under your hero card.)*\n\n**Spectra**\u00a0*(Merfiful Retribution can be attacked.\u00a0When Merfiful Retribution becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*",
+        "totalSideboard": 0,
+        "type": "instant"
+    },
+    "Ode to Wrath": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Eleanor Pitiera",
+            "slug": "eleanor-pitiera"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "yellow",
+        "comments": null,
+        "count": 1,
+        "flavour": null,
+        "identifier": "ode-to-wrath",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON013.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON013.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "instant",
+            "aura"
+        ],
+        "name": "Ode to Wrath",
+        "next": "ode-to-wrath",
+        "prev": "oath-of-the-arknight-blue",
+        "rarity": "R",
+        "rulings": [],
+        "stats": {
+            "cost": "4",
+            "resource": "2"
+        },
+        "subType": "aura",
+        "talent": "light",
+        "text": "Whenever a source you control deals damage to an opposing hero, they lose 1[Life].\n\nIllusionist attack action cards you control have\u00a0**go again**.\u00a0*(If an attack\u00a0is destroyed,\u00a0go again does not resolve.)*\n\n**Spectra**\u00a0*(Ode to Wrath can be attacked.\u00a0When Ode to Wrath becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*",
+        "totalSideboard": 0,
+        "type": "instant"
+    },
+    "Phantasmify (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "bimawithpencil",
+            "slug": "bimawithpencil"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "red",
+        "comments": null,
+        "count": 1,
+        "flavour": null,
+        "identifier": "phantasmify-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON095.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON095.png",
+        "keywords": [
+            "illusionist",
+            "action"
+        ],
+        "name": "Phantasmify",
+        "next": "phantasmify-red",
+        "prev": "phantasmal-footsteps",
+        "rarity": "R",
+        "rulings": [],
+        "stats": {
+            "cost": "1",
+            "defense": "2",
+            "resource": "1"
+        },
+        "subType": null,
+        "talent": null,
+        "text": "The next attack\u00a0action card\u00a0you play this turn is Illusionist in addition to its other class types, and gains +5 [Power] and **phantasm**.\u00a0*(If the attack is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy it\u00a0and close the combat chain.)*\n\n**Go again**",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Piercing Shadow Vise (blue)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Isuardi Therianto",
+            "slug": "isuardi-therianto"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "color": "blue",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "piercing-shadow-vise-blue",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON173.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON173.png",
+        "keywords": [
+            "shadow",
+            "runeblade",
+            "action",
+            "attack"
+        ],
+        "name": "Piercing Shadow Vise",
+        "next": "piercing-shadow-vise-red",
+        "prev": "phantasmify-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "2",
+            "cost": "2",
+            "defense": "3",
+            "resource": "3"
+        },
+        "subType": "attack",
+        "talent": "shadow",
+        "text": "You may play Piercing Shadow Vise from your banished zone.\n\nIf you have dealt arcane damage to an opposing hero this turn, Piercing Shadow Vise gains +2 [Power].\n\n**Blood Debt** *(At the beginning of your end phase, if Piercing Shadow Vise is in your banished zone,\u00a0lose 1[Life].)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Piercing Shadow Vise (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Isuardi Therianto",
+            "slug": "isuardi-therianto"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "piercing-shadow-vise-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON171.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON171.png",
+        "keywords": [
+            "shadow",
+            "runeblade",
+            "action",
+            "attack"
+        ],
+        "name": "Piercing Shadow Vise",
+        "next": "piercing-shadow-vise-red",
+        "prev": "phantasmify-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "4",
+            "cost": "2",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "shadow",
+        "text": "You may play Piercing Shadow Vise from your banished zone.\n\nIf you have dealt arcane damage to an opposing hero this turn, Piercing Shadow Vise gains +2 [Power].\n\n**Blood Debt** *(At the beginning of your end phase, if Piercing Shadow Vise is in your banished zone,\u00a0lose 1[Life].)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Prism": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Livia Prima",
+            "slug": "livia-prima"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "comments": null,
+        "flavour": null,
+        "identifier": "prism",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON002.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON002.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "hero",
+            "young"
+        ],
+        "listings": [
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon002",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/mon002",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon002",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon002",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "shop.channelfireball.com",
+                "id": 12,
+                "name": "Channel Fireball",
+                "path": "/products/prism-regular-monarch-1st-edition",
+                "price": "0.59",
+                "store": null
+            }
+        ],
+        "name": "Prism",
+        "next": "prism-sculptor-of-arc-light",
+        "prev": "primeval-bellow-blue",
+        "printings": [
+            {
+                "edition": {},
+                "id": 2264,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON002.png?w=300&fit=clip&auto=compress",
+                "rarity": "T",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON002",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON002"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2856,
+                "image": "https://fabdb2.imgix.net/cards/printings/PSM001.png?w=300&fit=clip&auto=compress",
+                "rarity": "R",
+                "set": "Monarch Blitz Deck - Prism",
+                "sku": {
+                    "finish": "regular",
+                    "number": "PSM001",
+                    "set": {
+                        "browseable": false,
+                        "id": "psm",
+                        "name": "Prism Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "PSM001"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3023,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON002.png?w=300&fit=clip&auto=compress",
+                "rarity": "T",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "regular",
+                    "number": "MON002",
+                    "set": {
+                        "browseable": false,
+                        "draftable": false,
+                        "id": "u-mon",
+                        "name": "Monarch (Unlimited)",
+                        "released": "2021-05-28"
+                    },
+                    "sku": "U-MON002"
+                }
+            },
+            {
+                "edition": {},
+                "id": 3982,
+                "image": "https://fabdb2.imgix.net/cards/printings/HER034-CF.png?w=300&fit=clip&auto=compress",
+                "rarity": "P",
+                "set": "Promo",
+                "sku": {
+                    "finish": "cold",
+                    "number": "HER034",
+                    "set": {
+                        "0": "browseable => false",
+                        "id": "her",
+                        "name": "Hero Promos",
+                        "released": null
+                    },
+                    "sku": "HER034-CF"
+                }
+            }
+        ],
+        "rarity": "T",
+        "rulings": [],
+        "stats": {
+            "intellect": "4",
+            "life": "20"
+        },
+        "subType": "young",
+        "talent": "light",
+        "text": "**Once per Turn Instant**\u00a0- [2 Resource], banish a card from Prism's soul: Create a Spectral Shield token.\u00a0*(It's an Illusionist aura\u00a0with \"If your hero would be dealt damage, instead destroy Spectral Shield\u00a0and prevent 1 damage that source would deal.\")*",
+        "totalSideboard": 0,
+        "type": "hero"
+    },
+    "Prismatic Shield (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Jessada Sutthi",
+            "slug": "jessada-sutthi"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "red",
+        "comments": null,
+        "count": 1,
+        "flavour": null,
+        "identifier": "prismatic-shield-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON092.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON092.png",
+        "keywords": [
+            "illusionist",
+            "instant"
+        ],
+        "name": "Prismatic Shield",
+        "next": "prismatic-shield-red",
+        "prev": "prism-sculptor-of-arc-light",
+        "rarity": "R",
+        "rulings": [],
+        "stats": {
+            "cost": "3",
+            "resource": "1"
+        },
+        "subType": null,
+        "talent": null,
+        "text": "Create 3 Spectral Shield tokens.\u00a0*(They're Illusionist auras\u00a0with \"If your hero would be dealt damage, instead destroy Spectral Shield\u00a0and prevent 1 damage that source would deal.\")*",
+        "totalSideboard": 0,
+        "type": "instant"
+    },
+    "Rift Bind (blue)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Ramza Ardyputra",
+            "slug": "ramza-ardyputra"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "color": "blue",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "rift-bind-blue",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON176.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON176.png",
+        "keywords": [
+            "shadow",
+            "runeblade",
+            "action",
+            "attack"
+        ],
+        "name": "Rift Bind",
+        "next": "rift-bind-red",
+        "prev": "ridge-rider-shot-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "1",
+            "cost": "1",
+            "defense": "3",
+            "resource": "3"
+        },
+        "subType": "attack",
+        "talent": "shadow",
+        "text": "You may play Rift Bind from your banished zone. If you do, it gains +X [Power], where X is the number of\u00a0'non-attack' action cards you have played this turn.\n\n**Blood Debt** *(At the beginning of your end phase, if Rift Bind is in your banished zone,\u00a0lose 1[Life].)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Rift Bind (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Ramza Ardyputra",
+            "slug": "ramza-ardyputra"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "rift-bind-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON174.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON174.png",
+        "keywords": [
+            "shadow",
+            "runeblade",
+            "action",
+            "attack"
+        ],
+        "name": "Rift Bind",
+        "next": "rift-bind-red",
+        "prev": "ridge-rider-shot-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "3",
+            "cost": "1",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "shadow",
+        "text": "You may play Rift Bind from your banished zone. If you do, it gains +X [Power], where X is the number of\u00a0'non-attack' action cards you have played this turn.\n\n**Blood Debt** *(At the beginning of your end phase, if Rift Bind is in your banished zone,\u00a0lose 1[Life].)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Rifted Torment (blue)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Marco Gonz\u00e0lez",
+            "slug": "marco-gonzalez"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "color": "blue",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "rifted-torment-blue",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON179.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON179.png",
+        "keywords": [
+            "shadow",
+            "runeblade",
+            "action",
+            "attack"
+        ],
+        "name": "Rifted Torment",
+        "next": "rifted-torment-red",
+        "prev": "rift-bind-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "2",
+            "cost": "2",
+            "defense": "3",
+            "resource": "3"
+        },
+        "subType": "attack",
+        "talent": "shadow",
+        "text": "You may play Rifted Torment from your banished zone. If you do, deal 1 arcane damage to target hero.\n\n**Blood Debt** *(At the beginning of your end phase, if Rifted Torment is in your banished zone,\u00a0lose 1[Life].)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Rifted Torment (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Marco Gonz\u00e0lez",
+            "slug": "marco-gonzalez"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "rifted-torment-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON177.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON177.png",
+        "keywords": [
+            "shadow",
+            "runeblade",
+            "action",
+            "attack"
+        ],
+        "name": "Rifted Torment",
+        "next": "rifted-torment-red",
+        "prev": "rift-bind-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "4",
+            "cost": "2",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "shadow",
+        "text": "You may play Rifted Torment from your banished zone. If you do, deal 1 arcane damage to target hero.\n\n**Blood Debt** *(At the beginning of your end phase, if Rifted Torment is in your banished zone,\u00a0lose 1[Life].)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Rip Through Reality (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Yolanda Felicia",
+            "slug": "yolanda-felicia"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "rip-through-reality-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON180.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON180.png",
+        "keywords": [
+            "shadow",
+            "runeblade",
+            "action",
+            "attack"
+        ],
+        "name": "Rip Through Reality",
+        "next": "rip-through-reality-red",
+        "prev": "riled-up-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "4",
+            "cost": "2",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "shadow",
+        "text": "You may play Rip Through Reality from your banished zone.\n\nIf you have dealt arcane damage to an opposing hero this turn, Rip Through Reality gains\u00a0**go again**.\n\n**Blood Debt** *(At the beginning of your end phase, if Rip Through Reality is in your banished zone,\u00a0lose 1[Life].)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Rising Solartide (yellow)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Phu Thieu",
+            "slug": "phu-thieu"
+        },
+        "banned": null,
+        "class": null,
+        "color": "yellow",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "rising-solartide-yellow",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON079.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON079.png",
+        "keywords": [
+            "light",
+            "action",
+            "attack"
+        ],
+        "name": "Rising Solartide",
+        "next": "rising-solartide-red",
+        "prev": "rising-knee-thrust-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "4",
+            "cost": "1",
+            "defense": "3",
+            "resource": "2"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "If Rising Solartide hits,\u00a0put it into your hero's soul.\u00a0*(Put this card face up under your hero card.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Seeds of Agony (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "bimawithpencil",
+            "slug": "bimawithpencil"
+        },
+        "banned": [
+            "blitz",
+            "constructed"
+        ],
+        "class": "runeblade",
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "seeds-of-agony-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON183.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON183.png",
+        "keywords": [
+            "shadow",
+            "runeblade",
+            "action"
+        ],
+        "name": "Seeds of Agony",
+        "next": "seeds-of-agony-red",
+        "prev": "second-swing-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "cost": "0",
+            "defense": "2",
+            "resource": "1"
+        },
+        "subType": null,
+        "talent": "shadow",
+        "text": "You may play Seeds of Agony from your banished zone.\n\nThe next attack action card with cost 2 or less you play this turn gains \"Deal 1 arcane damage to target hero.\"\n\n**Go again**\n\n**Blood Debt** *(At the beginning of your end phase, if Seeds of Agony is in your banished zone,\u00a0lose 1[Life].)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Seeds of Agony (yellow)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "bimawithpencil",
+            "slug": "bimawithpencil"
+        },
+        "banned": [
+            "blitz",
+            "constructed"
+        ],
+        "class": "runeblade",
+        "color": "yellow",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "seeds-of-agony-yellow",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON184.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON184.png",
+        "keywords": [
+            "shadow",
+            "runeblade",
+            "action"
+        ],
+        "name": "Seeds of Agony",
+        "next": "seeds-of-agony-red",
+        "prev": "second-swing-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "cost": "0",
+            "defense": "2",
+            "resource": "2"
+        },
+        "subType": null,
+        "talent": "shadow",
+        "text": "You may play Seeds of Agony from your banished zone.\n\nThe next attack action card with cost 1 or less you play this turn gains \"Deal 1 arcane damage to target hero.\"\n\n**Go again**\n\n**Blood Debt** *(At the beginning of your end phase, if Seeds of Agony is in your banished zone,\u00a0lose 1[Life].)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Seek Enlightenment (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Reza Afshar",
+            "slug": "reza-afshar"
+        },
+        "banned": null,
+        "class": null,
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "seek-enlightenment-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON081.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON081.png",
+        "keywords": [
+            "light",
+            "action"
+        ],
+        "name": "Seek Enlightenment",
+        "next": "seek-enlightenment-red",
+        "prev": "seek-and-destroy",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "cost": "1",
+            "defense": "2",
+            "resource": "1"
+        },
+        "subType": null,
+        "talent": "light",
+        "text": "The next attack action card you play this turn gains +3 [Power] and \"If this hits, put it into your hero's soul.\"\u00a0*(Put the card face up under your hero card.)*\n\n**Go again**",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Seeping Shadows (yellow)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Marco Gonz\u00e0lez",
+            "slug": "marco-gonzalez"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "color": "yellow",
+        "comments": null,
+        "count": 1,
+        "flavour": null,
+        "identifier": "seeping-shadows-yellow",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON166.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON166.png",
+        "keywords": [
+            "shadow",
+            "runeblade",
+            "action"
+        ],
+        "name": "Seeping Shadows",
+        "next": "seeping-shadows-red",
+        "prev": "seek-horizon-blue",
+        "rarity": "R",
+        "rulings": [],
+        "stats": {
+            "cost": "3",
+            "defense": "2",
+            "resource": "2"
+        },
+        "subType": null,
+        "talent": "shadow",
+        "text": "You may play Seeping Shadows\u00a0from your banished zone.\n\nThe next attack action card with cost 1 or less\u00a0you play this turn gains +1 [Power] and\u00a0**go again**.\u00a0\n\n**Go again**\n\n**Blood Debt** *(At the beginning of your end phase, if Seeping Shadows is in your banished zone,\u00a0lose 1[Life].)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Snapdragon Scalers": {
+        "artist": {
+            "blurb": "Being responsible for the first fabled card of Flesh & Blood and also one of its most iconic, Adolfo has become a household name within our beloved TCG.",
+            "image": "https://fabdb2.imgix.net/artists/OO2vqZYcZO9Tk3iDD0XLfhN5gzqsYl4ITTITYWgY.jpg?w=350&fit=clip&auto=compress",
+            "name": "Adolfo Navarro",
+            "slug": "adolfo-navarro"
+        },
+        "banned": null,
+        "class": "generic",
+        "comments": null,
+        "flavour": null,
+        "identifier": "snapdragon-scalers",
+        "image": "https://fabdb2.imgix.net/cards/printings/WTR154.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/WTR154.png",
+        "keywords": [
+            "generic",
+            "equipment",
+            "legs"
+        ],
+        "listings": [
+            {
+                "currency": "CAD",
+                "domain": "duelkingdom.ca",
+                "id": 1,
+                "name": "Duel Kingdom",
+                "path": "/products/snapdragon-scalers-wtr154-alpha",
+                "price": "0.22",
+                "store": {
+                    "currency": "CAD",
+                    "domain": "duelkingdom.ca",
+                    "name": "Duel Kingdom"
+                }
+            },
+            {
+                "currency": "CAD",
+                "domain": "duelkingdom.ca",
+                "id": 1,
+                "name": "Duel Kingdom",
+                "path": "/products/snapdragon-scalers-wtr154-alpha",
+                "price": "8.90",
+                "store": {
+                    "currency": "CAD",
+                    "domain": "duelkingdom.ca",
+                    "name": "Duel Kingdom"
+                }
+            },
+            {
+                "currency": "CAD",
+                "domain": "duelkingdom.ca",
+                "id": 1,
+                "name": "Duel Kingdom",
+                "path": "/products/snapdragon-scalers-wtr154",
+                "price": "8.90",
+                "store": {
+                    "currency": "CAD",
+                    "domain": "duelkingdom.ca",
+                    "name": "Duel Kingdom"
+                }
+            },
+            {
+                "currency": "CAD",
+                "domain": "duelkingdom.ca",
+                "id": 1,
+                "name": "Duel Kingdom",
+                "path": "/products/snapdragon-scalers-wtr154",
+                "price": "0.22",
+                "store": {
+                    "currency": "CAD",
+                    "domain": "duelkingdom.ca",
+                    "name": "Duel Kingdom"
+                }
+            },
+            {
+                "currency": "CAD",
+                "domain": "duelkingdom.ca",
+                "id": 1,
+                "name": "Duel Kingdom",
+                "path": "/products/snapdragon-scalers-wtr154",
+                "price": "8.90",
+                "store": {
+                    "currency": "CAD",
+                    "domain": "duelkingdom.ca",
+                    "name": "Duel Kingdom"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabempire.com",
+                "id": 2,
+                "name": "FAB Empire",
+                "path": "/products/snapdragon-scalers",
+                "price": "2.00",
+                "store": null
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabempire.com",
+                "id": 2,
+                "name": "FAB Empire",
+                "path": "/products/snapdragon-scalers-foil",
+                "price": "320.00",
+                "store": null
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabempire.com",
+                "id": 2,
+                "name": "FAB Empire",
+                "path": "/products/snapdragon-scalers-foil-unl",
+                "price": "15.00",
+                "store": null
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabempire.com",
+                "id": 2,
+                "name": "FAB Empire",
+                "path": "/products/snapdragon-scalers-foil-unl",
+                "price": "15.00",
+                "store": null
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabempire.com",
+                "id": 2,
+                "name": "FAB Empire",
+                "path": "/products/snapdragon-scalers-unl",
+                "price": "0.49",
+                "store": null
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/wtr154",
+                "price": "1.00",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/wtr154",
+                "price": "10.00",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-wtr154",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-wtr154-rf",
+                "price": "5.00",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/snapdragon-scalers",
+                "price": "130.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/snapdragon-scalers",
+                "price": "0.50",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/snapdragon-scalers",
+                "price": "5.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/snapdragon-scalers",
+                "price": "0.15",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/snapdragon-scalers",
+                "price": "6.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/wtr154-c",
+                "price": "0.50",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/wtr154-c-cf",
+                "price": "1099.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/unl-wtr154-c-rf",
+                "price": "6.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/unl-wtr154-c",
+                "price": "0.50",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/unl-wtr154-c-rf",
+                "price": "4.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "www.calicokeep.com",
+                "id": 6,
+                "name": "Calico Keep",
+                "path": "/products/snapdragon-scalers",
+                "price": "25.00",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "www.calicokeep.com",
+                    "name": "Calico Keep"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "www.calicokeep.com",
+                "id": 6,
+                "name": "Calico Keep",
+                "path": "/products/snapdragon-scalers",
+                "price": "0.10",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "www.calicokeep.com",
+                    "name": "Calico Keep"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "www.calicokeep.com",
+                "id": 6,
+                "name": "Calico Keep",
+                "path": "/products/snapdragon-scalers-unlimited",
+                "price": "10.00",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "www.calicokeep.com",
+                    "name": "Calico Keep"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "www.calicokeep.com",
+                "id": 6,
+                "name": "Calico Keep",
+                "path": "/products/snapdragon-scalers-unlimited",
+                "price": "0.10",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "www.calicokeep.com",
+                    "name": "Calico Keep"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "cardmerchant.co.nz",
+                "id": 7,
+                "name": "Card Merchant",
+                "path": "/products/snapdragon-scalers",
+                "price": "2.00",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "cardmerchant.co.nz",
+                    "name": "Card Merchant"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "cardmerchant.co.nz",
+                "id": 7,
+                "name": "Card Merchant",
+                "path": "/products/snapdragon-scalers-foil-unl",
+                "price": "7.00",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "cardmerchant.co.nz",
+                    "name": "Card Merchant"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "cardmerchant.co.nz",
+                "id": 7,
+                "name": "Card Merchant",
+                "path": "/products/snapdragon-scalers-unl",
+                "price": "1.00",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "cardmerchant.co.nz",
+                    "name": "Card Merchant"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "cardmerchant.co.nz",
+                "id": 7,
+                "name": "Card Merchant",
+                "path": "/products/snapdragon-scalers-foil-unl",
+                "price": "7.00",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "cardmerchant.co.nz",
+                    "name": "Card Merchant"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "swaptcg.com",
+                "id": 8,
+                "name": "Swap TCG",
+                "path": "/products/snapdragon-scalers-wtr154-c-alpha-print-regular",
+                "price": "11.10",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "swaptcg.com",
+                    "name": "Swap TCG"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "swaptcg.com",
+                "id": 8,
+                "name": "Swap TCG",
+                "path": "/products/snapdragon-scalers-wtr154-c-alpha-print-cold-foil",
+                "price": "950.20",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "swaptcg.com",
+                    "name": "Swap TCG"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "swaptcg.com",
+                "id": 8,
+                "name": "Swap TCG",
+                "path": "/products/snapdragon-scalers-wtr154-unlimited-edition-normal",
+                "price": "0.30",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "swaptcg.com",
+                    "name": "Swap TCG"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "swaptcg.com",
+                "id": 8,
+                "name": "Swap TCG",
+                "path": "/products/snapdragon-scalers-wtr154-unlimited-edition-rainbow-foil",
+                "price": "3.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "swaptcg.com",
+                    "name": "Swap TCG"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "goldenphoenixgames.com",
+                "id": 10,
+                "name": "Golden Phoenix Games",
+                "path": "/products/snapdragon-scalers",
+                "price": "1.00",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "goldenphoenixgames.com",
+                "id": 10,
+                "name": "Golden Phoenix Games",
+                "path": "/products/snapdragon-scalers",
+                "price": "15.00",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "shop.channelfireball.com",
+                "id": 12,
+                "name": "Channel Fireball",
+                "path": "/products/fab-snapdragon-scalers-regular-welcome-to-rathe-unlimited",
+                "price": "0.50",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "midtownmerchant.com",
+                "id": 13,
+                "name": "Midtown Merchant",
+                "path": "/products/snapdragon-scalers-coldfoil",
+                "price": "425.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "midtownmerchant.com",
+                    "name": "Midtown Merchant"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "midtownmerchant.com",
+                "id": 13,
+                "name": "Midtown Merchant",
+                "path": "/products/snapdragon-scalers-rainbow-foil",
+                "price": "2.50",
+                "store": {
+                    "currency": "USD",
+                    "domain": "midtownmerchant.com",
+                    "name": "Midtown Merchant"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabtcgcards.com",
+                "id": 14,
+                "name": "FAB TCG Cards",
+                "path": "/products/snapdragon-scalers",
+                "price": "1.20",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabtcgcards.com",
+                    "name": "FAB TCG Cards"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabtcgcards.com",
+                "id": 14,
+                "name": "FAB TCG Cards",
+                "path": "/products/hceuwdbhozmvszizp7lotaec",
+                "price": "3.75",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabtcgcards.com",
+                    "name": "FAB TCG Cards"
+                }
+            }
+        ],
+        "name": "Snapdragon Scalers",
+        "next": "snatch-red",
+        "prev": "snapback-blue",
+        "printings": [
+            {
+                "edition": {},
+                "id": 290,
+                "image": "https://fabdb2.imgix.net/cards/printings/WTR154.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Welcome to Rathe",
+                "sku": {
+                    "finish": "regular",
+                    "number": "WTR154",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "wtr",
+                        "name": "Welcome to Rathe",
+                        "released": "2019-10-11"
+                    },
+                    "sku": "WTR154"
+                }
+            },
+            {
+                "edition": {},
+                "id": 291,
+                "image": "https://fabdb2.imgix.net/cards/printings/WTR154-CF.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Welcome to Rathe",
+                "sku": {
+                    "finish": "cold",
+                    "number": "WTR154",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "wtr",
+                        "name": "Welcome to Rathe",
+                        "released": "2019-10-11"
+                    },
+                    "sku": "WTR154-CF"
+                }
+            },
+            {
+                "edition": {},
+                "id": 721,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-WTR154.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Welcome to Rathe Unlimited",
+                "sku": {
+                    "finish": "regular",
+                    "number": "WTR154",
+                    "set": {
+                        "browseable": false,
+                        "id": "u-wtr",
+                        "name": "Welcome to Rathe (Unlimited)",
+                        "released": "2020-11-06"
+                    },
+                    "sku": "U-WTR154"
+                }
+            },
+            {
+                "edition": {},
+                "id": 722,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-WTR154-RF.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Welcome to Rathe Unlimited",
+                "sku": {
+                    "finish": "rainbow",
+                    "number": "WTR154",
+                    "set": {
+                        "browseable": false,
+                        "id": "u-wtr",
+                        "name": "Welcome to Rathe (Unlimited)",
+                        "released": "2020-11-06"
+                    },
+                    "sku": "U-WTR154-RF"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2089,
+                "image": "https://fabdb2.imgix.net/cards/printings/RNR007.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Hero Deck Rhinar",
+                "sku": {
+                    "finish": "regular",
+                    "number": "RNR007",
+                    "set": {
+                        "browseable": false,
+                        "id": "rnr",
+                        "name": "Rhinar Hero Deck",
+                        "released": "2019-10-11"
+                    },
+                    "sku": "RNR007"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2893,
+                "image": "https://fabdb2.imgix.net/cards/printings/BOL008.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Blitz Boltyn",
+                "sku": {
+                    "finish": "regular",
+                    "number": "BOL008",
+                    "set": {
+                        "browseable": false,
+                        "id": "bol",
+                        "name": "Boltyn Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "BOL008"
+                }
+            },
+            {
+                "edition": {},
+                "id": 2951,
+                "image": "https://fabdb2.imgix.net/cards/printings/CHN007.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Blitz Chane",
+                "sku": {
+                    "finish": "regular",
+                    "number": "CHN007",
+                    "set": {
+                        "browseable": false,
+                        "id": "chn",
+                        "name": "Chane Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "CHN007"
+                }
+            }
+        ],
+        "rarity": "C",
+        "rulings": [
+            {
+                "createdAt": "2020-08-11T04:45:59.000000Z",
+                "description": "When an action with go again resolves, its controller gains 1 action point.\nMultiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+                "pivot": {
+                    "card_id": 154,
+                    "ruling_id": 196
+                },
+                "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+                "updatedAt": "2020-08-11T04:45:59.000000Z"
+            },
+            {
+                "createdAt": "2020-08-11T04:45:59.000000Z",
+                "description": "If this is used on an attack with go again, you will only gain 1 action point upon resolution as multiple instances of *go againdo not stack.\nSnapdragon Scaler\u2019s activated ability is an attack reaction. You may activate it during the reaction window when you are the attacking hero.",
+                "pivot": {
+                    "card_id": 154,
+                    "ruling_id": 211
+                },
+                "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+                "updatedAt": "2020-08-11T04:45:59.000000Z"
+            }
+        ],
+        "stats": {
+            "defense": "0"
+        },
+        "subType": "legs",
+        "talent": null,
+        "text": "**Attack reaction** - Destroy Snapdragon Scalers: Target attack action card with cost [resource] or less gains **go again**.",
+        "totalSideboard": 0,
+        "type": "equipment"
+    },
+    "Soul Reaping": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "bimawithpencil",
+            "slug": "bimawithpencil"
+        },
+        "banned": null,
+        "class": null,
+        "color": "red",
+        "comments": null,
+        "count": 1,
+        "flavour": null,
+        "identifier": "soul-reaping",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON199.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON199.png",
+        "keywords": [
+            "shadow",
+            "action",
+            "attack"
+        ],
+        "name": "Soul Reaping",
+        "next": "soul-reaping",
+        "prev": "soul-harvest",
+        "rarity": "R",
+        "rulings": [],
+        "stats": {
+            "attack": "6",
+            "cost": "6",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "shadow",
+        "text": "**Legendary\u00a0Chane Specialization**\u00a0*(You may only have 1 Soul Reaping in your deck and only if your hero is Chane.)*\n\nYou may banish 1 or more cards from your hand rather than pay Soul Reaping's [Resource] cost. If you do, gain [1 Resource] for each card with **blood debt**\u00a0banished this way.\n\nWhile Soul Reaping is attacking a hero with 1 or more cards in their soul, it has\u00a0**go again**.",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Spears of Surreality (blue)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Immanuela Crovius",
+            "slug": "immanuela-crovius"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "blue",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "spears-of-surreality-blue",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON103.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON103.png",
+        "keywords": [
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "name": "Spears of Surreality",
+        "next": "spears-of-surreality-red",
+        "prev": "spark-of-genius",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "3",
+            "cost": "1",
+            "defense": "3",
+            "resource": "3"
+        },
+        "subType": "attack",
+        "talent": null,
+        "text": "**Phantasm**\u00a0*(If Spears of Surreality is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Spears of Surreality and close the combat chain.)*\n\n**Go again** *(If Spears of Surreality is destroyed,\u00a0go again does not resolve.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Spell Fray Gloves": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Tian Thongjomroon",
+            "slug": "tian-thongjomroon"
+        },
+        "banned": null,
+        "class": "generic",
+        "comments": null,
+        "flavour": null,
+        "identifier": "spell-fray-gloves",
+        "image": "https://fabdb2.imgix.net/cards/printings/CHN006.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/CHN006.png",
+        "keywords": [
+            "generic",
+            "equipment",
+            "arms"
+        ],
+        "listings": [],
+        "name": "Spell Fray Gloves",
+        "next": "spell-fray-leggings",
+        "prev": "spell-fray-cloak",
+        "printings": [
+            {
+                "edition": {},
+                "id": 2950,
+                "image": "https://fabdb2.imgix.net/cards/printings/CHN006.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Blitz Chane",
+                "sku": {
+                    "finish": "regular",
+                    "number": "CHN006",
+                    "set": {
+                        "browseable": false,
+                        "id": "chn",
+                        "name": "Chane Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "CHN006"
+                }
+            }
+        ],
+        "rarity": "C",
+        "rulings": [],
+        "stats": [],
+        "subType": "arms",
+        "talent": null,
+        "text": "Spellvoid 1 (If your hero would be dealt arcane damage, you may destroy Spell Fray Gloves. If you do, prevent 1 arcane damage that source would deal.)",
+        "totalSideboard": 0,
+        "type": "equipment"
+    },
+    "Spell Fray Leggings": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Tian Thongjomroon",
+            "slug": "tian-thongjomroon"
+        },
+        "banned": null,
+        "class": "generic",
+        "comments": null,
+        "flavour": null,
+        "identifier": "spell-fray-leggings",
+        "image": "https://fabdb2.imgix.net/cards/printings/PSM007.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/PSM007.png",
+        "keywords": [
+            "generic",
+            "equipment",
+            "legs"
+        ],
+        "listings": [],
+        "name": "Spell Fray Leggings",
+        "next": "spellblade-assault-red",
+        "prev": "spell-fray-gloves",
+        "printings": [
+            {
+                "edition": {},
+                "id": 2862,
+                "image": "https://fabdb2.imgix.net/cards/printings/PSM007.png?w=300&fit=clip&auto=compress",
+                "rarity": "C",
+                "set": "Monarch Blitz Deck - Prism",
+                "sku": {
+                    "finish": "regular",
+                    "number": "PSM007",
+                    "set": {
+                        "browseable": false,
+                        "id": "psm",
+                        "name": "Prism Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "PSM007"
+                }
+            }
+        ],
+        "rarity": "C",
+        "rulings": [],
+        "stats": [],
+        "subType": "legs",
+        "talent": null,
+        "text": "Spellvoid 1 (If your hero would be dealt arcane damage, you may destroy Spell Fray Leggings. If you do, prevent 1 arcane damage that source would deal.)",
+        "totalSideboard": 0,
+        "type": "equipment"
+    },
+    "Spew Shadow (yellow)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Marco Gonz\u00e0lez",
+            "slug": "marco-gonzalez"
+        },
+        "banned": null,
+        "class": null,
+        "color": "yellow",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "spew-shadow-yellow",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON213.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON213.png",
+        "keywords": [
+            "shadow",
+            "action"
+        ],
+        "name": "Spew Shadow",
+        "next": "spew-shadow-red",
+        "prev": "spellbound-creepers",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "cost": "2",
+            "defense": "2",
+            "resource": "2"
+        },
+        "subType": null,
+        "talent": "shadow",
+        "text": "Choose an attack action card with cost 1\u00a0or less in your banished zone. You may play it this turn. If it attacks a Light hero, it\u00a0gains +2 [Power].\n\n**Go again**",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "The Librarian": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Federico Musetti",
+            "slug": "federico-musetti"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "comments": null,
+        "count": 1,
+        "flavour": null,
+        "identifier": "the-librarian",
+        "image": "https://fabdb2.imgix.net/cards/printings/PSM002.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/PSM002.png",
+        "keywords": [
+            "illusionist",
+            "mentor"
+        ],
+        "name": "The Librarian",
+        "next": "three-of-a-kind-red",
+        "prev": "teklovossens-workshop-blue",
+        "rarity": "M",
+        "rulings": [],
+        "stats": {
+            "defense": "2"
+        },
+        "subType": null,
+        "talent": null,
+        "text": "**Mentor** *(You may only have The Librarian in your deck if your hero is young.)*\n\nAt the start of your turn, if The Librarian is face down in your arsenal, you may turn him face up.\n\n**Once per Turn Effect** - Whenever you create a Spectral Shield token, draw a card and put a lesson counter on The Librarian. Then if there are 3 or more lesson counters on The Librarian, banish him, search your deck a **specialization** card, put it face up into your arsenal, and shuffle your deck.",
+        "totalSideboard": 0,
+        "type": "mentor"
+    },
+    "The Librarian (undefined)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Federico Musetti",
+            "slug": "federico-musetti"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "comments": null,
+        "flavour": null,
+        "identifier": "the-librarian",
+        "image": "https://fabdb2.imgix.net/cards/printings/PSM002.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/PSM002.png",
+        "keywords": [
+            "illusionist",
+            "mentor"
+        ],
+        "listings": [],
+        "name": "The Librarian",
+        "next": "three-of-a-kind-red",
+        "prev": "teklovossens-workshop-blue",
+        "printings": [
+            {
+                "edition": {},
+                "id": 2857,
+                "image": "https://fabdb2.imgix.net/cards/printings/PSM002.png?w=300&fit=clip&auto=compress",
+                "rarity": "M",
+                "set": "Monarch Blitz Deck - Prism",
+                "sku": {
+                    "finish": "regular",
+                    "number": "PSM002",
+                    "set": {
+                        "browseable": false,
+                        "id": "psm",
+                        "name": "Prism Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "PSM002"
+                }
+            }
+        ],
+        "rarity": "M",
+        "rulings": [],
+        "stats": {
+            "defense": "2"
+        },
+        "subType": null,
+        "talent": null,
+        "text": "**Mentor** *(You may only have The Librarian in your deck if your hero is young.)*\n\nAt the start of your turn, if The Librarian is face down in your arsenal, you may turn him face up.\n\n**Once per Turn Effect** - Whenever you create a Spectral Shield token, draw a card and put a lesson counter on The Librarian. Then if there are 3 or more lesson counters on The Librarian, banish him, search your deck a **specialization** card, put it face up into your arsenal, and shuffle your deck.",
+        "totalSideboard": 0,
+        "type": "mentor"
+    },
+    "Unhallowed Rites (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Isuardi Therianto",
+            "slug": "isuardi-therianto"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "color": "red",
+        "comments": null,
+        "count": 1,
+        "flavour": null,
+        "identifier": "unhallowed-rites-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON159.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON159.png",
+        "keywords": [
+            "shadow",
+            "runeblade",
+            "action",
+            "attack"
+        ],
+        "name": "Unhallowed Rites",
+        "next": "unhallowed-rites-red",
+        "prev": "twinning-blade",
+        "rarity": "R",
+        "rulings": [],
+        "stats": {
+            "attack": "4",
+            "cost": "1",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "shadow",
+        "text": "If you have played a 'non-attack' action card this turn, you may play Unhallowed Rites from your banished zone.\n\nYou may put a 'non-attack' action card with\u00a0**blood debt**\u00a0from your graveyard on the bottom of your deck.\n\n**Blood Debt** *(At the beginning of your end phase, if Unhallowed Rites is in your banished zone,\u00a0lose 1[Life].)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Vexing Malice (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Henrique Lindner",
+            "slug": "henrique-lindner"
+        },
+        "banned": null,
+        "class": "runeblade",
+        "color": "red",
+        "comments": null,
+        "count": 1,
+        "flavour": null,
+        "identifier": "vexing-malice-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON232.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON232.png",
+        "keywords": [
+            "runeblade",
+            "action",
+            "attack"
+        ],
+        "name": "Vexing Malice",
+        "next": "vexing-malice-red",
+        "prev": "vestige-of-sol",
+        "rarity": "R",
+        "rulings": [],
+        "stats": {
+            "attack": "3",
+            "cost": "1",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": null,
+        "text": "Deal 2 arcane damage to target hero.",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Warmonger's Recital (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Oliver Morit",
+            "slug": "oliver-morit"
+        },
+        "banned": null,
+        "class": "generic",
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "warmongers-recital-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON299.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON299.png",
+        "keywords": [
+            "generic",
+            "action"
+        ],
+        "name": "Warmonger's Recital",
+        "next": "warmongers-recital-red",
+        "prev": "voltic-bolt-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "cost": "1",
+            "defense": "2",
+            "resource": "1"
+        },
+        "subType": null,
+        "talent": null,
+        "text": "The next attack action card you play this turn gains +3 [Power] and \"If this hits, put it on the bottom of your deck.\"\n\n**Go again**",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Warmonger's Recital (yellow)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Oliver Morit",
+            "slug": "oliver-morit"
+        },
+        "banned": null,
+        "class": "generic",
+        "color": "yellow",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "warmongers-recital-yellow",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON300.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON300.png",
+        "keywords": [
+            "generic",
+            "action"
+        ],
+        "name": "Warmonger's Recital",
+        "next": "warmongers-recital-red",
+        "prev": "voltic-bolt-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "cost": "1",
+            "defense": "2",
+            "resource": "2"
+        },
+        "subType": null,
+        "talent": null,
+        "text": "The next attack action card you play this turn gains +2 [Power] and \"If this hits, put it on the bottom of your deck.\"\n\n**Go again**",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Wartune Herald (blue)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Narendra B. Adi",
+            "slug": "narendra-b-adi"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "blue",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "wartune-herald-blue",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON028.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON028.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "name": "Wartune Herald",
+        "next": "wartune-herald-red",
+        "prev": "warriors-valor-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "5",
+            "cost": "1",
+            "defense": "3",
+            "resource": "3"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "If Wartune Herald hits,\u00a0put it into your hero's soul.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Wartune Herald is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Wartune Herald and close the combat chain.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    },
+    "Wartune Herald (red)": {
+        "artist": {
+            "blurb": null,
+            "image": null,
+            "name": "Narendra B. Adi",
+            "slug": "narendra-b-adi"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "color": "red",
+        "comments": null,
+        "count": 2,
+        "flavour": null,
+        "identifier": "wartune-herald-red",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON026.png?w=350&fit=clip&auto=compress",
+        "image_path": "assets/fab/cards/MON026.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "name": "Wartune Herald",
+        "next": "wartune-herald-red",
+        "prev": "warriors-valor-blue",
+        "rarity": "C",
+        "rulings": [],
+        "stats": {
+            "attack": "7",
+            "cost": "1",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "If Wartune Herald hits,\u00a0put it into your hero's soul.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Wartune Herald is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Wartune Herald and close the combat chain.)*",
+        "totalSideboard": 0,
+        "type": "action"
+    }
+}

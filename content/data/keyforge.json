@@ -19,5 +19,89 @@
     "keyraken_difficulty": "Normal",
     "defeated_conspiracy": false,
     "conspiracy_difficulty": "Easy"
+  },
+  {
+    "deck_id": "c98e4663-351e-4dfb-9ce8-4578ee8f54ad",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal",
+    "defeated_conspiracy": false,
+    "conspiracy_difficulty": "Easy"
+  },
+  {
+    "deck_id": "c94bc221-1da8-455f-965a-9ad436c7d5b9",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal",
+    "defeated_conspiracy": false,
+    "conspiracy_difficulty": "Easy"
+  },
+  {
+    "deck_id": "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal",
+    "defeated_conspiracy": false,
+    "conspiracy_difficulty": "Easy"
+  },
+  {
+    "deck_id": "b41630b3-7394-4ac5-9102-0c4dcb2e1b8a",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal",
+    "defeated_conspiracy": false,
+    "conspiracy_difficulty": "Easy"
+  },
+  {
+    "deck_id": "cface028-c891-46bf-9eb0-b9fc2280a718",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal",
+    "defeated_conspiracy": false,
+    "conspiracy_difficulty": "Easy"
+  },
+  {
+    "deck_id": "21459407-7765-44f6-b183-2ebef8283f63",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal",
+    "defeated_conspiracy": false,
+    "conspiracy_difficulty": "Easy"
+  },
+  {
+    "deck_id": "aebaeba5-5918-4573-983a-72d0a5c6133d",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal",
+    "defeated_conspiracy": false,
+    "conspiracy_difficulty": "Easy"
+  },
+  {
+    "deck_id": "8dfbd01a-157b-4a51-8428-50ab1ed9edf7",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal",
+    "defeated_conspiracy": false,
+    "conspiracy_difficulty": "Easy"
+  },
+  {
+    "deck_id": "355b1f9d-2c3f-48fb-ac40-cf7292a31d19",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal",
+    "defeated_conspiracy": false,
+    "conspiracy_difficulty": "Easy"
+  },
+  {
+    "deck_id": "719d5924-248a-4b64-8789-a6eccf710095",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal",
+    "defeated_conspiracy": false,
+    "conspiracy_difficulty": "Easy"
+  },
+  {
+    "deck_id": "9ec782d8-2999-40e0-b067-138a5fa85579",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal",
+    "defeated_conspiracy": false,
+    "conspiracy_difficulty": "Easy"
+  },
+  {
+    "deck_id": "a19ba89a-ea75-406e-9b38-f8968b5bd323",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal",
+    "defeated_conspiracy": false,
+    "conspiracy_difficulty": "Easy"
   }
 ]
