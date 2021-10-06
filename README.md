@@ -265,6 +265,7 @@ Some icons and glyphs used require attribution:
 
   * Trophy by i cons from the Noun Project
   * Kraken by Pau Urquijo from the Noun Project
+  * Diving helmet by Geordie Kaytes from the Noun Project
 
 ## Legal
 

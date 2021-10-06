@@ -198,6 +198,8 @@ def get_keyforge_external_data(generator):
         current_data[deck["deck_id"]]["adventure_data"] = {
             "defeated_keyraken": deck.get("defeated_keyraken", False),
             "keyraken_difficulty": deck.get("keyraken_difficulty", False),
+            "defeated_conspiracy": deck.get("defeated_conspiracy", False),
+            "conspiracy_difficulty": deck.get("conspiracy_difficulty", False),
         }
 
     with open(keyforge_cache_path, "w") as fout:
