@@ -32,12 +32,16 @@ def get_keyforge_cache_path(pelican):
     cache_path = pelican.settings.get("DECKLOCK_CACHE", None)
     content_path = get_content_path(pelican)
 
+    Path(content_path, cache_path).mkdir(parents=True, exist_ok=True)
+
     return os.path.join(content_path, cache_path, "keyforge.cache.json")
 
 
 def get_dok_decks_cache_path(pelican):
     cache_path = pelican.settings.get("DECKLOCK_CACHE", None)
     content_path = get_content_path(pelican)
+
+    Path(content_path, cache_path).mkdir(parents=True, exist_ok=True)
 
     return os.path.join(content_path, cache_path, "dok_decks.cache.json")
 

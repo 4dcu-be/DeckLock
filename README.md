@@ -45,8 +45,12 @@ PELICAN?=pelican
 
 ### pelicanconf.py and publishconf.py
 
-pelicanconf.py should be ready to go, though feel free to have a look to see if any of the
-settings and paths need to be changed.
+pelicanconf.py requires you to specify where the cache and content is stored. You should only change the cache folder
+to something else (e.g. dl_cache)
+
+```python
+DECKLOCK_CACHE = "dl_demo_cache"
+```
 
 In publishconf.py however you will need to specify the final url of your site.
 
