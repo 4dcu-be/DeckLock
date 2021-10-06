@@ -24,8 +24,9 @@ class KeyForgeGenerator(generators.Generator):
     template_deck = "keyforge_deck.html"
 
     def keyforge_data_path(self, settings):
-        Path(settings.get("PATH"),
-            settings.get("DECKLOCK_CACHE")).mkdir(parents=True, exist_ok=True)
+        Path(settings.get("PATH"), settings.get("DECKLOCK_CACHE")).mkdir(
+            parents=True, exist_ok=True
+        )
 
         return posixpath.join(
             settings.get("PATH"),
