@@ -86,11 +86,19 @@
                     <h3>KeyForge Adventures</h3>
                 </div>
                 <div class="card-body">
+                    <p>
                     {% if keyforge_data.adventure_data.defeated_keyraken %}
                     {{ keyforge_data.vault_data.data.name }} has defeated The Keyraken (difficulty: <em>{{keyforge_data.adventure_data.keyraken_difficulty}}</em>).
                     {% else %}
                         {{ keyforge_data.vault_data.data.name }} has not defeated The Keyraken.
                     {% endif %}
+                    </p><p>
+                    {% if keyforge_data.adventure_data.defeated_conspiracy %}
+                    {{ keyforge_data.vault_data.data.name }} has defeated The Abyssal Conspiracy (difficulty: <em>{{keyforge_data.adventure_data.conspiracy_difficulty}}</em>).
+                    {% else %}
+                        {{ keyforge_data.vault_data.data.name }} has not defeated The Abyssal Conspiracy.
+                    {% endif %}
+                    </p>
                 </div>
         </div>
     </div>

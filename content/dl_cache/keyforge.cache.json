@@ -1,6 +1,8 @@
 {
     "21459407-7765-44f6-b183-2ebef8283f63": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -322,7 +324,9 @@
             "recursion": 36.09347919912062
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "21459407-7765-44f6-b183-2ebef8283f63",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -1081,6 +1085,8 @@
     },
     "29bb805b-12ce-4f29-aad7-a4d9b512e41c": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -1402,7 +1408,9 @@
             "recursion": 36.09347919912062
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "29bb805b-12ce-4f29-aad7-a4d9b512e41c",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -2121,6 +2129,8 @@
     },
     "355b1f9d-2c3f-48fb-ac40-cf7292a31d19": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -2481,7 +2491,9 @@
             "recursion": 36.09347919912062
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "355b1f9d-2c3f-48fb-ac40-cf7292a31d19",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -3200,6 +3212,8 @@
     },
     "719d5924-248a-4b64-8789-a6eccf710095": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -3558,7 +3572,9 @@
             "recursion": 36.09347919912062
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "719d5924-248a-4b64-8789-a6eccf710095",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -4297,6 +4313,8 @@
     },
     "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -4615,7 +4633,9 @@
             "recursion": 36.09347919912062
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "80ddeec0-3ce5-45f8-851a-5a1cd83a3a00",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -5334,6 +5354,8 @@
     },
     "8dfbd01a-157b-4a51-8428-50ab1ed9edf7": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -5652,7 +5674,9 @@
             "recursion": 36.09347919912062
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "8dfbd01a-157b-4a51-8428-50ab1ed9edf7",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -6391,6 +6415,8 @@
     },
     "9ec782d8-2999-40e0-b067-138a5fa85579": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -6750,7 +6776,9 @@
             "recursion": 36.09347919912062
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "9ec782d8-2999-40e0-b067-138a5fa85579",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -7490,6 +7518,8 @@
     },
     "a19ba89a-ea75-406e-9b38-f8968b5bd323": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -7847,7 +7877,9 @@
             "recursion": 36.09347919912062
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "a19ba89a-ea75-406e-9b38-f8968b5bd323",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -8567,6 +8599,8 @@
     },
     "a4268ae8-a9f6-48c7-9739-b28a3553b108": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -8890,7 +8924,9 @@
             "recursion": 58.76050328080007
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "a4268ae8-a9f6-48c7-9739-b28a3553b108",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -9609,6 +9645,8 @@
     },
     "aebaeba5-5918-4573-983a-72d0a5c6133d": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -9930,7 +9968,9 @@
             "recursion": 36.09347919912062
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "aebaeba5-5918-4573-983a-72d0a5c6133d",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -10609,6 +10649,8 @@
     },
     "b41630b3-7394-4ac5-9102-0c4dcb2e1b8a": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -10933,7 +10975,9 @@
             "recursion": 36.09347919912062
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "b41630b3-7394-4ac5-9102-0c4dcb2e1b8a",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -11652,6 +11696,8 @@
     },
     "bfbf6786-218c-4320-a7b1-7ed4d6eddc69": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -11976,7 +12022,9 @@
             "recursion": 58.76050328080007
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "bfbf6786-218c-4320-a7b1-7ed4d6eddc69",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -12757,6 +12805,8 @@
     },
     "c94bc221-1da8-455f-965a-9ad436c7d5b9": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -13082,7 +13132,9 @@
             "recursion": 73.06995893099193
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "c94bc221-1da8-455f-965a-9ad436c7d5b9",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -13881,6 +13933,8 @@
     },
     "c98e4663-351e-4dfb-9ce8-4578ee8f54ad": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -14205,7 +14259,9 @@
             "recursion": 36.09347919912062
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "c98e4663-351e-4dfb-9ce8-4578ee8f54ad",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -14944,6 +15000,8 @@
     },
     "cface028-c891-46bf-9eb0-b9fc2280a718": {
         "adventure_data": {
+            "conspiracy_difficulty": "Easy",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
@@ -15264,7 +15322,9 @@
             "recursion": 89.91347859218948
         },
         "user_data": {
+            "conspiracy_difficulty": "Easy",
             "deck_id": "cface028-c891-46bf-9eb0-b9fc2280a718",
+            "defeated_conspiracy": false,
             "defeated_keyraken": true,
             "keyraken_difficulty": "Normal"
         },
