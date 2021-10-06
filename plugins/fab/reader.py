@@ -113,6 +113,10 @@ class FaBReader(BaseReader):
 
     @property
     def fab_data_path(self):
+        Path(self.settings.get("PATH"), self.settings.get("DECKLOCK_CACHE")).mkdir(
+            parents=True, exist_ok=True
+        )
+
         return posixpath.join(
             self.settings.get("PATH"),
             self.settings.get("DECKLOCK_CACHE"),

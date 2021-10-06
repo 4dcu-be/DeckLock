@@ -2,6 +2,7 @@ import json
 import os
 from pathlib import Path
 from urllib.parse import urlparse
+import posixpath
 
 from pelican import generators
 
@@ -22,13 +23,19 @@ class KeyForgeGenerator(generators.Generator):
     template_overview = "keyforge_overview.html"
     template_deck = "keyforge_deck.html"
 
-    def __init__(self, context, settings, path, theme, output_path, **kwargs):
-
-        self.keyforge_data_path = os.path.join(
-            settings.get("PATH"), settings.get("DECKLOCK_CACHE"), "keyforge.cache.json"
+    def keyforge_data_path(self, settings):
+        Path(settings.get("PATH"), settings.get("DECKLOCK_CACHE")).mkdir(
+            parents=True, exist_ok=True
         )
 
-        with open(self.keyforge_data_path) as fin:
+        return posixpath.join(
+            settings.get("PATH"),
+            settings.get("DECKLOCK_CACHE"),
+            "keyforge.cache.json",
+        )
+
+    def __init__(self, context, settings, path, theme, output_path, **kwargs):
+        with open(self.keyforge_data_path(settings)) as fin:
             self.keyforge_data = json.load(fin)
 
         for k, v in self.keyforge_data.items():
