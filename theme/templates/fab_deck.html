@@ -14,7 +14,7 @@
       <li class="breadcrumb-item active">{{ article.title }}</li>
     </ol>
 
-<h1>{{ article.title }} <small>{{ article.format }}</small></h1>
+<h1>{{ article.title }} <small class="text-muted">({{ article.format }})</small></h1>
 {% if article.fabdb_url %}
     <div class="row top5">
         <div class="col text-right"><span>View deck on <a href="{{ article.fabdb_url }}">FaBDB.net</a></span></div>
@@ -31,22 +31,37 @@
                         <ul class="card_list">
                         {{ card_list_item.print(article.hero, USE_EXTERNAL_LINKS) }}
                         </ul>
-                    <h4>Weapons</h4>
+                    <h4>Weapons <small class="text-muted">({{ article.weapons|length }})</small></h4>
                     <ul class="card_list">
                         {% for card in article.weapons %}
                         {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
                         {% endfor %}
                     </ul>
 
-                    <h4>Equipment</h4>
+                    <h4>Equipment <small class="text-muted">({{ article.equipment|length }})</small></h4>
                     <ul class="card_list">
                         {% for card in article.equipment %}
                         {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
                         {% endfor %}
                     </ul>
                     </div>
+                    {% set ns = namespace(redpitch=0, yellowpitch=0, bluepitch=0, nopitch=0, cardcount=0) %}
+                    {% for card in article.cards -%}
+                        {% set ns.cardcount = ns.cardcount + card.count|int -%}
+                        {% if card.stats.resource == "1" -%}
+                            {% set ns.redpitch = ns.redpitch + card.count|int -%}
+                        {% elif card.stats.resource == "2" -%}
+                            {% set ns.yellowpitch = ns.yellowpitch + card.count|int -%}
+                        {% elif card.stats.resource == "3" -%}
+                            {% set ns.bluepitch = ns.bluepitch + card.count|int -%}
+                        {% else  -%}
+                            {% set ns.nopitch = ns.nopitch + card.count|int -%}
+                        {% endif %}
+                    {% endfor %}
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <h4>Other Cards</h4>
+                        <h4>Other Cards <small class="text-muted">({{ ns.cardcount }})</small></h4>
+                        <p>Pitch values&nbsp;&nbsp;<span class="fab-dot fab-dot-red"></span>{{ ns.redpitch }}&nbsp;&nbsp;&nbsp;&nbsp;<span class="fab-dot fab-dot-yellow"></span>{{ ns.yellowpitch }}&nbsp;&nbsp;&nbsp;&nbsp;<span class="fab-dot fab-dot-blue"></span>{{ ns.bluepitch }}&nbsp;&nbsp;&nbsp;&nbsp;<span class="fab-dot"></span>{{ ns.nopitch }}
+                        </p>
                         <ul class="card_list">
                         {% for card in article.cards %}
                         {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
