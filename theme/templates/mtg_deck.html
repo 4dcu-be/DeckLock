@@ -39,47 +39,75 @@
         </div>
     </div>
 {% endif %}
+
+{% set ns = namespace(landcount=0, lands=[],
+                      creaturecount=0, creatures=[],
+                      iscount=0, is=[],
+                      othercount=0, other=[],
+                      cardcount=0, sbcount=0) %}
+{% for card in article.deck.main|sort(attribute='name') -%}
+    {% set ns.cardcount = ns.cardcount + card.count|int -%}
+    {% if card.card_type == "land" -%}
+        {% set ns.landcount = ns.landcount + card.count|int -%}
+        {% set ns.lands = ns.lands + [card] %}
+    {% elif card.card_type == "creature" %}
+        {% set ns.creaturecount = ns.creaturecount + card.count|int -%}
+        {% set ns.creatures = ns.creatures + [card] %}
+    {% elif card.card_type == "instant" or card.card_type == "sorcery" %}
+        {% set ns.iscount = ns.iscount + card.count|int -%}
+        {% set ns.is = ns.is + [card] %}
+    {% else %}
+        {% set ns.othercount = ns.othercount + card.count|int -%}
+        {% set ns.other = ns.other + [card] %}
+    {% endif %}
+{% endfor %}
+{% for card in article.deck.sideboard|sort(attribute='name') %}
+    {% set ns.sbcount = ns.sbcount + card.count|int -%}
+{% endfor %}
+
 <div class="row">
     <div class="col-md-8 top15">
         <div class="card h-100">
-            <div class="card-header"><h3>Main Deck</h3></div>
+            <div class="card-header"><h3>Main Deck <small class="text-muted">({{ ns.cardcount }})</small></h3></div>
             <div class="card-body">
                 <div class="row">
                     <div class="col-lg">
-                    <h4>Lands</h4>
+
+                    {% if ns.landcount > 0 %}
+                    <h4>Lands <small class="text-muted">({{ ns.landcount }})</small></h4>
                     <ul class="card_list">
-                        {% for card in article.deck.main|sort(attribute='name') %}
-                            {% if card.card_type == "land" %}
-                                {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
-                            {% endif %}
+                        {% for card in ns.lands %}
+                            {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
                         {% endfor %}
                     </ul>
-                    <h4>Creatures</h4>
+                    {% endif %}
+
+                    {% if ns.creaturecount > 0 %}
+                    <h4>Creatures <small class="text-muted">({{ ns.creaturecount }})</small></h4>
                     <ul class="card_list">
-                        {% for card in article.deck.main|sort(attribute='name') %}
-                            {% if card.card_type == "creature" %}
-                                {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
-                            {% endif %}
+                        {% for card in ns.creatures %}
+                             {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
                         {% endfor %}
                     </ul>
+                     {% endif %}
                     </div>
                     <div class="col-lg">
-                    <h4>Instants and Sorceries</h4>
+                    {% if ns.iscount > 0 %}
+                    <h4>Instants and Sorceries <small class="text-muted">({{ ns.iscount }})</small></h4>
                     <ul class="card_list">
-                        {% for card in article.deck.main|sort(attribute='name') %}
-                            {% if card.card_type == "instant" or card.card_type == "sorcery" %}
-                                {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
-                            {% endif %}
+                        {% for card in ns.is %}
+                            {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
                         {% endfor %}
                     </ul>
-                    <h4>Other Spells</h4>
+                    {% endif %}
+                    {% if ns.othercount > 0 %}
+                    <h4>Other Spells <small class="text-muted">({{ ns.othercount }})</small></h4>
                     <ul class="card_list">
-                        {% for card in article.deck.main|sort(attribute='name') %}
-                            {% if not card.card_type in ["creature", "instant", "sorcery", "land"] %}
+                        {% for card in ns.other %}
                                 {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
-                            {% endif %}
                         {% endfor %}
                     </ul>
+                    {% endif %}
                     </div>
                 </div>
             </div>
@@ -87,7 +115,7 @@
     </div>
     <div class="col-md-4 top15">
         <div class="card h-100">
-            <div class="card-header"><h3>Sideboard</h3></div>
+            <div class="card-header"><h3>Sideboard <small class="text-muted">({{ ns.sbcount }})</small></h3></div>
             <div class="card-body">
                 <ul class="card_list">
                     {% for card in article.deck.sideboard|sort(attribute='name') %}
