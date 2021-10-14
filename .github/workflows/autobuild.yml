@@ -2,7 +2,7 @@
 # GitHub Action that builds the website and commits again
 
 name: autobuild
-on: [push, pull_request, workflow_dispatch]
+on: [push, workflow_dispatch]
 jobs:
   build:
     runs-on: ubuntu-latest
