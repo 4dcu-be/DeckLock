@@ -170,12 +170,18 @@ KEYFORGE_PATH = "./data"
 ```
 
 Now, add a keyforge.json file to ./content/data, structured as followed with the identifiers of the decks to include.
-A file with the KeyForge Decks I own is included as an example, the structure should be a shown below.
+A file with the KeyForge Decks I own is included as an example, the structure should be a shown below. Optionally,
+you can include details if you tackled one of the KeyForge Adventures with the deck. Difficulties are "Easy", "Normal"
+and "Hard", which is the number of cards the Keyraken or the Conspiracy draw and play each turn (resp. 1, 2 and 3)
 
 ```json
 [
   {
-    "deck_id" : "a4268ae8-a9f6-48c7-9739-b28a3553b108"
+    "deck_id" : "a4268ae8-a9f6-48c7-9739-b28a3553b108",
+    "defeated_keyraken": true,
+    "keyraken_difficulty": "Normal",
+    "defeated_conspiracy": false,
+    "conspiracy_difficulty": "Easy"
   }, {
     "deck_id" : "bfbf6786-218c-4320-a7b1-7ed4d6eddc69"
   }
