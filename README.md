@@ -11,7 +11,8 @@ Static web generator to generate an overview of all your favorite decks. DeckLoc
   
 
 DeckLock is designed around the static website generator Pelican and leverages GitHub's feature to host static 
-websites from the ./docs folder. For other hosting options, check out the official Pelican documentation.
+websites from the ```gh-pages``` branch leveraging GitHub Actions for easy building your own version. For other hosting options, 
+check out the official Pelican documentation.
 
 ## Getting started
 
