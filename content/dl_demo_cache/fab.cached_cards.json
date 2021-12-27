@@ -4314,6 +4314,357 @@
         "text": "**Prism Specialization**\u00a0*(You may only have Herald of Judgment in your deck if your hero is Prism.)*\n\nIf Herald of Judgment hits,\u00a0put it into your hero's soul and the defending hero can't play cards from their banished zone during their next action phase.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Judgment is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Judgment and close the combat chain.)*",
         "type": "action"
     },
+    "Herald of Judgment (yellow)": {
+        "artist": {
+            "blurb": "Concept art, illustration - Penza, Russia (AKA Sasha Mokhov)",
+            "image": "https://fabdb2.imgix.net/artists/3Mf2aVnXF6eypxcKHK7KGmOLEeGUHjlEwWZHYEKB.jpg?w=350&fit=clip&auto=compress&auto=compress,format",
+            "name": "Alexander Mokhov",
+            "slug": "alexander-mokhov"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "comments": null,
+        "flavour": null,
+        "identifier": "herald-of-judgment",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON007.png?w=350&fit=clip&auto=compress,format",
+        "image_path": "assets/fab/cards/MON007.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "action",
+            "attack"
+        ],
+        "listings": [
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon007",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon007-rf",
+                "price": "15.00",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/mon007",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/herald-of-judgment",
+                "price": "0.75",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/herald-of-judgment",
+                "price": "9.95",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/herald-of-judgment",
+                "price": "4.95",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon007",
+                "price": "2.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon007",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon007-rf",
+                "price": "9.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon007-rf",
+                "price": "4.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "shop.channelfireball.com",
+                "id": 12,
+                "name": "Channel Fireball",
+                "path": "/products/herald-of-judgment-monarch-1st-edition",
+                "price": "0.60",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "fabtcgcards.com",
+                "id": 14,
+                "name": "FAB TCG Cards",
+                "path": "/products/herald-of-judgment-yellow",
+                "price": "1.25",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabtcgcards.com",
+                    "name": "FAB TCG Cards"
+                }
+            }
+        ],
+        "name": "Herald of Judgment",
+        "next": "herald-of-judgment",
+        "prev": "herald-of-erudition",
+        "printings": [
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 2273,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON007.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Herald of Judgment",
+                "rarity": "R",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "regular",
+                    "number": "007",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON007"
+                },
+                "text": "**Prism Specialization**\u00a0*(You may only have Herald of Judgment in your deck if your hero is Prism.)*\n\nIf Herald of Judgment hits,\u00a0put it into your hero's soul and the defending hero can't play cards from their banished zone during their next action phase.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Judgment is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Judgment and close the combat chain.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 2274,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON007-RF.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Herald of Judgment",
+                "rarity": "R",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "rainbow",
+                    "number": "007",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON007-RF"
+                },
+                "text": "**Prism Specialization**\u00a0*(You may only have Herald of Judgment in your deck if your hero is Prism.)*\n\nIf Herald of Judgment hits,\u00a0put it into your hero's soul and the defending hero can't play cards from their banished zone during their next action phase.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Judgment is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Judgment and close the combat chain.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 2863,
+                "image": "https://fabdb2.imgix.net/cards/printings/PSM008.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Herald of Judgment",
+                "rarity": "R",
+                "set": "Monarch Blitz Deck - Prism",
+                "sku": {
+                    "finish": "regular",
+                    "number": "008",
+                    "set": {
+                        "browseable": false,
+                        "id": "psm",
+                        "name": "Prism Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "PSM008"
+                },
+                "text": "**Prism Specialization**\u00a0*(You may only have Herald of Judgment in your deck if your hero is Prism.)*\n\nIf Herald of Judgment hits,\u00a0put it into your hero's soul and the defending hero can't play cards from their banished zone during their next action phase.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Judgment is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Judgment and close the combat chain.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 3032,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON007.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Herald of Judgment",
+                "rarity": "R",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "regular",
+                    "number": "007",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "U-MON007"
+                },
+                "text": "**Prism Specialization**\u00a0*(You may only have Herald of Judgment in your deck if your hero is Prism.)*\n\nIf Herald of Judgment hits,\u00a0put it into your hero's soul and the defending hero can't play cards from their banished zone during their next action phase.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Judgment is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Judgment and close the combat chain.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 3033,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON007-RF.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Herald of Judgment",
+                "rarity": "R",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "rainbow",
+                    "number": "007",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "U-MON007-RF"
+                },
+                "text": "**Prism Specialization**\u00a0*(You may only have Herald of Judgment in your deck if your hero is Prism.)*\n\nIf Herald of Judgment hits,\u00a0put it into your hero's soul and the defending hero can't play cards from their banished zone during their next action phase.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Judgment is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Judgment and close the combat chain.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 3975,
+                "image": "https://fabdb2.imgix.net/cards/printings/FAB028-EA.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Herald of Judgment",
+                "rarity": "P",
+                "set": "Promo",
+                "sku": {
+                    "finish": "extended",
+                    "number": "028",
+                    "set": {
+                        "0": "browseable => false",
+                        "id": "fab",
+                        "name": "Flesh & Blood Promos",
+                        "released": null
+                    },
+                    "sku": "FAB028-EA"
+                },
+                "text": "**Prism Specialization**\u00a0*(You may only have Herald of Judgment in your deck if your hero is Prism.)*\n\nIf Herald of Judgment hits,\u00a0put it into your hero's soul and the defending hero can't play cards from their banished zone during their next action phase.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Judgment is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Judgment and close the combat chain.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 11041,
+                "image": "https://fabdb2.imgix.net/cards/printings/FAB028.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Herald of Judgment",
+                "rarity": "P",
+                "set": "Promo",
+                "sku": {
+                    "finish": "regular",
+                    "number": "028",
+                    "set": {
+                        "0": "browseable => false",
+                        "id": "fab",
+                        "name": "Flesh & Blood Promos",
+                        "released": null
+                    },
+                    "sku": "FAB028"
+                },
+                "text": "Prism Specialization\n\nIf Herald of Judgment hits, put it into your hero's soul and the defending hero can't play cards from their banished zone during their next action phase.\n\nPhantasm"
+            }
+        ],
+        "rarity": "R",
+        "rulings": [],
+        "sideboardTotal": 0,
+        "stats": {
+            "attack": "6",
+            "cost": "2",
+            "defense": "3",
+            "resource": "2"
+        },
+        "subType": "attack",
+        "talent": "light",
+        "text": "**Prism Specialization**\u00a0*(You may only have Herald of Judgment in your deck if your hero is Prism.)*\n\nIf Herald of Judgment hits,\u00a0put it into your hero's soul and the defending hero can't play cards from their banished zone during their next action phase.\u00a0*(Put this card face up under your hero card.)*\n\n**Phantasm**\u00a0*(If Herald of Judgment is defended by a non-Illusionist\u00a0attack action card with 6\u00a0or more [Power], destroy Herald of Judgment and close the combat chain.)*",
+        "type": "action"
+    },
     "Herald of Protection (blue)": {
         "artist": {
             "blurb": "Freelance Concept Artist/ Illustrator - Bude, United Kingdom",
@@ -8199,6 +8550,333 @@
         "text": "Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your hero's soul.\u00a0*(Put it face up under your hero card.)*\n\n**Spectra**\u00a0*(Merfiful Retribution can be attacked.\u00a0When Merfiful Retribution becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*",
         "type": "instant"
     },
+    "Merciful Retribution (yellow)": {
+        "artist": {
+            "blurb": "Hello! My name is Eleonor, I\u2019m from Portugal, and I\u2019m a freelance illustrator and concept character artist.\nMy weapons of choice are Photoshop and my old and trusty Bamboo Fun Tablet. And I work on Windows 10.\nIf you enjoy my art, or share my love for chocolate croissants, mountains, and space, please consider supporting what I do - so I can do more of it! Thank you!",
+            "image": "https://fabdb2.imgix.net/artists/lR8pOOJbaVNdWWfeE2pkqeo8gBDPEgk9f31X2gP3.png?w=350&fit=clip&auto=compress&auto=compress,format",
+            "name": "Eleonor Piteira",
+            "slug": "eleanor-pitiera"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "comments": null,
+        "flavour": null,
+        "identifier": "merciful-retribution",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON012.png?w=350&fit=clip&auto=compress,format",
+        "image_path": "assets/fab/cards/MON012.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "instant",
+            "aura"
+        ],
+        "listings": [
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon012",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon012-rf",
+                "price": "6.00",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/mon012",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/merciful-retribution",
+                "price": "1.45",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/merciful-retribution",
+                "price": "19.95",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/merciful-retribution",
+                "price": "2.95",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon012",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon012",
+                "price": "2.49",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon012-rf",
+                "price": "2.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon012-rf",
+                "price": "4.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "shop.channelfireball.com",
+                "id": 12,
+                "name": "Channel Fireball",
+                "path": "/products/merfiful-retribution-monarch-1st-edition",
+                "price": "0.60",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "fabtcgcards.com",
+                "id": 14,
+                "name": "FAB TCG Cards",
+                "path": "/products/merciful-retribution",
+                "price": "1.75",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabtcgcards.com",
+                    "name": "FAB TCG Cards"
+                }
+            }
+        ],
+        "name": "Merciful Retribution",
+        "next": "merciful-retribution",
+        "prev": "memorial-ground-blue",
+        "printings": [
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 2283,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON012.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Merciful Retribution",
+                "rarity": "R",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "regular",
+                    "number": "012",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON012"
+                },
+                "text": "Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your hero's soul.\u00a0*(Put it face up under your hero card.)*\n\n**Spectra**\u00a0*(Merfiful Retribution can be attacked.\u00a0When Merfiful Retribution becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 2284,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON012-RF.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Merciful Retribution",
+                "rarity": "R",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "rainbow",
+                    "number": "012",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON012-RF"
+                },
+                "text": "Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your hero's soul.\u00a0*(Put it face up under your hero card.)*\n\n**Spectra**\u00a0*(Merfiful Retribution can be attacked.\u00a0When Merfiful Retribution becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 2869,
+                "image": "https://fabdb2.imgix.net/cards/printings/PSM014.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Merciful Retribution",
+                "rarity": "R",
+                "set": "Monarch Blitz Deck - Prism",
+                "sku": {
+                    "finish": "regular",
+                    "number": "014",
+                    "set": {
+                        "browseable": false,
+                        "id": "psm",
+                        "name": "Prism Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "PSM014"
+                },
+                "text": "Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your hero's soul.\u00a0*(Put it face up under your hero card.)*\n\n**Spectra**\u00a0*(Merfiful Retribution can be attacked.\u00a0When Merfiful Retribution becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 3042,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON012.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Merciful Retribution",
+                "rarity": "R",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "regular",
+                    "number": "012",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "U-MON012"
+                },
+                "text": "Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your hero's soul.\u00a0*(Put it face up under your hero card.)*\n\n**Spectra**\u00a0*(Merfiful Retribution can be attacked.\u00a0When Merfiful Retribution becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 3043,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON012-RF.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Merciful Retribution",
+                "rarity": "R",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "rainbow",
+                    "number": "012",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "U-MON012-RF"
+                },
+                "text": "Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your hero's soul.\u00a0*(Put it face up under your hero card.)*\n\n**Spectra**\u00a0*(Merfiful Retribution can be attacked.\u00a0When Merfiful Retribution becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 3973,
+                "image": "https://fabdb2.imgix.net/cards/printings/FAB026-CF.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Merciful Retribution",
+                "rarity": "P",
+                "set": "Promo",
+                "sku": {
+                    "finish": "cold",
+                    "number": "026",
+                    "set": {
+                        "0": "browseable => false",
+                        "id": "fab",
+                        "name": "Flesh & Blood Promos",
+                        "released": null
+                    },
+                    "sku": "FAB026-CF"
+                },
+                "text": "Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your hero's soul.\n\nSpectra\u00a0(Merciful Retribution can be attacked.\u00a0When Merciful Retribution becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)"
+            }
+        ],
+        "rarity": "R",
+        "rulings": [],
+        "sideboardTotal": 0,
+        "stats": {
+            "cost": "4",
+            "resource": "2"
+        },
+        "subType": "aura",
+        "talent": "light",
+        "text": "Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your hero's soul.\u00a0*(Put it face up under your hero card.)*\n\n**Spectra**\u00a0*(Merciful Retribution can be attacked.\u00a0When Merciful Retribution becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*",
+        "type": "instant"
+    },
     "Ode to Wrath": {
         "artist": {
             "blurb": "Hello! My name is Eleonor, I\u2019m from Portugal, and I\u2019m a freelance illustrator and concept character artist.\nMy weapons of choice are Photoshop and my old and trusty Bamboo Fun Tablet. And I work on Windows 10.\nIf you enjoy my art, or share my love for chocolate croissants, mountains, and space, please consider supporting what I do - so I can do more of it! Thank you!",
@@ -8490,6 +9168,333 @@
                     },
                     "sku": "FAB027-CF"
                 }
+            }
+        ],
+        "rarity": "R",
+        "rulings": [],
+        "sideboardTotal": 0,
+        "stats": {
+            "cost": "4",
+            "resource": "2"
+        },
+        "subType": "aura",
+        "talent": "light",
+        "text": "Whenever a source you control deals damage to an opposing hero, they lose 1[Life].\n\nIllusionist attack action cards you control have\u00a0**go again**.\u00a0*(If an attack\u00a0is destroyed,\u00a0go again does not resolve.)*\n\n**Spectra**\u00a0*(Ode to Wrath can be attacked.\u00a0When Ode to Wrath becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*",
+        "type": "instant"
+    },
+    "Ode to Wrath (yellow)": {
+        "artist": {
+            "blurb": "Hello! My name is Eleonor, I\u2019m from Portugal, and I\u2019m a freelance illustrator and concept character artist.\nMy weapons of choice are Photoshop and my old and trusty Bamboo Fun Tablet. And I work on Windows 10.\nIf you enjoy my art, or share my love for chocolate croissants, mountains, and space, please consider supporting what I do - so I can do more of it! Thank you!",
+            "image": "https://fabdb2.imgix.net/artists/lR8pOOJbaVNdWWfeE2pkqeo8gBDPEgk9f31X2gP3.png?w=350&fit=clip&auto=compress&auto=compress,format",
+            "name": "Eleonor Piteira",
+            "slug": "eleanor-pitiera"
+        },
+        "banned": null,
+        "class": "illusionist",
+        "comments": null,
+        "flavour": null,
+        "identifier": "ode-to-wrath",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON013.png?w=350&fit=clip&auto=compress,format",
+        "image_path": "assets/fab/cards/MON013.png",
+        "keywords": [
+            "light",
+            "illusionist",
+            "instant",
+            "aura"
+        ],
+        "listings": [
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon013",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon013-rf",
+                "price": "2.00",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/mon013",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/ode-to-wrath",
+                "price": "1.95",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/ode-to-wrath",
+                "price": "9.95",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/ode-to-wrath",
+                "price": "2.45",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon013",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon013",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon013-rf",
+                "price": "5.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon013-rf",
+                "price": "3.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "shop.channelfireball.com",
+                "id": 12,
+                "name": "Channel Fireball",
+                "path": "/products/ode-to-wrath-monarch-1st-edition",
+                "price": "0.60",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "fabtcgcards.com",
+                "id": 14,
+                "name": "FAB TCG Cards",
+                "path": "/products/ode-to-wrath",
+                "price": "1.50",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabtcgcards.com",
+                    "name": "FAB TCG Cards"
+                }
+            }
+        ],
+        "name": "Ode to Wrath",
+        "next": "ode-to-wrath",
+        "prev": "oath-of-the-arknight-blue",
+        "printings": [
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 2285,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON013.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Ode to Wrath",
+                "rarity": "R",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "regular",
+                    "number": "013",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON013"
+                },
+                "text": "Whenever a source you control deals damage to an opposing hero, they lose 1[Life].\n\nIllusionist attack action cards you control have\u00a0**go again**.\u00a0*(If an attack\u00a0is destroyed,\u00a0go again does not resolve.)*\n\n**Spectra**\u00a0*(Ode to Wrath can be attacked.\u00a0When Ode to Wrath becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 2286,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON013-RF.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Ode to Wrath",
+                "rarity": "R",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "rainbow",
+                    "number": "013",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON013-RF"
+                },
+                "text": "Whenever a source you control deals damage to an opposing hero, they lose 1[Life].\n\nIllusionist attack action cards you control have\u00a0**go again**.\u00a0*(If an attack\u00a0is destroyed,\u00a0go again does not resolve.)*\n\n**Spectra**\u00a0*(Ode to Wrath can be attacked.\u00a0When Ode to Wrath becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 2870,
+                "image": "https://fabdb2.imgix.net/cards/printings/PSM015.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Ode to Wrath",
+                "rarity": "R",
+                "set": "Monarch Blitz Deck - Prism",
+                "sku": {
+                    "finish": "regular",
+                    "number": "015",
+                    "set": {
+                        "browseable": false,
+                        "id": "psm",
+                        "name": "Prism Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "PSM015"
+                },
+                "text": "Whenever a source you control deals damage to an opposing hero, they lose 1[Life].\n\nIllusionist attack action cards you control have\u00a0**go again**.\u00a0*(If an attack\u00a0is destroyed,\u00a0go again does not resolve.)*\n\n**Spectra**\u00a0*(Ode to Wrath can be attacked.\u00a0When Ode to Wrath becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 3044,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON013.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Ode to Wrath",
+                "rarity": "R",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "regular",
+                    "number": "013",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "U-MON013"
+                },
+                "text": "Whenever a source you control deals damage to an opposing hero, they lose 1[Life].\n\nIllusionist attack action cards you control have\u00a0**go again**.\u00a0*(If an attack\u00a0is destroyed,\u00a0go again does not resolve.)*\n\n**Spectra**\u00a0*(Ode to Wrath can be attacked.\u00a0When Ode to Wrath becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 3045,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON013-RF.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Ode to Wrath",
+                "rarity": "R",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "rainbow",
+                    "number": "013",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "U-MON013-RF"
+                },
+                "text": "Whenever a source you control deals damage to an opposing hero, they lose 1[Life].\n\nIllusionist attack action cards you control have\u00a0**go again**.\u00a0*(If an attack\u00a0is destroyed,\u00a0go again does not resolve.)*\n\n**Spectra**\u00a0*(Ode to Wrath can be attacked.\u00a0When Ode to Wrath becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)*"
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 3974,
+                "image": "https://fabdb2.imgix.net/cards/printings/FAB027-CF.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Ode to Wrath",
+                "rarity": "P",
+                "set": "Promo",
+                "sku": {
+                    "finish": "cold",
+                    "number": "027",
+                    "set": {
+                        "0": "browseable => false",
+                        "id": "fab",
+                        "name": "Flesh & Blood Promos",
+                        "released": null
+                    },
+                    "sku": "FAB027-CF"
+                },
+                "text": "Whenever a source you control deals damage to an opposing hero, they lose 1[Life].\n\nIllusionist attack action cards you control have\u00a0go again.\n\nSpectra\u00a0(Ode to Wrath can be attacked.\u00a0When Ode to Wrath becomes the target of an attack, destroy it and close the combat chain.\u00a0The attack does not resolve.)"
             }
         ],
         "rarity": "R",
@@ -13591,6 +14596,314 @@
                     },
                     "sku": "U-MON199-RF"
                 }
+            }
+        ],
+        "rarity": "R",
+        "rulings": [],
+        "sideboardTotal": 0,
+        "stats": {
+            "attack": "6",
+            "cost": "6",
+            "defense": "3",
+            "resource": "1"
+        },
+        "subType": "attack",
+        "talent": "shadow",
+        "text": "**Legendary\u00a0Chane Specialization**\u00a0*(You may only have 1 Soul Reaping in your deck and only if your hero is Chane.)*\n\nYou may banish 1 or more cards from your hand rather than pay Soul Reaping's [Resource] cost. If you do, gain [1 Resource] for each card with **blood debt**\u00a0banished this way.\n\nWhile Soul Reaping is attacking a hero with 1 or more cards in their soul, it has\u00a0**go again**.",
+        "type": "action"
+    },
+    "Soul Reaping (red)": {
+        "artist": {
+            "blurb": "Bima is an illustrator from Indonesia that has a passion for bringing a vision to canvas. He has done various projects from card game illustrations, concept art, to promotional art for Netflix. His motto is \"Use whatever gets it done faster and better\". In making his work, he uses multiple tools, from 2D digital paintings, 3D, and photos. All combined it produces a seamless, high quality result in the most effective and efficient way.\nHe has produced work for Legend Story Studios, White Wizard Games, Plaid Hat Games, and more.\nLINKS:\nPrints and more: \nhttps://www.artstation.com/bimawithpencil\nInstagram: \nhttps://www.instagram.com/_bimawithpencil_\nTwitter: https://twitter.com/bimawithpencil\nNFT's: \nhttps://foundation.app/@bimawithpencil",
+            "image": "https://fabdb2.imgix.net/artists/sv8tMQlL4SaSkhUfBoic3mYSA5nS5jdEG5z1sw2k.jpg?w=350&fit=clip&auto=compress&auto=compress,format",
+            "name": "bimawithpencil",
+            "slug": "bimawithpencil"
+        },
+        "banned": null,
+        "class": null,
+        "color": "red",
+        "comments": null,
+        "count": 1,
+        "flavour": null,
+        "identifier": "soul-reaping",
+        "image": "https://fabdb2.imgix.net/cards/printings/MON199.png?w=350&fit=clip&auto=compress,format",
+        "image_path": "assets/fab/cards/MON199.png",
+        "keywords": [
+            "shadow",
+            "action",
+            "attack"
+        ],
+        "listings": [
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon199",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/u-mon199-rf",
+                "price": "11.00",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "AUD",
+                "domain": "rathe.shop",
+                "id": 3,
+                "name": "Rathe Shop",
+                "path": "/products/mon199",
+                "price": "0.50",
+                "store": {
+                    "currency": "AUD",
+                    "domain": "rathe.shop",
+                    "name": "Rathe Shop"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/soul-reaping",
+                "price": "0.45",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/soul-reaping",
+                "price": "8.75",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "fabfoundry.co",
+                "id": 4,
+                "name": "FAB Foundry",
+                "path": "/products/soul-reaping",
+                "price": "2.95",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabfoundry.co",
+                    "name": "FAB Foundry"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon199",
+                "price": "2.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon199",
+                "price": "1.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/mon199-rf",
+                "price": "9.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "NZD",
+                "domain": "fabarmory.com",
+                "id": 5,
+                "name": "FAB Armory",
+                "path": "/products/u-mon199-rf",
+                "price": "5.99",
+                "store": {
+                    "currency": "NZD",
+                    "domain": "fabarmory.com",
+                    "name": "FAB Armory"
+                }
+            },
+            {
+                "currency": "USD",
+                "domain": "shop.channelfireball.com",
+                "id": 12,
+                "name": "Channel Fireball",
+                "path": "/products/soul-reaping-monarch-1st-edition",
+                "price": "0.30",
+                "store": null
+            },
+            {
+                "currency": "USD",
+                "domain": "fabtcgcards.com",
+                "id": 14,
+                "name": "FAB TCG Cards",
+                "path": "/products/soul-reaping",
+                "price": "1.00",
+                "store": {
+                    "currency": "USD",
+                    "domain": "fabtcgcards.com",
+                    "name": "FAB TCG Cards"
+                }
+            }
+        ],
+        "name": "Soul Reaping",
+        "next": "soul-reaping",
+        "prev": "soul-harvest",
+        "printings": [
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 2640,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON199.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Soul Reaping",
+                "rarity": "R",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "regular",
+                    "number": "199",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON199"
+                },
+                "text": "**Legendary\u00a0Chane Specialization**\u00a0*(You may only have 1 Soul Reaping in your deck and only if your hero is Chane.)*\n\nYou may banish 1 or more cards from your hand rather than pay Soul Reaping's [Resource] cost. If you do, gain [1 Resource] for each card with **blood debt**\u00a0banished this way.\n\nWhile Soul Reaping is attacking a hero with 1 or more cards in their soul, it has\u00a0**go again**."
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 2641,
+                "image": "https://fabdb2.imgix.net/cards/printings/MON199-RF.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Soul Reaping",
+                "rarity": "R",
+                "set": "Monarch",
+                "sku": {
+                    "finish": "rainbow",
+                    "number": "199",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "MON199-RF"
+                },
+                "text": "**Legendary\u00a0Chane Specialization**\u00a0*(You may only have 1 Soul Reaping in your deck and only if your hero is Chane.)*\n\nYou may banish 1 or more cards from your hand rather than pay Soul Reaping's [Resource] cost. If you do, gain [1 Resource] for each card with **blood debt**\u00a0banished this way.\n\nWhile Soul Reaping is attacking a hero with 1 or more cards in their soul, it has\u00a0**go again**."
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 2952,
+                "image": "https://fabdb2.imgix.net/cards/printings/CHN008.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Soul Reaping",
+                "rarity": "R",
+                "set": "Monarch Blitz Chane",
+                "sku": {
+                    "finish": "regular",
+                    "number": "008",
+                    "set": {
+                        "browseable": false,
+                        "id": "chn",
+                        "name": "Chane Hero Deck",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "CHN008"
+                },
+                "text": "**Legendary\u00a0Chane Specialization**\u00a0*(You may only have 1 Soul Reaping in your deck and only if your hero is Chane.)*\n\nYou may banish 1 or more cards from your hand rather than pay Soul Reaping's [Resource] cost. If you do, gain [1 Resource] for each card with **blood debt**\u00a0banished this way.\n\nWhile Soul Reaping is attacking a hero with 1 or more cards in their soul, it has\u00a0**go again**."
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 3398,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON199.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Soul Reaping",
+                "rarity": "R",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "regular",
+                    "number": "199",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "U-MON199"
+                },
+                "text": "**Legendary\u00a0Chane Specialization**\u00a0*(You may only have 1 Soul Reaping in your deck and only if your hero is Chane.)*\n\nYou may banish 1 or more cards from your hand rather than pay Soul Reaping's [Resource] cost. If you do, gain [1 Resource] for each card with **blood debt**\u00a0banished this way.\n\nWhile Soul Reaping is attacking a hero with 1 or more cards in their soul, it has\u00a0**go again**."
+            },
+            {
+                "edition": {},
+                "flavour": "",
+                "id": 3399,
+                "image": "https://fabdb2.imgix.net/cards/printings/U-MON199-RF.png?w=300&fit=clip&auto=compress,format",
+                "language": "en",
+                "name": "Soul Reaping",
+                "rarity": "R",
+                "set": "Monarch Unlimited",
+                "sku": {
+                    "finish": "rainbow",
+                    "number": "199",
+                    "set": {
+                        "browseable": true,
+                        "draftable": true,
+                        "id": "mon",
+                        "name": "Monarch",
+                        "released": "2021-05-07"
+                    },
+                    "sku": "U-MON199-RF"
+                },
+                "text": "**Legendary\u00a0Chane Specialization**\u00a0*(You may only have 1 Soul Reaping in your deck and only if your hero is Chane.)*\n\nYou may banish 1 or more cards from your hand rather than pay Soul Reaping's [Resource] cost. If you do, gain [1 Resource] for each card with **blood debt**\u00a0banished this way.\n\nWhile Soul Reaping is attacking a hero with 1 or more cards in their soul, it has\u00a0**go again**."
             }
         ],
         "rarity": "R",
