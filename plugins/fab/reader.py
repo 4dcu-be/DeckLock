@@ -31,6 +31,10 @@ def get_card_data(card_name, sleep_time=0.1):
 
     r = requests.get(f"https://fabdb.net/api/cards/{card_name_attribute}")
 
+    if r.status_code == 404:
+        no_color = name_to_url(card_name.replace('(red)', '').replace('(blue)', '').replace('(yellow)', '').strip())
+        r = requests.get(f"https://fabdb.net/api/cards/{no_color}")
+
     sleep(sleep_time)
 
     print(r.text)
