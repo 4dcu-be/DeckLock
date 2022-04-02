@@ -192,7 +192,7 @@ class FaBReader(BaseReader):
             total_count += count
 
             if "resource" in parsed_card.get("stats", {}):
-                parsed_card["color"] = pitch_to_color[parsed_card["stats"]["resource"]]
+                parsed_card["color"] = pitch_to_color[str(parsed_card["stats"]["resource"])]
 
             parsed_cards.append(parsed_card)
 
