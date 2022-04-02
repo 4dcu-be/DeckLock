@@ -48,11 +48,11 @@
                     {% set ns = namespace(redpitch=0, yellowpitch=0, bluepitch=0, nopitch=0, cardcount=0) %}
                     {% for card in article.cards -%}
                         {% set ns.cardcount = ns.cardcount + card.count|int -%}
-                        {% if card.stats.resource == "1" -%}
+                        {% if card.stats.resource|string == "1" -%}
                             {% set ns.redpitch = ns.redpitch + card.count|int -%}
-                        {% elif card.stats.resource == "2" -%}
+                        {% elif card.stats.resource|string == "2" -%}
                             {% set ns.yellowpitch = ns.yellowpitch + card.count|int -%}
-                        {% elif card.stats.resource == "3" -%}
+                        {% elif card.stats.resource|string == "3" -%}
                             {% set ns.bluepitch = ns.bluepitch + card.count|int -%}
                         {% else  -%}
                             {% set ns.nopitch = ns.nopitch + card.count|int -%}
