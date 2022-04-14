@@ -221,8 +221,8 @@ class GwentReader(BaseReader):
 
         self.write_cache()
 
-        parts = [int(i) for i in metadata["gwent_version"].split('.')]
-        metadata["num_version"] = parts[0]*1000+parts[1]*100+parts[2]
+        parts = [int(i) for i in metadata["gwent_version"].split(".")]
+        metadata["num_version"] = parts[0] * 1000 + parts[1] * 100 + parts[2]
 
         print(
             f"Adding Gwent {metadata['name']} (Gwent version {metadata['gwent_version']})"
