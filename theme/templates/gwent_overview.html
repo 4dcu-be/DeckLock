@@ -43,7 +43,7 @@
         </tr>
         </thead>
         <tbody>
-        {% for a in articles|rejectattr('faction', 'undefined')|sort(attribute='name')|sort(attribute='faction')|sort(attribute='gwent_version', reverse = True) %}
+        {% for a in articles|rejectattr('faction', 'undefined')|sort(attribute='name')|sort(attribute='faction')|sort(attribute='num_version', reverse = True) %}
             {% if a.category == "Gwent_Deck" %}
             <tr class="deck {{a.leader.data.faction}}">
                 <td><a href="{{ SITEURL }}/{{ a.url }}">{{ a.name }}</a> {% if a.name != a.leader.name -%}<span class="text-muted">({{ a.leader.name }})</span>{%- endif%}</td>
