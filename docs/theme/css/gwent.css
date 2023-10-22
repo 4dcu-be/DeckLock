@@ -1,0 +1,348 @@
+.popover {
+    max-width: 550px;
+}
+
+.nomargin {
+    margin: 0px !important;
+}
+
+.nopadding {
+    padding: 0px !important;
+}
+
+.gcard {
+    min-width: 249px !important;
+    width: 249px !important;
+}
+
+.gcard__container {
+    position: relative;
+    max-width: 249px;
+    min-width: 249px !important;
+    width: 249px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gcard .popup-card-image {
+  height: 357px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.gcard.gold .gcard__border {
+    background-image: url('../img/gwent/border-gold.png');
+}
+
+.gcard.leader .gcard__border {
+    background-image: url('../img/gwent/border-leader.png');
+}
+
+.gcard.bronze .gcard__border {
+    background-image: url('../img/gwent/border-bronze.png');
+}
+
+.gcard__border {
+    background-position: top left;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+}
+
+.gcard.leader.neutral .gcard__banner {
+    background-image: url('../img/gwent/banner-leader-nt.png');
+}
+
+.gcard.leader.northern_realms .gcard__banner {
+    background-image: url('../img/gwent/banner-leader-nr.png');
+}
+
+.gcard.leader.nilfgaard .gcard__banner {
+    background-image: url('../img/gwent/banner-leader-ng.png');
+}
+
+.gcard.leader.scoiatael .gcard__banner {
+    background-image: url('../img/gwent/banner-leader-st.png');
+}
+
+.gcard.leader.skellige .gcard__banner {
+    background-image: url('../img/gwent/banner-leader-sk.png');
+}
+
+.gcard.leader.monster .gcard__banner {
+    background-image: url('../img/gwent/banner-leader-mo.png');
+}
+
+.gcard.leader.syndicate .gcard__banner {
+    background-image: url('../img/gwent/banner-leader-sy.png');
+}
+
+.gcard.neutral .gcard__banner {
+    background-image: url('../img/gwent/banner-nt.png');
+}
+
+.gcard.northern_realms .gcard__banner {
+    background-image: url('../img/gwent/banner-nr.png');
+}
+
+.gcard.nilfgaard .gcard__banner {
+    background-image: url('../img/gwent/banner-ng.png');
+}
+
+.gcard.scoiatael .gcard__banner {
+    background-image: url('../img/gwent/banner-st.png');
+}
+
+.gcard.skellige .gcard__banner {
+    background-image: url('../img/gwent/banner-sk.png');
+}
+
+.gcard.monster .gcard__banner {
+    background-image: url('../img/gwent/banner-mo.png');
+}
+
+.gcard.syndicate .gcard__banner {
+    background-image: url('../img/gwent/banner-sy.png');
+}
+
+.gcard.leader .gcard__banner {
+    background-position: top left;
+    background-size: contain;
+    height: 35%;
+    width: 35%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.gcard__banner {
+    background-position: top left;
+    background-size: contain;
+    height: 26%;
+    width: 26%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    font-size: 3em;
+    padding-top: 0.35em;
+    line-height: 1.1;
+    font-family: gnum;
+    text-align: center;
+    color: silver;
+    text-align: center;
+    font-weight: 400;
+}
+
+.gcard.legendary .gcard__rarity {
+    background-image: url('../img/gwent/rarity-legendary.png');
+}
+
+.gcard.epic .gcard__rarity {
+    background-image: url('../img/gwent/rarity-epic.png');
+}
+
+.gcard.rare .gcard__rarity {
+    background-image: url('../img/gwent/rarity-rare.png');
+}
+
+.gcard.common .gcard__rarity {
+    background-image: url('../img/gwent/rarity-common.png');
+}
+
+.gcard__rarity {
+    background-position: top left;
+    background-size: 13px;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4%;
+    left: 4.8%;
+}
+
+.gcard .gcard__provision-img {
+    background-image: url('../img/gwent/provision-icon.png');
+}
+
+.gcard .gcard__provision-img {
+    background-position: top left;
+    background-size: contain;
+    height: 20%;
+    width: 20%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 66%;
+    left: 77%;
+}
+
+.gcard.neutral .gcard__provision {
+    background-image: url('../img/gwent/provision-nt.png');
+}
+
+.gcard.northern_realms .gcard__provision {
+    background-image: url('../img/gwent/provision-nr.png');
+}
+
+.gcard.scoiatael .gcard__provision {
+    background-image: url('../img/gwent/provision-st.png');
+}
+.gcard.nilfgaard .gcard__provision {
+    background-image: url('../img/gwent/provision-ng.png');
+}
+.gcard.monster .gcard__provision {
+    background-image: url('../img/gwent/provision-mo.png');
+}
+.gcard.skellige .gcard__provision {
+    background-image: url('../img/gwent/provision-sk.png');
+}
+.gcard.syndicate .gcard__provision {
+    background-image: url('../img/gwent/provision-sy.png');
+}
+
+.gcard__provision {
+    background-position: top left;
+    background-size: contain;
+    height: 20%;
+    width: 20%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 80%;
+    left: 77%;
+    font-size: 3em;
+    line-height: .85;
+    padding-top: 0.4em;
+    # font-family: gnum;
+    color: gold;
+    text-align: center;
+    font-weight: 400;
+}
+
+.gcard__armor {
+    background-image: url('../img/gwent/trinket-armor.png');
+    background-position: top right;
+    background-size: contain;
+    height: 30%;
+    width: 30%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    border-radius: 8px;
+    right: 0px;
+    font-size: 4em;
+    padding-top: 0.1em;
+    line-height: 1.1;
+    font-family: gnum;
+    text-align: center;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+}
+
+.gcard.special .gcard__banner__text {
+    display:none;
+}
+
+.gcard.artifact .gcard__banner__text {
+    display:none;
+}
+
+.gcard.stratagem .gcard__banner__text {
+    display:none;
+}
+
+.gcard.leader .gcard__banner__text {
+    display:none;
+}
+
+.gcard.special .gcard__trinket {
+    background-image: url('../img/gwent/trinket-spell.png');
+    display:block;
+}
+
+.gcard.artifact .gcard__trinket {
+    background-image: url('../img/gwent/trinket-artifact.png');
+    display:block;
+}
+
+.gcard.stratagem .gcard__trinket {
+    background-image: url('../img/gwent/trinket-stratagem.png');
+    display:block;
+}
+
+.gcard.leader .gcard__trinket {
+    background-image: url('../img/gwent/trinket-leader.png');
+    display:block;
+}
+
+.gcard .gcard__trinket {
+    background-position: top left;
+    background-size: 40px;
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4%;
+    left: 5.5%;
+    display:none;
+}
+
+.gcard .gcard__mulligan {
+    background-image: url('../img/gwent/trinket-mulligan.png');
+}
+
+.gcard .gcard__mulligan {
+    background-position: top left;
+    background-size: contain;
+    height: 20%;
+    width: 20%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 18%;
+    left: 3.4%;
+    font-size: 2.5em;
+    padding-top: 0.375em;
+    line-height: .9;
+    font-family: gnum;
+    text-align: center;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+}
+
+.gcard__description {
+  max-width: 249px;
+  width: 249px;
+  min-width: 249px;
+}
+
+.card-body-ability {
+  font-weight: normal;
+}
+
+.card-body-ability .keyword {
+   font-weight: bold;
+}
+
+.deck.scoiatael  {
+    background: linear-gradient(90deg, rgba(2,0,36,0) 30%, rgba(55, 65, 23, 0.85) 100%);
+}
+.deck.skellige {
+    background: linear-gradient(90deg, rgba(2,0,36,0) 30%, rgba(59, 47, 83, 0.85) 100%);
+}
+.deck.syndicate {
+    background: linear-gradient(90deg, rgba(2,0,36,0) 30%, rgba(89, 35, 0, 0.85) 100%);
+}
+.deck.monster {
+    background: linear-gradient(90deg, rgba(2,0,36,0) 30%, rgba(89, 22, 11, 0.85) 100%);
+}
+.deck.northern_realms {
+    background: linear-gradient(90deg, rgba(2,0,36,0) 30%, rgba(16, 46, 82, 0.85) 100%);
+}
+.deck.nilfgaard {
+    background: linear-gradient(90deg, rgba(2,0,36,0) 30%, rgba(27, 32, 36, 0.85) 100%);
+}
