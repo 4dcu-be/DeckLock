@@ -1,0 +1,132 @@
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; }
+
+.popup-card-image {
+  height: 350px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.popover-body {
+    padding: 2px;
+}
+
+.manacost {
+  float:right;
+}
+
+.card_list {
+    padding-inline-start: 0px;
+    list-style: none;
+}
+
+.plot {
+    padding: 15px;
+}
+
+.card-stack {
+    float:left;
+    padding: 10px;
+    position: relative;
+    width:262px;
+}
+
+.overview-card-image {
+    height: 350px;
+    position:absolute;
+    top:0px;
+}
+
+.overview-card-image:hover {
+    z-index:1000
+}
+
+.fab-overview-position-2 {
+    top:40px;
+}
+.fab-overview-position-3 {
+    top:80px;
+}
+.fab-overview-position-4 {
+    top:120px;
+}
+.fab-overview-position-5 {
+    top:160px;
+}
+.fab-overview-position-6 {
+    top:200px;
+}
+.fab-overview-position-7 {
+    top:240px;
+}
+.fab-overview-position-8 {
+    top:280px;
+}
+.fab-overview-position-9 {
+    top:320px;
+}
+.fab-overview-position-10 {
+    top:360px;
+}
+
+.mtg-overview-position-2 {
+    top:40px;
+}
+.mtg-overview-position-3 {
+    top:80px;
+}
+.mtg-overview-position-4 {
+    top:120px;
+}
+
+.fab-dot {
+  height: 8px;
+  width: 8px;
+  background-color: #efe9db;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:10px;
+}
+.fab-dot-red {
+  background-color: #b20f15;
+}
+.fab-dot-yellow {
+  background-color: #fff101;
+}
+.fab-dot-blue {
+  background-color: #00a0eb;
+}
+
+.gwent-cards-table td {
+padding-top:2px;
+padding-bottom:2px;
+}
+
+.gwent-cards-table {
+margin-bottom:0px;
+}
+
+.gwent-dot {
+  height: 8px;
+  width: 8px;
+  background-color: #efe9db;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:10px;
+}
+.gwent-dot-legendary {
+  background-color: #fe7615;
+}
+.gwent-dot-epic {
+  background-color: #7b1098;
+}
+.gwent-dot-rare {
+  background-color: #085b98;
+}
+.gwent-dot-common {
+  background-color: #95a2c3;
+}
