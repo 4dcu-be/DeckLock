@@ -41,7 +41,6 @@ class KeyForgeGenerator(generators.Generator):
         for k, v in self.keyforge_data.items():
             v["path"] = settings["KEYFORGE_DECK_SAVE_AS"].replace("{slug}", k)
             for card in v["vault_data"]["_linked"]["cards"]:
-
                 card["count"] = v["vault_data"]["data"]["_links"]["cards"].count(
                     card["id"]
                 )
