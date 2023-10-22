@@ -153,7 +153,7 @@ of cards preceded by the number of copies of that card.
 ### Decks of KeyForge API Key
 
 If you want to include deck statistics from [Decks of KeyForge] you'll have to create an account and get an API key from
-[https://decksofkeyforge.com/](https://decksofkeyforge.com/). Create a file *.env* in the and add the line below.
+[https://decksofkeyforge.com/](https://decksofkeyforge.com/). Create a file *.env* in it add the line below.
 
 A .env file, which will not be committed, is used to keep your api key secret. 
 

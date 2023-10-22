@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DeckLock - Greedy Cache
+</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta name="author" content="Sebastian Proost">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sebastian.proost.science/DeckLock/gwent/7.3.0/greedy-cache_730/index.html">
+<meta property="og:title" content="DeckLock for Gwent - Greedy Cache">
+<meta property="og:description" content="Overview of cards in Greedy Cache, Syndicate, Gwent version 7.3.0">
+<meta property="og:image" content="https://sebastian.proost.science/DeckLock/theme/img/DeckLock_gwent.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://sebastian.proost.science/DeckLock/gwent/7.3.0/greedy-cache_730/index.html">
+<meta property="twitter:title" content="DeckLock for Gwent - Greedy Cache">
+<meta property="twitter:description" content="Overview of cards in Greedy Cache, Syndicate, Gwent version 7.3.0">
+<meta property="twitter:image" content="https://sebastian.proost.science/DeckLock/theme/img/DeckLock_gwent.jpg">
+
+        <link rel="stylesheet" href="https://sebastian.proost.science/DeckLock/theme/css/style.min.css?fa36a626">
+
+<link href="https://sebastian.proost.science/DeckLock/theme/css/gwent.css" rel="stylesheet" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sebastian.proost.science/DeckLock/theme/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://sebastian.proost.science/DeckLock/theme/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://sebastian.proost.science/DeckLock/theme/icons/favicon-16x16.png">
+    <link rel="manifest" href="https://sebastian.proost.science/DeckLock/theme/icons/site.webmanifest">
+    <link rel="mask-icon" href="https://sebastian.proost.science/DeckLock/theme/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://sebastian.proost.science/DeckLock/theme/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="msapplication-config" content="https://sebastian.proost.science/DeckLock/theme/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="https://sebastian.proost.science/DeckLock/index.html"><img src="https://sebastian.proost.science/DeckLock/theme/img/decklock_icon.png" alt="Decklock icon" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown d-none d-lg-block">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Games
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="https://sebastian.proost.science/DeckLock/fab.html">Flesh and Blood</a><a class="dropdown-item" href="https://sebastian.proost.science/DeckLock/gwent.html">Gwent</a><a class="dropdown-item" href="https://sebastian.proost.science/DeckLock/keyforge.html">KeyForge</a><a class="dropdown-item" href="https://sebastian.proost.science/DeckLock/mtg.html">Magic: the Gathering</a>        </div>
+      </li>
+        <li class="nav-item d-lg-none"><a class="nav-link disabled" href="#">Games</a></li>
+<li class="nav-item d-lg-none"><a class="nav-link" href="https://sebastian.proost.science/DeckLock/fab.html">Flesh and Blood</a></li><li class="nav-item d-lg-none"><a class="nav-link" href="https://sebastian.proost.science/DeckLock/gwent.html">Gwent</a></li><li class="nav-item d-lg-none"><a class="nav-link" href="https://sebastian.proost.science/DeckLock/keyforge.html">KeyForge</a></li><li class="nav-item d-lg-none"><a class="nav-link" href="https://sebastian.proost.science/DeckLock/mtg.html">Magic: the Gathering</a></li>    </ul>
+  </div>
+</nav>
+
+<div class="container top15">
+    <ol class="breadcrumb top15">
+      <li class="breadcrumb-item"><a href="https://sebastian.proost.science/DeckLock/index.html">DeckLock</a></li>
+      <li class="breadcrumb-item"><a href="https://sebastian.proost.science/DeckLock/gwent.html">Gwent</a></li>
+      <li class="breadcrumb-item active">Greedy Cache</li>
+    </ol>
+
+<h1>Greedy Cache <small>Syndicate (7.3.0)</small></h1>
+<div class="row">
+    <div class="col-sm-6 col-md-3"><img src="https://sebastian.proost.science/DeckLock/theme/img/gwent/scraps-icon.png" /> 8470</div>
+    <div class="col-sm-6 col-md-3"><img src="https://sebastian.proost.science/DeckLock/theme/img/gwent/cards-icon.png" /> 25</div>
+    <div class="col-sm-6 col-md-3"><img src="https://sebastian.proost.science/DeckLock/theme/img/gwent/helmet-icon.png" /> 19</div>
+    <div class="col-sm-6 col-md-3"><img src="https://sebastian.proost.science/DeckLock/theme/img/gwent/provision-icon-full.png" /> 164</div>
+</div>
+<div class="row">
+    <div class="col-md-8 top15">
+        <div class="card h-100">
+            <div class="card-header"><h3>Main Deck</h3></div>
+            <div>
+                <table  class="table table-striped gwent-cards-table">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>Type</th>
+                        <th>Name</th>
+                        <th>Provisions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                            <tr>
+        <td><span class="gwent-dot gwent-dot-legendary"></span></td>
+        <td class="text-muted">ability</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard legendary syndicate leader ability'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/2286.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'></span></div>
+                    <div class='gcard__trinket'></div>
+                    <div class='gcard__mulligan'><span>14</span></div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description legendary syndicate leader ability'>
+                <div class='gcard__name'>Hidden Cache</div>
+                <div class='gcard__category'>Leader</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword order'>Order</span>: Gain 3 <span class='keyword coin'>Coins</span>.<br/>
+At the beginning of the round, refresh this ability.<br/>
+Your <span class='keyword hoard'>Hoards</span> require 2 less <span class='keyword coin'>Coins</span> to trigger.<br/>
+<br/>
+This ability adds 14 provisions to your deck's provision limit.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Hidden Cache</span></td>
+        <td>14</td>
+    </tr>
+                            <tr>
+        <td><span class="gwent-dot gwent-dot-legendary"></span></td>
+        <td class="text-muted">stratagem</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard legendary neutral gold stratagem'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1006.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>0</span></div>
+                        <div class='gcard__trinket'></div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description legendary neutral gold stratagem'>
+                <div class='gcard__name'>Tactical Advantage</div>
+                <div class='gcard__category'> </div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword order'>Order</span>: Boost an allied unit by 5, then <span class='keyword banish'>Banish</span> self.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Tactical Advantage</span></td>
+        <td> - </td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-legendary"></span></td>
+        <td class="text-muted">artifact</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard legendary syndicate gold artifact'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1996.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>0</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>14</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description legendary syndicate gold artifact'>
+                <div class='gcard__name'>Passiflora</div>
+                <div class='gcard__category'>Scenario</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword doomed'>Doomed</span>.<br/>
+Scenario: Progress whenever you play a Blindeye.<br/>
+Prologue: <span class='keyword spawn'>Spawn</span> Passiflora Peaches in this row.<br/>
+Chapter 1: Gain 6 <span class='keyword coin'>Coins</span>.<br/>
+Chapter 2: <span class='keyword spawn'>Spawn</span> Sly Seductress in this row.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Passiflora</span></td>
+        <td>14</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-legendary"></span></td>
+        <td class="text-muted">unit</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard legendary syndicate gold unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1850.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>4</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>12</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description legendary syndicate gold unit'>
+                <div class='gcard__name'>Sigi Reuven</div>
+                <div class='gcard__category'>Human</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword intimidate'>Intimidate</span>.<br/>
+<span class='keyword profit'>Profit</span> 4.<br/>
+For every unique gang category in your starting deck, increase Sigi Reuven's initial <span class='keyword profit'>Profit</span> by 1.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Sigi Reuven</span></td>
+        <td>12</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-legendary"></span></td>
+        <td class="text-muted">special</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard legendary neutral gold special'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1330.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>0</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>10</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description legendary neutral gold special'>
+                <div class='gcard__name'>Korathi Heatwave</div>
+                <div class='gcard__category'> </div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword banish'>Banish</span> a unit or an artifact.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Korathi Heatwave</span></td>
+        <td>10</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-legendary"></span></td>
+        <td class="text-muted">unit</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard legendary syndicate gold unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1377.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>3</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>10</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description legendary syndicate gold unit'>
+                <div class='gcard__name'>Philippa Eilhart</div>
+                <div class='gcard__category'>Human, Mage</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword deploy'>Deploy</span>: Spend a number of <span class='keyword coin'>Coins</span> equal to an enemy unit's power, then <span class='keyword seize'>Seize</span> it.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Philippa Eilhart</span></td>
+        <td>10</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-legendary"></span></td>
+        <td class="text-muted">unit</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard legendary syndicate gold unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1898.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>6</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>9</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description legendary syndicate gold unit'>
+                <div class='gcard__name'>Madame Luiza</div>
+                <div class='gcard__category'>Human, Agent, Blindeyes</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword intimidate'>Intimidate</span>.<br/>
+<span class='keyword order'>Order</span>: Your next <span class='keyword tribute'>Tribute</span> this round costs 0.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Madame Luiza</span></td>
+        <td>9</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-legendary"></span></td>
+        <td class="text-muted">unit</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard legendary syndicate gold unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1756.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>6</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>9</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description legendary syndicate gold unit'>
+                <div class='gcard__name'>Savolla</div>
+                <div class='gcard__category'>Human, Mage, Salamandra</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword profit'>Profit</span> 2.<br/>
+<span class='keyword tribute'>Tribute</span> 9: <span class='keyword spawn'>Spawn</span> a Savolla's Frightener in this row.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Savolla</span></td>
+        <td>9</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-legendary"></span></td>
+        <td class="text-muted">unit</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard legendary syndicate gold unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1883.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>3</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>9</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description legendary syndicate gold unit'>
+                <div class='gcard__name'>The Flying Redanian</div>
+                <div class='gcard__category'>Specter, Ship</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword hoard'>Hoard</span> 9: On turn end, <span class='keyword summon'>Summon</span> this unit from your deck or graveyard to a random allied row.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">The Flying Redanian</span></td>
+        <td>9</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-legendary"></span></td>
+        <td class="text-muted">special</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard legendary syndicate gold special'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1851.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>0</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>9</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description legendary syndicate gold special'>
+                <div class='gcard__name'>Vivaldi Bank</div>
+                <div class='gcard__category'> </div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword profit'>Profit</span> 3.<br/>
+Look at the top card from your deck plus an additional card for every <span class='keyword coin'>Coin</span> you possess. Play the top card for free, or play another card for a <span class='keyword coin'>Coin</span> cost equal to its distance from the top. Shuffle the remaining cards back into your deck.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Vivaldi Bank</span></td>
+        <td>9</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-epic"></span></td>
+        <td class="text-muted">unit</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard epic syndicate gold unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1869.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>4</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>8</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description epic syndicate gold unit'>
+                <div class='gcard__name'>Caesar Bilzen</div>
+                <div class='gcard__category'>Dwarf, Crownsplitters</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword deploy'>Deploy</span>: Trigger the <span class='keyword profit'>Profit</span> abilities of adjacent units.<br/>
+<span class='keyword fee'>Fee</span> 2: Boost an allied unit by 2.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Caesar Bilzen</span></td>
+        <td>8</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-epic"></span></td>
+        <td class="text-muted">unit</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard epic syndicate gold unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1751.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>4</span></div>
+                        <div class='gcard__armor'>1</div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>8</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description epic syndicate gold unit'>
+                <div class='gcard__name'>Lieutenant Von Herst</div>
+                <div class='gcard__category'>Human, Knight, Firesworn</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword hoard'>Hoard</span> 4: At the end of your turn, <span class='keyword spawn'>Spawn</span> a Firesworn Zealot in this row.<br/>
+<span class='keyword fee'>Fee</span> 1: Transform a Firesworn Zealot into a Flaming Rose Footman.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Lieutenant Von Herst</span></td>
+        <td>8</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-epic"></span></td>
+        <td class="text-muted">unit</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard epic syndicate gold unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1975.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>4</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>7</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description epic syndicate gold unit'>
+                <div class='gcard__name'>Saul de Navarette</div>
+                <div class='gcard__category'>Human, Tidecloaks</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword hoard'>Hoard</span> 3: At the end of your turn, boost self by 1.<br/>
+<span class='keyword hoard'>Hoard</span> 6: At the end of your turn, boost self by 2 instead.<br/>
+<span class='keyword hoard'>Hoard</span> 9: At the end of your turn, boost self by 3 instead.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Saul de Navarette</span></td>
+        <td>7</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-common"></span></td>
+        <td class="text-muted">special</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard common syndicate bronze special'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1906.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>0</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>5</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description common syndicate bronze special'>
+                <div class='gcard__name'>Eavesdrop</div>
+                <div class='gcard__category'>Crime, Blindeyes</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword profit'>Profit</span> 5.<br/>
+Draw a card, then put a card from your hand at the bottom of your deck.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Eavesdrop</span></td>
+        <td>5</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-common"></span></td>
+        <td class="text-muted">unit</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard common syndicate bronze unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/2024.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>4</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>5</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description common syndicate bronze unit'>
+                <div class='gcard__name'>Passiflora Peaches</div>
+                <div class='gcard__category'>Human, Blindeyes</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword hoard'>Hoard</span> 4: At the end of your turn, boost self by 1.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Passiflora Peaches (x2)</span></td>
+        <td>5</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-common"></span></td>
+        <td class="text-muted">unit</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard common syndicate bronze unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1907.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>3</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>4</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description common syndicate bronze unit'>
+                <div class='gcard__name'>Beggar</div>
+                <div class='gcard__category'>Human, Agent, Blindeyes</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword profit'>Profit</span> 2.<br/>
+<span class='keyword bonded'>Bonded</span>: <span class='keyword profit'>Profit</span> 4 instead.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Beggar (x2)</span></td>
+        <td>4</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-common"></span></td>
+        <td class="text-muted">special</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard common syndicate bronze special'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1734.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>0</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>4</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description common syndicate bronze special'>
+                <div class='gcard__name'>Fisstech</div>
+                <div class='gcard__category'>Crime</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword profit'>Profit</span> 4.<br/>
+<span class='keyword poison'>Poison</span> a unit.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Fisstech (x2)</span></td>
+        <td>4</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-rare"></span></td>
+        <td class="text-muted">unit</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard rare syndicate bronze unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1859.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>3</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>4</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description rare syndicate bronze unit'>
+                <div class='gcard__name'>Fisstech Trafficker</div>
+                <div class='gcard__category'>Human</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword deploy'>Deploy</span>: Give <span class='keyword poison'>Poison</span> to a unit. If it's an ally, gain 3 <span class='keyword coin'>Coins</span>.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Fisstech Trafficker (x2)</span></td>
+        <td>4</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-common"></span></td>
+        <td class="text-muted">unit</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard common syndicate bronze unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1755.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>4</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>4</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description common syndicate bronze unit'>
+                <div class='gcard__name'>Sea Jackal</div>
+                <div class='gcard__category'>Human, Pirate, Tidecloaks</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword fee'>Fee</span> 2: Boost self by 2.<br/>
+<span class='keyword hoard'>Hoard</span> 7: Boost self by 3 instead.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Sea Jackal (x2)</span></td>
+        <td>4</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-rare"></span></td>
+        <td class="text-muted">unit</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard rare syndicate bronze unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/2022.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>2</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>4</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description rare syndicate bronze unit'>
+                <div class='gcard__name'>Street Urchins</div>
+                <div class='gcard__category'>Human, Blindeyes</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword profit'>Profit</span>: 3.<br/>
+<span class='keyword fee'>Fee</span> 1: Boost self by 1.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Street Urchins (x2)</span></td>
+        <td>4</td>
+    </tr>
+                                    <tr>
+        <td><span class="gwent-dot gwent-dot-rare"></span></td>
+        <td class="text-muted">unit</td>
+        <td><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<div class='row nomargin'>
+        <div class='col-sm-6 nopadding'>
+            <div class='gcard__container'>
+                <div class='gcard rare syndicate bronze unit'>
+                    <img class='popup-card-image' src='https://gwent.one/image/gwent/assets/card/art/medium/1890.jpg' />
+                    <div class='gcard__border'></div>
+                    <div class='gcard__banner'><span class='gcard__banner__text'>3</span></div>
+                        <div class='gcard__trinket'></div>
+                        <div class='gcard__provision-img'></div>
+                        <div class='gcard__provision'>4</div>
+                    <div class='gcard__rarity'></div>
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class='gcard__description rare syndicate bronze unit'>
+                <div class='gcard__name'>Tidecloak Ransackers</div>
+                <div class='gcard__category'>Human, Pirate, Tidecloaks</div>
+                <div class='gcard__body'><div class='card-body-ability'><span class='keyword deploy'>Deploy</span>: Damage an enemy unit by 2.<br/>
+<span class='keyword deathblow'>Deathblow</span>: Gain 2 <span class='keyword coin'>Coins</span>.<br/>
+<span class='keyword hoard'>Hoard</span> 5: Trigger the <span class='keyword deathblow'>Deathblow</span> even if the enemy unit survived.<br/>
+</div></div>
+            </div>
+        </div>
+    </div>">Tidecloak Ransackers</span></td>
+        <td>4</td>
+    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 top15">
+                <div class="card h-100">
+            <div class="card-header"><h3>Description</h3></div>
+            <div class="card-body">
+                <p>This deck allowed me to climb up fast to Pro Rank (in combination with Skellige), though typically greedy strategies
+don't work well on Pro Ladder, as a matter of fact, the abundance of control decks and tall punish in the meta made
+Syndicate a poor option. Ultimately, I abandoned this faction in favor of Northern Realms.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4 top15">
+        <div class="card plot">
+        <canvas id="provisionsStats" width="400" height="400"></canvas>
+        </div>
+    </div>
+</div>
+</div>
+
+<footer>
+</footer>
+<script src="https://sebastian.proost.science/DeckLock/theme/js/jquery-3.3.1.js"></script>
+<script src="https://sebastian.proost.science/DeckLock/theme/js/bootstrap.bundle.min.js"></script>
+<script src="https://sebastian.proost.science/DeckLock/theme/js/chart.min.js"></script>
+<script>
+$(function () {
+  $('[data-toggle="popover"]').popover({html: true})
+})
+</script>
+<script>
+var ctx = document.getElementById('provisionsStats').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["Fisstech", "Fisstech", "Sea Jackal", "Sea Jackal", "Beggar", "Beggar", "Tidecloak Ransackers", "Fisstech Trafficker", "Fisstech Trafficker", "Street Urchins", "Street Urchins", "Eavesdrop", "Passiflora Peaches", "Passiflora Peaches", "Saul de Navarette", "Lieutenant Von Herst", "Caesar Bilzen", "Vivaldi Bank", "Madame Luiza", "Savolla", "The Flying Redanian", "Korathi Heatwave", "Philippa Eilhart", "Sigi Reuven", "Passiflora"],
+        datasets: [{
+            data: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 7, 8, 8, 9, 9, 9, 9, 10, 10, 12, 14],
+            borderColor: 'rgba(0, 188, 140, 0.8)',
+            backgroundColor: 'rgba(0, 188, 140, 0.3)'
+        }]
+    },
+    options: {
+        plugins: {
+            legend: {
+                display: false
+            }
+        },
+        scales: {
+            y: {
+                ticks: {
+                    suggestedMin: 0,
+                    suggestedMax: 15
+                }
+            },
+            x: {
+                ticks: {
+                    display: false
+                }
+            }
+        }
+    }
+});
+</script>
+</body>
+</html>

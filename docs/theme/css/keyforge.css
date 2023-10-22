@@ -1,0 +1,45 @@
+.keyforge-house-logo {
+    height: 30px;
+    width: 30px;
+}
+
+.keyforge-house-logo-xl {
+    height: 60px;
+    width: 60px;
+}
+
+.is_enhanced {
+    color: #4a7ff0;
+}
+
+.card-header.house-mars {
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(89,46,145,1) 100%);
+}
+.card-header.house-shadows {
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(255,193,68,1) 100%);
+}
+.card-header.house-logos {
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(211,101,38,1) 100%);
+}
+.card-header.house-brobnar {
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(242,94,34,1) 100%);
+}
+.card-header.house-untamed {
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(36,132,84,1) 100%);
+}
+.card-header.house-dis {
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(222,28,115,1) 100%);
+}
+.card-header.house-sanctum {
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(18,132,189,1) 100%);
+}
+.card-header.house-saurian {
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(229,189,55,1) 100%);
+}
+.card-header.house-star_alliance {
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(42,72,131,1) 100%);
+}
+.card-header.house-unfathomable {
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(209,72,255,1) 100%);
+}
+
