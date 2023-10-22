@@ -7,321 +7,18 @@
             "keyraken_difficulty": "Normal"
         },
         "dok_data": {
-            "deck": {
-                "actionCount": 13,
-                "aercScore": 65,
-                "aercVersion": 41,
-                "amberControl": 3.84725,
-                "antisynergyRating": 1,
-                "artifactCount": 4,
-                "creatureControl": 14.700000000000001,
-                "creatureCount": 12,
-                "creatureProtection": 7.875,
-                "dateAdded": "2019-11-12",
-                "disruption": 7.1075,
-                "effectivePower": 58,
-                "efficiency": 9.25,
-                "efficiencyBonus": 0.0,
-                "expansion": "WORLDS_COLLIDE",
-                "expectedAmber": 22.41875,
-                "housesAndCards": [
-                    {
-                        "cards": [
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Binding Irons",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Binding Irons",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Draining Touch",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Festering Touch",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Gleeful Mayhem",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Misery Exploit",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Not Finished with You",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Buzzle",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Greater Oxtet",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Rare"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Impspector",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Infurnace",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Lord Invidius",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Rare"
-                            }
-                        ],
-                        "house": "Dis"
-                    },
-                    {
-                        "cards": [
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Axiom of Grisk",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Imperial Forge",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Rare"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Imperium",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Phalanx Strike",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Auto-Legionary",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Rare"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "The Golden Spiral",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "The Golden Spiral",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Brutodon Auxiliary",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Draco Praeco",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Gargantodon",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Rhetor Gallim",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Imperial Scutum",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            }
-                        ],
-                        "house": "Saurian"
-                    },
-                    {
-                        "cards": [
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Stealth Mode",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Zap",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Book of leQ",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Rare"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "CXO Taber",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Com. Officer Kirby",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Sci. Officer Qincan",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Force Field",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Force Field",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Light of the Archons",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Light of the Archons",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Light of the Archons",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Plasma Nozzle",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Rare"
-                            }
-                        ],
-                        "house": "StarAlliance"
-                    }
-                ],
-                "id": 1445088,
-                "keyCheatCount": 1,
-                "keyforgeId": "29bb805b-12ce-4f29-aad7-a4d9b512e41c",
-                "lastSasUpdate": "2021-07-02",
-                "metaScores": {},
-                "name": "Champion Greenqual, the Sinister Surgeon",
-                "other": 2.175,
-                "previousMajorSasRating": 78,
-                "previousSasRating": 81,
-                "rawAmber": 15,
-                "recursion": 0.5,
-                "sasPercentile": 98.52233147912749,
-                "sasRating": 79,
-                "synergyRating": 16,
-                "totalPower": 55,
-                "upgradeCount": 7
-            },
-            "sasVersion": 41
+            "message": "Your API key does not exist."
         },
         "dok_stats": {
-            "amberControl": 20.41849810132653,
-            "artifactControl": 48.619260150104424,
-            "creatureControl": 81.36861671300166,
-            "creatureProtection": 99.76676664492993,
-            "disruption": 93.72913816910003,
-            "effectivePower": 22.92635113730984,
-            "efficiency": 82.96658963423432,
-            "expectedAmber": 81.45821024131007,
-            "recursion": 36.28026048623129
+            "amberControl": 0,
+            "artifactControl": 0,
+            "creatureControl": 0,
+            "creatureProtection": 0,
+            "disruption": 0,
+            "effectivePower": 0,
+            "efficiency": 0,
+            "expectedAmber": 0,
+            "recursion": 0
         },
         "user_data": {
             "conspiracy_difficulty": "Easy",
@@ -342,7 +39,7 @@
                         "card_type": "Action",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_075_H9QPH3CR96QW_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_075_H9QPH3CR96QW_en.png",
                         "house": "Dis",
                         "id": "8e70d3ff-673e-4b16-9054-92638e13092c",
                         "is_anomaly": false,
@@ -362,7 +59,7 @@
                         "card_type": "Creature",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_070_PGQ7XMQ4M5J4_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_070_PGQ7XMQ4M5J4_en.png",
                         "house": "Dis",
                         "id": "0dce8f33-bb22-4683-a54d-0ce8892110ea",
                         "is_anomaly": false,
@@ -382,7 +79,7 @@
                         "card_type": "Action",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_222_8P6X77P75HRC_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_222_8P6X77P75HRC_en.png",
                         "house": "Saurian",
                         "id": "6f157d7c-9a79-4222-8633-d9449c7b695f",
                         "is_anomaly": false,
@@ -402,7 +99,7 @@
                         "card_type": "Action",
                         "expansion": 452,
                         "flavor_text": "\u201cWe come in peace.\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_307_35FHXGRH97X5_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_307_35FHXGRH97X5_en.png",
                         "house": "Star Alliance",
                         "id": "39f5c2ee-1a39-4bf3-9a06-f34aa374e266",
                         "is_anomaly": false,
@@ -422,7 +119,7 @@
                         "card_type": "Creature",
                         "expansion": 452,
                         "flavor_text": "Cultural Exchange Officer Taber is everyone\u2019s best friend.",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_309_5MM9MGQ7X9W4_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_309_5MM9MGQ7X9W4_en.png",
                         "house": "Star Alliance",
                         "id": "1fcb2b2a-96f8-46da-acd9-9c89f847c436",
                         "is_anomaly": false,
@@ -442,7 +139,7 @@
                         "card_type": "Action",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_189_WJC3WC5R6359_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_189_WJC3WC5R6359_en.png",
                         "house": "Saurian",
                         "id": "3d1bdc6c-125c-4a4e-87e9-e36501ec429f",
                         "is_anomaly": false,
@@ -462,7 +159,7 @@
                         "card_type": "Action",
                         "expansion": 452,
                         "flavor_text": "\u201cIt worked!\u201c\r\u201dWhat do you mean \u2018it worked\u2019? There was a chance it wouldn\u2019t work?!\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_306_VF3C7HP27HX7_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_306_VF3C7HP27HX7_en.png",
                         "house": "Star Alliance",
                         "id": "4c1657fe-0137-4add-96d9-caf3113d7729",
                         "is_anomaly": false,
@@ -482,7 +179,7 @@
                         "card_type": "Artifact",
                         "expansion": 452,
                         "flavor_text": "\u201cSemper pergimus intrepidi\u201d \u2013\u202fInscription\u202fon\u202fthe tower\u202fof\u202fthe\u202fGolden\u202fSpiral",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_194_8MC664MRP2WH_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_194_8MC664MRP2WH_en.png",
                         "house": "Saurian",
                         "id": "b70cc7f6-bec7-4bcb-880b-3c19f8efe4a3",
                         "is_anomaly": false,
@@ -502,7 +199,7 @@
                         "card_type": "Upgrade",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_185_VW7R64X64XPF_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_185_VW7R64X64XPF_en.png",
                         "house": "Saurian",
                         "id": "fabcb694-0471-4ab3-beff-45cf65846fd8",
                         "is_anomaly": false,
@@ -522,7 +219,7 @@
                         "card_type": "Action",
                         "expansion": 452,
                         "flavor_text": "\u201cAfter my encounter with the demon, I felt\u2026nothing.\u201d \u2013\u202fInka\u202fthe\u202fSpider",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_072_C3XCXW39W669_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_072_C3XCXW39W669_en.png",
                         "house": "Dis",
                         "id": "127a407a-6215-442e-b533-cb0352d67341",
                         "is_anomaly": false,
@@ -542,7 +239,7 @@
                         "card_type": "Creature",
                         "expansion": 452,
                         "flavor_text": "\u201cFleet Command has to be out there somewhere.\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_295_55RR583RQ268_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_295_55RR583RQ268_en.png",
                         "house": "Star Alliance",
                         "id": "c0004007-18dd-4ad5-9675-b966a8a13763",
                         "is_anomaly": false,
@@ -562,7 +259,7 @@
                         "card_type": "Creature",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_203_8MQ96V737H8F_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_203_8MQ96V737H8F_en.png",
                         "house": "Saurian",
                         "id": "d4c37618-cf18-4f0e-a476-74166745ca20",
                         "is_anomaly": false,
@@ -582,7 +279,7 @@
                         "card_type": "Creature",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_304_WCVRJ3JR6M9G_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_304_WCVRJ3JR6M9G_en.png",
                         "house": "Star Alliance",
                         "id": "e5029fa1-3cc3-4a1e-b595-a7d310528723",
                         "is_anomaly": false,
@@ -602,7 +299,7 @@
                         "card_type": "Action",
                         "expansion": 452,
                         "flavor_text": "There\u2019s always more room in the pit.",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_090_W9493WF5PMFG_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_090_W9493WF5PMFG_en.png",
                         "house": "Dis",
                         "id": "d992da98-3743-40c5-9da4-03b79c9d356f",
                         "is_anomaly": false,
@@ -622,7 +319,7 @@
                         "card_type": "Action",
                         "expansion": 452,
                         "flavor_text": "\u201cI will not chain you. You have already chained\u202fyourself through your blind affection\u202ffor\u202fthese\u202fmortals.\u201d \u2014\u202fJudge\u202fSlenderwile,\u202fArchon",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_069_F848692HRPQC_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_069_F848692HRPQC_en.png",
                         "house": "Dis",
                         "id": "333f45b6-73e0-44c3-9ff8-8961687e57ab",
                         "is_anomaly": false,
@@ -642,7 +339,7 @@
                         "card_type": "Creature",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_105_3M378G3GXRMQ_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_105_3M378G3GXRMQ_en.png",
                         "house": "Dis",
                         "id": "417bc0df-2bad-4573-9aed-a3f7e5229832",
                         "is_anomaly": false,
@@ -662,7 +359,7 @@
                         "card_type": "Creature",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_078_XC6526G5PXQ6_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_078_XC6526G5PXQ6_en.png",
                         "house": "Dis",
                         "id": "1d7e659b-08bf-4d17-8151-76c9c06e8d9c",
                         "is_anomaly": false,
@@ -682,7 +379,7 @@
                         "card_type": "Creature",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_110_R9HXV4CVV288_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_110_R9HXV4CVV288_en.png",
                         "house": "Dis",
                         "id": "aaf3a93b-b922-4ff2-9380-aaa886c7a5a4",
                         "is_anomaly": false,
@@ -702,7 +399,7 @@
                         "card_type": "Action",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_081_556V2GMVPPHF_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_081_556V2GMVPPHF_en.png",
                         "house": "Dis",
                         "id": "cff4ee9d-c177-4bc3-997c-217ecefbc297",
                         "is_anomaly": false,
@@ -722,7 +419,7 @@
                         "card_type": "Creature",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_201_WRJF2544GG9G_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_201_WRJF2544GG9G_en.png",
                         "house": "Saurian",
                         "id": "0232669e-0428-4117-86de-cf537763ebab",
                         "is_anomaly": false,
@@ -742,7 +439,7 @@
                         "card_type": "Creature",
                         "expansion": 452,
                         "flavor_text": "\u201cWhen you have eliminated the imp-ossible, whatever remains, however imp-robable, must be the truth.\u201d \u2013\u202fQuixo\u202fthe\u202f\u201dAdventurer\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_077_8GW82M2JFCQM_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_077_8GW82M2JFCQM_en.png",
                         "house": "Dis",
                         "id": "7b135c0c-0c8d-4248-9f46-0a3677792386",
                         "is_anomaly": false,
@@ -762,7 +459,7 @@
                         "card_type": "Upgrade",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_300_V6J3C392GXV_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_300_V6J3C392GXV_en.png",
                         "house": "Star Alliance",
                         "id": "622e9f67-87f7-4b74-92fa-d7cba6d9182d",
                         "is_anomaly": false,
@@ -782,7 +479,7 @@
                         "card_type": "Upgrade",
                         "expansion": 452,
                         "flavor_text": "\u201cThe plasma nozzle is now calibrating.\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_336_38M57VR8P2VH_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_336_38M57VR8P2VH_en.png",
                         "house": "Star Alliance",
                         "id": "facc0b17-c412-4a44-94d6-77dd24a3ed08",
                         "is_anomaly": false,
@@ -802,7 +499,7 @@
                         "card_type": "Upgrade",
                         "expansion": 452,
                         "flavor_text": "\u201cNot today!\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_310_8V49FCJ2G2F4_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_310_8V49FCJ2G2F4_en.png",
                         "house": "Star Alliance",
                         "id": "be4bf973-ddd1-4678-a0ab-5ed701630f79",
                         "is_anomaly": false,
@@ -822,7 +519,7 @@
                         "card_type": "Artifact",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_325_7FQ4GXHFW4R4_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_325_7FQ4GXHFW4R4_en.png",
                         "house": "Star Alliance",
                         "id": "f8763227-2b04-4745-9739-9f8330a59605",
                         "is_anomaly": false,
@@ -842,7 +539,7 @@
                         "card_type": "Action",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_082_V82MH9MVX6VC_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_082_V82MH9MVX6VC_en.png",
                         "house": "Dis",
                         "id": "325209e4-246e-443c-b974-8592fb393a7e",
                         "is_anomaly": false,
@@ -862,7 +559,7 @@
                         "card_type": "Action",
                         "expansion": 452,
                         "flavor_text": "\u201cA million years ago the empire rose. A million years from now, it will still stand.\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_186_PFWWRV8QWW28_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_186_PFWWRV8QWW28_en.png",
                         "house": "Saurian",
                         "id": "01c40000-c049-48c7-9291-7f0c07143835",
                         "is_anomaly": false,
@@ -882,7 +579,7 @@
                         "card_type": "Artifact",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_214_54FJ6MX32V52_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_214_54FJ6MX32V52_en.png",
                         "house": "Saurian",
                         "id": "4a445186-3294-4588-aa8f-aa138d79311c",
                         "is_anomaly": false,
@@ -902,7 +599,7 @@
                         "card_type": "Action",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_182_GQRGVXG78994_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_182_GQRGVXG78994_en.png",
                         "house": "Saurian",
                         "id": "78b6ac09-ae83-41bf-baa8-edfb873a5ad9",
                         "is_anomaly": false,
@@ -922,7 +619,7 @@
                         "card_type": "Creature",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_192_9R3728QW3GXW_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_192_9R3728QW3GXW_en.png",
                         "house": "Saurian",
                         "id": "3765834d-e411-43ca-946d-0db87d801599",
                         "is_anomaly": false,
@@ -942,7 +639,7 @@
                         "card_type": "Creature",
                         "expansion": 452,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/452_183_Q63M7677G4J_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/452_183_Q63M7677G4J_en.png",
                         "house": "Saurian",
                         "id": "3031b717-f923-47b3-b93a-d77aeb2ccc53",
                         "is_anomaly": false,
@@ -956,22 +653,22 @@
                 ],
                 "houses": [
                     {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
+                        "id": "Saurian",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Saurian.png",
                         "in_filters": true,
-                        "name": "Dis"
+                        "name": "Saurian"
                     },
                     {
                         "id": "Star Alliance",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Star_Alliance.png",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Star_Alliance.png",
                         "in_filters": true,
                         "name": "Star Alliance"
                     },
                     {
-                        "id": "Saurian",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Saurian.png",
+                        "id": "Dis",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
-                        "name": "Saurian"
+                        "name": "Dis"
                     }
                 ],
                 "notes": []
@@ -1023,20 +720,25 @@
                     ],
                     "notes": []
                 },
+                "bonus_icons": [],
                 "casual_losses": 0,
                 "casual_wins": 0,
                 "chains": 0,
                 "expansion": 452,
+                "flavor_text": null,
                 "id": "29bb805b-12ce-4f29-aad7-a4d9b512e41c",
+                "is_deck_owned": false,
                 "is_my_deck": false,
                 "is_my_favorite": false,
                 "is_on_my_watchlist": false,
+                "is_pending_transfer": false,
                 "losses": 0,
                 "name": "Champion Greenqual, the Sinister Surgeon",
                 "power_level": 0,
                 "set_era_cards": {
                     "Anomaly": [],
-                    "Legacy": []
+                    "Legacy": [],
+                    "Mixed Set": []
                 },
                 "shards_bonus": null,
                 "wins": 0
@@ -1051,323 +753,18 @@
             "keyraken_difficulty": "Normal"
         },
         "dok_data": {
-            "deck": {
-                "actionCount": 16,
-                "aercScore": 52,
-                "aercVersion": 41,
-                "amberControl": 7.609999999999999,
-                "antisynergyRating": 0,
-                "artifactControl": 3.0,
-                "artifactCount": 5,
-                "cardArchiveCount": 3,
-                "cardDrawCount": 1,
-                "creatureControl": 11.274999999999999,
-                "creatureCount": 15,
-                "creatureProtection": 2.25,
-                "dateAdded": "2020-01-05",
-                "effectivePower": 76,
-                "efficiency": 1.25,
-                "efficiencyBonus": 0.0,
-                "expansion": "AGE_OF_ASCENSION",
-                "expectedAmber": 18.1125,
-                "housesAndCards": [
-                    {
-                        "cards": [
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Destroy Them All!",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Destroy Them All!",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Key Abduction",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Mars First",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Mothergun",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Collector Worm",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Collector Worm",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Glyxl Proliferator",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Ixxyxli Fixfinger",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Skybooster Squadron",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Skybooster Squadron",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Zysysyx Shockworm",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            }
-                        ],
-                        "house": "Mars"
-                    },
-                    {
-                        "cards": [
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Equalize",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Golden Aura",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Radiant Truth",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Shield of Justice",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Take Hostages",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Take Hostages",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Epic Quest",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Rare"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Haedroth\u2019s Wall",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Hallowed Shield",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Bordan the Redeemed",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Sir Marrows",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "\u201cLion\u201d Bautrem",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            }
-                        ],
-                        "house": "Sanctum"
-                    },
-                    {
-                        "cards": [
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Dusk Chronicles",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Furtive Investors",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Furtive Investors",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Life for a Life",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Throwing Stars",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Too Much to Protect",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Skeleton Key",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Bad Penny",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Bulleteye",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Rare"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Gamgee",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Ronnie Wristclocks",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Umbra",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            }
-                        ],
-                        "house": "Shadows"
-                    }
-                ],
-                "id": 1648089,
-                "keyCheatCount": 2,
-                "keyforgeId": "a4268ae8-a9f6-48c7-9739-b28a3553b108",
-                "lastSasUpdate": "2021-07-02",
-                "metaScores": {},
-                "name": "Sneaking \u201cSiphon\u201d Zebulon",
-                "other": 0.65,
-                "previousMajorSasRating": 58,
-                "previousSasRating": 60,
-                "rawAmber": 12,
-                "recursion": 1.4,
-                "sasPercentile": 37.64419399275997,
-                "sasRating": 61,
-                "synergyRating": 7,
-                "totalArmor": 16,
-                "totalPower": 40
-            },
-            "sasVersion": 41
+            "message": "Your API key does not exist."
         },
         "dok_stats": {
-            "amberControl": 61.41803622915631,
-            "artifactControl": 97.9019476818934,
-            "creatureControl": 53.10034716988432,
-            "creatureProtection": 78.89598848301995,
-            "disruption": 30.476308698270117,
-            "effectivePower": 53.27179605401567,
-            "efficiency": 40.78254687438286,
-            "expectedAmber": 51.61534350634329,
-            "recursion": 59.43855528319696
+            "amberControl": 0,
+            "artifactControl": 0,
+            "creatureControl": 0,
+            "creatureProtection": 0,
+            "disruption": 0,
+            "effectivePower": 0,
+            "efficiency": 0,
+            "expectedAmber": 0,
+            "recursion": 0
         },
         "user_data": {
             "conspiracy_difficulty": "Easy",
@@ -1388,7 +785,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_269_HH7X6JXXHHG9_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_269_HH7X6JXXHHG9_en.png",
                         "house": "Shadows",
                         "id": "2dee82ae-b991-4785-beda-08b3e9dcc647",
                         "is_anomaly": false,
@@ -1408,7 +805,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_164_977PM9G2HVF3_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_164_977PM9G2HVF3_en.png",
                         "house": "Mars",
                         "id": "bfaef0df-911c-4f21-a452-83d1144dc0c4",
                         "is_anomaly": false,
@@ -1428,7 +825,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_222_MWJF78XXHGRP_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_222_MWJF78XXHGRP_en.png",
                         "house": "Sanctum",
                         "id": "37091456-300b-489e-a33e-6526e99ca881",
                         "is_anomaly": false,
@@ -1448,7 +845,7 @@
                         "card_type": "Artifact",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_169_3VRH54RJVW8F_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_169_3VRH54RJVW8F_en.png",
                         "house": "Mars",
                         "id": "808b5f42-643d-4923-b173-bf36dd172a4b",
                         "is_anomaly": false,
@@ -1468,7 +865,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_163_P386C85937W4_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_163_P386C85937W4_en.png",
                         "house": "Mars",
                         "id": "c1b50703-d569-4728-b67a-c08a46364515",
                         "is_anomaly": false,
@@ -1488,7 +885,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_299_HM8V4P3J8F9P_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_299_HM8V4P3J8F9P_en.png",
                         "house": "Shadows",
                         "id": "936e339f-6253-4904-a819-a7f82c8e8643",
                         "is_anomaly": false,
@@ -1508,7 +905,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_217_698CC538VMHH_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_217_698CC538VMHH_en.png",
                         "house": "Sanctum",
                         "id": "6ff72e74-35b9-4306-89e1-43101956ae3e",
                         "is_anomaly": false,
@@ -1528,7 +925,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": "\u201cMars second, third, and fourth, too, if you ask me.\u201d \u2013\u202fUlyq\u202fMegamouth",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_165_X55Q28P9QHQ2_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_165_X55Q28P9QHQ2_en.png",
                         "house": "Mars",
                         "id": "e8175d3f-a71b-4a46-991e-dd6500c10423",
                         "is_anomaly": false,
@@ -1548,7 +945,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_270_8MHGRVXCW924_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_270_8MHGRVXCW924_en.png",
                         "house": "Shadows",
                         "id": "00fcdf13-8d6d-4bbc-8bfa-a363d4f52a2f",
                         "is_anomaly": false,
@@ -1568,7 +965,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_162_HMCVX6VH9WR8_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_162_HMCVX6VH9WR8_en.png",
                         "house": "Mars",
                         "id": "66853d69-f637-4c6d-bb6f-d639a8e0958d",
                         "is_anomaly": false,
@@ -1588,7 +985,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_225_CQVJPWVJ7QFF_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_225_CQVJPWVJ7QFF_en.png",
                         "house": "Sanctum",
                         "id": "ae189892-3b4c-429c-9ac7-a3c162c72688",
                         "is_anomaly": false,
@@ -1608,7 +1005,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "\u201cYou look like an Archon with discriminating tastes.\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_276_WC2XG57P6VQW_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_276_WC2XG57P6VQW_en.png",
                         "house": "Shadows",
                         "id": "83468bda-45c1-4374-8443-9145e84edce2",
                         "is_anomaly": false,
@@ -1628,7 +1025,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "A Bad Penny saved is a Bad Penny earned.",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_267_QGVHW32R7H39_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_267_QGVHW32R7H39_en.png",
                         "house": "Shadows",
                         "id": "2d0b4614-463b-4df1-b580-b429db1a6013",
                         "is_anomaly": false,
@@ -1648,7 +1045,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": "\u201dI know it was right here\u2026 right before the Midnight Chronicles.\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_268_PMWV693R8VPG_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_268_PMWV693R8VPG_en.png",
                         "house": "Shadows",
                         "id": "d39ac2ab-d201-4a12-944a-7ad31ef89f66",
                         "is_anomaly": false,
@@ -1668,7 +1065,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_279_XPM26XJH3FWJ_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_279_XPM26XJH3FWJ_en.png",
                         "house": "Shadows",
                         "id": "3f3596e8-833b-47b1-a164-62976d852399",
                         "is_anomaly": false,
@@ -1688,7 +1085,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "\u201cWhen the fightin\u2019s done, the real work begins.\u201d ",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_280_46RGMP97V4JP_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_280_46RGMP97V4JP_en.png",
                         "house": "Shadows",
                         "id": "e20c5f1d-814a-4e28-92ab-a2e34b7fd643",
                         "is_anomaly": false,
@@ -1708,7 +1105,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": "\u201cIt\u2019s a fair trade, boss. I don\u2019t mind.\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_273_W7CJ2RJVPQ48_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_273_W7CJ2RJVPQ48_en.png",
                         "house": "Shadows",
                         "id": "642bb7b7-a105-42a1-93d8-e4fe2e81ea27",
                         "is_anomaly": false,
@@ -1728,7 +1125,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "\u201dHe shocks more than just worms; that\u2019s\u202fjust\u202fa\u202fname.\u201d\r\u2013\u202fInka\u202fthe\u202fSpider",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_175_4CP4CXV9PV7W_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_175_4CP4CXV9PV7W_en.png",
                         "house": "Mars",
                         "id": "5268bb5a-5888-4ee9-abc9-bcad6983e270",
                         "is_anomaly": false,
@@ -1748,7 +1145,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_211_F3QM42Q9W8PG_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_211_F3QM42Q9W8PG_en.png",
                         "house": "Sanctum",
                         "id": "4d90ef82-2375-4583-9c2a-fdfd2f32f1a2",
                         "is_anomaly": false,
@@ -1768,7 +1165,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_182_RFVG47F7PX25_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_182_RFVG47F7PX25_en.png",
                         "house": "Mars",
                         "id": "6b544d11-b4fb-4939-82af-de33bce85aed",
                         "is_anomaly": false,
@@ -1788,7 +1185,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "\u201cI thought you said we wouldn\u2019t\rneed booster\u202fpacks?\u201d\r\u2013\u202fPhlurx\u202fthe\u202fHapless",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_170_JV98QVRQ3PFP_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_170_JV98QVRQ3PFP_en.png",
                         "house": "Mars",
                         "id": "79b574c3-058d-4a4b-81f3-83c1e6fffedc",
                         "is_anomaly": false,
@@ -1801,26 +1198,6 @@
                     },
                     {
                         "amber": 0,
-                        "armor": null,
-                        "card_number": "252",
-                        "card_text": "Play: Archive each friendly Knight creature in play.\rOmni: If you have played 7\u202for more Sanctum cards this turn, sacrifice Epic Quest and forge a key at no cost.",
-                        "card_title": "Epic Quest",
-                        "card_type": "Artifact",
-                        "expansion": 435,
-                        "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_252_FP9M65WV2PW7_en.png",
-                        "house": "Sanctum",
-                        "id": "1f360d2c-1a41-4cfd-b64f-707d5ab20a63",
-                        "is_anomaly": false,
-                        "is_enhanced": false,
-                        "is_maverick": false,
-                        "is_non_deck": false,
-                        "power": null,
-                        "rarity": "Rare",
-                        "traits": "Quest"
-                    },
-                    {
-                        "amber": 0,
                         "armor": "2",
                         "card_number": "223",
                         "card_text": "After your opponent gains A by reaping, Sir Marrows captures it.\r",
@@ -1828,7 +1205,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "\u201cAll \u00c6mber is ours by right.\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_223_3F8X8PH38Q47_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_223_3F8X8PH38Q47_en.png",
                         "house": "Sanctum",
                         "id": "97fcbed9-9a94-4fe0-882f-902e7b592c2e",
                         "is_anomaly": false,
@@ -1848,7 +1225,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_179_4WJC9RWHXWJQ_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_179_4WJC9RWHXWJQ_en.png",
                         "house": "Mars",
                         "id": "f775dba8-b39f-4c33-a50a-5a56f0d1d57e",
                         "is_anomaly": false,
@@ -1860,6 +1237,26 @@
                         "traits": null
                     },
                     {
+                        "amber": 0,
+                        "armor": null,
+                        "card_number": "252",
+                        "card_text": "Play: Archive each friendly Knight creature in play.\rOmni: If you have played 7\u202for more Sanctum cards this turn, sacrifice Epic Quest and forge a key at no cost.",
+                        "card_title": "Epic Quest",
+                        "card_type": "Artifact",
+                        "expansion": 435,
+                        "flavor_text": null,
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_252_FP9M65WV2PW7_en.png",
+                        "house": "Sanctum",
+                        "id": "1f360d2c-1a41-4cfd-b64f-707d5ab20a63",
+                        "is_anomaly": false,
+                        "is_enhanced": false,
+                        "is_maverick": false,
+                        "is_non_deck": false,
+                        "power": null,
+                        "rarity": "Rare",
+                        "traits": "Quest"
+                    },
+                    {
                         "amber": 1,
                         "armor": null,
                         "card_number": "298",
@@ -1868,7 +1265,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": "Not taking it would be the real crime.",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_298_R866R84J7FHJ_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_298_R866R84J7FHJ_en.png",
                         "house": "Shadows",
                         "id": "9736dae5-4ebe-4b3e-8114-fd5555a83446",
                         "is_anomaly": false,
@@ -1888,7 +1285,7 @@
                         "card_type": "Artifact",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_218_9XGRVV6C3C9Q_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_218_9XGRVV6C3C9Q_en.png",
                         "house": "Sanctum",
                         "id": "74a2511a-7df8-4865-b125-cae3e4f0e41b",
                         "is_anomaly": false,
@@ -1908,7 +1305,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "\u201cRedemption is a journey, not a destination.\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_215_XR2C29H6MC6V_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_215_XR2C29H6MC6V_en.png",
                         "house": "Sanctum",
                         "id": "eeac7978-6fa5-4c6a-a62e-144692ba93d6",
                         "is_anomaly": false,
@@ -1928,7 +1325,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": "\u201cTruly I say to you: pie is superior to cake.\u201d \u2013\u202ffrom\u202fthe\u202fRavings\u202fof\u202fThe\u202fProphet\u202fGizelhart",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_241_3VPR5JXP78M9_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_241_3VPR5JXP78M9_en.png",
                         "house": "Sanctum",
                         "id": "d9d7766a-b6a2-4f3f-b25b-6bf8919867b1",
                         "is_anomaly": false,
@@ -1948,7 +1345,7 @@
                         "card_type": "Artifact",
                         "expansion": 435,
                         "flavor_text": "Skeleton sold separately. ",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_295_GQXFG68RR582_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_295_GQXFG68RR582_en.png",
                         "house": "Shadows",
                         "id": "db3da995-67bc-4693-b242-b2d0f7968e1b",
                         "is_anomaly": false,
@@ -1968,7 +1365,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_232_5PHG9J2PM87J_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_232_5PHG9J2PM87J_en.png",
                         "house": "Sanctum",
                         "id": "1a163eac-4b12-4aec-b73f-08c25f67d285",
                         "is_anomaly": false,
@@ -1988,7 +1385,7 @@
                         "card_type": "Artifact",
                         "expansion": 435,
                         "flavor_text": "Order. This is the Sanctum\u2019s promise.",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_236_99M686XM24RP_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_236_99M686XM24RP_en.png",
                         "house": "Sanctum",
                         "id": "f79011cb-fedf-49a2-9dba-18d5d35956aa",
                         "is_anomaly": false,
@@ -2002,22 +1399,22 @@
                 ],
                 "houses": [
                     {
+                        "id": "Mars",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Mars_CmAUCXI.png",
+                        "in_filters": true,
+                        "name": "Mars"
+                    },
+                    {
                         "id": "Shadows",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Shadows_z0n69GG.png",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Shadows_z0n69GG.png",
                         "in_filters": true,
                         "name": "Shadows"
                     },
                     {
                         "id": "Sanctum",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Sanctum_lUWPG7x.png",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Sanctum_lUWPG7x.png",
                         "in_filters": true,
                         "name": "Sanctum"
-                    },
-                    {
-                        "id": "Mars",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Mars_CmAUCXI.png",
-                        "in_filters": true,
-                        "name": "Mars"
                     }
                 ],
                 "notes": []
@@ -2069,20 +1466,25 @@
                     ],
                     "notes": []
                 },
+                "bonus_icons": [],
                 "casual_losses": 0,
                 "casual_wins": 0,
                 "chains": 0,
                 "expansion": 435,
+                "flavor_text": null,
                 "id": "a4268ae8-a9f6-48c7-9739-b28a3553b108",
+                "is_deck_owned": false,
                 "is_my_deck": false,
                 "is_my_favorite": false,
                 "is_on_my_watchlist": false,
+                "is_pending_transfer": false,
                 "losses": 0,
                 "name": "Sneaking \u201cSiphon\u201d Zebulon",
                 "power_level": 0,
                 "set_era_cards": {
                     "Anomaly": [],
-                    "Legacy": []
+                    "Legacy": [],
+                    "Mixed Set": []
                 },
                 "shards_bonus": null,
                 "wins": 0
@@ -2097,324 +1499,18 @@
             "keyraken_difficulty": "Normal"
         },
         "dok_data": {
-            "deck": {
-                "actionCount": 12,
-                "aercScore": 54,
-                "aercVersion": 41,
-                "amberControl": 3.825,
-                "antisynergyRating": 4,
-                "artifactCount": 2,
-                "cardArchiveCount": 4,
-                "cardDrawCount": 2,
-                "creatureControl": 12.8625,
-                "creatureCount": 20,
-                "creatureProtection": 0.75,
-                "dateAdded": "2020-01-05",
-                "disruption": 5.075,
-                "effectivePower": 77,
-                "efficiency": 3.675,
-                "efficiencyBonus": 0.0,
-                "expansion": "AGE_OF_ASCENSION",
-                "expectedAmber": 14.04,
-                "housesAndCards": [
-                    {
-                        "cards": [
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Coward\u2019s End",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "First Blood",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Into the Fray",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Might Makes Right",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Rare"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Tremor",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Culf the Quiet",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Drummernaut",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Foozle",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "King of the Crag",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Rare"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Lollop the Titanic",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Tireless Crocag",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Rare"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Blood of Titans",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            }
-                        ],
-                        "house": "Brobnar"
-                    },
-                    {
-                        "cards": [
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Hysteria",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Unlocked Gateway",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Lifeward",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Angwish",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Angwish",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Charette",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Gold Key Imp",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Variant"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Overlord Greking",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Rare"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Silver Key Imp",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Variant"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Skullion",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Tezmal",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Yurk",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            }
-                        ],
-                        "house": "Dis"
-                    },
-                    {
-                        "cards": [
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Binate Rupture",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Labwork",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Poke",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Positron Bolt",
-                                "legacy": true,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Wild Wormhole",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Library of Babble",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Harland Mindlock",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Rare"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Pip Pip",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Titan Librarian",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Z.Y.X. Researcher",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Z.Y.X. Researcher",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Common"
-                            },
-                            {
-                                "anomaly": false,
-                                "cardTitle": "Backup Copy",
-                                "legacy": false,
-                                "maverick": false,
-                                "rarity": "Uncommon"
-                            }
-                        ],
-                        "house": "Logos"
-                    }
-                ],
-                "id": 1648088,
-                "keyCheatCount": 1,
-                "keyforgeId": "bfbf6786-218c-4320-a7b1-7ed4d6eddc69",
-                "lastSasUpdate": "2021-07-02",
-                "metaScores": {},
-                "name": "Crawling \u201cMartini\u201d Quasimodo",
-                "other": 1.6875,
-                "previousMajorSasRating": 58,
-                "previousSasRating": 58,
-                "rawAmber": 9,
-                "recursion": 1.55,
-                "sasPercentile": 17.61905299277851,
-                "sasRating": 57,
-                "synergyRating": 8,
-                "totalArmor": 2,
-                "totalPower": 93,
-                "upgradeCount": 2
-            },
-            "sasVersion": 41
+            "message": "Your API key does not exist."
         },
         "dok_stats": {
-            "amberControl": 20.41849810132653,
-            "artifactControl": 48.619260150104424,
-            "creatureControl": 69.17051627313492,
-            "creatureProtection": 57.545766050863975,
-            "disruption": 87.11719220411365,
-            "effectivePower": 55.04456300686037,
-            "efficiency": 58.61242476440892,
-            "expectedAmber": 18.982462560545155,
-            "recursion": 73.30540068015311
+            "amberControl": 0,
+            "artifactControl": 0,
+            "creatureControl": 0,
+            "creatureProtection": 0,
+            "disruption": 0,
+            "effectivePower": 0,
+            "efficiency": 0,
+            "expectedAmber": 0,
+            "recursion": 0
         },
         "user_data": {
             "conspiracy_difficulty": "Easy",
@@ -2435,7 +1531,7 @@
                         "card_type": "Artifact",
                         "expansion": 435,
                         "flavor_text": "When you make an archive of all knowledge\rin the universe, don\u2019t be surprised when you understand almost none of it. ",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_115_8PVGHX85R3XC_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_115_8PVGHX85R3XC_en.png",
                         "house": "Logos",
                         "id": "5e8e3ad0-6a84-4b4f-a953-f41dd4db806d",
                         "is_anomaly": false,
@@ -2455,7 +1551,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "\u201cTitans are to giants as giants are to goblins.\u201d \u2013\u202fDr.\u202fSchucks",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_014_XGMP2H7PX88F_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_014_XGMP2H7PX88F_en.png",
                         "house": "Brobnar",
                         "id": "644152fa-c770-450b-a086-84841649680c",
                         "is_anomaly": false,
@@ -2475,7 +1571,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": "\u201cWell, just lock it again!\u201d\r\u2013\u202fQuixo\u202fthe\u202f\u201dAdventurer\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_067_C3C4P872H7HR_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_067_C3C4P872H7HR_en.png",
                         "house": "Dis",
                         "id": "fe0f2069-4b42-4faf-8517-7f41f1b775c9",
                         "is_anomaly": false,
@@ -2495,7 +1591,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "It doesn\u2019t like to share.",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_056_J4FCR26RV6FC_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_056_J4FCR26RV6FC_en.png",
                         "house": "Dis",
                         "id": "d9eeeeeb-8312-4495-a8f1-832c32df77a2",
                         "is_anomaly": false,
@@ -2515,7 +1611,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_081_5XGGR9JH7F_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_081_5XGGR9JH7F_en.png",
                         "house": "Dis",
                         "id": "5ffc4ce2-728b-47cd-90bc-3a8f77ec1982",
                         "is_anomaly": false,
@@ -2535,7 +1631,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_051_878WWFR3VCQH_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_051_878WWFR3VCQH_en.png",
                         "house": "Brobnar",
                         "id": "b822fd9d-8209-49dd-b1b1-541f54641bf1",
                         "is_anomaly": false,
@@ -2555,7 +1651,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_013_F942C63X6P75_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_013_F942C63X6P75_en.png",
                         "house": "Brobnar",
                         "id": "5b337557-880c-4103-a403-fe50a4e92ddb",
                         "is_anomaly": false,
@@ -2575,7 +1671,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "Titan Fabrication Labs: Building a Bigger Tomorrow.",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_120_VPPR3J22HR2M_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_120_VPPR3J22HR2M_en.png",
                         "house": "Logos",
                         "id": "ca388cc0-ec45-446e-a20c-7bcd962c1a6b",
                         "is_anomaly": false,
@@ -2595,7 +1691,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_016_VVVXP68JJQH5_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_016_VVVXP68JJQH5_en.png",
                         "house": "Brobnar",
                         "id": "e511cf63-8cfb-43c4-b828-82b721e2adb9",
                         "is_anomaly": false,
@@ -2615,7 +1711,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": "\u201cBut if we ever do recover the dataprobe,\rthink of what we will learn!\u201d ",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_122_6G9W82783H5Q_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_122_6G9W82783H5Q_en.png",
                         "house": "Logos",
                         "id": "ddb5fd06-e4a5-4802-b3bf-833740a0654e",
                         "is_anomaly": false,
@@ -2635,7 +1731,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "\u201cAin\u2019t nothin\u2019, ain\u2019t nobody, that can beat my beat.\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_006_RWQWP24FF6XW_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_006_RWQWP24FF6XW_en.png",
                         "house": "Brobnar",
                         "id": "2ee769bb-b785-48ea-a5fa-a19a2af32bbc",
                         "is_anomaly": false,
@@ -2655,7 +1751,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "\u201cA lead foot? I\u2019ll give \u2018em a lead foot.\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_116_499GV2PRMX7F_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_116_499GV2PRMX7F_en.png",
                         "house": "Logos",
                         "id": "8994dd2f-5879-40bc-9e26-cd97e77ec499",
                         "is_anomaly": false,
@@ -2675,7 +1771,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_099_CW46QCXWC6RX_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_099_CW46QCXWC6RX_en.png",
                         "house": "Dis",
                         "id": "a4b7b4cd-b67c-4053-81f4-16550e870661",
                         "is_anomaly": false,
@@ -2695,7 +1791,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_004_CJWCMWC9XG73_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_004_CJWCMWC9XG73_en.png",
                         "house": "Brobnar",
                         "id": "7d1d5e99-f0c4-4bfd-b515-0eaa50c0ce29",
                         "is_anomaly": false,
@@ -2715,7 +1811,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "Overthrowing this king is an uphill battle. ",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_041_HWRX8XX7C588_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_041_HWRX8XX7C588_en.png",
                         "house": "Brobnar",
                         "id": "577d1456-1220-4ed5-949e-147cc477a774",
                         "is_anomaly": false,
@@ -2735,7 +1831,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_109_8JQVW9QFWQP6_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_109_8JQVW9QFWQP6_en.png",
                         "house": "Logos",
                         "id": "4ecbe244-9046-407f-a2a1-564f59939c27",
                         "is_anomaly": false,
@@ -2755,7 +1851,7 @@
                         "card_type": "Upgrade",
                         "expansion": 435,
                         "flavor_text": "\u201dIt\u2019s so cute! I want another one.\u201d\r\u2013\u202fDextre",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_124_8QW229M7J7J9_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_124_8QW229M7J7J9_en.png",
                         "house": "Logos",
                         "id": "e76b39f5-655b-4eec-b32f-ea6b9bcfc71e",
                         "is_anomaly": false,
@@ -2775,7 +1871,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_043_9G9P2RX3MFR8_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_043_9G9P2RX3MFR8_en.png",
                         "house": "Brobnar",
                         "id": "2f83f333-b89f-4eac-865f-64ddcc2c814f",
                         "is_anomaly": false,
@@ -2795,7 +1891,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_007_QM7FG5HW9675_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_007_QM7FG5HW9675_en.png",
                         "house": "Brobnar",
                         "id": "0ec85771-8143-4d64-8c3a-ce48bce4e81c",
                         "is_anomaly": false,
@@ -2815,7 +1911,7 @@
                         "card_type": "Upgrade",
                         "expansion": 435,
                         "flavor_text": "\u201cBlood of Giants? Why stop there?\u201d \u2013\u202fPingle\u202fWho\u202fAnnoys",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_018_5C652R7RC68M_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_018_5C652R7RC68M_en.png",
                         "house": "Brobnar",
                         "id": "ef95c09f-7134-470c-8ddf-7ae1c84bbcb0",
                         "is_anomaly": false,
@@ -2835,7 +1931,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_008_4WR29HG95H6C_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_008_4WR29HG95H6C_en.png",
                         "house": "Brobnar",
                         "id": "4e6ddfb1-80bb-408c-9470-9a17120b96dc",
                         "is_anomaly": false,
@@ -2855,7 +1951,7 @@
                         "card_type": "Action",
                         "expansion": 341,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/341_118_9RQFX349V37W_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/341_118_9RQFX349V37W_en.png",
                         "house": "Logos",
                         "id": "f344ec2a-cbfb-4cd1-9f11-35b2a1a7e90c",
                         "is_anomaly": false,
@@ -2875,7 +1971,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "\u201cStaying with the Skullions.\u201d \u2013\u202fCrucible\u202fslang\u202ffor\u202fdeath",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_082_P4V496HV3Q52_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_082_P4V496HV3Q52_en.png",
                         "house": "Dis",
                         "id": "71012e3f-8829-459f-bcce-95bbc06d4440",
                         "is_anomaly": false,
@@ -2895,7 +1991,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "\u201cWe only concern ourselves with \u2018can\u2019; let\u202fthe\u202fSanctum\u202fworry about \u2018should\u2019.\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_123_C3CH8VRX8J8G_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_123_C3CH8VRX8J8G_en.png",
                         "house": "Logos",
                         "id": "5d65f805-2c14-4f51-8f0e-5b6597b0babd",
                         "is_anomaly": false,
@@ -2915,7 +2011,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "\u201cThe more it hurts, the more it shares its pain.\rWhat a beautiful monster.\u201d\r\u2013\u202fMiss\u202f\u201dOnyx\u201d\u202fCensorius",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_069_99XFHM4JRJ83_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_069_99XFHM4JRJ83_en.png",
                         "house": "Dis",
                         "id": "20035044-a6fe-4e74-83e6-0cde8ea46db7",
                         "is_anomaly": false,
@@ -2935,7 +2031,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_072_WGPXG39W2VVH_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_072_WGPXG39W2VVH_en.png",
                         "house": "Dis",
                         "id": "3559cf01-8ff0-49fa-b73e-960b6e698185",
                         "is_anomaly": false,
@@ -2955,7 +2051,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_145_XCWRPQ2JFX69_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_145_XCWRPQ2JFX69_en.png",
                         "house": "Logos",
                         "id": "da5cb10c-85ba-4524-aa20-54c795cb6d0e",
                         "is_anomaly": false,
@@ -2975,7 +2071,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": "\u201cHelp! I can\u2019t stop this feeling!\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_074_78278825PHGG_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_074_78278825PHGG_en.png",
                         "house": "Dis",
                         "id": "48137526-2297-4879-b43a-0d686d764c0e",
                         "is_anomaly": false,
@@ -2995,7 +2091,7 @@
                         "card_type": "Artifact",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_076_V29938MJ3M4C_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_076_V29938MJ3M4C_en.png",
                         "house": "Dis",
                         "id": "fe75ae89-80ec-438b-8f70-c14f39c41152",
                         "is_anomaly": false,
@@ -3015,7 +2111,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "\u201cThey aren\u2019t that bad if you can pay their price.\u201d \u2013\u202fIona,\u202fDemonologist",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_068_FP42HX8HHC76_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_068_FP42HX8HHC76_en.png",
                         "house": "Dis",
                         "id": "7dcc8edb-ee57-4152-9b5d-cc012fa9973b",
                         "is_anomaly": false,
@@ -3035,7 +2131,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_117_6JQ3HP9CPW8P_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_117_6JQ3HP9CPW8P_en.png",
                         "house": "Logos",
                         "id": "152ce1f5-702f-4329-bed3-fb84a918c922",
                         "is_anomaly": false,
@@ -3055,7 +2151,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": "\u201c\u2026\u201d",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_020_96GQQ98WV8R6_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_020_96GQQ98WV8R6_en.png",
                         "house": "Brobnar",
                         "id": "c97fc3d4-c8c4-4a67-bcdc-14256153d606",
                         "is_anomaly": false,
@@ -3075,7 +2171,7 @@
                         "card_type": "Creature",
                         "expansion": 435,
                         "flavor_text": null,
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_066_CW7H78GR7M74_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_066_CW7H78GR7M74_en.png",
                         "house": "Dis",
                         "id": "c47ad2d8-823e-46ae-b210-15fbebf50652",
                         "is_anomaly": false,
@@ -3095,7 +2191,7 @@
                         "card_type": "Action",
                         "expansion": 435,
                         "flavor_text": "Attention to detail is the key to all progress.",
-                        "front_image": "https://cdn.keyforgegame.com/media/card_front/en/435_114_35VV9PR3JRVG_en.png",
+                        "front_image": "https://mastervault-storage-prod.s3.amazonaws.com/media/card_front/en/435_114_35VV9PR3JRVG_en.png",
                         "house": "Logos",
                         "id": "ad8b4b70-14a0-4bcf-a50b-6cf073177fd2",
                         "is_anomaly": false,
@@ -3109,22 +2205,22 @@
                 ],
                 "houses": [
                     {
-                        "id": "Dis",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Dis_OooSNPO.png",
-                        "in_filters": true,
-                        "name": "Dis"
-                    },
-                    {
                         "id": "Brobnar",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Brobnar_RTivg44.png",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Brobnar_RTivg44.png",
                         "in_filters": true,
                         "name": "Brobnar"
                     },
                     {
                         "id": "Logos",
-                        "image": "https://cdn.keyforgegame.com/media/houses/Logos_2mOY1dH.png",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
                         "in_filters": true,
                         "name": "Logos"
+                    },
+                    {
+                        "id": "Dis",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Dis_OooSNPO.png",
+                        "in_filters": true,
+                        "name": "Dis"
                     }
                 ],
                 "notes": []
@@ -3176,14 +2272,18 @@
                     ],
                     "notes": []
                 },
+                "bonus_icons": [],
                 "casual_losses": 0,
                 "casual_wins": 0,
                 "chains": 0,
                 "expansion": 435,
+                "flavor_text": null,
                 "id": "bfbf6786-218c-4320-a7b1-7ed4d6eddc69",
+                "is_deck_owned": false,
                 "is_my_deck": false,
                 "is_my_favorite": false,
                 "is_on_my_watchlist": false,
+                "is_pending_transfer": false,
                 "losses": 0,
                 "name": "Crawling \u201cMartini\u201d Quasimodo",
                 "power_level": 0,
@@ -3191,7 +2291,8 @@
                     "Anomaly": [],
                     "Legacy": [
                         "f344ec2a-cbfb-4cd1-9f11-35b2a1a7e90c"
-                    ]
+                    ],
+                    "Mixed Set": []
                 },
                 "shards_bonus": null,
                 "wins": 0
