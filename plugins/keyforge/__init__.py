@@ -1,1 +1,1 @@
-from .keyforge import *
+from .keyforge import *  # noqa: F403
