@@ -82,7 +82,7 @@ def get_dok_deck_stats(api_key):
 
     api_headers = {"Api-Key": api_key}
     r = requests.get(
-        f"https://decksofkeyforge.com/public-api/v1/stats",
+        "https://decksofkeyforge.com/public-api/v1/stats",
         headers=api_headers,
     )
 
@@ -147,7 +147,7 @@ def parse_dok_stats(dok_data, dok_decks_data):
             output[f] = dok_decks_data[f + "Stats"]["percentileForValue"][
                 str(round(dok_data["deck"].get(f, 0)))
             ]
-        except:
+        except (KeyError, ValueError, TypeError):
             output[f] = 0
 
     return output

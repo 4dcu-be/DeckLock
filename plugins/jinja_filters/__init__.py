@@ -1,1 +1,1 @@
-from .jinja_filters import register
+from .jinja_filters import register as register

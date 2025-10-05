@@ -102,3 +102,4 @@ Each game has its own plugin in `/plugins/[game]/`:
 - **Configure plugin settings**: Edit `pelicanconf.py` PLUGINS list and game-specific settings
 - **Add deck data**: Place deck files in appropriate `/content/data/` subdirectories
 - don't try to run the server, ask me to check things if needed
+- Always run ruff format and ruff check to format and lint python (.py) files

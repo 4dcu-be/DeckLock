@@ -156,8 +156,8 @@ class MTGReader(BaseReader):
             )
             if not self.settings.get("USE_EXTERNAL_LINKS", True):
                 fetch_image(img_url, local_path_full)
-        except:
-            print(f"an error occurred fetching {card_name} from set {card_set}")
+        except (KeyError, ValueError, TypeError, OSError) as e:
+            print(f"an error occurred fetching {card_name} from set {card_set}: {e}")
 
     def read(self, filename):
         metadata = {
