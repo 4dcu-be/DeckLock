@@ -124,7 +124,7 @@ var ctx = document.getElementById('radarStats').getContext('2d');
 
 // Detect dark mode for chart colors
 const isDarkMode = document.documentElement.getAttribute('data-bs-theme') === 'dark';
-const textColor = isDarkMode ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.8)';
+const textColor = isDarkMode ? '#ffffff' : '#000000';
 const gridColor = isDarkMode ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)';
 
 var myChart = new Chart(ctx, {
