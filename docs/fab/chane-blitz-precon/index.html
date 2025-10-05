@@ -13,7 +13,7 @@
     <meta name="author" content="Sebastian Proost">
 
 
-        <link rel="stylesheet" href="https://4dcu.be/DeckLock/theme/css/style.min.css?fa36a626">
+        <link rel="stylesheet" href="https://4dcu.be/DeckLock/theme/css/style.min.css?b1da825a">
 
 
     <link rel="apple-touch-icon" sizes="180x180" href="https://4dcu.be/DeckLock/theme/icons/apple-touch-icon.png">
@@ -25,25 +25,42 @@
     <meta name="msapplication-TileColor" content="#b91d47">
     <meta name="msapplication-config" content="https://4dcu.be/DeckLock/theme/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <script>
+    // Prevent dark mode flash - must run before body renders
+    (function() {
+        const theme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+    </script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="https://4dcu.be/DeckLock/index.html"><img src="https://4dcu.be/DeckLock/theme/img/decklock_icon.png" alt="Decklock icon" /></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="https://4dcu.be/DeckLock/index.html">
+      <img src="https://4dcu.be/DeckLock/theme/img/decklock_icon.png" alt="Decklock icon" class="me-2" />
+      <span class="fw-bold">DeckLock</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarColor02">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown d-none d-lg-block">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Games
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-<a class="dropdown-item" href="https://4dcu.be/DeckLock/fab.html">Flesh and Blood</a><a class="dropdown-item" href="https://4dcu.be/DeckLock/gwent.html">Gwent</a><a class="dropdown-item" href="https://4dcu.be/DeckLock/keyforge.html">KeyForge</a><a class="dropdown-item" href="https://4dcu.be/DeckLock/mtg.html">Magic: the Gathering</a>        </div>
-      </li>
-        <li class="nav-item d-lg-none"><a class="nav-link disabled" href="#">Games</a></li>
-<li class="nav-item d-lg-none"><a class="nav-link" href="https://4dcu.be/DeckLock/fab.html">Flesh and Blood</a></li><li class="nav-item d-lg-none"><a class="nav-link" href="https://4dcu.be/DeckLock/gwent.html">Gwent</a></li><li class="nav-item d-lg-none"><a class="nav-link" href="https://4dcu.be/DeckLock/keyforge.html">KeyForge</a></li><li class="nav-item d-lg-none"><a class="nav-link" href="https://4dcu.be/DeckLock/mtg.html">Magic: the Gathering</a></li>    </ul>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Games
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+<li><a class="dropdown-item" href="https://4dcu.be/DeckLock/fab.html">Flesh and Blood</a></li><li><a class="dropdown-item" href="https://4dcu.be/DeckLock/gwent.html">Gwent</a></li><li><a class="dropdown-item" href="https://4dcu.be/DeckLock/keyforge.html">KeyForge</a></li><li><a class="dropdown-item" href="https://4dcu.be/DeckLock/mtg.html">Magic: the Gathering</a></li>          </ul>
+        </li>
+      </ul>
+      <button class="btn btn-outline-light" id="theme-toggle" aria-label="Toggle dark mode">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars-fill" viewBox="0 0 16 16">
+          <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+          <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+        </svg>
+      </button>
+    </div>
   </div>
 </nav>
 
@@ -67,24 +84,24 @@
                     <div class="col-lg-6 col-md-6 col-sm-12">
                     <h4>Hero</h4>
                         <ul class="card_list">
-                            <li><span class="fab-dot fab-dot-"></span><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON154.png?w=350&fit=clip&auto=compress' />">Chane</span></li>
+                            <li><span class="fab-dot fab-dot-"></span><span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON154.png?w=350&fit=clip&auto=compress' loading='lazy' />">Chane</span></li>
 
                         </ul>
                     <h4>Weapons <small class="text-muted">(1)</small></h4>
                     <ul class="card_list">
-                            <li><span class="fab-dot fab-dot-"></span><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON155.png?w=350&fit=clip&auto=compress' />">Galaxxi Black</span></li>
+                            <li><span class="fab-dot fab-dot-"></span><span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON155.png?w=350&fit=clip&auto=compress' loading='lazy' />">Galaxxi Black</span></li>
 
                     </ul>
 
                     <h4>Equipment <small class="text-muted">(4)</small></h4>
                     <ul class="card_list">
-                            <li><span class="fab-dot fab-dot-"></span><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON230.png?w=350&fit=clip&auto=compress' />">Aether Ironweave</span></li>
+                            <li><span class="fab-dot fab-dot-"></span><span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON230.png?w=350&fit=clip&auto=compress' loading='lazy' />">Aether Ironweave</span></li>
 
-                            <li><span class="fab-dot fab-dot-"></span><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON188.png?w=350&fit=clip&auto=compress' />">Ebon Fold</span></li>
+                            <li><span class="fab-dot fab-dot-"></span><span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON188.png?w=350&fit=clip&auto=compress' loading='lazy' />">Ebon Fold</span></li>
 
-                            <li><span class="fab-dot fab-dot-"></span><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/WTR154.png?w=350&fit=clip&auto=compress' />">Snapdragon Scalers</span></li>
+                            <li><span class="fab-dot fab-dot-"></span><span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/WTR154.png?w=350&fit=clip&auto=compress' loading='lazy' />">Snapdragon Scalers</span></li>
 
-                            <li><span class="fab-dot fab-dot-"></span><span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/CHN006.png?w=350&fit=clip&auto=compress' />">Spell Fray Gloves</span></li>
+                            <li><span class="fab-dot fab-dot-"></span><span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/CHN006.png?w=350&fit=clip&auto=compress' loading='lazy' />">Spell Fray Gloves</span></li>
 
                     </ul>
                     </div>
@@ -93,51 +110,51 @@
                         <p><span class="fab-dot fab-dot-red"></span>22&nbsp;&nbsp;&nbsp;&nbsp;<span class="fab-dot fab-dot-yellow"></span>9&nbsp;&nbsp;&nbsp;&nbsp;<span class="fab-dot fab-dot-blue"></span>8&nbsp;&nbsp;&nbsp;&nbsp;<span class="fab-dot"></span>1
                         </p>
                         <ul class="card_list">
-                            <li><span class="fab-dot fab-dot-red"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON168.png?w=350&fit=clip&auto=compress' />">Bounding Demigon</span></li>
+                            <li><span class="fab-dot fab-dot-red"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON168.png?w=350&fit=clip&auto=compress' loading='lazy' />">Bounding Demigon</span></li>
 
-                            <li><span class="fab-dot fab-dot-red"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/CRU148.png?w=350&fit=clip&auto=compress' />">Consuming Volition</span></li>
+                            <li><span class="fab-dot fab-dot-red"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/CRU148.png?w=350&fit=clip&auto=compress' loading='lazy' />">Consuming Volition</span></li>
 
-                            <li><span class="fab-dot fab-dot-red"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON203.png?w=350&fit=clip&auto=compress' />">Ghostly Visit</span></li>
+                            <li><span class="fab-dot fab-dot-red"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON203.png?w=350&fit=clip&auto=compress' loading='lazy' />">Ghostly Visit</span></li>
 
-                            <li><span class="fab-dot fab-dot-red"></span>1x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON200.png?w=350&fit=clip&auto=compress' />">Howl from Beyond</span></li>
+                            <li><span class="fab-dot fab-dot-red"></span>1x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON200.png?w=350&fit=clip&auto=compress' loading='lazy' />">Howl from Beyond</span></li>
 
-                            <li><span class="fab-dot fab-dot-red"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON171.png?w=350&fit=clip&auto=compress' />">Piercing Shadow Vise</span></li>
+                            <li><span class="fab-dot fab-dot-red"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON171.png?w=350&fit=clip&auto=compress' loading='lazy' />">Piercing Shadow Vise</span></li>
 
-                            <li><span class="fab-dot fab-dot-red"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON174.png?w=350&fit=clip&auto=compress' />">Rift Bind</span></li>
+                            <li><span class="fab-dot fab-dot-red"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON174.png?w=350&fit=clip&auto=compress' loading='lazy' />">Rift Bind</span></li>
 
-                            <li><span class="fab-dot fab-dot-red"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON177.png?w=350&fit=clip&auto=compress' />">Rifted Torment</span></li>
+                            <li><span class="fab-dot fab-dot-red"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON177.png?w=350&fit=clip&auto=compress' loading='lazy' />">Rifted Torment</span></li>
 
-                            <li><span class="fab-dot fab-dot-red"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON180.png?w=350&fit=clip&auto=compress' />">Rip Through Reality</span></li>
+                            <li><span class="fab-dot fab-dot-red"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON180.png?w=350&fit=clip&auto=compress' loading='lazy' />">Rip Through Reality</span></li>
 
-                            <li><span class="fab-dot fab-dot-red"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON183.png?w=350&fit=clip&auto=compress' />">Seeds of Agony</span></li>
+                            <li><span class="fab-dot fab-dot-red"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON183.png?w=350&fit=clip&auto=compress' loading='lazy' />">Seeds of Agony</span></li>
 
-                            <li><span class="fab-dot fab-dot-red"></span>1x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON199.png?w=350&fit=clip&auto=compress,format' />">Soul Reaping</span></li>
+                            <li><span class="fab-dot fab-dot-red"></span>1x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON199.png?w=350&fit=clip&auto=compress,format' loading='lazy' />">Soul Reaping</span></li>
 
-                            <li><span class="fab-dot fab-dot-red"></span>1x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON159.png?w=350&fit=clip&auto=compress' />">Unhallowed Rites</span></li>
+                            <li><span class="fab-dot fab-dot-red"></span>1x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON159.png?w=350&fit=clip&auto=compress' loading='lazy' />">Unhallowed Rites</span></li>
 
-                            <li><span class="fab-dot fab-dot-red"></span>1x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON232.png?w=350&fit=clip&auto=compress' />">Vexing Malice</span></li>
+                            <li><span class="fab-dot fab-dot-red"></span>1x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON232.png?w=350&fit=clip&auto=compress' loading='lazy' />">Vexing Malice</span></li>
 
-                            <li><span class="fab-dot fab-dot-red"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON299.png?w=350&fit=clip&auto=compress' />">Warmonger's Recital</span></li>
+                            <li><span class="fab-dot fab-dot-red"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON299.png?w=350&fit=clip&auto=compress' loading='lazy' />">Warmonger's Recital</span></li>
 
-                            <li><span class="fab-dot fab-dot-yellow"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON207.png?w=350&fit=clip&auto=compress' />">Lunartide Plunderer</span></li>
+                            <li><span class="fab-dot fab-dot-yellow"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON207.png?w=350&fit=clip&auto=compress' loading='lazy' />">Lunartide Plunderer</span></li>
 
-                            <li><span class="fab-dot fab-dot-yellow"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON184.png?w=350&fit=clip&auto=compress' />">Seeds of Agony</span></li>
+                            <li><span class="fab-dot fab-dot-yellow"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON184.png?w=350&fit=clip&auto=compress' loading='lazy' />">Seeds of Agony</span></li>
 
-                            <li><span class="fab-dot fab-dot-yellow"></span>1x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON166.png?w=350&fit=clip&auto=compress' />">Seeping Shadows</span></li>
+                            <li><span class="fab-dot fab-dot-yellow"></span>1x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON166.png?w=350&fit=clip&auto=compress' loading='lazy' />">Seeping Shadows</span></li>
 
-                            <li><span class="fab-dot fab-dot-yellow"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON213.png?w=350&fit=clip&auto=compress' />">Spew Shadow</span></li>
+                            <li><span class="fab-dot fab-dot-yellow"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON213.png?w=350&fit=clip&auto=compress' loading='lazy' />">Spew Shadow</span></li>
 
-                            <li><span class="fab-dot fab-dot-yellow"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON300.png?w=350&fit=clip&auto=compress' />">Warmonger's Recital</span></li>
+                            <li><span class="fab-dot fab-dot-yellow"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON300.png?w=350&fit=clip&auto=compress' loading='lazy' />">Warmonger's Recital</span></li>
 
-                            <li><span class="fab-dot fab-dot-blue"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON237.png?w=350&fit=clip&auto=compress' />">Arcanic Crackle</span></li>
+                            <li><span class="fab-dot fab-dot-blue"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON237.png?w=350&fit=clip&auto=compress' loading='lazy' />">Arcanic Crackle</span></li>
 
-                            <li><span class="fab-dot fab-dot-blue"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON173.png?w=350&fit=clip&auto=compress' />">Piercing Shadow Vise</span></li>
+                            <li><span class="fab-dot fab-dot-blue"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON173.png?w=350&fit=clip&auto=compress' loading='lazy' />">Piercing Shadow Vise</span></li>
 
-                            <li><span class="fab-dot fab-dot-blue"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON176.png?w=350&fit=clip&auto=compress' />">Rift Bind</span></li>
+                            <li><span class="fab-dot fab-dot-blue"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON176.png?w=350&fit=clip&auto=compress' loading='lazy' />">Rift Bind</span></li>
 
-                            <li><span class="fab-dot fab-dot-blue"></span>2x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON179.png?w=350&fit=clip&auto=compress' />">Rifted Torment</span></li>
+                            <li><span class="fab-dot fab-dot-blue"></span>2x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/MON179.png?w=350&fit=clip&auto=compress' loading='lazy' />">Rifted Torment</span></li>
 
-                            <li><span class="fab-dot fab-dot-"></span>1x <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/CHN002.png?w=350&fit=clip&auto=compress' />">Lord Sutcliffe</span></li>
+                            <li><span class="fab-dot fab-dot-"></span>1x <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://fabdb2.imgix.net/cards/printings/CHN002.png?w=350&fit=clip&auto=compress' loading='lazy' />">Lord Sutcliffe</span></li>
 
                     </ul>
                     </div>
@@ -154,121 +171,121 @@
             <div class="card-body">
                 <div>
                         <div class="card-stack" style="height:370px">
-                            <img class='overview-card-image ' src='https://fabdb2.imgix.net/cards/printings/MON154.png?w=350&fit=clip&auto=compress' />
+                            <img class='overview-card-image ' src='https://fabdb2.imgix.net/cards/printings/MON154.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Chane' />
 
                         </div>
                         <div class="card-stack" style="height:370px">
-                            <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON155.png?w=350&fit=clip&auto=compress' />
+                            <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON155.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Galaxxi Black' />
 
                         </div>
                         <div class="card-stack" style="height:490px">
-                            <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON230.png?w=350&fit=clip&auto=compress' />
+                            <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON230.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Aether Ironweave' />
 
-                            <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON188.png?w=350&fit=clip&auto=compress' />
+                            <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON188.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Ebon Fold' />
 
-                            <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/WTR154.png?w=350&fit=clip&auto=compress' />
+                            <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/WTR154.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Snapdragon Scalers' />
 
-                            <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/CHN006.png?w=350&fit=clip&auto=compress' />
-
-                        </div>
-                        <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON168.png?w=350&fit=clip&auto=compress' />
-
-                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON168.png?w=350&fit=clip&auto=compress' />
-
-                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/CRU148.png?w=350&fit=clip&auto=compress' />
-
-                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/CRU148.png?w=350&fit=clip&auto=compress' />
+                            <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/CHN006.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Spell Fray Gloves' />
 
                         </div>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON203.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON168.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Bounding Demigon' />
 
-                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON203.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON168.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Bounding Demigon' />
 
-                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON200.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/CRU148.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Consuming Volition' />
 
-                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON171.png?w=350&fit=clip&auto=compress' />
-
-                        </div>
-                        <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON171.png?w=350&fit=clip&auto=compress' />
-
-                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON174.png?w=350&fit=clip&auto=compress' />
-
-                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON174.png?w=350&fit=clip&auto=compress' />
-
-                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON177.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/CRU148.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Consuming Volition' />
 
                         </div>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON177.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON203.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Ghostly Visit' />
 
-                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON180.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON203.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Ghostly Visit' />
 
-                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON180.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON200.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Howl from Beyond' />
 
-                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON183.png?w=350&fit=clip&auto=compress' />
-
-                        </div>
-                        <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON183.png?w=350&fit=clip&auto=compress' />
-
-                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON199.png?w=350&fit=clip&auto=compress,format' />
-
-                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON159.png?w=350&fit=clip&auto=compress' />
-
-                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON232.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON171.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Piercing Shadow Vise' />
 
                         </div>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON299.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON171.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Piercing Shadow Vise' />
 
-                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON299.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON174.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Rift Bind' />
 
-                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON207.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON174.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Rift Bind' />
 
-                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON207.png?w=350&fit=clip&auto=compress' />
-
-                        </div>
-                        <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON184.png?w=350&fit=clip&auto=compress' />
-
-                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON184.png?w=350&fit=clip&auto=compress' />
-
-                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON166.png?w=350&fit=clip&auto=compress' />
-
-                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON213.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON177.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Rifted Torment' />
 
                         </div>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON213.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON177.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Rifted Torment' />
 
-                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON300.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON180.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Rip Through Reality' />
 
-                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON300.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON180.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Rip Through Reality' />
 
-                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON237.png?w=350&fit=clip&auto=compress' />
-
-                        </div>
-                        <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON237.png?w=350&fit=clip&auto=compress' />
-
-                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON173.png?w=350&fit=clip&auto=compress' />
-
-                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON173.png?w=350&fit=clip&auto=compress' />
-
-                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON176.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON183.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Seeds of Agony' />
 
                         </div>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON176.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON183.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Seeds of Agony' />
 
-                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON179.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON199.png?w=350&fit=clip&auto=compress,format' loading='lazy' alt='Soul Reaping' />
 
-                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON179.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON159.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Unhallowed Rites' />
 
-                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/CHN002.png?w=350&fit=clip&auto=compress' />
+                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON232.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Vexing Malice' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON299.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Warmonger's Recital' />
+
+                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON299.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Warmonger's Recital' />
+
+                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON207.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Lunartide Plunderer' />
+
+                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON207.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Lunartide Plunderer' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON184.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Seeds of Agony' />
+
+                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON184.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Seeds of Agony' />
+
+                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON166.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Seeping Shadows' />
+
+                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON213.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Spew Shadow' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON213.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Spew Shadow' />
+
+                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON300.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Warmonger's Recital' />
+
+                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON300.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Warmonger's Recital' />
+
+                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON237.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Arcanic Crackle' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON237.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Arcanic Crackle' />
+
+                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON173.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Piercing Shadow Vise' />
+
+                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON173.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Piercing Shadow Vise' />
+
+                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/MON176.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Rift Bind' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image fab-overview-position-1' src='https://fabdb2.imgix.net/cards/printings/MON176.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Rift Bind' />
+
+                                <img class='overview-card-image fab-overview-position-2' src='https://fabdb2.imgix.net/cards/printings/MON179.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Rifted Torment' />
+
+                                <img class='overview-card-image fab-overview-position-3' src='https://fabdb2.imgix.net/cards/printings/MON179.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Rifted Torment' />
+
+                                <img class='overview-card-image fab-overview-position-4' src='https://fabdb2.imgix.net/cards/printings/CHN002.png?w=350&fit=clip&auto=compress' loading='lazy' alt='Lord Sutcliffe' />
 
                         </div>
                         <div class="card-stack" style="height:330px">
@@ -280,11 +297,50 @@
 </div>
 </div>
 
-<footer>
+<footer class="bg-dark text-light mt-5 py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="mb-1">&copy; <span id="current-year"></span> Sebastian Proost. All rights reserved.</p>
+        <p class="text-muted small">Card images and game content are property of their respective owners.</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <p class="mb-1 small text-muted">Last updated: <span id="last-updated"></span></p>
+      </div>
+    </div>
+  </div>
 </footer>
-<script src="https://4dcu.be/DeckLock/theme/js/jquery-3.3.1.js"></script>
 <script src="https://4dcu.be/DeckLock/theme/js/bootstrap.bundle.min.js"></script>
 <script src="https://4dcu.be/DeckLock/theme/js/chart.min.js"></script>
+<script>
+// Set current year and last updated date
+document.getElementById('current-year').textContent = new Date().getFullYear();
+const now = new Date();
+const options = { year: 'numeric', month: 'long', day: 'numeric' };
+document.getElementById('last-updated').textContent = now.toLocaleDateString('en-US', options);
+
+// Dark mode toggle
+const themeToggle = document.getElementById('theme-toggle');
+const htmlElement = document.documentElement;
+
+// Check for saved theme preference or default to 'light' mode
+const currentTheme = localStorage.getItem('theme') || 'light';
+htmlElement.setAttribute('data-bs-theme', currentTheme);
+
+themeToggle.addEventListener('click', function() {
+  const theme = htmlElement.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light';
+  htmlElement.setAttribute('data-bs-theme', theme);
+  localStorage.setItem('theme', theme);
+});
+
+// Initialize Bootstrap popovers
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl, {
+  html: true,
+  trigger: 'hover',
+  placement: 'top'
+}));
+</script>
 <script>
 $(function () {
   $('[data-toggle="popover"]').popover({html: true})

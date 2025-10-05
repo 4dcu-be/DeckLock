@@ -26,7 +26,7 @@
 <meta property="twitter:description" content="Overview of cards in Mono Green Aggro, format Standard">
 <meta property="twitter:image" content="https://4dcu.be/DeckLock/theme/img/DeckLock_mtg.png">
 
-        <link rel="stylesheet" href="https://4dcu.be/DeckLock/theme/css/style.min.css?fa36a626">
+        <link rel="stylesheet" href="https://4dcu.be/DeckLock/theme/css/style.min.css?b1da825a">
 
 <link href="https://4dcu.be/DeckLock/theme/css/mana-cost.css" rel="stylesheet" />
 
@@ -39,25 +39,42 @@
     <meta name="msapplication-TileColor" content="#b91d47">
     <meta name="msapplication-config" content="https://4dcu.be/DeckLock/theme/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <script>
+    // Prevent dark mode flash - must run before body renders
+    (function() {
+        const theme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+    </script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="https://4dcu.be/DeckLock/index.html"><img src="https://4dcu.be/DeckLock/theme/img/decklock_icon.png" alt="Decklock icon" /></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="https://4dcu.be/DeckLock/index.html">
+      <img src="https://4dcu.be/DeckLock/theme/img/decklock_icon.png" alt="Decklock icon" class="me-2" />
+      <span class="fw-bold">DeckLock</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarColor02">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown d-none d-lg-block">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Games
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-<a class="dropdown-item" href="https://4dcu.be/DeckLock/fab.html">Flesh and Blood</a><a class="dropdown-item" href="https://4dcu.be/DeckLock/gwent.html">Gwent</a><a class="dropdown-item" href="https://4dcu.be/DeckLock/keyforge.html">KeyForge</a><a class="dropdown-item" href="https://4dcu.be/DeckLock/mtg.html">Magic: the Gathering</a>        </div>
-      </li>
-        <li class="nav-item d-lg-none"><a class="nav-link disabled" href="#">Games</a></li>
-<li class="nav-item d-lg-none"><a class="nav-link" href="https://4dcu.be/DeckLock/fab.html">Flesh and Blood</a></li><li class="nav-item d-lg-none"><a class="nav-link" href="https://4dcu.be/DeckLock/gwent.html">Gwent</a></li><li class="nav-item d-lg-none"><a class="nav-link" href="https://4dcu.be/DeckLock/keyforge.html">KeyForge</a></li><li class="nav-item d-lg-none"><a class="nav-link" href="https://4dcu.be/DeckLock/mtg.html">Magic: the Gathering</a></li>    </ul>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Games
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+<li><a class="dropdown-item" href="https://4dcu.be/DeckLock/fab.html">Flesh and Blood</a></li><li><a class="dropdown-item" href="https://4dcu.be/DeckLock/gwent.html">Gwent</a></li><li><a class="dropdown-item" href="https://4dcu.be/DeckLock/keyforge.html">KeyForge</a></li><li><a class="dropdown-item" href="https://4dcu.be/DeckLock/mtg.html">Magic: the Gathering</a></li>          </ul>
+        </li>
+      </ul>
+      <button class="btn btn-outline-light" id="theme-toggle" aria-label="Toggle dark mode">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars-fill" viewBox="0 0 16 16">
+          <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+          <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+        </svg>
+      </button>
+    </div>
   </div>
 </nav>
 
@@ -81,45 +98,45 @@
 
                     <h4>Lands <small class="text-muted">(25)</small></h4>
                     <ul class="card_list">
-                                <li>4 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb.jpg?1644607571' />">Faceless Haven</span> <span class="manacost"></span></span></li>
+                                <li>4 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb.jpg?1644607571' loading='lazy' />">Faceless Haven</span> <span class="manacost"></span></span></li>
 
-                                <li>2 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/6/b670bb0f-680f-4036-bdb6-ac73e866a398.jpg?1627710336' />">Lair of the Hydra</span> <span class="manacost"></span></span></li>
+                                <li>2 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/6/b670bb0f-680f-4036-bdb6-ac73e866a398.jpg?1627710336' loading='lazy' />">Lair of the Hydra</span> <span class="manacost"></span></span></li>
 
-                                <li>19 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />">Snow-Covered Forest</span> <span class="manacost"></span></span></li>
+                                <li>19 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' />">Snow-Covered Forest</span> <span class="manacost"></span></span></li>
 
                     </ul>
 
                     <h4>Creatures <small class="text-muted">(18)</small></h4>
                     <ul class="card_list">
-                                 <li>2 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/2/e215a7bd-112f-4228-a99e-5a8cb4be5cee.jpg?1636223950' />">Briarbridge Tracker</span> <span class="manacost"><span class="mana small s2"></span><span class="mana small sg"></span></span></span></li>
+                                 <li>2 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/2/e215a7bd-112f-4228-a99e-5a8cb4be5cee.jpg?1636223950' loading='lazy' />">Briarbridge Tracker</span> <span class="manacost"><span class="mana small s2"></span><span class="mana small sg"></span></span></span></li>
 
-                                 <li>4 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/f/2f632537-63bf-4490-86e6-e6067b9c1a3b.jpg?1604198971' />">Kazandu Mammoth</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span><span class="mana small sg"></span></span></span></li>
+                                 <li>4 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/f/2f632537-63bf-4490-86e6-e6067b9c1a3b.jpg?1604198971' loading='lazy' />">Kazandu Mammoth</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span><span class="mana small sg"></span></span></span></li>
 
-                                 <li>4 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/7/b759b0f6-342c-4bba-89f1-8451835d8c45.jpg?1631050705' />">Old-Growth Troll</span> <span class="manacost"><span class="mana small sg"></span><span class="mana small sg"></span><span class="mana small sg"></span></span></span></li>
+                                 <li>4 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/7/b759b0f6-342c-4bba-89f1-8451835d8c45.jpg?1631050705' loading='lazy' />">Old-Growth Troll</span> <span class="manacost"><span class="mana small sg"></span><span class="mana small sg"></span><span class="mana small sg"></span></span></span></li>
 
-                                 <li>4 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/d/9dab2ca2-0039-4eac-a7dc-68756362737d.jpg?1631050920' />">Sculptor of Winter</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span></span></span></li>
+                                 <li>4 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/d/9dab2ca2-0039-4eac-a7dc-68756362737d.jpg?1631050920' loading='lazy' />">Sculptor of Winter</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span></span></span></li>
 
-                                 <li>4 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/8/e88e6b39-bb4d-4d69-8007-d42f31bcbc29.jpg?1627708570' />">Werewolf Pack Leader</span> <span class="manacost"><span class="mana small sg"></span><span class="mana small sg"></span></span></span></li>
+                                 <li>4 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/8/e88e6b39-bb4d-4d69-8007-d42f31bcbc29.jpg?1627708570' loading='lazy' />">Werewolf Pack Leader</span> <span class="manacost"><span class="mana small sg"></span><span class="mana small sg"></span></span></span></li>
 
                     </ul>
                     </div>
                     <div class="col-lg">
                     <h4>Instants and Sorceries <small class="text-muted">(6)</small></h4>
                     <ul class="card_list">
-                                <li>4 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/3/6318918f-34e4-4bbf-9816-8e88f21ae324.jpg?1631050009' />">Blizzard Brawl</span> <span class="manacost"><span class="mana small sg"></span></span></span></li>
+                                <li>4 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/3/6318918f-34e4-4bbf-9816-8e88f21ae324.jpg?1631050009' loading='lazy' />">Blizzard Brawl</span> <span class="manacost"><span class="mana small sg"></span></span></span></li>
 
-                                <li>1 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/c/fcd2e01e-a143-4b62-8b01-d253fb35c590.jpg?1604198784' />">Inscription of Abundance</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span></span></span></li>
+                                <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/c/fcd2e01e-a143-4b62-8b01-d253fb35c590.jpg?1604198784' loading='lazy' />">Inscription of Abundance</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span></span></span></li>
 
-                                <li>1 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/6/e692c208-c171-4964-9207-43c2cbc62845.jpg?1631050946' />">Snakeskin Veil</span> <span class="manacost"><span class="mana small sg"></span></span></span></li>
+                                <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/6/e692c208-c171-4964-9207-43c2cbc62845.jpg?1631050946' loading='lazy' />">Snakeskin Veil</span> <span class="manacost"><span class="mana small sg"></span></span></span></li>
 
                     </ul>
                     <h4>Other Spells <small class="text-muted">(11)</small></h4>
                     <ul class="card_list">
-                                    <li>4 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/8/a87606cc-fbf0-4e2c-9798-f1c935d0573d.jpg?1639436653' />">Esika's Chariot</span> <span class="manacost"><span class="mana small s3"></span><span class="mana small sg"></span></span></span></li>
+                                    <li>4 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/8/a87606cc-fbf0-4e2c-9798-f1c935d0573d.jpg?1639436653' loading='lazy' />">Esika's Chariot</span> <span class="manacost"><span class="mana small s3"></span><span class="mana small sg"></span></span></span></li>
 
-                                    <li>4 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/c/7ca392ca-3219-4694-9a74-aa079c76b91e.jpg?1627708261' />">Ranger Class</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span></span></span></li>
+                                    <li>4 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/c/7ca392ca-3219-4694-9a74-aa079c76b91e.jpg?1627708261' loading='lazy' />">Ranger Class</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span></span></span></li>
 
-                                    <li>3 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/7/6748a844-e185-4e3b-ac1d-8a735666d8ae.jpg?1636224994' />">Unnatural Growth</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span><span class="mana small sg"></span><span class="mana small sg"></span><span class="mana small sg"></span></span></span></li>
+                                    <li>3 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/7/6748a844-e185-4e3b-ac1d-8a735666d8ae.jpg?1636224994' loading='lazy' />">Unnatural Growth</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span><span class="mana small sg"></span><span class="mana small sg"></span><span class="mana small sg"></span></span></span></li>
 
                     </ul>
                     </div>
@@ -132,19 +149,19 @@
             <div class="card-header"><h3>Sideboard <small class="text-muted">(15)</small></h3></div>
             <div class="card-body">
                 <ul class="card_list">
-                            <li>2 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/2/e215a7bd-112f-4228-a99e-5a8cb4be5cee.jpg?1636223950' />">Briarbridge Tracker</span> <span class="manacost"><span class="mana small s2"></span><span class="mana small sg"></span></span></span></li>
+                            <li>2 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/2/e215a7bd-112f-4228-a99e-5a8cb4be5cee.jpg?1636223950' loading='lazy' />">Briarbridge Tracker</span> <span class="manacost"><span class="mana small s2"></span><span class="mana small sg"></span></span></span></li>
 
-                            <li>2 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/7/f7444555-da19-4d2d-ad81-233c54fbb78e.jpg?1624592593' />">Devouring Tendrils</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span></span></span></li>
+                            <li>2 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/7/f7444555-da19-4d2d-ad81-233c54fbb78e.jpg?1624592593' loading='lazy' />">Devouring Tendrils</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span></span></span></li>
 
-                            <li>2 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/0/60e53d61-fcc3-4def-8206-052b46f62deb.jpg?1636224528' />">Outland Liberator</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span></span></span></li>
+                            <li>2 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/0/60e53d61-fcc3-4def-8206-052b46f62deb.jpg?1636224528' loading='lazy' />">Outland Liberator</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span></span></span></li>
 
-                            <li>1 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/6/e692c208-c171-4964-9207-43c2cbc62845.jpg?1631050946' />">Snakeskin Veil</span> <span class="manacost"><span class="mana small sg"></span></span></span></li>
+                            <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/6/e692c208-c171-4964-9207-43c2cbc62845.jpg?1631050946' loading='lazy' />">Snakeskin Veil</span> <span class="manacost"><span class="mana small sg"></span></span></span></li>
 
-                            <li>2 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/f/7f3d6020-6767-406c-bf28-6b3e9ae72f50.jpg?1604199530' />">Tajuru Blightblade</span> <span class="manacost"><span class="mana small sg"></span></span></span></li>
+                            <li>2 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/f/7f3d6020-6767-406c-bf28-6b3e9ae72f50.jpg?1604199530' loading='lazy' />">Tajuru Blightblade</span> <span class="manacost"><span class="mana small sg"></span></span></span></li>
 
-                            <li>3 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/8/0/80fbf729-00c0-4237-8294-c857f96364d3.jpg?1624593184' />">Tangletrap</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span></span></span></li>
+                            <li>3 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/8/0/80fbf729-00c0-4237-8294-c857f96364d3.jpg?1624593184' loading='lazy' />">Tangletrap</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sg"></span></span></span></li>
 
-                            <li>3 <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/7/a7757e99-8d51-4b92-b346-6961845def24.jpg?1636225043' />">Wrenn and Seven</span> <span class="manacost"><span class="mana small s3"></span><span class="mana small sg"></span><span class="mana small sg"></span></span></span></li>
+                            <li>3 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/7/a7757e99-8d51-4b92-b346-6961845def24.jpg?1636225043' loading='lazy' />">Wrenn and Seven</span> <span class="manacost"><span class="mana small s3"></span><span class="mana small sg"></span><span class="mana small sg"></span></span></span></li>
 
                 </ul>
             </div>
@@ -166,153 +183,153 @@
             <div class="card-body">
                 <div>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/2/e215a7bd-112f-4228-a99e-5a8cb4be5cee.jpg?1636223950' />
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/2/e215a7bd-112f-4228-a99e-5a8cb4be5cee.jpg?1636223950' loading='lazy' alt='Briarbridge Tracker' />
 
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/2/e215a7bd-112f-4228-a99e-5a8cb4be5cee.jpg?1636223950' />
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/2/e215a7bd-112f-4228-a99e-5a8cb4be5cee.jpg?1636223950' loading='lazy' alt='Briarbridge Tracker' />
 
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/d/9dab2ca2-0039-4eac-a7dc-68756362737d.jpg?1631050920' />
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/d/9dab2ca2-0039-4eac-a7dc-68756362737d.jpg?1631050920' loading='lazy' alt='Sculptor of Winter' />
 
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/d/9dab2ca2-0039-4eac-a7dc-68756362737d.jpg?1631050920' />
-
-                        </div>
-                        <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/d/9dab2ca2-0039-4eac-a7dc-68756362737d.jpg?1631050920' />
-
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/d/9dab2ca2-0039-4eac-a7dc-68756362737d.jpg?1631050920' />
-
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/8/e88e6b39-bb4d-4d69-8007-d42f31bcbc29.jpg?1627708570' />
-
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/8/e88e6b39-bb4d-4d69-8007-d42f31bcbc29.jpg?1627708570' />
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/d/9dab2ca2-0039-4eac-a7dc-68756362737d.jpg?1631050920' loading='lazy' alt='Sculptor of Winter' />
 
                         </div>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/8/e88e6b39-bb4d-4d69-8007-d42f31bcbc29.jpg?1627708570' />
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/d/9dab2ca2-0039-4eac-a7dc-68756362737d.jpg?1631050920' loading='lazy' alt='Sculptor of Winter' />
 
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/8/e88e6b39-bb4d-4d69-8007-d42f31bcbc29.jpg?1627708570' />
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/d/9dab2ca2-0039-4eac-a7dc-68756362737d.jpg?1631050920' loading='lazy' alt='Sculptor of Winter' />
 
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/7/b759b0f6-342c-4bba-89f1-8451835d8c45.jpg?1631050705' />
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/8/e88e6b39-bb4d-4d69-8007-d42f31bcbc29.jpg?1627708570' loading='lazy' alt='Werewolf Pack Leader' />
 
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/7/b759b0f6-342c-4bba-89f1-8451835d8c45.jpg?1631050705' />
-
-                        </div>
-                        <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/7/b759b0f6-342c-4bba-89f1-8451835d8c45.jpg?1631050705' />
-
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/7/b759b0f6-342c-4bba-89f1-8451835d8c45.jpg?1631050705' />
-
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/8/a87606cc-fbf0-4e2c-9798-f1c935d0573d.jpg?1639436653' />
-
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/8/a87606cc-fbf0-4e2c-9798-f1c935d0573d.jpg?1639436653' />
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/8/e88e6b39-bb4d-4d69-8007-d42f31bcbc29.jpg?1627708570' loading='lazy' alt='Werewolf Pack Leader' />
 
                         </div>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/8/a87606cc-fbf0-4e2c-9798-f1c935d0573d.jpg?1639436653' />
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/8/e88e6b39-bb4d-4d69-8007-d42f31bcbc29.jpg?1627708570' loading='lazy' alt='Werewolf Pack Leader' />
 
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/8/a87606cc-fbf0-4e2c-9798-f1c935d0573d.jpg?1639436653' />
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/8/e88e6b39-bb4d-4d69-8007-d42f31bcbc29.jpg?1627708570' loading='lazy' alt='Werewolf Pack Leader' />
 
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/c/fcd2e01e-a143-4b62-8b01-d253fb35c590.jpg?1604198784' />
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/7/b759b0f6-342c-4bba-89f1-8451835d8c45.jpg?1631050705' loading='lazy' alt='Old-Growth Troll' />
 
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/6/e692c208-c171-4964-9207-43c2cbc62845.jpg?1631050946' />
-
-                        </div>
-                        <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/3/6318918f-34e4-4bbf-9816-8e88f21ae324.jpg?1631050009' />
-
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/3/6318918f-34e4-4bbf-9816-8e88f21ae324.jpg?1631050009' />
-
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/3/6318918f-34e4-4bbf-9816-8e88f21ae324.jpg?1631050009' />
-
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/3/6318918f-34e4-4bbf-9816-8e88f21ae324.jpg?1631050009' />
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/7/b759b0f6-342c-4bba-89f1-8451835d8c45.jpg?1631050705' loading='lazy' alt='Old-Growth Troll' />
 
                         </div>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/7/6748a844-e185-4e3b-ac1d-8a735666d8ae.jpg?1636224994' />
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/7/b759b0f6-342c-4bba-89f1-8451835d8c45.jpg?1631050705' loading='lazy' alt='Old-Growth Troll' />
 
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/7/6748a844-e185-4e3b-ac1d-8a735666d8ae.jpg?1636224994' />
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/7/b759b0f6-342c-4bba-89f1-8451835d8c45.jpg?1631050705' loading='lazy' alt='Old-Growth Troll' />
 
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/7/6748a844-e185-4e3b-ac1d-8a735666d8ae.jpg?1636224994' />
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/8/a87606cc-fbf0-4e2c-9798-f1c935d0573d.jpg?1639436653' loading='lazy' alt='Esika's Chariot' />
 
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/c/7ca392ca-3219-4694-9a74-aa079c76b91e.jpg?1627708261' />
-
-                        </div>
-                        <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/c/7ca392ca-3219-4694-9a74-aa079c76b91e.jpg?1627708261' />
-
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/c/7ca392ca-3219-4694-9a74-aa079c76b91e.jpg?1627708261' />
-
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/c/7ca392ca-3219-4694-9a74-aa079c76b91e.jpg?1627708261' />
-
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/6/b670bb0f-680f-4036-bdb6-ac73e866a398.jpg?1627710336' />
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/8/a87606cc-fbf0-4e2c-9798-f1c935d0573d.jpg?1639436653' loading='lazy' alt='Esika's Chariot' />
 
                         </div>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/6/b670bb0f-680f-4036-bdb6-ac73e866a398.jpg?1627710336' />
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/8/a87606cc-fbf0-4e2c-9798-f1c935d0573d.jpg?1639436653' loading='lazy' alt='Esika's Chariot' />
 
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/f/2f632537-63bf-4490-86e6-e6067b9c1a3b.jpg?1604198971' />
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/8/a87606cc-fbf0-4e2c-9798-f1c935d0573d.jpg?1639436653' loading='lazy' alt='Esika's Chariot' />
 
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/f/2f632537-63bf-4490-86e6-e6067b9c1a3b.jpg?1604198971' />
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/c/fcd2e01e-a143-4b62-8b01-d253fb35c590.jpg?1604198784' loading='lazy' alt='Inscription of Abundance' />
 
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/f/2f632537-63bf-4490-86e6-e6067b9c1a3b.jpg?1604198971' />
-
-                        </div>
-                        <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/f/2f632537-63bf-4490-86e6-e6067b9c1a3b.jpg?1604198971' />
-
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb.jpg?1644607571' />
-
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb.jpg?1644607571' />
-
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb.jpg?1644607571' />
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/6/e692c208-c171-4964-9207-43c2cbc62845.jpg?1631050946' loading='lazy' alt='Snakeskin Veil' />
 
                         </div>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb.jpg?1644607571' />
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/3/6318918f-34e4-4bbf-9816-8e88f21ae324.jpg?1631050009' loading='lazy' alt='Blizzard Brawl' />
 
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/3/6318918f-34e4-4bbf-9816-8e88f21ae324.jpg?1631050009' loading='lazy' alt='Blizzard Brawl' />
 
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/3/6318918f-34e4-4bbf-9816-8e88f21ae324.jpg?1631050009' loading='lazy' alt='Blizzard Brawl' />
 
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
-
-                        </div>
-                        <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
-
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
-
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
-
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/3/6318918f-34e4-4bbf-9816-8e88f21ae324.jpg?1631050009' loading='lazy' alt='Blizzard Brawl' />
 
                         </div>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/7/6748a844-e185-4e3b-ac1d-8a735666d8ae.jpg?1636224994' loading='lazy' alt='Unnatural Growth' />
 
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/7/6748a844-e185-4e3b-ac1d-8a735666d8ae.jpg?1636224994' loading='lazy' alt='Unnatural Growth' />
 
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/7/6748a844-e185-4e3b-ac1d-8a735666d8ae.jpg?1636224994' loading='lazy' alt='Unnatural Growth' />
 
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
-
-                        </div>
-                        <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
-
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
-
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
-
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/c/7ca392ca-3219-4694-9a74-aa079c76b91e.jpg?1627708261' loading='lazy' alt='Ranger Class' />
 
                         </div>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/c/7ca392ca-3219-4694-9a74-aa079c76b91e.jpg?1627708261' loading='lazy' alt='Ranger Class' />
 
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/c/7ca392ca-3219-4694-9a74-aa079c76b91e.jpg?1627708261' loading='lazy' alt='Ranger Class' />
 
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/c/7ca392ca-3219-4694-9a74-aa079c76b91e.jpg?1627708261' loading='lazy' alt='Ranger Class' />
 
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' />
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/6/b670bb0f-680f-4036-bdb6-ac73e866a398.jpg?1627710336' loading='lazy' alt='Lair of the Hydra' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/6/b670bb0f-680f-4036-bdb6-ac73e866a398.jpg?1627710336' loading='lazy' alt='Lair of the Hydra' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/f/2f632537-63bf-4490-86e6-e6067b9c1a3b.jpg?1604198971' loading='lazy' alt='Kazandu Mammoth' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/f/2f632537-63bf-4490-86e6-e6067b9c1a3b.jpg?1604198971' loading='lazy' alt='Kazandu Mammoth' />
+
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/f/2f632537-63bf-4490-86e6-e6067b9c1a3b.jpg?1604198971' loading='lazy' alt='Kazandu Mammoth' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/f/2f632537-63bf-4490-86e6-e6067b9c1a3b.jpg?1604198971' loading='lazy' alt='Kazandu Mammoth' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb.jpg?1644607571' loading='lazy' alt='Faceless Haven' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb.jpg?1644607571' loading='lazy' alt='Faceless Haven' />
+
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb.jpg?1644607571' loading='lazy' alt='Faceless Haven' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb.jpg?1644607571' loading='lazy' alt='Faceless Haven' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
+
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1631053531' loading='lazy' alt='Snow-Covered Forest' />
 
                         </div>
                         <div class="card-stack" style="height:330px">
@@ -321,41 +338,41 @@
                 <div style="clear:both">
                     <h4>Sideboard</h4>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/2/e215a7bd-112f-4228-a99e-5a8cb4be5cee.jpg?1636223950' />
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/2/e215a7bd-112f-4228-a99e-5a8cb4be5cee.jpg?1636223950' loading='lazy' alt='Briarbridge Tracker' />
 
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/2/e215a7bd-112f-4228-a99e-5a8cb4be5cee.jpg?1636223950' />
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/2/e215a7bd-112f-4228-a99e-5a8cb4be5cee.jpg?1636223950' loading='lazy' alt='Briarbridge Tracker' />
 
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/6/e692c208-c171-4964-9207-43c2cbc62845.jpg?1631050946' />
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/6/e692c208-c171-4964-9207-43c2cbc62845.jpg?1631050946' loading='lazy' alt='Snakeskin Veil' />
 
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/f/7f3d6020-6767-406c-bf28-6b3e9ae72f50.jpg?1604199530' />
-
-                        </div>
-                        <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/f/7f3d6020-6767-406c-bf28-6b3e9ae72f50.jpg?1604199530' />
-
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/7/f7444555-da19-4d2d-ad81-233c54fbb78e.jpg?1624592593' />
-
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/7/f7444555-da19-4d2d-ad81-233c54fbb78e.jpg?1624592593' />
-
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/0/60e53d61-fcc3-4def-8206-052b46f62deb.jpg?1636224528' />
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/f/7f3d6020-6767-406c-bf28-6b3e9ae72f50.jpg?1604199530' loading='lazy' alt='Tajuru Blightblade' />
 
                         </div>
                         <div class="card-stack" style="height:490px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/0/60e53d61-fcc3-4def-8206-052b46f62deb.jpg?1636224528' />
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/f/7f3d6020-6767-406c-bf28-6b3e9ae72f50.jpg?1604199530' loading='lazy' alt='Tajuru Blightblade' />
 
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/8/0/80fbf729-00c0-4237-8294-c857f96364d3.jpg?1624593184' />
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/7/f7444555-da19-4d2d-ad81-233c54fbb78e.jpg?1624592593' loading='lazy' alt='Devouring Tendrils' />
 
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/8/0/80fbf729-00c0-4237-8294-c857f96364d3.jpg?1624593184' />
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/7/f7444555-da19-4d2d-ad81-233c54fbb78e.jpg?1624592593' loading='lazy' alt='Devouring Tendrils' />
 
-                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/8/0/80fbf729-00c0-4237-8294-c857f96364d3.jpg?1624593184' />
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/0/60e53d61-fcc3-4def-8206-052b46f62deb.jpg?1636224528' loading='lazy' alt='Outland Liberator' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/0/60e53d61-fcc3-4def-8206-052b46f62deb.jpg?1636224528' loading='lazy' alt='Outland Liberator' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/8/0/80fbf729-00c0-4237-8294-c857f96364d3.jpg?1624593184' loading='lazy' alt='Tangletrap' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/8/0/80fbf729-00c0-4237-8294-c857f96364d3.jpg?1624593184' loading='lazy' alt='Tangletrap' />
+
+                                <img class='overview-card-image mtg-overview-position-4' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/8/0/80fbf729-00c0-4237-8294-c857f96364d3.jpg?1624593184' loading='lazy' alt='Tangletrap' />
 
                         </div>
                         <div class="card-stack" style="height:450px">
-                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/7/a7757e99-8d51-4b92-b346-6961845def24.jpg?1636225043' />
+                                <img class='overview-card-image mtg-overview-position-1' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/7/a7757e99-8d51-4b92-b346-6961845def24.jpg?1636225043' loading='lazy' alt='Wrenn and Seven' />
 
-                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/7/a7757e99-8d51-4b92-b346-6961845def24.jpg?1636225043' />
+                                <img class='overview-card-image mtg-overview-position-2' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/7/a7757e99-8d51-4b92-b346-6961845def24.jpg?1636225043' loading='lazy' alt='Wrenn and Seven' />
 
-                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/7/a7757e99-8d51-4b92-b346-6961845def24.jpg?1636225043' />
+                                <img class='overview-card-image mtg-overview-position-3' src='https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/7/a7757e99-8d51-4b92-b346-6961845def24.jpg?1636225043' loading='lazy' alt='Wrenn and Seven' />
 
                         </div>
                 </div>
@@ -366,11 +383,50 @@
 
 </div>
 
-<footer>
+<footer class="bg-dark text-light mt-5 py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="mb-1">&copy; <span id="current-year"></span> Sebastian Proost. All rights reserved.</p>
+        <p class="text-muted small">Card images and game content are property of their respective owners.</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <p class="mb-1 small text-muted">Last updated: <span id="last-updated"></span></p>
+      </div>
+    </div>
+  </div>
 </footer>
-<script src="https://4dcu.be/DeckLock/theme/js/jquery-3.3.1.js"></script>
 <script src="https://4dcu.be/DeckLock/theme/js/bootstrap.bundle.min.js"></script>
 <script src="https://4dcu.be/DeckLock/theme/js/chart.min.js"></script>
+<script>
+// Set current year and last updated date
+document.getElementById('current-year').textContent = new Date().getFullYear();
+const now = new Date();
+const options = { year: 'numeric', month: 'long', day: 'numeric' };
+document.getElementById('last-updated').textContent = now.toLocaleDateString('en-US', options);
+
+// Dark mode toggle
+const themeToggle = document.getElementById('theme-toggle');
+const htmlElement = document.documentElement;
+
+// Check for saved theme preference or default to 'light' mode
+const currentTheme = localStorage.getItem('theme') || 'light';
+htmlElement.setAttribute('data-bs-theme', currentTheme);
+
+themeToggle.addEventListener('click', function() {
+  const theme = htmlElement.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light';
+  htmlElement.setAttribute('data-bs-theme', theme);
+  localStorage.setItem('theme', theme);
+});
+
+// Initialize Bootstrap popovers
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl, {
+  html: true,
+  trigger: 'hover',
+  placement: 'top'
+}));
+</script>
 <script>
 $(function () {
   $('[data-toggle="popover"]').popover({html: true})

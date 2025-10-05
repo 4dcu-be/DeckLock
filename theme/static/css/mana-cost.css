@@ -4,10 +4,20 @@
     background-size: auto 700%;
     display: inline-block;
     font-size: 100%;
+    vertical-align: middle;
+    margin: 0 1px;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
+
+[data-bs-theme="dark"] .mana {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    filter: brightness(0.95);
+}
+
 .mana.small {
-    height: 1em;
-    width: 1em;
+    height: 1.2em;
+    width: 1.2em;
 }
 .mana.medium {
     height: 2em;

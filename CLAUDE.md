@@ -103,3 +103,4 @@ Each game has its own plugin in `/plugins/[game]/`:
 - **Add deck data**: Place deck files in appropriate `/content/data/` subdirectories
 - don't try to run the server, ask me to check things if needed
 - Always run ruff format and ruff check to format and lint python (.py) files
+- build in the _site folder when testing, ./docs is for final versions !

@@ -2,16 +2,16 @@
 
 {% macro print(card, USE_EXTERNAL_LINKS) -%}
 {% if USE_EXTERNAL_LINKS %}
-    <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ card.data.image_uris.border_crop }}' />">{{ card.name }}</span> {{ casting_cost.parse(card.data.mana_cost) }}</span></li>
+    <li>{{ card.count }} <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='{{ card.data.image_uris.border_crop }}' loading='lazy' />">{{ card.name }}</span> {{ casting_cost.parse(card.data.mana_cost) }}</span></li>
 {% else %}
-    <li>{{ card.count }} <span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_path }}' />">{{ card.name }}</span> {{ casting_cost.parse(card.data.mana_cost) }}</li>
+    <li>{{ card.count }} <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.data.image_path }}' loading='lazy' />">{{ card.name }}</span> {{ casting_cost.parse(card.data.mana_cost) }}</li>
 {% endif %}
 {%- endmacro %}
 
 {% macro card_image(card, USE_EXTERNAL_LINKS, classes) -%}
 {% if USE_EXTERNAL_LINKS %}
-    <img class='overview-card-image {{classes}}' src='{{ card.data.image_uris.border_crop }}' />
+    <img class='overview-card-image {{classes}}' src='{{ card.data.image_uris.border_crop }}' loading='lazy' alt='{{ card.name }}' />
 {% else %}
-    <img class='overview-card-image {{classes}}' src='{{ SITEURL }}/{{ card.data.image_path }}' />
+    <img class='overview-card-image {{classes}}' src='{{ SITEURL }}/{{ card.data.image_path }}' loading='lazy' alt='{{ card.name }}' />
 {% endif %}
 {%- endmacro %}

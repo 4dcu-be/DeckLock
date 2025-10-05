@@ -1,15 +1,15 @@
 {% macro print(card, USE_EXTERNAL_LINKS) -%}
 {% if USE_EXTERNAL_LINKS %}
-    <li><span class="fab-dot fab-dot-{{card.color}}"></span> {%- if card.count -%}{{ card.count }}x {% endif -%}<span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ card.image }}' />">{{ card.name }}</span></li>
+    <li><span class="fab-dot fab-dot-{{card.color}}"></span> {%- if card.count -%}{{ card.count }}x {% endif -%}<span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='{{ card.image }}' loading='lazy' />">{{ card.name }}</span></li>
 {% else %}
-    <li><span class="fab-dot fab-dot-{{card.color}}" /></span>  {%- if card.count -%}{{ card.count }}x {% endif -%}<span data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.image_path }}' />">{{ card.name }}</span></li>
+    <li><span class="fab-dot fab-dot-{{card.color}}" /></span>  {%- if card.count -%}{{ card.count }}x {% endif -%}<span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.image_path }}' loading='lazy' />">{{ card.name }}</span></li>
 {% endif %}
 {%- endmacro %}
 
 {% macro card_image(card, USE_EXTERNAL_LINKS, classes) -%}
 {% if USE_EXTERNAL_LINKS %}
-    <img class='overview-card-image {{classes}}' src='{{ card.image }}' />
+    <img class='overview-card-image {{classes}}' src='{{ card.image }}' loading='lazy' alt='{{ card.name }}' />
 {% else %}
-    <img class='overview-card-image {{classes}}' src='{{ SITEURL }}/{{ card.image_path }}' />
+    <img class='overview-card-image {{classes}}' src='{{ SITEURL }}/{{ card.image_path }}' loading='lazy' alt='{{ card.name }}' />
 {% endif %}
 {%- endmacro %}

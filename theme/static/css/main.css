@@ -1,27 +1,79 @@
-.top5 { margin-top:5px; }
-.top7 { margin-top:7px; }
-.top10 { margin-top:10px; }
-.top15 { margin-top:15px; }
-.top17 { margin-top:17px; }
-.top30 { margin-top:30px; }
+/* CSS Custom Properties for theming */
+:root {
+  --card-hover-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --card-hover-transform: translateY(-2px);
+  --transition-speed: 0.3s;
+  --popover-max-width: 400px;
+}
 
+[data-bs-theme="dark"] {
+  --card-hover-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+/* Spacing utilities (consolidated) */
+.top5 { margin-top: 5px; }
+.top7 { margin-top: 7px; }
+.top10 { margin-top: 10px; }
+.top15 { margin-top: 15px; }
+.top17 { margin-top: 17px; }
+.top30 { margin-top: 30px; }
+
+/* Card image popovers */
 .popup-card-image {
   height: 350px;
-  margin-left: 0px;
-  margin-right: 0px;
+  max-width: var(--popover-max-width);
+  object-fit: contain;
+  border-radius: 12px;
 }
 
 .popover-body {
-    padding: 2px;
+  padding: 4px;
 }
 
+.popover {
+  max-width: var(--popover-max-width);
+}
+
+/* Card name hover effect */
+.card-name {
+  cursor: pointer;
+  transition: color var(--transition-speed) ease;
+  border-bottom: 1px dotted currentColor;
+}
+
+.card-name:hover {
+  color: var(--bs-primary);
+}
+
+/* Mana cost alignment */
 .manacost {
-  float:right;
+  float: right;
 }
 
+/* Card lists */
 .card_list {
-    padding-inline-start: 0px;
-    list-style: none;
+  padding-inline-start: 0;
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.card_list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: background-color var(--transition-speed) ease;
+}
+
+[data-bs-theme="dark"] .card_list li {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.card_list li:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+  padding-left: 0.5rem;
+}
+
+[data-bs-theme="dark"] .card_list li:hover {
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .plot {
