@@ -9,7 +9,7 @@
 
 {% block container %}
 
-    <ol class="breadcrumb top15">
+    <ol class="breadcrumb mt-3">
       <li class="breadcrumb-item"><a href="{{ SITEURL }}/index.html">DeckLock</a></li>
       <li class="breadcrumb-item active">Flesh and Blood</li>
     </ol>
@@ -17,6 +17,49 @@
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h1>Flesh and Blood Decks</h1>
         <input type="text" class="form-control w-auto" id="deck-search" placeholder="Search decks..." aria-label="Search decks">
+    </div>
+
+    {%- set fab_decks = articles|selectattr("category", "equalto", "FaB_Deck")|list -%}
+    {%- set formats = {} -%}
+    {%- set classes = {} -%}
+    {%- for deck in fab_decks -%}
+        {%- if deck.format not in formats -%}
+            {%- set _ = formats.update({deck.format: 0}) -%}
+        {%- endif -%}
+        {%- set _ = formats.update({deck.format: formats[deck.format] + 1}) -%}
+        {%- if deck.hero and deck.hero.class not in classes -%}
+            {%- set _ = classes.update({deck.hero.class: 0}) -%}
+        {%- endif -%}
+        {%- if deck.hero -%}
+            {%- set _ = classes.update({deck.hero.class: classes[deck.hero.class] + 1}) -%}
+        {%- endif -%}
+    {%- endfor -%}
+
+    <div class="row g-3 mb-4">
+        <div class="col-md-4">
+            <div class="card border-danger">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Total Decks</h6>
+                    <h2 class="card-title mb-0 text-danger">{{ fab_decks|length }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-primary">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Formats</h6>
+                    <h2 class="card-title mb-0 text-primary">{{ formats|length }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-success">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Classes</h6>
+                    <h2 class="card-title mb-0 text-success">{{ classes|length }}</h2>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="table-responsive">

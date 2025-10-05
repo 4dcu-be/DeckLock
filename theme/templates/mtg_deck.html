@@ -127,9 +127,14 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-sm-12 col-md-6 col-lg-4 top15">
-        <div class="card plot">
-        <canvas id="cmcStats" width="400" height="400"></canvas>
+    <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Mana Curve</h5>
+            </div>
+            <div class="card-body p-3">
+                <canvas id="cmcStats" width="400" height="300"></canvas>
+            </div>
         </div>
     </div>
 </div>
@@ -172,6 +177,11 @@ $(function () {
 })
 </script>
 <script>
+// Detect dark mode for chart colors
+const isDarkMode = document.documentElement.getAttribute('data-bs-theme') === 'dark';
+const textColor = isDarkMode ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.8)';
+const gridColor = isDarkMode ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)';
+
 var ctx = document.getElementById('cmcStats').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
@@ -181,26 +191,69 @@ var myChart = new Chart(ctx, {
         {
             label: '{{ color }}',
             data: [{{ data|join(', ') }}],
-                    borderColor: '{{ article.deck.cmc_distribution_colors[color][0] }}',
-                    backgroundColor: '{{ article.deck.cmc_distribution_colors[color][1] }}'
+            borderColor: '{{ article.deck.cmc_distribution_colors[color][0] }}',
+            backgroundColor: '{{ article.deck.cmc_distribution_colors[color][1] }}'
         },
         {% endfor %}]
     },
     options: {
+        responsive: true,
+        maintainAspectRatio: true,
         plugins: {
             legend: {
-                display: false
+                display: true,
+                position: 'bottom',
+                labels: {
+                    color: textColor,
+                    usePointStyle: true,
+                    padding: 10
+                }
+            },
+            tooltip: {
+                backgroundColor: isDarkMode ? 'rgba(0, 0, 0, 0.9)' : 'rgba(255, 255, 255, 0.9)',
+                titleColor: textColor,
+                bodyColor: textColor,
+                borderColor: gridColor,
+                borderWidth: 1,
+                callbacks: {
+                    title: function(context) {
+                        return 'CMC ' + context[0].label;
+                    },
+                    label: function(context) {
+                        return context.dataset.label + ': ' + context.parsed.y + ' card' + (context.parsed.y !== 1 ? 's' : '');
+                    }
+                }
             }
         },
         scales: {
             x: {
                 stacked: true,
+                grid: {
+                    color: gridColor
+                },
                 ticks: {
-                    display: true
+                    color: textColor
+                },
+                title: {
+                    display: true,
+                    text: 'Mana Value',
+                    color: textColor
                 }
             },
             y: {
-                stacked: true
+                stacked: true,
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: textColor,
+                    stepSize: 1
+                },
+                title: {
+                    display: true,
+                    text: 'Number of Cards',
+                    color: textColor
+                }
             }
         }
     }

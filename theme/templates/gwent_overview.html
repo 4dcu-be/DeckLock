@@ -27,7 +27,7 @@
 
 {% block container %}
 
-    <ol class="breadcrumb top15">
+    <ol class="breadcrumb mt-3">
       <li class="breadcrumb-item"><a href="{{ SITEURL }}/index.html">DeckLock</a></li>
       <li class="breadcrumb-item active">Gwent</li>
     </ol>
@@ -35,6 +35,49 @@
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h1>Gwent Decks</h1>
         <input type="text" class="form-control w-auto" id="deck-search" placeholder="Search decks..." aria-label="Search decks">
+    </div>
+
+    {%- set gwent_decks = articles|selectattr("category", "equalto", "Gwent_Deck")|list -%}
+    {%- set versions = {} -%}
+    {%- set factions = {} -%}
+    {%- for deck in gwent_decks -%}
+        {%- if deck.gwent_version not in versions -%}
+            {%- set _ = versions.update({deck.gwent_version: 0}) -%}
+        {%- endif -%}
+        {%- set _ = versions.update({deck.gwent_version: versions[deck.gwent_version] + 1}) -%}
+        {%- if deck.faction and deck.faction not in factions -%}
+            {%- set _ = factions.update({deck.faction: 0}) -%}
+        {%- endif -%}
+        {%- if deck.faction -%}
+            {%- set _ = factions.update({deck.faction: factions[deck.faction] + 1}) -%}
+        {%- endif -%}
+    {%- endfor -%}
+
+    <div class="row g-3 mb-4">
+        <div class="col-md-4">
+            <div class="card border-warning">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Total Decks</h6>
+                    <h2 class="card-title mb-0 text-warning">{{ gwent_decks|length }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-success">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Versions</h6>
+                    <h2 class="card-title mb-0 text-success">{{ versions|length }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-info">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Factions</h6>
+                    <h2 class="card-title mb-0 text-info">{{ factions|length }}</h2>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="table-responsive">

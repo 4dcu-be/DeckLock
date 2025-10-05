@@ -27,7 +27,7 @@
 
 {% block container %}
 
-    <ol class="breadcrumb top15">
+    <ol class="breadcrumb mt-3">
       <li class="breadcrumb-item"><a href="{{ SITEURL }}/index.html">DeckLock</a></li>
       <li class="breadcrumb-item active">Magic: The Gathering</li>
     </ol>
@@ -35,6 +35,46 @@
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h1>Magic: The Gathering Decks</h1>
         <input type="text" class="form-control w-auto" id="deck-search" placeholder="Search decks..." aria-label="Search decks">
+    </div>
+
+    {%- set mtg_decks = articles|selectattr("category", "equalto", "MTG_Deck")|list -%}
+    {%- set formats = {} -%}
+    {%- for deck in mtg_decks -%}
+        {%- if deck.format not in formats -%}
+            {%- set _ = formats.update({deck.format: []}) -%}
+        {%- endif -%}
+        {%- set _ = formats[deck.format].append(deck) -%}
+    {%- endfor -%}
+
+    <div class="row g-3 mb-4">
+        <div class="col-md-3">
+            <div class="card border-primary">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Total Decks</h6>
+                    <h2 class="card-title mb-0 text-primary">{{ mtg_decks|length }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-success">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Formats</h6>
+                    <h2 class="card-title mb-0 text-success">{{ formats|length }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card border-info">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted">Format Breakdown</h6>
+                    <div class="d-flex flex-wrap gap-2">
+                        {%- for format, decks in formats.items()|sort -%}
+                        <span class="badge bg-secondary">{{ format }}: {{ decks|length }}</span>
+                        {%- endfor -%}
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="table-responsive">

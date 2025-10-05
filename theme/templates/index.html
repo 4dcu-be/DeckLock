@@ -2,48 +2,105 @@
 
 {% block container %}
 
-    <ol class="breadcrumb top15">
+    <ol class="breadcrumb mt-3">
       <li class="breadcrumb-item active">DeckLock</li>
     </ol>
 
-<h1>DeckLock</h1>
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold mb-3">DeckLock</h1>
+        {{ WELCOME_MESSAGE|md }}
+    </div>
 
-    {{ WELCOME_MESSAGE|md }}
-
-    <table id="game_overview" class="table table-striped">
-        <thead>
-        <tr>
-            <th scope="col" data-sort="string-ins">Game</th>
-            <th scope="col" data-sort="float">Decks</th>
-        </tr>
-        </thead>
-        <tbody>
+    <div class="row g-4">
         {%- if "fab" in PLUGINS -%}
-        <tr>
-          <td><a href="{{ SITEURL }}/fab.html">Flesh and Blood</a></td>
-          <td>{{ articles|selectattr("category", "equalto", "FaB_Deck")|list|length  }}</td>
-        </tr>
+        {%- set fab_count = articles|selectattr("category", "equalto", "FaB_Deck")|list|length -%}
+        <div class="col-md-6 col-lg-3">
+            <a href="{{ SITEURL }}/fab.html" class="text-decoration-none">
+                <div class="card h-100 shadow-sm hover-lift">
+                    <div class="card-body text-center p-4">
+                        <div class="mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-lightning-charge text-danger" viewBox="0 0 16 16">
+                                <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
+                            </svg>
+                        </div>
+                        <h5 class="card-title mb-2">Flesh and Blood</h5>
+                        <p class="card-text text-muted mb-3">Trading Card Game</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <span class="badge bg-danger rounded-pill px-3 py-2 fs-6">{{ fab_count }} deck{{ 's' if fab_count != 1 }}</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
         {%- endif -%}
+
         {%- if "gwent" in PLUGINS -%}
-        <tr>
-          <td><a href="{{ SITEURL }}/gwent.html">Gwent</a></td>
-          <td>{{ articles|selectattr("category", "equalto", "Gwent_Deck")|list|length  }}</td>
-        </tr>
+        {%- set gwent_count = articles|selectattr("category", "equalto", "Gwent_Deck")|list|length -%}
+        <div class="col-md-6 col-lg-3">
+            <a href="{{ SITEURL }}/gwent.html" class="text-decoration-none">
+                <div class="card h-100 shadow-sm hover-lift">
+                    <div class="card-body text-center p-4">
+                        <div class="mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-shield-check text-warning" viewBox="0 0 16 16">
+                                <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
+                                <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                            </svg>
+                        </div>
+                        <h5 class="card-title mb-2">Gwent</h5>
+                        <p class="card-text text-muted mb-3">Digital Card Game</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <span class="badge bg-warning text-dark rounded-pill px-3 py-2 fs-6">{{ gwent_count }} deck{{ 's' if gwent_count != 1 }}</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
         {%- endif -%}
+
         {%- if "keyforge" in PLUGINS -%}
-        <tr>
-          <td><a href="{{ SITEURL }}/{{ KEYFORGE_DECKS_SAVE_AS }}">KeyForge</a></td>
-          <td>{{ KEYFORGE_DECK_COUNT }}</td>
-        </tr>
+        <div class="col-md-6 col-lg-3">
+            <a href="{{ SITEURL }}/{{ KEYFORGE_DECKS_SAVE_AS }}" class="text-decoration-none">
+                <div class="card h-100 shadow-sm hover-lift">
+                    <div class="card-body text-center p-4">
+                        <div class="mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-key text-info" viewBox="0 0 16 16">
+                                <path d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z"/>
+                                <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                            </svg>
+                        </div>
+                        <h5 class="card-title mb-2">KeyForge</h5>
+                        <p class="card-text text-muted mb-3">Unique Deck Game</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <span class="badge bg-info text-dark rounded-pill px-3 py-2 fs-6">{{ KEYFORGE_DECK_COUNT }} deck{{ 's' if KEYFORGE_DECK_COUNT != 1 }}</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
         {%- endif -%}
+
         {%- if "mtg" in PLUGINS -%}
-        <tr>
-          <td><a href="{{ SITEURL }}/mtg.html">Magic: the Gathering</a></td>
-          <td>{{ articles|selectattr("category", "equalto", "MTG_Deck")|list|length  }}</td>
-        </tr>
+        {%- set mtg_count = articles|selectattr("category", "equalto", "MTG_Deck")|list|length -%}
+        <div class="col-md-6 col-lg-3">
+            <a href="{{ SITEURL }}/mtg.html" class="text-decoration-none">
+                <div class="card h-100 shadow-sm hover-lift">
+                    <div class="card-body text-center p-4">
+                        <div class="mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-stars text-primary" viewBox="0 0 16 16">
+                                <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z"/>
+                            </svg>
+                        </div>
+                        <h5 class="card-title mb-2">Magic: the Gathering</h5>
+                        <p class="card-text text-muted mb-3">Trading Card Game</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <span class="badge bg-primary rounded-pill px-3 py-2 fs-6">{{ mtg_count }} deck{{ 's' if mtg_count != 1 }}</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
         {%- endif -%}
-        </tbody>
-    </table>
+    </div>
 
 {% endblock %}
 

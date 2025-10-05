@@ -10,6 +10,16 @@
   --card-hover-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
 }
 
+/* Hover lift effect for game cards */
+.hover-lift {
+  transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.hover-lift:hover {
+  transform: var(--card-hover-transform);
+  box-shadow: var(--card-hover-shadow) !important;
+}
+
 /* Spacing utilities (consolidated) */
 .top5 { margin-top: 5px; }
 .top7 { margin-top: 7px; }

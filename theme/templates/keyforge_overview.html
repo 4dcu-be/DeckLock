@@ -27,7 +27,7 @@
 
 {% block container %}
 
-    <ol class="breadcrumb top15">
+    <ol class="breadcrumb mt-3">
       <li class="breadcrumb-item"><a href="{{ SITEURL }}/index.html">DeckLock</a></li>
       <li class="breadcrumb-item active">KeyForge</li>
     </ol>
@@ -35,6 +35,56 @@
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h1>KeyForge Decks</h1>
         <input type="text" class="form-control w-auto" id="deck-search" placeholder="Search decks..." aria-label="Search decks">
+    </div>
+
+    {%- set avg_sas = [] -%}
+    {%- set keyraken_wins = 0 -%}
+    {%- set conspiracy_wins = 0 -%}
+    {%- for k,v in keyforge_data.items() -%}
+        {%- if v.dok_data.deck and v.dok_data.deck.sasRating -%}
+            {%- set _ = avg_sas.append(v.dok_data.deck.sasRating) -%}
+        {%- endif -%}
+        {%- if v.adventure_data.defeated_keyraken -%}
+            {%- set keyraken_wins = keyraken_wins + 1 -%}
+        {%- endif -%}
+        {%- if v.adventure_data.defeated_conspiracy -%}
+            {%- set conspiracy_wins = conspiracy_wins + 1 -%}
+        {%- endif -%}
+    {%- endfor -%}
+
+    <div class="row g-3 mb-4">
+        <div class="col-md-3">
+            <div class="card border-info">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Total Decks</h6>
+                    <h2 class="card-title mb-0 text-info">{{ keyforge_data|length }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-primary">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Average SAS</h6>
+                    <h2 class="card-title mb-0 text-primary">{{ "%.0f"|format(avg_sas|sum / avg_sas|length) if avg_sas|length > 0 else '-' }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-warning">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Keyraken Wins</h6>
+                    <h2 class="card-title mb-0 text-warning">{{ keyraken_wins }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-danger">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Conspiracy Wins</h6>
+                    <h2 class="card-title mb-0 text-danger">{{ conspiracy_wins }}</h2>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="table-responsive">
