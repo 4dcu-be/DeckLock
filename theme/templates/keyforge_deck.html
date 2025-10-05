@@ -61,9 +61,9 @@
                         {% if card.house == house.name %}
                             {% for n in range(card.count)  %}
                                 {% if USE_EXTERNAL_LINKS %}
-                                    <li class="keyforge-card rarity-{{card.rarity|lower}}"><span class="rarity small {{card.rarity|lower}}"></span> <span {% if card.is_enhanced -%} class="is_enhanced" {%- endif %} data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ card.front_image }}' />">{{ card.card_title }}</span></li>
+                                    <li class="keyforge-card rarity-{{card.rarity|lower}}"><span class="rarity small {{card.rarity|lower}}"></span> <span class="card-name" {% if card.is_enhanced -%} class="is_enhanced" {%- endif %} data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-html="true" data-bs-content="<img class='popup-card-image' src='{{ card.front_image }}' loading='lazy' />">{{ card.card_title }}</span></li>
                                 {% else %}
-                                    <li class="keyforge-card rarity-{{card.rarity|lower}}"><span class="rarity small {{card.rarity|lower}}"></span> <span {% if card.is_enhanced -%} class="is_enhanced" {%- endif %} data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.image_path }}' />">{{ card.card_title }}</span></li>
+                                    <li class="keyforge-card rarity-{{card.rarity|lower}}"><span class="rarity small {{card.rarity|lower}}"></span> <span class="card-name" {% if card.is_enhanced -%} class="is_enhanced" {%- endif %} data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-html="true" data-bs-content="<img class='popup-card-image' src='{{ SITEURL }}/{{ card.image_path }}' loading='lazy' />">{{ card.card_title }}</span></li>
                                 {% endif %}
                             {% endfor %}
                         {% endif %}
@@ -106,12 +106,22 @@
 
 {% block extra_js %}
 <script>
-$(function () {
-  $('[data-toggle="popover"]').popover({html: true})
-})
+// Initialize Bootstrap popovers
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl, {
+  html: true,
+  trigger: 'hover',
+  placement: 'top'
+}));
 </script>
 <script>
 var ctx = document.getElementById('radarStats').getContext('2d');
+
+// Detect dark mode for chart colors
+const isDarkMode = document.documentElement.getAttribute('data-bs-theme') === 'dark';
+const textColor = isDarkMode ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.8)';
+const gridColor = isDarkMode ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)';
+
 var myChart = new Chart(ctx, {
     type: 'radar',
     data: {
@@ -132,10 +142,21 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
+        responsive: true,
+        maintainAspectRatio: true,
         scales: {
             r: {
                 angleLines: {
                     display: false
+                },
+                grid: {
+                    color: gridColor
+                },
+                pointLabels: {
+                    color: textColor,
+                    font: {
+                        size: 11
+                    }
                 },
                 ticks: {
                     display: false,
@@ -148,7 +169,7 @@ var myChart = new Chart(ctx, {
         },
         plugins: {
             legend: {
-                display: false,
+                display: false
             }
         }
     }
