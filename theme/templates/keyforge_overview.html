@@ -38,19 +38,13 @@
     </div>
 
     {%- set avg_sas = [] -%}
-    {%- set keyraken_wins = 0 -%}
-    {%- set conspiracy_wins = 0 -%}
     {%- for k,v in keyforge_data.items() -%}
         {%- if v.dok_data.deck and v.dok_data.deck.sasRating -%}
             {%- set _ = avg_sas.append(v.dok_data.deck.sasRating) -%}
         {%- endif -%}
-        {%- if v.adventure_data.defeated_keyraken -%}
-            {%- set keyraken_wins = keyraken_wins + 1 -%}
-        {%- endif -%}
-        {%- if v.adventure_data.defeated_conspiracy -%}
-            {%- set conspiracy_wins = conspiracy_wins + 1 -%}
-        {%- endif -%}
     {%- endfor -%}
+    {%- set keyraken_wins = keyforge_data.values()|selectattr('adventure_data.defeated_keyraken', 'equalto', true)|list|length -%}
+    {%- set conspiracy_wins = keyforge_data.values()|selectattr('adventure_data.defeated_conspiracy', 'equalto', true)|list|length -%}
 
     <div class="row g-3 mb-4">
         <div class="col-md-3">
