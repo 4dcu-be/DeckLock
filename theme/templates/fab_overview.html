@@ -27,11 +27,11 @@
             {%- set _ = formats.update({deck.format: 0}) -%}
         {%- endif -%}
         {%- set _ = formats.update({deck.format: formats[deck.format] + 1}) -%}
-        {%- if deck.hero and deck.hero.class not in classes -%}
-            {%- set _ = classes.update({deck.hero.class: 0}) -%}
+        {%- if deck.class and deck.class not in classes -%}
+            {%- set _ = classes.update({deck.class: 0}) -%}
         {%- endif -%}
         {%- if deck.hero -%}
-            {%- set _ = classes.update({deck.hero.class: classes[deck.hero.class] + 1}) -%}
+            {%- set _ = classes.update({deck.class: classes[deck.class] + 1}) -%}
         {%- endif -%}
     {%- endfor -%}
 
