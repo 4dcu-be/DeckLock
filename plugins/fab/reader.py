@@ -339,7 +339,7 @@ class FaBReader(BaseReader):
             "equipment": [self.cached_data[e] for e in decklist["equipment"]],
             "cards": parsed_cards,
             "format": "Blitz" if total_count == 40 else "Classic Constructed",
-            "class": decklist["class"]
+            "class": decklist["class"],
         }
 
     def read(self, filename):
