@@ -169,7 +169,7 @@ def load_decklist(filename):
         "hero": "",
         "weapons": [],
         "equipment": [],
-        "cards": []
+        "cards": [],
     }
 
     with open(filename) as fin:
@@ -338,7 +338,7 @@ class FaBReader(BaseReader):
             "weapons": [self.cached_data[w] for w in decklist["weapons"]],
             "equipment": [self.cached_data[e] for e in decklist["equipment"]],
             "cards": parsed_cards,
-            "format": "Blitz" if total_count == 40 else "Classic Constructed"
+            "format": "Blitz" if total_count == 40 else "Classic Constructed",
         }
 
     def read(self, filename):
