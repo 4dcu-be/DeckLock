@@ -169,8 +169,7 @@ def load_decklist(filename):
         "hero": "",
         "weapons": [],
         "equipment": [],
-        "cards": [],
-        "url": None,
+        "cards": []
     }
 
     with open(filename) as fin:
@@ -196,8 +195,6 @@ def load_decklist(filename):
             output["equipment"] = [
                 w.strip() for w in line.replace("Equipment: ", "").split(",")
             ]
-        elif line.startswith("See the full deck"):
-            output["url"] = line.replace("See the full deck at: ", "")
         else:
             output["title"] = line
 
@@ -341,8 +338,7 @@ class FaBReader(BaseReader):
             "weapons": [self.cached_data[w] for w in decklist["weapons"]],
             "equipment": [self.cached_data[e] for e in decklist["equipment"]],
             "cards": parsed_cards,
-            "format": "Blitz" if total_count == 40 else "Classic Constructed",
-            "fabdb_url": decklist["url"],
+            "format": "Blitz" if total_count == 40 else "Classic Constructed"
         }
 
     def read(self, filename):
