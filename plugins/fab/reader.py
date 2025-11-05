@@ -126,11 +126,11 @@ class FABCardDatabase:
         pitch_to_color = {"1": "red", "2": "yellow", "3": "blue"}
         pitch = card.get("pitch", "")
 
-        # Get image URL from printings
+        # Get image URL from printings (use last printing, not first)
         image_url = None
         printings = card.get("printings", [])
         if printings:
-            image_url = printings[0].get("image_url")
+            image_url = printings[-1].get("image_url")
 
         # Build fabdb-compatible structure
         return {
