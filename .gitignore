@@ -113,7 +113,14 @@ venv.bak/
 _site/
 
 # Here copies of card images are stored for local use
+# (these are gitignored because they're large and can be re-downloaded)
 content/assets/keyforge
 content/assets/mtg
 content/assets/gwent
 content/assets/fab
+
+# Custom content folders (for forks) - only exclude downloaded images
+mycontent/assets/keyforge
+mycontent/assets/mtg
+mycontent/assets/gwent
+mycontent/assets/fab
