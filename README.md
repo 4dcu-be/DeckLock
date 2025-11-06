@@ -201,6 +201,43 @@ DECKLOCK_CACHE = "dl_cache"     # Your cache folder (avoids demo cache)
 SITEURL = "https://YOUR-USERNAME.github.io/DeckLock"  # Your GitHub Pages URL
 USE_EXTERNAL_LINKS = True       # Uses CDN links instead of local images
 ```
+
+### Advanced: Hosting Images Locally
+
+By default, production builds use external CDN links for card images (`USE_EXTERNAL_LINKS = True`), and local image downloads in `assets/` folders are gitignored. This keeps your repository small and avoids potential copyright issues.
+
+However, you can choose to host images yourself for offline access or archival purposes.
+
+#### ⚠️ Copyright Warning
+
+**IMPORTANT**: Hosting card images may constitute copyright infringement. Card images are copyrighted by their respective publishers (Wizards of the Coast, Legend Story Studios, Fantasy Flight Games, CD Projekt Red). **Use at your own discretion and risk** for personal, non-commercial purposes only.
+
+#### How to Enable Local Image Hosting
+
+1. **Modify .gitignore** - Comment out or remove the lines that exclude your assets:
+   ```bash
+   # mycontent/assets/keyforge
+   # mycontent/assets/mtg
+   # mycontent/assets/gwent
+   # mycontent/assets/fab
+   ```
+
+2. **Update publishconf.py**:
+   ```python
+   USE_EXTERNAL_LINKS = False
+   STATIC_EXCLUDES = []  # Don't exclude assets from build
+   ```
+
+3. **Build, commit images, and deploy**:
+   ```bash
+   make html                  # Downloads images to mycontent/assets/
+   git add mycontent/assets/  # Add images to git
+   git commit -m "Add local card images"
+   make github                # Deploy with local images
+   ```
+
+**Note**: This significantly increases repository size (potentially hundreds of MB).
+
 ## Adding Games
 
 Before adding a game, make sure the correct plugins are active

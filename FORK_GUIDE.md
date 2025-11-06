@@ -134,6 +134,65 @@ DeckLock/
 
 **Important**: Cache folders should be committed to your repository! They contain API responses and metadata that speed up builds, especially in GitHub Actions. Only the `assets/` folders (containing downloaded images) are gitignored.
 
+## Advanced: Hosting Images Locally
+
+By default, images are fetched from external CDNs (Scryfall, Decks of KeyForge, etc.) and the local copies in `assets/` folders are gitignored. However, you can choose to host images yourself.
+
+### When You Might Want This
+- Personal archival purposes
+- Offline access to your site
+- Private intranet hosting where external CDN access is restricted
+- Ensuring images remain available even if external sources change
+
+### ⚠️ Copyright Warning
+
+**IMPORTANT**: Hosting card images may constitute copyright infringement depending on your jurisdiction and use case. Card images are copyrighted by their respective publishers:
+- Magic: The Gathering © Wizards of the Coast
+- Flesh and Blood © Legend Story Studios
+- KeyForge © Fantasy Flight Games
+- Gwent © CD Projekt Red
+
+Use this option **at your own discretion and risk**. Consider:
+- Personal, non-commercial use only
+- Check the terms of service for each game
+- Respect intellectual property rights
+- Consider fair use implications in your jurisdiction
+
+### How to Enable Local Image Hosting
+
+1. **Modify .gitignore** - Remove or comment out these lines:
+   ```
+   # Comment out or remove these lines:
+   # mycontent/assets/keyforge
+   # mycontent/assets/mtg
+   # mycontent/assets/gwent
+   # mycontent/assets/fab
+   ```
+
+2. **Update publishconf.py** - Set to use local images:
+   ```python
+   USE_EXTERNAL_LINKS = False
+   STATIC_EXCLUDES = []  # Don't exclude assets from build
+   ```
+
+3. **Build with local images**:
+   ```bash
+   make html  # Downloads images to mycontent/assets/
+   ```
+
+4. **Commit the images**:
+   ```bash
+   git add mycontent/assets/
+   git commit -m "Add local card images for offline hosting"
+   ```
+
+5. **Build production site**:
+   ```bash
+   make release  # or make github
+   ```
+
+**Note**: This will significantly increase your repository size (potentially hundreds of MB) and may hit GitHub's repository size warnings or limits.
+
 ## Troubleshooting
 
 ### Build fails with "no module named..."
