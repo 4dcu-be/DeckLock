@@ -14,7 +14,13 @@ DeckLock is designed around the static website generator Pelican and leverages G
 websites from the ```gh-pages``` branch leveraging GitHub Actions for easy building your own version. For other hosting options,
 check out the official Pelican documentation.
 
-> **📖 Want to create your own fork?** Check out the [FORK_GUIDE.md](FORK_GUIDE.md) for a quick-start guide!
+## Which Guide Should I Read?
+
+Choose the guide that matches your experience level:
+
+- 🌱 **[BEGINNER_GUIDE.md](BEGINNER_GUIDE.md)** - Never used Git or Python? Start here! Complete step-by-step instructions with explanations of everything.
+- 🚀 **[FORK_GUIDE.md](FORK_GUIDE.md)** - Comfortable with Git and Python? Quick reference for forking and customizing.
+- 🔧 **README.md** (this file) - Technical reference and documentation for all features.
 
 ## Getting Started
 
