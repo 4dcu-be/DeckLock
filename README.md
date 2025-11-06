@@ -164,6 +164,13 @@ git push origin main --force-with-lease
 - Don't modify plugin code or core files unless necessary
 - Regularly sync with upstream to avoid large divergences
 
+**What to commit to your fork:**
+- ✅ Your `mycontent/` folder (deck files and data)
+- ✅ Your cache folder (e.g., `dl_cache/`) - speeds up CI builds
+- ✅ Modified configuration files (Makefile, pelicanconf.py, publishconf.py)
+- ❌ Downloaded images in `mycontent/assets/*` (gitignored - redownloaded automatically)
+- ❌ Build output in `_site/` or `docs/` (gitignored)
+
 ## Configuration Reference
 
 ### Makefile Configuration

@@ -121,15 +121,18 @@ git push origin main --force-with-lease
 ```
 DeckLock/
 ├── content/              # Demo content (don't modify)
-├── mycontent/            # YOUR content (this is yours!)
-│   ├── data/            # Your deck files
-│   └── assets/          # Your local images (gitignored)
-├── dl_cache/            # Your cache (gitignored)
+│   └── dl_demo_cache/   # Demo cache (committed to repo)
+├── mycontent/            # YOUR content (commit this!)
+│   ├── data/            # Your deck files (commit these)
+│   └── assets/          # Your local images (gitignored - redownloaded as needed)
+├── dl_cache/            # Your cache (commit this for faster CI builds!)
 ├── pelicanconf.py       # MODIFY: paths and welcome message
 ├── publishconf.py       # MODIFY: your site URL
 ├── Makefile             # MODIFY: input directory path
 └── plugins/             # Don't modify unless needed
 ```
+
+**Important**: Cache folders should be committed to your repository! They contain API responses and metadata that speed up builds, especially in GitHub Actions. Only the `assets/` folders (containing downloaded images) are gitignored.
 
 ## Troubleshooting
 
@@ -144,9 +147,10 @@ pip install -r requirements.txt
 - Check the Actions tab for build errors
 
 ### Images not showing
-- Production build uses external CDN links by default
-- For local testing, images download to `mycontent/assets/` (gitignored)
-- Check `USE_EXTERNAL_LINKS` setting in publishconf.py
+- Production build uses external CDN links by default (`USE_EXTERNAL_LINKS = True`)
+- For local testing with `make html`, images download to `mycontent/assets/` (these are gitignored as they're large files)
+- Images are re-downloaded automatically when needed, so it's safe to gitignore them
+- The cache folders (`dl_cache/`, `dl_demo_cache/`) should be committed - they contain metadata, not images
 
 ### Merge conflicts when syncing
 - Most conflicts will be in configuration files
