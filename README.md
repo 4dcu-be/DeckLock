@@ -10,53 +10,189 @@ Static web generator to generate an overview of all your favorite decks. DeckLoc
   * Magic: The Gathering
   
 
-DeckLock is designed around the static website generator Pelican and leverages GitHub's feature to host static 
-websites from the ```gh-pages``` branch leveraging GitHub Actions for easy building your own version. For other hosting options, 
+DeckLock is designed around the static website generator Pelican and leverages GitHub's feature to host static
+websites from the ```gh-pages``` branch leveraging GitHub Actions for easy building your own version. For other hosting options,
 check out the official Pelican documentation.
 
-## Getting started
+> **📖 Want to create your own fork?** Check out the [FORK_GUIDE.md](FORK_GUIDE.md) for a quick-start guide!
 
-First fork this repository to create your own copy on GitHub. Next, use the commands below to clone your own repository, create a virtual environment and install all
-required packages.
+## Getting Started
+
+### Option 1: Quick Start (Using Demo Content)
+
+If you just want to try out DeckLock with the demo content:
 
 ```bash
-git clone <url to your fork of DeckLock> ./DeckLock
+git clone https://github.com/4dcu-be/DeckLock.git
 cd DeckLock
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate.bat
 pip install -r requirements.txt
 ```
 
-On windows the line to activate the virtual environment (source venv/bin/activate) will not work, use the line below 
-instead.
+### Option 2: Creating Your Own Fork (Recommended)
+
+If you want to create your own deck collection website:
+
+#### 1. Fork and Clone
+
+1. **Fork this repository** on GitHub (click the "Fork" button)
+2. **Clone your fork** to your local machine:
 
 ```bash
-venv\Scripts\activate.bat
+git clone https://github.com/YOUR-USERNAME/DeckLock.git
+cd DeckLock
 ```
 
-## Setting up DeckLock
+3. **Set up the upstream remote** (for syncing with updates):
 
-### Configuring the Makefile
+```bash
+git remote add upstream https://github.com/4dcu-be/DeckLock.git
+git remote -v  # Verify you have both 'origin' (your fork) and 'upstream' (original repo)
+```
 
-The pelican executable should be in venv/bin or venv/Scripts. Depending on how you've set up things the default (below) should work, or you might have to specify the full path.
+#### 2. Install Dependencies
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate.bat
+pip install -r requirements.txt
+```
+
+#### 3. Create Your Custom Content Folder
+
+To keep your content separate from demo content (making updates easier):
+
+```bash
+# Create your custom content folder
+mkdir mycontent
+cp -r content/data mycontent/
+cp -r content/assets mycontent/
+```
+
+#### 4. Update Configuration Files
+
+**Makefile** - Update the input directory (line 6):
+```makefile
+INPUTDIR=$(BASEDIR)/mycontent
+```
+
+**pelicanconf.py** - Update the content path and cache location (lines 24-25):
+```python
+PATH = "mycontent"
+DECKLOCK_CACHE = "dl_cache"  # Use your own cache folder
+```
+
+**publishconf.py** - Update your site URL (line 15):
+```python
+SITEURL = "https://YOUR-USERNAME.github.io/DeckLock"
+```
+
+#### 5. Customize the Welcome Message
+
+Edit **pelicanconf.py** (lines 64-71) to personalize your welcome message:
+
+```python
+WELCOME_MESSAGE = """
+#### Welcome to My Deck Collection!
+
+Your custom message here...
+"""
+```
+
+#### 6. Add Your Deck Data
+
+- Remove or replace the demo decks in `mycontent/data/`
+- Add your own deck files following the format guides below
+
+#### 7. Build and Test Locally
+
+```bash
+make html  # Build to _site folder for testing
+make serve  # Start local server at http://localhost:8000
+```
+
+#### 8. Enable GitHub Pages
+
+1. Build the production version:
+   ```bash
+   make github  # Builds and pushes to gh-pages branch
+   ```
+
+2. On GitHub, go to your repository **Settings → Pages**
+3. Set **Source** to **gh-pages branch** and **/ (root)** folder
+4. Click **Save**
+5. Your site will be available at: `https://YOUR-USERNAME.github.io/DeckLock`
+
+#### 9. Set Up GitHub Actions (Optional but Recommended)
+
+The repository includes GitHub Actions that automatically build your site on every push.
+
+**Important**: Add your Decks of KeyForge API key as a secret:
+1. Go to your repository **Settings → Secrets and variables → Actions**
+2. Click **New repository secret**
+3. Name: `DOK_API_KEY`
+4. Value: Your API key from [Decks of KeyForge](https://decksofkeyforge.com/)
+
+Now every push to your repository will automatically rebuild and deploy your site!
+
+### Syncing with Upstream Updates
+
+To pull in new features and improvements from the original repository:
+
+```bash
+# Fetch the latest changes from upstream
+git fetch upstream
+
+# Make sure you're on your main branch
+git checkout main  # or master, depending on your default branch
+
+# Rebase your changes on top of upstream
+git rebase upstream/main  # or upstream/master
+
+# If there are conflicts, resolve them, then continue:
+# git add <resolved-files>
+# git rebase --continue
+
+# Force push to your fork (only safe if you're the only one using your fork)
+git push origin main --force-with-lease
+```
+
+**Tips to minimize merge conflicts:**
+- Keep all your custom content in `mycontent/` folder
+- Only modify configuration files that need personalization
+- Don't modify plugin code or core files unless necessary
+- Regularly sync with upstream to avoid large divergences
+
+## Configuration Reference
+
+### Makefile Configuration
+
+The pelican executable should be in venv/bin or venv/Scripts. The default should work:
 
 ```makefile
 PELICAN?=pelican
 ```
 
-### pelicanconf.py and publishconf.py
-
-pelicanconf.py requires you to specify where the cache and content is stored. You should only change the cache folder
-to something else (e.g. dl_cache)
-
-```python
-DECKLOCK_CACHE = "dl_demo_cache"
+If needed, update these paths:
+```makefile
+INPUTDIR=$(BASEDIR)/mycontent  # Your content folder
+OUTPUTDIR=$(BASEDIR)/_site      # Test build output
+DOCSDIR=$(BASEDIR)/docs         # Production build (for GitHub Pages via docs folder)
 ```
 
-In publishconf.py however you will need to specify the final url of your site.
+### Python Configuration Files
 
+**pelicanconf.py** - Development settings:
 ```python
-SITEURL = "https://4dcu.be/DeckLock"
+PATH = "mycontent"              # Your content folder
+DECKLOCK_CACHE = "dl_cache"     # Your cache folder (avoids demo cache)
+```
+
+**publishconf.py** - Production settings:
+```python
+SITEURL = "https://YOUR-USERNAME.github.io/DeckLock"  # Your GitHub Pages URL
+USE_EXTERNAL_LINKS = True       # Uses CDN links instead of local images
 ```
 ## Adding Games
 
@@ -260,9 +396,26 @@ In both cases you can see your site by pointing your browser to [http://localhos
 
 ## Hosting on GitHub
 
-DeckLock includes a *make release* command which will write the final version of the website to the *./docs* folder. 
-On GitHub, you can specify that this folder is used for the project pages, enable this in the settings, and you'll have
-free hosting to show off the decks you have in your card game collection.
+DeckLock supports two methods for GitHub Pages hosting:
+
+### Method 1: Using gh-pages Branch (Recommended)
+
+This is the easiest method with GitHub Actions:
+
+1. Run `make github` to build and push to the gh-pages branch
+2. Enable GitHub Pages from the **gh-pages branch** in your repository settings
+3. GitHub Actions will automatically rebuild on every push (see `.github/workflows/autobuild.yml`)
+
+### Method 2: Using docs/ Folder
+
+Alternatively, you can use the docs folder:
+
+1. Run `make release` to build the site to the `./docs` folder
+2. Commit and push the `./docs` folder to your repository
+3. In GitHub Settings → Pages, select the `main` branch and `/docs` folder
+4. Your site will be hosted from the docs folder
+
+**Note**: The gh-pages branch method is recommended as it keeps your source code separate from build artifacts.
 
 ## Acknowledgements
 

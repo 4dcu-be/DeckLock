@@ -117,3 +117,14 @@ content/assets/keyforge
 content/assets/mtg
 content/assets/gwent
 content/assets/fab
+
+# Custom content folders (for forks)
+mycontent/
+*content/assets/keyforge
+*content/assets/mtg
+*content/assets/gwent
+*content/assets/fab
+
+# Custom cache folders
+dl_cache/
+*_cache/
