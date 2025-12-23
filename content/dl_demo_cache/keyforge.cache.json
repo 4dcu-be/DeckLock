@@ -1224,15 +1224,15 @@
             "sasVersion": 51
         },
         "dok_stats": {
-            "amberControl": 40.55011957894669,
-            "artifactControl": 48.619260150104424,
-            "creatureControl": 75.80696645099198,
-            "creatureProtection": 99.76676664492993,
-            "disruption": 93.72913816910003,
-            "effectivePower": 22.92635113730984,
-            "efficiency": 82.96658963423432,
-            "expectedAmber": 81.45821024131007,
-            "recursion": 36.28026048623129
+            "amberControl": 40.14095809012381,
+            "artifactControl": 49.05704654786323,
+            "creatureControl": 77.54444160287078,
+            "creatureProtection": 99.93156169232839,
+            "disruption": 93.43384806868886,
+            "effectivePower": 21.623070319711676,
+            "efficiency": 80.75829991277074,
+            "expectedAmber": 76.11081637000446,
+            "recursion": 36.59247080475483
         },
         "user_data": {
             "conspiracy_difficulty": "Easy",
@@ -1265,6 +1265,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1287,6 +1288,7 @@
                         "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Beast"
                     },
                     {
@@ -1309,6 +1311,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1331,6 +1334,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1353,6 +1357,7 @@
                         "is_non_deck": false,
                         "power": "3",
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": "Alien \u2022 Krxix"
                     },
                     {
@@ -1375,6 +1380,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1397,6 +1403,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1419,6 +1426,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Location"
                     },
                     {
@@ -1441,6 +1449,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1463,6 +1472,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1485,6 +1495,7 @@
                         "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Human"
                     },
                     {
@@ -1507,6 +1518,7 @@
                         "is_non_deck": false,
                         "power": "16",
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": "Beast"
                     },
                     {
@@ -1529,6 +1541,7 @@
                         "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Alien \u2022 Proximan \u2022 Scientist"
                     },
                     {
@@ -1551,6 +1564,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1573,6 +1587,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1595,6 +1610,7 @@
                         "is_non_deck": false,
                         "power": "4",
                         "rarity": "Rare",
+                        "sort_override": null,
                         "traits": "Demon"
                     },
                     {
@@ -1617,6 +1633,7 @@
                         "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Demon"
                     },
                     {
@@ -1639,6 +1656,7 @@
                         "is_non_deck": false,
                         "power": "5",
                         "rarity": "Rare",
+                        "sort_override": null,
                         "traits": "Demon \u2022 Leader"
                     },
                     {
@@ -1661,6 +1679,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1683,6 +1702,7 @@
                         "is_non_deck": false,
                         "power": "4",
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": "Dinosaur \u2022 Politician"
                     },
                     {
@@ -1705,6 +1725,7 @@
                         "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Imp"
                     },
                     {
@@ -1727,6 +1748,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1749,6 +1771,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1771,6 +1794,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1793,6 +1817,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
+                        "sort_override": null,
                         "traits": "Item"
                     },
                     {
@@ -1815,6 +1840,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1837,6 +1863,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1859,6 +1886,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
+                        "sort_override": null,
                         "traits": "Robot \u2022 Ally"
                     },
                     {
@@ -1881,6 +1909,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -1903,6 +1932,7 @@
                         "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Dinosaur \u2022 Philosopher"
                     },
                     {
@@ -1925,10 +1955,17 @@
                         "is_non_deck": false,
                         "power": "6",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Beast"
                     }
                 ],
                 "houses": [
+                    {
+                        "id": "Dis",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Dis_OooSNPO.png",
+                        "in_filters": true,
+                        "name": "Dis"
+                    },
                     {
                         "id": "Saurian",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Saurian.png",
@@ -1940,12 +1977,6 @@
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Star_Alliance.png",
                         "in_filters": true,
                         "name": "Star Alliance"
-                    },
-                    {
-                        "id": "Dis",
-                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Dis_OooSNPO.png",
-                        "in_filters": true,
-                        "name": "Dis"
                     }
                 ],
                 "notes": []
@@ -3254,15 +3285,15 @@
             "sasVersion": 51
         },
         "dok_stats": {
-            "amberControl": 51.24153335112038,
-            "artifactControl": 97.9019476818934,
-            "creatureControl": 34.98568841120004,
-            "creatureProtection": 78.89598848301995,
-            "disruption": 30.476308698270117,
-            "effectivePower": 53.27179605401567,
-            "efficiency": 40.78254687438286,
-            "expectedAmber": 60.24155189049196,
-            "recursion": 59.43855528319696
+            "amberControl": 50.60419681829701,
+            "artifactControl": 97.71177629592597,
+            "creatureControl": 36.860104709744796,
+            "creatureProtection": 79.57031365007964,
+            "disruption": 26.95265662442985,
+            "effectivePower": 51.46731038894088,
+            "efficiency": 37.88486084595637,
+            "expectedAmber": 54.30364671400869,
+            "recursion": 59.052301183974066
         },
         "user_data": {
             "conspiracy_difficulty": "Easy",
@@ -3295,6 +3326,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -3317,6 +3349,7 @@
                         "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Martian \u2022 Scientist"
                     },
                     {
@@ -3339,6 +3372,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -3361,6 +3395,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Weapon"
                     },
                     {
@@ -3383,6 +3418,7 @@
                         "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Martian \u2022 Soldier"
                     },
                     {
@@ -3405,6 +3441,7 @@
                         "is_non_deck": false,
                         "power": "2",
                         "rarity": "Rare",
+                        "sort_override": null,
                         "traits": "Elf \u2022 Thief"
                     },
                     {
@@ -3427,6 +3464,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -3449,6 +3487,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -3471,6 +3510,7 @@
                         "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Elf \u2022 Thief"
                     },
                     {
@@ -3493,6 +3533,7 @@
                         "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Beast"
                     },
                     {
@@ -3515,6 +3556,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -3537,6 +3579,7 @@
                         "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Elf \u2022 Thief"
                     },
                     {
@@ -3559,6 +3602,7 @@
                         "is_non_deck": false,
                         "power": "1",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Human \u2022 Thief"
                     },
                     {
@@ -3581,6 +3625,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -3603,6 +3648,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -3625,6 +3671,7 @@
                         "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Elf \u2022 Thief"
                     },
                     {
@@ -3647,6 +3694,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -3669,6 +3717,7 @@
                         "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Martian \u2022 Soldier"
                     },
                     {
@@ -3691,6 +3740,7 @@
                         "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Human \u2022 Knight"
                     },
                     {
@@ -3713,6 +3763,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -3735,6 +3786,7 @@
                         "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Martian \u2022 Soldier"
                     },
                     {
@@ -3757,6 +3809,7 @@
                         "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Human \u2022 Knight"
                     },
                     {
@@ -3779,6 +3832,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -3801,6 +3855,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
+                        "sort_override": null,
                         "traits": "Quest"
                     },
                     {
@@ -3823,6 +3878,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -3845,6 +3901,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Item"
                     },
                     {
@@ -3867,6 +3924,7 @@
                         "is_non_deck": false,
                         "power": "3",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Human \u2022 Thief"
                     },
                     {
@@ -3889,6 +3947,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -3911,6 +3970,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": "Item"
                     },
                     {
@@ -3933,6 +3993,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -3955,10 +4016,17 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": "Location"
                     }
                 ],
                 "houses": [
+                    {
+                        "id": "Shadows",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Shadows_z0n69GG.png",
+                        "in_filters": true,
+                        "name": "Shadows"
+                    },
                     {
                         "id": "Mars",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Mars_CmAUCXI.png",
@@ -3970,12 +4038,6 @@
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Sanctum_lUWPG7x.png",
                         "in_filters": true,
                         "name": "Sanctum"
-                    },
-                    {
-                        "id": "Shadows",
-                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Shadows_z0n69GG.png",
-                        "in_filters": true,
-                        "name": "Shadows"
                     }
                 ],
                 "notes": []
@@ -5343,15 +5405,15 @@
             "sasVersion": 51
         },
         "dok_stats": {
-            "amberControl": 20.41849810132653,
-            "artifactControl": 48.619260150104424,
-            "creatureControl": 75.80696645099198,
-            "creatureProtection": 57.545766050863975,
-            "disruption": 87.11719220411365,
-            "effectivePower": 53.27179605401567,
-            "efficiency": 63.415089275134754,
-            "expectedAmber": 5.225886121507041,
-            "recursion": 73.30540068015311
+            "amberControl": 20.29713944615484,
+            "artifactControl": 49.05704654786323,
+            "creatureControl": 77.54444160287078,
+            "creatureProtection": 57.56337110188851,
+            "disruption": 86.55041487296337,
+            "effectivePower": 51.46731038894088,
+            "efficiency": 60.88547220123114,
+            "expectedAmber": 4.514532532586853,
+            "recursion": 72.06721213335281
         },
         "user_data": {
             "conspiracy_difficulty": "Easy",
@@ -5384,6 +5446,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Location"
                     },
                     {
@@ -5406,6 +5469,7 @@
                         "is_non_deck": false,
                         "power": "11",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Giant \u2022 Location"
                     },
                     {
@@ -5428,6 +5492,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -5450,6 +5515,7 @@
                         "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Demon"
                     },
                     {
@@ -5472,6 +5538,7 @@
                         "is_non_deck": false,
                         "power": "2",
                         "rarity": "Variant",
+                        "sort_override": null,
                         "traits": "Imp"
                     },
                     {
@@ -5494,6 +5561,7 @@
                         "is_non_deck": false,
                         "power": "7",
                         "rarity": "Rare",
+                        "sort_override": null,
                         "traits": "Giant"
                     },
                     {
@@ -5516,6 +5584,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -5538,6 +5607,7 @@
                         "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Cyborg \u2022 Scientist"
                     },
                     {
@@ -5560,6 +5630,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -5582,6 +5653,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -5604,6 +5676,7 @@
                         "is_non_deck": false,
                         "power": "6",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Giant"
                     },
                     {
@@ -5626,6 +5699,7 @@
                         "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Human \u2022 Scientist"
                     },
                     {
@@ -5648,6 +5722,7 @@
                         "is_non_deck": false,
                         "power": "7",
                         "rarity": "Rare",
+                        "sort_override": null,
                         "traits": "Demon"
                     },
                     {
@@ -5670,6 +5745,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -5692,6 +5768,7 @@
                         "is_non_deck": false,
                         "power": "7",
                         "rarity": "Rare",
+                        "sort_override": null,
                         "traits": "Giant"
                     },
                     {
@@ -5714,6 +5791,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -5736,6 +5814,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -5758,6 +5837,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Rare",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -5780,6 +5860,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -5802,6 +5883,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -5824,6 +5906,7 @@
                         "is_non_deck": false,
                         "power": "5",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Giant"
                     },
                     {
@@ -5846,6 +5929,7 @@
                         "is_non_deck": false,
                         "power": "0",
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -5868,6 +5952,7 @@
                         "is_non_deck": false,
                         "power": "7",
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": "Demon"
                     },
                     {
@@ -5890,6 +5975,7 @@
                         "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Human \u2022 Scientist"
                     },
                     {
@@ -5912,6 +5998,7 @@
                         "is_non_deck": false,
                         "power": "6",
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": "Demon"
                     },
                     {
@@ -5934,6 +6021,7 @@
                         "is_non_deck": false,
                         "power": "2",
                         "rarity": "Variant",
+                        "sort_override": null,
                         "traits": "Imp"
                     },
                     {
@@ -5956,6 +6044,7 @@
                         "is_non_deck": false,
                         "power": "1",
                         "rarity": "Rare",
+                        "sort_override": null,
                         "traits": "Cyborg \u2022 Scientist"
                     },
                     {
@@ -5978,6 +6067,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -6000,6 +6090,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": "Power"
                     },
                     {
@@ -6022,6 +6113,7 @@
                         "is_non_deck": false,
                         "power": "4",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Demon"
                     },
                     {
@@ -6044,6 +6136,7 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     },
                     {
@@ -6066,6 +6159,7 @@
                         "is_non_deck": false,
                         "power": "6",
                         "rarity": "Uncommon",
+                        "sort_override": null,
                         "traits": "Giant"
                     },
                     {
@@ -6088,6 +6182,7 @@
                         "is_non_deck": false,
                         "power": "2",
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": "Imp"
                     },
                     {
@@ -6110,16 +6205,11 @@
                         "is_non_deck": false,
                         "power": null,
                         "rarity": "Common",
+                        "sort_override": null,
                         "traits": null
                     }
                 ],
                 "houses": [
-                    {
-                        "id": "Logos",
-                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
-                        "in_filters": true,
-                        "name": "Logos"
-                    },
                     {
                         "id": "Dis",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Dis_OooSNPO.png",
@@ -6131,6 +6221,12 @@
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Brobnar_RTivg44.png",
                         "in_filters": true,
                         "name": "Brobnar"
+                    },
+                    {
+                        "id": "Logos",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
+                        "name": "Logos"
                     }
                 ],
                 "notes": []

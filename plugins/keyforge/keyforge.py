@@ -73,6 +73,10 @@ def get_dok_data(deck_id, api_key):
         headers=api_headers,
     )
 
+    if r.status_code != 200:
+        print(f"Warning: DoK API failed for deck {deck_id}: HTTP {r.status_code}")
+        return {}
+
     return r.json()
 
 
@@ -85,6 +89,10 @@ def get_dok_deck_stats(api_key):
         "https://decksofkeyforge.com/public-api/v1/stats",
         headers=api_headers,
     )
+
+    if r.status_code != 200:
+        print(f"Warning: DoK stats API failed: HTTP {r.status_code}")
+        return {}
 
     return r.json()
 
@@ -188,14 +196,17 @@ def get_keyforge_external_data(generator):
             vault_data = get_vault_data((deck["deck_id"]))
 
             current_data[deck["deck_id"]] = {
-                "dok_data": dok_data,
+                "dok_data": dok_data if dok_data else {},
                 "vault_data": vault_data,
             }
 
-        # Add DoK Stats (percentiles)
-        current_data[deck["deck_id"]]["dok_stats"] = parse_dok_stats(
-            current_data[deck["deck_id"]]["dok_data"], current_dok_deck_data
-        )
+        # Add DoK Stats (percentiles) - only if we have dok_data
+        if current_data[deck["deck_id"]]["dok_data"]:
+            current_data[deck["deck_id"]]["dok_stats"] = parse_dok_stats(
+                current_data[deck["deck_id"]]["dok_data"], current_dok_deck_data
+            )
+        else:
+            current_data[deck["deck_id"]]["dok_stats"] = {}
 
         # update user data
         current_data[deck["deck_id"]]["user_data"] = deck
