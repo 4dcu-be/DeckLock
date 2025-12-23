@@ -151,6 +151,9 @@ var myChart = new Chart(ctx, {
         maintainAspectRatio: true,
         scales: {
             r: {
+                beginAtZero: true,
+                min: 0,
+                max: 100,
                 angleLines: {
                     display: false
                 },
@@ -165,9 +168,6 @@ var myChart = new Chart(ctx, {
                 },
                 ticks: {
                     display: false,
-                    beginAtZero: true,
-                    max: 100,
-                    min: 0,
                     stepSize: 20
                 }
             }

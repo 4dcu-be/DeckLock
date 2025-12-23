@@ -92,7 +92,7 @@ git fetch upstream
 git checkout main
 
 # Rebase your changes on top of upstream
-git rebase upstream/main
+git rebase upstream/master
 
 # Resolve any conflicts if needed
 # git add <resolved-files>
