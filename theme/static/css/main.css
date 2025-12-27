@@ -79,7 +79,6 @@
 
 .card_list li:hover {
   background-color: rgba(0, 0, 0, 0.02);
-  padding-left: 0.5rem;
 }
 
 [data-bs-theme="dark"] .card_list li:hover {
