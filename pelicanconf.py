@@ -101,7 +101,7 @@ TEMPLATE_PAGES = {
 
 # When set to true, external links to KeyForge/M:tG/Gwent/FaB card images will be used
 # if false images will be downloaded (which could be a copyright violation if you include them)
-USE_EXTERNAL_LINKS = False
+USE_EXTERNAL_LINKS = True
 STATIC_EXCLUDES = []
 
 # Uncomment following line if you want document-relative URLs when developing
