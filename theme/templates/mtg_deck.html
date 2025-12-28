@@ -158,14 +158,14 @@
                         {% for stack_num in range(full_stacks) %}
                         <div class="card-stack" style="height:490px">
                             {% for i in range(4) %}
-                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-land-" + loop.index|string) }}
+                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endfor %}
                         {% if remainder > 0 %}
                         <div class="card-stack" style="height:{{ 330 + (remainder * 40) }}px">
                             {% for i in range(remainder) %}
-                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-land-" + loop.index|string) }}
+                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endif %}
@@ -183,14 +183,14 @@
                         {% for stack_num in range(full_stacks) %}
                         <div class="card-stack" style="height:490px">
                             {% for i in range(4) %}
-                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-creature-" + loop.index|string) }}
+                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endfor %}
                         {% if remainder > 0 %}
                         <div class="card-stack" style="height:{{ 330 + (remainder * 40) }}px">
                             {% for i in range(remainder) %}
-                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-creature-" + loop.index|string) }}
+                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endif %}
@@ -208,14 +208,14 @@
                         {% for stack_num in range(full_stacks) %}
                         <div class="card-stack" style="height:490px">
                             {% for i in range(4) %}
-                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-is-" + loop.index|string) }}
+                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endfor %}
                         {% if remainder > 0 %}
                         <div class="card-stack" style="height:{{ 330 + (remainder * 40) }}px">
                             {% for i in range(remainder) %}
-                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-is-" + loop.index|string) }}
+                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endif %}
@@ -233,14 +233,14 @@
                         {% for stack_num in range(full_stacks) %}
                         <div class="card-stack" style="height:490px">
                             {% for i in range(4) %}
-                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-other-" + loop.index|string) }}
+                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endfor %}
                         {% if remainder > 0 %}
                         <div class="card-stack" style="height:{{ 330 + (remainder * 40) }}px">
                             {% for i in range(remainder) %}
-                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-other-" + loop.index|string) }}
+                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endif %}
@@ -257,14 +257,14 @@
                         {% for stack_num in range(full_stacks) %}
                         <div class="card-stack" style="height:490px">
                             {% for i in range(4) %}
-                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-sideboard-" + loop.index|string) }}
+                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endfor %}
                         {% if remainder > 0 %}
                         <div class="card-stack" style="height:{{ 330 + (remainder * 40) }}px">
                             {% for i in range(remainder) %}
-                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-sideboard-" + loop.index|string) }}
+                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endif %}
