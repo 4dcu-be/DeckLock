@@ -124,8 +124,9 @@
     }
 
     .card-stack {
-        height: 280px; /* Taller stacks for better card visibility */
+        height: 380px; /* Height = max offset (120px) + card height (260px) */
         max-width: 100%;
+        overflow: visible; /* Ensure cards are not clipped */
     }
 
     .card-stack:hover {
