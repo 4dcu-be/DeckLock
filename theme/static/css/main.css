@@ -120,17 +120,20 @@
     .mtg-visual-grid {
         grid-template-columns: 1fr;
         gap: 1rem; /* Space between stacks */
-        margin-bottom: 2rem; /* Space between sections */
+        margin-bottom: 3rem; /* Extra space to clear last stack's cards */
+        padding-bottom: 1rem; /* Additional padding for safety */
     }
 
     .card-stack {
-        height: 380px; /* Height = max offset (120px) + card height (260px) */
+        height: 500px; /* Increased to fully contain cards: 120px offset + 476px card height */
         max-width: 100%;
-        overflow: visible; /* Ensure cards are not clipped */
+        overflow: hidden; /* Prevent cards from extending beyond stack */
+        margin-bottom: 1rem; /* Extra spacing between stacks */
     }
 
     .card-stack:hover {
         z-index: 100;
+        overflow: visible; /* Allow cards to expand on hover */
     }
 
     .overview-card-image {
@@ -139,11 +142,15 @@
         max-width: 340px;
     }
 
-    /* Ensure section headers have proper spacing */
+    /* Ensure section headers have proper spacing and are never behind cards */
     .card-body h4 {
-        margin-top: 1.5rem;
+        margin-top: 2rem;
         margin-bottom: 1rem;
         clear: both;
+        position: relative;
+        z-index: 10; /* Ensure headers stay above cards */
+        background-color: var(--bs-body-bg, #fff); /* Match background */
+        padding: 0.5rem 0;
     }
 }
 
