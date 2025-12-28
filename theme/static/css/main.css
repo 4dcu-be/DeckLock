@@ -89,17 +89,51 @@
     padding: 15px;
 }
 
+/* Grid container for card stacks - responsive layout */
+.mtg-visual-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
 .card-stack {
-    float:left;
-    padding: 10px;
     position: relative;
-    width:262px;
+    height: clamp(300px, 40vw, 490px);
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    transition: z-index 0.2s ease;
 }
 
 .overview-card-image {
-    height: 350px;
-    position:absolute;
-    top:0px;
+    height: clamp(200px, 30vw, 350px);
+    width: auto;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Mobile: overlap stacks for compact view */
+@media (max-width: 768px) {
+    .mtg-visual-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .card-stack {
+        height: clamp(120px, 25vw, 180px);
+        max-width: 100%;
+    }
+
+    .card-stack:hover {
+        z-index: 100;
+    }
+
+    .overview-card-image {
+        height: clamp(150px, 35vw, 250px);
+    }
 }
 
 .overview-card-image:hover {
