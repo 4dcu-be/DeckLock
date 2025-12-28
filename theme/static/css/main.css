@@ -125,15 +125,14 @@
     }
 
     .card-stack {
-        height: 500px; /* Increased to fully contain cards: 120px offset + 476px card height */
+        height: 600px; /* Sufficient to contain cards: 120px offset + ~476px card height */
         max-width: 100%;
-        overflow: hidden; /* Prevent cards from extending beyond stack */
+        overflow: visible; /* Allow full cards to display */
         margin-bottom: 1rem; /* Extra spacing between stacks */
     }
 
     .card-stack:hover {
         z-index: 100;
-        overflow: visible; /* Allow cards to expand on hover */
     }
 
     .overview-card-image {
