@@ -40,34 +40,35 @@
     </div>
 {% endif %}
 
-{% set ns = namespace(landcount=0, lands=[], lands_indices=[],
-                      creaturecount=0, creatures=[], creatures_indices=[],
-                      iscount=0, is=[], is_indices=[],
-                      othercount=0, other=[], other_indices=[],
+{% set ns = namespace(landcount=0, lands=[],
+                      creaturecount=0, creatures=[],
+                      iscount=0, is=[],
+                      othercount=0, other=[],
                       cardcount=0, sbcount=0) %}
 {% for card in article.deck.main -%}
     {% set ns.cardcount = ns.cardcount + card.count|int -%}
     {% if card.card_type == "land" -%}
         {% set ns.landcount = ns.landcount + card.count|int -%}
         {% set ns.lands = ns.lands + [card] %}
-        {% set ns.lands_indices = ns.lands_indices + [loop.index0] %}
     {% elif card.card_type == "creature" %}
         {% set ns.creaturecount = ns.creaturecount + card.count|int -%}
         {% set ns.creatures = ns.creatures + [card] %}
-        {% set ns.creatures_indices = ns.creatures_indices + [loop.index0] %}
     {% elif card.card_type == "instant" or card.card_type == "sorcery" %}
         {% set ns.iscount = ns.iscount + card.count|int -%}
         {% set ns.is = ns.is + [card] %}
-        {% set ns.is_indices = ns.is_indices + [loop.index0] %}
     {% else %}
         {% set ns.othercount = ns.othercount + card.count|int -%}
         {% set ns.other = ns.other + [card] %}
-        {% set ns.other_indices = ns.other_indices + [loop.index0] %}
     {% endif %}
 {% endfor %}
 {% for card in article.deck.sideboard %}
     {% set ns.sbcount = ns.sbcount + card.count|int -%}
 {% endfor %}
+{# Sort each section alphabetically by card name #}
+{% set ns.lands = ns.lands|sort(attribute='name') %}
+{% set ns.creatures = ns.creatures|sort(attribute='name') %}
+{% set ns.is = ns.is|sort(attribute='name') %}
+{% set ns.other = ns.other|sort(attribute='name') %}
 
 <div class="row">
     <div class="col-md-8 top15">
@@ -122,7 +123,7 @@
             <div class="card-header"><h3>Sideboard <small class="text-muted">({{ ns.sbcount }})</small></h3></div>
             <div class="card-body">
                 <ul class="card_list">
-                    {% for card in article.deck.sideboard %}
+                    {% for card in article.deck.sideboard|sort(attribute='name') %}
                         {{ card_list_item.print(card, USE_EXTERNAL_LINKS) }}
                     {% endfor %}
                 </ul>
@@ -151,10 +152,10 @@
                 {% if ns.landcount > 0 %}
                 <h4>Lands <small class="text-muted">({{ ns.landcount }})</small></h4>
                 <div>
-                    {% for idx in ns.lands_indices %}
-                        {% for i in range(article.deck.main[idx].count) %}
+                    {% for card in ns.lands %}
+                        {% for i in range(card.count) %}
                         <div class="card-stack" style="height:370px">
-                            {{ card_list_item.card_image(article.deck.main[idx], USE_EXTERNAL_LINKS, "mtg-overview-land-" + loop.index|string) }}
+                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-land-" + loop.index|string) }}
                         </div>
                         {% endfor %}
                     {% endfor %}
@@ -165,10 +166,10 @@
                 {% if ns.creaturecount > 0 %}
                 <h4>Creatures <small class="text-muted">({{ ns.creaturecount }})</small></h4>
                 <div>
-                    {% for idx in ns.creatures_indices %}
-                        {% for i in range(article.deck.main[idx].count) %}
+                    {% for card in ns.creatures %}
+                        {% for i in range(card.count) %}
                         <div class="card-stack" style="height:370px">
-                            {{ card_list_item.card_image(article.deck.main[idx], USE_EXTERNAL_LINKS, "mtg-overview-creature-" + loop.index|string) }}
+                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-creature-" + loop.index|string) }}
                         </div>
                         {% endfor %}
                     {% endfor %}
@@ -179,10 +180,10 @@
                 {% if ns.iscount > 0 %}
                 <h4>Instants and Sorceries <small class="text-muted">({{ ns.iscount }})</small></h4>
                 <div>
-                    {% for idx in ns.is_indices %}
-                        {% for i in range(article.deck.main[idx].count) %}
+                    {% for card in ns.is %}
+                        {% for i in range(card.count) %}
                         <div class="card-stack" style="height:370px">
-                            {{ card_list_item.card_image(article.deck.main[idx], USE_EXTERNAL_LINKS, "mtg-overview-is-" + loop.index|string) }}
+                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-is-" + loop.index|string) }}
                         </div>
                         {% endfor %}
                     {% endfor %}
@@ -193,10 +194,10 @@
                 {% if ns.othercount > 0 %}
                 <h4>Other Spells <small class="text-muted">({{ ns.othercount }})</small></h4>
                 <div>
-                    {% for idx in ns.other_indices %}
-                        {% for i in range(article.deck.main[idx].count) %}
+                    {% for card in ns.other %}
+                        {% for i in range(card.count) %}
                         <div class="card-stack" style="height:370px">
-                            {{ card_list_item.card_image(article.deck.main[idx], USE_EXTERNAL_LINKS, "mtg-overview-other-" + loop.index|string) }}
+                            {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-other-" + loop.index|string) }}
                         </div>
                         {% endfor %}
                     {% endfor %}
@@ -206,7 +207,7 @@
 
                 <h4>Sideboard <small class="text-muted">({{ ns.sbcount }})</small></h4>
                 <div>
-                    {% for card in article.deck.sideboard %}
+                    {% for card in article.deck.sideboard|sort(attribute='name') %}
                         {% for i in range(card.count) %}
                         <div class="card-stack" style="height:370px">
                             {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-sideboard-" + loop.index|string) }}
