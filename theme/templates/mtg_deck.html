@@ -151,19 +151,19 @@
             <div class="card-body">
                 {% if ns.landcount > 0 %}
                 <h4>Lands <small class="text-muted">({{ ns.landcount }})</small></h4>
-                <div>
+                <div class="mtg-visual-grid">
                     {% for card in ns.lands %}
                         {% set full_stacks = (card.count // 4)|int %}
                         {% set remainder = card.count % 4 %}
                         {% for stack_num in range(full_stacks) %}
-                        <div class="card-stack" style="height:490px">
+                        <div class="card-stack">
                             {% for i in range(4) %}
                             {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endfor %}
                         {% if remainder > 0 %}
-                        <div class="card-stack" style="height:490px">
+                        <div class="card-stack">
                             {% for i in range(remainder) %}
                             {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
@@ -171,24 +171,23 @@
                         {% endif %}
                     {% endfor %}
                 </div>
-                <div style="clear:both"></div>
                 {% endif %}
 
                 {% if ns.creaturecount > 0 %}
                 <h4>Creatures <small class="text-muted">({{ ns.creaturecount }})</small></h4>
-                <div>
+                <div class="mtg-visual-grid">
                     {% for card in ns.creatures %}
                         {% set full_stacks = (card.count // 4)|int %}
                         {% set remainder = card.count % 4 %}
                         {% for stack_num in range(full_stacks) %}
-                        <div class="card-stack" style="height:490px">
+                        <div class="card-stack">
                             {% for i in range(4) %}
                             {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endfor %}
                         {% if remainder > 0 %}
-                        <div class="card-stack" style="height:490px">
+                        <div class="card-stack">
                             {% for i in range(remainder) %}
                             {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
@@ -196,24 +195,23 @@
                         {% endif %}
                     {% endfor %}
                 </div>
-                <div style="clear:both"></div>
                 {% endif %}
 
                 {% if ns.iscount > 0 %}
                 <h4>Instants and Sorceries <small class="text-muted">({{ ns.iscount }})</small></h4>
-                <div>
+                <div class="mtg-visual-grid">
                     {% for card in ns.is %}
                         {% set full_stacks = (card.count // 4)|int %}
                         {% set remainder = card.count % 4 %}
                         {% for stack_num in range(full_stacks) %}
-                        <div class="card-stack" style="height:490px">
+                        <div class="card-stack">
                             {% for i in range(4) %}
                             {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endfor %}
                         {% if remainder > 0 %}
-                        <div class="card-stack" style="height:490px">
+                        <div class="card-stack">
                             {% for i in range(remainder) %}
                             {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
@@ -221,24 +219,23 @@
                         {% endif %}
                     {% endfor %}
                 </div>
-                <div style="clear:both"></div>
                 {% endif %}
 
                 {% if ns.othercount > 0 %}
                 <h4>Other Spells <small class="text-muted">({{ ns.othercount }})</small></h4>
-                <div>
+                <div class="mtg-visual-grid">
                     {% for card in ns.other %}
                         {% set full_stacks = (card.count // 4)|int %}
                         {% set remainder = card.count % 4 %}
                         {% for stack_num in range(full_stacks) %}
-                        <div class="card-stack" style="height:490px">
+                        <div class="card-stack">
                             {% for i in range(4) %}
                             {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endfor %}
                         {% if remainder > 0 %}
-                        <div class="card-stack" style="height:490px">
+                        <div class="card-stack">
                             {% for i in range(remainder) %}
                             {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
@@ -246,23 +243,22 @@
                         {% endif %}
                     {% endfor %}
                 </div>
-                <div style="clear:both"></div>
                 {% endif %}
 
                 <h4>Sideboard <small class="text-muted">({{ ns.sbcount }})</small></h4>
-                <div>
+                <div class="mtg-visual-grid">
                     {% for card in article.deck.sideboard|sort(attribute='name') %}
                         {% set full_stacks = (card.count // 4)|int %}
                         {% set remainder = card.count % 4 %}
                         {% for stack_num in range(full_stacks) %}
-                        <div class="card-stack" style="height:490px">
+                        <div class="card-stack">
                             {% for i in range(4) %}
                             {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
                         </div>
                         {% endfor %}
                         {% if remainder > 0 %}
-                        <div class="card-stack" style="height:490px">
+                        <div class="card-stack">
                             {% for i in range(remainder) %}
                             {{ card_list_item.card_image(card, USE_EXTERNAL_LINKS, "mtg-overview-position-" + loop.index|string) }}
                             {% endfor %}
@@ -270,7 +266,6 @@
                         {% endif %}
                     {% endfor %}
                 </div>
-                <div style="clear:both"></div>
             </div>
         </div>
     </div>

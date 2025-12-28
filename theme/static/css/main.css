@@ -89,17 +89,68 @@
     padding: 15px;
 }
 
+/* Grid container for card stacks - responsive layout */
+.mtg-visual-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
 .card-stack {
-    float:left;
-    padding: 10px;
     position: relative;
-    width:262px;
+    height: clamp(300px, 40vw, 490px);
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    transition: z-index 0.2s ease;
 }
 
 .overview-card-image {
-    height: 350px;
-    position:absolute;
-    top:0px;
+    height: clamp(200px, 30vw, 350px);
+    width: auto;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Mobile: larger cards with moderate overlap within sections */
+@media (max-width: 768px) {
+    .mtg-visual-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem; /* Space between stacks */
+        margin-bottom: 3rem; /* Extra space to clear last stack's cards */
+        padding-bottom: 1rem; /* Additional padding for safety */
+    }
+
+    .card-stack {
+        height: 600px; /* Sufficient to contain cards: 120px offset + ~476px card height */
+        max-width: 100%;
+        overflow: visible; /* Allow full cards to display */
+        margin-bottom: 1rem; /* Extra spacing between stacks */
+    }
+
+    .card-stack:hover {
+        z-index: 100;
+    }
+
+    .overview-card-image {
+        height: auto; /* Maintain aspect ratio */
+        width: min(90vw, 340px); /* Wider cards on mobile, up to 340px */
+        max-width: 340px;
+    }
+
+    /* Ensure section headers have proper spacing and are never behind cards */
+    .card-body h4 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        clear: both;
+        position: relative;
+        z-index: 10; /* Ensure headers stay above cards */
+        background-color: var(--bs-body-bg, #fff); /* Match background */
+        padding: 0.5rem 0;
+    }
 }
 
 .overview-card-image:hover {
