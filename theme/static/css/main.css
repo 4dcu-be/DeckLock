@@ -115,15 +115,16 @@
     transform: translateX(-50%);
 }
 
-/* Mobile: overlap stacks for compact view */
+/* Mobile: larger cards with moderate overlap within sections */
 @media (max-width: 768px) {
     .mtg-visual-grid {
         grid-template-columns: 1fr;
         gap: 0;
+        margin-bottom: 2rem; /* Space between sections */
     }
 
     .card-stack {
-        height: clamp(120px, 25vw, 180px);
+        height: 280px; /* Taller stacks for better card visibility */
         max-width: 100%;
     }
 
@@ -132,7 +133,14 @@
     }
 
     .overview-card-image {
-        height: clamp(150px, 35vw, 250px);
+        height: 260px; /* Larger cards on mobile */
+    }
+
+    /* Ensure section headers have proper spacing */
+    .card-body h4 {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        clear: both;
     }
 }
 
