@@ -1,0 +1,244 @@
+/* CSS Custom Properties for theming */
+:root {
+  --card-hover-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --card-hover-transform: translateY(-2px);
+  --transition-speed: 0.3s;
+  --popover-max-width: 400px;
+}
+
+[data-bs-theme="dark"] {
+  --card-hover-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+/* Hover lift effect for game cards */
+.hover-lift {
+  transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.hover-lift:hover {
+  transform: var(--card-hover-transform);
+  box-shadow: var(--card-hover-shadow) !important;
+}
+
+/* Spacing utilities (consolidated) */
+.top5 { margin-top: 5px; }
+.top7 { margin-top: 7px; }
+.top10 { margin-top: 10px; }
+.top15 { margin-top: 15px; }
+.top17 { margin-top: 17px; }
+.top30 { margin-top: 30px; }
+
+/* Card image popovers */
+.popup-card-image {
+  height: 350px;
+  max-width: var(--popover-max-width);
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.popover-body {
+  padding: 4px;
+}
+
+.popover {
+  max-width: var(--popover-max-width);
+}
+
+/* Card name hover effect */
+.card-name {
+  cursor: pointer;
+  transition: color var(--transition-speed) ease;
+  border-bottom: 1px dotted currentColor;
+}
+
+.card-name:hover {
+  color: var(--bs-primary);
+}
+
+/* Mana cost alignment */
+.manacost {
+  float: right;
+}
+
+/* Card lists */
+.card_list {
+  padding-inline-start: 0;
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.card_list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: background-color var(--transition-speed) ease;
+}
+
+[data-bs-theme="dark"] .card_list li {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.card_list li:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+[data-bs-theme="dark"] .card_list li:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.plot {
+    padding: 15px;
+}
+
+/* Grid container for card stacks - responsive layout */
+.mtg-visual-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-stack {
+    position: relative;
+    height: clamp(300px, 40vw, 490px);
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    transition: z-index 0.2s ease;
+}
+
+.overview-card-image {
+    height: clamp(200px, 30vw, 350px);
+    width: auto;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Mobile: larger cards with moderate overlap within sections */
+@media (max-width: 768px) {
+    .mtg-visual-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem; /* Space between stacks */
+        margin-bottom: 3rem; /* Extra space to clear last stack's cards */
+        padding-bottom: 1rem; /* Additional padding for safety */
+    }
+
+    .card-stack {
+        height: 600px; /* Sufficient to contain cards: 120px offset + ~476px card height */
+        max-width: 100%;
+        overflow: visible; /* Allow full cards to display */
+        margin-bottom: 1rem; /* Extra spacing between stacks */
+    }
+
+    .card-stack:hover {
+        z-index: 100;
+    }
+
+    .overview-card-image {
+        height: auto; /* Maintain aspect ratio */
+        width: min(90vw, 340px); /* Wider cards on mobile, up to 340px */
+        max-width: 340px;
+    }
+
+    /* Ensure section headers have proper spacing and are never behind cards */
+    .card-body h4 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        clear: both;
+        position: relative;
+        z-index: 10; /* Ensure headers stay above cards */
+        background-color: var(--bs-body-bg, #fff); /* Match background */
+        padding: 0.5rem 0;
+    }
+}
+
+.overview-card-image:hover {
+    z-index:1000
+}
+
+.fab-overview-position-2 {
+    top:40px;
+}
+.fab-overview-position-3 {
+    top:80px;
+}
+.fab-overview-position-4 {
+    top:120px;
+}
+.fab-overview-position-5 {
+    top:160px;
+}
+.fab-overview-position-6 {
+    top:200px;
+}
+.fab-overview-position-7 {
+    top:240px;
+}
+.fab-overview-position-8 {
+    top:280px;
+}
+.fab-overview-position-9 {
+    top:320px;
+}
+.fab-overview-position-10 {
+    top:360px;
+}
+
+.mtg-overview-position-2 {
+    top:40px;
+}
+.mtg-overview-position-3 {
+    top:80px;
+}
+.mtg-overview-position-4 {
+    top:120px;
+}
+
+.fab-dot {
+  height: 8px;
+  width: 8px;
+  background-color: #efe9db;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:10px;
+}
+.fab-dot-red {
+  background-color: #b20f15;
+}
+.fab-dot-yellow {
+  background-color: #fff101;
+}
+.fab-dot-blue {
+  background-color: #00a0eb;
+}
+
+.gwent-cards-table td {
+padding-top:2px;
+padding-bottom:2px;
+}
+
+.gwent-cards-table {
+margin-bottom:0px;
+}
+
+.gwent-dot {
+  height: 8px;
+  width: 8px;
+  background-color: #efe9db;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:10px;
+}
+.gwent-dot-legendary {
+  background-color: #fe7615;
+}
+.gwent-dot-epic {
+  background-color: #7b1098;
+}
+.gwent-dot-rare {
+  background-color: #085b98;
+}
+.gwent-dot-common {
+  background-color: #95a2c3;
+}

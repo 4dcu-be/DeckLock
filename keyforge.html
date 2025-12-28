@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DeckLock - KeyForge Overview
+</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta name="author" content="Sebastian Proost">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://4dcu.be/DeckLock/keyforge.html">
+<meta property="og:title" content="DeckLock for KeyForge - Overview">
+<meta property="og:description" content="Overview of 3 KeyForge decks">
+<meta property="og:image" content="https://4dcu.be/DeckLock/theme/img/DeckLock_kf_bg.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://4dcu.be/DeckLock/keyforge.html">
+<meta property="twitter:title" content="DeckLock for KeyForge - Overview">
+<meta property="twitter:description" content="Overview of 3 KeyForge decks">
+<meta property="twitter:image" content="https://4dcu.be/DeckLock/theme/img/DeckLock_kf_bg.png">
+
+        <link rel="stylesheet" href="https://4dcu.be/DeckLock/theme/css/style.min.css?ecf08a1a">
+
+<link href="https://4dcu.be/DeckLock/theme/css/keyforge.css" rel="stylesheet" />
+<link href="https://4dcu.be/DeckLock/theme/css/keyforge-rarity.css" rel="stylesheet" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://4dcu.be/DeckLock/theme/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://4dcu.be/DeckLock/theme/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://4dcu.be/DeckLock/theme/icons/favicon-16x16.png">
+    <link rel="manifest" href="https://4dcu.be/DeckLock/theme/icons/site.webmanifest">
+    <link rel="mask-icon" href="https://4dcu.be/DeckLock/theme/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://4dcu.be/DeckLock/theme/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="msapplication-config" content="https://4dcu.be/DeckLock/theme/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <script>
+    // Prevent dark mode flash - must run before body renders
+    (function() {
+        const theme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="https://4dcu.be/DeckLock/index.html">
+      <img src="https://4dcu.be/DeckLock/theme/img/decklock_icon.png" alt="Decklock icon" class="me-2" />
+      <span class="fw-bold">DeckLock</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Games
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+<li><a class="dropdown-item" href="https://4dcu.be/DeckLock/fab.html">Flesh and Blood</a></li><li><a class="dropdown-item" href="https://4dcu.be/DeckLock/gwent.html">Gwent</a></li><li><a class="dropdown-item" href="https://4dcu.be/DeckLock/keyforge.html">KeyForge</a></li><li><a class="dropdown-item" href="https://4dcu.be/DeckLock/mtg.html">Magic: the Gathering</a></li>          </ul>
+        </li>
+      </ul>
+      <button class="btn btn-outline-light" id="theme-toggle" aria-label="Toggle dark mode">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars-fill" viewBox="0 0 16 16">
+          <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+          <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="container top15">
+
+    <ol class="breadcrumb mt-3">
+      <li class="breadcrumb-item"><a href="https://4dcu.be/DeckLock/index.html">DeckLock</a></li>
+      <li class="breadcrumb-item active">KeyForge</li>
+    </ol>
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>KeyForge Decks</h1>
+        <input type="text" class="form-control w-auto" id="deck-search" placeholder="Search decks..." aria-label="Search decks">
+    </div><div class="row g-3 mb-4">
+        <div class="col-md-3">
+            <div class="card border-info">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Total Decks</h6>
+                    <h2 class="card-title mb-0 text-info">3</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-primary">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Average SAS</h6>
+                    <h2 class="card-title mb-0 text-primary">66</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-warning">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Keyraken Wins</h6>
+                    <h2 class="card-title mb-0 text-warning">3</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-danger">
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-muted">Conspiracy Wins</h6>
+                    <h2 class="card-title mb-0 text-danger">0</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+    <table id="deck_overview" class="table table-striped table-hover keyforge_overview">
+        <thead class="table-dark">
+        <tr>
+            <th scope="col" data-sort="string-ins">Deck</th>
+            <th scope="col">Houses</th>
+            <th scope="col" data-sort="int">SAS</th>
+            <th scope="col" data-sort="int">AERC</th>
+            <th scope="col" data-sort="float">%</th>
+            <th scope="col" class="text-center"><span class="trophy medium cup"></span></th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr class="deck-row">
+                <td data-label="Deck"><a href="https://4dcu.be/DeckLock/keyforge/29bb805b-12ce-4f29-aad7-a4d9b512e41c.html" class="text-decoration-none fw-semibold">Champion Greenqual, the Sinister Surgeon</a></td>
+                <td data-label="Houses">
+                            <img src="https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Dis_OooSNPO.png" alt="Dis" class="keyforge-house-logo"/>
+                            <img src="https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Saurian.png" alt="Saurian" class="keyforge-house-logo"/>
+                            <img src="https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Star_Alliance.png" alt="Star Alliance" class="keyforge-house-logo"/>
+                </td>
+                    <td data-label="SAS">79</td>
+                    <td data-label="AERC">62</td>
+                    <td data-label="%">96.6</td>
+                <td data-label="Adventures" class="text-center">
+<span class="trophy medium keyraken"></span>                </td>
+            </tr>
+            <tr class="deck-row">
+                <td data-label="Deck"><a href="https://4dcu.be/DeckLock/keyforge/a4268ae8-a9f6-48c7-9739-b28a3553b108.html" class="text-decoration-none fw-semibold">Sneaking “Siphon” Zebulon</a></td>
+                <td data-label="Houses">
+                            <img src="https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Shadows_z0n69GG.png" alt="Shadows" class="keyforge-house-logo"/>
+                            <img src="https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Mars_CmAUCXI.png" alt="Mars" class="keyforge-house-logo"/>
+                            <img src="https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Sanctum_lUWPG7x.png" alt="Sanctum" class="keyforge-house-logo"/>
+                </td>
+                    <td data-label="SAS">57</td>
+                    <td data-label="AERC">52</td>
+                    <td data-label="%">14.2</td>
+                <td data-label="Adventures" class="text-center">
+<span class="trophy medium keyraken"></span>                </td>
+            </tr>
+            <tr class="deck-row">
+                <td data-label="Deck"><a href="https://4dcu.be/DeckLock/keyforge/bfbf6786-218c-4320-a7b1-7ed4d6eddc69.html" class="text-decoration-none fw-semibold">Crawling “Martini” Quasimodo</a></td>
+                <td data-label="Houses">
+                            <img src="https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Dis_OooSNPO.png" alt="Dis" class="keyforge-house-logo"/>
+                            <img src="https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Brobnar_RTivg44.png" alt="Brobnar" class="keyforge-house-logo"/>
+                            <img src="https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png" alt="Logos" class="keyforge-house-logo"/>
+                </td>
+                    <td data-label="SAS">61</td>
+                    <td data-label="AERC">55</td>
+                    <td data-label="%">33.8</td>
+                <td data-label="Adventures" class="text-center">
+<span class="trophy medium keyraken"></span>                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</div>
+
+<footer class="bg-dark text-light mt-5 py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="mb-1">&copy; <span id="current-year"></span> Sebastian Proost. All rights reserved.</p>
+        <p class="small opacity-75">Card images and game content are property of their respective owners.</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <p class="mb-1 small opacity-75">Last updated: <span id="last-updated"></span></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://4dcu.be/DeckLock/theme/js/bootstrap.bundle.min.js"></script>
+<script src="https://4dcu.be/DeckLock/theme/js/chart.min.js"></script>
+<script>
+// Set current year and last updated date
+document.getElementById('current-year').textContent = new Date().getFullYear();
+const now = new Date();
+const options = { year: 'numeric', month: 'long', day: 'numeric' };
+document.getElementById('last-updated').textContent = now.toLocaleDateString('en-US', options);
+
+// Dark mode toggle
+const themeToggle = document.getElementById('theme-toggle');
+const htmlElement = document.documentElement;
+
+// Check for saved theme preference or default to 'light' mode
+const currentTheme = localStorage.getItem('theme') || 'light';
+htmlElement.setAttribute('data-bs-theme', currentTheme);
+
+themeToggle.addEventListener('click', function() {
+  const theme = htmlElement.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light';
+  htmlElement.setAttribute('data-bs-theme', theme);
+  localStorage.setItem('theme', theme);
+});
+
+// Initialize Bootstrap popovers
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl, {
+  html: true,
+  trigger: 'hover',
+  placement: 'top'
+}));
+</script>
+<script src="https://4dcu.be/DeckLock/theme/js/stupidtable.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const table = document.getElementById('deck_overview');
+  if (typeof stupidtable !== 'undefined') {
+    stupidtable.init(table);
+  }
+
+  // Search functionality
+  const searchInput = document.getElementById('deck-search');
+  const tableRows = document.querySelectorAll('.deck-row');
+
+  searchInput.addEventListener('input', function(e) {
+    const searchTerm = e.target.value.toLowerCase();
+
+    tableRows.forEach(row => {
+      const text = row.textContent.toLowerCase();
+      row.style.display = text.includes(searchTerm) ? '' : 'none';
+    });
+  });
+});
+</script>
+</body>
+</html>
